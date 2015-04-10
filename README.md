@@ -1,11 +1,10 @@
-opensamm
+OpenSAMM
 ========
 
-The OWASP OpenSAMM github repository.
+Welcome to the OWASP OpenSAMM github repository.
 
-More information on:
-https://www.owasp.org/index.php?title=Category:Software_Assurance_Maturity_Model
-and
-http://www.opensamm.org/
+This repository contains the source files for OpenSAMM.
 
-Follow us on https://twitter.com/owaspsamm
+You will find more information on the [OWASP SAMM project page](https://www.owasp.org/index.php?title=Category:Software_Assurance_Maturity_Model) and the [OpenSAMM web site](http://www.opensamm.org/)
+
+This will not help you with your twitter addiction, but our premier source for OpenSAMM gossip and news is [@owaspSAMM](https://twitter.com/owaspsamm)
