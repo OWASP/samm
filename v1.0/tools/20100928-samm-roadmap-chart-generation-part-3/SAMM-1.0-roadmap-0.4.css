@@ -1,0 +1,13 @@
+	.mmgraph {fill: #ffffff;}
+	.mmstate {font-family:Arial,sans-serif; font-size:12px; color:black;text-antialiasing:true;}
+	.mmaxis {stroke:#999999; fill:none; stroke-width:1; stroke-linecap:square;}
+	.mmpractice {font-family:Arial,sans-serif; font-size:12px; color:black; text-antialiasing:true;}
+	.mmstripe {fill:#dddddd; opacity:0.7;}
+	.mmkey {fill:#dddddd; opacity:0.4;}
+	.mmgovernance {fill:#18435C; opacity:0.8;}
+	.mmconstruction {fill:#5A2E1A; opacity:0.8;}
+	.mmverification {fill:#186031; opacity:0.8;}
+	.mmdeployment {fill:#580619; opacity:0.8;}
+	.mmtitle {font-family:Arial,sans-serif; font-size:14px; color:black; text-decoration:underline; text-antialiasing:true;}
+	.mmarrow {fill:#989898;stroke:none;}
+	.mmmarker {stroke-opacity:0.5; stroke:#989898; stroke-dasharray:8,4; stroke-width:2;}

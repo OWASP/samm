@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/css" href="SAMM-1.0-roadmap-0.4.css"?>
+
+<!DOCTYPE svg
+  PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="940" height="1720"><!--
+
+		Software Assurance Maturity Model (SAMM) v1.0
+
+		http://www.opensamm.org/
+
+		http://www.owasp.org/index.php/Category:Software_Assurance_Maturity_Model
+
+
+            8-stage Roadmap Chart (using SAMM-1.0-roadmap-0.6-en_US.xsl)
+
+		"Example Organisation Two"
+
+		XML/XSD/XSLT and SVG contributed to the OWASP SAMM project by Colin Watson (Watson Hall Ltd) and
+		Brenda Larcom (Stach & Liu).  Inspired and helped by ChartSVG at http://www.hardcoded.net/chartsvg/
+
+		This work is licensed under the Creative Commons Attribution-Share Alike 3.0 License. To view
+		a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter
+		to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+	-->
+   <defs>
+      <line id="levelMarker" class="mmaxis" x1="0" y1="0" x2="10" y2="0"/>
+      <polygon id="stagearrow" points="19 3, 31 3, 31 6, 33 6, 25 11, 17 6, 19 6, 19 3" class="mmarrow"/>
+   </defs>
+   <rect x="0" y="0" width="940" height="1720" class="mmgraph"/>
+   <text text-anchor="middle" x="470" y="1520" class="mmtitle">Example Organisation Two</text>
+   <text text-anchor="end" x="70" y="11" class="mmstate">2011 Q1</text>
+   <rect class="mmstripe" x="120" y="0" width="50" height="1400"/>
+   <rect class="mmkey" x="80" y="0" width="90" height="12"/>
+   <use xlink:href="#stagearrow" x="120" y="-1"/>
+   <text text-anchor="start" x="350" y="1550" class="mmstate">2011 Q1</text>
+   <text text-anchor="start" x="420" y="1550" class="mmstate">January to March 2011</text>
+   <text text-anchor="end" x="70" y="36" class="mmstate">2011 Q2</text>
+   <rect class="mmstripe" x="220" y="25" width="50" height="1375"/>
+   <rect class="mmkey" x="80" y="25" width="190" height="12"/>
+   <use xlink:href="#stagearrow" x="220" y="24"/>
+   <text text-anchor="start" x="350" y="1565" class="mmstate">2011 Q2</text>
+   <text text-anchor="start" x="420" y="1565" class="mmstate">April to June 2011</text>
+   <text text-anchor="end" x="70" y="61" class="mmstate">2011 Q3</text>
+   <rect class="mmstripe" x="320" y="50" width="50" height="1350"/>
+   <rect class="mmkey" x="80" y="50" width="290" height="12"/>
+   <use xlink:href="#stagearrow" x="320" y="49"/>
+   <text text-anchor="start" x="350" y="1580" class="mmstate">2011 Q3</text>
+   <text text-anchor="start" x="420" y="1580" class="mmstate">July to September 2011</text>
+   <text text-anchor="end" x="70" y="86" class="mmstate">2011 Q4</text>
+   <rect class="mmstripe" x="420" y="75" width="50" height="1325"/>
+   <rect class="mmkey" x="80" y="75" width="390" height="12"/>
+   <use xlink:href="#stagearrow" x="420" y="74"/>
+   <text text-anchor="start" x="350" y="1595" class="mmstate">2011 Q4</text>
+   <text text-anchor="start" x="420" y="1595" class="mmstate">September to December 2011</text>
+   <text text-anchor="end" x="70" y="111" class="mmstate">2012 Q1</text>
+   <rect class="mmstripe" x="520" y="100" width="50" height="1300"/>
+   <rect class="mmkey" x="80" y="100" width="490" height="12"/>
+   <use xlink:href="#stagearrow" x="520" y="99"/>
+   <text text-anchor="start" x="350" y="1610" class="mmstate">2012 Q1</text>
+   <text text-anchor="start" x="420" y="1610" class="mmstate">January to March 2012</text>
+   <text text-anchor="end" x="70" y="136" class="mmstate">2012 Q2</text>
+   <rect class="mmstripe" x="620" y="125" width="50" height="1275"/>
+   <rect class="mmkey" x="80" y="125" width="590" height="12"/>
+   <use xlink:href="#stagearrow" x="620" y="124"/>
+   <text text-anchor="start" x="350" y="1625" class="mmstate">2012 Q2</text>
+   <text text-anchor="start" x="420" y="1625" class="mmstate">April to June 2012</text>
+   <text text-anchor="end" x="70" y="161" class="mmstate">2012 Q3</text>
+   <rect class="mmstripe" x="720" y="150" width="50" height="1250"/>
+   <rect class="mmkey" x="80" y="150" width="690" height="12"/>
+   <use xlink:href="#stagearrow" x="720" y="149"/>
+   <text text-anchor="start" x="350" y="1640" class="mmstate">2012 Q3</text>
+   <text text-anchor="start" x="420" y="1640" class="mmstate">July to September 2012</text>
+   <text text-anchor="end" x="70" y="186" class="mmstate">2012 Q4</text>
+   <rect class="mmstripe" x="820" y="175" width="50" height="1225"/>
+   <rect class="mmkey" x="80" y="175" width="790" height="12"/>
+   <use xlink:href="#stagearrow" x="820" y="174"/>
+   <text text-anchor="start" x="350" y="1655" class="mmstate">2012 Q4</text>
+   <text text-anchor="start" x="420" y="1655" class="mmstate">September to December 2012</text>
+   <text text-anchor="start" x="10" y="220" class="mmpractice">Strategy &amp;</text>
+   <text text-anchor="start" x="10" y="235" class="mmpractice"> Metrics</text>
+   <polyline class="mmaxis" points="100,200 100,275 940,275 "/>
+   <use xlink:href="#levelMarker" x="100" y="200"/>
+   <use xlink:href="#levelMarker" x="100" y="225"/>
+   <use xlink:href="#levelMarker" x="100" y="250"/>
+   <polygon class="mmgovernance" points="120,275 120,275 170,250 220,250 270,250 320,250 370,225 420,225 470,225 520,225 570,225 620,225 670,200 720,200 770,200 820,200 870,200 920,200 920,275"/>
+   <text text-anchor="start" x="10" y="320" class="mmpractice">Policy &amp;</text>
+   <text text-anchor="start" x="10" y="335" class="mmpractice"> Compliance</text>
+   <polyline class="mmaxis" points="100,300 100,375 940,375 "/>
+   <use xlink:href="#levelMarker" x="100" y="300"/>
+   <use xlink:href="#levelMarker" x="100" y="325"/>
+   <use xlink:href="#levelMarker" x="100" y="350"/>
+   <polygon class="mmgovernance" points="120,375 120,375 170,375 220,375 270,350 320,350 370,350 420,350 470,350 520,350 570,350 620,350 670,350 720,350 770,325 820,325 870,325 920,325 920,375"/>
+   <text text-anchor="start" x="10" y="420" class="mmpractice">Education &amp;</text>
+   <text text-anchor="start" x="10" y="435" class="mmpractice"> Guidance</text>
+   <polyline class="mmaxis" points="100,400 100,475 940,475 "/>
+   <use xlink:href="#levelMarker" x="100" y="400"/>
+   <use xlink:href="#levelMarker" x="100" y="425"/>
+   <use xlink:href="#levelMarker" x="100" y="450"/>
+   <polygon class="mmgovernance" points="120,475 120,475 170,475 220,475 270,450 320,450 370,450 420,450 470,450 520,450 570,425 620,425 670,400 720,400 770,400 820,400 870,400 920,400 920,475"/>
+   <text text-anchor="start" x="10" y="520" class="mmpractice">Threat</text>
+   <text text-anchor="start" x="10" y="535" class="mmpractice">Assessment</text>
+   <polyline class="mmaxis" points="100,500 100,575 940,575 "/>
+   <use xlink:href="#levelMarker" x="100" y="500"/>
+   <use xlink:href="#levelMarker" x="100" y="525"/>
+   <use xlink:href="#levelMarker" x="100" y="550"/>
+   <polygon class="mmconstruction" points="120,575 120,575 170,575 220,575 270,575 320,575 370,550 420,550 470,550 520,550 570,525 620,525 670,525 720,525 770,525 820,525 870,525 920,525 920,575"/>
+   <text text-anchor="start" x="10" y="620" class="mmpractice">Security</text>
+   <text text-anchor="start" x="10" y="635" class="mmpractice">Requirements</text>
+   <polyline class="mmaxis" points="100,600 100,675 940,675 "/>
+   <use xlink:href="#levelMarker" x="100" y="600"/>
+   <use xlink:href="#levelMarker" x="100" y="625"/>
+   <use xlink:href="#levelMarker" x="100" y="650"/>
+   <polygon class="mmconstruction" points="120,675 120,675 170,650 220,650 270,625 320,625 370,625 420,625 470,625 520,625 570,600 620,600 670,600 720,600 770,600 820,600 870,600 920,600 920,675"/>
+   <text text-anchor="start" x="10" y="720" class="mmpractice">Secure</text>
+   <text text-anchor="start" x="10" y="735" class="mmpractice">Architecture</text>
+   <polyline class="mmaxis" points="100,700 100,775 940,775 "/>
+   <use xlink:href="#levelMarker" x="100" y="700"/>
+   <use xlink:href="#levelMarker" x="100" y="725"/>
+   <use xlink:href="#levelMarker" x="100" y="750"/>
+   <polygon class="mmconstruction" points="120,775 120,775 170,775 220,775 270,775 320,775 370,775 420,775 470,775 520,775 570,775 620,775 670,750 720,750 770,750 820,750 870,750 920,750 920,775"/>
+   <text text-anchor="start" x="10" y="820" class="mmpractice">Design Review</text>
+   <text text-anchor="start" x="10" y="835" class="mmpractice"/>
+   <polyline class="mmaxis" points="100,800 100,875 940,875 "/>
+   <use xlink:href="#levelMarker" x="100" y="800"/>
+   <use xlink:href="#levelMarker" x="100" y="825"/>
+   <use xlink:href="#levelMarker" x="100" y="850"/>
+   <polygon class="mmverification" points="120,875 120,875 170,875 220,875 270,875 320,875 370,875 420,875 470,875 520,875 570,850 620,850 670,850 720,850 770,825 820,825 870,825 920,825 920,875"/>
+   <text text-anchor="start" x="10" y="920" class="mmpractice">Code Review</text>
+   <text text-anchor="start" x="10" y="935" class="mmpractice"/>
+   <polyline class="mmaxis" points="100,900 100,975 940,975 "/>
+   <use xlink:href="#levelMarker" x="100" y="900"/>
+   <use xlink:href="#levelMarker" x="100" y="925"/>
+   <use xlink:href="#levelMarker" x="100" y="950"/>
+   <polygon class="mmverification" points="120,975 120,975 170,975 220,975 270,950 320,950 370,950 420,950 470,950 520,950 570,950 620,950 670,925 720,925 770,925 820,925 870,925 920,925 920,975"/>
+   <text text-anchor="start" x="10" y="1020" class="mmpractice">Security</text>
+   <text text-anchor="start" x="10" y="1035" class="mmpractice">Testing</text>
+   <polyline class="mmaxis" points="100,1000 100,1075 940,1075 "/>
+   <use xlink:href="#levelMarker" x="100" y="1000"/>
+   <use xlink:href="#levelMarker" x="100" y="1025"/>
+   <use xlink:href="#levelMarker" x="100" y="1050"/>
+   <polygon class="mmverification" points="120,1075 120,1050 170,1050 220,1050 270,1050 320,1050 370,1025 420,1025 470,1025 520,1025 570,1025 620,1025 670,1025 720,1025 770,1000 820,1000 870,1000 920,1000 920,1075"/>
+   <text text-anchor="start" x="10" y="1120" class="mmpractice">Vulnerability</text>
+   <text text-anchor="start" x="10" y="1135" class="mmpractice"> Management</text>
+   <polyline class="mmaxis" points="100,1100 100,1175 940,1175 "/>
+   <use xlink:href="#levelMarker" x="100" y="1100"/>
+   <use xlink:href="#levelMarker" x="100" y="1125"/>
+   <use xlink:href="#levelMarker" x="100" y="1150"/>
+   <polygon class="mmdeployment" points="120,1175 120,1175 170,1175 220,1175 270,1175 320,1175 370,1175 420,1175 470,1175 520,1175 570,1150 620,1150 670,1150 720,1150 770,1125 820,1125 870,1125 920,1125 920,1175"/>
+   <text text-anchor="start" x="10" y="1220" class="mmpractice">Environment</text>
+   <text text-anchor="start" x="10" y="1235" class="mmpractice">Hardening</text>
+   <polyline class="mmaxis" points="100,1200 100,1275 940,1275 "/>
+   <use xlink:href="#levelMarker" x="100" y="1200"/>
+   <use xlink:href="#levelMarker" x="100" y="1225"/>
+   <use xlink:href="#levelMarker" x="100" y="1250"/>
+   <polygon class="mmdeployment" points="120,1275 120,1275 170,1275 220,1275 270,1275 320,1275 370,1250 420,1250 470,1250 520,1250 570,1250 620,1250 670,1250 720,1250 770,1250 820,1250 870,1225 920,1225 920,1275"/>
+   <text text-anchor="start" x="10" y="1320" class="mmpractice">Operational</text>
+   <text text-anchor="start" x="10" y="1335" class="mmpractice">Enablement</text>
+   <polyline class="mmaxis" points="100,1300 100,1375 940,1375 "/>
+   <use xlink:href="#levelMarker" x="100" y="1300"/>
+   <use xlink:href="#levelMarker" x="100" y="1325"/>
+   <use xlink:href="#levelMarker" x="100" y="1350"/>
+   <polygon class="mmdeployment" points="120,1375 120,1375 170,1375 220,1375 270,1375 320,1375 370,1375 420,1375 470,1375 520,1375 570,1350 620,1350 670,1350 720,1350 770,1325 820,1325 870,1325 920,1325 920,1375"/>
+</svg>
