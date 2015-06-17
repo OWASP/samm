@@ -6,10 +6,14 @@ For the Latest version and additionaL info, pLease see the project web site at
 http://www.opensamm.org
 
 # Acknowledgments
-The Software Assurance Maturity Model (SAMM) was originally developed, designed, and written by Pravir Chandra (chandra@owasp.org), an independent software security consultant. Creation of the first draft was made possible through funding from Fortify Software, Inc. This document is currently maintained and updated through the OpenSAMM Project led by Pravir Chandra. Since the initial release of SAMM, this project has become part of the Open Web Application Security Project (OWASP). Thanks also go to many supporting organizations that are listed on back cover.
+The Software Assurance Maturity Model (SAMM) was originally developed, designed, and written by Pravir Chandra (chandra@owasp.org). As part of the v1.1 release, this How-To Guide splits off the SAMM implementation guidance from the SAMM Core Model document.  This document is currently maintained and updated through the OpenSAMM Project, part of Open Web Application Security Project (OWASP). Thanks also go to many supporting organizations that are listed on back cover.
 
 ## contributors & reviewers
 This work would not be possible without the support of many individual reviewers and experts that offered contributions and critical feedback. They are (in alphabetical order):
+FIXME 
+Kuai 
+Reviewers
+
 Fabio Arciniegas
 Matt Bartoldus 
 Sebastien Deleersnyder 
@@ -32,7 +36,7 @@ Jeff Williams
 Steven Wierckx
 
 This is an OWASP Project
-The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security “visible,” so that people and organizations can make informed decisions about application security risks. Everyone is free to participate in OWASP and all of our materials are available under a free and open software license. The OWASP Foundation is a 501(c)3 not-for-profit charitable organization that ensures the ongoing availability and support for our work. Visit OWASP online at http://www.owasp.org.
+The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security “visible,” so that people and organizations can make informed decisions about application security risks. Everyone is free to participate in OWASP and all of our materials are available under a free and open software license. The OWASP Foundation is a 501(c)3 not-for-profit charitable organization that ensures the ongoing availability and support for our work. Visit OWASP online at http://www.owasp.org. FIXME
 License
 
 This work is licensed under the Creative Commons Attribution-Share Alike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/ by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
@@ -44,12 +48,18 @@ The Software Assurance Maturity Model (SAMM) is an open framework to help organi
 ✦Demonstrating concrete improvements to a security assurance program 
 ✦Defining and measuring security-related activities throughout an organization
 
-SAMM was defined with flexibility in mind such that it can be utilized by small, medium, and large organizations using any style of development. Additionally, this model can be applied organization-wide, for a single line-of-business, or even for an individual project. Beyond these traits, SAMM was built on the following principles:
-✦ An organization’s behavior changes slowly over time A successful software security program should be specified in small iterations that deliver tangible assurance gains while incrementally working toward long-term goals.
-✦ There is no single recipe that works for all organizations A software security framework must be flexible and allow organizations to tailor their choices based on their risk tolerance and the way in which they build and use software.
-✦Guidance related to security activities must be prescriptive All the steps in building and assessing an assurance program should be simple, well-defined, and measurable. This model also provides roadmap templates for common types of organizations.
+SAMM was defined with flexibility in mind such that it can be utilized by small, medium, and large organizations using any style of development. 
 
-The foundation of the model is built upon the core business functions of software development with security practices tied to each (see diagram below). The building blocks of the model are the three maturity levels defined for each of the twelve security practices. These define a wide variety of activities in which an organization could engage to reduce security risks and increase software assurance. Additional details are included to measure successful activity performance, understand the associated assurance benefits, estimate personnel and other costs.
+SAMM v1.0 was originally developed, designed, and written by Pravir Chandra. As part of the v1.1 release, this How-To Guide splits off the SAMM implementation guidance from the SAMM Core Model document.
+Bessides the How-To Guide and the Core Model document, several other tools and documents have been made available during the last years:
+✦The new Quick-Start Guide walks you through the core steps to execute your SAMM based secure software practice 
+✦The updated SAMM Tool Box can be used to perform SAMM assessments and create SAMM roadmaps
+✦Lots of OWASP resources are linked from the OpenSAMM project page on the OWASP web site. You can be used to implement SAMM roadmaps. 
+✦With the SAMM Benchmark you can compare your maturity and progress with other similare organizations and teams.  
+
+
+FIXME
+(INSERT DIAGRAM FROM PPT)
 
 As an open project, SAMM content shall always remain vendor-neutral and freely available for all to use.
 
