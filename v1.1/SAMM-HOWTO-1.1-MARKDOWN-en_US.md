@@ -6,23 +6,32 @@ For the Latest version and additionaL info, pLease see the project web site at
 http://www.opensamm.org
 
 # Acknowledgments
-The Software Assurance Maturity Model (SAMM) was originally developed, designed, and written by Pravir Chandra (chandra@owasp.org). As part of the v1.1 release, this How-To Guide splits off the SAMM implementation guidance from the SAMM Core Model document.  This document is currently maintained and updated through the OpenSAMM Project, part of Open Web Application Security Project (OWASP). Thanks also go to many supporting organizations that are listed on back cover.
+The Software Assurance Maturity Model (SAMM) was originally developed, designed, and written by Pravir Chandra (chandra@owasp.org). As part of the v1.1 release, this How-To Guide splits off the SAMM implementation guidance from the SAMM Core Model document.  This document is currently maintained and updated through the OpenSAMM Project, part of Open Web Application Security Project (OWASP). Thanks to the many contributors and reviewers (listed below) and to the supporting organizations that are listed in the Sponsors section.
 
-## contributors & reviewers
+## Contributors & reviewers (version 1 and version1.1 combined)
 This work would not be possible without the support of many individual reviewers and experts that offered contributions and critical feedback. They are (in alphabetical order):
-FIXME 
-Kuai 
-Reviewers
-
 Fabio Arciniegas
 Matt Bartoldus 
-Sebastien Deleersnyder 
+Huth Carsten
 Jonathan Carter 
 Darren Challey
 Brian Chess 
+Justin Clarke
+Can Cornell
+Michael Craigue
 Dinis Cruz
+Sebastien Deleersnyder 
 Justin Derry 
 Bart De Win 
+John Dickson
+Alexios Fakos
+David Fern
+Brian Glas
+Kuai Hinojosa
+Jerry Hoff
+Bruce Jenkins
+Daniel Kefer
+Yan Kravchenko
 James McGovern
 Matteo Meucci 
 Jeff Payne 
@@ -35,10 +44,25 @@ Colin Watson
 Jeff Williams
 Steven Wierckx
 
-This is an OWASP Project
-The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security “visible,” so that people and organizations can make informed decisions about application security risks. Everyone is free to participate in OWASP and all of our materials are available under a free and open software license. The OWASP Foundation is a 501(c)3 not-for-profit charitable organization that ensures the ongoing availability and support for our work. Visit OWASP online at http://www.owasp.org. FIXME
-License
+## Sponsors
+We would like to thank the following sponsors who donated funds to the OpenSAMM project. They are (in alphabetical order):
+OWASP Belgium chapter
+OWASP London chapter
+Aspect Security
+Astech Consulting
+Denim Group
+Gotham Digital Science
+HP
+Netspi
+Security Innovation
+Toreon
+Veracode
+FIXME - insert logos as listed on https://www.owasp.org/index.php/Category:Software_Assurance_Maturity_Model#tab=Project_Sponsors
 
+This is an OWASP Project
+OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.
+
+License
 This work is licensed under the Creative Commons Attribution-Share Alike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/ by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
 
 # Executive Summary
@@ -51,16 +75,15 @@ The Software Assurance Maturity Model (SAMM) is an open framework to help organi
 SAMM was defined with flexibility in mind such that it can be utilized by small, medium, and large organizations using any style of development. 
 
 SAMM v1.0 was originally developed, designed, and written by Pravir Chandra. As part of the v1.1 release, this How-To Guide splits off the SAMM implementation guidance from the SAMM Core Model document.
-Bessides the How-To Guide and the Core Model document, several other tools and documents have been made available during the last years:
+Besides the How-To Guide and the Core Model document, several other tools and documents have been made available during the last years:
 ✦The new Quick-Start Guide walks you through the core steps to execute your SAMM based secure software practice 
 ✦The updated SAMM Tool Box can be used to perform SAMM assessments and create SAMM roadmaps
-✦Lots of OWASP resources are linked from the OpenSAMM project page on the OWASP web site. You can be used to implement SAMM roadmaps. 
-✦With the SAMM Benchmark you can compare your maturity and progress with other similare organizations and teams.  
-
+✦Lots of OWASP resources are linked from the OpenSAMM project page on the OWASP web site. You can use these to implement SAMM roadmaps 
+✦With the SAMM Benchmark data you can compare your maturity and progress with other similar organizations and teams
 
 FIXME
 (INSERT DIAGRAM FROM PPT)
-
+	
 As an open project, SAMM content shall always remain vendor-neutral and freely available for all to use.
 
 # Applying the Model
@@ -101,142 +124,7 @@ The process of conducting an assessment is simply evaluating an organization to 
 Scoring an organization using the assessment worksheets is straightforward. After answering the questions, evaluate the answer column to determine the Level. It is indicated by affirmative answers on all questions above the markers to the right of the answer column.
 Existing assurance programs might not always consist of activities that neatly fall on a boundary between Maturity Levels, e.g. an organization that assesses to a Level 1 for a given Practice might also have additional activities in place but not such that Level 2 is completed. For such cases, the organization’s score should be annotated with a “+” symbol to indicate there’s additional assurances in place beyond those indicated by the Level obtained. For example, an organization that is performing all Level 1 Activities for Operational Enablement as well as one Level 2 or 3 Activity would be assigned a “1+” score. Likewise, an organization performing all Activities for a Security Practice, including some beyond the scope of SAMM, would be given a "3+" score.
 
-
-#Governance
-Assessment worksheet
-##Strategy & Metrics
-✦Is there a software security assurance program already in place?
-✦Do most of the business stakeholders understand your organization’s risk profile?
-✦Is most of your development staff aware of future plans for the assurance program?
-SM1
-✦Are most of your applications and resources categorized by risk?
-✦Are risk ratings used to tailor the required assurance activities?
-✦Does most of the organization know about what’s required based on risk ratings?
-SM2
-✦Is per-project data for cost of assurance activities collected?
-✦Does your organization regularly compare your security spend with other organizations?
-SM3
-## Policy & Compliance
-✦Do most project stakeholders know their project’s compliance status?
-✦Are compliance requirements specifically considered by project teams?
-PC1
-✦Does the organization utilize a set of policies and standards to control software development?
-✦ Are project teams able to request an audit for compliance with policies and standards?
-PC2
-✦Are projects periodically audited to ensure a baseline of compliance with policies and standards?
-✦Does the organization systematically use audits to collect and control compliance evidence?
-PC3
-## Education & Guidance
-✦Have most developers been given high-level security awareness training?
-✦Does each project team have access to secure development best practices and guidance?
-EG1
-✦Are most roles in the development process given role-specific training and guidance?
-✦Are most stakeholders able to pull in security coaches for use on projects?
-EG2
-✦Is security-related guidance centrally controlled and consistently distributed throughout the organization?
-✦ Are most people tested to ensure a baseline skillset for secure development practices?
-EG3
-
-# Construction
-Assessment worksheet
-## Threat Assessment
-✦Do most projects in your organization consider and document likely threats?
-✦Does your organization understand and document the types of attackers it faces?
-✦Do project teams regularly analyze functional requirements for likely abuses?
-✦Are stakeholders aware of relevant threats and ratings?
-TA 1
-✦Do project teams use a method of rating threats for relative comparison?
-✦Do project teams specifically consider risk from external software?
-TA 2
-✦ Are all protection mechanisms and controls captured and mapped back to threats?
-TA 3
-##Security Requirements
-✦Do most project teams specify some security requirements during development?
-✦Do project teams pull requirements from best practices and compliance guidance?
-✦Are most stakeholders reviewing access control matrices for relevant projects?
-SR1
-✦Are project teams specifying requirements based on feedback from other security activities?
-SR2
-✦Are most stakeholders reviewing vendor agreements for security requirements?
-✦Are the security requirements specified by project teams being audited?
-SR3
-##Secure Architecture
-✦Are project teams provided with a list of recommended third-party components?
-✦Are most project teams aware of secure design principles and applying them?
-✦Do you advertise shared security services with guidance for project teams?
-SA 1
-✦Are project teams provided with prescriptive design patterns based on their application architecture?
-SA 2
-✦Are project teams building software from centrally controlled platforms and frameworks?
-✦Are project teams being audited for usage of secure architecture components?
-SA 3
-
-#Verification
-Assessment worksheet
-## Design Review
-✦Do project teams document the attack perimeter of software designs?
-✦Do project teams check software designs against known security risks?
-✦Do most project teams specifically analyze design elements for security mechanisms?
-✦Does the design review process incorporate detailed data-level analysis?
-DR1
-✦Are most project stakeholders aware of how to obtain a formal design review?
-DR2
-✦Does routine project audit require a baseline for design review results?
-DR3
-## Implementation Review
-✦Do most project teams have review checklists based on common problems?
-✦ Are project teams generally performing review of selected high-risk code?
-✦Can most project teams access automated code analysis tools to find security problems?
-✦Do project teams utilize automation to check code against application-specific coding standards?
-CR1
-✦Do most stakeholders consistently require and review results from implementation reviews?
-CR2
-✦Does routine project audit require a baseline for implementation review results prior to release?
-CR3
-##Security Testing
-✦Are projects specifying some security tests based on requirements?
-✦Do most projects perform penetration tests prior to release?
-✦Are most stakeholders aware of the security test status prior to release?
-ST1
-✦Are projects using automation to evaluate security test cases?
-✦Do most projects follow a consistent process to evaluate and report on security tests to stakeholders?
-ST2
-✦Are security test cases comprehensively generated for application-specific logic?
-✦Do routine project audits demand minimum standard results from security testing?
-ST3
-
-# Operations
-Assessment worksheet
-## Issue management
-✦Do most projects have a point of contact for security issues?
-✦Does your organization have an assigned security response team?
-✦Are most project teams aware of their security point(s) of contact and response team(s)?
-VM1
-✦Does the organization utilize a consistent process for incident reporting and handling?
-✦Are most project stakeholders aware of relevant security disclosures related to their software projects?
-VM2
-✦Are most incidents inspected for root causes to generate further recommendations?
-✦Do most projects consistently collect and report data and metrics related to incidents?
-VM3
-## Environment Hardening
-✦Do the majority of projects document some requirements for the operational environment?
-✦Do most projects check for security updates to third-party software components?
-✦Is a consistent process used to apply upgrades and patches to critical dependencies?
-EH1
-✦Do most project leverage automation to check application and environment health?
-EH2
-✦Are stakeholders aware of options for additional tools to protect software while running in operations?
-✦Does routine audit check most projects for baseline environment health?
-EH3
-##Operational Enablement
-✦Do you deliver security notes with the majority of software releases?
-✦Are security-related alerts and error conditions documented for most projects?
-✦Are most project utilizing a change management process that’s well understood?
-OE1
-✦Do project teams deliver an operational security guide with each product release?
-OE2
-✦Are most projects being audited to check each release for appropriate operational security information?
-✦Is code signing routinely performed on software components using a consistent process?
+You can find the assessment worksheets in the SAMM Core Model document.
 
 #Creating Scorecards
 
