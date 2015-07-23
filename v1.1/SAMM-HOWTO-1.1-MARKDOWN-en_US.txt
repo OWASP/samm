@@ -12,12 +12,11 @@ The Software Assurance Maturity Model (SAMM) was originally developed, designed,
 This work would not be possible without the support of many individual reviewers and experts that offered contributions and critical feedback. They are (in alphabetical order):
 Fabio Arciniegas
 Matt Bartoldus 
-Huth Carsten
 Jonathan Carter 
 Darren Challey
 Brian Chess 
 Justin Clarke
-Can Cornell
+Dan Cornell
 Michael Craigue
 Dinis Cruz
 Sebastien Deleersnyder 
@@ -29,6 +28,7 @@ David Fern
 Brian Glas
 Kuai Hinojosa
 Jerry Hoff
+Carsten Huth 
 Bruce Jenkins
 Daniel Kefer
 Yan Kravchenko
@@ -60,10 +60,10 @@ Veracode
 FIXME - insert logos as listed on https://www.owasp.org/index.php/Category:Software_Assurance_Maturity_Model#tab=Project_Sponsors
 
 This is an OWASP Project
-OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.
+OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at https://www.owasp.org.
 
 License
-This work is licensed under the Creative Commons Attribution-Share Alike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/ by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send an email to info@creativecommons.org.
 
 # Executive Summary
 The Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization. The resources provided by SAMM will aid in:
@@ -99,27 +99,25 @@ The Objective is a general statement that captures the assurance goal of attaini
 The Activities are core requisites for attaining the Level. Some are meant to be performed organization-wide and some correspond to actions for individual project teams. In either case, the Activities capture the core security function and organizations are free to determine how they fulfill the Activities.
 ## Results
 The Results characterize capabilities and deliverables obtained by achieving the given Level. In some cases these are specified concretely and in others, a more qualitative statement is made about increased capability.
-## Success metrics
+## Success Metrics
 The Success Metrics specify example measurements that can be used to check if an organization is performing at the given Level. Data collection and management is left to the choice of each organization, but recommended data sources and thresholds are provided.
-## Costs
-The Costs are qualitative statements about the expenses incurred by an organization attaining the given Level. While specific values will vary for each organizations, these are meant to provide an idea of the one-time and ongoing costs associated with operating at a particular Level.
 # Personnel
 These properties of a Level indicate the estimated ongoing overhead in terms of human resources for operating at the given Level.
-✦Developers Individuals performing detailed design and implementation of the software
-✦Architects Individuals performing high-level design work and large scale system engineering
-✦Managers Individuals performing day-today management of development staff
-✦QA Testers Individuals performing quality assurance testing and prerelease verification of software
-✦Security Auditors Individuals with technical security knowledge related to software being produced
-✦Business Owners Individuals performing key decision making on software and its business requirements
-✦Support Operations Individuals performing customer support or direct technical operations support
+✦Developers: Individuals performing detailed design and implementation of the software
+✦Architects :Individuals performing high-level design work and large scale system engineering
+✦Managers: Individuals performing day-today management of development staff
+✦QA Testers: Individuals performing quality assurance testing and prerelease verification of software
+✦Security Auditors: Individuals with technical security knowledge related to software being produced
+✦Business Owners: Individuals performing key decision making on software and its business requirements
+✦Support Operations: Individuals performing customer support or direct technical operations support
 # Related levels
 The Related Levels are references to Levels within other Practices that have some potential overlaps depending upon the organization’s structure and progress in building an assurance program. Functionally, these indicate synergies or optimizations in Activity implementation if the Related Level is also a goal or already in place.
 
 #Conducting Assessments
 By measuring an organization against the defined Security Practices, an overall picture of built-in security assurance activities is created. This type of assessment is useful for understanding the breadth of security activities currently in place at an organization. Further, it enables that organization to then utilize SAMM to create a future roadmap for iterative improvement.
 The process of conducting an assessment is simply evaluating an organization to determine the Maturity Level at which it is performing, The extent to which an organization’s performance is checked will usually vary according to the drivers behind the assessment, but in general, there are two recommended styles:
-✦Lightweight The assessment worksheets for each Practice are evaluated and scores are assigned based on answers. This type of assessment is usually sufficient for an organization that is trying to map their existing assurance program into SAMM and just wants to get a quick picture of where they stand.
-✦Detailed After completion of the assessment worksheets, additional audit work is performed to check the organization to ensure the Activities prescribed by each Practice are in place. Additionally since each Practice also specifies Success Metrics, that data should be collected to ensure that the organization is performing as expected.
+✦Lightweight: The assessment worksheets for each Practice are evaluated and scores are assigned based on answers. This type of assessment is usually sufficient for an organization that is trying to map their existing assurance program into SAMM and just wants to get a quick picture of where they stand.
+✦Detailed: After completion of the assessment worksheets, additional audit work is performed to check the organization to ensure the Activities prescribed by each Practice are in place. Additionally since each Practice also specifies Success Metrics, that data should be collected to ensure that the organization is performing as expected.
 
 Scoring an organization using the assessment worksheets is straightforward. After answering the questions, evaluate the answer column to determine the Level. It is indicated by affirmative answers on all questions above the markers to the right of the answer column.
 Existing assurance programs might not always consist of activities that neatly fall on a boundary between Maturity Levels, e.g. an organization that assesses to a Level 1 for a given Practice might also have additional activities in place but not such that Level 2 is completed. For such cases, the organization’s score should be annotated with a “+” symbol to indicate there’s additional assurances in place beyond those indicated by the Level obtained. For example, an organization that is performing all Level 1 Activities for Operational Enablement as well as one Level 2 or 3 Activity would be assigned a “1+” score. Likewise, an organization performing all Activities for a Security Practice, including some beyond the scope of SAMM, would be given a "3+" score.
@@ -130,11 +128,11 @@ You can find the assessment worksheets in the SAMM Core Model document.
 
 Based on the scores assigned to each Security Practice, an organization can create a scorecard to capture those values. Functionally, a scorecard can be the simple set of 12 scores for a particular time. However, selecting a time interval over which to generate a scorecard facilitates understanding of overall changes in the assurance program during the time frame.
 Using interval scorecards is encouraged for several situations:
-✦Gap analysis Capturing scores from detailed assessments versus expected performance levels
-✦Demonstrating improvement Capturing scores from before and after an iteration of assurance program build-out
-✦Ongoing measurement Capturing scores over consistent time frames for an assurance program that is already in place
+✦Gap analysis: Capturing scores from detailed assessments versus expected performance levels
+✦Demonstrating improvement: Capturing scores from before and after an iteration of assurance program build-out
+✦Ongoing measurement: Capturing scores over consistent time frames for an assurance program that is already in place
 
-The figure on the right shows an example scorecard for how an organization’s assurance program changed over the course of one year. If that organization had also saved the data about where they were planning on being at the end of the year, that would be another interesting data set to plot since it would help show the extent to which the plans had to change over the year.
+The figure below shows an example scorecard for how an organization’s assurance program changed over the course of one year. If that organization had also saved the data about where they were planning on being at the end of the year, that would be another interesting data set to plot since it would help show the extent to which the plans had to change over the year.
 
 #Building Assurance Programs
 One of the main uses of SAMM is to help organizations build software security assurance programs. That process is straightforward, and generally begins with an assessment if the organization is already performing some security assurance activities.
@@ -210,10 +208,10 @@ For organizations building web services platforms, design errors can carry addit
 ### Regulatory Compliance
 For organizations under heavy regulations that affect business processes, the build-out of the Policy & Compliance Practice should be adjusted to accommodate external drivers. Likewise, organizations under a lighter compliance load should take the opportunity to push back build-out of that Practice in favor of others.
 
-#Case Studies
-A walkthrough of example scenarios
+#Case Study
+A walkthrough of an example scenario
 
-This section features a selection of scenarios in which the application of SAMM is explained in the context of a specific business case. Using the roadmap templates as a guide, the case studies tell the story of how an organization might adapt best practices and take into account organization-specific risks when building a security assurance program.
+This section features a scenario in which the application of SAMM is explained in the context of a specific business case. Using the roadmap templates as a guide, the case study tells the story of how an organization might adapt best practices and take into account organization-specific risks when building a security assurance program.
 # VirtualWare
 Case Study: Medium-sized Independent Software Vendor
 
@@ -223,7 +221,7 @@ The organization is of medium size (200-1000 employees) and has a global presenc
 ## organizAtion
 VirtualWare has been developing their core software platform for over 8 years. During this time they have had limited risk from common web vulnerabilities due to minimal usage of web interfaces. Most of the VirtualWare platforms are run through either a server based systems or thick clients running on the desktop.
 Recently VirtualWare started a number of new project streams, which deliver their client and server interfaces via web technology. Knowing the extent of common attacks seen over the web, this has driven the organization to review their software security strategy and ensure that it adequately addresses possible threats towards their organization going forward.
-Previously the organization had undertaken basic reviews of the application code, and has been more focused on performance and functionality rather than security.VirtualWare developers have been using a number of code quality analysis tools to identify bugs and address them within the code.
+Previously the organization had undertaken basic reviews of the application code, and has been more focused on performance and functionality rather than security. VirtualWare developers have been using a number of code quality analysis tools to identify bugs and address them within the code.
 With this in mind, the upper management team has set a strategic objective to review the current status of the security of their applications and determine the best method of identifying, removing, and preventing vulnerabilities in them.
 ## environment
 VirtualWare develops their virtualization technology on a mixture of Java, C++ and Microsoft .NET technology. Their core application virtualization technology has been written in C++ and has had a number of reviews for bugs and security, but currently no formal processes exists for identifying and fixing known or unknown security bugs.
@@ -265,7 +263,7 @@ To achieve these maturity levels VirtualWare implemented a number of programs du
 ✦Build a technical guidance whitepaper for application security on technologies used within the organization; 
 ✦Create a risk process and perform high-level business risk assessments for the application platforms and review business risk;
 ✦Prepare initial technical guidelines and standards for developers; ✦Perform short implementation reviews on application platforms that present significant risk to the organization; ✦Develop test and use cases for projects and evaluate the cases against the applications;
-✦Appointed a role to application security initiatives; ✦Generated a Draft strategic roadmap for the next phase of the assurance program.
+✦Appointed a role to application security initiatives; ✦Generated a draft strategic roadmap for the next phase of the assurance program.
 
 Due to the limited amount of expertise in-house within VirtualWare, the company engaged with a third party security consulting group to assist with the creation of the training program, and assist in writing the threat modeling and strategic roadmap for the organization.
 One of the key challenges faced during this phase, was to get all 300 developers through a one day training course. To achieve this VirtualWare ran 20 course days, with only a small number of developers from each team attending the course at one time. This reduced the overall impact on staff resources during the training period.
