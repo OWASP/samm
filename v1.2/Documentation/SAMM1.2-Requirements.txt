@@ -1,0 +1,66 @@
+List of Tasks for SAMM 1.2
+
+Summary: 
+
+Recover source and move it to an asciidoctor based document.
+Clarification of maturity levels (syntactic changes to keep the text consistent)
+Not change activities but try to impose the current scoring system on existing activities, i.e. move from binary yes/no to the multi-tiered questions/answers of the current proposal. 
+Show improvements with every activity introduced
+Adapt for the new scoring method
+Update questions for 4-tiers
+Review and where necessary clarify current questions
+Consider v1.1 remarks that were not withheld for the previous release
+
+
+Impacted Components:
+1. Toolbox Spreadsheet
+2. Core Document
+3. How To Document
+4. Quick Start Document
+5. Overall Process Changes
+
+
+1.0 Toolbox Spreadsheet
+
+1.1 Configure spreadsheet tab to hold clusters of four answers with scoring weight
+1.2 Determine initial weighting distribution for four tiers of answers
+1.3 Draft answers (sets of 4) for each question
+1.4 Update questions to align with answer selection instead of Yes/No answers
+1.5 Update answers selection on Interview tab to reference answers in Lookups tab
+1.6 Update formulas in Interview Column F to retrieve answer values
+1.7 Update formulas in Interview Column G to aggregate Column F values
+1.8 Update formulas in Interview Column I to generate the rating score for each security practice
+1.9 Update formulas in Scorecard Tab to accurately retrieve values from Interview
+1.10 Update graphic in Scorecard Tab to accurately represent values from Interview
+1.11 Update Roadmap Chart to retrieve values from Interview
+1.12 Update Roadmap Chart to accurately render charts based on new scoring values
+1.13 Update Notes tab to reflect changes
+1.14 Update Attribution and License tabs
+
+
+2.0 Core Document Changes
+2.1 Update Page 9 - Maturity Levels to reflect new scoring
+2.2 Update Pages 18-21 to accurately reflect answer selection [DEP: 1.3|1.4]
+2.3 Update Pages 24-35 to accurately reflect updated questions for Governance [DEP: 1.4]
+2.4 Update Pages 36-47 to accurately reflect updated questions for Construction [DEP: 1.4]
+2.5 Update Pages 48-59 to accurately reflect updated questions for Verification [DEP: 1.4]
+2.6 Update Pages 60-71 to accurately reflect updated questions for Operations [DEP: 1.4]
+
+
+3.0 How To Document Changes
+3.1 Update Page 4 - Evolution
+3.2 Update Page 8-10 to reflect changes in scoring
+3.3 Review roadmap graphics on Page 12, 15, 17, 19, 21, 25 and update if needed
+3.4 Update Maturiy Scorecard on Page 39 to reflect changes in scoring
+
+
+4.0 Quick Start Document Changes
+
+
+
+
+5.0 Overall Process Changes
+
+
+
+
