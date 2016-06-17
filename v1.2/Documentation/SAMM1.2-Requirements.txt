@@ -19,17 +19,23 @@ Impacted Components:
 4. Quick Start Document
 5. Overall Process Changes
 
+Status:
+A - Actively working
+C - Completed
+T - Testing
+U - User Testing
+Z - Done
 
 1.0 Toolbox Spreadsheet
 
-1.1 Configure spreadsheet tab to hold clusters of four answers with scoring weight
-1.2 Determine initial weighting distribution for four tiers of answers
-1.3 Draft answers (sets of 4) for each question
-1.4 Update questions to align with answer selection instead of Yes/No answers
-1.5 Update answers selection on Interview tab to reference answers in Lookups tab
-1.6 Update formulas in Interview Column F to retrieve answer values
-1.7 Update formulas in Interview Column G to aggregate Column F values
-1.8 Update formulas in Interview Column I to generate the rating score for each security practice
+C-1.1 Configure spreadsheet tab to hold clusters of four answers with scoring weight
+C-1.2 Determine initial weighting distribution for four tiers of answers
+C-1.3 Draft answers (sets of 4) for each question
+A-1.4 Update questions to align with answer selection instead of Yes/No answers
+C-1.5 Update answers selection on Interview tab to reference answers in Lookups tab
+C-1.6 Update formulas in Interview Column F to retrieve answer values
+C-1.7 Update formulas in Interview Column G to aggregate Column F values
+C-1.8 Update formulas in Interview Column I to generate the rating score for each security practice
 1.9 Update formulas in Scorecard Tab to accurately retrieve values from Interview
 1.10 Update graphic in Scorecard Tab to accurately represent values from Interview
 1.11 Update Roadmap Chart to retrieve values from Interview
