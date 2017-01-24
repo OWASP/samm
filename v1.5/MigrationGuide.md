@@ -1,0 +1,9 @@
+## SAMM 1.1 to 1.5 Migration Guide
+
+The most notable difference between versions 1.1 and 1.5 is an improved scoring mechanism, where the binary rating system is replaced with scoring that allows for more granular control.  This allows for more practical scores in situations where the extent to which a security practice is implemented is nuanced.  So rather than a score of “2+”, for example, a practice might receive a 2.3 or a 2.5.  There are multiple benefits to this approach, including improved resolution of results from statistical and comparative analysis.  If this is your first time working with SAMM, we recommend that you use the newest version.
+
+If you have completed one or more assessments using version 1.1 but have not yet defined your roadmap, we recommend that you reassess your current state according to version 1.5 scoring and then continue to define your roadmap. In most cases, you should incur no more than 1 hour of additional work.
+
+If you are already following a roadmap that you defined with version 1.1, we recommend that you start from your latest achieved milestone. Your next step should be to reassess the last results using 1.5 scoring and then validate the results with your expectations. In most cases, you should not have to update your established roadmap, as the scoring remains identical for fully-mastered practices. If you previously scored desired state of some of your practices as “+”, consider focusing on implementing the desired activity instead of focusing on the scores. Optionally, you can adjust your milestones to just a partial achievement of certain activities.
+
+As always, providing feedback or sharing your migration experience is appreciated and will be used to improve future versions of SAMM.  You are encouraged to make your queries and share your feedback using the project mailing list (samm@lists.owasp.org).
