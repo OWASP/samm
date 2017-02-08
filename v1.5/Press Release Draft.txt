@@ -1,0 +1,49 @@
+OWASP Releases Software Assurance Maturity Model (SAMM) Version 1.5 for Improving Software Security
+
+OWASP SAMM v1.5 released to enhance the ability of organizations to measure and improve their software security
+
+Jan 23, 2017, 12:15 ET from OWASP Foundation<http://www.prnewswire.com/news/owasp-foundation>
+
+
+BEL AIR, Md., January 23, 2017 /PRNewswire/ -- The OWASP Foundation today announced the next release of OWASP SAMM v1.5. The Software Assurance Maturity Model (SAMM) is an open OWASP framework to help organizations formulate and implement a strategy for software security that is tailored to organization-specific risks. This new version 1.5 improves scoring precision by providing partial credit for meeting objectives.
+
+SAMM enables organizations to steadily improve their software security posture over time. Web applications have become the number one target for cyber attackers, with application-layer vulnerabilities exploited as a point of entry in many recent high profile security breaches. The additions to OWASP SAMM are a direct response to the relentless occurrence of security breaches where vulnerable software allowed attackers to gain access to private, corporate data. The resources provided by SAMM aid in:
+
+  *   Evaluating an organization's existing software security practices;
+  *   Building a balanced software security assurance program in well-defined iterations;
+  *   Demonstrating concrete improvements to a security assurance program;
+  *   Defining and measuring security-related activities throughout an organization.
+
+OWASP SAMM v1.0 was originally developed, designed, and written by Pravir Chandra in 2009.
+
+OWASP SAMM v1.1 (March 2016) embedded practical experience in a Quick Start Guide combined with practical OWASP resources, such as OWASP Zed Attack Proxy Project and OWASP Application Security Verification Standard, to name a few.
+
+OWASP SAMM v1.5 (February 2017) improves the granularity of scoring, allowing partial credit for achieving maturity benchmarks. [retweet this!<https://twitter.com/OwaspSAMM>] Now an organization will get credit for all the related work done in a practice, rather than having the base number held at the highest completed maturity level. Anyone who has filled out a SAMM assess
+ment has had a discussion on whether to mark an answer yes or no, when it is honestly something in between. Version 1.5 addresses that need.
+
+Release v1.5 includes enhancements and updates to the following components:
+
+  *   SAMM Core Model document, explaining the maturity model;
+  *   How-To Guide with implementation guidance;
+  *   Quick-Start Guide with different steps to improve your secure software practice;
+  *   Updated SAMM Tool Box to perform SAMM assessments and create SAMM roadmaps;
+
+"Our main goal for version 1.5 was to support our large user community by incorporating their feedback and improving the measurement system of the model.", says Bart De Win, co-project leader of OWASP SAMM.
+
+<TODO: include statement from Brian ?> (about nifty grading system, or about backward compatibility, or, ...)
+
+The OWASP SAMM project leaders are Pravir Chandra, Sebastien Deleersnyder, Bart De Win & Kuai Hinojosa.
+
+To learn more, visit https://www.owasp.org/index.php/SAMM
+
+Follow OWASP SAMM on twitter: @owaspsamm<https://twitter.com/owaspsamm> For additional info owasp.foundation@owasp.org<mailto:owasp.foundation@owasp.org>
+
+About OWASP
+The OWASP Foundation came online on December 1, 2001. It was established as a not-for-profit charitable organization in the United States on April 21, 2004 to ensure the ongoing availability and support for our work at OWASP<https://www.owasp.org/>. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas.
+
+SOURCE OWASP Foundation
+
+RELATED LINKS
+
+http://www.owasp.org<http://www.owasp.org/>
+
