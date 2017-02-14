@@ -31,9 +31,9 @@ Release v1.5 includes enhancements and updates to the following components:
 
 “We've already started using version 1.5 of the tool internally, and we've gotten an enthusiastic response to the enhanced scoring and easy-to-generate charts." – Mike Craigue, Dell Cybersecurity
 
-"One of the main benefits of the updated scoring model is that you can visibly see improvement to your maturity score on the dashboard as initiatives are completed.  This can go a long way in building support for your Application Security Program.", says Brian Glas, nVisium.
+"One of the main benefits of the updated scoring model is that you can visibly see improvement to your maturity score on the dashboard as initiatives are completed.  This can go a long way in building support for your Application Security Program.", says Brian Glas, SAMM project co-lead.
 
-The OWASP SAMM project leaders are Brian Glas, Sebastien Deleersnyder and Bart De Win.
+The OWASP SAMM project leaders are Sebastien Deleersnyder, Bart De Win, and Brian Glas.
 
 To learn more, visit https://www.owasp.org/index.php/SAMM
 
