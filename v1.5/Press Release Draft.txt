@@ -18,20 +18,22 @@ OWASP SAMM v1.0 was originally developed, designed, and written by Pravir Chandr
 
 OWASP SAMM v1.1 (March 2016) embedded practical experience in a Quick Start Guide combined with practical OWASP resources, such as OWASP Zed Attack Proxy Project and OWASP Application Security Verification Standard, to name a few.
 
-OWASP SAMM v1.5 (February 2017) improves the granularity of scoring, allowing partial credit for achieving maturity benchmarks. [retweet this!<https://twitter.com/OwaspSAMM>] Now an organization will get credit for all the related work done in a practice, rather than having the base number held at the highest completed maturity level. Anyone who has filled out a SAMM assessment has had a discussion on whether to mark an answer yes or no, when it is honestly something in between. Version 1.5 addresses that need.
+OWASP SAMM v1.5 (February 2017) improves the granularity of scoring, allowing partial credit for achieving maturity benchmarks. [retweet this!<https://twitter.com/OwaspSAMM>] Now an organization will get credit for all the related work done in a practice, rather than having the base number held at the highest completed maturity level. Anyone who has filled out a SAMM assessment has had a discussion on whether to mark an answer yes or no, when it is honestly something in between. Version 1.5 addresses that need. By replacing the Yes/No answers with four graduated steps, the questions can be more accurately answered.  This coupled with the matching scoring system, makes it easy to see maturity improvements from projects and initiatives on a dashboard.  One of SAMM's goals is help organizations not only understand where they are, but to understand what works (or doesn't) for others in similar scenarios. The improvements in v1.5 and the future v2.0 will help bring that goal to fruition.
 
 Release v1.5 includes enhancements and updates to the following components:
 
-  *   SAMM Core Model document, explaining the maturity model;
-  *   How-To Guide with implementation guidance;
-  *   Quick-Start Guide with different steps to improve your secure software practice;
-  *   Updated SAMM Tool Box to perform SAMM assessments and create SAMM roadmaps;
+  *   SAMM Core Model document: Explains the maturity model with worksheets and guidance
+  *   How-To Guide: Implementation guidance for conducting assessments with example case studies
+  *   Quick-Start Guide: Simplified process and information to help get started with SAMM
+  *   Updated SAMM Tool Box with interview forms and the ability to generate roadmaps, charts, and graphs
 
 "Our main goal for version 1.5 was to support our large user community by incorporating their feedback and improving the measurement system of the model.", says Bart De Win, co-project leader of OWASP SAMM.
 
-<TODO: include statement from Brian ?> (about nifty grading system, or about backward compatibility, or, ...)
+“We've already started using version 1.5 of the tool internally, and we've gotten an enthusiastic response to the enhanced scoring and easy-to-generate charts." – Mike Craigue, Dell Cybersecurity
 
-The OWASP SAMM project leaders are Sebastien Deleersnyder, Bart De Win, and Brian Glas.
+"One of the main benefits of the updated scoring model is that you can visibly see improvement to your maturity score on the dashboard as initiatives are completed.  This can go a long way in building support for your Application Security Program.", says Brian Glas, nVisium.
+
+The OWASP SAMM project leaders are Sebastien Deleersnyder and Bart De Win.
 
 To learn more, visit https://www.owasp.org/index.php/SAMM
 
