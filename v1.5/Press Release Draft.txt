@@ -2,12 +2,12 @@ OWASP Releases Software Assurance Maturity Model (SAMM) Version 1.5 for Improvin
 
 OWASP SAMM v1.5 released to enhance the ability of organizations to measure and improve their software security
 
-Jan 23, 2017, 12:15 ET from OWASP Foundation<http://www.prnewswire.com/news/owasp-foundation>
+Feb 28, 2017, 12:15 ET from OWASP Foundation<http://www.prnewswire.com/news/owasp-foundation>
 
 
 BEL AIR, Md., February 28, 2017 /PRNewswire/ -- The OWASP Foundation today announced the release of OWASP SAMM v1.5. The Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to organization-specific risks. This new version 1.5 improves scoring precision by providing partial credit for meeting objectives.
 
-SAMM enables organizations to steadily improve their software security posture over time. Web applications are one of the primary targets for cyber attackers, with application-layer vulnerabilities exploited as a point of entry in many recent high profile security breaches. The additions to OWASP SAMM are a direct response to the relentless occurrence of security breaches where vulnerable software allowed attackers to gain access to private, corporate data. The resources provided by SAMM aid in:
+SAMM enables organizations to steadily improve their software security posture over time. Applications are primary targets for cyber attackers, with application-layer vulnerabilities exploited as a point of entry in many recent high profile security breaches. The additions to OWASP SAMM are a direct response to the relentless occurrence of security breaches where vulnerable software allowed attackers to gain access to private, corporate data. The resources provided by SAMM aid in:
 
   *   Evaluating an organization's existing software security practices;
   *   Building a balanced software security assurance program in well-defined iterations;
