@@ -9,3 +9,6 @@ devops increases communication between the involved people/teams/stakeholders
 
 how about decommissioning / archiving / end of life (?)
 is this part of SAMM / maturity?
+
+Bug Bounties?
+
