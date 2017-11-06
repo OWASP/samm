@@ -12,3 +12,4 @@ is this part of SAMM / maturity?
 
 Bug Bounties?
 
+responsible disclosure
