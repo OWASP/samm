@@ -60,6 +60,74 @@ Defect Management
 
 we will continue the discussion/feedback next Wednesday
 
+call 20-Dec-2017
+participants: Bruce, Seba, Yan, Daniel,
+
+discuss input from BDW on the Implementation (see file)
+
+Build process is automated and controlled (and breaks when security is not met):
+Is this aligned with the level 1/2/3 logic?
+
+Build process does include security protections (e.g., obfuscatio, secure configs, …):
+does not seem a logical level 3 activity based on l 1/2 activities in this stream
+also overlaps with functional requirements?
+
+Software includes active integrity protection techniques (e..g., remote attestation):
+level 3+ activity?
+not part of the build process
+what is meant with "active technique" in this context
+
+overall: need to reconsider B: Software Integrity in this business function as stream?
+plus compiled versus interpreted build processes? c versus node.js
+alternatives?
+
+
+Defined Change Management Process	:
+other option: deployment by somebody else (cfr separation of duties).
+or "Change Management Process includes security consideration (not approval)."
+
+Integration of security verification in deployment	:
+e.g. binary security verification
+
+
+All code is digitally signed and signatures are verified at Deployment:
+relation with "mobile deployment / app store ..." ?
+
+Configuration files are versioned	
+
+Configuration files do not contain unencrypted sensitive configuration information, such as passwords, connection strings, API keys, encryption keys, or private IP addresses.	
+alternative: Configuration secrets are protected in the file	
+remarks
+software based HSMs?
+splitting config files (separate secrets)
+injecting secrets in configurations
+cfr https://github.com/Netflix/eureka/wiki/Configuring-Eureka
+
+Access to sensitive information requires split-knowledge and / or inaccessible to individuals involved in the development of the application.
+replace by BDW proposal - "Deployment process automatically generates/initializes security secrets (keys, tokens, accounts, …)"
+
+
+
+Track defects and establish SLA
+2 different activities?
+SLAs more part of policy
+establish versus enforcing SLA (more l2)
+
+
+actions:
+Yan to make a consolidated version on Onedrive
+Seba to send out slots for week1/2 in Januari
+
+
+
+
+
+
+
+
+
+
+
 
 
 
