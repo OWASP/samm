@@ -121,10 +121,40 @@ Seba to send out slots for week1/2 in Januari
 
 
 
+call 9-Jan-2018
+participants: Bruce, Seba, Bart, Daniel,
+
+reviewing verification.
+A: Application Architecture
+remarks: criteria for performing security architecture review (L2?)
+with L3: always have a review?
+Would this not be part of the measurement?
+L1: requirements+best practices
+L2: standardized approach?
+L3: consider impact on the rest of the enterprise? requires sofistication in terms of storing/reviewing architectures 
+include verification against A: Secure Architecture Design ?
+
+B: Supporting Architecture
+need for better understanding/description what this entails
+e.g. load balancing, databases, configurations, kubernetes, ...
 
 
+B: Misuse/Abuse Testing [-]
+rewrite this towards abuse of requirements. rethink these
+question: What is distinction/overlap with security testing?
+scenarios in which the system is being abuse - business logic attacks?
+do we need to mention "security unit tests"
 
+add/placeholder for fuzzing?
 
+is this the most logical ordering of streams:
+A: Control Verification [+]
+B: Misuse/Abuse Testing [-]
+A: Scalable Baseline
+B: Deep Understanding
+
+rethink:
+B: Misuse/Abuse Testing [-]	Perform security testing for standard (vulnerabilities)	Perform security testing on application specific (vulnerabilities)	Perform security testing on application abuse flaws
 
 
 
