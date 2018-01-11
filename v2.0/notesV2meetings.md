@@ -158,6 +158,63 @@ B: Misuse/Abuse Testing [-]	Perform security testing for standard (vulnerabiliti
 
 
 
+call 11-Jan-2018
+participants: Seba, Daniel, Bart, 
+
+A: Incident Detection
+l1 - isolated incident detection (e.g. log/waf) automated/manual eg: multiple login failure threshold.
+l2 - log corelation + siem / log consolidation + syslog
+l3 - process / soc behind it
+level of IOCs? level of rules
+what objectives have to be reached in each level
+
+
+B: Incident Response
+l1 - adhoc not enough for this maturity. contacts,structure,steps,communications,... already known, but not trained yet
+
+
+
+A: Patching
+l2 - e.g. secunia
+l3 - track with e.g. jira tickets
+full stack: includes libraries
+
+
+A: Data Management
+add dealing with test data 
+looks like information security, what is the link with applications
+NOT: company, financial data = needs to be encrypted according to classification
+focus on data which is processed by the systems. email confidential with customer data - processed by different systems. difference between accessing the headers vs the content. statistical data
+relation with operations?
+overlap with Policy&Compliance?
+l3 example enforce that caching data is according to the foreseen time, other: cassandra - nodes talk to each other and compare deltas meaning assynchronous data deletion/propagation (quorum tells you the data is not there) ??
+alternative
+l1 measures to protect application data from being accessed, e.g. log access/integrity 
+l2 test data access / controls / anonymisation+pseudonymisation masking
+l3 example: data vaults with control over the data?
+
+B: Change Management (decommisioning before)
+ITIL considered a pre-condition? to be included in samm
+but difficult to find 3 levels of decommisioning
+
+
+
+
+
+
+
+
+next iteration:
+what objectives have to be reached in each level
+
+
+
+
+
+
+updated activity streams in Operational Management
+A: Data Management
+B: Change Management
 
 
 
