@@ -198,8 +198,25 @@ ITIL considered a pre-condition? to be included in samm
 but difficult to find 3 levels of decommisioning
 
 
+call 22-Jan-2018
+participants: Bruce, Bart, Seba, Yan
+White and grey are combined
+Strategy & Metrics
+Stream build and promote: too much risk based ?
+Change wording of dashboard into less metric centric
+We're not dealing with promoting
 
+Policy & Compliance
+sign-off procedures (only for exceptions): it should be documented somewhere, must be a record
+remove the word gate from the wording
+external suppliers: only level 3 ? - we could reach more at level 3
+Compliance mngt: Maybe consider activities that apply both on internal and external for all three levels ?
 
+Education & Guidance:
+stream A = training ; stream B = talking to people
+Maybe restructure into stream A: technical recommendations and stream B: training and communicating
+certification still might make sense
+Format how to train is probably not important (might depend on organisation size)
 
 
 
