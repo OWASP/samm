@@ -129,15 +129,20 @@ A: Application Architecture
 remarks: criteria for performing security architecture review (L2?)
 with L3: always have a review?
 Would this not be part of the measurement?
+20180218 - Seba: this is part of the level structure / frequency (can be integrated in the maturity questions)
+
 L1: requirements+best practices
+20180218 - Seba: implemented
 L2: standardized approach?
+20180218 - Seba: implemented
 L3: consider impact on the rest of the enterprise? requires sofistication in terms of storing/reviewing architectures 
 include verification against A: Secure Architecture Design ?
+20180218 - Seba: updated to: "Review of the application architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures"
 
 B: Supporting Architecture
 need for better understanding/description what this entails
 e.g. load balancing, databases, configurations, kubernetes, ...
-
+20180218 - Seba: to be discussed
 
 B: Misuse/Abuse Testing [-]
 rewrite this towards abuse of requirements. rethink these
@@ -146,16 +151,18 @@ scenarios in which the system is being abuse - business logic attacks?
 do we need to mention "security unit tests"
 
 add/placeholder for fuzzing?
+20180218 - Seba: added as level1 activity
 
 is this the most logical ordering of streams:
 A: Control Verification [+]
 B: Misuse/Abuse Testing [-]
 A: Scalable Baseline
 B: Deep Understanding
+20180218 - Seba: still seems to fit the business function
 
 rethink:
 B: Misuse/Abuse Testing [-]	Perform security testing for standard (vulnerabilities)	Perform security testing on application specific (vulnerabilities)	Perform security testing on application abuse flaws
-
+20180218 - Seba: updated
 
 
 call 11-Jan-2018
