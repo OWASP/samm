@@ -1,8 +1,8 @@
-# Header
+# Meta
 
-| Business Function | Security Practice |
-|:---|:---|
-| *Governance* | *Strategy & Metrics* |
+| Business Function | Security Practice | Assigned To | % Complete |
+|:---|:---|:---|:---|
+| *Governance* | *Strategy & Metrics* | Name (email) | 0% |
 
 # Overview
 
