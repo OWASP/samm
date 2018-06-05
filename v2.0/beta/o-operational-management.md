@@ -18,7 +18,7 @@ complete          : 0%
 
 ## Maturity 1
 ### Activity
-It is documented which applications process and store which data. Production sensitive (esp. personal) data is present only in the production environment.
+It is identified and captured which applications process and store sensitive data. Production sensitive (esp. personal) data is present only in the production environment.
 
 #### Maturity Questions
 ##### Q 1
@@ -31,11 +31,14 @@ Are security notes delivered with each software release?
 - Option 4
 
 #### Notes
+coverage handled by questions?
+you know what you have/process
+sensitive and/or under regulatory compliance
 
 
 ## Maturity 2
 ### Activity
-Process for handling sensitive data within system operations is documented and established. Data is consequently protected according to the need-to-know principle. Access to sensitive data is reliably protocoled. 
+Process for handling sensitive data "within system operations"(?) is established (=data protection policy). Data is consequently protected according to the need-to-know principle. Access to sensitive data is reliably protocoled. 
 
 ### Maturity Questions
 #### Q 1
@@ -48,11 +51,16 @@ Do projects utilize a change management process that’s well understood?
 - Option 4
 
 #### Notes
-
+explain "reliably protocoled" ?
+what about integrity/availability ?
+cover data retention ??
+cover data offshoring?
+depends on organization compliance obligations (link with P&C)
+need for more concrete SW related use cases / examples
 
 ## Maturity 3
 ### Activity
-Compliance to the data protection policy is regularly checked/audited. There are measures ensuring timely detection of non-functional data protection mechanisms (e.g., regular delete jobs).
+Compliance to the data protection policy is regularly checked/audited. There are measures ensuring timely detection of broken data protection mechanisms (e.g., regular delete jobs).
 
 ### Maturity Questions
 #### Q 1
@@ -65,7 +73,7 @@ Are project releases audited for appropriate operational security information?
 - Option 4
 
 #### Notes
-
+where does the data protection policy come from?
 
 
 # B: System decomissioning / Legacy management
@@ -85,7 +93,6 @@ Are security-related alerts and error conditions documented on a per-project bas
 - Option 4
 
 #### Notes
-
 
 
 ## Maturity 2
