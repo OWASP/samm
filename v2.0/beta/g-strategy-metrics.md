@@ -1,8 +1,10 @@
-# Meta
+---
+business_function : Governance
+security_practice : Strategy & Metrics
+assigned_to       : Name (email) 
+complete          : 0%
+---
 
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Governance* | *Strategy & Metrics* | Name (email) | 0% |
 
 # Overview
 
