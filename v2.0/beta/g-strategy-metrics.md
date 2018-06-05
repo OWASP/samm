@@ -34,18 +34,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 The goal here is to promote the metrics as well as the application secureity program.
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
-
 ## Maturity 2
 ### Activity
-Based on the magnitude of assets, threats, and risk tolerance, develop a strategic plan and budget to address business priorities around application security.  Brief stakeholders and obtain buy-in.
+Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security.  Brief stakeholders and obtain buy-in.
 
 ### Maturity Questions
 #### Q 1
@@ -59,14 +50,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -84,14 +67,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: Measure and Improve
 
@@ -118,15 +93,6 @@ We should make sure that we address metrics from the stand point of:
 We should make sure to reference all other Security Practices and activities within the model, such as Implementation Defect Tracking metrics
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
-
 ## Maturity 2
 ### Activity
 Identify key performance indicators that reflect security program health.  Adjust metrics and KPI's if business priority changes affect the strategic roadmap.
@@ -144,15 +110,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 Set security goals and objectives designed to support the strategic roadmap.  Develop basic metrics to chart progress.
@@ -167,10 +124,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### OWASP References
-* Link 1
-* Link 2
 
-#### External References
-* Link 1
-* Link 2
