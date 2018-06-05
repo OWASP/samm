@@ -1,7 +1,7 @@
 ---
 business_function : Governance
 security_practice : Education & Guidance
-assigned_to       : Name (email) 
+assigned_to       : Yan Kravchenko (@yanfosec) 
 complete          : 0%
 ---
 
