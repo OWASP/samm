@@ -1,8 +1,9 @@
-# Meta
-
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Verification* | *Architecture Assessment* | Seba (seba@owasp.org) | 0% |
+---
+business_function : Verification
+security_practice : Architecture Assessment
+assigned_to       : Seba (seba@owasp.org) 
+complete          : 0%
+---
 
 # Overview
 

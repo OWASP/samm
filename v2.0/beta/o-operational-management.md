@@ -1,8 +1,9 @@
-# Meta
-
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Operations* | *Operational Management* | John (john.dileo@owasp.org) | 0% |
+---
+business_function : Operations
+security_practice : Operational Management
+assigned_to       : John (john.dileo@owasp.org) 
+complete          : 0%
+---
 
 # Overview
 

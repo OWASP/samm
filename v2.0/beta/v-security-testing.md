@@ -1,8 +1,9 @@
-# Meta
-
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Verification* | *Security Testing* | Seba (seba@owasp.org) | 0% |
+---
+business_function : Verification
+security_practice : Security Testing
+assigned_to       : Seba (seba@owasp.org) 
+complete          : 0%
+---
 
 # Overview
 

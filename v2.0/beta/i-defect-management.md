@@ -1,8 +1,9 @@
-# Meta
-
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Implementation* | *Defect Management* | Name (email) | 0% |
+---
+business_function : Implementation
+security_practice : Defect Management
+assigned_to       : Name (email) 
+complete          : 0%
+---
 
 # Overview
 

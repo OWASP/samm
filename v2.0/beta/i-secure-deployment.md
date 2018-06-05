@@ -1,8 +1,10 @@
-# Meta
+---
+business_function : Implementation
+security_practice : Secure Deployment
+assigned_to       : Name (email) 
+complete          : 0%
+---
 
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Implementation* | *Secure Deployment* | Name (email) | 0% |
 
 # Overview
 
