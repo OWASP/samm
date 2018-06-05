@@ -173,10 +173,12 @@ There are regular incident and emergency exercises. The results of the exercises
 Do projects consistently collect and report data and metrics related to incidents?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
 
 #### OWASP References
 * Link 1
