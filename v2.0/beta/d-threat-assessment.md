@@ -1,6 +1,6 @@
 ---
 business_function : Design
-security_practice : Security Practice
+security_practice : Threat Assessment
 assigned_to       : bart.dewin@owasp.org 
 complete          : 0%
 ---
