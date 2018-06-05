@@ -1,16 +1,24 @@
 ---
 business_function : Governance
 security_practice : Strategy & Metrics
-assigned_to       : Name (email) 
+assigned_to       : Yan Kravchenko (@yanfosec) 
 complete          : 0%
 ---
 
 
-# Overview
+# Proposed Overview
 
 | | A: Create and Promote | B: Measure and Improve |
 |:---|:---|:---|
-| Maturity 1 - Measure relative value of data and software assets and choose risk tolerance. | Compare threat landscape to business risk tolerance | Align asset classification with business risk profile|
+| Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Compare threat landscape to business risk tolerance | Align asset classification with business risk profile |
+| Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Publish organization-wide metrics and reports measuring program's effectiveness  | Set targets and KPI's for measuring the effectiveness program |
+| Maturity 3 - Align security expenditure with relevant business indicators and asset value. | Influence the roadmap based on the metrics and organizational needs | Align security remediation efforts with business indicators, asset value |
+
+# Original Overview
+
+| | A: Create and Promote | B: Measure and Improve |
+|:---|:---|:---|
+| Maturity 1 - Measure relative value of data and software assets and choose risk tolerance. | Compare threat landscape to business risk tolerance | Align asset classification with business risk profile |
 | Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Build, articulate business case to justify expenditure | Set targets and KPI's for measuring the effectiveness program |
 | Maturity 3 - Align security expenditure with relevant business indicators and asset value. | Report progress with portfolio risk dashboard | Align security expenditure with business indicators, asset value. |
 
