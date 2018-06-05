@@ -111,7 +111,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+We should make sure that we address metrics from the stand point of:
+- Metrics to measure the maturity of each BF and SP
+- Non-Defect related metrics that measure activities such as training, threat assessments, etc
+- Defect-related such as bugs / issues / etc
 
+We should make sure to reference all other Security Practices and activities within the model, such as Implementation Defect Tracking metrics
 
 
 #### OWASP References
@@ -125,7 +130,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Set security goals and objectives designed to support the strategic roadmap.  Develop basic metrics to chart progress.
+Identify key performance indicators that reflect security program health.  Adjust metrics and KPI's if business priority changes affect the strategic roadmap.
 
 ### Maturity Questions
 #### Q 1
@@ -151,7 +156,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Identify key performance indicators that reflect security program health.  Adjust metrics and KPI's if business priority changes affect the strategic roadmap.
+Set security goals and objectives designed to support the strategic roadmap.  Develop basic metrics to chart progress.
 
 ### Maturity Questions
 #### Q 1
