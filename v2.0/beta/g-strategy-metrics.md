@@ -11,8 +11,8 @@ complete          : 0%
 | | A: Create and Promote | B: Measure and Improve |
 |:---|:---|:---|
 | Maturity 1 - Measure relative value of data and software assets and choose risk tolerance. | Compare threat landscape to business risk tolerance | Align asset classification with business risk profile|
-| Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Build, articulate business case to justify expenditure | Align security expenditure with business indicators, asset value. |
-| Maturity 3 - Align security expenditure with relevant business indicators and asset value. | Report progress with portfolio risk dashboard | Tailor KPI's to strategy |
+| Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Build, articulate business case to justify expenditure | Set targets and KPI's for measuring the effectiveness program |
+| Maturity 3 - Align security expenditure with relevant business indicators and asset value. | Report progress with portfolio risk dashboard | Align security expenditure with business indicators, asset value. |
 
 
 # A: Create and Promote
