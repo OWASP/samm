@@ -9,7 +9,7 @@ complete          : 0%
 
 | | A: Policy and Standards | B: Compliance Management |
 |:---|:---|:---|
-| Maturity 1 - Understand governance and compliance drivers relevant to the organization. | Establish a security baseline representing organization's policies and ttandards | Identify compliance obligations for each application |
+| Maturity 1 - Understand governance and compliance drivers relevant to the organization. | Establish a security baseline representing organization's policies and standards | Identify compliance obligations for each application |
 | Maturity 2 - Establish security and compliance baseline and understand per-project risks. | Develop security requirements applicable to all applications | Develop a appliction requirements addressing each compliance requirement |
 | Maturity 3 - Require compliance and measure projects against organization-wide policies and standards. | Enforce testing and measure adherence to security requirements | Enforce testing and measure adherence to compliance requirements |
 
