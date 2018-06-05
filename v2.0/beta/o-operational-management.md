@@ -114,7 +114,7 @@ Do project teams deliver an operational security guide with each product release
 
 ## Maturity 3
 ### Activity
-_DUPLICATE OF LEVEL 2 TEXT: If application is decomissioned, also all relevant accounts, firewall rules, data, etc. are deleted according to an established process.
+Life state of every software asset and underlying infrastructure is periodically evaluated and EOL is estimated. Switching the application into a legacy state triggers a defined process which also mitigates resulting security risks. Lessons learned process for handling legacy is established. 
 
 ### Maturity Questions
 #### Q 1
