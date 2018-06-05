@@ -8,7 +8,7 @@
 
 | | A: Patching (and Updating) | B: Hardening |
 |:---|:---|:---|
-| Maturity 1 - Best-effort patching and hardening | High-level process and roles defined | Opportunistic best-effort hardening |
+| Maturity 1 - Best-effort patching and hardening | Prioritized best-effort patching | Prioritized best-effort hardening |
 | Maturity 2 - Formal process with baselines in place | Formal process covering the full stack | Hardening baseline and guidelines available |
 | Maturity 3 - Conformity with continuously improving process enforced | Consolidated update process with SLA and reporting | Detection and handling of non-conformities |
 
@@ -17,7 +17,7 @@
 
 ## Maturity 1
 ### Activity
-Responsibilities for patching across the full stack are defined and known . Respective roles patch the particular components in a defined way. 
+Responsibilities for patching across the full stack are defined and known . Respective roles patch the particular components in a defined way. (to be updated - see notes)
 
 #### Maturity Questions
 ##### Q 1
@@ -31,6 +31,15 @@ SAMMQA-C:
 - Yes, the majority of them are/do
 
 #### Notes
+activities would be different for container based deployments
+implictly assumes you have an overview of what needs to be patched. 
+coverage can be measured with the Q&As
+use maintenance windows to oppurtunistically patch/upgrade software
+you know what patches are missing
+identify patching dependencies
+L1 - identify what matters and what is missing and prioritized best-effort patching
+L2 - strategy , process , calendar
+L3 - SLA / reporting
 
 
 ## Maturity 2
@@ -49,7 +58,9 @@ SAMMQA-G:
 - Yes, across the organization and required
 
 #### Notes
-
+baseline or target levels defined
+patch/upgrade calendar followed
+manage process information (e.g. gap)
 
 ## Maturity 3
 ### Activity
@@ -88,7 +99,9 @@ SAMMQA-C:
 - Yes, the majority of them are/do
 
 #### Notes
-
+description more L2 aligned, versus best-effort
+full stack - too "devopsy"?
+definition = configuration hardening?
 
 
 ## Maturity 2
