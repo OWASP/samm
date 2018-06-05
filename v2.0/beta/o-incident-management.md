@@ -26,10 +26,11 @@ Opportunistic, either manual or automated analysis is carried out upon available
 Do projects have a point of contact for security issues or incidents?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
@@ -52,10 +53,11 @@ Formalized documented process for incident detection is established. Log data is
 Does the organization utilize a consistent process for incident reporting and handling?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-G:
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required
 
 #### Notes
 
@@ -77,10 +79,11 @@ Effectiveness and efficiency of the process are continuously challenged and impr
 Are incidents inspected for root causes to generate further recommendations?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
@@ -105,19 +108,21 @@ Points of contact for a case of an incident and escalation procedures are known.
 Does your organization have an assigned security response team?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-A:
+- No
+- Yes, it's less than a year old
+- Yes, it's a number of years old
+- Yes, it's a pretty mature program
 
 #### Q 2
 Are project teams aware of their security point(s) of contact and response team(s)?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
@@ -141,10 +146,11 @@ Process for incident response is established. The process includes a policy for 
 Are project stakeholders aware of relevant security disclosures related to their software projects?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
