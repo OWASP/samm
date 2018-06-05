@@ -1,16 +1,9 @@
 ---
-title           : Francois Raynaud
-type            : participant
-job_title       : DevSecOps leader
-company         : DevSecCon
+business_function : Design
+security_practice : Security Architecture
+assigned_to       : bart.dewin@owasp.org 
+complete          : 0%
 ---
-
-Business_Function : Design
-# Meta
-
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Design* | *Security Architecture* | bart.dewin@owasp.org | 0% |
 
 # Overview
 
