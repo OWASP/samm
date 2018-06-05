@@ -12,7 +12,7 @@ complete          : 0%
 |:---|:---|:---|
 | Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Compare threat landscape to business risk tolerance | Align asset classification with business risk profile |
 | Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Publish a unified strategy for application security  | Set targets and KPI's for measuring the program effectiveness |
-| Maturity 3 - Align security expenditure with relevant business indicators and asset value. | Align security remediation efforts with business indicators, asset value | Influence the strategy based on the metrics and organizational needs |
+| Maturity 3 - Align security efforts with relevant business indicators and asset value. | Align security remediation efforts with business indicators, asset value | Influence the strategy based on the metrics and organizational needs |
 
 # Original Overview
 
