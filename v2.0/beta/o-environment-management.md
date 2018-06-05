@@ -24,10 +24,11 @@ Responsibilities for patching across the full stack are defined and known . Resp
 Do projects document operational environment security requirements?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
@@ -50,10 +51,11 @@ Update process is defined and documented across the full stack. Patches are not 
 Is a consistent process used to apply upgrades and patches to critical dependencies?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-G:
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required
 
 #### Notes
 
@@ -75,10 +77,11 @@ Conformity with the patch process is reliably evaluated. Nonconformities are han
 Are stakeholders aware of options for additional tools to protect software while running in operations?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-F:
+- No
+- Yes, teams write/run their own
+- Yes, there is a standard set
+- Yes, the standard set is integrated
 
 #### Notes
 
@@ -103,10 +106,11 @@ Responsibilities for hardening software components across the full stack are def
 Do projects check for security updates to third-party software components?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
@@ -130,10 +134,11 @@ Hardening process is defined and documented across the full stack. Hardening bas
 Do projects leverage automation to check application and environment health?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
@@ -156,10 +161,11 @@ Conformity with the hardening baselines is reliably evaluated. Nonconformities a
 Does a minimum security baseline exist for environment health (versioning, patching, etc)?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+SAMMQA-G:
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required
 
 #### OWASP References
 * Link 1
