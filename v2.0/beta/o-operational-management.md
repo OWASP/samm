@@ -18,11 +18,11 @@ complete          : 0%
 
 ## Maturity 1
 ### Activity
-It is identified and captured which applications process and store sensitive data. Production sensitive (esp. personal) data is present only in the production environment.
+The data stored and processed by the application are identified, and information regarding their types, sensitivity, and storage location(s) are captured. Appropriate controls are in place to ensure sensitive data from Production environments are not propagated to lower environments without having been properly sanitized/anonymized.
 
 #### Maturity Questions
 ##### Q 1
-Are security notes delivered with each software release?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
 **Answer Options**
 - Option 1
@@ -42,7 +42,7 @@ Process for handling sensitive data "within system operations"(?) is established
 
 ### Maturity Questions
 #### Q 1
-Do projects utilize a change management process that’s well understood?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
 **Answer Options**
 - Option 1
@@ -64,7 +64,7 @@ Compliance to the data protection policy is regularly checked/audited. There are
 
 ### Maturity Questions
 #### Q 1
-Are project releases audited for appropriate operational security information?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
 **Answer Options**
 - Option 1
@@ -84,7 +84,7 @@ Explicit (manual or automated) actions for identification of unused applications
 
 ### Maturity Questions
 #### Q 1
-Are security-related alerts and error conditions documented on a per-project basis?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
 **Answer Options**
 - Option 1
@@ -103,7 +103,7 @@ If application is decomissioned, also all relevant accounts, firewall rules, dat
 
 ### Maturity Questions
 #### Q 1
-Do project teams deliver an operational security guide with each product release?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
 **Answer Options**
 - Option 1
@@ -120,7 +120,7 @@ Life state of every software asset and underlying infrastructure is periodically
 
 ### Maturity Questions
 #### Q 1
-Is code signing routinely performed on software components using a consistent process?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
 **Answer Options**
 - Option 1
