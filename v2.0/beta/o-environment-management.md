@@ -102,7 +102,7 @@ SAMMQA-C:
 description more L2 aligned, versus best-effort
 full stack - too "devopsy"?
 definition = configuration hardening?
-
+L1 = identify what matters to protect your environment and what is missing and prioritized best-effort hardening
 
 ## Maturity 2
 ### Activity
@@ -120,7 +120,8 @@ SAMMQA-C:
 - Yes, the majority of them are/do
 
 #### Notes
-
+standards in place
+standard way if deploying the baselines
 
 ## Maturity 3
 ### Activity
@@ -136,4 +137,9 @@ SAMMQA-G:
 - Yes, localized to business areas
 - Yes, across the organization
 - Yes, across the organization and required
+
+#### Notes
+non-conformities / self-healing (overwriting)
+
+
 
