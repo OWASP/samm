@@ -93,7 +93,9 @@ Are security-related alerts and error conditions documented on a per-project bas
 - Option 4
 
 #### Notes
-
+definition of legacy ?
+out of date or in need of replacement?
+no active development / maintenance?
 
 ## Maturity 2
 ### Activity
