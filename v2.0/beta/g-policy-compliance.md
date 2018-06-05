@@ -1,11 +1,19 @@
 ---
 business_function : Governance
 security_practice : Policy & Compliance
-assigned_to       : Name (email) 
+assigned_to       : Yan Kravchenko (@yanfosec) 
 complete          : 0%
 ---
 
-# Overview
+# Proposed Overview
+
+| | A: Policy and Standards | B: Compliance Management |
+|:---|:---|:---|
+| Maturity 1 - Understand governance and compliance drivers relevant to the organization. | Establish a security baseline representing organization's policies and ttandards | Identify compliance obligations for applications |
+| Maturity 2 - Establish security and compliance baseline and understand per-project risks. | Develop security requirements applicable to all applications | Develop a appliction requirements addressing each compliance requirement |
+| Maturity 3 - Require compliance and measure projects against organization-wide policies and standards. | Enforce testing and measure results of adherence to security requirements | Enforce testing and measure results of adherence to compliance requirements |
+
+# Original Overview
 
 | | A: Policy and Standards | B: Compliance Management |
 |:---|:---|:---|
