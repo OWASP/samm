@@ -10,7 +10,7 @@ complete          : 0%
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
 | Maturity 1 - Offer development staff access to resources around the topics of secure programming and deployment. | Establish security guidance consistent with risk profile | Identify a "Security Champion" within each development team |
-| Maturity 2 - Educate all personnel in the software lifecycle with technology and role-specific guidance on secure development. | Offer technology and role-specific training, including security nuances of each language and platform | Identify "Security Product Champions" to facilitate tool adoption and assist other teams with implementation |
+| Maturity 2 - Educate all personnel in the software lifecycle with technology and role-specific guidance on secure development. | Offer technology and role-specific training, including security nuances of each language and platform | Identify a "Security Product Champion" to facilitate tool adoption and assist other teams with implementation |
 | Maturity 3 - Facilitate in-house training programs facilitated by developers across different teams | Develop an in-house training programs around the organization's secure software development standards. | Develop a secure software development center of excellence |
 
 # Original Overview
