@@ -1,3 +1,11 @@
+---
+title           : Francois Raynaud
+type            : participant
+job_title       : DevSecOps leader
+company         : DevSecCon
+---
+
+Business_Function : Design
 # Meta
 
 | Business Function | Security Practice | Assigned To | % Complete |
@@ -149,7 +157,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-For all proprietary development (in-house or acquired), impose the use of standardized technology. Align legacy software to these standards.
+For all proprietary development (in-house or acquired), impose the use of standardized technology.Â Align legacy software to these standards.
 
 ### Maturity Questions
 #### Q 1
