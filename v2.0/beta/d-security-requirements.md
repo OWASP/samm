@@ -1,15 +1,18 @@
-# Meta
 
-| Business Function | Security Practice | Assigned To | % Complete |
-|:---|:---|:---|:---|
-| *Design* | *Security Requirements* | bart.dewin@owasp.org | 0% |
+---
+business_function : Design
+security_practice : Security Requirements
+assigned_to       : bart.dewin@owasp.org 
+complete          : 0%
+---
+
 
 # Overview
 
 | | A: Software Requirements | B: 3-rd Party Requirements |
 |:---|:---|:---|
 | Maturity 1 - Consider security explicitly during the software requirements process. | High-level application security objectives | Evaluate the supplier according on security|
-| Maturity 2 - Increase granularity of security requirements derived from business logic and known risks. | Requirements from policies, threats, risks, … | Build security into supplier agreements |
+| Maturity 2 - Increase granularity of security requirements derived from business logic and known risks. | Requirements from policies, threats, risks, ï¿½ | Build security into supplier agreements |
 | Maturity 3 - Mandate security requirements process for all software projects and third-party dependencies. | Build a standard requirements framework | SDLC alignment for external suppliers |
 
 
