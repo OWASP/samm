@@ -34,15 +34,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
-
 ## Maturity 2
 ### Activity
 Identify potential security requirements from different origins, including policies and legislation, identified threats in the application, known problems in the application, and so forth. 
@@ -59,14 +50,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -85,14 +68,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: 3-rd Party Requirements
 
@@ -114,15 +89,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
-
 ## Maturity 2
 ### Activity
 Enhance supplier contracts to include security-specific clauses. This will ensure a good foundation for collaboration as well as a well-defined set of responsabilities and liabilities.
@@ -140,15 +106,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 Align the practices of your suppliers with your own SDLC. The goal is not to have identical SDLCs, but rather to ensure a similar set of activities and common milestones to increase quality assurance.
@@ -163,10 +120,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2

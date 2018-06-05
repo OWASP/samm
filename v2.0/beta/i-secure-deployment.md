@@ -34,15 +34,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
-
 ## Maturity 2
 ### Activity
 Implement a wide-range of malware detection
@@ -59,14 +50,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -85,14 +68,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: Configurations/Secret Management
 
@@ -114,15 +89,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
-
 ## Maturity 2
 ### Activity
 Use encryption or a centralized vault to protect sensitive coniguration information
@@ -140,15 +106,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 Deployment process initiates and distributes access credentials
@@ -163,10 +120,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### OWASP References
-* Link 1
-* Link 2
 
-#### External References
-* Link 1
-* Link 2

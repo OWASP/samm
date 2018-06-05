@@ -33,15 +33,6 @@ Are security notes delivered with each software release?
 #### Notes
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
-
 ## Maturity 2
 ### Activity
 Process for handling sensitive data within system operations is documented and established. Data is consequently protected according to the need-to-know principle. Access to sensitive data is reliably protocoled. 
@@ -58,14 +49,6 @@ Do projects utilize a change management process that’s well understood?
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -84,14 +67,6 @@ Are project releases audited for appropriate operational security information?
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: System decomissioning / Legacy management
 
@@ -113,15 +88,6 @@ Are security-related alerts and error conditions documented on a per-project bas
 
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
-
 ## Maturity 2
 ### Activity
 If application is decomissioned, also all relevant accounts, firewall rules, data, etc. are deleted according to an established process.
@@ -139,15 +105,6 @@ Do project teams deliver an operational security guide with each product release
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 _DUPLICATE OF LEVEL 2 TEXT: If application is decomissioned, also all relevant accounts, firewall rules, data, etc. are deleted according to an established process.
@@ -162,10 +119,3 @@ Is code signing routinely performed on software components using a consistent pr
 - Option 3
 - Option 4
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2

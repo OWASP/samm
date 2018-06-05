@@ -32,15 +32,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
-
 ## Maturity 2
 ### Activity
 Automation facilitates different forms of automated testing, which can be included in each build.
@@ -57,14 +48,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -83,14 +66,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: Software Supply Chain
 
@@ -112,15 +87,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
-
 ## Maturity 2
 ### Activity
 Establish a complete library lifecycle including periodic reviews and approvals
@@ -138,15 +104,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 Verify code in libraries the same way it's handled with internally-developed source code
@@ -161,10 +118,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2

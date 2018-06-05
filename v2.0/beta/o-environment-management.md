@@ -33,15 +33,6 @@ SAMMQA-C:
 #### Notes
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
-
 ## Maturity 2
 ### Activity
 Update process is defined and documented across the full stack. Patches are not only applied when they are available; external sources are also used in order to gather intelligence about zero day vulnerabilities so that appropriate risk mitigation steps can be carried out.
@@ -59,14 +50,6 @@ SAMMQA-G:
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -86,14 +69,6 @@ SAMMQA-F:
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: Hardening
 
@@ -116,15 +91,6 @@ SAMMQA-C:
 
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
-
 ## Maturity 2
 ### Activity
 Hardening process is defined and documented across the full stack. Hardening baselines are available and used consistently.
@@ -143,15 +109,6 @@ SAMMQA-C:
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 Conformity with the hardening baselines is reliably evaluated. Nonconformities are handled as security findings, triaged and handled according to rules and SLAs stemming from the defect management practice.
@@ -167,10 +124,3 @@ SAMMQA-G:
 - Yes, across the organization
 - Yes, across the organization and required
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2

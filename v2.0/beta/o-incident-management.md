@@ -35,15 +35,6 @@ SAMMQA-C:
 #### Notes
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
-
 ## Maturity 2
 ### Activity
 Formalized documented process for incident detection is established. Log data is correlated from different sources. New applications are part of this process. The process ensures that high-level incident scenarios are known.
@@ -62,13 +53,6 @@ SAMMQA-G:
 #### Notes
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -87,15 +71,6 @@ SAMMQA-C:
 
 #### Notes
 
-
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: Incident Response
 
@@ -127,16 +102,6 @@ SAMMQA-C:
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
-
 ## Maturity 2
 ### Activity
 Process for incident response is established. The process includes a policy for carrying out RCAs with the goal of improving both detection and response process.
@@ -155,15 +120,6 @@ SAMMQA-C:
 #### Notes
 
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 There are regular incident and emergency exercises. The results of the exercises are used for the process improvement.
@@ -178,12 +134,3 @@ SAMMQA-C:
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
-
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
