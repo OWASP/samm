@@ -1,4 +1,3 @@
-
 ---
 business_function : Design
 security_practice : Security Requirements
