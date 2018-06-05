@@ -9,7 +9,7 @@ complete          : 0%
 
 | | A: Policy and Standards | B: Compliance Management |
 |:---|:---|:---|
-| Maturity 1 - Understand governance and compliance drivers relevant to the organization. | Consolidate line-of-business compliance obligations | Monitor external compliance drivers |
+| Maturity 1 - Understand governance and compliance drivers relevant to the organization. | Identify compliance obligations for applications | Monitor external compliance drivers |
 | Maturity 2 - Establish security and compliance baseline and understand per-project risks. | Develop policy and standards that support security strategy | Create compliance mechanism |
 | Maturity 3 - Require compliance and measure projects against organization-wide policies and standards. | Implement compliance sign-off procedures | Extend compliance mechanism to external suppliers |
 
@@ -18,7 +18,7 @@ complete          : 0%
 
 ## Maturity 1
 ### Activity
-Unify patchwork compliance obligations into a single pane-of-glass organizational view.
+"Unify patchwork compliance obligations into a single pane-of-glass organizational view."
 
 #### Maturity Questions
 ##### Q 1
@@ -31,16 +31,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+include internal/external drivers/obligations into policies and standards
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2 
-
+L1: provide organization wide guidance how to implement internal/external drivers/obligations for software
+examples:
+standards every team has to follow (e.g. where to compile from)
+Action: update P&C streams into separate policies / compliance streams (now there is overlap)
 
 ## Maturity 2
 ### Activity
@@ -58,14 +54,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3
 ### Activity
@@ -85,13 +73,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: Compliance Management
 
@@ -111,15 +92,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
+overlaps with Policies and Standards - 1 ??
 
 
 ## Maturity 2
@@ -140,14 +113,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 ## Maturity 3
 ### Activity
 Require vendor adherence to project-specific governance requirements and constraints that also must be adhered to by the internal development teams.
@@ -162,10 +127,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### OWASP References
-* Link 1
-* Link 2
 
-#### External References
-* Link 1
-* Link 2
