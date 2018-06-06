@@ -1,9 +1,17 @@
 ---
 business_function : Verification
 security_practice : Security Testing
-assigned_to       : Seba (seba@owasp.org) 
+assigned_to       : Seba (seba@owasp.org)
 complete          : 0%
 ---
+
+# Updated Overview
+
+| | A: Scalable Baseline | B: Deep Understanding |
+|:---|:---|:---|
+| Maturity 1 - Perform security testing (both manual and tool based) to discover security defects.  | Utilize automated security testing tools | Perform manual security testing of high-risk components |
+| Maturity 2 - Make security testing during development more complete and efficient through automation complemented with regular manual security penetration tests | Employ application-specific security testing automation | Conduct manual penetration testing |
+| Maturity 3 - Embed security testing as part of the development and deployment processes. | Integrate automated security testing into the build and deploy process | Integrate security testing into development process |
 
 # Overview
 
@@ -31,6 +39,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+Increase the frequency of tests and extend their coverage.
+Basic security issues are detected and fixed by the development team through automation, allowing manual testing to focus on more complex attack vectors.
 
 
 #### OWASP References
@@ -82,7 +92,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+Knowledge is spread across the development team to improve security knowledge inside the organisation
 
 
 #### OWASP References
