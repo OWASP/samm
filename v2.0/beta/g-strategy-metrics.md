@@ -10,7 +10,7 @@ complete          : 0%
 
 | | A: Create and Promote | B: Measure and Improve |
 |:---|:---|:---|
-| Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Compare threat landscape to organization's risk tolerance | Align asset classification with the organization's risk profile |
+| Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Identify organisation drivers as they relate to the organization's risk tolerance | Define asset classification in line with the organization's risk profile |
 | Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Publish a unified strategy for application security  | Set targets and KPI's for measuring the program effectiveness |
 | Maturity 3 - Align security efforts with the relevant organizational indicators and asset values. | Align security remediation efforts with organizational indicators, asset value | Influence the strategy based on the metrics and organizational needs |
 
@@ -40,7 +40,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-The goal here is to promote the metrics as well as the application secureity program.
+should also include organisational perspective + link to business priorities and regulatory compliance
+The goal here is to promote the metrics as well as the application security program.
 
 ## Maturity 2
 ### Activity
@@ -80,7 +81,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
-Software and the data that software processes must be accounted for and classified according to business risk tolerance and priories.
+Software and the data that software processes must be accounted for and classified according to business risk tolerance and priorities.
 
 ### Maturity Questions
 #### Q 1
@@ -93,6 +94,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+Assets is to be interpreted broader than the software only.
+
 We should make sure that we address metrics from the stand point of:
 - Metrics to measure the maturity of each BF and SP
 - Non-Defect related metrics that measure activities such as training, threat assessments, etc
