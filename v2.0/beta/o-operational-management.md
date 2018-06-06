@@ -16,6 +16,9 @@ The functions covered by this practice include, but are not limited to: system p
 | Maturity 2 - Processes in place | Data protection policy established | Decomissioning process in place |
 | Maturity 3 - Continuous improvement enforced | Data policy breaches detected and acted upon | Proactive reliable handling of legacy |
 
+## Practice Notes
+Possibly move the Third-Party Requirements stream into this practice, as a third stream?
+
 
 # A: Data Protection
 
