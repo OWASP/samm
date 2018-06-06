@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+Testing security controls and security components to make sure that security controls behave as expected. 
 
 References
 https://www.owasp.org/index.php/Testing_Guide_Introduction
