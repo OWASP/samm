@@ -10,7 +10,7 @@ complete          : 0%
 
 | | A: Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
-| Maturity 1 - Identify and understand high-level threats to the organization and individual projects. | Basic Application Risk Questionnaire/Classification (BIA) | Basic Application Risk Questionnaire/Classification (BIA)|
+| Maturity 1 - Identify and understand high-level threats to the organization and individual projects. | Basic Application Risk Questionnaire/Classification (BIA) | Best effort ad-hoc threat modeling |
 | Maturity 2 - Increase accuracy of threat assessment and improve granularity of per-project understanding. | Risk-driven security objectives (guidance, processes, standards, �) | Systematic (methodological) threat modeling |
 | Maturity 3 - Concretely align compensating controls to each threat against internal and third-party software. | Continuous Application Risk Portfolio Management System | Integrated threat management system |
 
