@@ -8,7 +8,7 @@
 
 | | A: Build Process | B: Software Supply Chain |
 |:---|:---|:---|
-| Maturity 1 - Build process is repeatable and consistent | The build process is documented and consistent.   | All application components are identified and documented |
+| Maturity 1 - Build process is repeatable and consistent | The build process is defined and consistent.   | All application components are identified and documented |
 | Maturity 2 - Build process is optimized and fully integrated into the workflow | The build process is fully automated and does not require intervention by the developer. | All components and libraries are periodically reviewed for known security vulnerabilities and licensing issues |
 | Maturity 3 - Build process helps prevent known defects from entering the production environment. | Security defects may trigger the build to stop executing | Components and libraries are independently scanned for vulnerabilities |
 
