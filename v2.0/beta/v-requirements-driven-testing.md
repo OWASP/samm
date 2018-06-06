@@ -1,9 +1,17 @@
 ---
 business_function : Verification
 security_practice : Requirements Driven Testing
-assigned_to       : Seba (seba@owasp.org) 
+assigned_to       : Seba (seba@owasp.org)
 complete          : 0%
 ---
+
+# updated Overview
+
+| | A: Control Verification | B: Misuse/Abuse Testing |
+|:---|:---|:---|
+| Maturity 1 - Opportunistically find basic vulnerabilities and other security issues. |  Test for standard security controls | Perform security fuzzing testing |
+| Maturity 2 - Perform implementation review to discover application-specific risks against the security requirements. |  Derive test cases from known security requirements | Create and test abuse cases for the application based on the requirements |
+| Maturity 3 - Maintain the application security level after bug fixes, changes or during maintenance | Perform regression testing (with security unit tests) | Perform security testing on application logic abuse flaws |
 
 # Overview
 
@@ -31,6 +39,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+
+
+References
+https://www.owasp.org/index.php/Testing_Guide_Introduction
+https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
+https://github.com/OWASP/owasp-masvs
 
 
 
@@ -120,3 +134,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+#### Notes
+
+References
+https://www.owasp.org/index.php/ASVS_V15_Business_Logic_Flaws
