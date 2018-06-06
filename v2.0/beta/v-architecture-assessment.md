@@ -44,6 +44,7 @@ Review the design choices in each of the key vulnerability categories defined by
 
 Supporting architecture are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
 Examples:
+build / deployment systems
 0auth, SSO, LDAP, ADFS, IAM, Firebase Authentication, ...
 Web services, application services/framework (e.g. .NET framework), middleware, ESBs, ...
 (Cloud) Storage, Backup
