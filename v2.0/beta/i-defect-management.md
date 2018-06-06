@@ -11,7 +11,7 @@ complete          : 0%
 |:---|:---|:---|
 | Maturity 1 - All defects are tracked within each project | Track all defects | Calculate and share basic metrics, such as total counts |
 | Maturity 2 - Defect tracking used to influence the deployment process | Assign SLA based on security rating of the defect | Calculate more advanced metrics that include new issue velocity, remediation speed metrics, and trends. |
-| Maturity 3 - Defect tracking across multiple applications is used to help reduce the number of new defects | Measure and enforce compliance with the SLA | Use trend analysis to influence changes in the Design and Implementation phase across multiple projects. |
+| Maturity 3 - Defect tracking across multiple components is used to help reduce the number of new defects | Measure and enforce compliance with the SLA | Use trend analysis to influence changes in the Design and Implementation phase across multiple projects. |
 
 
 # A: Defect Tracking (Flaws/Bugs/Process)
