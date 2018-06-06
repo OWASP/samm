@@ -9,9 +9,9 @@ complete          : 0%
 
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
-| Maturity 1 - Offer development staff access to resources around the topics of secure programming and deployment. | Offer general secure software coding training covering OWASP Top 10 | Identify a "Security Champion" within each development team |
-| Maturity 2 - Educate all personnel in the software lifecycle with technology and role-specific guidance on secure development. | Offer technology and role-specific training, including security nuances of each language and platform | Identify a "Security Product Champion" to facilitate tool adoption and assist other teams with implementation |
-| Maturity 3 - Develop in-house training programs facilitated by developers across different teams | Develop an in-house training programs around the organization's secure software development standards. | Develop a secure software center of excellence promoting thought leadership among developers and architects |
+| Maturity 1 - Offer development staff access to resources around the topics of secure programming and deployment. | Offer general secure software coding guidance covering OWASP Top 10 | Identify a "Security Champion" within each development team |
+| Maturity 2 - Educate all personnel in the software lifecycle with technology and role-specific guidance on secure development. | Offer technology and role-specific guidance, including security nuances of each language and platform | Develop a secure software center of excellence promoting thought leadership among developers and architects |
+| Maturity 3 - Develop in-house training programs facilitated by developers across different teams | Develop an in-house guidance programs around the organization's secure software development standards. | Build a secure software community including all organisation people involved in software security |
 
 # Original Overview
 
@@ -92,7 +92,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
-
+include Identify a "Security Product Champion" to facilitate tool adoption and assist other teams with implementation
 
 ## Maturity 2
 ### Activity
