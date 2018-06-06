@@ -149,3 +149,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+#### Notes
+Proactivity in driving infrastructure and application standards, to preemptively wean the enterprise from EOL technologies.
+
+
