@@ -1,0 +1,7 @@
+baseURL = "https://owaspsamm.org/"
+languageCode = "en-us"
+title = "OWASP SAMM"
+contentDir = "../beta/"
+theme = "owasp-samm"
+[taxonomies]
+  business_function = "business_functions"

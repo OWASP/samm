@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+<h2 class="ui header">Business Functions</h2>
+
+
+
+{{/* printf "%#v" .Site.Data.business_functions */}}
+{{/* printf "%#v" (sort .Site.Data.business_functions "weight" "asc") */}}
+
+{{ range $business_function_key, $business_function := .Site.Data.business_functions }}
+  {{ $.Scratch.SetInMap $business_function_key "key" $business_function_key }}
+  {{ range $business_function_term_key, $business_function_term := $business_function }}
+    {{ $.Scratch.SetInMap $business_function_key $business_function_term_key $business_function_term }}
+  {{ end }}
+  {{ $.Scratch.SetInMap "business_functions" $business_function_key ($.Scratch.Get $business_function_key) }}
+{{ end }}
+
+<div class="ui stackable five column grid">
+  {{ range $business_function := (sort ($.Scratch.Get "business_functions") "weight" "asc") }}
+    {{ $business_function_terms := (index $.Site.Taxonomies.business_functions $business_function.key) }}
+  <div class="column">
+    <div class="ui {{ $business_function.color }} fluid card">
+      <div class="content">
+        <h4 class="ui {{ $business_function.color }} header">
+          <i class="{{ $business_function.icon }} icon"></i>
+          <div class="content">
+            {{ title $business_function.key }}
+          </div>
+        </h4>
+      </div>
+      <div class="ui attached fluid vertical menu">
+        {{ range $business_function_terms.Pages }}
+        <a href="{{ .Permalink}}" class="teal item">{{ .LinkTitle }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ partial "footer.html" . }}
