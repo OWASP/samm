@@ -32,3 +32,4 @@ deploy:
         token: $GIT_TOKEN
         domain: owaspsamm.org
         basedir: v2.0/website/public
+ 
