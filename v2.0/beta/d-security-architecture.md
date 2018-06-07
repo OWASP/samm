@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security.
+Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the communicaty.
 
 ### Maturity Questions
 #### Q 1
@@ -72,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
-Identify in the solution the most important technologies and frameworks being used. Evaluate them for their security quality.
+Identify in the solution the most important technologies and frameworks being used. Evaluate them for their security quality and raise important issues.
 
 ### Maturity Questions
 #### Q 1
@@ -89,7 +89,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Ensure a core set of technologies within the different applications. Perform periodic review of these technologies.
+Propose a core set of technologies to be used within the different applications. Perform a periodic review of these technologies for security and appropriateness.
 
 ### Maturity Questions
 #### Q 1
@@ -106,7 +106,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-For all proprietary development (in-house or acquired), impose the use of standardized technology. Align legacy software to these standards.
+For all proprietary development (in-house or acquired), impose the use of standardized technology. 
 
 ### Maturity Questions
 #### Q 1
@@ -118,3 +118,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+#### Notes
+Align legacy software to these standards. -> realistic ? Also move to legacy Stream (Operations)
