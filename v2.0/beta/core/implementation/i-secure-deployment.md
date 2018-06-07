@@ -1,6 +1,6 @@
 ---
 business_functions : Implementation
-security_practice : Secure Deployment
+title : Secure Deployment
 assigned_to       : Name (email)
 complete          : 0%
 business_functions_weight: 2

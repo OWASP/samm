@@ -23,11 +23,11 @@
   <meta name="author" content="{{ .Site.Params.author }}">
   {{ end -}}
   <!-- Styles -->
-  <link href="/css/semantic.min.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet">
+  <link href="{{ "css/semantic.min.css" | relURL }}" rel="stylesheet">
+  <link href="{{ "css/style.css" | relURL }}" rel="stylesheet">
   <!-- Favicons -->
-  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png"  | relURL }}">
+  <link rel="icon" href="{{ "img/favicon.png"  | relURL }}">
   <!-- Generator -->
   <meta name="generator" content="Hugo">
   <!-- RSS -->

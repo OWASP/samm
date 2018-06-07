@@ -2,7 +2,7 @@
 <footer class="ui container footer">
   <div class="ui grid">
     <div class="ui three wide column">
-      <a href="https://www.owasp.org/"><img src="/img/owasp.png" width="200" /></a>
+      <a href="https://www.owasp.org/"><img src="{{ "img/owasp.png"  | relURL }}" width="200" /></a>
     </div>
     <div class="ui thirteen wide column">
       <h3 class="ui blue sub header">This is an OWASP Project</h3>
@@ -11,7 +11,7 @@
   </div>
   <div class="ui grid">
     <div class="ui three wide column">
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="/img/by-sa.png" width="200" /></a>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="{{ "img/by-sa.png"  | relURL }}" width="200" /></a>
     </div>
     <div class="ui thirteen wide column">
       <h3 class="ui blue sub header">CC BY-SA 4.0</h3>
@@ -19,6 +19,6 @@
     </div>
   </div>
 </footer>
-<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="{{ "js/semantic.min.js"  | relURL }}" data-no-instant></script>
 </body>
 </html>

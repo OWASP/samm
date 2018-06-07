@@ -1,6 +1,6 @@
 ---
 business_functions : Governance
-security_practice : Education & Guidance
+title : Education & Guidance
 assigned_to       : Yan Kravchenko (@yanfosec)
 complete          : 0%
 business_functions_weight: 3

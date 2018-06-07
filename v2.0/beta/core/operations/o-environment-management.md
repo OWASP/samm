@@ -1,6 +1,6 @@
 ---
 business_functions : Operations
-security_practice : Environment Management
+title : Environment Management
 assigned_to       : John (john.dileo@owasp.org)
 complete          : 0%
 business_functions_weight: 2

@@ -1,6 +1,6 @@
 ---
 business_functions : Verification
-security_practice : Architecture Assessment
+title : Architecture Assessment
 assigned_to       : Seba (seba@owasp.org)
 complete          : 0%
 business_functions_weight: 1

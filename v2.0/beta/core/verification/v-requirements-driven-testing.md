@@ -1,6 +1,6 @@
 ---
 business_functions : Verification
-security_practice : Requirements Driven Testing
+title : Requirements Driven Testing
 assigned_to       : Seba (seba@owasp.org)
 complete          : 0%
 business_functions_weight: 2

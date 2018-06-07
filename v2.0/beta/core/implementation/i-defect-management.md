@@ -1,6 +1,6 @@
 ---
 business_functions : Implementation
-security_practice : Defect Management
+title : Defect Management
 assigned_to       : Name (email)
 complete          : 0%
 business_functions_weight: 3
