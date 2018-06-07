@@ -11,15 +11,15 @@ complete          : 0%
 | | A: Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
 | Maturity 1 - Identify and understand high-level threats to the organization and individual projects. | Basic Application Risk Questionnaire/Classification (BIA) | Best effort ad-hoc threat modeling |
-| Maturity 2 - Increase accuracy of threat assessment and improve granularity of per-project understanding. | Risk-driven security objectives (guidance, processes, standards, �) | Systematic (methodological) threat modeling |
-| Maturity 3 - Concretely align compensating controls to each threat against internal and third-party software. | Continuous Application Risk Portfolio Management System | Integrated threat management system |
+| Maturity 2 -  | Create an inventory of risk profiles. | Standardized threat modeling |
+| Maturity 3 -  | Periodic review of risk profiles. | Improve organisation with output of threat modelling |
 
 
 # A: Risk Profile
 
 ## Maturity 1
 ### Activity
-Use a standard, yet simple way to evaluate the application risk based on the potential impact that it poses towards the organisation in case of attack. This typically focuses on evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service.
+Use a standard, yet simple way to evaluate the application risk based on the potential impact that it poses towards the organisation in case of attack. This typically focuses on evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Use a set of 5-10 questions to identify the impact.
 
 #### Maturity Questions
 ##### Q 1
@@ -36,7 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Using a limited set of application risk levels, establish specific sets of requirements, practices and�guidelines for the different risk levels.
+Create an inventory of risk profiles that is fed with the outputs of the BIA's. 
 
 ### Maturity Questions
 #### Q 1
@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Monitor the enterprise-wide application portfolio for risk to ensure an accurate and up2date view on the risks that the applications pose towards the organisation.
+Monitor the enterprise-wide application portfolio for risk to ensure an accurate and up2date view on the risks that the applications pose towards the organisation. Ensure that risk profiles are periodically reviewed.
 
 ### Maturity Questions
 #### Q 1
@@ -90,7 +90,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Establish a unified approach to perform threat modeling that takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application.
+Establish a standard approach to perform threat modeling that takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application.
 
 ### Maturity Questions
 #### Q 1
@@ -107,7 +107,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Manage the threats identified in your application in a central system that is continuously updated and kept in-sync with the changes in the application functionality.
+When new threat categories are identified, feed the organisation with this and ensure appropriate handling.
 
 ### Maturity Questions
 #### Q 1
