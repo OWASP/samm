@@ -1,7 +1,7 @@
 ---
 business_functions : Implementation
 title : Secure Deployment
-assignedto       : Name (email)
+assignedto       : Chris Cooper (chris.cooper@owasp.org)
 complete          : 0%
 business_functions_weight: 2
 type: security_practice

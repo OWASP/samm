@@ -1,7 +1,7 @@
 ---
 business_functions : Implementation
 title : Defect Management
-assignedto       : Name (email)
+assignedto       : Chris Cooper (chris.cooper@owasp.org)
 complete          : 0%
 business_functions_weight: 3
 type: security_practice
