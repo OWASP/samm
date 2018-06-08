@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+<h1 class="ui huge dividing header">
+  {{ .Title }}
+</h1>
+
+<div class="ui buttons">
+  <a href="{{ "/" | relURL }}" class="ui green button"><i class="hand point left icon"></i> Back</button>
+  <a href="{{ $.Site.Params.ghrepo }}edit/master/{{ $.Site.Params.ghcontent }}{{.File.Path}}" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="ui labels">
+  <div class="ui green label">
+    Business function
+    <div class="detail">{{ $.Param "business_functions" }}</div>
+  </div>
+  <div class="ui orange label">
+    Assigned to
+    <div class="detail">{{ .Params.assignedto }}</div>
+  </div>
+</div>
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}

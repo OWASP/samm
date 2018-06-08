@@ -1,9 +1,10 @@
 ---
 business_functions : Design
 title : Threat Assessment
-assigned_to       : bart.dewin@owasp.org
+assignedto       : bart.dewin@owasp.org
 complete          : 0%
 business_functions_weight: 1
+type: security_practice
 ---
 
 

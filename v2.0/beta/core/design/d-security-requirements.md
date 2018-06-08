@@ -1,9 +1,10 @@
 ---
 business_functions : Design
 title : Security Requirements
-assigned_to       : bart.dewin@owasp.org
+assignedto       : bart.dewin@owasp.org
 complete          : 0%
 business_functions_weight: 2
+type: security_practice
 ---
 
 

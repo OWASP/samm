@@ -1,9 +1,10 @@
 ---
 business_functions : Governance
 title : Strategy & Metrics
-assigned_to       : Yan Kravchenko (@yanfosec)
+assignedto       : Yan Kravchenko (@yanfosec)
 complete          : 0%
 business_functions_weight: 1
+type: security_practice
 ---
 
 

@@ -1,9 +1,10 @@
 ---
 business_functions : Operations
 title : Incident Management
-assigned_to       : John (john.dileo@owasp.org)
+assignedto       : John (john.dileo@owasp.org)
 complete          : 0%
 business_functions_weight: 1
+type: security_practice
 ---
 
 

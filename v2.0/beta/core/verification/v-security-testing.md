@@ -1,9 +1,10 @@
 ---
 business_functions : Verification
 title : Security Testing
-assigned_to       : Seba (seba@owasp.org)
+assignedto       : Seba (seba@owasp.org)
 complete          : 0%
 business_functions_weight: 3
+type: security_practice
 ---
 
 # Updated Overview

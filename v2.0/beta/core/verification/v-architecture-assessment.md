@@ -1,9 +1,10 @@
 ---
 business_functions : Verification
 title : Architecture Assessment
-assigned_to       : Seba (seba@owasp.org)
+assignedto       : Seba (seba@owasp.org)
 complete          : 0%
 business_functions_weight: 1
+type: security_practice
 ---
 
 # Proposed Overview (updated objectives)

@@ -1,9 +1,10 @@
 ---
 business_functions : Governance
 title : Policy & Compliance
-assigned_to       : Yan Kravchenko (@yanfosec)
+assignedto       : Yan Kravchenko (@yanfosec)
 complete          : 0%
 business_functions_weight: 2
+type: security_practice
 ---
 
 # Proposed Overview
