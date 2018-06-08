@@ -23,7 +23,7 @@ Conduct security awareness training customized for software developers and inten
 
 Course content should include a wide range of topics relevant to application security and include conceptual as well as technical information. Theoretical portion of the training should consist of secure design principles including Least Privilege, Defense-in-Depth, Fail Secure (Safe) Complete Mediation, Session Management, Open Design, and Psychological Acceptability.  Additionally, the training should include references to any organization-wide standards, policies, and procedures defined to improve application security.
 
-The technical content should include at a minimum the OWASP Top 10 vulnerabilities and most common remediation strategies for each issue.  Whenever possible, the training should consist of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or JuiceShop.  It may be beneficial to include results of the previous penetration as clear examples of vulnerabilities and implemented remediation strategies as well as asking a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
+The technical content should include at a minimum the OWASP Top 10 vulnerabilities and most common remediation strategies for each issue.  Whenever possible, the training should consist of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop.  It may be beneficial to include results of the previous penetration as clear examples of vulnerabilities and implemented remediation strategies as well as asking a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
 
 Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance.  The training should be updated and delivered annually, to include changes in the organization, technology, and trends.   Additionally, training participants should be polled to evaluate the quality and relevance of the training, as well as solicit suggestions of other information that may be relevant to their work or environments.
 
@@ -44,14 +44,11 @@ Training should be considered mandatory for all employees and contractors involv
 - Option 3
 - Option 4
 
-### OWASP References
-- [ ] Need to add a reference to OWASP TOP 10
-- [ ] Need to look into other OWASP training resources
-- [ ] Add reference to WebGoat
-- [ ] Add reference to JuiceShop
-
 ### External References
-- [ ] Need to add a reference to ISC2 CSSLP Security Design Principles
+- [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
+- [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
+- [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+- [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
 
 #### Notes
 
