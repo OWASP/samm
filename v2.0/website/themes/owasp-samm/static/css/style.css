@@ -1,3 +1,19 @@
 body > .ui.container {
+  margin-top: 1em;
+}
+
+body > header.ui.container {
   margin-top: 3em;
+}
+
+.ui.cards#business_functions > .card {
+  width: 213px;
+}
+
+.ui.cards#one_point_five_downloads > .card {
+  width: 200px;
+}
+
+footer img.ui.image {
+  max-width: 200px;
 }
