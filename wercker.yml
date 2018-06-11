@@ -30,5 +30,5 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
-        domain: owasp.github.io
+        domain: owaspsamm.org
         basedir: v2.0/website/public
