@@ -1,4 +1,4 @@
-baseURL = "https://owasp.github.io/samm/"
+baseURL = "https://owaspsamm.org/"
 languageCode = "en-us"
 title = "OWASP SAMM"
 contentDir = "../beta/"
