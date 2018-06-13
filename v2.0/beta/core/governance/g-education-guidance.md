@@ -73,7 +73,6 @@ The goal should be to include all training content described in the Maturity Lev
 - Option 3
 - Option 4
 
-### Maturity Questions
 #### Does the training include content specific to security features and weaknesses of all technologies in use by the organization?
 
 *Answer Options*
