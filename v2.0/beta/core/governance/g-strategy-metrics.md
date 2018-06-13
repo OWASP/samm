@@ -2,7 +2,8 @@
 business_functions : Governance
 title : Strategy & Metrics
 assignedto       : Yan Kravchenko (@yanfosec)
-complete          : 0%
+complete         : 0%
+status           : new        #new, draft, for_review, release_candidate, done
 business_functions_weight: 1
 type: security_practice
 ---
