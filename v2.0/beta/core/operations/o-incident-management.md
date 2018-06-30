@@ -1,7 +1,7 @@
 ---
 business_functions : Operations
 title : Incident Management
-assignedto       : John (john.dileo@owasp.org)
+assignedto       : Daniel (dan.kefer@gmail.com)
 complete          : 0%
 business_functions_weight: 1
 type: security_practice
@@ -21,11 +21,31 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-Opportunistic, either manual or automated analysis is carried out upon available log data regularly.
+TL;DR: Opportunistic, either manual or automated analysis is carried out upon available log data regularly.
+
+Log data (e.g. access logs, application logs, infrastructure logs) are consciously analyzed in order to detect possible security incidents. 
+
+While in small setups, this analysis can be done manually e.g. using common command line tools, once the amount of system generating logs grows, this would be typically done using some automation - even a simple script looking for suspicious events run periodically as a cron job is a step forward! 
+
+In case the logs from different sources are sent to a dedicated log system, it might be worth it to analyze the logs here and also employ basic log correlation principles. 
+
+On this maturity level, you usually don't go for 24/7 incident detection, analyzing suspicious events during the business hours is enough. However, it should be ensured that unavailability of one person (vacation, illness) won't significantly impact the detection time and quality. 
+
+If an event is evaluated to be a security incident, the contact point for formal creation of security incident is clearly defined. 
 
 #### Maturity Questions
 ##### Q 1
-Do projects have a point of contact for security issues or incidents?
+Is log data regularly analyzed with the purpose of identification of possible security incidents?
+
+**Answer Options**
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+##### Q 2
+If a security incident is identified with a solid level of confidence, is the next escalation point clearly defined?
 
 **Answer Options**
 SAMMQA-C:
@@ -39,11 +59,20 @@ SAMMQA-C:
 
 ## Maturity 2
 ### Activity
-Formalized documented process for incident detection is established. Log data is correlated from different sources. New applications are part of this process. The process ensures that high-level incident scenarios are known.
+TL, DR: Formalized documented process for incident detection is established. Log data is correlated from different sources. New applications are part of this process. The process ensures that high-level incident scenarios are known.
+
+On this level of maturity, the incident detection process has a dedicated owner who is also responsible for clear documentation accessible to all process stakeholders. It is ensured, that employees responsible for carrying out the incident detection handle upon this process (e.g. using dedicated training). The incident detection process is also periodically checked for being up-to-date. 
+
+If a new application is added, it is ensured that the process covers this application within reasonable period of time. 
+
+Possible security incidents are being detected according to available checklist covering expected attack vectors. The checklist is regularly evaluated for validity and updated.
+
+If an event is evaluated as a security incident with high level of confidence, the responsible staff is notified immediately in order perform further analysis and start escalation process. 
+
 
 ### Maturity Questions
 #### Q 1
-Does the organization utilize a consistent process for incident reporting and handling?
+Is the incident detection process formally documented and regulary updated, including a checklist of expected threat scenarios?
 
 **Answer Options**
 SAMMQA-G:
@@ -52,17 +81,47 @@ SAMMQA-G:
 - Yes, across the organization
 - Yes, across the organization and required
 
+#### Q 2
+Will an automatically detected security incident with solid level of confidence be escalated also outside of business hours?
+
+**Answer Options**
+SAMMQA-G:
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required
 #### Notes
 
 
 
 ## Maturity 3
 ### Activity
-Effectiveness and efficiency of the process are continuously challenged and improved, especially but not only based on known recent incidents. Gaps are identified and reliably handled upon.
+TL;DR Effectiveness and efficiency of the process are continuously challenged and improved, especially but not only based on known recent incidents. Gaps are identified and reliably handled upon.
+
+THe documented process also includes measures for continuous process improvement. The continuity of process improvement is also checked, e.g. via tracking of changes. If the process has not been reviewed within reasonable amount of time, such state is detected and handled upon. 
+
+The checklist for suspicious event detection is correlated at least from the following sources: 
+* Sources and knowledge bases external to the company (e.g. new vulnerability announcements affecting the used technologies)
+* Past security incidents
+* Threat model outcomes
+
+Correlation of logs is used for incident detection for all reasonable incident scenarios. In case the log data for incident detection is not available, such state is documented as a defect, triaged and handled upon according to the resulting priority / SLA. 
+
+The quality of the incident detection is not dependant on the time or day of the event. In case the alert is not acted upon within a defined time, further contact according to a defined escalation paths are notified. 
 
 ### Maturity Questions
 #### Q 1
-Are incidents inspected for root causes to generate further recommendations?
+Is it ensured that both the process and the scope of incident detection is continuously improved?
+
+**Answer Options**
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Q 2
+Is it ensured that the quality of incident detection is not dependant on the time or day of the event occurence?
 
 **Answer Options**
 SAMMQA-C:
