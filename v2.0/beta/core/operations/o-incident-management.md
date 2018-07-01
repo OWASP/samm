@@ -21,17 +21,16 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-TL;DR: Opportunistic, either manual or automated analysis is carried out upon available log data regularly.
 
-Log data (e.g. access logs, application logs, infrastructure logs) are consciously analyzed in order to detect possible security incidents. 
+On the first level, log data (e.g. access logs, application logs, infrastructure logs) are consciously analyzed in order to detect possible security incidents. 
 
-While in small setups, this analysis can be done manually e.g. using common command line tools, once the amount of system generating logs grows, this would be typically done using some automation - even a simple script looking for suspicious events run periodically as a cron job is a step forward! 
+While in small setups, this analysis can be done manually with the help of common command line tools, once the amount of system generating logs grows, automation techniques are employed - even a simple script looking for suspicious events run periodically as a cron job is a step forward! 
 
-In case the logs from different sources are sent to a dedicated log system, it might be worth it to analyze the logs here and also employ basic log correlation principles. 
+In case the logs from different sources are sent to a dedicated log system, it might be a good idea to analyze the logs here and also employ basic log correlation principles. 
 
-On this maturity level, you usually don't go for 24/7 incident detection, analyzing suspicious events during the business hours is enough. However, it should be ensured that unavailability of one person (vacation, illness) won't significantly impact the detection time and quality. 
+On this maturity level, you usually don't go for 24/7 incident detection; analyzing suspicious events during the business hours is enough. However, it should be ensured that unavailability of person in charge(vacation, illness) won't significantly impact the detection speed and quality. 
 
-If an event is evaluated to be a security incident, the contact point for formal creation of security incident is clearly defined. 
+If an event is evaluated to be a security incident, the contact point for formal creation of security incident is defined and generally known. 
 
 #### Maturity Questions
 ##### Q 1
@@ -59,20 +58,19 @@ SAMMQA-C:
 
 ## Maturity 2
 ### Activity
-TL, DR: Formalized documented process for incident detection is established. Log data is correlated from different sources. New applications are part of this process. The process ensures that high-level incident scenarios are known.
 
-On this level of maturity, the incident detection process has a dedicated owner who is also responsible for clear documentation accessible to all process stakeholders. It is ensured, that employees responsible for carrying out the incident detection handle upon this process (e.g. using dedicated training). The incident detection process is also periodically checked for being up-to-date. 
+On this level of maturity, the incident detection process has a dedicated owner who is also responsible for clear documentation accessible to all process stakeholders. It is ensured that employees responsible for carrying out the incident detection follow this process (e.g. using dedicated training). The incident detection process is also periodically checked for being up-to-date. 
 
-If a new application is added, it is ensured that the process covers this application within reasonable period of time. 
+If a new application is added, it is ensured that the process covers this application within reasonable period of time, correlating relevant log data.  
 
 Possible security incidents are being detected according to available checklist covering expected attack vectors. The checklist is regularly evaluated for validity and updated.
 
-If an event is evaluated as a security incident with high level of confidence, the responsible staff is notified immediately in order perform further analysis and start escalation process. 
+If an event is evaluated as a security incident with high level of confidence, the responsible staff is notified immediately (also outside business hours) in order perform further analysis and start escalation process. 
 
 
 ### Maturity Questions
 #### Q 1
-Is the incident detection process formally documented and regulary updated, including a checklist of expected threat scenarios?
+Is the incident detection process documented and regulary updated, including a checklist of expected threat scenarios?
 
 **Answer Options**
 SAMMQA-G:
@@ -96,9 +94,8 @@ SAMMQA-G:
 
 ## Maturity 3
 ### Activity
-TL;DR Effectiveness and efficiency of the process are continuously challenged and improved, especially but not only based on known recent incidents. Gaps are identified and reliably handled upon.
 
-THe documented process also includes measures for continuous process improvement. The continuity of process improvement is also checked, e.g. via tracking of changes. If the process has not been reviewed within reasonable amount of time, such state is detected and handled upon. 
+The process documentation also includes measures for continuous process improvement. The continuity of process improvement is also checked, e.g. via tracking of changes. If the process has not been reviewed within reasonable amount of time, such state is detected and acted upon. 
 
 The checklist for suspicious event detection is correlated at least from the following sources: 
 * Sources and knowledge bases external to the company (e.g. new vulnerability announcements affecting the used technologies)
