@@ -26,7 +26,17 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-Consistent and repeatable builds help developers focus on application-specific issues, and makes it possible to automate builds in the future.
+Consistent and repeatable builds help developers focus on application-specific issues, and make it possible to automate builds in the future.
+
+The complete build process must be fully documented, broken down into clear stages that can be reproduced consistently. Following the build process should ideally not require any additional knowledge about the software - meaning that the documentation is complete and not open to interpretation.
+
+The documentation should not include any secrets. Access to build tools, environments and code repositories should be via individual credentials that authenticate, authorize and account where possible. Shared secrets, only where they cannot be avoided, should be managed with care, perhaps via an encrypted password vault.
+
+A master copy of the build documentation should be kept in one central location that is accessible by all who require access. Avoid having multiple copies, some of which may not benefit from updated processes. 
+
+All of the tools required for the build to succeed should be included in the documentation. These tools should be routinely reviewed to ensure that they are actively maintained (supported) and up-to-date with all security patches. Furthermore, each tool's configuration should be be hardened in-line with vendor or trusted third-party guidelines.
+
+The build process should include steps for signing the generated binaries / code with an appropriate certificate.
 
 #### Maturity Questions
 ##### Q 1
@@ -39,11 +49,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-Make sure activities address Docker and other system-level dependencies that are part of infrastructure as code.
+
 
 ## Maturity 2
 ### Activity
-Automation facilitates different forms of automated testing, which can be included in each build.
+Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The process should be reliable and not require developer intervention, reducing the likelihood of human error.
+
+Automation makes it easier to include security checks during the build process. Where it is reasonable to do so, implement static application security testing (SAST) to run as part of the build process. The results from these tests should be logged centrally and actioned as necessary.
+
+The use of an automated system increases the reliance placed on the build tools for security, and therefore makes hardening and maintaining the toolset even more critical. Particular attention should be paid to the interfaces that such tools might expose, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+
+The automated process may require access to credentials and secrets, such as the code signing certificate. These should be handled with care - e.g. encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
+
+Ideally, handle code singing on a separate centralized  server which does not expose the certificate to the system executing the build. However, it is important that the build server passing over the binaries/code authenticates itself to the code signing server
 
 ### Maturity Questions
 #### Q 1
@@ -56,11 +74,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+- Code signing https://stackoverflow.com/questions/11931008/automated-secure-code-signing
 
 ## Maturity 3
 ### Activity
-Integrated security tests are a part of the automated build process, and can stop the build from moving forward.
+
+The build process includes automated security checks which break the build if they fail. Static Application Security Testing (SAST), with an appropriate and custom ruleset, should be triggered each time the build process executes.
+
+Tests should not be generic, but based on the application's risk profile. For instance, they should include risks identified in the threat model, and during previous verification tests. This should include testing for regression where relevant checks are available - i.e. for previously identified vulnerabilities that have been written up as SAST rules.
+
+The organization should set an appropriate threshold for build failure based on the application's risk appetite. For instance, this might be vulnerabilities rated as "High" and "Critical", or those with a CVSS score above 7.0. The types of vulnerabilities that the organization would consider to be unacceptable in a build and their typical scores/ratings should be considered when setting this threshold. An application with more sensitive functions might have a lower threshold, for instance. Vulnerabilities below the threshold should still trigger warnings and be logged into a centralized system to be tracked and actioned.
+
+If any of the SAST or any other security tests could not be carried out successfully, the build should fail.
+
+SAST results generated during this stage of the development lifecycle should feedback into further development and verification activities. They should be recorded alongside the results of other security verification tests, and the gathered data and metrics used to improve the security of subsequent builds.
 
 ### Maturity Questions
 #### Q 1
@@ -93,8 +120,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
-
+- Make sure activities address Docker and other system-level dependencies that are part of infrastructure as code.
 
 ## Maturity 2
 ### Activity
