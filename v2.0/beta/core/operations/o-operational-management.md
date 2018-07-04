@@ -34,7 +34,8 @@ The actions comprising this activity represent the minimum necessary level of aw
 #### Q 1
 Are data catalogued, including their types, sensitivity levels, and processing/storage locations?
 
-**Answer Options**
+*Answer Options*
+
 - No
 - Yes, for a small percentage
 - Yes, for approx. half
@@ -43,7 +44,8 @@ Are data catalogued, including their types, sensitivity levels, and processing/s
 #### Q 2
 Are controls in place to ensure sensitive data are sanitized before propagation to a non-production environment, and is compliance with those controls verified?
 
-**Answer Options**
+*Answer Options*
+
 - No
 - Yes, some of the time
 - Yes, approx. half the time
@@ -59,7 +61,8 @@ The organization has an established Data Protection Policy. Processes, procedure
 #### Q 1
 Are retention requirements established for data, and are backups destroyed in a timely manner after the relevant retention period ends?
 
-**Answer Options**
+*Answer Options*
+
 - No
 - Yes, some of the time
 - Yes, approx. half of the time
@@ -68,7 +71,8 @@ Are retention requirements established for data, and are backups destroyed in a 
 #### Q 2
 Are handling requirements established and documented for all data elements in the catalog, in accordance with their established sensitivity levels, and are these requirements followed?
 
-**Answer Options**
+*Answer Options*
+
 - No
 - Yes, some of the time
 - Yes, approx. half of the time
@@ -84,7 +88,8 @@ Activities at this maturity level are focused on making data protection "automat
 #### Q 1
 Is automated monitoring in place, to detect attempted or actual violations of the Data Protection Policy?
 
-**Answer Options**
+*Answer Options*
+
 - No
 - Yes, for some data
 - Yes, for approx. half of the data
@@ -93,7 +98,8 @@ Is automated monitoring in place, to detect attempted or actual violations of th
 #### Q 2
 Are administrative data protection controls audited?
 
-**Answer Options**
+*Answer Options*
+
 - No
 - Yes, we did it once
 - Yes, we do it every few years
@@ -113,7 +119,8 @@ Explicit (manual or automated) actions for identification of unused applications
 #### Q 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
-**Answer Options**
+*Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -135,7 +142,8 @@ If application is decomissioned, also all relevant accounts, firewall rules, dat
 #### Q 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
-**Answer Options**
+*Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -155,7 +163,8 @@ Life state of every software asset and underlying infrastructure is periodically
 #### Q 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
-**Answer Options**
+*Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
