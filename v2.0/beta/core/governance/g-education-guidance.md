@@ -214,6 +214,7 @@ The information portal should be reviewed on a regular basis by the Secure Softw
 #### Is there a centralized portal where developers and application security professionals from different teams and business units are able to communicate and share information?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -222,6 +223,7 @@ The information portal should be reviewed on a regular basis by the Secure Softw
 #### Is there a knowledge repository allowing searches for organization-specific solutions to common problems and security challenges?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
