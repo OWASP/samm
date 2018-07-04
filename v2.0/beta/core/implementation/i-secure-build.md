@@ -74,7 +74,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-- Code signing https://stackoverflow.com/questions/11931008/automated-secure-code-signing
 
 ## Maturity 3
 ### Activity
