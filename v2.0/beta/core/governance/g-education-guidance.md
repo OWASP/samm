@@ -20,9 +20,9 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-Conduct security awareness training customized for software developers and intended to increase the awareness of application security threats and risks, as well as security best practices and secure software design principles.  The training may be developed internally or procured externally, and may be delivered in-person or using CBT.  Ideally, training should be delivered in-person to offer participants the benefit of participating in a discussion as a team, rather than receiving one-on-one through a CBT.
+Conduct security awareness training customized for software developers and intended to increase the awareness of application security threats and risks, as well as security best practices and secure software design principles.  The training may be developed internally or procured externally, and may be delivered in-person or using Computer Based Training (CBT).  Ideally, training should be delivered in-person to offer participants the benefit of participating in a discussion as a team, rather than receiving one-on-one through a CBT.
 
-Course content should include a wide range of topics relevant to application security and include conceptual as well as technical information. Theoretical portion of the training should consist of secure design principles including Least Privilege, Defense-in-Depth, Fail Secure (Safe) Complete Mediation, Session Management, Open Design, and Psychological Acceptability.  Additionally, the training should include references to any organization-wide standards, policies, and procedures defined to improve application security.
+Course content should include a wide range of topics relevant to application security and include conceptual as well as technical information. Theoretical portion of the training should consist of secure design principles including Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability.  Additionally, the training should include references to any organization-wide standards, policies, and procedures defined to improve application security.
 
 The technical content should include at a minimum the OWASP Top 10 vulnerabilities and most common remediation strategies for each issue.  Whenever possible, the training should consist of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop.  It may be beneficial to include results of the previous penetration as clear examples of vulnerabilities and implemented remediation strategies as well as asking a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
 
@@ -32,6 +32,7 @@ Training should be considered mandatory for all employees and contractors involv
 ##### Have all developers completed security awareness training customized for software development in the last 12 months?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -40,6 +41,7 @@ Training should be considered mandatory for all employees and contractors involv
 ##### Has the training been updated in the last 12 months?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -55,7 +57,8 @@ Training should be considered mandatory for all employees and contractors involv
 
 ## Maturity 2
 ### Activity
-Conduct instructor-lead or CBT based security training specific to roles and technologies used within the organization.  The organization should include cover product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs.  
+Conduct instructor-lead or CBT based security training specific to roles and technologies used within the organization.  The organization should include cover product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs. 
+
 - Product managers should be training on topics related to SAMM business functions and security practices, with the emphasis on security requirements, threat modeling, and defect tracking.
 - Developers should be trained on coding standards and best practices related to the technologies they work with to ensure the training directly benefits security of the application.  
 - Testers should be educated on the different testing tools and best practices related to technologies in use by the organization, as well as in tools designed to identify security defects.
@@ -69,6 +72,7 @@ The goal should be to include all training content described in the Maturity Lev
 ##### Has the training been developed for all roles currently involved in the management, development, testing, or auditing of the software?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -77,6 +81,7 @@ The goal should be to include all training content described in the Maturity Lev
 #### Does the training include content specific to security features and weaknesses of all technologies in use by the organization?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -85,6 +90,7 @@ The goal should be to include all training content described in the Maturity Lev
 #### Has the training been reviewed and updated in the past 12 months?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -108,6 +114,7 @@ Issues resulting from employees not following established standards, policies, p
 #### Has the organization included all internal standards, policies, and procedures within the training?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -116,6 +123,7 @@ Issues resulting from employees not following established standards, policies, p
 #### Has the organization updated the program based on identified process and security weaknesses?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -138,6 +146,7 @@ In addition to assisting Information Security, "Security Champions" should also 
 #### Does the organization have a "Security Champion" assigned to each development team or product?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -146,6 +155,7 @@ In addition to assisting Information Security, "Security Champions" should also 
 #### Do "Security Champions" receive periodic briefings and training to make them more effective in their role?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -165,6 +175,7 @@ Finally, the group should also provide subject matter expertise in helping infor
 #### Does the organization have a Secure Software Center of Excellence including a formal charter defining its objectives?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -173,6 +184,7 @@ Finally, the group should also provide subject matter expertise in helping infor
 #### Does the organization require significant architectural changes and application security tools to be reviewed by the Secure Software Center of Excellence prior to deployment?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
@@ -181,6 +193,7 @@ Finally, the group should also provide subject matter expertise in helping infor
 #### Does the Secure Software Center of Excellence publishes software development and SDLC standards?
 
 *Answer Options*
+
 - Option 1
 - Option 2
 - Option 3
