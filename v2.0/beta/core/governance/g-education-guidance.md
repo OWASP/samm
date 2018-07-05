@@ -57,14 +57,14 @@ Training should be considered mandatory for all employees and contractors involv
 
 ## Maturity 2
 ### Activity
-Conduct instructor-lead or CBT based security training specific to roles and technologies used within the organization.  The organization should include cover product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs. 
+Conduct instructor-led or CBT based security training specific to roles and technologies used within the organization.  The organization should customize training for product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs. 
 
 - Product managers should be training on topics related to SAMM business functions and security practices, with the emphasis on security requirements, threat modeling, and defect tracking.
 - Developers should be trained on coding standards and best practices related to the technologies they work with to ensure the training directly benefits security of the application.  
 - Testers should be educated on the different testing tools and best practices related to technologies in use by the organization, as well as in tools designed to identify security defects.
 - Security auditors should be trained on the SDLC lifecycle and various application security mechanisms in use by the organization, as well as the process for submitting security defects for remediation.
 
-Whenever possible, training should be customized to the specific technologies in use by the organization and include security features and weaknesses of each programming language and framework.  Ideally, each organization should identify a subject-matter expert in each technology to assist with procuring or developing the necessary training content as well as updating it on an annual basis.  
+Whenever possible, training should be customized to the specific technologies in use by the organization and include security features and weaknesses of each programming language and framework.  Ideally, each organization should identify a subject-matter expert in each technology to assist with procuring or developing the necessary training content as well as updating it on a regular basis.  
 
 The goal should be to include all training content described in the Maturity Level 1 activities of this activity stream and include additional role-specific and technology-specific content while eliminating aspects of the training considered unnecessary.  Training should be regarded as mandatory and include and auditable sign-off to demonstrate compliance.
 
@@ -87,27 +87,19 @@ The goal should be to include all training content described in the Maturity Lev
 - Option 3
 - Option 4
 
-#### Has the training been reviewed and updated in the past 12 months?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
 
 #### Notes
 
 
 ## Maturity 3
 ### Activity
-Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training, before allowing access to the application.    While the organization may source some modules externally, the program should be facilitated and managed in-house and include content specific to the organization and go beyond general security best-practices.  The program should have a defined curriculum and include tests aimed at establishing understanding and competence in addition to the attestation of participation.  The training should consist of a combination of industry best practices and organization's internal standards, including training on specific systems in use by the organization.  
+Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training as part of the onboarding process.  based on the criticality of the application and user's role, organization should consider restricting access until the onboarding training has been completed.    While the organization may source some modules externally, the program should be facilitated and managed in-house and include content specific to the organization and go beyond general security best-practices.  The program should have a defined curriculum and include tests aimed at establishing understanding and competence in addition to the attestation of participation.  The training should consist of a combination of industry best practices and organization's internal standards, including training on specific systems in use by the organization.  
 
 In addition to issues directly related to security, the organization should take advantage of this program by including other standards, such as code complexity, code documentation, naming convention, and other process-related disciplines.  The goal of the training should be to minimize issues resulting from employees following practices they became accustomed to outside of the organization and ensuring continuity in the style and competency of the developed code.
 
 To facilitate progress monitoring and successful completion of each training module the organization should leverage a learning management platform or another centralized portal allowing similar functionality.  Employees should be able to monitor their progress and have access to all training resources even after they complete initial training.
 
-Issues resulting from employees not following established standards, policies, procedures, or security best practices should be reviewed at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization.  While the complete training may be unnecessary on an annual basis, the organization should periodically update the training and ensure all employees receive training on any changes and most prevalent security deficiencies.
+Issues resulting from employees not following established standards, policies, procedures, or security best practices should be reviewed at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization.  While updating the complete training may be unnecessary on an annual basis, the organization should periodically update the training and ensure all employees receive training on any changes and most prevalent security deficiencies.
 
 
 ### Maturity Questions
@@ -136,7 +128,7 @@ Issues resulting from employees not following established standards, policies, p
 
 ## Maturity 1
 ### Activity
-Implement a program where each software development team will have a team member that will be considered a "Security Champion" who will be the liaise on between Information Security and developers.  Depending on the size and structure of the team the "Security Champion" may be a software developer, tester, or a product manager.  The position should have a set number of hours allocated each week for Information Security related activities and participate in periodic briefings intended to increase awareness and expertise in different security disciplines.  Furthermore, it may be beneficial to provide "Security Champions" with additional training, thus helping to develop these roles as Information Security subject-matter experts.
+Implement a program where each software development team will have a team member that will be considered a "Security Champion" who will be the liaiseon between Information Security and developers.  Depending on the size and structure of the team the "Security Champion" may be a software developer, tester, or a product manager.  The position should have a set number of hours allocated each week for Information Security related activities and participate in periodic briefings intended to increase awareness and expertise in different security disciplines.  Furthermore, it may be beneficial to provide "Security Champions" with additional training, thus helping to develop these roles as Software Security subject-matter experts.
 
 Different company cultures may necessitate customizing the approach to creating and supporting "Security Champions."  Irrespective of these differences, organizations should always strive to ensure the position can increase effectiveness and efficiency of improving application security and compliance while strengthening the relationship between various teams and Information Security.  To help achieve these objectives, "Security Champions" should be tasked to assist with researching, verifying, and prioritizing security and compliance related software defects.  Additionally, they should be involved in all Risk Assessments, Threat Assessments, and Architectural Reviews to help identify opportunities to remediate several security defects by making the overall architecture of the application more resilient and reducing the attack threat surface.
 
