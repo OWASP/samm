@@ -18,6 +18,8 @@ SAMMQA-C:
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
 
+## Note - "The majority" is, strictly speaking, anything that is more than half, so "at least half" and "the majority" are not really different. This should probably follow the same pattern as set B, and use "approx. half" and "most."
+
 SAMMQA-D:
 - No
 - Yes, we did it once
