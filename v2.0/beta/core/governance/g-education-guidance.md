@@ -10,6 +10,12 @@ type: security_practice
 
 # Overview
 
+The Education & Guidance (EG) Practice is focused on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams will be better able to proactively identify and mitigate the specific security risks that apply to their organization.
+
+One major theme for improvement across the Objectives is providing training for employees, either through instructor-led sessions or computer-based modules. As an organization progresses, a broad base of training is built by starting with developers and moving to other roles throughout the organization, culminating with the addition of role-based training to ensure applicability and effectiveness.
+
+In addition to training, this Practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams.  This approach should be supported with collaboration tools and increased transparency between technologies and tools leveraged for improving the security of the applications.
+
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
 | Maturity 1 - Offer development staff access to resources around the topics of secure programming and deployment. | Offer general secure software coding guidance covering OWASP Top 10 | Identify a "Security Champion" within each development team |

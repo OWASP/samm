@@ -11,9 +11,9 @@ type: security_practice
 
 | | A: Policy and Standards | B: Compliance Management |
 |:---|:---|:---|
-| Maturity 1 - Understand governance and compliance drivers relevant to the organization. | Determine a security baseline representing organization's policies and standards | Identify application compliance obligations |
-| Maturity 2 - Establish application-specific security and compliance requirements. | Develop security requirements applicable to all applications | Develop application requirements addressing each compliance requirement |
-| Maturity 3 - Measure compliance against policies, standards, and compliance requirements. | Measure and report on the status of adherence to security requirements | Measure and report on the status of adherence to compliance requirements |
+| Maturity 1 - Identify and document governance and compliance drivers relevant to the organization. | Determine a security baseline representing organization's policies and standards | Identify 3rd-party compliance requirements |
+| Maturity 2 - Establish application-specific security and compliance baseline. | Develop security requirements applicable to all applications | Map 3rd-party requirements to existing policies and standards |
+| Maturity 3 - Measure adherece to policies, standards, and 3rd-party requirements. | Measure and report on the status of individual application's adherence to security requirements | Measure and report on individual application's compliance with 3rd party requirements |
 
 # Original Overview
 
