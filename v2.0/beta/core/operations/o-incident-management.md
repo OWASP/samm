@@ -142,9 +142,9 @@ SAMMQA-C:
 ## Maturity 1
 ### Activity
 
-The first step is to recognize the incident response competence as such and define an owner who's responsible for continuous development of this competence and keeping up with current state of incident handling best practices and forensic tooling. 
+The first step is to recognize the incident response competence as such and define an owner being responsible for its continuous development and keeping up with current state of incident handling best practices and forensic tooling. 
 
-You usually don't go for dedicated incident response personnel on this maturity level, however the participants of the process are defined (could be for instance regular admins or developers helping in case of need) and it's generally known how these can be contacted. Conscious decision regarding reachibility of the personnel is made. 
+You usually don't go for dedicated incident response personnel on this maturity level, however the participants of the process are defined (could be for instance regular admins or developers helping in case of need) and it's generally known how the team can be contacted using a single point of contact. Conscious decision regarding reachibility of the personnel is made. 
 
 When security incidents happen, the steps taken are documented, however this information can be protected from unauthorized access in case of need. 
 
