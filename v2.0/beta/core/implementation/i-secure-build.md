@@ -61,7 +61,7 @@ The use of an automated system increases the reliance placed on the build tools 
 
 The automated process may require access to credentials and secrets, such as the code signing certificate. These should be handled with care - e.g. encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
 
-Ideally, handle code singing on a separate centralized  server which does not expose the certificate to the system executing the build. However, it is important that the build server passing over the binaries/code authenticates itself to the code signing server
+Ideally, handle code singing on a separate centralized server which does not expose the certificate to the system executing the build. 
 
 ### Maturity Questions
 #### Q 1
@@ -106,7 +106,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
-Identify modules, versions, and their effective license
+
+Keep a record of all software dependencies utilized throughout the target application. In building these records, consider the various locations where dependencies might be specified:
+- configuration files
+- the project's directory on disk
+- package management tool
+- code (e.g. via an IDE that supports listing dependencies)
+
+Consider that the different components and aspects of the application which may consume entirely different dependencies. For example, if the software package is a web app, the server-side application code and client-side scripts both need to be covered.
+
+The records should ideally include the following information about each dependency:
+
+* Where is it used / referenced?
+* Why is it required?
+* Version being used
+* License
+* Source information (link to repository, author's name, etc)
+* Open source or proprietary
+* Is the component supported / being actively maintained?
+
+The records should be checked, whenever it is practical to do so, to discover any dependencies with known vulnerabilities and update or replace them accordingly.
+
+The organization should endeavor to ensure that comonents are being actively maintained, and that security vulnerabilities are likely to be dealt with appropriately. Assurance should be gained, either through agreements with a commercial vendor, or other means when dealing with open source components. In the latter case, it may be evident whether the project is being actively maintained by looking at repository activity, and the developers' reponses to security issues being raised by the community.
 
 ### Maturity Questions
 #### Q 1
@@ -123,7 +144,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Establish a complete library lifecycle including periodic reviews and approvals
+
+Components should be regularly reviewed to ensure that:
+
+* they remain correctly licensed
+* no known and significant vulnerabilities are present
+* the component is still supported and being actively maintained
+* there is still a good business reason for the component to be included
+
+It may be desirable to utilize tools to automate some or all of this process, such as analyzing where the component is being used, or checking for updates via a package manager. Where available, consider using an automated tool to specifically scan for vulnerable dependencies.
 
 ### Maturity Questions
 #### Q 1
@@ -140,7 +169,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Verify code in libraries the same way it's handled with internally-developed source code
+
+Leverage Static Application Security Testing (SAST) against dependencies in the same way that it is performed against the target application itself. Depending on the build process maturity level, the discovery of significant issues might cause the build to fail.
+
+Results should be logged centrally and actioned appropriately. Additionally, valid findings should be fed back to the vendor or open source project as appropriate, following a set of ethical disclosure guidelines.
 
 ### Maturity Questions
 #### Q 1
