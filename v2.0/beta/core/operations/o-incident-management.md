@@ -109,7 +109,7 @@ The checklist for suspicious event detection is correlated at least from the fol
 
 Correlation of logs is used for incident detection for all reasonable incident scenarios. In case the log data for incident detection is not available, such state is documented as a defect, triaged and handled upon according to the resulting priority / SLA. 
 
-The quality of the incident detection is not dependant on the time or day of the event. In case the alert is not acted upon within a defined time, further contact according to a defined escalation paths are notified. 
+The quality of the incident detection is not dependant on the time or day of the event. In case the alert is not acted upon within a defined time, further contact according to a defined escalation path are notified. 
 
 ### Maturity Questions
 #### Q 1
@@ -141,11 +141,17 @@ SAMMQA-C:
 
 ## Maturity 1
 ### Activity
-Points of contact for a case of an incident and escalation procedures are known. Incidents are documented.
+
+The first step is to recognize the incident response competence as such and define an owner who's responsible for continuous development of this competence and keeping up with current state of incident handling best practices and forensic tooling. 
+
+You usually don't go for dedicated incident response personnel on this maturity level, however the participants of the process are defined (could be for instance regular admins or developers helping in case of need) and it's generally known how these can be contacted. Conscious decision regarding reachibility of the personnel is made. 
+
+When security incidents happen, the steps taken are documented, however this information can be protected from unauthorized access in case of need. 
+
 
 ### Maturity Questions
 #### Q 1
-Does your organization have an assigned security response team?
+Is it clear who's responsible for the incident response process?
 
 **Answer Options**
 SAMMQA-A:
@@ -156,7 +162,7 @@ SAMMQA-A:
 - Yes, it's a pretty mature program
 
 #### Q 2
-Are project teams aware of their security point(s) of contact and response team(s)?
+Are all security incidents documented?
 
 **Answer Options**
 SAMMQA-C:
@@ -171,11 +177,41 @@ SAMMQA-C:
 
 ## Maturity 2
 ### Activity
-Process for incident response is established. The process includes a policy for carrying out RCAs with the goal of improving both detection and response process.
+Security incident response process is formally established and documented. The documentation should include information like: 
+
+* Most probable/common scenarios of security incidents and high-level instruction how to handle them. For such scenarious, also public knowledge about possibly relevant 3rd-party incidents should be used
+* Rules for triaging the incident
+* Rules for involvement of different stakeholders, e.g. senior management, Public Relations, Legal, privacy, Human Resources, External (law enforcement) Authorities, Customers
+
+Knowledgeable and properly trained staff should be available also outside of business hours with defined time to action. Both hardware and software tools should be kept up to date and ready to be used anytime. War room should be defined for cases when needed. 
+
+The process should also include a policy for carrying out root cause analysis with the goal of improving both detection and response process.
 
 ### Maturity Questions
 #### Q 1
-Are project stakeholders aware of relevant security disclosures related to their software projects?
+Is the incident respone process including most probable scenarios documented and known?
+
+**Answer Options**
+SAMMQA-C:
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Q 2
+Is knowledgeable personnel available also outside of business hours?
+
+**Answer Options**
+SAMMQA-C:
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Q 3
+Are RCAs carried out according to the defined process?
 
 **Answer Options**
 SAMMQA-C:
@@ -190,11 +226,40 @@ SAMMQA-C:
 
 ## Maturity 3
 ### Activity
-There are regular incident and emergency exercises. The results of the exercises are used for the process improvement.
+
+Dedicated incident response team is established, continuously available and also in charge of the continuous process improvement. For distributed organizations, logistics rules are defined and documented for all relevant locations if sensible.  
+
+Also detailed incident response procedures are documented and kept up-to-date on this level. All resources assumed by these procedures (e.g. separate communicating infrastructure or reliable external location) are kept ready-to-use. Unavailability of these resources is detected in a timely manner. 
+
+Incident and emergency exercises are carried out regularly; the results of these are used for the process improvement.
+
+Metrics on the incident response process inlcuding its continuous improvement, are defined, gathered, evaluated and acted upon. 
 
 ### Maturity Questions
 #### Q 1
-Do projects consistently collect and report data and metrics related to incidents?
+Are security incidents handled with a similar quality over all relevant locations?
+
+**Answer Options**
+SAMMQA-C:
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Q 2
+Are all resources needed for handling all relevant incident scenarios reliably held ready-to use?
+
+**Answer Options**
+SAMMQA-C:
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Q 3
+Are metrics for both indident response process and its improvement gathered and acted upon?
 
 **Answer Options**
 SAMMQA-C:
