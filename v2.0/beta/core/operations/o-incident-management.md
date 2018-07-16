@@ -38,6 +38,7 @@ Is log data regularly analyzed with the purpose of identification of possible se
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -48,6 +49,7 @@ If a security incident is identified with a solid level of confidence, is the ne
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -74,6 +76,7 @@ Is the incident detection process documented and regulary updated, including a c
 
 **Answer Options**
 SAMMQA-G:
+
 - No
 - Yes, localized to business areas
 - Yes, across the organization
@@ -84,6 +87,7 @@ Will an automatically detected security incident with solid level of confidence 
 
 **Answer Options**
 SAMMQA-G:
+
 - No
 - Yes, localized to business areas
 - Yes, across the organization
@@ -97,7 +101,8 @@ SAMMQA-G:
 
 The process documentation also includes measures for continuous process improvement. The continuity of process improvement is also checked, e.g. via tracking of changes. If the process has not been reviewed within reasonable amount of time, such state is detected and acted upon. 
 
-The checklist for suspicious event detection is correlated at least from the following sources: 
+The checklist for suspicious event detection is correlated at least from the following sources:
+
 * Sources and knowledge bases external to the company (e.g. new vulnerability announcements affecting the used technologies)
 * Past security incidents
 * Threat model outcomes
@@ -112,6 +117,7 @@ Is it ensured that both the process and the scope of incident detection is conti
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -122,6 +128,7 @@ Is it ensured that the quality of incident detection is not dependant on the tim
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -142,6 +149,7 @@ Does your organization have an assigned security response team?
 
 **Answer Options**
 SAMMQA-A:
+
 - No
 - Yes, it's less than a year old
 - Yes, it's a number of years old
@@ -152,6 +160,7 @@ Are project teams aware of their security point(s) of contact and response team(
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -170,6 +179,7 @@ Are project stakeholders aware of relevant security disclosures related to their
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -188,6 +198,7 @@ Do projects consistently collect and report data and metrics related to incident
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
