@@ -92,6 +92,8 @@ If any of the SAST or any other security tests could not be carried out successf
 
 SAST results generated during this stage of the development lifecycle should feedback into further development and verification activities. They should be recorded alongside the results of other security verification tests, and the gathered data and metrics used to improve the security of subsequent builds.
 
+If technical limitations prevent the organisation from breaking the build automatically for any reason, the same effect should be acheived via other means, such as a clear policy for the developer / engineer not to deploy or execute a build with defects meeting certain criteria.
+
 ### Maturity Questions
 #### Q 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
