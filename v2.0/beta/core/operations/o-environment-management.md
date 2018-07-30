@@ -1,7 +1,7 @@
 ---
 business_functions : Operations
 title : Environment Management
-assignedto       : John (john.dileo@owasp.org)
+assignedto       : Daniel (dan.kefer@gmail.com)
 complete          : 0%
 business_functions_weight: 2
 type: security_practice
@@ -20,7 +20,11 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-Responsibilities for patching across the full stack are defined and known . Respective roles patch the particular components in a defined way. (to be updated - see notes)
+TL; DR: Responsibilities for patching across the full stack are defined and known . Respective roles patch the particular components in a defined way. (to be updated - see notes)
+
+On the first maturity level, you've identified applications and 3rd party application components which needs to be updated/ patched, nevertheless if it's the underlying operating system, application server or 3rd party code library.  You have defined the updating process at least on a high level, so that possible necessary cooperation between multiple teams is guaranteed if necessary and patching can be carried out anytime in case of need (e.g. exploit for a 3rd party component publicly available).
+
+You're able to find out reasonably quickly the used versions of all components in order to evaluate whether you're affected by a particular public security vulnerability or not. 
 
 #### Maturity Questions
 ##### Q 1
@@ -47,7 +51,12 @@ L3 - SLA / reporting
 
 ## Maturity 2
 ### Activity
+
 Update process is defined and documented across the full stack. Patches are not only applied when they are available; external sources are also used in order to gather intelligence about zero day vulnerabilities so that appropriate risk mitigation steps can be carried out.
+
+There is a guidance for prioritization of particular updates, let it be the criticality of the application, severity of security issues or whichever other concerns which are important to your organization. 
+
+All newly implemented applications are a part of the defined process. Checking for the update process conformity is also a part of the quality assurance activities. 
 
 ### Maturity Questions
 #### Q 1
@@ -67,7 +76,12 @@ manage process information (e.g. gap)
 
 ## Maturity 3
 ### Activity
-Conformity with the patch process is reliably evaluated. Nonconformities are handled as security findings, triaged and handled according to rules and SLAs stemming from the defect management practice.
+
+On the third level, you have a very good insight in the patching strategy over the organization and full stack. Missing updates are triaged and handled according to rules and SLAs stemming from the defect management practice. It is guaranteed that patching can take place anytime so that SLAs can be adhered to. 
+
+If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable. 
+
+Continuous process improvement is checked for regularly. 
 
 ### Maturity Questions
 #### Q 1
