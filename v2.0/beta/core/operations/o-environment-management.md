@@ -20,7 +20,6 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-TL; DR: Responsibilities for patching across the full stack are defined and known . Respective roles patch the particular components in a defined way. (to be updated - see notes)
 
 On the first maturity level, you've identified applications and 3rd party application components which needs to be updated/ patched, nevertheless if it's the underlying operating system, application server or 3rd party code library.  You have defined the updating process at least on a high level, so that possible necessary cooperation between multiple teams is guaranteed if necessary and patching can be carried out anytime in case of need (e.g. exploit for a 3rd party component publicly available).
 
