@@ -9,6 +9,9 @@ type: security_practice
 
 
 # Overview
+The Threat Assessment (TA) practise is focused on identifying and understanding the risks that your software may pose towards the organisation. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
+
+Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.
 
 | | A: Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
@@ -37,7 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### Notes
+### Notes
 
 
 ## Maturity 2
@@ -58,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### Notes
+### Notes
 
 
 ## Maturity 3
@@ -76,7 +79,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### Notes
+### Notes
 
 
 
@@ -84,7 +87,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
-Execute threat modeling on important projects in a best effort mode to identify the most important threats to the application.
+The purpose of Threat Modeling is to identify potential issues in the technical setup of the application. Uncarefull design might lead to issues that can be exploited to target your organisation.
+
+The elicitation of threats in Threat Modeling can be inspired by good security practices (or the lack thereof) or can be driven by a more structured approach such as STRIDE. It can be performed by a single person or by a group of people (in a more brainstorming mode). Fact is that experience is definitely helpful in eliciting useful threats.
+
+At this level, you want to execute threat modeling on important projects in a best effort mode to identify the most important threats to the application.
 
 ### Maturity Questions
 #### Q 1
@@ -96,12 +103,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### Notes
+### Notes
+Terminology: do we want to use application, software or solution as the main term ?
 
 
 ## Maturity 2
 ### Activity
-Establish a standard approach to perform threat modeling that takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application.
+In order to increase the quality and efficiency of threat modeling within your organisation, establish a standard approach to perform structured threat modeling. This will ensure that the invested effort is useful and well spent.
+
+Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity, the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats.
+
+Consider using a tool to manage the treat models of the different applications. Ideally, the tools also helps in identifying potential threats (to some extent). But do note that threat modeling requires human intelligence that cannot be easily automated.
 
 ### Maturity Questions
 #### Q 1
@@ -113,12 +125,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### Notes
+### Notes
+Personally I'm not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this.
 
+What about discovering threat patterns over different applications ? Maybe for this level, or maybe for level 3 ?
 
 ## Maturity 3
 ### Activity
-When new threat categories are identified, feed the organisation with this and ensure appropriate handling.
+In a mature setup of threat modeling, an organisation would regularly (e.g., yearly) review the existing threat models to verify that no new threats would become relevant for your applications at hand. 
+
+At this level, an organisation would also review the threat categories that are relevant to your organisation. When new threat categories are identified, the organisation is fed with this information to ensure appropriate handling. 
 
 ### Maturity Questions
 #### Q 1
@@ -129,3 +145,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+### Notes
+I cannot think of good examples of threat categories. Anybody ?
