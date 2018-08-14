@@ -4,7 +4,7 @@ title : Policy & Compliance
 assignedto       : Yan Kravchenko (@yanfosec)
 complete          : 40%
 business_functions_weight: 2
-status           : draft        #new, draft, for_review, release_candidate, done
+status           : for_review        #new, draft, for_review, release_candidate, done
 type: security_practice
 ---
 
