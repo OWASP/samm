@@ -21,16 +21,30 @@ type: security_practice
 ## Maturity 1
 ### Activity
 
-On the first maturity level, you've identified applications and 3rd party application components which needs to be updated/ patched, nevertheless if it's the underlying operating system, application server or 3rd party code library.  You have defined the updating process at least on a high level, so that possible necessary cooperation between multiple teams is guaranteed if necessary and patching can be carried out anytime in case of need (e.g. exploit for a 3rd party component publicly available).
+On the first maturity level, you've identified applications and 3rd party application components which need to be updated/ patched, nevertheless if it's the underlying operating system, application server or 3rd party code library. 
+
+Patching activities are carried out according to best-effort, however you have defined the update process at least on a high level. At least the process responsible for the particular components is known and cooperation between multiple teams is ensured if necessary and patching can be carried out anytime in case of need (e.g. exploit for a 3rd party component publicly available).
 
 You're able to find out reasonably quickly the used versions of all components in order to evaluate whether you're affected by a particular public security vulnerability or not. 
 
 #### Maturity Questions
 ##### Q 1
-Do projects document operational environment security requirements?
+Have all used relevant components been patched in the last year?
 
 **Answer Options**
 SAMMQA-C:
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+##### Q 2
+Are you able to patch a newly released publicly known critical vulnerability in a reasonable time frame?
+
+**Answer Options**
+SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -51,7 +65,7 @@ L3 - SLA / reporting
 ## Maturity 2
 ### Activity
 
-Update process is defined and documented across the full stack. Patches are not only applied when they are available; external sources are also used in order to gather intelligence about zero day vulnerabilities so that appropriate risk mitigation steps can be carried out.
+Update process is defined and documented across the full stack. You don't only rely on available patches provided by vendors; external sources are also used systematically in order to gather intelligence about zero day vulnerabilities, so that appropriate risk mitigation steps can be carried out.
 
 There is a guidance for prioritization of particular updates, let it be the criticality of the application, severity of security issues or whichever other concerns which are important to your organization. 
 
@@ -59,10 +73,22 @@ All newly implemented applications are a part of the defined process. Checking f
 
 ### Maturity Questions
 #### Q 1
-Is a consistent process used to apply upgrades and patches to critical dependencies?
+Is the patching process including prioritization documented for the whole stack?
 
 **Answer Options**
 SAMMQA-G:
+
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required
+
+#### Q 2
+Is external intelligence systematically used in order to find information about new zero-day vulnerabilities?
+
+**Answer Options**
+SAMMQA-G:
+
 - No
 - Yes, localized to business areas
 - Yes, across the organization
@@ -76,23 +102,34 @@ manage process information (e.g. gap)
 ## Maturity 3
 ### Activity
 
-On the third level, you have a very good insight in the patching strategy over the organization and full stack. Missing updates are triaged and handled according to rules and SLAs stemming from the defect management practice. It is guaranteed that patching can take place anytime so that SLAs can be adhered to. 
+On the third level, you have a very good insight in the patching strategy all over the organization and full stack. Missing updates are triaged and handled according to rules and SLAs stemming from the defect management practice. It is guaranteed that patching can take place anytime so that SLAs can be adhered to. 
 
 If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable. 
 
-Continuous process improvement is checked for regularly. 
+Continuous process improvement is audited regularly. 
 
 ### Maturity Questions
 #### Q 1
-Are stakeholders aware of options for additional tools to protect software while running in operations?
+Are you periodically evaluating the patch level across the whole stack and performing corrective actions?
 
 **Answer Options**
 SAMMQA-F:
+
 - No
 - Yes, teams write/run their own
 - Yes, there is a standard set
 - Yes, the standard set is integrated
 
+#### Q 2
+Is process improvement evaluated regularly?
+
+**Answer Options**
+SAMMQA-F:
+
+- No
+- Yes, teams write/run their own
+- Yes, there is a standard set
+- Yes, the standard set is integrated
 #### Notes
 
 
