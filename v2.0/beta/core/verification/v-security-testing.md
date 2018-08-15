@@ -48,23 +48,40 @@ Basic security issues are detected and fixed by the development team through aut
 
 ## Maturity 2 - Employ application-specific security testing automation
 ### Activity
+
 Through either customization of security testing tools, enhancements to generic test case execution tools, or buildout of custom test harnesses, project teams should formally iterate through security requirements and build a set of automated checkers to test the security of the implemented business logic.
+
+Additionally, many automated security testing tools can be greatly improved in accuracy and depth of coverage if they are customized to understand more detail about the specific software interfaces in the project under test. Further, organization-specific concerns from compliance or technical standards can be codified as a reusable, central test battery to make audit data collection and per-project management visibility simpler.
+
+Project teams should focus on buildout of granular security test cases based on the business functionality of their software, and an organization-level team led by a security auditor should focus on specification of automated tests for compliance and internal standards.
 
 ### Maturity Questions
 #### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+Are security test cases comprehensively generated for application-specific logic?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Q 2
+Does a minimum security baseline exist for security testing?
+
+**Answer Options**
+- No
+- Yes, teams write/run their own
+- Yes, there is a standard set
+- Yes, the standard set is integrated
 
 #### Notes
-
+this is a copy of SAMMv1.5
+replace "a security auditor" by a central software security group?
+add the role of a security champion?
+review/update the questions
 
 #### OWASP References
-* Link 1
+* https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
 * Link 2
 
 #### External References
