@@ -3,6 +3,7 @@ business_functions : Verification
 title : Requirements Driven Testing
 assignedto       : Seba (seba@owasp.org)
 complete          : 50%
+status           : draft        #new, draft, for_review, release_candidate, done
 business_functions_weight: 2
 type: security_practice
 ---

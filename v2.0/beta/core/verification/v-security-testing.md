@@ -2,7 +2,8 @@
 business_functions : Verification
 title : Security Testing
 assignedto       : Seba (seba@owasp.org)
-complete          : 0%
+complete         : 40%
+status           : draft        #new, draft, for_review, release_candidate, done
 business_functions_weight: 3
 type: security_practice
 ---
@@ -22,19 +23,40 @@ type: security_practice
 ### Activity
 Use automated security test tools to automatically test software, resulting in more efficient security testing and higher quality results.
 
+SAMMv1.5 - CR2:
+
+Many security vulnerabilities at the code level are complex to understand and require careful inspection for discovery. However, there are many useful automation solutions available to automatically analyze code for bugs and vulnerabilities.
+
+There are both commercial and open-source products available to cover popular programming languages and frameworks. Selection of an appropriate code analysis solution is based on several factors including depth and accuracy of inspection, product usability and usage model, expandability and customization features, applicability to the organization’s architecture and technology stack(s), etc.
+
+Utilize input from security-savvy technical staff as well as developers and development managers in the selection process, and review overall results with stakeholders.
+
+SAMMv1.5 - ST2:
+
+In order to test for security issues, a potentially large number of input cases must be checked against each software interface, which can make effective security testing using manual test case implementation and execution unwieldy. Thus, automated security test tools should be used to automatically test software, resulting in more efficient security testing and higher quality results.
+
+Both commercial and open-source products are available and should be reviewed for appropriateness for the organization. Selecting a a suitable tool is based on several factors including robustness and accuracy of built-in security test cases, efficacy at testing architecture types important to organization, customization to change or add test cases, quality and usability of findings to the development organization, etc..
+
+Utilize input from security-savvy technical staff as well as development and quality assurance staff in the selection process, and review overall results with stakeholders.
+
 #### Maturity Questions
 ##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+##### Do project teams use automated testing tools to find security problems?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
-Increase the frequency of tests and extend their coverage.
-Basic security issues are detected and fixed by the development team through automation, allowing manual testing to focus on more complex attack vectors.
+
+*Increase the frequency of tests and extend their coverage.*
+
+*Basic security issues are detected and fixed by the development team through automation, allowing manual testing to focus on more complex attack vectors.*
+
+*this is a copy of SAMMv1.5 CR2 and ST2*
 
 
 #### OWASP References
@@ -57,7 +79,7 @@ Project teams should focus on buildout of granular security test cases based on 
 
 ### Maturity Questions
 #### Q 1
-####Are security test cases comprehensively generated for application-specific logic?
+#### Are security test cases comprehensively generated for application-specific logic?
 
 **Answer Options**
 
@@ -85,6 +107,8 @@ Project teams should focus on buildout of granular security test cases based on 
 
 ## Maturity 3 - Integrate automated security testing into the build and deploy process
 ### Activity
+
+SAMM1.5 (adapt towards build-deploy)
 With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run as part of the build and deploy process, and findings should be inspected as they occur.
 
 Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally, used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle, usually during design. With the automatic execution of security test cases, projects enter the implementation phase with a number of failing tests for the non-existent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, thus lowering risk of release delays due to security concerns or forced acceptance of risk in order to meet project deadlines.
@@ -124,18 +148,29 @@ For each project release, results from automated and manual security tests shoul
 ### Activity
 Perform manual security testing by an experienced analyst, usually using a combination of open source automated utilities (either self created or through security community) for performing task-specific functions and hands-on analysis to attempt to further ‘hack’ the application as an attacker.
 
+SAMMv1.5:
+
+Since code-level vulnerabilities can have dramatically increased impacts if they occur in security-critical parts of software, project teams should review high-risk modules for common vulnerabilities. Common examples of high-risk functionality include authentication modules, access control enforcement points, session management schemes, external interfaces, input validators and data parsers, etc.
+
+Utilizing the code review checklists, the analysis can be performed as a normal part of the development process where members of the project team are assigned modules to review when changes are made. Security auditors and automated review tools can also be utilized for the review.
+
+During development cycles where high-risk code is being changed and reviewed, development managers should triage the findings and prioritize remediation appropriately with input from other project stakeholders.
+
+
 ### Maturity Questions
 #### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+#### Do project teams manually review selected high-risk components?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
+*this is a copy of SAMMv1.5*
 
 
 #### OWASP References
@@ -149,20 +184,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2 - Conduct manual penetration testing
 ### Activity
+SAMMv1.5:
+
 Using the set of security test cases identified for each project, penetration testing should be conducted to evaluate the system’s performance against each case. It is common for this to occur during the testing phase prior to release.
+
+Penetration testing cases should include both application-specific tests to check soundness of business logic as well as common vulnerability tests to check the design and implementation. Once specified, security test cases can be executed by security-savvy quality assurance or development staff, but first-time execution of security test cases for a project team should be monitored by a security auditor to assist and coach team members.
+
+Prior to release or deployment, stakeholders must review results of security tests and accept the risks indicated by failing security tests at release time. In the latter case, a concrete timeline should be established to address the gaps over time.
 
 ### Maturity Questions
 #### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+#### Is penetration testing performed on high risk projects prior to release?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
 
+*this is a copy of SAMMv1.5*
 
 
 #### OWASP References
@@ -177,15 +220,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Activity
 Integrate security testing in parallel to all other development activities, including requirement analysis, software design and construction.
 
+SAMM1.5 (adapt towards development)
+
+With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run as part of the build and deploy process, and findings should be inspected as they occur.
+
+Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally, used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle, usually during design. With the automatic execution of security test cases, projects enter the implementation phase with a number of failing tests for the non-existent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, thus lowering risk of release delays due to security concerns or forced acceptance of risk in order to meet project deadlines.
+
+For each project release, results from automated and manual security tests should be presented to management and business stakeholders for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
+
 ### Maturity Questions
 #### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+#### Do projects use security testing to evaluate security during development?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Notes
+
+*this is a copy of SAMMv1.5*
 
 #### OWASP References
 * Link 1
