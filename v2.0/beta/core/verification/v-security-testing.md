@@ -57,28 +57,23 @@ Project teams should focus on buildout of granular security test cases based on 
 
 ### Maturity Questions
 #### Q 1
-Are security test cases comprehensively generated for application-specific logic?
+####Are security test cases comprehensively generated for application-specific logic?
 
 **Answer Options**
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
 
-#### Q 2
-Does a minimum security baseline exist for security testing?
-
-**Answer Options**
-- No
-- Yes, teams write/run their own
-- Yes, there is a standard set
-- Yes, the standard set is integrated
-
 #### Notes
-this is a copy of SAMMv1.5
-replace "a security auditor" by a central software security group?
-add the role of a security champion?
-review/update the questions
+*this is a copy of SAMMv1.5*
+
+*replace "a security auditor" by a central software security group?*
+
+*add the role of a security champion?*
+
+*review/update the questions*
 
 #### OWASP References
 * https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
@@ -90,24 +85,33 @@ review/update the questions
 
 ## Maturity 3 - Integrate automated security testing into the build and deploy process
 ### Activity
-With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development and deployment. In order to make this scalable with low overhead, security testing tools should be configured to automatically run on a routine basis. 
+With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run as part of the build and deploy process, and findings should be inspected as they occur.
+
+Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally, used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle, usually during design. With the automatic execution of security test cases, projects enter the implementation phase with a number of failing tests for the non-existent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, thus lowering risk of release delays due to security concerns or forced acceptance of risk in order to meet project deadlines.
+
+For each project release, results from automated and manual security tests should be presented to management and business stakeholders for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
 
 ### Maturity Questions
 #### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+#### Do projects use automation to evaluate security test cases?
 
 **Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
 
 #### Notes
-Knowledge is spread across the development team to improve security knowledge inside the organisation
+
+*Knowledge is spread across the development team to improve security knowledge inside the organisation*
+
+*this is a copy of SAMMv1.5 (to be extended with deployment)*
+
 
 
 #### OWASP References
-* Link 1
+* https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 * Link 2
 
 #### External References
