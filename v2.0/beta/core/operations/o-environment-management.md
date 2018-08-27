@@ -138,14 +138,30 @@ SAMMQA-F:
 
 ## Maturity 1
 ### Activity
-Responsibilities for hardening software components across the full stack are defined and known. Software components are hardened according to publicly available sources with best practises.
+
+On the first maturity level, you've recognized the importancy of configuration hardening of third party components across the full stack, defined the relevant scope for this activity and have also provably taken the first steps in this activity. The responsibility for hardening of the particular components is known and acknowledged. 
+
+You are actively working with publicly available information sources (open source projects, vendor documentation, blog articles...), increasing your know-how from those and implementing at least "low hanging fruits". 
 
 ### Maturity Questions
+
 #### Q 1
-Do projects check for security updates to third-party software components?
+Has the scope relevant for this activity been defined and known in general?
 
 **Answer Options**
 SAMMQA-C:
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
+#### Q 2
+Is the configuration of relevant used third party components being actively hardened?
+
+**Answer Options**
+SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
@@ -159,18 +175,34 @@ L1 = identify what matters to protect your environment and what is missing and p
 
 ## Maturity 2
 ### Activity
-Hardening process is defined and documented across the full stack. Hardening baselines are available and used consistently.
+
+Within the scope relevant for this activity, you have defined hardening baselines for particular components used. These baselines have been communicated across the affected teams. 
+
+The baselines have an owner who's responsible for keeping them up-to-date (e.g. if new best practices / features are available with new versions) and adapting them according to trustworthy sources. Newly implemented systems are part of the hardening process.
 
 ### Maturity Questions
 #### Q 1
-Do projects leverage automation to check application and environment health?
+Are hardening baselines for the relevant used 3rd party components available?
 
 **Answer Options**
 SAMMQA-C:
+
 - No
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
+
+#### Q 2
+Are the hardening baselines implemented for all relevant components?
+
+**Answer Options**
+SAMMQA-C:
+
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do
+
 
 #### Notes
 standards in place
@@ -178,11 +210,26 @@ standard way if deploying the baselines
 
 ## Maturity 3
 ### Activity
-Conformity with the hardening baselines is reliably evaluated. Nonconformities are handled as security findings, triaged and handled according to rules and SLAs stemming from the defect management practice.
+
+On the highest level, conformity with the hardening baselines is reliably tracked and evaluated. Nonconformities are handled as security findings, triaged and handled according to rules and SLAs stemming from the defect management practice.
+
+Component update process includes verification of validity of the current hardening baselines. Relevant changes are incorporated in the baselines as well as in the auditing measures.
+
+The continuous improvement process for the baselines is periodically audited and the resulting findings are acted upon.
 
 ### Maturity Questions
 #### Q 1
-Does a minimum security baseline exist for environment health (versioning, patching, etc)?
+Does the update process include verification and update of the current hardening baselines?
+
+**Answer Options**
+SAMMQA-G:
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required
+
+#### Q 2
+Is the continuous improvement of the hardening baselines regularly audited?
 
 **Answer Options**
 SAMMQA-G:
