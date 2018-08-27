@@ -193,7 +193,7 @@ SAMMQA-C:
 - Yes, the majority of them are/do
 
 #### Q 2
-Are the hardening baselines implemented for all relevant components?
+Are hardening baselines implemented for all relevant components?
 
 **Answer Options**
 SAMMQA-C:
@@ -223,6 +223,7 @@ Does the update process include verification and update of the current hardening
 
 **Answer Options**
 SAMMQA-G:
+
 - No
 - Yes, localized to business areas
 - Yes, across the organization
@@ -233,6 +234,7 @@ Is the continuous improvement of the hardening baselines regularly audited?
 
 **Answer Options**
 SAMMQA-G:
+
 - No
 - Yes, localized to business areas
 - Yes, across the organization
