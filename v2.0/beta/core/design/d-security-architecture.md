@@ -39,6 +39,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 Still put focus on perimeter interfaces ? 
 
+I don't like the fact that the Practice is called Secure Architecture and the stream almost has the same name.
+
 
 ## Maturity 2
 ### Activity
