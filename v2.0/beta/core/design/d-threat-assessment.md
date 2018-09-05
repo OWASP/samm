@@ -9,15 +9,15 @@ type: security_practice
 
 
 # Overview
-The Threat Assessment (TA) practise is focused on identifying and understanding the risks that your software may pose towards the organisation. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
+The Threat Assessment (TA) practise is focused on accurately identifying and understanding potential attacks upon an organisation's software in order to better understand the risks and facilitate risk management. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
 
 Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.
 
 | | A: Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
-| Maturity 1 - Identify and understand high-level threats to the organization and individual projects. | Basic Application Risk Questionnaire/Classification (BIA) | Best effort ad-hoc threat modeling |
-| Maturity 2 -  | Create an inventory of risk profiles. | Standardized threat modeling |
-| Maturity 3 -  | Periodic review of risk profiles. | Improve organisation with output of threat modelling |
+| Maturity 1 - Best-effort identification of high-level threats to the organization and individual projects. | Basic Application Risk Questionnaire/Classification (BIA) | Best effort ad-hoc threat modeling |
+| Maturity 2 - Standardization and enterprise-wide analysis of software-related threats within the organisation | Create an inventory of risk profiles. | Standardized threat modeling |
+| Maturity 3 - Pro-active improvement of threat coverage throughout the organisation | Periodic review of risk profiles. | Improve organisation with output of threat modelling |
 
 
 # A: Risk Profile
