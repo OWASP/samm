@@ -44,11 +44,17 @@ I don't like the fact that the Practice is called Secure Architecture and the st
 
 ## Maturity 2
 ### Activity
-Establish a set of general design patterns representing sound methods of implementing security functionality. These security patterns represent general definitions of generic design elements they can be researched or purchased, and it is often even more effective if these patterns are customized to be made more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
+Organizations should identify shared infrastructure or services with security functionality. These will typically include single-sign-on services, corporate directory systems, access control or entitlements services, and authentication systems. By collecting and evaluating
+reusable systems, assemble a list of such resources and categorize them by the security mechanism they fulfill. It is also helpful to consider each resource in terms of why a development team would want to integrate with it, i.e. the benefits of using the shared
+resource.
+
+If multiple resources exist in each category, an organization should select and standardize on one or more shared service per category. Because future software development will rely on these selected services, each should be thoroughly audited to ensure the baseline security posture is understood. For each selected service, design guidance should be created for development teams to understand how to integrate with the system. After such guidance is assembled, it should be made available to development teams through training, mentorship, guidelines, and standards.
+
+At the same time, establish a set of general design patterns representing sound methods of implementing security functionality. These security patterns represent general definitions of generic design elements they can be researched or purchased, and it is often even more effective if these patterns are customized to be made more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
 
 These patterns can originate from specific projects or applications, but should be shared between different development teams across the organisation to ensure efficient and consistent application of appropriate security solutions. 
 
-In order to increase adoption of these patterns, implement these patterns into actual component solutions that can easily be integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.
+In order to increase adoption of these patterns, link these patterns to the shared security services, or implement them into actual component solutions that can easily be integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.
 
 
 ### Maturity Questions
