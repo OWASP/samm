@@ -24,7 +24,7 @@ Risks to an application can be relative to the business of the application (thin
 
 ## Maturity 1
 ### Activity
-As an organisation, you want to spend your security effort where it matters. The best way to guide this is based on application risk. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be misused or breached.
+As an organisation, you want to spend your security budget where it matters. The best way to guide this is based on application risk. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be misused or breached.
 
 In this level, you will use a simple way to evaluate the application risk based on the potential business impact that it poses towards the organisation in case of attack. This typically focuses on evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to identify the impact, such as whether the application processes financial data, or whether privacy-related data is involved. 
 
