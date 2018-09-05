@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+Combination of the 2 level 2 activities of SAMM1.5
 
 ## Maturity 3
 ### Activity
@@ -97,8 +97,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
+Software is often taking the path of least resistance to develop a solution. New technologies are included during development when this can facilitate or speed up development. These new technologies might, however, introduce new risks to the organisation that need to be managed.
 
-Identify in the solution the most important technologies and frameworks being used. Evaluate them for their security quality and raise important issues.
+As a first step, identify in the solution the most important technologies, frameworks, tools and integrations being used. The solution architect should have a good view on these, or it can be achieved by studying the development environment and artefacts. Once these are known, evaluate them for their security quality and raise important issues (LINK TO defect management). 
 
 ### Maturity Questions
 #### Q 1
@@ -115,16 +116,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-<OLD TEXT>Propose a core set of technologies to be used within the different applications. Perform a periodic review of these technologies for security and appropriateness.</OLD TEXT>
+Across software projects within the organization identify commonly used technologies, frameworks and tools in use. Generally, this need not be an exhaustive search, but rather focus on capturing the high-level technologies.
 
-Across software projects within the organization identify commonly used third-party software libraries and frameworks in use. Generally, this need not be an exhaustive search for dependencies, but rather focus on capturing the high-level components that are most
-often used.
+From the identified technologies, create a list to be advertised across the development organization as recommended ones. Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc. 
 
-From the list of components, group them into functional categories based on the core features provided by the third-party component. Also, note the usage prevalence of each component across project teams to weight the reliance upon the third-party code. Using this weighted list as a guide, create a list of components to be advertised across the development organization as recommended components.
-
-Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc.
-
-This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams.
+This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
 
 ### Maturity Questions
 #### Q 1
@@ -141,9 +137,7 @@ Note that this used to be level 1 in SAMM 1.5. OK ?
 
 ## Maturity 3
 ### Activity
-For all proprietary development (in-house or acquired), impose the use of standardized technology. 
-
-Monitor the use of these recommended frameworks, design patterns, shared security services, and reference platforms. Depending on your organisation, these may either be by implementing these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts) or by periodic review where one would also focus on the correct use of these frameworks. 
+For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, these may be most effective either by implementing these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts) or by periodic review where one would also focus on the correct use of these frameworks. 
 
 Overall, it is important to verify several factors with project teams. Identify use of non-recommended frameworks to determine if there may be a gap in recommendations versus the organization’s functionality needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, there may be more or different functionality that project teams would like to see implemented in the reference platforms as the organization evolves.
 
