@@ -2,7 +2,7 @@
 business_functions : Design
 title : Security Architecture
 assignedto       : bart.dewin@owasp.org
-complete          : 0%
+complete          : 20%
 business_functions_weight: 3
 type: security_practice
 ---
