@@ -75,7 +75,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
-Configuration files should be treated as code
+Configuration files should be versioned and protected just like source code. However, developers should not have access to secrets or credentials for production environments. Production secrets should be added into configuration files during the deployment process by someone who is responsible for the production environment.
+
+Production secrets should not be kept (even unused) in configuration files used within development or testing environments, as such environments may have a significantly lower security posture. Equally, they should not remain in configuration files that are stored in code repositories.
 
 ### Maturity Questions
 #### Q 1
@@ -88,7 +90,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+- [CC] I've removed: "Configuration files should be treated as code" ... I think sensitive values in configuration files should always be protected, even at level 1.
+- What about companies who are too small to have seperate people doing dev and managing prod?
 
 
 ## Maturity 2
@@ -110,7 +113,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Deployment process initiates and distributes access credentials
+Credentials and secrets appropriate for the target enviornemnt are added to configuration files dynamically during the deployment process, in such a way that the deployer has no need to see or handle those sensitive values. I.e. this should be an automated process.
+
+The developer should have no need to view or access those credentials or secrets, particulalry from production systems, since they will be included automatically during deploy.
+
+The system used to store and process the secrets and credentials must be robust from a security perspective. Secrets should be encrypted at rest and during transport. Users who configure this system and the secrets it contains should be subject to the principle of least privilege. For example, in some cases it might be appropriate for a developer to manage the secrets pertaining to a development environment, but not a UAT or production enviornment.
+
+Where secrets are not pre-defined or dependant on another system, they should be generated afresh during the deployment process. This mechanism should meet appropriate best practices such as using a cryptographically secure pseudorandom number geenrator if the value is to be randomly generated.
 
 ### Maturity Questions
 #### Q 1
