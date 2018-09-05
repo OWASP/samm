@@ -91,6 +91,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
+
 Identify in the solution the most important technologies and frameworks being used. Evaluate them for their security quality and raise important issues.
 
 ### Maturity Questions
@@ -108,7 +109,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Propose a core set of technologies to be used within the different applications. Perform a periodic review of these technologies for security and appropriateness.
+<OLD TEXT>Propose a core set of technologies to be used within the different applications. Perform a periodic review of these technologies for security and appropriateness.</OLD TEXT>
+
+Across software projects within the organization identify commonly used third-party software libraries and frameworks in use. Generally, this need not be an exhaustive search for dependencies, but rather focus on capturing the high-level components that are most
+often used.
+
+From the list of components, group them into functional categories based on the core features provided by the third-party component. Also, note the usage prevalence of each component across project teams to weight the reliance upon the third-party code. Using this weighted list as a guide, create a list of components to be advertised across the development organization as recommended components.
+
+Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc.
+
+This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams.
 
 ### Maturity Questions
 #### Q 1
@@ -121,7 +131,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+Note that this used to be level 1 in SAMM 1.5. OK ?
 
 ## Maturity 3
 ### Activity
