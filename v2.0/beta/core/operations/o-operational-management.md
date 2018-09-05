@@ -14,9 +14,9 @@ The functions covered by this practice include, but are not limited to: system p
 
 | | A: Data Protection | B: System decomissioning / Legacy management |
 |:---|:---|:---|
-| Maturity 1 - Foundational Practices | Basic Data Protections in Place | Opportunistic identification of unused applications or services |
-| Maturity 2 - Managed, Responsive Processes | Data cataloged and data protection policy established | Decomissioning process in place |
-| Maturity 3 - Active Monitoring and Response | Data policy breaches detected and acted upon | Proactive reliable handling of legacy |
+| Maturity 1 - Foundational Practices | Basic Data Protections in Place | Identification of unused and legacy applications/services |
+| Maturity 2 - Managed, Responsive Processes | Data catalogued and data protection policy established | Decomissioning and legacy migration processes in place |
+| Maturity 3 - Active Monitoring and Response | Data policy breaches detected and acted upon | Proactive reliable handling of legacy applications/services |
 
 ## Practice Notes
 Possibly move the Third-Party Requirements stream into this practice, as a third stream?
@@ -24,7 +24,7 @@ Possibly move the Third-Party Requirements stream into this practice, as a third
 
 # A: Data Protection
 
-The Activities in this stream 
+The Activities in this stream focus on ensuring data are properly protected during all aspects of their creation, handling, storage, and processing. As an organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected.
 
 ## Maturity 1
 ### Activity
