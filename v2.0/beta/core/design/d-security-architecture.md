@@ -143,6 +143,12 @@ Note that this used to be level 1 in SAMM 1.5. OK ?
 ### Activity
 For all proprietary development (in-house or acquired), impose the use of standardized technology. 
 
+Monitor the use of these recommended frameworks, design patterns, shared security services, and reference platforms. Depending on your organisation, these may either be by implementing these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts) or by periodic review where one would also focus on the correct use of these frameworks. 
+
+Overall, it is important to verify several factors with project teams. Identify use of non-recommended frameworks to determine if there may be a gap in recommendations versus the organization’s functionality needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, there may be more or different functionality that project teams would like to see implemented in the reference platforms as the organization evolves.
+
+This analysis can be conducted by any security-savvy technical staff. Metrics collected from each project should be collated for analysis by managers and stakeholders.
+
 ### Maturity Questions
 #### Q 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
