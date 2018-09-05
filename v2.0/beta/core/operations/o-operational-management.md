@@ -2,7 +2,7 @@
 business_functions : Operations
 title : Operational Management
 assignedto       : John (john.dileo@owasp.org)
-complete          : 10%
+complete          : 40%
 business_functions_weight: 3
 type: security_practice
 ---
@@ -24,7 +24,7 @@ Possibly move the Third-Party Requirements stream into this practice, as a third
 
 # A: Data Protection
 
-The Activities in this stream focus on ensuring data are properly protected in all aspects of their creation, handling, storage, and processing. As an organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected.
+The activities in this stream focus on ensuring data are properly protected in all aspects of their creation, handling, storage, and processing. As an organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected.
 
 ## Maturity 1
 ### Activity
@@ -139,8 +139,6 @@ The activities in this stream are related to the identification, management, and
 ### Activity
 Identification of unused applications occurs on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When unused applications are identified, findings are processed for further action; if a formal process for decommissioning unused applications has been established, that process is used. 
 
-The organization responds on a case-by-case basis when third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), reach end of life.
-
 Customer/user migration from older versions of the organization's products is managed individually for each product and customer/user group. Multiple versions of each product may be in active use, requiring development teams to invest significant effort in back-porting product fixes.
 
 ### Maturity Questions
@@ -164,7 +162,24 @@ Are end-of-life resources (operating system versions, third-party applications/s
 - Yes, approx. half of the time
 - Yes, most or all of the time
 
-#### Q 3
+## Maturity 2
+### Activity
+When a system, application, or service is decomissioned, an established process is followed to ensure all relevant accounts, firewall rules, data, etc. are also removed from the operational environment.
+
+The organization follows an established process when third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), reach end of life.
+
+### Maturity Questions
+#### Q 1
+Does the organization follow an established process for removing all associated resources, as part of decommissioning unused applications?
+
+*Answer Options*
+
+- No
+- Yes, some of the time
+- Yes, approx. half of the time
+- Yes, most or all of the time
+
+#### Q 2
 Does the organization discontinue use of open-source applications/services/libraries that are no longer actively maintained?
 
 *Answer Options*
@@ -174,48 +189,39 @@ Does the organization discontinue use of open-source applications/services/libra
 - Yes, approx. half of the time
 - Yes, most or all of the time
 
-## Maturity 2
-### Activity
-When a system, application, or service is decomissioned, an established process is followed to ensure all relevant accounts, firewall rules, data, etc. are also removed from the operational environment.
-
-
-
-The organization has established a Product Support Roadmap, ensuring customers/user groups are migrated from older versions of the organization's products. Product versions in active use are limited to only a small number (e.g., N.x.x and N-1.x.x only); timelines for discontinuing support on prior versions are established and documented.  
-
-### Activity - Alpha Version
-If application is decomissioned, also all relevant accounts, firewall rules, data, etc. are deleted according to an established process.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Notes
-
-
 ## Maturity 3
 ### Activity
-Life state of every software asset and underlying infrastructure is periodically evaluated and EOL is estimated. Switching the application into a legacy state triggers a defined process which also mitigates resulting security risks. Lessons learned process for handling legacy is established. 
+The lifecycle state and support status of every software asset, and underlying infrastructure component, is regularly evaluated and their end-of-life is estimated. The organization follows a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. The process itself is also regularly reviewed, and adjusted as neeeded, to reflect lessons learned. 
 
-### Activity - Alpha Version
-Life state of every software asset and underlying infrastructure is periodically evaluated and EOL is estimated. Switching the application into a legacy state triggers a defined process which also mitigates resulting security risks. Lessons learned process for handling legacy is established. 
+The organization has established a product support roadmap, ensuring customers/user groups are migrated from older versions of the organization's products. Product versions in active use are limited to only a small number (e.g., N.x.x and N-1.x.x only); timelines for discontinuing support on prior versions are established and documented.  
 
 ### Maturity Questions
 #### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+Are lifecycle state and end-of-life estimates captured for each software asset and infrastructure component?
 
 *Answer Options*
 
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+- No
+- Yes, for some of them
+- Yes, for approx. half of them
+- Yes, for most or all of them
 
-#### Notes
-Proactivity in driving infrastructure and application standards, to preemptively wean the enterprise from EOL technologies.
+#### Q 2
+Does the organization actively manage customers/user groups, to ensure they are using only actively supported versions of the organization's products?
+
+*Answer Options*
+
+- No
+- Yes, some of the time
+- Yes, approx. half of the time
+- Yes, most or all of the time
+
+#### Q 3
+Are the asset/component inventory, and the associated end-of-life management process, reviewed and updated?
+
+*Answer Options*
+
+- No
+- Yes, we do it when requested
+- Yes, we do it every few years
+- Yes, we do it at least annually
