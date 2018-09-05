@@ -16,8 +16,8 @@ Risks to an application can be relative to the business of the application (thin
 | | A: Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
 | Maturity 1 - Best-effort identification of high-level threats to the organization and individual projects. | Basic assessment of the application risk | Best effort ad-hoc threat modeling |
-| Maturity 2 - Standardization and enterprise-wide analysis of software-related threats within the organisation | Classify all applications according to risk | Standardized threat modeling |
-| Maturity 3 - Pro-active improvement of threat coverage throughout the organisation | Periodicly review application risk profiles | Improve organisation with output of threat modelling |
+| Maturity 2 - Standardization and enterprise-wide analysis of software-related threats within the organisation | Understand the risk for all applications in the organisation | Standardized threat modeling |
+| Maturity 3 - Pro-active improvement of threat coverage throughout the organisation | Periodicly review application risk profiles | Improve quality by automated analysis |
 
 
 # A: Risk Profile
@@ -97,6 +97,8 @@ The purpose of Threat Modeling is to identify potential issues in the technical 
 
 The elicitation of threats in Threat Modeling can be inspired by good security practices (or the lack thereof) or can be driven by a more structured approach such as STRIDE. It can be performed by a single person or by a group of people (in a more brainstorming mode). Fact is that experience is definitely helpful in eliciting useful threats.
 
+Threat modeling can be performed incrementally. If new functionality is added to an application, the threat model should be updated to cover the new functionality, but no need to fully redo the existing threat model.
+
 At this level, you want to execute threat modeling on important projects in a best effort mode to identify the most important threats to the application.
 
 ### Maturity Questions
@@ -119,7 +121,9 @@ In order to increase the quality and efficiency of threat modeling within your o
 
 Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats.
 
-Threat modeling can be performed incrementally. If new functionality is added to an application, the threat model should be updated to cover the new functionality, but no need to fully redo the existing threat model. Consider using a tool to manage the treat models of the different applications to facilitate your life. Ideally, the tools also helps in identifying potential threats (to some extent). But, in the end, threat modeling requires human intelligence that cannot be easily automated.
+At this level, you want to adopt a weighting system to measure and compare the importance of the different threats.
+
+Consider using a tool to manage the treat models of the different applications to facilitate your life. Ideally, the tools also helps in identifying potential threats (to some extent). But, in the end, threat modeling requires human intelligence that cannot be easily automated.
 
 ### Maturity Questions
 #### Q 1
@@ -134,11 +138,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Notes
 Personally I'm not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this.
 
-What about discovering threat patterns over different applications ? Maybe for this level, or maybe for level 3 ?
-
 ## Maturity 3
 ### Activity
 In a mature setup of threat modeling, an organisation would regularly (e.g., yearly) review the existing threat models to verify that no new threats would become relevant for your applications at hand. 
+
+In order to ensure high quality of threat models, automated analysis can be used to evaluate the quality and to potentially discover gaps and/or patterns in the threat models. These can then be used to improve the threat models.
 
 At this level, an organisation would also review the threat categories that are relevant to your organisation. When new threat categories are identified, the organisation is fed with this information to ensure appropriate handling. 
 
