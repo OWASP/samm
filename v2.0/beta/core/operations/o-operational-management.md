@@ -24,6 +24,8 @@ Possibly move the Third-Party Requirements stream into this practice, as a third
 
 # A: Data Protection
 
+The Activities in this stream 
+
 ## Maturity 1
 ### Activity
 The organization understands the types and sensitivity of data stored and processed by applications, and maintains awareness of the fate of processed data (e.g., backups, sharing with external partners). All data associated with a given application are protected and handled in accordance with protection requirements applying to the most sensitive data stored and processed.
@@ -92,9 +94,11 @@ Are handling requirements established and documented for all data elements in th
 
 ## Maturity 3
 ### Activity
+Activities at this maturity level are focused on making data protection "automatic," reducing the organization's reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
+
 Technical controls are implemented to enforce compliance with the Data Protection Policy, and active monitoring is in place to detect attempted or actual violations. The organization's compliance with established administrative controls is regularly checked/audited. Performance and operation of automated mechanisms, including backups and record deletions, is closely monitored; failures are quickly detected and reported, to ensure timely corrective action can be taken.
 
-Activities at this maturity level are focused on making data protection "automatic," reducing the organization's reliance on human effort to assess and manage compliance with policies.
+The organization's data catalog is regularly reviewed, and updated as needed, to ensure it accurately reflects the data landscape. Policies and procedures are reviewed on a regular basis, and adjusted as needed to reflect changes to the organization, its structure, and its priorities.
 
 ### Maturity Questions
 #### Q 1
@@ -117,6 +121,15 @@ Are administrative data protection controls audited?
 - Yes, we do it every few years
 - Yes, we do it at least annually
 
+#### Q 3
+Are the data catalog and data protection policies/procedures reviewed and updated?
+
+*Answer Options*
+
+- No
+- Yes, we do it when requested
+- Yes, we do it every few years
+- Yes, we do it at least annually
 
 # B: System decomissioning / Legacy management
 
