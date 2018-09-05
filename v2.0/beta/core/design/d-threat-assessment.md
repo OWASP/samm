@@ -15,9 +15,9 @@ Risks to an application can be relative to the business of the application (thin
 
 | | A: Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
-| Maturity 1 - Best-effort identification of high-level threats to the organization and individual projects. | Basic Application Risk Questionnaire/Classification (BIA) | Best effort ad-hoc threat modeling |
-| Maturity 2 - Standardization and enterprise-wide analysis of software-related threats within the organisation | Create an inventory of risk profiles. | Standardized threat modeling |
-| Maturity 3 - Pro-active improvement of threat coverage throughout the organisation | Periodic review of risk profiles. | Improve organisation with output of threat modelling |
+| Maturity 1 - Best-effort identification of high-level threats to the organization and individual projects. | Basic assessment of the application risk | Best effort ad-hoc threat modeling |
+| Maturity 2 - Standardization and enterprise-wide analysis of software-related threats within the organisation | Classify all applications according to risk | Standardized threat modeling |
+| Maturity 3 - Pro-active improvement of threat coverage throughout the organisation | Periodicly review application risk profiles | Improve organisation with output of threat modelling |
 
 
 # A: Risk Profile
@@ -26,9 +26,11 @@ Risks to an application can be relative to the business of the application (thin
 ### Activity
 As an organisation, you want to spend your security effort where it matters. The best way to guide this is based on application risk. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be misused or breached.
 
-In this level, you will use a standard, yet simple way to evaluate the application risk based on the potential business impact that it poses towards the organisation in case of attack. This typically focuses on evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to identify the impact, such as whether the application processes financial data, or whether privacy-related data is involved. 
+In this level, you will use a simple way to evaluate the application risk based on the potential business impact that it poses towards the organisation in case of attack. This typically focuses on evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to identify the impact, such as whether the application processes financial data, or whether privacy-related data is involved. 
 
-Build a set of questions and distribute these to the persons performing these risk evaluations. 
+Next, you will need a scheme to classify applications according to their risk. The use of a simple, qualitative scheme (e.g. high/medium/low) often proves to be effective. Advanced organisations or organisations that are highly risk driven might make use of more quantitative risk schemes. Don't invent a new risk scheme if your organisation already has one that works well. 
+
+For applications at hand, evaluate the risk based on the set of questions and assign a risk level to it. 
 
 #### Maturity Questions
 ##### Q 1
@@ -41,15 +43,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 ### Notes
+Elements required for risk:
+- set of questions to evaluate
+- risk levels to represent application risk
+- risk portfolio
 
 
 ## Maturity 2
 ### Activity
-The goal of this activity is to build a centralized inventory of risk profiles for the applications in your portfolio.
+The goal of this activity is to thoroughly understand the risk level of all applications within the organisations. This will enable you to focus the effort of your software assurance activities to where it really matters. 
 
-To this end, first define a set of risk levels based on the previous question list. The use of a simple, qualitative scheme (e.g. high/medium/low) often proves to be effective. Next, make sure to evaluate the risk profile for (most of) the applications in your application portfolio. 
+From a risk evaluation perspective, the basic set of questions will not suffice to thoroughly evaluate the risk of all applications. Create a more extensive and standardized way to evaluate the risk of the application, among others via their impact on information security (confidentiality, integrity and availability of data). Next to security, you also want to evaluate the privacy risk of the application. Make sure to understand the data that the application processes and what potential privacy violations could be relevant. Finally, also study the impact that this application has on other applications within the organisation (e.g., the application might be modifying data that was considered read-only in another context). The evaluation must be performed for all applications within the organisation, including all existing and legacy ones. 
 
-Based on this input, build a centralized inventory of risk profiles that uses the outcome of the risk evaluations to define the profile. This inventory will give all stakeholders an aligned view on the risk level of an application.
+Based on this input, build a centralized inventory of risk profiles that use the outcome of the risk evaluations to define the profile. This inventory will give all stakeholders an aligned view on the risk level of an application and will enable them to assign appropriate priority to security-related activities.
 
 ### Maturity Questions
 #### Q 1
@@ -66,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-The application portfolio of an organisation changes, as well as the conditions and constraints in which an application lives. You want to periodically review the risk inventory that you've build in order to ensure correctness of the risk evaluations of the different applications. to this end, perform periodic reviews of the risk profiles by rerunning the risk evaluation. Question yourself which conditions have changed that might impact the risk profile.
+The application portfolio of an organisation changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). You want to periodically review the risk inventory that you've built in order to ensure correctness of the risk evaluations of the different applications. to this end, perform periodic reviews (at least yearly) of the risk profiles by rerunning the risk evaluation. Question yourself which conditions have changed that might impact the risk profile.
 
 
 ### Maturity Questions
@@ -111,9 +117,9 @@ Terminology: do we want to use application, software or solution as the main ter
 ### Activity
 In order to increase the quality and efficiency of threat modeling within your organisation, establish a standard approach to perform structured threat modeling. This will ensure that the invested effort is useful and well spent.
 
-Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity, the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats.
+Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats.
 
-Consider using a tool to manage the treat models of the different applications. Ideally, the tools also helps in identifying potential threats (to some extent). But do note that threat modeling requires human intelligence that cannot be easily automated.
+Threat modeling can be performed incrementally. If new functionality is added to an application, the threat model should be updated to cover the new functionality, but no need to fully redo the existing threat model. Consider using a tool to manage the treat models of the different applications to facilitate your life. Ideally, the tools also helps in identifying potential threats (to some extent). But, in the end, threat modeling requires human intelligence that cannot be easily automated.
 
 ### Maturity Questions
 #### Q 1
@@ -148,3 +154,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Notes
 I cannot think of good examples of threat categories. Anybody ?
+IMO we should go further than just yearly review of threat models. Any ideas ? What about automated analysis to verify the quality of threat models, or to discover new threats ?
