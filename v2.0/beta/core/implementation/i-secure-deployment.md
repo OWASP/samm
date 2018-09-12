@@ -96,7 +96,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Use encryption or a centralized vault to protect sensitive coniguration information
+Before deployment, sensitive credentials and secrets for production systems should be stored with encryption-at-rest and appropriate key management. The organisation should consider using a purpose-built tool/vault for this data. Key management should be handled carefully to ensure that only personnel with responsibility for production deployments are able to access this data (the principle of least privilege).
+
+Where possible during deployment, secrets should be encrypted-at-rest in configuration files as well. There should be appropriate key management such that the application can access the secrets whilst it is running, but an attacker who obtains the configuration files alone would not be able to decipher them.
 
 ### Maturity Questions
 #### Q 1
