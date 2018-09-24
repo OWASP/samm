@@ -63,7 +63,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Ensure effectiveness through proper key management and verification procedures
+Ensure effectiveness through proper key management and verification procedures.
+
+A human should manually approve the deployment on at least one occasion during an automated deployment. Manual interventions should be inserted into the otherwise automated deployment process for checking and approval. These interventions should occur at any points where such human checks could be significantly more accurate than an automated one would be. 
 
 ### Maturity Questions
 #### Q 1
