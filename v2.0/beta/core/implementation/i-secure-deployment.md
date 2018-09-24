@@ -21,7 +21,11 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-Developers should not be directly involved in deploying applications.
+Applications are deployed via automated processes, or manually by persons other than the developers. Developers should not have access to production environments. 
+
+Any tools utilised during deployment should be carefully chosen and hardened appropriately. These tools may require access to the production environemnt, which makes the security of the tools themselves extremely critical.
+
+The tools and/or engineer conducting the deployment will require access to production credentials and secrets. These should be handled with care - e.g. according to the principle of least privilege, and encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
 
 #### Maturity Questions
 ##### Q 1
@@ -34,11 +38,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+- What if deployment has to been done by devs? I.e. small org?
 
 ## Maturity 2
 ### Activity
-Implement a wide-range of malware detection
+Deployment is fully or at least semi-automated for consistency, to reduce the need for manual changes on production, and to ultimately reduce the chances of human error.
+
+Deployments include appropriate automated security checks such as DAST, SAST, and malware scanning. Relevant persons should be notified automatically of any defects. Potentially the deployment shoud be stopped or reversed automatically as well, if the defect exceeds a certain threshold. The results from these tests should be logged centrally and actioned as necessary.
+
+All deployments are accounted for and are auditable. A system is in place to record each deployment, including information about who conducted the deploy, the software version that was deployed, and any relevant variables that were specific to the deploy.
 
 ### Maturity Questions
 #### Q 1
