@@ -23,7 +23,7 @@ type: security_practice
 ### Activity
 Applications are deployed via automated processes, or manually by persons other than the developers. Developers should not have access to production environments. 
 
-Any tools utilised during deployment should be carefully chosen and hardened appropriately. These tools may require access to the production environemnt, which makes the security of the tools themselves extremely critical.
+Any tools utilised during deployment should be carefully chosen and hardened appropriately. These tools may require access to the production environment, which makes the security of the tools themselves extremely critical.
 
 The tools and/or engineer conducting the deployment will require access to production credentials and secrets. These should be handled with care - e.g. according to the principle of least privilege, and encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
 
@@ -42,17 +42,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
+
 Deployment is fully or at least semi-automated for consistency, to reduce the need for manual changes on production, and to ultimately reduce the chances of human error.
 
-Deployments include appropriate automated security checks such as DAST, SAST, and malware scanning. Relevant persons should be notified automatically of any defects. Potentially the deployment shoud be stopped or reversed automatically as well, if the defect exceeds a certain threshold. The results from these tests should be logged centrally and actioned as necessary.
+Deployments include appropriate automated security checks such as DAST and malware scanning. Relevant persons should be notified automatically of any defects. The deployment should be stopped or reversed automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. The results from these tests should be logged centrally and actioned as necessary.
 
 All deployments are accounted for and are auditable. A system is in place to record each deployment, including information about who conducted the deploy, the software version that was deployed, and any relevant variables that were specific to the deploy.
 
 ### Maturity Questions
+
 #### Q 1
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
 **Answer Options**
+
 - Option 1
 - Option 2
 - Option 3
@@ -63,7 +67,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Ensure effectiveness through proper key management and verification procedures.
+The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Binaries should have been signed at build time. This may include binaries that have been developed and built in-house, as well as third-party libraries. Binary signatures that cannot be verified, including if the certificate is invalid or has expired, should not be deployed.
+
+If the list of trusted certificates includes third-party developers, these should be checked periodically, and maintained in-line with the organisation's wider governance surrounding trusted third-party suppliers.
 
 A human should manually approve the deployment on at least one occasion during an automated deployment. Manual interventions should be inserted into the otherwise automated deployment process for checking and approval. These interventions should occur at any points where such human checks could be significantly more accurate than an automated one would be. 
 
