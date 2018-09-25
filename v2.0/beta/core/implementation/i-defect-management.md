@@ -20,7 +20,20 @@ type: security_practice
 
 ## Maturity 1
 ### Activity
-Label defect reports with meaningful categories and priority ratings
+Any and all security defects should be recorded and tracked in a central location. Defects should be assigned meaningful categories, and should be prioritised based on the risk they pose.
+
+Sources of defects should include, but not be limited to, those discovered via:
+
+- Developers during self or peer code review
+- Static analysis
+- Dynamic analysis
+- Vulnerability scans
+- Penetration testing
+- Malware scans
+- Public/private vulnerability disclosures (e.g. for 3rd party libraries)
+- Bug bounties
+
+Manageability should be considered. Within reason, it should possible to avoid duplicate defects being recorded (i.e. it should be easy to browse/search for similar issues). Defects that are duplicates should be merged. Issues that are very similar, particularly if they are remediated in the same way, could be grouped together.
 
 #### Maturity Questions
 ##### Q 1
@@ -38,6 +51,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Maturity 2
 ### Activity
 Calculate time-to-fix baselines for different categories and ensure the program is realistic
+
+Other statuses - accept, etc
 
 ### Maturity Questions
 #### Q 1
