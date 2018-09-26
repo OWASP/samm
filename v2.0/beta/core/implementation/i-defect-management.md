@@ -9,11 +9,11 @@ type: security_practice
 
 # Overview
 
-| | A: Defect Tracking (Flaws/Bugs/Process) | B: Metrics and Feedback/Learning |
-|:---|:---|:---|
-| Maturity 1 - All defects are tracked within each project | Track all defects | Calculate and share basic metrics, such as total counts |
+|                                                              | A: Defect Tracking (Flaws/Bugs/Process)           | B: Metrics and Feedback/Learning                             |
+| :----------------------------------------------------------- | :------------------------------------------------ | :----------------------------------------------------------- |
+| Maturity 1 - All defects are tracked within each project     | Track all defects                                 | Calculate and share basic metrics, such as total counts      |
 | Maturity 2 - Defect tracking used to influence the deployment process | Assign SLA based on security rating of the defect | Calculate more advanced metrics that include new issue velocity, remediation speed metrics, and trends. |
-| Maturity 3 - Defect tracking across multiple components is used to help reduce the number of new defects | Measure and enforce compliance with the SLA | Use trend analysis to influence changes in the Design and Implementation phase across multiple projects. |
+| Maturity 3 - Defect tracking across multiple components is used to help reduce the number of new defects | Measure and enforce compliance with the SLA       | Use trend analysis to influence changes in the Design and Implementation phase across multiple projects. |
 
 
 # A: Defect Tracking (Flaws/Bugs/Process)
@@ -108,7 +108,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Activity
-Establish a general baseline for different software defects
+Calculate and share basic information about defects, and use this data to make decisions about remediation. Basic information might include: 
+
+- the total number of defects
+- the software components the defect resides in
+- the type / category of the defect
+- the severity of the defect
+
+Use this data to inform your decision-making in terms of remediation priority, and training requirements (i.e. secure development).
 
 ### Maturity Questions
 #### Q 1
@@ -126,9 +133,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-Focus on identifyng triggers that may indicate successful or failing trends
+Calculate and share more advanced metrics. These might include:
+
+- Formal risk ratings that consider likelihood and impact
+- Number of open vulnerabilities above a defined threshold in terms of severity or risk
+- Risk per software component / product / project / business unit
+- Amount of accepted risk
+- Time to detect vulnerabilities
+- Time to resolve vulnerabilities
+- Window of exposure where vulnerabilities are detected on live systems
+- Coverage of software components by verification tests
+- Number of regressions / reopened vulnerabilities
+
+This data should be available in an accessible way to management, information security persons, developers and engineers who may use it to inform their decision-making. For example, a central dashboard might be provided.
 
 ### Maturity Questions
+
 #### Q 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
@@ -144,9 +164,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Look for patterns that may benefit different development teams
+Ensure that defects are complimented with a range of fields, such as:
+
+- Category
+- CVE / CWE
+- Software component
+- Business unit
+- Exploitability
+- Impact
+- Risk
+- CVSS
+
+Use these fields to look for trends in new defects as they are raised. Graph and search for trends across various timespans such as a week, a month, and a year. 
+
+Analyse these trends continually and leverage the findings to influence the design and implementation of software.
 
 ### Maturity Questions
+
 #### Q 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
