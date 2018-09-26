@@ -15,13 +15,17 @@ type: security_practice
 |:---|:---|:---|
 | Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Identify organisation drivers as they relate to the organization's risk tolerance | Define metrics with insight into the effectiveness and efficiency of the Application Security Program |
 | Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Publish a unified strategy for application security  | Set targets and KPI's for measuring the program effectiveness |
-| Maturity 3 - Align security efforts with the relevant organizational indicators and asset values. | Align security remediation efforts with organizational indicators, asset value | Influence the strategy based on the metrics and organizational needs |
+| Maturity 3 - Align security efforts with the relevant organizational indicators and asset values. | Align the application security program to support the organization's growth | Influence the strategy based on the metrics and organizational needs |
 
 # A: Create and Promote
 
 ## Maturity 1
 ### Activity
-Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks.  This understanding is a key component of determining software security assurance priorities.
+Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks.  This understanding is a key component of determining software security assurance priorities.  In order to ascertain these threats, it's important to interview business owners and stakeholders to document drivers specific to one or more industries in which the organization operates as well as drivers specific to the organization.  Gathered information should include worst-case scenarios that could adversely impact the organization, as well as any opportunities where a more optimized software development lifecycle and more secure applications could provide a market-differentiator or create additional opportunities.
+
+Gathered information should provide a baseline against which the organization should develop and promote its application security program, prioritized to ensure it addresses threats and opportunities most important to the organization.  The baseline should be split into several risk factors and drivers that could be linked directly to the organization's priorities and used to help build a risk profile of each custom-developed application by documenting how they can impact the organization if they are compromised.
+
+The baseline and individual risk factors should be published and made available to application development teams in an effort to ensure a more transparent process of creating application risk profiles and beginning to incorporate organization's priorities into the program.  Additionally, these goals should provide a set of objectives which should be used to ensure all application security program enhancements provide direct support of the organization's current and future needs.
 
 #### Maturity Questions
 ##### Q 1
@@ -39,7 +43,11 @@ The goal here is to promote the metrics as well as the application security prog
 
 ## Maturity 2
 ### Activity
-Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security.  Brief stakeholders and obtain buy-in.
+Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security.  The plan should provide a 3-5 year strategy and include milestones consistent with the organization's business drivers and risks.  The plan should provide tactical and strategic initiatives and follow a roadmap that can be used to show the program is aligned with business priorities and needs.
+
+In developing the roadmap it's essential to reach a balance between changes requiring financial expenditures, changes of processes and procedures, and changes impacting the organization's culture.  This balance will help ensure multiple milestones can be accomplished concurrently and without overloading or exhausting available resources or development teams.  Additionally, the milestones should be frequent enough to help monitor whether the program is successful and provide timely triggers for making roadmap adjustments.  
+
+In order to ensure the program is successful, the application security team should obtain buy-in from organization's stakeholders as well as application development teams essential to the success of the overall plan.  A published plan should be available to anyone who is required to support or participate in its implementation.  
 
 ### Maturity Questions
 #### Q 1
@@ -56,7 +64,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Develop a centralized dashboard accessible by all stakeholders to show progress on a program-by-program basis.  It can be useful to call out security spend effectiveness here.
+The application security plan should be periodically reviewed for ongoing applicability and support of the organization's evolving needs and future growth.  To do this, steps outlined in the first two maturity levels of this Security Practice should be periodically repeated, at least annually.  The goal should be to ensure the plan is always supporting the current and future needs of the organization, which will help ensure the program is better aligned with the business.
+
+In addition to reviewing the business drivers, the organization should also closely monitor the success of the implementation of each of the roadmap milestones.  The success of the milestones should be evaluated based on a wide range of criterion, including completeness and efficiency of the implementation, budget considerations, and any cultural impacts or changes resulting from the initiative.  Missed or unsatisfactory milestones should be reviewed and evaluated for possible changes and adjustments to the overall program.
+
+Organizations should also work to develop a series of dashboards and measurements using which management and teams responsible for software development could monitor the implementation of the roadmap.  These dashboards should be detailed enough to identify individual projects and initiatives as well as provide a clear understanding of whether the program is successful and is aligned with the organization's needs.
 
 ### Maturity Questions
 #### Q 1
