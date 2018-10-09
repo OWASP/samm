@@ -44,12 +44,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-#### References
-https://www.owasp.org/index.php/OWASP_Proactive_Controls
-https://www.owasp.org/index.php/Testing_Guide_Introduction
-https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
-
-
+#### OWASP References
+* https://www.owasp.org/index.php/OWASP_Proactive_Controls
+* https://www.owasp.org/index.php/Testing_Guide_Introduction
+* https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
 
 
 ## Maturity 2 - Derive test cases from known security requirements

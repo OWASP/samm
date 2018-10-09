@@ -9,11 +9,11 @@ type: security_practice
 
 # Proposed Overview (updated objectives)
 
-| | A: Application Architecture | B: Supporting Architecture |
+| | A: Effective Architecture | B: Architecture Compliance |
 |:---|:---|:---|
-| Maturity 1 - Review the architecture to ensure baseline mitigations are in place for known risks.| Analyze application architecture against known security requirements and security best practices | Analyze supporting architecture against known security requirements and best practices |
-| Maturity 2 - Review the complete provision of security mechanisms in the architecture | Standardized approach for complete provision review of security mechanisms in application architecture | Standardized approach for complete provision review of security mechanisms in the supporing architecture |
-| Maturity 3 - Require assessments and validate artifacts to develop detailed understanding of protection mechanisms. | Review of the application architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures | Review of the supporting architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures |
+| Maturity 1 - Review the architecture to ensure baseline mitigations are in place for known risks.| Identify application and infrastructure architecture components | Ad-hoc review of the architecture against compliance requirement |
+| Maturity 2 - Review the complete provision of security mechanisms in the architecture | Are the architecture security mechanisms well implemented  | Analyze the architecture against known security requirements and best practices |
+| Maturity 3 - Review the architecture effectiveness and feedback results to improve the security architecture | Review of the architecture components effectiveness | Feedback the architecture review results into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures |
 
 # Original Overview
 
