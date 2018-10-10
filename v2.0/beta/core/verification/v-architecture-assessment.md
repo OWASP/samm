@@ -24,11 +24,14 @@ type: security_practice
 | Maturity 3 - Require assessments and validate artifacts to develop detailed understanding of protection mechanisms. | Review of the application architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures | Review of the supporting architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures |
 
 
-# A: Application Architecture
+# A: Effective Architecture
 
 ## Maturity 1
 ### Activity
-Verify that each known security requirement has been addressed by the architecture. Do the same for applicable standard controls.
+Identify application and infrastructure architecture components. Create a simplified view of the overall architecture. Typically, this should be created based on project artifacts such as high-level requirements and design documents, interviews with technical staff, or module-level review of the code base.
+Also identify the infrastructure components. These are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
+From the architecture view, analyze each component in terms of accessibility of the interfaces from authorized users, anonymous users, operators, application-specific roles, etc.
+For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Any breaks in consistency can be noted as assessment findings.
 
 #### Maturity Questions
 ##### Q 1
@@ -65,7 +68,12 @@ http://www.guidanceshare.com/wiki/Security_Engineering_Explained_-_Chapter_5_-_S
 
 ## Maturity 2
 ### Activity
-For each interface on a module in the high-level architecture diagram, formally iterate through the list of security mechanisms and analyze the system for their provision.
+Are the architecture security mechanisms well implemented.
+For each interface in the application and infrastructure architecture , formally iterate through the list of security mechanisms and analyze the system for their provision. This type of analysis should be performed on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface.
+
+The six main security mechanisms to consider are authentication, authorization, input validation, output encoding, error handling and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided and note any missing or unclear features as findings.
+
+This analysis should be conducted by security-savvy staff with assistance from the project team for application-specific knowledge. This analysis should be performed once per release, usually toward the end of the design phase. After initial analysis, subsequent releases are required to update the findings based on changes being made during the development cycle.
 
 ### Maturity Questions
 #### Q 1
@@ -82,7 +90,10 @@ expose the high-risk design decisions that have been made
 
 ## Maturity 3
 ### Activity
-Verify that the architecture follows the organisation design principles, design patterns, security solutions and reference architectures. Upon deviations review if the organisation guidance needs to be updated.
+Review of the architecture components effectiveness. For each of the application and infrastructure components, review their effectiveness to secure the application.
+Effectiveness should be evaluated for the security mechanisms provided by the components in terms of identification, protection, detection, response and recovery of security or privacy issues. Review their effectiveness in terms of strategy alignment, appropriate support and scaleability.
+Any findings should feedback into the Security Architecture practice.
+
 
 ### Maturity Questions
 #### Q 1
@@ -97,11 +108,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
-# B: Supporting Architecture
+# B: Architecture Compliance
 
 ## Maturity 1
 ### Activity
-Verify that each known security requirement has been addressed by the architecture. Do the same for applicable standard controls.
+Ad-hoc review of the architecture against compliance requirement.
+
+Compliance requirements, either formally identified or informally known, should be identified and collected.
+
+Review each item on the list of known compliance requirements against the architecture. Elaborate the analysis to show the design-level features that address each compliance requirement. The overall goal is to verify that each known compliance requirement has been addressed by the system design. Any compliance requirements that are not clearly provided at the design level should be noted as assessment findings.
+
+This analysis should be conducted by security-savvy technical staff with input from architects, developers, managers, and business owners as needed. It should be updated during the design phase when there are changes in compliance requirements or high-level system design.
+
 
 ### Maturity Questions
 #### Q 1
@@ -118,7 +136,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-For each interface on a module in the high-level architecture diagram, formally iterate through the list of security mechanisms and analyze the system for their provision.
+Analyze the architecture against known security requirements and best practices.
+
+Security requirements, either formally identified or informally known, should be identified and collected. Additionally, identify and include any security assumptions upon which safe operation of the system relies.
+
+Review each item on the list of known security requirements against the architecture. Elaborate the analysis to show the design-level features that address each security requirement. Separate, detailed analysis iterations can be performed on parts of the architecture to simplify capturing this information if the system is large and/or complex. The overall goal is to verify that each known security requirement has been addressed by the system design. Any security requirements that are not clearly provided at the design level should be noted as assessment findings.
+
+This analysis should be conducted by security-savvy technical staff with input from architects, developers, managers, and business owners as needed. It should be updated during the design phase when there are changes in security requirements or high-level system design.
 
 ### Maturity Questions
 #### Q 1
@@ -136,7 +160,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-Verify that the architecture follows the organisation design principles, design patterns, security solutions and reference architectures. Upon deviations review if the organisation guidance needs to be updated.
+Feedback the architecture review results into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
+
+Map security features to the security and compliance requirements in a traceability matrix.
+Gaps in the security assessment should be reviewed for root cause and remediated. Recurring architecture findings should be considered as input for the security architecture practice to update the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
 
 ### Maturity Questions
 #### Q 1
