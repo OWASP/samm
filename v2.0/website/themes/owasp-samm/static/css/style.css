@@ -17,3 +17,7 @@ body > header.ui.container {
 footer img.ui.image {
   max-width: 200px;
 }
+
+svg.peity {
+  margin-bottom: -3px;
+}

@@ -20,7 +20,7 @@
       </div>
       <div class="ui attached fluid vertical menu">
         {{ range $business_function_terms.Pages }}
-        <a href="{{ .Permalink}}" class="teal item">{{ .LinkTitle }}</a>
+        <a href="{{ .Permalink}}" class="teal item">{{ .LinkTitle }} <span class="donut">{{ ( .Params.complete | strings.TrimRight "%" ) }}/100</span></a>
         {{ end }}
       </div>
     </div>
