@@ -41,6 +41,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 should also include organisational perspective + link to business priorities and regulatory compliance
 The goal here is to promote the metrics as well as the application security program.
 
+#### Guidance
+
 ## Maturity 2
 ### Activity
 Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security.  The plan should provide a 3-5 year strategy and include milestones consistent with the organization's business drivers and risks.  The plan should provide tactical and strategic initiatives and follow a roadmap that can be used to show the program is aligned with business priorities and needs.
