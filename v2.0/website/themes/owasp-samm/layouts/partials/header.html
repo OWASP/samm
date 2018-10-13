@@ -32,6 +32,15 @@
   <meta name="generator" content="Hugo">
   <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" href="/index.xml" title="{{ .Site.Title }}">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-127457120-1');
+  </script>
 </head>
 <body class="{{if eq .Kind `page` }}single{{else}}list{{end}}">
   <header class="ui container">
