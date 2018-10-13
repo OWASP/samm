@@ -39,7 +39,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 - What if deployment has to been done by devs? I.e. small org?
-- Are we assuming that they deployment is to production?
+- Are we assuming that the deployment is to production?
+- Separation of roles/responsibilities regardless of size/process? How to marry this with DevOps practices? Whenever 3rd party certification is involved - it has to be done by a separate "department" (compliance requirement = segregation of duties)? consider 4-eyes principle? require training before being granted access?
+
+ACTION: review this stream completely
+
+#### Guidance
+
 
 ## Maturity 2
 ### Activity
@@ -66,6 +72,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 
 
+#### Guidance
+
+
 ## Maturity 3
 ### Activity
 The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Binaries should have been signed at build time. This may include binaries that have been developed and built in-house, as well as third-party libraries. Binary signatures that cannot be verified, including if the certificate is invalid or has expired, should not be deployed.
@@ -85,6 +94,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+Does this activity deserve a whole stream instead of only one activity?
+
+Partial deployment to test it in prodution to prevent DOS/quality issues
+
+#### Guidance
 
 
 
@@ -109,7 +123,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 - [CC] I've removed: "Configuration files should be treated as code" ... I think sensitive values in configuration files should always be protected, even at level 1.
 - What about companies who are too small to have seperate people doing dev and managing prod?
+Level 1: you cannot have plaintext credentials in code?  Config file separate?
 
+#### Guidance
 
 ## Maturity 2
 ### Activity
@@ -128,17 +144,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+procedures when this happens? how to resolve this? 
+Protection of secrets in config file 
+
+#### Guidance
 
 
 ## Maturity 3
 ### Activity
-Credentials and secrets appropriate for the target enviornemnt are added to configuration files dynamically during the deployment process, in such a way that the deployer has no need to see or handle those sensitive values. I.e. this should be an automated process.
+Credentials and secrets appropriate for the target environment are added to configuration files dynamically during the deployment process, in such a way that the deployer has no need to see or handle those sensitive values. I.e. this should be an automated process.
 
-The developer should have no need to view or access those credentials or secrets, particulalry from production systems, since they will be included automatically during deploy.
+The developer should have no need to view or access those credentials or secrets, particularly from production systems, since they will be included automatically during deploy.
 
 The system used to store and process the secrets and credentials must be robust from a security perspective. Secrets should be encrypted at rest and during transport. Users who configure this system and the secrets it contains should be subject to the principle of least privilege. For example, in some cases it might be appropriate for a developer to manage the secrets pertaining to a development environment, but not a UAT or production enviornment.
 
-Where secrets are not pre-defined or dependant on another system, they should be generated afresh during the deployment process. This mechanism should meet appropriate best practices such as using a cryptographically secure pseudorandom number geenrator if the value is to be randomly generated.
+Where secrets are not pre-defined or dependant on another system, they should be generated afresh during the deployment process. This mechanism should meet appropriate best practices such as using a cryptographically secure pseudorandom number generator if the value is to be randomly generated.
 
 ### Maturity Questions
 #### Q 1
@@ -149,3 +169,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+#### Notes
+push parts of this to level 2 and concentrate level 3 on validation and improvement of this process 
+detection of secrets in code? e.g. looking for strings with a high level of entropy. 
+a mature process when this happens anyway? part of incident process?
+
+
+#### Guidance
+truffleHog reference?
+also go into container level when appropriate
+
