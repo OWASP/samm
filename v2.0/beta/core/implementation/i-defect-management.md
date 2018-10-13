@@ -54,6 +54,7 @@ There is a well defined threshold for defects that require resolution and/or mit
 
 Organisations should set a threshold that is right for them. It might take into consideration: 
 
+- the threat model
 - the nature of applicable threats (i.e. skill level, motive, level of access, etc)
 - how difficult it would be to find and exploit the issue
 - potential impact to confidentiality, integrity, availability
