@@ -32,6 +32,10 @@ The organization understands the types and sensitivity of data stored and proces
 
 Basic controls are in place, to ensure sensitive data from Production environments are not propagated to lower environments without having been properly sanitized/anonymized. By ensuring unsanitized production data are never propagated to lower (non-production) environments, the organization is able to focus data protection policies and activities on production. 
 
+### Notes
+
+### Guidance
+
 ### Maturity Questions
 #### Q 1
 Are the types and sensitivity of data stored and processed by applications well understood?
@@ -60,6 +64,10 @@ At this maturity level, Data Protection activities are focused on actively manag
 The data stored, processed, and transmitted by applications are identified, and information regarding their types, sensitivity levels, and storage location(s) is captured. Data elements subject to specific regulation are clearly identified. Establishing a single source of truth, regarding the data the organization works with, is a prerequisite to developing appropriate, actionable policies for their protection.
 
 The organization has an established Data Protection Policy. Processes, procedures, and safeguards are in place for protecting and preserving data throughout their lifetime, whether at rest, being processed, or in transit. Particular attention is given to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Organization processes and procedures are adapted to ensure compliance with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
+
+### Notes
+
+### Guidance
 
 ### Maturity Questions
 #### Q 1
@@ -99,6 +107,10 @@ Activities at this maturity level are focused on making data protection "automat
 Technical controls are implemented to enforce compliance with the Data Protection Policy, and active monitoring is in place to detect attempted or actual violations. The organization's compliance with established administrative controls is regularly checked/audited. Performance and operation of automated mechanisms, including backups and record deletions, is closely monitored; failures are quickly detected and reported, to ensure timely corrective action can be taken.
 
 The organization's data catalogue is regularly reviewed, and updated as needed, to ensure it accurately reflects the data landscape. Policies and procedures are reviewed on a regular basis, and adjusted as needed to reflect changes to the organization, its structure, and its priorities.
+
+### Notes
+
+### Guidance
 
 ### Maturity Questions
 #### Q 1
@@ -141,6 +153,10 @@ Identification of unused applications occurs on an _ad hoc_ basis, either by cha
 
 Customer/user migration from older versions of the organization's products is managed individually for each product and customer/user group. Multiple versions of each product may be in active use, requiring development teams to invest significant effort in back-porting product fixes.
 
+### Notes
+
+### Guidance
+
 ### Maturity Questions
 #### Q 1
 When unused systems, applications, or services are identified, are they removed from service?
@@ -168,6 +184,10 @@ When a system, application, or service is decomissioned, an established process 
 
 The organization follows an established process when third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), reach end of life.
 
+### Notes
+
+### Guidance
+
 ### Maturity Questions
 #### Q 1
 Does the organization follow an established process for removing all associated resources, as part of decommissioning unused applications?
@@ -194,6 +214,10 @@ Does the organization discontinue use of open-source applications/services/libra
 The lifecycle state and support status of every software asset, and underlying infrastructure component, is regularly evaluated and their end-of-life is estimated. The organization follows a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. The process itself is also regularly reviewed, and adjusted as neeeded, to reflect lessons learned. 
 
 The organization has established a product support roadmap, ensuring customers/user groups are migrated from older versions of the organization's products. Product versions in active use are limited to only a small number (e.g., N.x.x and N-1.x.x only); timelines for discontinuing support on prior versions are established and documented.  
+
+### Notes
+
+### Guidance
 
 ### Maturity Questions
 #### Q 1
