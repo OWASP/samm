@@ -72,7 +72,7 @@ Combination of the 2 level 2 activities of SAMM1.5
 
 ## Maturity 3
 ### Activity
-Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the communicaty. 
+Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. 
 
 These reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They will serve as a starting point that standardizes the security approach taken and uses a configuration-driven, security-by-default approach. Such a framework can be bootstrapped by selecting a particular project early in the life-cycle and have security-savvy staff work with them to build the security functionality in a generic way so that it could be extracted from the project and utilized
 elsewhere in the organization. 
