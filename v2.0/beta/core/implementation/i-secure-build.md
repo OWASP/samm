@@ -30,13 +30,13 @@ Consistent and repeatable builds help developers focus on application-specific i
 
 The complete build process must be fully documented, broken down into clear stages that can be reproduced consistently. Following the build process should ideally not require any additional knowledge about the software - meaning that the documentation is complete and not open to interpretation.
 
-The documentation should not include any secrets (specifically considering those that would be needed during the build process). Access to build tools, environments and code repositories should be via individual credentials that authenticate, authorize and account where possible. Shared secrets, only where they cannot be avoided, should be managed with care, perhaps via an encrypted password vault.
+The documentation should not include any secrets (specifically considering those that would be needed during the build process). Access to build tools, environments and code repositories should be via individual credentials that authenticate, authorize and account where possible. Shared secrets, only where they cannot be avoided, should be managed with care, preferably via an encrypted password vault.
 
 A master copy of the build documentation should be kept in one central location that is accessible by all who require access. Avoid having multiple copies, some of which may not benefit from updated processes. 
 
 All of the tools required for the build to succeed should be included in the documentation. These tools should be routinely reviewed to ensure that they are actively maintained (supported) and up-to-date with all security patches. Furthermore, each tool's configuration should be be hardened in-line with vendor or trusted third-party guidelines.
 
-Where it is reasonable to do so, implement static application security testing (SAST) as part of the build procedure. The results from these tests should be logged centrally and actioned as necessary.
+Where it is reasonable to do so, implement static application security testing (SAST) as part of the build procedure. The results from these tests should be logged centrally and actioned upon as necessary.
 
 The build process should include steps for signing the generated binaries / code with an appropriate certificate.
 
@@ -52,13 +52,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 5
 
 #### Notes
+Why is this benificial for software security?
+
+Overlap with "Where it is reasonable to do so, implement static application security testing (SAST) to run as part of the build process. The results from these tests should be logged centrally and actioned as necessary." in maturity level 2? Move this to the implementation guidance section. 
+Reproducable build? 
+How is integrity of the build software guaranteed with this activity? 
+Does "documented" imply a separate document. How about using "captured" instead.
+
+#### Guidance
+Provide examples of which security tools might fit here.  
+are there any others than SAST(?) - how about obfuscation toolings (e.g. mobile).
 
 
 ## Maturity 2
 ### Activity
 Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The process should be reliable and not require developer intervention, reducing the likelihood of human error.
 
-Automation makes it easier to include security checks during the build process. Where it is reasonable to do so, implement static application security testing (SAST) to run as part of the build process. The results from these tests should be logged centrally and actioned as necessary.
+Automation makes it easier to include security checks during the build process. Where it is reasonable to do so, implement static application security testing (SAST) to run as part of the build process. The results from these tests should be logged centrally and actioned upon as necessary.
 
 The use of an automated system increases the reliance placed on the build tools for security, and therefore makes hardening and maintaining the toolset even more critical. Particular attention should be paid to the interfaces that such tools might expose, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
 
@@ -77,6 +87,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+Your build pipeline is as critical as the software being created, it must also be subject of software security controls itself. 
+Link to overall CI/CD automation and its place in this? 
+reference to secrets management in the deployment SP.
+
+#### Guidance
 
 ## Maturity 3
 ### Activity
@@ -106,8 +121,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+lot of overlap/duplication with the security testing stream, to be revised. 
 
-
+#### Guidance
 
 # B: Software Supply Chain
 
@@ -120,7 +136,7 @@ Keep a record of all software dependencies utilized throughout the target applic
 - package management tool
 - code (e.g. via an IDE that supports listing dependencies)
 
-Consider that the different components and aspects of the application which may consume entirely different dependencies. For example, if the software package is a web app, the server-side application code and client-side scripts both need to be covered.
+Consider that the different components and aspects of the application may consume entirely different dependencies. For example, if the software package is a web app, the server-side application code and client-side scripts both need to be covered.
 
 The records should ideally include the following information about each dependency:
 
@@ -147,7 +163,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+- is "Software Supply Chain" to best title for this stream?
 - Make sure activities address Docker and other system-level dependencies that are part of infrastructure as code.
+- associate it with "bill of materials", but add more details than Maven BOM files
+
+#### Guidance
 
 ## Maturity 2
 ### Activity
@@ -172,6 +192,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+Difference with level 1 is not clear enough 
+Review being more thorough? 
+Tooling is practicaly required to do this, very hard to get to this maturity level manually 
+Consider whitelisting/blacklisting 
+Consider a curated and controlled central repository for the build. What to get in this repository is part 
+
+#### Guidance
+much more tooling available to do this now.
 
 
 ## Maturity 3
@@ -190,3 +218,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+#### Notes
+Add other verification activities as well.
+
+
+#### Guidance
