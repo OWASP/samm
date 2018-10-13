@@ -23,7 +23,7 @@ type: security_practice
 ### Activity
 Applications are deployed via automated processes, or manually by persons other than the developers. Developers should not have access to production environments. 
 
-Any tools utilised during deployment should be carefully chosen and hardened appropriately. These tools may require access to the production environment, which makes the security of the tools themselves extremely critical.
+Any tools utilised during deployment should be carefully chosen and hardened appropriately. These tools may require access to the production environment, which makes the security of the tools themselves extremely critical. This includes ensuring that the integrity of the tools themselves and the workflows that they are programmed to follow.
 
 The tools and/or engineer conducting the deployment will require access to production credentials and secrets. These should be handled with care - e.g. according to the principle of least privilege, and encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
 
@@ -39,6 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 - What if deployment has to been done by devs? I.e. small org?
+- Are we assuming that they deployment is to production?
 
 ## Maturity 2
 ### Activity
