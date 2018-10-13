@@ -24,6 +24,7 @@ Any and all security defects should be recorded and tracked in a central locatio
 
 Sources of defects should include, but not be limited to, those discovered via:
 
+- Threat assessments
 - Developers during self or peer code review
 - Static analysis
 - Dynamic analysis
@@ -46,6 +47,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+"Any and all security defects should be recorded and tracked in a central location." - does this matter on level 1? Aggregate this per team/product? Not as an organisation. to be rephrased.  
+Should only be "validated or qualified" defects. 
+vulnerability reports and scans should be input for this . 
+security defect management includes vulnerability management 
+fixing is implicitly implied in this stream
+
+
+#### Guidance
 
 
 ## Maturity 2
@@ -79,6 +88,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+is the quality gate only deployment?  
+definition and agreement of the "threshold" and related timelines is part of this maturity level activity 
+severity level should be included in the threshold ? 
+add locations here as well 
+add consistent risk levels 
+
+#### Guidance
+
 
 
 ## Maturity 3
@@ -103,6 +120,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+add locations here as well 
+
+#### Guidance
 
 
 # B: Metrics and Feedback/Learning
@@ -129,6 +149,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+first align on objectives of these metrics and flesh out overlap with BG Governance.  
+add mean time to fix here? 
+
+levels? 
+1: provide feedback to the team 
+2: learn from it accross teams and provide feedback to the organisations, looking for trends 
+3: optimized practices and share statictics
+
+#### Guidance
 
 
 
@@ -160,6 +189,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+learn from the metrics 
+identify patterns  
+getting more granular 
+enhance trainings, libraries, ...
+describe the type of lessons learned and put more emphasis on this 
+
+
+#### Guidance
 
 
 
@@ -190,3 +227,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+#### Notes
+accross multiple projects/teams 
+put more focus on the feedback part
+change the SDLC   
+
+#### Guidance
+
