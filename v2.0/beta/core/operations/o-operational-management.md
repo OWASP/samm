@@ -67,6 +67,10 @@ The organization has an established Data Protection Policy. Processes, procedure
 
 ### Notes
 
+- Data protection capabilities overlaps with policy & compliance governance. Third paragraph. However, the content here is already more specific. So maybe it just needs a reference to the P&C activity stream.
+- Make the difference between L1 and L2 more clear. More concrete. Maybe mention the "data catalog".
+- Why is a data catalogue useful? Data classification. Threat modelling.
+
 ### Guidance
 
 ### Maturity Questions
@@ -110,7 +114,12 @@ The organization's data catalogue is regularly reviewed, and updated as needed, 
 
 ### Notes
 
+- 
+
 ### Guidance
+
+- DLP and data vaults as examples - anomaly detection
+- Watermarks on documents? To help you trace leaks
 
 ### Maturity Questions
 #### Q 1
@@ -184,7 +193,12 @@ When a system, application, or service is decomissioned, an established process 
 
 The organization follows an established process when third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), reach end of life.
 
-### Notes
+### Note
+
+- Maybe define a high level objective for the established process
+- Established good communication mechanisms to let you customers know about product lifecycle. You have a product support plan and are communicating it
+- Maybe separate software supplier and software consumer activities into separate streams ([issue #53](https://github.com/OWASP/samm/issues/53))
+- Explicitly mention manageability and attack surface as benefits.
 
 ### Guidance
 
@@ -217,7 +231,8 @@ The organization has established a product support roadmap, ensuring customers/u
 
 ### Notes
 
-### Guidance
+- Track if the application / service / firewall rule is being used or not / how much.
+- Product support roadmap - expand on L2 by having support / sales staff proactively reaching to customers
 
 ### Maturity Questions
 #### Q 1

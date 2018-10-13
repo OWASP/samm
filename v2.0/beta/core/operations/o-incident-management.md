@@ -55,7 +55,13 @@ SAMMQA-C:
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
 
-#### Notes
+### Notes
+
+- Should whether or not you do 24/7 detection be specified by maturity level? Maybe maturity should relate to risk rather than timing.
+- Log retention - risk-based decision on how long logs should be kept to aid
+- Log trustworthiness / integrity - have they been tampered with???
+
+#### Guidance
 
 
 ## Maturity 2
@@ -92,9 +98,12 @@ SAMMQA-G:
 - Yes, localized to business areas
 - Yes, across the organization
 - Yes, across the organization and required
-#### Notes
+### Notes
 
-
+- Software-driven application-specific logs (whereas level 1 might be general logs)
+- Look at known kill-chains / attacks and work backwards to select relevant logs - proactively checking that you are collecting the right data
+- Added value of the process
+- Centralized logging
 
 ## Maturity 3
 ### Activity
@@ -134,8 +143,10 @@ SAMMQA-C:
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
 
-#### Notes
+### Notes
 
+- Tabletop exercises / simulation exercises
+- Centralized logging
 
 # B: Incident Response
 
@@ -172,7 +183,9 @@ SAMMQA-C:
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
 
-#### Notes
+### Notes
+
+- Define 'incident'
 
 
 ## Maturity 2
@@ -221,7 +234,10 @@ SAMMQA-C:
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
 
-#### Notes
+### Notes
+
+- Root cause analysis - should be about the incident in question (becomes more advanced at L3)
+- You have to communicate the incident (within a certain timeframe). Involve authorities if necessary.
 
 
 ## Maturity 3
@@ -268,3 +284,9 @@ SAMMQA-C:
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
+
+### Notes
+
+- Root cause analysis - feedback loop - learning and improving beyond the incident at hand
+- Automated incident response (e.g. rasp [Runtime Application Self-Protection Security], phantom, demisto)
+- Not concrete - what are you going to do to concretely improve on L2
