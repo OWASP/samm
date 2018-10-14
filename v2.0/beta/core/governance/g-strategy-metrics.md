@@ -41,6 +41,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 should also include organisational perspective + link to business priorities and regulatory compliance
 The goal here is to promote the metrics as well as the application security program.
 
+**Summit MN**:
+* identify objectives, not drivers
+* some of the writing is linked to rather to business than to applications -> talk about organization/business risk rather than application risk
+* link betwwen application risk profile (design -> threat assessnent) and this level should be made
+* baseline = minimal set of requirements which all aplications within the organization have to meet
+* It might be better to work with risk drivers rather than threats (is it sensibvle to start rather positively?) - maybe add sth like "depending on your culture" or put it in the implementation guidance
+
 #### Guidance
 
 ## Maturity 2
@@ -63,6 +70,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
+**Summit MN:**
+* short description: establish roadmaps AND KPIs
+* 3-5 year strategy is too long, maybe 1-3 years?
 
 ## Maturity 3
 ### Activity
@@ -83,6 +93,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+
+**Summit MN:**
+* maybe consider only focus on metrics
+* develop a set of dashboards -> make sure that metrics support it 
+* rephrase level 3, last paragraph focus on challenging the efficiency of the metrics
 
 
 # B: Measure and Improve
@@ -127,6 +142,21 @@ We should make sure that we address metrics from the stand point of:
 
 We should make sure to reference all other Security Practices and activities within the model, such as Implementation Defect Tracking metrics
 
+**Summit MN:**
+* decrease of number of vulnerabilites is 2nd order metrics, focus on 1st level metrics
+* number of base metrics and deduced metrics -> might be sensible to mention it
+* we can call the metrics from defect tracking as an example
+* "result" is a better word rather than "impact" (just stressing the fact)
+* "most efficient matter for gathering data" -> mention that you can gather data in a manual or automated (preferred) way 
+* "Expressed as a unit of measure" -> units should be the ones people care about ("covered lines of code" not a good example)
+* CMMI levels not very recognizeable in the description of all levels (Best effort / Process and alignment / Improving and measuring)
+* we don't mention that one of the metrics is budget spent 
+* what are the drivers for definition of a particular metric? Which metrics are useful? Should we measure anything we can or not? Some ground should be laid in the practice description
+* measuring SAMM Maturity as an example as well?
+* discussion on inexpensive vs expensive metrics - cost/benefit? or just cost e.g. in term of hours?
+* Maybe some of the metrics to be put on level 2? bar too high?
+* discussion about coverage? where to start? (probably rather easy)
+* measurement and risk mgmt? Should there be more of it? - no decision
 
 ## Maturity 2
 ### Activity
@@ -148,6 +178,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
+**Summit MN:**
 
 ## Maturity 3
 ### Activity
@@ -170,3 +201,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+#### Notes
+
+**Summit MN:**
+
+* level 3 should be about driving and correcting your program - not very visible in the description
