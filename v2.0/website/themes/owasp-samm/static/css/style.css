@@ -2,6 +2,12 @@ body > .ui.container {
   margin-top: 1em;
 }
 
+@media only screen and (min-width: 1300px) {
+  .ui.container {
+    width: 1220px;
+  }
+}
+
 body > header.ui.container {
   margin-top: 3em;
 }
