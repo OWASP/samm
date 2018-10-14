@@ -97,6 +97,10 @@ Project teams should focus on buildout of granular security test cases based on 
 
 *review/update the questions*
 
+* Remove iterating through requirements.
+* Write rules for the standards (org-wide) and app-specific.
+** Zap for example could be app-specific, secure coding rules not as they'll be harder to do.
+
 #### OWASP References
 * https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
 * Link 2
@@ -132,6 +136,12 @@ For each project release, results from automated and manual security tests shoul
 
 *this is a copy of SAMMv1.5 (to be extended with deployment)*
 
+* should include improving the quality part of testing, not just adding it to the process. 
+* Incorporate a ThreatFix/Splunk like concept here.
+* Link to defect management
+
+#### Guidance
+* Select tests which can run before deploy, after, etc.
 
 
 #### OWASP References
@@ -156,7 +166,6 @@ Utilizing the code review checklists, the analysis can be performed as a normal 
 
 During development cycles where high-risk code is being changed and reviewed, development managers should triage the findings and prioritize remediation appropriately with input from other project stakeholders.
 
-
 ### Maturity Questions
 #### Q 1
 #### Do project teams manually review selected high-risk components?
@@ -172,6 +181,7 @@ During development cycles where high-risk code is being changed and reviewed, de
 
 *this is a copy of SAMMv1.5*
 
+* late and ad-hoc, more blackbox like approach + lower quality of methodology (any owasp-like)
 
 #### OWASP References
 * Link 1
@@ -206,6 +216,8 @@ Prior to release or deployment, stakeholders must review results of security tes
 #### Notes
 
 *this is a copy of SAMMv1.5*
+
+* scheduled tests, more whitebox like approach (e.g. with interaction with devs). Improve quality of methodology used.
 
 
 #### OWASP References
@@ -242,6 +254,10 @@ For each project release, results from automated and manual security tests shoul
 #### Notes
 
 *this is a copy of SAMMv1.5*
+
+* continuous (involve pentesters in remediation with devs), improve methodology
+* Triggers for out-schedule repeat assessments based on results of pentests (e.g. if pentest identifies issues with session management, any changes to session management will trigger an explicit pentest before pushing to production)
+* Feedback from pentests used to drive requirements is handled within the education activity.
 
 #### OWASP References
 * Link 1
