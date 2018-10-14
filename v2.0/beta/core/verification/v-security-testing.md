@@ -17,6 +17,10 @@ type: security_practice
 | Maturity 3 - Embed security testing as part of the development and deployment processes. | Integrate automated security testing into the build and deploy process | Integrate security testing into development process |
 
 
+**Notes**
+
+* Make code review more explicit (in both streams)
+
 # A: Scalable Baseline
 
 ## Maturity 1 - Utilize automated security testing tools
