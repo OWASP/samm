@@ -58,6 +58,13 @@ examples:
 standards every team has to follow (e.g. where to compile from)
 Action: update P&C streams into separate policies / compliance streams (now there is overlap)*
 
+**Summit MN:**
+*  library - potentially a lot of effort and not so much impact, maybe start easier? Soften the language
+*  Explicitly mention to integrate with the current set of security policy
+*  stream titles are maybe confusing? What exactly is "Compliance" (mandatory / deliberately chosen standards)? -> A->"Internal" B->"External"/"3rd party"
+*  Q: can we think of case where you care of the compliance of your customers? -> Posing compliance requirements on your customers - GDPR, SWIFT -> maybe put into a guidance
+*  Refer to RFC covering "Policy", "Standard" etc.
+
 ## Maturity 2
 ### Activity
 To assist with the ongoing implementation and verification of compliance with policies and standards, develop application security and appropriate tests scripts related to each applicable requirement.   These documents should be organized into libraries and be available to all application teams in formats most conducive for inclusion into each application.  These documents should be clearly labeled and linked to the policies and standards they represent, to assist with the ongoing updates and maintenance.  Additionally, policies and standards should be versioned and include detailed change logs with each iterative update to make ongoing inclusion into different product's SDLC easier.
@@ -78,6 +85,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
+**Summit MN:**
+* there is a whole practice on security requirements - wording? 
+* last paragraph should be linked to security testing
+* "test scripts" -> rather playbooks meant
 
 ## Maturity 3
 ### Activity
@@ -96,6 +107,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+
+**Summit MN:**
+* DK: Also policies themselves change, policy change should trigger compliance check
+* !We're missing secure coding guidelines!
 
 # B: Compliance Management
 
@@ -121,6 +136,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 overlaps with Policies and Standards - 1 ?? --> Overlap is intentional since they address different sources of requirements and play off one another.
 
+**Summit MN:**
+* use "obligations" instead of "requirements"
+* DK: the organization-level activities go beyond maturity level 1 imho - also more voices during the discussion
+* DK: I'd start with compliance drivers rather than requirements
+* reference UCF?
 
 ## Maturity 2
 ### Activity
@@ -141,6 +161,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 
+**Summit MN:**
+* DK: I'd also go for compliance requirements integrated in other requirements for dev. teams
+* Mention GRC tools?
 
 
 ## Maturity 3
@@ -160,3 +183,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+#### Notes
+**Summit MN:**
+* DK: compliance drivers change as well!
