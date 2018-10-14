@@ -193,7 +193,7 @@ When a system, application, or service is decomissioned, an established process 
 
 The organization follows an established process when third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), reach end of life.
 
-### Note
+### Note    
 
 - Maybe define a high level objective for the established process
 - Established good communication mechanisms to let you customers know about product lifecycle. You have a product support plan and are communicating it
