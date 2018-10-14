@@ -24,11 +24,11 @@ Possibly move the Third-Party Requirements stream into this practice, as a third
 
 # A: Data Protection
 
-The activities in this stream focus on ensuring data are properly protected in all aspects of their creation, handling, storage, and processing. As an organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected.
+The activities in this stream focus on ensuring data are properly protected in all aspects of their creation, handling, storage, and processing. As an organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected. 
 
 ## Maturity 1
 ### Activity
-The organization understands the types and sensitivity of data stored and processed by applications, and maintains awareness of the fate of processed data (e.g., backups, sharing with external partners). All data associated with a given application are protected and handled in accordance with protection requirements applying to the most sensitive data stored and processed.
+The organization understands the types and sensitivity of data stored and processed by applications, and maintains awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. All data associated with a given application are protected and handled in accordance with protection requirements applying to the most sensitive data stored and processed. 
 
 Basic controls are in place, to ensure sensitive data from Production environments are not propagated to lower environments without having been properly sanitized/anonymized. By ensuring unsanitized production data are never propagated to lower (non-production) environments, the organization is able to focus data protection policies and activities on production. 
 
@@ -61,9 +61,9 @@ Are controls in place to ensure sensitive data are sanitized before propagation 
 ### Activity
 At this maturity level, Data Protection activities are focused on actively managing the organization's stewardship of data. Technical and administrative controls established as part of this Activity serve to protect the confidentiality of sensitive data, as well as the integrity and availability of all data in the organization's care, from its initial creation/receipt through the destruction of backups at the end of their retention period.
 
-The data stored, processed, and transmitted by applications are identified, and information regarding their types, sensitivity levels, and storage location(s) is captured. Data elements subject to specific regulation are clearly identified. Establishing a single source of truth, regarding the data the organization works with, is a prerequisite to developing appropriate, actionable policies for their protection.
+The data stored, processed, and transmitted by applications are identified, and information regarding their types, sensitivity (classification) levels, and storage location(s) is captured in the organization's data catalog. Data records/elements subject to specific regulation are clearly identified. Establishing a single source of truth, regarding the data the organization works with, supports finer-grained selection of controls for their protection. The accuracy, timeliness, and efficiency of the organization's responses to data-related queries (e.g., from auditors, incident response teams, or customers) are also enhanced.
 
-The organization has an established Data Protection Policy. Processes, procedures, and safeguards are in place for protecting and preserving data throughout their lifetime, whether at rest, being processed, or in transit. Particular attention is given to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Organization processes and procedures are adapted to ensure compliance with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
+In accordance with the organization's Data Protection Policy, processes and procedures are in place for protecting and preserving data throughout their lifetime, whether at rest, being processed, or in transit. Particular attention is given to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Organization processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
 
 ### Notes
 
@@ -75,7 +75,7 @@ The organization has an established Data Protection Policy. Processes, procedure
 
 ### Maturity Questions
 #### Q 1
-Are data catalogued, including their types, sensitivity levels, and processing/storage locations?
+Are data cataloged, including their types, sensitivity levels, and processing/storage locations?
 
 *Answer Options*
 
@@ -108,9 +108,11 @@ Are handling requirements established and documented for all data elements in th
 ### Activity
 Activities at this maturity level are focused on making data protection "automatic," thereby reducing the organization's reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
 
-Technical controls are implemented to enforce compliance with the Data Protection Policy, and active monitoring is in place to detect attempted or actual violations. The organization's compliance with established administrative controls is regularly checked/audited. Performance and operation of automated mechanisms, including backups and record deletions, is closely monitored; failures are quickly detected and reported, to ensure timely corrective action can be taken.
+Technical controls are implemented to enforce compliance with the Data Protection Policy, and active monitoring is in place to detect attempted or actual violations. The organization may leverage a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
 
-The organization's data catalogue is regularly reviewed, and updated as needed, to ensure it accurately reflects the data landscape. Policies and procedures are reviewed on a regular basis, and adjusted as needed to reflect changes to the organization, its structure, and its priorities.
+The organization's compliance with established administrative controls is regularly checked/audited. Performance and operation of automated mechanisms, including backups and record deletions, is closely monitored; failures are quickly detected and reported, to ensure timely corrective action can be taken.
+
+The organization's data catalog is regularly reviewed, and updated as needed, to ensure it accurately reflects the data landscape. Processes and procedures are reviewed on a regular basis, and adjusted as needed to reflect changes to the organization's policies and priorities.
 
 ### Notes
 
@@ -154,11 +156,15 @@ Are the data catalogue and data protection policies/procedures reviewed and upda
 
 # B: System decomissioning / Legacy management
 
-The activities in this stream are related to the identification, management, and tracking of systems, applications, application dependencies, and services that are no longer used, have reached end of life, or are no longer actively developed or supported. Resources to be managed include those developed by the organization (whether for internal use or for distribution to customers/users), as well as third-party resources used by the organization.
+From the perspective of the organization as a consumer of resources, the activities in this stream are related to the identification, management, and tracking of systems, applications, application dependencies, and services that are no longer used, have reached end of life, or are no longer actively developed or supported. Removal of unused systems and services improves manageability of the environment and reduces the organization's attack surface, while affording direct and indirect cost savings (e.g., reduced license count, reduced logging volume, or reduced analyst effort).
+
+From the perspective of the organization as a supplier of software, activities in this stream focus on managing and - to the extent possible - reducing the organization's support and maintenance workload, through the coordinated retirement of "legacy" software versions. Benefits to the organization can be significant over the long term, as a direct consequence of reducing the required back-porting effort for security-related fixes. These activities apply to all software resources developed by the organization, whether for internal use or for distribution to customers/users.
 
 ## Maturity 1
 ### Activity
 Identification of unused applications occurs on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When unused applications are identified, findings are processed for further action; if a formal process for decommissioning unused applications has been established, that process is used. 
+
+The organization's 
 
 Customer/user migration from older versions of the organization's products is managed individually for each product and customer/user group. Multiple versions of each product may be in active use, requiring development teams to invest significant effort in back-porting product fixes.
 
