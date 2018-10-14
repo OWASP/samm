@@ -9,7 +9,7 @@ type: security_practice
 
 # Proposed Overview (updated objectives)
 
-| | A: Effective Architecture | B: Architecture Compliance |
+| | A: Architecture Validation | B: Architecture Compliance |
 |:---|:---|:---|
 | Maturity 1 - Review the architecture to ensure baseline mitigations are in place for known risks.| Identify application and infrastructure architecture components | Ad-hoc review of the architecture against compliance requirement |
 | Maturity 2 - Review the complete provision of security mechanisms in the architecture | Are the architecture security mechanisms well implemented  | Analyze the architecture against known security requirements and best practices |
@@ -28,7 +28,7 @@ type: security_practice
   * Thers is a risk that the A stream will contain far more content than the B stream.
 
 
-# A: Effective Architecture
+# A: Architecture Validation
 
 ## Maturity 1
 ### Activity
