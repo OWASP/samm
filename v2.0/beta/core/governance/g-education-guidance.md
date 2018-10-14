@@ -61,6 +61,11 @@ Training should be considered mandatory for all employees and contractors involv
 
 #### Notes
 
+**Summit MN:**
+* DK: I wouldn't base anything on Top10 
+* DK: Mandatory technical trainings: project manager won't understand much, QA also problematic, I would rather go for conscious decision
+* DK: I'm not convinced that an awareness training should be too technical
+
 ## Maturity 2
 ### Activity
 Conduct instructor-led or CBT based security training specific to roles and technologies used within the organization.  The organization should customize training for product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs. 
@@ -96,6 +101,9 @@ The goal should be to include all training content described in the Maturity Lev
 
 #### Notes
 
+**Summit MN:**
+* DK: maybe mention different areas of development- training for an iOS developer vs. REST B/E
+* Q: Shall we mention Security Champions and their trainings? 
 
 ## Maturity 3
 ### Activity
@@ -129,6 +137,12 @@ Issues resulting from employees not following established standards, policies, p
 
 #### Notes
 
+**Summit MN:**
+* DK: Employees should demonstrate gained knowledge on this level IMHO
+* Continuous training on level 3?
+* Maybe refer to conferences, OWASP Chapter meetings etc. in the guidance
+* Q: shall we add conducting trainings, organizing conferences, also in order to improve image? No, we should put it into the Org&Culture
+* Maybe we should include gamification
 
 # B: Organization and Culture
 
@@ -160,6 +174,13 @@ In addition to assisting Information Security, "Security Champions" should also 
 - Option 4
 
 #### Notes
+
+**Summit MN:**
+* DK: My high-level idea:
+  * Maturity 1: You have someone responsible for pushing AppSec
+  * Maturity 2: Security Champions (ensure scalability, clear tasks), possibly guilds
+  * Maturity 3: Evaluation of Security Champions, full orga coverage / organization efficiency 
+* Wording: Project team vs development team - we should decide and align
 
 ## Maturity 2
 ### Activity
@@ -199,6 +220,8 @@ Finally, the group should also provide subject matter expertise in helping infor
 
 #### Notes
 
+**Summit MN:**
+
 ## Maturity 3
 ### Activity
 Security is the responsibility of all employees, not just the Information Security team.  The organizations should deploy communication and knowledge sharing platforms to help developers build communities around different technologies, tools, and programming languages.  These communities may consist of one or multiple tools, and enable employees to share information, discuss challenges with other developers, and search the knowledge-base for answers to previously discussed issues.
@@ -229,3 +252,10 @@ The information portal should be reviewed on a regular basis by the Secure Softw
 
 #### Notes
 
+**Summit MN:**
+* Q: Information portal - shouldn't be introduced on earlier levels with lower quality? Or should be introduced in Education? A: It should be present in earlier stages.
+* Q: Separate stream for sharing knowledge? Maybe
+* General guideline: Concepts shouldn't pop up on higher levels suddenly
+* Centre of excellence vs creating the concept of champions? The centre of excellence typically comes first
+* Education and Guidance doesn't quite fit anymore -> Education and Culture?
+* For smaller organizations, the centre of excellence can be one person -> mention that explicitly
