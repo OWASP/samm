@@ -20,6 +20,10 @@ type: security_practice
 
 # A: Control Verification
 
+**Notes**
+* Add links to mobile, etc. in guidance section.
+* Requirements: do not specify per app owasp top 10. Should go into coding guidelines, or standards (governance), etc.
+
 ## Maturity 1 - Test for standard security controls
 ### Activity
 Conduct security tests to verify that the standard security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service.
@@ -42,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-
+* rename to remove standard security control. Use something more suggestive of app appropriateness/relevance.
 
 #### OWASP References
 * https://www.owasp.org/index.php/OWASP_Proactive_Controls
@@ -76,7 +80,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-This activity depends on the security practice "Security Requirements".
+* This activity depends on the security practice "Security Requirements".
+* 3rd paragraph is unclear. 
+* Paragraph before last: App-specific test cases rather than applicable general test cases.
 
 
 ## Maturity 3 - Perform regression testing (with security unit tests)
@@ -102,11 +108,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 include https://github.com/continuumsecurity/bdd-security ?
 http://gauntlt.org/ reference?
 
+* Not bugs, test harness.
+* Link to secure build (e.g. Definition of Merge).
+
 # B: Misuse/Abuse Testing
 
 ## Maturity 1 - Perform security fuzzing testing
 ### Activity
-Fuzzing can be part of a manual of automated security test, but this activity should cover at a minimum fuzzing for known vulnerabilities against the main input parameters of the application.
+Fuzzing can be part of a manual of automated security test, but this activity should cover at a minimum fuzzing for vulnerabilities against the main input parameters of the application.
 
 Perform fuzzing, sending massive amounts of random data, to the test subject in an attempt to make it crash. Fuzz testing or Fuzzing is a Black Box software testing technique, which basically consists in finding implementation bugs using malformed/semi-malformed data injection in an automated fashion.
 
@@ -153,6 +162,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
+* Remove “that is part of the unit tests”. 
+* Don’t link abuse cases to each positive test case.
+** There will be abuse cases which go beyond use cases (e.g. business logic attacks). Here we go beyond use cases. Security Testing practice will focus on the edge cases (linked directly to use cases)
 
 #### References
 https://www.owasp.org/index.php/Testing_for_business_logic
