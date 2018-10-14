@@ -23,6 +23,10 @@ type: security_practice
 | Maturity 2 - Offer assessment services to review software design against comprehensive best practices for security. | Standardized approach for complete provision review of security mechanisms in application architecture | Standardized approach for complete provision review of security mechanisms in the supporing architecture |
 | Maturity 3 - Require assessments and validate artifacts to develop detailed understanding of protection mechanisms. | Review of the application architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures | Review of the supporting architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures |
 
+**Notes**
+* **Combine both streams into 1 (positive side of review). Create a new one (negative side of review) to focus on verifying that assumptions in the design (e.g. threat assessments) are still meeting the functionality of the application. Can also include activities included in an app’s risk profile.**
+  * Thers is a risk that the A stream will contain far more content than the B stream.
+
 
 # A: Effective Architecture
 
@@ -86,7 +90,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 #### Notes
-expose the high-risk design decisions that have been made
+* expose the high-risk design decisions that have been made
+* Remove “well implemented” from maturity 2. Move it more into 3 to increase the difference between the 2 levels.
+* remove/adapt list of 6 in maturity 2. Perhaps add user/access management.
+*  Architecture review should be performed once per release is not CICD friendly. Need to establish what a release is. Or reword.
 
 ## Maturity 3
 ### Activity
@@ -109,6 +116,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 # B: Architecture Compliance
+**Notes**
+* **This will be rewritten. See notes section at the top of the practice**
 
 ## Maturity 1
 ### Activity
