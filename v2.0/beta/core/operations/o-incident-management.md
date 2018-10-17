@@ -2,7 +2,7 @@
 business_functions : Operations
 title : Incident Management
 assignedto       : Daniel (dan.kefer@gmail.com)
-complete          : 0%
+complete          : 80%
 business_functions_weight: 1
 type: security_practice
 ---
