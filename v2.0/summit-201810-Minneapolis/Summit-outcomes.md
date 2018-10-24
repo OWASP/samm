@@ -46,6 +46,7 @@ In this session, the goal was to discuss possible improvement in current assessm
 More details available here: https://github.com/OWASP/samm/blob/master/v2.0/summit-201810-Minneapolis/assessment-session.md  
 **Next steps:**
 * Daniel will present the concept in the next call in order to align with the team. (Daniel)
+* Schedule a dedicated call on this together with Daniel 
 * Everybody will try to:
 1. clearly describe an objective/benefit for every maturity level of every stream (one sentence summary) (All)
 2. add multiple comprehensive "Indicators of quality" formulated in the way "Typically, on this maturity level, ..." (All)
