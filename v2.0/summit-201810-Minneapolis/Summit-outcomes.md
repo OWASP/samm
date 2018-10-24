@@ -21,8 +21,8 @@ All SAMMv2 activities now have a description and have been reviewed in terms of 
 Feedback is captured as direct inline editing and by adding update remarks in the Notes section of the Action.
 The latest version is available here: http://owaspsamm.org/  
 **Next steps:**
-* Create a glossary of our terminology (owner?)
-* Create/complete our list of main SAMM principles
+* Create a glossary of our terminology (owner = John)
+* Create/complete our list of main SAMM principles (owner = Bart)
 * Start to hire a technical writer
     * Create a statement of work (Seba)
     * Hire a technical writer (Seba)
