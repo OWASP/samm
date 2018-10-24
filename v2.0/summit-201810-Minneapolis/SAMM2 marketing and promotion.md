@@ -15,6 +15,7 @@ Strategy steps will be:
 * Piggyback on other OWASP (flagship) projects, e.g. OWASP CISO contact list.
 * Research/use other communication channels
 * Improve/deliver SAMM training to raise awareness and generate income
+* Straighten out relationship with the opensamm.org website
 
 ##Actions
 Actions that have been identified are listed below. These have not been grouped yet.
