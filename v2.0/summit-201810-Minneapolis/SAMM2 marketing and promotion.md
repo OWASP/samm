@@ -57,6 +57,7 @@ Actions that have been identified are listed below. These have not been grouped 
 * Publish book on several channels (leanpub, amazon, …)
 * Merchandise (t-shirts, cups, stickers, …)
 * Friendly adopters, case studies (SAMM champions :-) )
+* reach out and add logos of organisations using SAMM to the website
 
 
 <!--
