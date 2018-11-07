@@ -19,21 +19,17 @@ type: security_practice
 # Overview
 
 # A: Control Verification
-
+<!––
 **Notes**
-* Add links to mobile, etc. in guidance section.
+* Add links to mobile (DONE), etc. in guidance section.
 * Requirements: do not specify per app owasp top 10. Should go into coding guidelines, or standards (governance), etc.
+––>
 
-## Maturity 1 - Test for standard security controls
+## Maturity 1 - Test for software security controls
 ### Activity
-Conduct security tests to verify that the standard security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service.
+Conduct security tests to verify that the standard software security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service. Security test cases should at least include testing for authentication, access control, input validation, encoding and escaping data and encryption controls. The test objective is to validate that the security controls are implemented with few or no vulnerabilities.
 
-Typically these will be security tests for controls that prevent the OWASP Top 10 (*) vulnerabilities. Test cases can be derived from the OWASP Testing Guide (*), OWASP ASVS (*) or the OWASP Top 10 Proactive Controls (*). Security test cases should at least include testing for authentication, access control, input validation, encoding and escaping data and encryption controls. The test objective is to validate that security controls are implemented with few or no vulnerabilities.
-
-The security testing should test for standard security controls that are relevant for the application under test. The control verification security tests can be performed manually or with tools and should be performed each time the applications use of the controls is changed.
-
-Security control verification should be considered mandatory for all applications that are part of the SAMM program. The tests should be regularly reviewed, to include changes in the application technology, and vulnerability trends. A
-
+The security testing should test for software security controls that are relevant for the software under test. The control verification security tests can be performed manually or with tools and should be performed each time the applications use of the controls is changed. Software control verification should be considered mandatory for all software that is part of the SAMM program. The tests should be regularly reviewed, to include changes in the software technology, and vulnerability trends.
 
 #### Maturity Questions
 ##### Q 1
@@ -45,29 +41,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+<!––
 #### Notes
-* rename to remove standard security control. Use something more suggestive of app appropriateness/relevance.
+* rename to remove standard security control. Use something more suggestive of app appropriateness/relevance. (DONE)
+––>
 
-#### OWASP References
+#### Guidance
+Typically these will be security tests for controls that prevent the OWASP Top 10 vulnerabilities. Test cases can be derived from the OWASP Testing Guide, OWASP Mobile Testing Guide, OWASP ASVS or the OWASP Top 10 Proactive Controls.
 * https://www.owasp.org/index.php/OWASP_Proactive_Controls
 * https://www.owasp.org/index.php/Testing_Guide_Introduction
 * https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
-
+* https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide
 
 ## Maturity 2 - Derive test cases from known security requirements
 ### Activity
-From the known security requirements, identify and implement a set of test cases to check the software for correct functionality. To have a successful testing program, one must know what the testing objectives are. These objectives are specified by the security requirements.
+From the known security requirements, identify and implement a set of security test cases to check the software for correct functionality. To have a successful testing program, one must know what the testing objectives are. These objectives are specified by the security requirements.
 
 Security test cases should be derived for the applications in scope from the security requirements that were created as part of the SAMM security practice "Security Requirements". In order to validate security requirements with security tests, security requirements need to be function driven and they need to highlight the expected functionality (the what) and implicitly the implementation (the how). These requirements are also referred to as “positive requirements”, since they state the expected functionality that can be validated through security tests. Examples of positive requirements are: “the application will lockout the user after six failed log on attempts” or “passwords need to be a minimum of six alphanumeric characters”. The validation of positive requirements consists of asserting the expected functionality and can be tested by re-creating the testing conditions and running the test according to predefined inputs. The results are then shown as as a fail or pass condition.
 
-From the functionality perspective, the validation of security requirements is the main objective of security testing. From the risk management perspective, the validation of security requirements is the objective of information security assessments. At a high level, the main goal of information security assessments is the identification of gaps in security controls, such as lack of basic authentication, authorisation, or encryption controls. More in depth, the security assessment objective is risk analysis, such as the identification of potential weaknesses in security controls that ensure the confidentiality, integrity, and availability of the data.
-
-From SAMM1.0:
-From the known security requirements for a project, identify a set of test cases to check the software for correct functionality. Typically, these test cases are derived from security concerns surrounding the functional requirements and business logic of the system, but should also include generic tests for common vulnerabilities based on the implementation language or technology stack.
-
-Often, it is most effective to use the project team’s time to build application-specific test cases and utilize publicly available resources or purchased knowledge bases to select applicable general test cases for security. Although not required, automated security testing tools can also be utilized to cover the general security test cases.
-
-This test case planning should occur during the requirements and/or design phases, but must occur before final testing prior to release. Candidate test cases should be reviewed for applicability, efficacy, and feasibility by relevant development, security, and quality assurance staff.
+Often, it is most effective to use the project team’s time to build application-specific test cases and utilize publicly available resources or purchased knowledge bases to select applicable general test cases for security. Candidate test cases should be reviewed for applicability, efficacy, and feasibility by relevant development, security, and quality assurance staff. Deriving the test cases should occur during the requirements and/or design phase of the functionality. Testing the security requirements should be part of the functional testing of the software.
 
 ### Maturity Questions
 #### Q 1
@@ -79,11 +71,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### Notes
-* This activity depends on the security practice "Security Requirements".
-* 3rd paragraph is unclear. 
-* Paragraph before last: App-specific test cases rather than applicable general test cases.
+#### Guidance
 
+<!––
+#### Notes
+* This activity depends on the security practice "Security Requirements". (DONE)
+* 3rd paragraph is unclear. (Removed)
+* Paragraph before last: App-specific test cases rather than applicable general test cases. (Removed)
+––>
 
 ## Maturity 3 - Perform regression testing (with security unit tests)
 ### Activity
@@ -104,12 +99,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+<!––
 #### Notes
 include https://github.com/continuumsecurity/bdd-security ?
 http://gauntlt.org/ reference?
-
 * Not bugs, test harness.
 * Link to secure build (e.g. Definition of Merge).
+––>
 
 # B: Misuse/Abuse Testing
 
@@ -134,9 +130,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+<!––
 #### Notes
+––>
 
-#### References
+#### Guidance
 https://www.owasp.org/index.php/Fuzzing
 https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsFuzzConcepts
 https://github.com/fuzzdb-project/fuzzdb
@@ -161,12 +159,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+<!––
 #### Notes
-* Remove “that is part of the unit tests”. 
+* Remove “that is part of the unit tests”.
 * Don’t link abuse cases to each positive test case.
 ** There will be abuse cases which go beyond use cases (e.g. business logic attacks). Here we go beyond use cases. Security Testing practice will focus on the edge cases (linked directly to use cases)
+––>
 
-#### References
+#### Guidance
 https://www.owasp.org/index.php/Testing_for_business_logic
 
 
@@ -196,9 +196,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+<!––
 #### Notes
+––>
 
-#### References
+#### Guidance
 https://www.owasp.org/index.php/Application_Denial_of_Service
 https://www.owasp.org/index.php/Denial_of_Service_Cheat_Sheet
 https://www.owasp.org/index.php/Testing_for_Denial_of_Service
