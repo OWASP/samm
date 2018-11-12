@@ -14,7 +14,7 @@ type: security_practice
 |:---|:---|:---|
 | Maturity 1 - Deployment processes are fully documented | Deployment is automated or done by someone other than the developer. | Configuration files are versioned and protected |
 | Maturity 2 - Deployment processes include security verification milestores | Integration of security verification in deployment (e.g. binary static code analysis / AV scan) | Configuration files do not contain unencrypted sensitive configuration information |
-| Maturity 3 - Deployment process if fully automated and incorporates automated verification of all critical milestones | Integrity of the code is verified prior to deployment | Deployment process automatically generates / initializes credentials and authentication keys |
+| Maturity 3 - Deployment process is fully automated and incorporates automated verification of all critical milestones | Integrity of the code is verified prior to deployment | Deployment process automatically generates / initializes credentials and authentication keys |
 
 
 # A: Deployment Process
