@@ -139,7 +139,14 @@ Typically, on this maturity level:
 
 # B: Incident Response
 
+Description TBD
+
 ## Maturity 1
+
+### Benefit
+
+TBD
+
 ### Activity
 
 The first step is to recognize the incident response competence as such and define an owner being responsible for its continuous development and keeping up with current state of incident handling best practices and forensic tooling. 
@@ -148,36 +155,24 @@ You usually don't go for dedicated incident response personnel on this maturity 
 
 When security incidents happen, the steps taken are documented, however this information can be protected from unauthorized access in case of need. 
 
+### Indicators
 
-### Maturity Questions
-#### Q 1
-Is it clear who's responsible for the incident response process?
+Typically, on this maturity level:
 
-**Answer Options**
-SAMMQA-A:
-
-- No
-- Yes, it's less than a year old
-- Yes, it's a number of years old
-- Yes, it's a pretty mature program
-
-#### Q 2
-Are all security incidents documented?
-
-**Answer Options**
-SAMMQA-C:
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
+- the person responsible for the process is documented and generally known
+- all security incidents are documented in a consistent way
 
 ### Notes
 
-- Define 'incident'
+- Define 'incident' -> **Defined in Practise Long Description**
 
 
 ## Maturity 2
+
+### Benefit
+
+TBD
+
 ### Activity
 Security incident response process is formally established and documented. The documentation should include information like: 
 
@@ -189,9 +184,13 @@ Knowledgeable and properly trained staff should be available also outside of bus
 
 The process should also include a policy for carrying out root cause analysis with the goal of improving both detection and response process.
 
+### Indicators
+
+Typically, on this maturity level:
+
 ### Maturity Questions
 #### Q 1
-Is the incident respone process including most probable scenarios documented and known?
+Is the incident response process including most probable scenarios documented and known?
 
 **Answer Options**
 SAMMQA-C:
