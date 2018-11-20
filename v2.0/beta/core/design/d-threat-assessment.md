@@ -9,26 +9,26 @@ type: security_practice
 
 
 # Overview
-The Threat Assessment (TA) practise is focused on accurately identifying and understanding potential attacks upon an organisation's software in order to better understand the risks and facilitate risk management. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
+The Threat Assessment (TA) practice is focused on accurately identifying and understanding potential attacks upon an organisation's software in order to better understand the risks and facilitate risk management. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
 
-Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.
+Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Application Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.
 
-| | A: Risk Profile | B: Threat Modeling |
+| | A: Application Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
 | Maturity 1 - Best-effort identification of high-level threats to the organization and individual projects. | Basic assessment of the application risk | Best effort ad-hoc threat modeling |
 | Maturity 2 - Standardization and enterprise-wide analysis of software-related threats within the organisation | Understand the risk for all applications in the organisation | Standardized threat modeling |
 | Maturity 3 - Pro-active improvement of threat coverage throughout the organisation | Periodicly review application risk profiles | Improve quality by automated analysis |
 
 
-# A: Risk Profile
+# A: Application Risk Profile
 
 ## Maturity 1
 ### Activity
-As an organisation, you want to spend your security budget where it matters. The best way to guide this is based on application risk. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be misused or breached.
+As an organisation, you want to spend your security budget where it matters. Application risk is a good tool to guide your security spending. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be attacked or breached.
 
-In this level, you will use a simple way to evaluate the application risk based on the potential business impact that it poses towards the organisation in case of attack. This typically focuses on evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to identify the impact, such as whether the application processes financial data, or whether privacy-related data is involved. 
+In this level, you will use a simple method to evaluate application risk, by estimating the potential business impact that it poses towards the organisation in case of attack. You can achieve this by evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to identify the impact, such as whether the application processes financial data, or whether privacy-related data is involved, etc. 
 
-Next, you will need a scheme to classify applications according to their risk. The use of a simple, qualitative scheme (e.g. high/medium/low) often proves to be effective. Advanced organisations or organisations that are highly risk driven might make use of more quantitative risk schemes. Don't invent a new risk scheme if your organisation already has one that works well. 
+Next, you will use a scheme to classify applications according to their risk. The use of a simple, qualitative scheme (e.g. high/medium/low) often proves to be effective. Advanced organisations or organisations that are highly risk driven might make use of more quantitative risk schemes. Don't invent a new risk scheme if your organisation already has one that works well. 
 
 For applications at hand, evaluate the risk based on the set of questions and assign a risk level to it. 
 
