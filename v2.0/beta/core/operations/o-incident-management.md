@@ -58,6 +58,7 @@ If an event is evaluated to be a security incident, the contact point for formal
 ### Indicators
 
 Typically, on this maturity level:
+
 - the most probable incident scenarios are defined and available for employees
 - there is a person or role having the responsibility of incident detection
 - suspicious events are sometimes identified and evaluated
