@@ -1,0 +1,29 @@
+body > .ui.container {
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 1300px) {
+  .ui.container {
+    width: 1220px;
+  }
+}
+
+body > header.ui.container {
+  margin-top: 3em;
+}
+
+.ui.cards#business_functions > .card {
+  width: 231px;
+}
+
+.ui.cards#one_point_five_downloads > .card {
+  width: 200px;
+}
+
+footer img.ui.image {
+  max-width: 200px;
+}
+
+svg.peity {
+  margin-bottom: -3px;
+}
