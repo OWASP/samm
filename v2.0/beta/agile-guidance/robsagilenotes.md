@@ -47,8 +47,46 @@ In agile, testing happens more frequently and typically covers the same parts of
 
 Side-note: I like the separation into scalable and deep understanding, but the choice of words is a bit vague. Why not simply say automated and manual?
 
-NEW
-====
+Responsibilities
+========
+Rob
 In some organisations, security is organised in such a way that the ‘security department’ verifies the software and then needs to convince the ‘business’ to fix the issues found. In an agile environment there is no time for this approach of ‘we will figure it out once we see what the issues are’ because you would need to do that every sprint. In agile, security needs to be owned by everyone including the product Owner - according to specified requirements. This puts security professionals much more in an advisory and supportive role than in a restricting role.
 
-TODO: abuse stories, product owner, sprint review, DOD etc.
+Requirements
+===========
+Rob
+Iterative requirements
+Agile requirements are done iteratively. Typical waterfall development assumes all requirements can be defined upfront and changes are handled as exceptions. Agile, on the other hand, believes requirements are situational and situations change. Also, Agile believes customer requirements should not be trusted to be complete and correct. AGILE PITFALL: The key to agile security is to apply the right requirements at the right time. If this process fails, then Agile is focused too much on delivering functions, ignoring important non-functional requirements.
+
+Requirements
+===========
+Rob
+Classifying requirements assurance
+A functional security requirement (e.g. a login feature) has its own user story and a non-functional requirement needs to be ensured in another way. Per non-functional requirement, the following assurance classification can be made at the start of the project:
+  -Not applicable in the context 
+  -Covered by the technology used (e.g. framework)
+  -Needs to be included in general instructions and tested for
+  -Needs to be included in instructions per story and tested for
+During classification, the type of required test(s) can also be specified: automated static or dynamic test, peer code review, pentest.
+Of course this classification can be revisited when necessary (e.g. testing has been extended).
+
+Requirements
+===========
+Rob
+Requirements in stories
+Stories need to be equipped with the relevant non-functional requirement, depending on the type of work expected in the story. This should lead to the required tests and the required developer instructions, according to the assurance classification.
+Equipping the stories is done during creation of the story and during backlog grooming/refinement. Doing this during sprint planning is not recommended because all the time will be needed to plan.
+
+Security experts can help here, but also the concept of ‘triggers’: types of functionality or architecture that need specific sets of requirements. There are commercial and open source tools to support this process.
+Requirements can be put in the acceptance criteria of the story. Not in the conditions of satisfaction because these are typically functional and not in the definition of done because these are user story independent.
+
+The acceptance criteria work as instructions for the developers. An improvement on this is to have separate instructions in which criteria that are expected to be known are left out, and other criteria are phrased from a developer point of view. These instructions can be prepared in the assurance classification process. The goal is to have a small and manageable set of instructions for the developers to take into account.
+
+See Secure Scrum: https://www.softwaresecured.com/secure-scrum-integrating-security-with-agile/
+
+
+
+
+TODO: abuse stories, product owner, sprint review, DOD etc., pitfall:product owner focused too much on demoing features
+
+
