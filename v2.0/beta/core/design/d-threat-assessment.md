@@ -26,9 +26,9 @@ Risks to an application can be relative to the business of the application (thin
 ### Activity
 As an organisation, you want to spend your security budget where it matters. Application risk is a good tool to guide your security spending. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be attacked or breached.
 
-In this level, you will use a simple method to evaluate application risk, by estimating the potential business impact that it poses towards the organisation in case of attack. You can achieve this by evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to identify the impact, such as whether the application processes financial data, or whether privacy-related data is involved, etc. 
+In this level, you will use a simple method to evaluate, per application, the application risk by estimating the potential business impact that it poses towards the organisation in case of attack. You can achieve this by evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to understand important application characteristics, such as whether the application processes financial data, whether it is internet facing, or whether privacy-related data is involved, etc. The application risk profile represents whether these factors are applicable and, hence, could significatly impact the organisation.
 
-Next, you will use a scheme to classify applications according to their risk. The use of a simple, qualitative scheme (e.g. high/medium/low) often proves to be effective. Advanced organisations or organisations that are highly risk driven might make use of more quantitative risk schemes. Don't invent a new risk scheme if your organisation already has one that works well. 
+Next, you will use a scheme to classify applications according to this risk. The use of a simple, qualitative scheme (e.g. high/medium/low) that translates these characteristics into a value often proves to be effective. Important is that these values can be used to represent and compare the risk of different applications among each other. Mature organisations or organisations that are highly risk driven might make use of more quantitative risk schemes. Don't invent a new risk scheme if your organisation already has one that works well. 
 
 For applications at hand, evaluate the risk based on the set of questions and assign a risk level to it. 
 
@@ -53,7 +53,9 @@ Elements required for risk:
 ### Activity
 The goal of this activity is to thoroughly understand the risk level of all applications within the organisations. This will enable you to focus the effort of your software assurance activities to where it really matters. 
 
-From a risk evaluation perspective, the basic set of questions will not suffice to thoroughly evaluate the risk of all applications. Create a more extensive and standardized way to evaluate the risk of the application, among others via their impact on information security (confidentiality, integrity and availability of data). Next to security, you also want to evaluate the privacy risk of the application. Make sure to understand the data that the application processes and what potential privacy violations could be relevant. Finally, also study the impact that this application has on other applications within the organisation (e.g., the application might be modifying data that was considered read-only in another context). The evaluation must be performed for all applications within the organisation, including all existing and legacy ones. 
+From a risk evaluation perspective, the basic set of questions will not suffice to thoroughly evaluate the risk of all applications. Create a more extensive and standardized way to evaluate the risk of the application, among others via their impact on information security (confidentiality, integrity and availability of data). Next to security, you also want to evaluate the privacy risk of the application. Make sure to understand the data that the application processes and what potential privacy violations could be relevant. Finally, also study the impact that this application has on other applications within the organisation (e.g., the application might be modifying data that was considered read-only in another context). The evaluation must be performed for all applications within the organisation, including all existing and legacy ones.
+
+In terms of classifying application risk, the use of a simple qualitative scheme (such as high/medium/low) might no longer suffice to effectively manage and compare applications on an enterprise-wide level. It is advised to consider the use of quantitative schemes to this end.
 
 Based on this input, build a centralized inventory of risk profiles that use the outcome of the risk evaluations to define the profile. This inventory will give all stakeholders an aligned view on the risk level of an application and will enable them to assign appropriate priority to security-related activities.
 
@@ -72,7 +74,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-The application portfolio of an organisation changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). You want to periodically review the risk inventory that you've built in order to ensure correctness of the risk evaluations of the different applications. to this end, perform periodic reviews (at least yearly) of the risk profiles by rerunning the risk evaluation. Question yourself which conditions have changed that might impact the risk profile.
+The application portfolio of an organisation changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). Therefor, a periodic review of the risk inventory is important to ensure correctness of the risk evaluations of the different applications. 
+
+A periodic review might be organised on an enterprise-wide level. However, as your enterprise further matures in software assurance, teams should be stimulated to continuously question which conditions have changed that might impact the risk profile. For instance, an internal application might become exposed to the internet by a business decision. This should trigger the teams to rerun the risk evaluation and update the application risk profile accordingly.
+
+In a mature implementation of this practice, teams should also be trained and continuously updated on lessons learned and best practices from these risk evaluations. This will ensure a better execution and a more accurate representation of the application risk profile.
 
 
 ### Maturity Questions
