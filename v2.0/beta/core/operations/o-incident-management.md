@@ -2,7 +2,7 @@
 business_functions : Operations
 title : Incident Management
 assignedto       : Daniel (dan.kefer@gmail.com)
-complete          : 80%
+complete          : 90%
 business_functions_weight: 1
 type: security_practice
 ---
@@ -140,13 +140,13 @@ Typically, on this maturity level:
 
 # B: Incident Response
 
-Description TBD
+Incident Response starts in the moment when you have acknowledged and verified the existence of the particular security incident. Your goal is now to act in a coordinated and efficient way so that further damage is limited as much as possible. If suitable, you want also to identify the root cause and limit the probability of similar incidents from hapenning in the future. 
 
 ## Maturity 1
 
 ### Benefit
 
-TBD
+Ability to efficiently solve most common security incidents.
 
 ### Activity
 
@@ -162,6 +162,7 @@ Typically, on this maturity level:
 
 - the person responsible for the process is documented and generally known
 - all security incidents are documented in a consistent way
+- first KPIs for security incidents are collected
 
 ### Notes
 
@@ -172,110 +173,63 @@ Typically, on this maturity level:
 
 ### Benefit
 
-TBD
+Understanding and efficient handling of most security incidents.
 
 ### Activity
 Security incident response process is formally established and documented. The documentation should include information like: 
 
-* Most probable/common scenarios of security incidents and high-level instruction how to handle them. For such scenarious, also public knowledge about possibly relevant 3rd-party incidents should be used
-* Rules for triaging the incident
-* Rules for involvement of different stakeholders, e.g. senior management, Public Relations, Legal, privacy, Human Resources, External (law enforcement) Authorities, Customers
+- Most probable/common scenarios of security incidents and high-level instruction how to handle them. For such scenarious, also public knowledge about possibly relevant 3rd-party incidents should be used
+- Rules for triaging the incident
+- Rules for involvement of different stakeholders (including mandatory timeframe to do so, if needed), e.g. senior management, Public Relations, Legal, privacy, Human Resources, External (law enforcement) Authorities, Customers. 
 
 Knowledgeable and properly trained staff should be available also outside of business hours with defined time to action. Both hardware and software tools should be kept up to date and ready to be used anytime. War room should be defined for cases when needed. 
 
-The process should also include a policy for carrying out root cause analysis with the goal of improving both detection and response process.
+The process should also include a policy for carrying out root cause analysis and its expected outcomes.
 
 ### Indicators
 
 Typically, on this maturity level:
 
-### Maturity Questions
-#### Q 1
-Is the incident response process including most probable scenarios documented and known?
-
-**Answer Options**
-SAMMQA-C:
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-#### Q 2
-Is knowledgeable personnel available also outside of business hours?
-
-**Answer Options**
-SAMMQA-C:
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-#### Q 3
-Are RCAs carried out according to the defined process?
-
-**Answer Options**
-SAMMQA-C:
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
+- Root Case Analysis is performed for the most severe security incidents 
+- Security playbooks are available for the most common incidents
+- there are dedicated trainings for incident response staff
+- forensic analysis tooling is available
 
 ### Notes
 
-- Root cause analysis - should be about the incident in question (becomes more advanced at L3)
-- You have to communicate the incident (within a certain timeframe). Involve authorities if necessary.
+- Root cause analysis - should be about the incident in question (becomes more advanced at L3) -> **last paragraph reformulated**
+- You have to communicate the incident (within a certain timeframe). Involve authorities if necessary. -> **Third bullet point adapted**
 
 
 ## Maturity 3
+
+### Benefit
+
+Efficient incident response, independent on time, location or art of the incident.
+
 ### Activity
 
-Dedicated incident response team is established, continuously available and also in charge of the continuous process improvement. For distributed organizations, logistics rules are defined and documented for all relevant locations if sensible.  
+Dedicated incident response team is established, continuously available and also in charge of the continuous process improvement with the help of regular RCAs. For distributed organizations, logistics rules are defined and documented for all relevant locations if sensible.  
 
-Also detailed incident response procedures are documented and kept up-to-date on this level. All resources assumed by these procedures (e.g. separate communicating infrastructure or reliable external location) are kept ready-to-use. Unavailability of these resources is detected in a timely manner. 
+Also detailed incident response procedures are documented and kept up-to-date on this level. Where sensible, procedures are automated. All resources assumed by these procedures (e.g. separate communicating infrastructure or reliable external location) are kept ready-to-use. Unavailability of these resources is detected in a timely manner.  
 
 Incident and emergency exercises are carried out regularly; the results of these are used for the process improvement.
 
-Metrics on the incident response process inlcuding its continuous improvement, are defined, gathered, evaluated and acted upon. 
+Metrics on the incident response process including its continuous improvement, are defined, gathered, evaluated and acted upon. 
 
-### Maturity Questions
-#### Q 1
-Are security incidents handled with a similar quality over all relevant locations?
+### Indicators
 
-**Answer Options**
-SAMMQA-C:
+Typically, on this maturity level:
 
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-#### Q 2
-Are all resources needed for handling all relevant incident scenarios reliably held ready-to use?
-
-**Answer Options**
-SAMMQA-C:
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-#### Q 3
-Are metrics for both indident response process and its improvement gathered and acted upon?
-
-**Answer Options**
-SAMMQA-C:
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
+- Root Case Analysis is performed for all security incidents unless there is a specific reason not to do so
+- Improvements are identified and documented in the RCAs. THey are provably implemented.
+- Some exerices have been carried out in the last year. 
+- There is a roadmap for process improvement.
+- Process metrics are available (e.g. resolution speed, affected customers, ...)
+- In most incidents, playbooks are used to a high degree.
 
 ### Notes
 
-- Root cause analysis - feedback loop - learning and improving beyond the incident at hand
-- Automated incident response (e.g. rasp [Runtime Application Self-Protection Security], phantom, demisto)
-- Not concrete - what are you going to do to concretely improve on L2
+- Root cause analysis - feedback loop - learning and improving beyond the incident at hand -> **first paragraph updated**
+- Automated incident response (e.g. rasp [Runtime Application Self-Protection Security], phantom, demisto) -> **automation mentioned in the first paragraph**
+- Not concrete - what are you going to do to concretely improve on L2 -> **Mentioned RCAs, Exercices, Metric evaluation...**
