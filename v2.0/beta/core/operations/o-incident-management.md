@@ -19,11 +19,11 @@ type: security_practice
 
 # Short Description
 
-Incident Management security practice describes activities carried out in order to detect and respond to security incidents.
+Incident Management security practice describes activities carried to detect and respond to security incidents.
 
 # Long Description
 
-Once your applications become operational, you're likely to face security incidents during the time. For the need of this document, we consider a security incidentto be a breach or imminent threat of a breach of one or more asset's security goals due to malicious or grossly negligent behaviour. Examples of a security incidents might include:
+Once your applications become operational, you’re likely to face security incidents. For this document, we consider a security incident a breach or threat of an  imminent breach of at least one asset’s security goals due to malicious or negligent behaviour. Examples of a security incidents might include:
 
 - successful DoS (Denial of Service) attack against a cloud application
 - application user accessing private data of another one by abusing a security vulnerability
