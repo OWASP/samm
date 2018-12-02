@@ -2,7 +2,7 @@
 business_functions : Operations
 title : Environment Management
 assignedto       : Daniel (dan.kefer@gmail.com)
-complete          : 70%
+complete          : 85%
 business_functions_weight: 2
 type: security_practice
 ---
