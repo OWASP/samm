@@ -115,122 +115,100 @@ Typically, on this maturity level:
 
 ### Notes
 
-non-conformities / self-healing (overwriting) -> **1st paragrap updated**
+non-conformities / self-healing (overwriting) -> **1st paragraph updated**
 
 #### Guidance
 
 # B: Patching and Updating
 
+This stream describes activities leading to transparency and decreasing of risk stemming from relying on vulnerable versions of used components. 
+
 ## Maturity 1
+
+### Benefit
+
+Prominent issues in 3rd party code are mitigated.
 
 ### Activity
 
 On the first maturity level, you've identified applications and 3rd party application components which need to be updated/ patched, nevertheless if it's the underlying operating system, application server or 3rd party code library. 
 
-Patching activities are carried out according to best-effort, however you have defined the update process at least on a high level. At least the process responsible for the particular components is known and cooperation between multiple teams is ensured if necessary and patching can be carried out anytime in case of need (e.g. exploit for a 3rd party component publicly available).
+Patching activities are carried out according to best-effort, however you have defined the update process at least on a high level (e.g. including testing that the patches don't break anything). Opportunities like maintenance windows are also used for best-effort patching.
+
+At least the process responsible for the particular components is known and cooperation between multiple teams is ensured if necessary and patching can be carried out anytime in case of need (e.g. exploit for a 3rd party component publicly available).
 
 You're able to find out reasonably quickly the used versions of all components in order to evaluate whether you're affected by a particular public security vulnerability or not. 
 
-### Maturity Questions
+### Indicators
 
-##### Q 1
+Typically, on this maturity level:
 
-Have all used relevant components been patched in the last year?
+- BOM exists for the used applications
+- applications are tested after patching if relevant
+- at least customer facing applications have been updated at least once in the last year
 
-**Answer Options**
-SAMMQA-C:
 
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-##### Q 2
-
-Are you able to patch a newly released publicly known critical vulnerability in a reasonable time frame?
-
-**Answer Options**
-SAMMQA-C:
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
 
 ### Notes
 
-activities would be different for container based deployments
-implictly assumes you have an overview of what needs to be patched.
-coverage can be measured with the Q&As
-use maintenance windows to oppurtunistically patch/upgrade software
-you know what patches are missing
-identify patching dependencies
-L1 - identify what matters and what is missing and prioritized best-effort patching
-L2 - strategy , process , calendar
-L3 - SLA / reporting
+- activities would be different for container based deployments -> **not sure if any todo**
+- implictly assumes you have an overview of what needs to be patched. -> **not sure if any todo**
+- coverage can be measured with the Q&As -> **I don't understand this**
+- use maintenance windows to oppurtunistically patch/upgrade software -> **First paragraph updated**
+- you know what patches are missing -> **I think this implies process -> level 2**
+- identify patching dependencies -> **I don't understand this**
+- L1 - identify what matters and what is missing and prioritized best-effort patching
+- L2 - strategy , process , calendar
+- L3 - SLA / reporting
 
 From SAMM Summit...
 
-Reference to software supply chain
-
-Reference to change management
-
-How do you deal with zero days / vulnerabilities without patches?
-
-Validating the patch in terms of integrity
-
-Checking the patch won't break your application / system
+- Reference to software supply chain **How?**
+- Reference to change management **How?**
+- How do you deal with zero days / vulnerabilities without patches? -> **level 2**
+- Validating the patch in terms of integrity -> **too low-level imho**
+- Checking the patch won't break your application / system -> **added**
 
 #### Guidance
 
 ## Maturity 2
 
+### Benefit
+
+Reliable handling of 3rd party code issues
+
 ### Activity
 
 Update process is defined and documented across the full stack. You don't only rely on available patches provided by vendors; external sources are also used systematically in order to gather intelligence about zero day vulnerabilities, so that appropriate risk mitigation steps can be carried out.
 
-There is a guidance for prioritization of particular updates, let it be the criticality of the application, severity of security issues or whichever other concerns which are important to your organization. 
+There is a guidance for prioritization of particular updates, let it be the criticality of the application, severity of security issues or whichever other concerns which are important to your organization. Updates (without necessary relevancy to known issues) are also consciously scheduled, e.g. using a patch/udgrade calendar of vendors.
 
-All newly implemented applications are a part of the defined process. Checking for the update process conformity is also a part of the quality assurance activities. 
+In case there is a known critical issue while patch is not available yet, this issue is triaged and consciously handled (e.g. by finding workarounds, monitoring measures or even switching off the affected applications in the worst case).
 
-### Maturity Questions
 
-#### Q 1
+### Indicators
 
-Is the patching process including prioritization documented for the whole stack?
+Typically, on this maturity level:
 
-**Answer Options**
-SAMMQA-G:
-
-- No
-- Yes, localized to business areas
-- Yes, across the organization
-- Yes, across the organization and required
-
-#### Q 2
-
-Is external intelligence systematically used in order to find information about new zero-day vulnerabilities?
-
-**Answer Options**
-SAMMQA-G:
-
-- No
-- Yes, localized to business areas
-- Yes, across the organization
-- Yes, across the organization and required
+- Update calendar of vendors is followed
+- 3rd party sources for vulnerability intelligence are defined and used
 
 ### Notes
 
-baseline or target levels defined
-patch/upgrade calendar followed
-manage process information (e.g. gap)
+- baseline or target levels defined -> **I'm missing an example how this could look like**
+- patch/upgrade calendar followed -> **2nd paragraph updated**
+- manage process information (e.g. gap) -> **Don't understand this**
 
-- Mention a patch schedule - structured approach. Take into account when the vendor releases patches. Regular patch windows - times to patch unforeseen patches / out-of-band patches.
-- Move conformity to level 3?
+- Mention a patch schedule - structured approach. Take into account when the vendor releases patches. Regular patch windows - times to patch unforeseen patches / out-of-band patches. -> **2nd paragraph updated**
+- Move conformity to level 3? -> **done**
 
 #### Guidance
 
 ## Maturity 3
+
+### Benefit
+
+Full visibility into the current patch state over the organization
 
 ### Activity
 
@@ -238,33 +216,15 @@ On the third level, you have a very good insight, such as dashboard, in the patc
 
 If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable. 
 
-Continuous process improvement is audited regularly. 
+### Indicators
 
-### Maturity Questions
+Typically, on this maturity level:
 
-#### Q 1
+- a dashboard containing patch state information exists
+- there is an evidence of patching procedures
+- blind spots are identified and acted upon
+- pathing takes place also outside of regular business hours for critical issues
 
-Are you periodically evaluating the patch level across the whole stack and performing corrective actions?
-
-**Answer Options**
-SAMMQA-F:
-
-- No
-- Yes, teams write/run their own
-- Yes, there is a standard set
-- Yes, the standard set is integrated
-
-#### Q 2
-
-Is process improvement evaluated regularly?
-
-**Answer Options**
-SAMMQA-F:
-
-- No
-- Yes, teams write/run their own
-- Yes, there is a standard set
-- Yes, the standard set is integrated
 
 ### Notes
 
