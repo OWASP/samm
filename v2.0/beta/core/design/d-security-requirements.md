@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Activity
 Security requirements can originate from other sources including policies and legislation, known problems in the application, intelligence from metrics and feedback (LINK to DM lvl 3), and so forth. At this level, a more systematic elicitation of security requirements must be achieved by analysing different sources of such requirements. Ensure that appropriate input is received from these sources to help the elicitation of requirements. This might mean organizing interviews or brainstorm sessions (e.g., in the case of policy and legislation), analysing historical logs or vulnerability systems, etc.
 
-At this level, using a structured notation of security requirements across applications is expected as well. Use an appropriate formalism that integrates well with how other (functional) requirements are specified for the project at hand. This might mean extending analysis documents, writing user stories, etc.
+At this level, using a structured notation of security requirements across applications is expected. Use an appropriate formalism that integrates well with how other (functional) requirements are specified for the project at hand. This might mean extending analysis documents, writing user stories, etc.
 
 When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. This might mean annotating requirements with priorities, or influencing the handling of requirements to enforce sufficient security appetite (while carefully balancing against other non-functional requirements).
 
