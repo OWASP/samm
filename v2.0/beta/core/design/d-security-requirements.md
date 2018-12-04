@@ -7,16 +7,16 @@ business_functions_weight: 2
 type: security_practice
 ---
 
-This security practice focuses on security requirements that are important in the context of secure software. A first type of requirements deals with typical software-related requirements, to specify concrete objectives and expectations to protect the service and data that form part of the application. A second type of requirements deals with requirements that are relative to supplier companies that are part of the development context of the application, in particular for outsourced development. Since the latter can have significant impact on the security posture of the application, it is important to streamline the expectations in terms of secure development. Not that the security of 3rd party libraries is not included in this practice ; this forms part of the software supply chain stream (LINK Secure Build).
+This security practice focuses on security requirements that are important in the context of secure software. A first type of requirements deals with typical software-related requirements, to specify concrete objectives and expectations to protect the service and data that form part of the application. A second type of requirements deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. Since the latter can have significant impact on the security posture of the application, it is important to streamline the expectations in terms of secure development. Note that the security of 3rd party (technical) libraries is not included in this practice ; this forms part of the software supply chain stream (LINK Secure Build).
 
 
 # Overview
 
-| | A: Software Requirements | B: 3-rd Party Requirements |
+| | A: Software Requirements | B: Supplier Security |
 |:---|:---|:---|
-| Maturity 1 - Consider security explicitly during the software requirements process. | High-level application security objectives | Evaluate the supplier according on security|
+| Maturity 1 - Consider security explicitly during the software requirements process. | High-level application security objectives | Evaluate the supplier according to security|
 | Maturity 2 - Increase granularity of security requirements derived from business logic and known risks. | Structured requirements engineering | Build security into supplier agreements |
-| Maturity 3 - Mandate security requirements process for all software projects and third-party dependencies. | Build a standard requirements framework | SDLC alignment for external suppliers |
+| Maturity 3 - Mandate security requirements process for all software projects and third-party dependencies. | Build a standard requirements framework | Ensure proper coverage for external suppliers |
 
 
 # A: Software Requirements
@@ -88,7 +88,7 @@ References: Common criteria (although too extensive for the purpose, the idea is
 
 Question: somehow link requirements to solutions ?
 
-# B: 3-rd Party Requirements
+# B: Supplier Requirements
 
 ## Maturity 1
 ### Activity
@@ -114,10 +114,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Activity
-In a next maturity level, you want to increase your confidence in the capability of your suppliers for software security. The most effective way to achieve this is to discuss concrete responsibilities and expectations from your suppliers (and your own organisation) and build these into the agreement (contract) with the supplier. These responsibilities can specify specific quality requirements or particular tasks to be performed, and minimal service can be detailed in a Service Level Agreement (SLA). For quality, this may mean that they will deliver software that is protected against the OWASP Top 10 and in case issues are detected, these will be fixed. For tasks, they might have to perform continuous static code analysis, or perform an independent penetration test before a major release.
+In a next maturity level, you want to increase your confidence in the capability of your suppliers for software security. The most effective way to achieve this is to discuss concrete responsibilities and expectations from your suppliers (and your own organisation) and build these into the agreement (contract) with the supplier. These responsibilities can specify specific quality requirements or particular tasks to be performed, and minimal service can be detailed in a Service Level Agreement (SLA). For quality, this may mean that they will deliver software that is protected against the OWASP Top 10 and in case issues are detected, these will be fixed. For tasks, they might have to perform continuous static code analysis, or perform an independent penetration test before a major release. An agreement should also stipulate liabilities (and caps) in case an important issue arises.
 
-An agreement should also stipulate liabilities (and caps) in case an important issue arises.
-
+Once you have implemented this for a few suppliers, work towards having a standard agreement for suppliers that forms the basis of your negotiations. You can deviate from this standard agreement on a case by case basis, but a standard agreement will help you to ensure that important topics are not overlooked.
 
 ### Maturity Questions
 #### Q 1
@@ -134,7 +133,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Activity
-The best way to minimize the risk of issues occurring in software is to align maximally and integrate closely between the different parties. From a process perspective, this means that similar development paradigms will be used and regular milestones are introduced to ensure proper and qualitative progress. From a tools perspective, this means that similar build, verification and deployment environments are used, and other supporting tools (e.g. requirements or architecture tools) are shared to the extent possible. Code repositories should also be shared if possible. 
+The best way to minimize the risk of issues occurring in software is to align maximally and integrate closely between the different parties. From a process perspective, this means that similar development paradigms are used and regular milestones are introduced to ensure proper alignment and qualitative progress. From a tools perspective, this might mean that similar build, verification and deployment environments are used, and other supporting tools (e.g. requirements or architecture tools) are shared to the extent possible. Code repositories should be shared or linked where possible. 
+
+In case suppliers cannot meet the objectives that you have stipulated, implement compensating controls to ensure that, overall, your objectives are met. This might mean executing extra activities (e.g., threat modelling before starting the actual implementation cycle) or implementing extra tooling (e.g., 3rd party library analysis at solution intake). The more suppliers deviate from your requirements, the more work will be required to compensate.
 
 
 ### Maturity Questions
