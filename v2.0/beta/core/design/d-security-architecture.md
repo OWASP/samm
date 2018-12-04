@@ -96,25 +96,27 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 # B: Technology Management
 
 ## Maturity 1
+### Benefit
+Risky technologies are identified and replaced
+
 ### Activity
 Software is often taking the path of least resistance to develop a solution. New technologies are included during development when this can facilitate or speed up development. These new technologies might, however, introduce new risks to the organisation that need to be managed.
 
 As a first step, identify in the solution the most important technologies, frameworks, tools and integrations being used. The solution architect should have a good view on these, or it can be achieved by studying the development environment and artefacts. Once these are known, evaluate them for their security quality and raise important issues (LINK TO defect management). 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+### Indicators
+- Most important technologies are elicited
+- Technologies are evaluated by the lead developer or architect
+- Important technological risks are identified
+- Undesired risky technologies in the solution are replaced in accordance with the organization's policy
 
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Notes
+### Notes
 
 
 ## Maturity 2
+### Benefit
+There is a common agreement on the key technologies to use
+
 ### Activity
 Across software projects within the organization identify commonly used technologies, frameworks and tools in use. Generally, this need not be an exhaustive search, but rather focus on capturing the high-level technologies.
 
@@ -122,20 +124,19 @@ From the identified technologies, create a list to be advertised across the deve
 
 This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+### Indicators 
+- Technologies in use have been identified throughout the software portfolio
+- A list of preferred technologies has been defined and approved by lead architects and developers
+- The list of preferred technologies has been shared across the development organisation
+- The list of preferred technologies is regularly (at least yearly) reviewed and updated 
 
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Notes
+### Notes
 Note that this used to be level 1 in SAMM 1.5. OK ?
 
 ## Maturity 3
+### Benefit
+Compliance with the list is proactively monitored and violations are managed
+
 ### Activity
 For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, these may be most effective either by implementing these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts) or by periodic review where one would also focus on the correct use of these frameworks. 
 
@@ -143,15 +144,11 @@ Overall, it is important to verify several factors with project teams. Identify 
 
 This analysis can be conducted by any security-savvy technical staff. Metrics collected from each project should be collated for analysis by managers and stakeholders.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+### Indicators
+- Applications are regularly monitored for the correct use of the list of preferred frameworks
+- Violations against the list are solved in accorandance with the organisational's policy
+- The amount of violations on a yearly basis falls within objectives or concrete actions are taken to improve
 
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
 
-#### Notes
+### Notes
 Align legacy software to these standards. -> realistic ? Also move to legacy Stream (Operations)
