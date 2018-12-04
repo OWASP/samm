@@ -7,7 +7,7 @@ business_functions_weight: 2
 type: security_practice
 ---
 
-This security practice focuses on security requirements that are important in the context of secure software. A first type of requirements deals with typical software-related requirements, to specify concrete objectives and expectations to protect the service and data that form part of the application. A second type of requirements deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. Since the latter can have significant impact on the security posture of the application, it is important to streamline the expectations in terms of secure development. Note that the security of 3rd party (technical) libraries is not included in this practice ; this forms part of the software supply chain stream (LINK Secure Build).
+This security practice focuses on security requirements that are important in the context of secure software. A first type of requirements deals with typical software-related requirements, to specify concrete objectives and expectations to protect the service and data that form the core of the application. A second type of requirements deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. Since the latter can have significant impact on the security posture of the application, it is important to streamline the expectations in terms of secure development. Note that the security of 3rd party (technical) libraries is not included in this practice ; this forms part of the software supply chain stream (LINK Secure Build).
 
 
 # Overview
