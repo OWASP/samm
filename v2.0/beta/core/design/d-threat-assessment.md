@@ -23,6 +23,8 @@ Risks to an application can be relative to the business of the application (thin
 # A: Application Risk Profile
 
 ## Maturity 1
+### Benefit 
+
 ### Activity
 As an organisation, you want to spend your security budget where it matters. Application risk is a good tool to guide your security spending. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be attacked or breached.
 
@@ -32,15 +34,7 @@ Next, you will use a scheme to classify applications according to this risk. The
 
 For applications at hand, evaluate the risk based on the set of questions and assign a risk level to it. 
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+#### Indicators
 
 ### Notes
 Elements required for risk:
@@ -50,6 +44,8 @@ Elements required for risk:
 
 
 ## Maturity 2
+### Benefit
+
 ### Activity
 The goal of this activity is to thoroughly understand the risk level of all applications within the organisations. This will enable you to focus the effort of your software assurance activities to where it really matters. 
 
@@ -59,20 +55,14 @@ In terms of classifying application risk, the use of a simple qualitative scheme
 
 Based on this input, build a centralized inventory of risk profiles that use the outcome of the risk evaluations to define the profile. This inventory will give all stakeholders an aligned view on the risk level of an application and will enable them to assign appropriate priority to security-related activities.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
 
 ### Notes
 
 
 ## Maturity 3
+### Benefit
+
 ### Activity
 The application portfolio of an organisation changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). Therefor, a periodic review of the risk inventory is important to ensure correctness of the risk evaluations of the different applications. 
 
@@ -81,70 +71,53 @@ A periodic review might be organised on an enterprise-wide level. However, as yo
 In a mature implementation of this practice, teams should also be trained and continuously updated on lessons learned and best practices from these risk evaluations. This will ensure a better execution and a more accurate representation of the application risk profile.
 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
 
 ### Notes
-
 
 
 # B: Threat Modeling
 
 ## Maturity 1
+### Benefit
+
 ### Activity
 The purpose of Threat Modeling is to identify potential issues in the technical setup of the application. Uncarefull design might lead to issues that can be exploited to target your organisation.
 
 The elicitation of threats in Threat Modeling can be inspired by good security practices (or the lack thereof) or can be driven by a more structured approach such as STRIDE. It can be performed by a single person or by a group of people (in a more brainstorming mode). Fact is that experience is definitely helpful in eliciting useful threats.
 
-Threat modeling can be performed incrementally. If new functionality is added to an application, the threat model should be updated to cover the new functionality, but no need to fully redo the existing threat model.
+Threat modeling can be performed iteratively. If new functionality is added to an existing application, rather than trying to cover the entire scope continuously, it might make sense to only look into the newly added functions in order to spend your threat modeling efforts wisely.
 
-At this level, you want to execute threat modeling on important projects in a best effort mode to identify the most important threats to the application.
+At this level, you want to execute threat modeling on important projects (LINK: Application Risk Profile) in a best effort mode to identify the most important threats to the application. Existing network diagrams are a good starting point at this level, which can be annotated during discussion workshops.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
 
 ### Notes
 Terminology: do we want to use application, software or solution as the main term ?
 
 
 ## Maturity 2
+### Benefit
+
 ### Activity
-In order to increase the quality and efficiency of threat modeling within your organisation, establish a standard approach to perform structured threat modeling. This will ensure that the invested effort is useful and well spent.
+In order to increase the quality and efficiency of threat modeling within your organisation, establish a standard approach to perform structured threat modeling. This will ensure that the invested effort is useful and well spent. Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats. 
 
-Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats.
+As an organisation, you will want to ensure threat modeling is executed when necessary. Think about the triggers that will drive the execution of threat modeling, such as a change in architecture, a deployment of an application in a new environment, etc. At the same time, think about ways to support scaling of threat modeling throughout an organisation.
 
-At this level, you want to adopt a weighting system to measure and compare the importance of the different threats.
+The output of threat modeling should be fed into the defect management process to ensure adequate follow-up. Also, you might want to adopt a weighting system to measure and compare the importance of the different threats.
 
-Consider using a tool to manage the treat models of the different applications to facilitate your life. Ideally, the tools also helps in identifying potential threats (to some extent). But, in the end, threat modeling requires human intelligence that cannot be easily automated.
+Consider using a tool to manage the treat models of the different applications to facilitate your life. At the same time, as one of the challenges in threat modeling is a potential overload of trivial threats, people should be trained to focus on important threats.
+Ideally, the tools also helps in identifying potential threats (to some extent). But, in the end, threat modeling requires human intelligence that cannot be easily automated.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
 
 ### Notes
-Personally I'm not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this.
+Personally I'm not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this. Even after the Minneapolis discussions, I'm still not convinced about the usefulness of this ;-)
 
 ## Maturity 3
+### Benefit
+
 ### Activity
 In a mature setup of threat modeling, an organisation would regularly (e.g., yearly) review the existing threat models to verify that no new threats would become relevant for your applications at hand. 
 
@@ -152,15 +125,7 @@ In order to ensure high quality of threat models, automated analysis can be used
 
 At this level, an organisation would also review the threat categories that are relevant to your organisation. When new threat categories are identified, the organisation is fed with this information to ensure appropriate handling. 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
 
 ### Notes
 I cannot think of good examples of threat categories. Anybody ?
