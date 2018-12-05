@@ -18,7 +18,7 @@ In addition to training, this Practice also requires the organization to make a 
 
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
-| Maturity 1 - Offer development staff access to resources around the topics of secure programming and deployment. | Offer general secure software coding guidance covering OWASP Top 10 | Identify a "Security Champion" within each development team |
+| Maturity 1 - Offer staff access to resources around the topics of secure development and deployment. | Provide security awareness training for all personnel involved in software development | Identify a "Security Champion" within each development team |
 | Maturity 2 - Educate all personnel in the software lifecycle with technology and role-specific guidance on secure development. | Offer technology and role-specific guidance, including security nuances of each language and platform | Develop a secure software center of excellence promoting thought leadership among developers and architects |
 | Maturity 3 - Develop in-house training programs facilitated by developers across different teams | Standardized inhouse guidance around the organization's secure software development standards. | Build a secure software community including all organisation people involved in software security |
 
