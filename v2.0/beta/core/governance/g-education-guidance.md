@@ -12,7 +12,7 @@ type: security_practice
 
 The Education & Guidance (EG) Practice is focused on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams will be better able to proactively identify and mitigate the specific security risks that apply to their organization.
 
-One major theme for improvement across the Objectives is providing training for employees, either through instructor-led sessions or computer-based modules. As an organization progresses, a broad base of training is built by starting with developers and moving to other roles throughout the organization, culminating with the addition of role-based training to ensure applicability and effectiveness.
+One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness, either through instructor-led sessions or computer-based modules. As an organization progresses, a broad base of training is built by starting with developers and moving to other roles throughout the organization, culminating with the addition of role-based training to ensure applicability and effectiveness.
 
 In addition to training, this Practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams.  This approach should be supported with collaboration tools and increased transparency between technologies and tools leveraged for improving the security of the applications.
 
@@ -26,16 +26,14 @@ In addition to training, this Practice also requires the organization to make a 
 
 ## Maturity 1
 ### Activity
-Conduct security awareness training customized for software developers and intended to increase the awareness of application security threats and risks, as well as security best practices and secure software design principles.  The training may be developed internally or procured externally, and may be delivered in-person or using Computer Based Training (CBT).  Ideally, training should be delivered in-person to offer participants the benefit of participating in a discussion as a team, rather than receiving one-on-one through a CBT.
+Conduct security awareness training for all roles currently involved in the management, development, testing, or auditing of the software. The goal is to increase the awareness of application security threats and risks, as well as security best practices and secure software design principles. The training may be developed internally or procured externally, and may be delivered in-person or using Computer Based Training (CBT). Ideally, training should be delivered in-person to offer participants the benefit of participating in a discussion as a team, rather than receiving one-on-one through a CBT.
 
-Course content should include a wide range of topics relevant to application security and include conceptual as well as technical information. Theoretical portion of the training should consist of secure design principles including Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability.  Additionally, the training should include references to any organization-wide standards, policies, and procedures defined to improve application security.
+Course content should include a range of topics relevant to application security and privacy, while remaining accessible to a non-technical audience. Suitable concepts are secure design principles including Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability. Additionally, the training should include references to any organization-wide standards, policies, and procedures defined to improve application security. The OWASP Top 10 vulnerabilities should be covered at a high level.
 
-The technical content should include at a minimum the OWASP Top 10 vulnerabilities and most common remediation strategies for each issue.  Whenever possible, the training should consist of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop.  It may be beneficial to include results of the previous penetration as clear examples of vulnerabilities and implemented remediation strategies as well as asking a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
-
-Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance.  The training should be updated and delivered annually, to include changes in the organization, technology, and trends.   Additionally, training participants should be polled to evaluate the quality and relevance of the training, as well as solicit suggestions of other information that may be relevant to their work or environments.
+Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance. Training should strive to leverage new and innovative ways of delivery (such as gamifying certain elements) to maximise its effectiveness and combat desensetisation.
 
 #### Maturity Questions
-##### Have all developers completed security awareness training customized for software development in the last 12 months?
+##### Have all stakeholders completed security awareness training customized for software development in the last 12 months?
 
 *Answer Options*
 
@@ -44,7 +42,7 @@ Training should be considered mandatory for all employees and contractors involv
 - Option 3
 - Option 4
 
-##### Has the training been updated in the last 12 months?
+##### Has the training been assessed in the last 24 months?
 
 *Answer Options*
 
@@ -54,10 +52,10 @@ Training should be considered mandatory for all employees and contractors involv
 - Option 4
 
 ### External References
+- [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)
 - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
-- [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
-- [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
 - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
+- [OWASP Application Security Curriculum](https://www.owasp.org/index.php/OWASP_Application_Security_Curriculum)
 
 #### Notes
 
@@ -68,16 +66,19 @@ Training should be considered mandatory for all employees and contractors involv
 
 ## Maturity 2
 ### Activity
-Conduct instructor-led or CBT based security training specific to roles and technologies used within the organization.  The organization should customize training for product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs. 
+Conduct instructor-led or CBT based security training specific to roles and technologies used within the organization, starting with the core development team. The organization should customize training for product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs. 
 
 - Product managers should be training on topics related to SAMM business functions and security practices, with the emphasis on security requirements, threat modeling, and defect tracking.
-- Developers should be trained on coding standards and best practices related to the technologies they work with to ensure the training directly benefits security of the application.  
+- Developers should be trained on coding standards and best practices related to the technologies they work with to ensure the training directly benefits security of the application. They should also have a solid technical understanding of the OWASP Top 10 vulnerabilities, or similar weaknesses relevant to the technologies and frameworks used (e.g. mobile), and the most common remediation strategies for each issue.  
 - Testers should be educated on the different testing tools and best practices related to technologies in use by the organization, as well as in tools designed to identify security defects.
 - Security auditors should be trained on the SDLC lifecycle and various application security mechanisms in use by the organization, as well as the process for submitting security defects for remediation.
+- Security Champions should be trained on security topics from various phases of the SDLC. Specifically, they receive the same training as developers and testers, but also understand threat modelling and secure design, as well as security tools and technologies which can be integrated into the build environment. 
 
-Whenever possible, training should be customized to the specific technologies in use by the organization and include security features and weaknesses of each programming language and framework.  Ideally, each organization should identify a subject-matter expert in each technology to assist with procuring or developing the necessary training content as well as updating it on a regular basis.  
+The goal should be to include all training content described in the Maturity Level 1 activities of this activity stream and include additional role-specific and technology-specific content while eliminating aspects of the training considered unnecessary.
 
-The goal should be to include all training content described in the Maturity Level 1 activities of this activity stream and include additional role-specific and technology-specific content while eliminating aspects of the training considered unnecessary.  Training should be regarded as mandatory and include and auditable sign-off to demonstrate compliance.
+Ideally, each organization should identify a subject-matter expert in each technology to assist with procuring or developing the necessary training content as well as updating it on a regular basis. Whenever possible, the training should consist of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop. It may be beneficial to include results of the previous penetration as clear examples of vulnerabilities and implemented remediation strategies as well as asking a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
+
+Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance.  The training should be updated and delivered annually, to include changes in the organization, technology, and trends.   Additionally, training participants should be polled to evaluate the quality and relevance of the training, as well as solicit suggestions of other information that may be relevant to their work or environments.
 
 ### Maturity Questions
 ##### Has the training been developed for all roles currently involved in the management, development, testing, or auditing of the software?
@@ -98,6 +99,11 @@ The goal should be to include all training content described in the Maturity Lev
 - Option 3
 - Option 4
 
+### External References
+- [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
+- [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
+- [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+- [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
 
 #### Notes
 
