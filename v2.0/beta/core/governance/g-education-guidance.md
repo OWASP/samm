@@ -25,6 +25,8 @@ In addition to training, this Practice also requires the organization to make a 
 # A: Training and Awareness
 
 ## Maturity 1
+### Benefit
+Stakeholders involved in producing software have an appreciation for the difficulty of creating secure software and the value of a secure SDLC.
 ### Activity
 Conduct security awareness training for all roles currently involved in the management, development, testing, or auditing of the software. The goal is to increase the awareness of application security threats and risks, as well as security best practices and secure software design principles. The training may be developed internally or procured externally, and may be delivered in-person or using Computer Based Training (CBT). Ideally, training should be delivered in-person to offer participants the benefit of participating in a discussion as a team, rather than receiving one-on-one through a CBT.
 
@@ -32,24 +34,11 @@ Course content should include a range of topics relevant to application security
 
 Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance. Training should strive to leverage new and innovative ways of delivery (such as gamifying certain elements) to maximise its effectiveness and combat desensetisation.
 
-#### Maturity Questions
-##### Have all stakeholders completed security awareness training customized for software development in the last 12 months?
 
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-##### Has the training been assessed in the last 24 months?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
+  * Developers recognize the most important application security flaws.
+  * Managers understand the importance of security activities.
+  * Testers better understand the attacker mindset.
 
 ### External References
 - [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)
@@ -65,6 +54,9 @@ Training should be considered mandatory for all employees and contractors involv
 * DK: I'm not convinced that an awareness training should be too technical
 
 ## Maturity 2
+### Benefit
+Stakeholders involved in producing software receive role-specific security training.
+
 ### Activity
 Conduct instructor-led or CBT based security training specific to roles and technologies used within the organization, starting with the core development team. The organization should customize training for product managers, software developers, testers, and security auditors, ensuring to customize the content to each group's technical needs. 
 
@@ -80,24 +72,12 @@ Ideally, each organization should identify a subject-matter expert in each techn
 
 Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance.  The training should be updated and delivered annually, to include changes in the organization, technology, and trends.   Additionally, training participants should be polled to evaluate the quality and relevance of the training, as well as solicit suggestions of other information that may be relevant to their work or environments.
 
-### Maturity Questions
-##### Has the training been developed for all roles currently involved in the management, development, testing, or auditing of the software?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Does the training include content specific to security features and weaknesses of all technologies in use by the organization?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
+  * Members of the software security excellence centre regularly attend software security events and conferences.
+  * Developers understand how the most relevant application security flaws occur and how to prevent them.
+  * Managers require security activities throughout the SDLC
+  * Local Subject Matter Experts contribute content to the training
+  * The Training material is customized to the technologies and frameworks used
 
 ### External References
 - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
@@ -112,6 +92,9 @@ Training should be considered mandatory for all employees and contractors involv
 * Q: Shall we mention Security Champions and their trainings? 
 
 ## Maturity 3
+### Benefit
+Security is an aspect of product quality, addressed throughout development.
+
 ### Activity
 Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training as part of the onboarding process.  based on the criticality of the application and user's role, organization should consider restricting access until the onboarding training has been completed.    While the organization may source some modules externally, the program should be facilitated and managed in-house and include content specific to the organization and go beyond general security best-practices.  The program should have a defined curriculum and include tests aimed at establishing understanding and competence in addition to the attestation of participation.  The training should consist of a combination of industry best practices and organization's internal standards, including training on specific systems in use by the organization.  
 
@@ -122,24 +105,13 @@ To facilitate progress monitoring and successful completion of each training mod
 Issues resulting from employees not following established standards, policies, procedures, or security best practices should be reviewed at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization.  While updating the complete training may be unnecessary on an annual basis, the organization should periodically update the training and ensure all employees receive training on any changes and most prevalent security deficiencies.
 
 
-### Maturity Questions
-#### Has the organization included all internal standards, policies, and procedures within the training?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Has the organization updated the program based on identified process and security weaknesses?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Indicators
+  * Members of the organisation invovled in developing products regularly demonstrate thought leadership on security topics
+  * Members of the software security excellence centre regularly speak at software security events and conferences.
+  * All new recruits follow a standardised, mandatory training programme on which they are tested.
+  * The security curriculum is regularly reviewed and updated to reflect identified process and security weaknesses
+  * Developers are routinely tested for minimum security knowledge.
+  * All relevant internal standards, policies, and procedures are reflected in the security curriculum.
 
 #### Notes
 
