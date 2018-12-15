@@ -7,6 +7,8 @@ business_functions_weight: 3
 type: security_practice
 ---
 
+This security practice focuses on the security linked to the use of technology within the construction of secure software. Secure Architecture Design deals with (the selection and composition of) components that are leveraged to improve the security properties of the software that you're developing. Technology management on the other hand looks into the security posture of components and libraries chosen by developers to build the software.
+
 # Overview
 
 | | A: Secure Architecture Design | B: Technology Management |
@@ -44,15 +46,13 @@ I don't like the fact that the Practice is called Secure Architecture and the st
 
 ## Maturity 2
 ### Activity
-Organizations should identify shared infrastructure or services with security functionality. These will typically include single-sign-on services, corporate directory systems, access control or entitlements services, and authentication systems. By collecting and evaluating
-reusable systems, assemble a list of such resources and categorize them by the security mechanism they fulfill. It is also helpful to consider each resource in terms of why a development team would want to integrate with it, i.e. the benefits of using the shared
-resource.
+Organizations should identify shared infrastructure or services with security functionality. These will typically include single-sign-on services, access control or entitlements services, logging and monitoring services or application-level firewalling. By collecting and evaluating reusable systems, assemble a list of such resources and categorize them by the security mechanism they fulfill. It is also helpful to consider each resource in terms of why a development or an operations team would want to integrate with it, i.e. the benefits of using the shared resource.
 
-If multiple resources exist in each category, an organization should select and standardize on one or more shared service per category. Because future software development will rely on these selected services, each should be thoroughly audited to ensure the baseline security posture is understood. For each selected service, design guidance should be created for development teams to understand how to integrate with the system. After such guidance is assembled, it should be made available to development teams through training, mentorship, guidelines, and standards.
+If multiple resources exist in each category, an organization should select and standardize on one or more shared service per category. Because future software development will rely on these selected services, each should be thoroughly audited to ensure the baseline security posture is understood. For each selected service, design guidance should be created for development teams to understand how to integrate with the system. After such guidance is assembled, it should be made available to development or operations teams through training, mentorship, guidelines, and standards.
 
 At the same time, establish a set of general design patterns representing sound methods of implementing security functionality. These security patterns represent general definitions of generic design elements they can be researched or purchased, and it is often even more effective if these patterns are customized to be made more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
 
-These patterns can originate from specific projects or applications, but should be shared between different development teams across the organisation to ensure efficient and consistent application of appropriate security solutions. 
+These patterns can originate from specific projects or applications, but should be shared between different development and/or operations teams across the organisation to ensure efficient and consistent application of appropriate security solutions. 
 
 In order to increase adoption of these patterns, link these patterns to the shared security services, or implement them into actual component solutions that can easily be integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.
 
@@ -72,12 +72,12 @@ Combination of the 2 level 2 activities of SAMM1.5
 
 ## Maturity 3
 ### Activity
-Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. 
+Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. Architects, senior developers and other technical stakeholders should participate in design and creation of reference platforms. After creation, a team must maintain ongoing support and updates.
 
 These reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They will serve as a starting point that standardizes the security approach taken and uses a configuration-driven, security-by-default approach. Such a framework can be bootstrapped by selecting a particular project early in the life-cycle and have security-savvy staff work with them to build the security functionality in a generic way so that it could be extracted from the project and utilized
 elsewhere in the organization. 
 
-Architects, senior developers and other technical stakeholders should participate in design and creation of reference platforms. After creation, a team must maintain ongoing support and updates.
+Weaknesses or gaps in the set of security solutions available in your organisation should be continuously monitored in the context of discussions on architecture, development or operations. This will serve as an input in improving the appropriateness and effectiveness of the reference architectures that you have in place.
 
 ### Maturity Questions
 #### Q 1
