@@ -54,7 +54,7 @@ Deployment is fully or at least semi-automated for consistency, to reduce the ne
 
 Deployments include appropriate automated security checks such as DAST and malware scanning. Relevant persons should be notified automatically of any defects. The deployment should be stopped or reversed automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. The results from these tests should be logged centrally and actioned as necessary.
 
-All deployments are accounted for and are auditable. A system is in place to record each deployment, including information about who conducted the deploy, the software version that was deployed, and any relevant variables that were specific to the deploy.
+All deployments are accounted for and are auditable. A system is in place to record each deployment, including information about who conducted the deploy, the software version that was deployed, and any relevant variables that were specific to the deploy. 
 
 ### Maturity Questions
 
