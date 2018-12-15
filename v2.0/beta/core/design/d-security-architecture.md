@@ -7,7 +7,7 @@ business_functions_weight: 3
 type: security_practice
 ---
 
-This security practice focuses on the security linked to the use of technology within the construction of secure software. Secure Architecture Design deals with (the selection and composition of) components that are leveraged to improve the security properties of the software that you're developing. Technology management on the other hand looks into the security posture of components and libraries chosen by developers to build the software.
+This security practice focuses on the security linked to components and technology dealt with during the architectural design of your software solutions. Secure Architecture Design looks at (the selection and composition of) components that form the foundation of the solution that you're building, with a particular focus on the security properties hereof. Technology management on the other hand looks at the security of supporting technologies that are used during development, deployment and operations, such as development stacks and tooling, deployment tooling, operating systems and tooling, etc.
 
 # Overview
 
@@ -100,9 +100,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Risky technologies are identified and replaced
 
 ### Activity
-Software is often taking the path of least resistance to develop a solution. New technologies are included during development when this can facilitate or speed up development. These new technologies might, however, introduce new risks to the organisation that need to be managed.
+People are often stimulated (or naturally inclined) to take the path of least resistance in developing, deploying or operating a software solution. New technologies are included when this can facilitate or speed up the effort or that enable it to scale better. These new technologies might, however, introduce new risks to the organisation that need to be managed.
 
-As a first step, identify in the solution the most important technologies, frameworks, tools and integrations being used. The solution architect should have a good view on these, or it can be achieved by studying the development environment and artefacts. Once these are known, evaluate them for their security quality and raise important issues (LINK TO defect management). 
+As a first step, identify per application in the overall solution the most important technologies, frameworks, tools and integrations being used. The solution architect should have a good view on these, or it can be achieved by studying the development and operating environment and artefacts. Once these are known, evaluate them for their security quality and raise important issues (LINK TO defect management). 
 
 ### Indicators
 - Most important technologies are elicited
@@ -120,9 +120,9 @@ There is a common agreement on the key technologies to use
 ### Activity
 Across software projects within the organization identify commonly used technologies, frameworks and tools in use. Generally, this need not be an exhaustive search, but rather focus on capturing the high-level technologies.
 
-From the identified technologies, create a list to be advertised across the development organization as recommended ones. Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc. 
+From the identified technologies, create a list to be advertised across the development organization as recommended ones. Factors that should be considered in the selection of these standard technologies include incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, sufficient knowledge within the organisation, etc. 
 
-This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
+This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
 
 ### Indicators 
 - Technologies in use have been identified throughout the software portfolio
@@ -140,7 +140,7 @@ Compliance with the list is proactively monitored and violations are managed
 ### Activity
 For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, these may be most effective either by implementing these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts) or by periodic review where one would also focus on the correct use of these frameworks. 
 
-Overall, it is important to verify several factors with project teams. Identify use of non-recommended frameworks to determine if there may be a gap in recommendations versus the organization’s functionality needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, there may be more or different functionality that project teams would like to see implemented in the reference platforms as the organization evolves.
+Overall, it is important to verify several factors with project teams. Identify use of non-recommended technologies to determine if there may be a gap in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, there may be more or different functionality that project teams would like to see implemented in the reference platforms as the organization evolves.
 
 This analysis can be conducted by any security-savvy technical staff. Metrics collected from each project should be collated for analysis by managers and stakeholders.
 
