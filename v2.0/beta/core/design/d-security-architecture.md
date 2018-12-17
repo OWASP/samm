@@ -6,11 +6,13 @@ complete          : 20%
 business_functions_weight: 3
 type: security_practice
 ---
+# Short Description
 
+
+# Long Description
 This security practice focuses on the security linked to components and technology dealt with during the architectural design of your software solutions. Secure Architecture Design looks at (the selection and composition of) components that form the foundation of the solution that you're building, with a particular focus on the security properties hereof. Technology management on the other hand looks at the security of supporting technologies that are used during development, deployment and operations, such as development stacks and tooling, deployment tooling, operating systems and tooling, etc.
 
 # Overview
-
 | | A: Secure Architecture Design | B: Technology Management |
 |:---|:---|:---|
 | Maturity 1 - Insert consideration of proactive security guidance into the software design process. | Use basic security principles | Elicit technologies, frameworks and integrations within the overall solution|
@@ -21,6 +23,8 @@ This security practice focuses on the security linked to components and technolo
 # A: Secure Architecture Design
 
 ## Maturity 1
+### Benefit
+
 ### Activity
 During design, technical staff on the project team should use a short list of guiding security principles as a checklist against system designs. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
 
@@ -38,6 +42,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+#### Quality Indicators
+
 #### Notes
 Still put focus on perimeter interfaces ? 
 
@@ -45,6 +51,8 @@ I don't like the fact that the Practice is called Secure Architecture and the st
 
 
 ## Maturity 2
+### Benefit
+
 ### Activity
 Organizations should identify shared infrastructure or services with security functionality. These will typically include single-sign-on services, access control or entitlements services, logging and monitoring services or application-level firewalling. By collecting and evaluating reusable systems, assemble a list of such resources and categorize them by the security mechanism they fulfill. It is also helpful to consider each resource in terms of why a development or an operations team would want to integrate with it, i.e. the benefits of using the shared resource.
 
@@ -67,10 +75,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 Combination of the 2 level 2 activities of SAMM1.5
 
 ## Maturity 3
+### Benefit 
+
 ### Activity
 Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. Architects, senior developers and other technical stakeholders should participate in design and creation of reference platforms. After creation, a team must maintain ongoing support and updates.
 
@@ -89,6 +101,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 
@@ -104,7 +118,17 @@ People are often stimulated (or naturally inclined) to take the path of least re
 
 As a first step, identify per application in the overall solution the most important technologies, frameworks, tools and integrations being used. The solution architect should have a good view on these, or it can be achieved by studying the development and operating environment and artefacts. Once these are known, evaluate them for their security quality and raise important issues (LINK TO defect management). 
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators
 - Most important technologies are elicited
 - Technologies are evaluated by the lead developer or architect
 - Important technological risks are identified
@@ -124,7 +148,17 @@ From the identified technologies, create a list to be advertised across the deve
 
 This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
 
-### Indicators 
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators 
 - Technologies in use have been identified throughout the software portfolio
 - A list of preferred technologies has been defined and approved by lead architects and developers
 - The list of preferred technologies has been shared across the development organisation
@@ -144,7 +178,17 @@ Overall, it is important to verify several factors with project teams. Identify 
 
 This analysis can be conducted by any security-savvy technical staff. Metrics collected from each project should be collated for analysis by managers and stakeholders.
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators
 - Applications are regularly monitored for the correct use of the list of preferred frameworks
 - Violations against the list are solved in accorandance with the organisational's policy
 - The amount of violations on a yearly basis falls within objectives or concrete actions are taken to improve
