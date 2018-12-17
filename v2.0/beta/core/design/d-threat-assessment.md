@@ -6,13 +6,14 @@ complete          : 15%
 business_functions_weight: 1
 type: security_practice
 ---
+# Short Description
 
-
-# Overview
+# Long Description
 The Threat Assessment (TA) practice is focused on accurately identifying and understanding potential attacks upon an organisation's software in order to better understand the risks and facilitate risk management. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
 
 Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Application Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.
 
+# Overview
 | | A: Application Risk Profile | B: Threat Modeling |
 |:---|:---|:---|
 | Maturity 1 - Best-effort identification of high-level threats to the organization and individual projects. | Basic assessment of the application risk | Best effort ad-hoc threat modeling |
@@ -34,7 +35,18 @@ Next, you will use a scheme to classify applications according to this risk. The
 
 For applications at hand, evaluate the risk based on the set of questions and assign a risk level to it. 
 
-#### Indicators
+### Maturity Questions
+
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+#### Quality Indicators
 
 ### Notes
 Elements required for risk:
@@ -55,7 +67,18 @@ In terms of classifying application risk, the use of a simple qualitative scheme
 
 Based on this input, build a centralized inventory of risk profiles that use the outcome of the risk evaluations to define the profile. This inventory will give all stakeholders an aligned view on the risk level of an application and will enable them to assign appropriate priority to security-related activities.
 
-### Indicators
+### Maturity Questions
+
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
 
 ### Notes
 
@@ -70,8 +93,18 @@ A periodic review might be organised on an enterprise-wide level. However, as yo
 
 In a mature implementation of this practice, teams should also be trained and continuously updated on lessons learned and best practices from these risk evaluations. This will ensure a better execution and a more accurate representation of the application risk profile.
 
+### Maturity Questions
 
-### Indicators
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
 
 ### Notes
 
@@ -90,7 +123,18 @@ Threat modeling can be performed iteratively. If new functionality is added to a
 
 At this level, you want to execute threat modeling on important projects (LINK: Application Risk Profile) in a best effort mode to identify the most important threats to the application. Existing network diagrams are a good starting point at this level, which can be annotated during discussion workshops.
 
-### Indicators
+### Maturity Questions
+
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
 
 ### Notes
 Terminology: do we want to use application, software or solution as the main term ?
@@ -109,8 +153,18 @@ The output of threat modeling should be fed into the defect management process t
 Consider using a tool to manage the treat models of the different applications to facilitate your life. At the same time, as one of the challenges in threat modeling is a potential overload of trivial threats, people should be trained to focus on important threats.
 Ideally, the tools also helps in identifying potential threats (to some extent). But, in the end, threat modeling requires human intelligence that cannot be easily automated.
 
+### Maturity Questions
 
-### Indicators
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
 
 ### Notes
 Personally I'm not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this. Even after the Minneapolis discussions, I'm still not convinced about the usefulness of this ;-)
@@ -125,7 +179,18 @@ In order to ensure high quality of threat models, automated analysis can be used
 
 At this level, an organisation would also review the threat categories that are relevant to your organisation. When new threat categories are identified, the organisation is fed with this information to ensure appropriate handling. 
 
-### Indicators
+### Maturity Questions
+
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
 
 ### Notes
 I cannot think of good examples of threat categories. Anybody ?
