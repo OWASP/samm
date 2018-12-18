@@ -7,15 +7,16 @@ business_functions_weight: 2
 status           : for_review        #new, draft, for_review, release_candidate, done
 type: security_practice
 ---
+# Short Description
 
-# Proposed Overview
-
+# Long Description
 The Policy & Compliance (PC) Practice is focused on understanding and meeting external legal and regulatory requirements while also driving internal security standards to ensure compliance in a way that’s aligned with the business purpose of the organization.
 
 A driving theme for improvement within this Practice is focused on describing organization's standards and 3rd party obligations as application requirements, enabling efficient and automated audits that may be leveraged within the SDLC and continuously demonstrate that all expectations are being met.
 
 In a sophisticated form, provision of this Practice entails an organization-wide understanding of both internal standards and external compliance drivers while also maintaining low-latency checkpoints with project teams to ensure no project is operating outside expectations without visibility.
 
+# Overview
 | | A: Policy and Standards | B: Compliance Management |
 |:---|:---|:---|
 | Maturity 1 - Identify and document governance and compliance drivers relevant to the organization. | Determine a security baseline representing organization's policies and standards | Identify 3rd-party compliance drivers and requirements and map to existing policies and standards |
@@ -25,9 +26,9 @@ In a sophisticated form, provision of this Practice entails an organization-wide
 # A: Policy and Standards
 
 ## Maturity 1
+### Benefit 
 
 ### Activity
-
 Develop a library of policies and standards to govern all aspects of software development in the organization.  Policies and standards should be developed based on existing industry standards and be appropriate for the organization's industry.  Due to the full range of technology-specific limitations and best practices, the organization should review proposed standards with the various product teams.  With the overarching objective of increasing security of the applications and computing infrattructure, individual product teams should be invited to offer feedback on any aspects of the standards that would not be feasible or cost-effective to implement, as well as opportunities for standards to go further with little effort on the product teams.
 
 In creating policies, the emphasis should be on high-level definitions and aspects of application security that would not be dependent on a specific technology or a hosting environment.  Policies should emphasize broader objectives of the organization to protect the integrity of its computing environment, safety and privacy of the data, and maturity of the software development lifecycles.  For larger organizations, policies may qualify specific requirements based on data classification or application functionality, but should not be detailed enough to offer technology-specific guidance.  
@@ -46,6 +47,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+### Quality Indicators
 
 #### Notes
 
@@ -66,6 +69,8 @@ Action: update P&C streams into separate policies / compliance streams (now ther
 *  Refer to RFC covering "Policy", "Standard" etc.
 
 ## Maturity 2
+### Benefit
+
 ### Activity
 To assist with the ongoing implementation and verification of compliance with policies and standards, develop application security and appropriate tests scripts related to each applicable requirement.   These documents should be organized into libraries and be available to all application teams in formats most conducive for inclusion into each application.  These documents should be clearly labeled and linked to the policies and standards they represent, to assist with the ongoing updates and maintenance.  Additionally, policies and standards should be versioned and include detailed change logs with each iterative update to make ongoing inclusion into different product's SDLC easier.
 
@@ -83,6 +88,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
@@ -91,6 +98,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * "test scripts" -> rather playbooks meant
 
 ## Maturity 3
+### Benefit
+
 ### Activity
 Develop a program for measuring each application's compliance with existing policies and standards.  Reporting should include factors making different requirements mandatory and be reported consistently across all teams.  Whenever possible, compliance status should be tied into automated testing and reported with each version.  Compliance reporting should include the version of policies and standards as well as appropriate code coverage factors.
 
@@ -106,6 +115,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
@@ -115,6 +126,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 # B: Compliance Management
 
 ## Maturity 1
+### Benefit
+
 ### Activity
 Create a comprehensive list of all compliance requirements, including any triggers that could help determine which applications are in scope.  Compliance requirements may be considered in scope based on a number of factors, such as geographic location, types of data, or contractual obligations with clients or business partners.  Each identified compliance requirement should be reviewed with the appropriate subject matter experts and legal, to ensure the obligation is correctly understood.  Since many compliance obligations vary in applicability based on how the data is processed, stored, or transmitted across the computing environment, compliance drivers should always indicate opportunities for lowering the overall compliance burden by changing how the data is handled.
 
@@ -132,6 +145,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 overlaps with Policies and Standards - 1 ?? --> Overlap is intentional since they address different sources of requirements and play off one another.
@@ -143,6 +158,8 @@ overlaps with Policies and Standards - 1 ?? --> Overlap is intentional since the
 * reference UCF?
 
 ## Maturity 2
+### Benefit
+
 ### Activity
 Develop a library of application requirements and test scripts intended to establish and verify regulatory compliance of applications.  Some of these will be tied to individual compliance requirements like PCI or GDPR, while others will be more general in nature and address global compliance requirements such as ISO.  The library should be available to all application development teams and include guidance for determining all applicable requirements including considerations for reducing the compliance burden and scope.  Additionally, the organization should implement a process to periodically re-assess each applications' compliance requirements.  Re-assessment should include reviewing all application functionality and reviewing opportunities to reduce the overall cost of compliance through a reduction of scope.
 
@@ -159,6 +176,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
@@ -167,6 +186,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ## Maturity 3
+### Benefit
+
 ### Activity
 Develop a program for measuring and reporting on the status of compliance between different applications.  Determining the status of compliance should be driven by application requirements and test scripts, and whenever possible leverage testing automation for frequent updates and ensuring compliance is maintained through the different application versions.  Whenever fully automated testing is not possible, compliance should be periodically assessed by the QA, Internal Audit, or Information Security teams through a combination of manual testing and interview.
 
@@ -183,6 +204,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+### Quality Indicators
 
 #### Notes
 **Summit MN:**
