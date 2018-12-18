@@ -7,10 +7,11 @@ status           : draft        #new, draft, for_review, release_candidate, done
 business_functions_weight: 1
 type: security_practice
 ---
+# Short Description
 
+# Long Description
 
-# Proposed Overview
-
+# Overview
 | | A: Create and Promote | B: Measure and Improve |
 |:---|:---|:---|
 | Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Identify organisation drivers as they relate to the organization's risk tolerance | Define metrics with insight into the effectiveness and efficiency of the Application Security Program |
@@ -20,6 +21,8 @@ type: security_practice
 # A: Create and Promote
 
 ## Maturity 1
+### Benefit 
+
 ### Activity
 Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks.  This understanding is a key component of determining software security assurance priorities.  In order to ascertain these threats, it's important to interview business owners and stakeholders to document drivers specific to one or more industries in which the organization operates as well as drivers specific to the organization.  Gathered information should include worst-case scenarios that could adversely impact the organization, as well as any opportunities where a more optimized software development lifecycle and more secure applications could provide a market-differentiator or create additional opportunities.
 
@@ -37,6 +40,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+#### Quality Indicators
+
 #### Notes
 should also include organisational perspective + link to business priorities and regulatory compliance
 The goal here is to promote the metrics as well as the application security program.
@@ -51,6 +56,8 @@ The goal here is to promote the metrics as well as the application security prog
 #### Guidance
 
 ## Maturity 2
+### Benefit 
+
 ### Activity
 Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security.  The plan should provide a 3-5 year strategy and include milestones consistent with the organization's business drivers and risks.  The plan should provide tactical and strategic initiatives and follow a roadmap that can be used to show the program is aligned with business priorities and needs.
 
@@ -68,6 +75,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
@@ -75,6 +84,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * 3-5 year strategy is too long, maybe 1-3 years?
 
 ## Maturity 3
+### Benefit 
+
 ### Activity
 The application security plan should be periodically reviewed for ongoing applicability and support of the organization's evolving needs and future growth.  To do this, steps outlined in the first two maturity levels of this Security Practice should be periodically repeated, at least annually.  The goal should be to ensure the plan is always supporting the current and future needs of the organization, which will help ensure the program is better aligned with the business.
 
@@ -92,6 +103,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
@@ -103,6 +116,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 # B: Measure and Improve
 
 ## Maturity 1
+### Benefit 
+
 ### Activity
 Define and document metrics to help measure the effectiveness and efficiency of the application security program and help ensure improvements are measurable and can be used to secure future support and funding for the program.  Considering the dynamic nature of most  development environments, metrics should be comprised of measurements in the following categories:
 
@@ -132,6 +147,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 Assets is to be interpreted broader than the software only.
 
@@ -159,6 +176,8 @@ We should make sure to reference all other Security Practices and activities wit
 * measurement and risk mgmt? Should there be more of it? - no decision
 
 ## Maturity 2
+### Benefit 
+
 ### Activity
 Once the organization has defined its application security metrics, it's important to collect enough information to establish a  baseline for setting realistic goals.  Additionally, identified metrics should be tested to ensure data can be gathered consistently and efficiently over a short period.  Once the initial testing period is complete, the organization should have enough information to commit to goals and objectives expressed through Key Performance Indicators (KPIs).  
 
@@ -176,11 +195,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
 
 ## Maturity 3
+### Benefit
+
 ### Activity
 Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics.  These guidelines should take in the account maturity of the application development processes and procedures, and combine them with different metrics to ensure the program becomes more efficient over time.  The following examples show a relationship between measurements and ways of evolving and improving application security:
 
@@ -201,6 +224,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+### Quality Indicators
 
 #### Notes
 
