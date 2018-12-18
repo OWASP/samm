@@ -6,17 +6,6 @@ complete          : 90%
 business_functions_weight: 1
 type: security_practice
 ---
-
-
-# Overview
-
-| | A: Incident Detection | B: Incident Response |
-|:---|:---|:---|
-| Maturity 1 - Best-effort incident detection and handling | Best-effort incident detection with available log data | Defined high-level incident response strategy |
-| Maturity 2 - Formal incident management process in place | Automated log evaluation driven by process | Root Cause Analysis with feedback loop |
-| Maturity 3 - Mature incident management | Reliable timely incident detection | Proactive incident + emergency exercises |
-
-
 # Short Description
 
 Incident Management security practice describes activities carried to detect and respond to security incidents.
@@ -32,6 +21,17 @@ Once your applications become operational, you’re likely to face security inci
 Sometimes, a security incident is detected only after months or even years when all damage has already been done. That's why the first stream called "Incident Detection" tackles the ability to reliably and timely detect security incidents. 
 
 Once you have identified that you're suffering from a security incident, it's essential to act in a well organized way in order to limit the damage as much as possible. Actitivies leading to this goal are described by the second stream called "Incident Response".
+
+
+# Overview
+
+| | A: Incident Detection | B: Incident Response |
+|:---|:---|:---|
+| Maturity 1 - Best-effort incident detection and handling | Best-effort incident detection with available log data | Defined high-level incident response strategy |
+| Maturity 2 - Formal incident management process in place | Automated log evaluation driven by process | Root Cause Analysis with feedback loop |
+| Maturity 3 - Mature incident management | Reliable timely incident detection | Proactive incident + emergency exercises |
+
+
 
 # A: Incident Detection
 
@@ -55,7 +55,17 @@ On this maturity level, you might not go for 24/7 incident detection process, es
 
 If an event is evaluated to be a security incident, the contact point for formal creation of security incident is defined and generally known. 
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -87,8 +97,18 @@ Possible security incidents are being detected according to available checklist 
 
 If an event is evaluated as a security incident with high level of confidence, the responsible staff is notified immediately (also outside business hours) in order perform further analysis and start escalation process. 
 
+### Maturity Questions
+#### Q 1
+Are ...?
 
-### Indicators
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -124,7 +144,18 @@ Correlation of logs is used for incident detection for all reasonable incident s
 
 The quality of the incident detection is not dependant on the time or day of the event. In case the security event is not acted upon within a defined time, further contact according to a defined escalation path are notified. The efficiency is of the incident is also checked by exercises with defined improvement action points.
 
-### Indicators:
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -156,7 +187,18 @@ You usually don't go for dedicated incident response personnel on this maturity 
 
 When security incidents happen, the steps taken are documented, however this information can be protected from unauthorized access in case of need. 
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -186,7 +228,18 @@ Knowledgeable and properly trained staff should be available also outside of bus
 
 The process should also include a policy for carrying out root cause analysis and its expected outcomes.
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -217,7 +270,18 @@ Incident and emergency exercises are carried out regularly; the results of these
 
 Metrics on the incident response process including its continuous improvement, are defined, gathered, evaluated and acted upon. 
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
