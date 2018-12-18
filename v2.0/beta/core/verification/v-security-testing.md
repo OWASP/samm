@@ -7,16 +7,6 @@ status           : draft        #new, draft, for_review, release_candidate, done
 business_functions_weight: 3
 type: security_practice
 ---
-
-# Overview
-
-| | A: Scalable Baseline | B: Deep Understanding |
-|:---|:---|:---|
-| Maturity 1 - Perform security testing (both manual and tool based) to discover security defects.  | Utilize automated security testing tools | Perform manual security testing of high-risk components |
-| Maturity 2 - Make security testing during development more complete and efficient through automation complemented with regular manual security penetration tests | Employ application-specific security testing automation | Conduct manual penetration testing |
-| Maturity 3 - Embed security testing as part of the development and deployment processes. | Integrate automated security testing into the build and deploy process | Integrate security testing into development process |
-
-
 # Short Description
 
 Basic security issues are detected and fixed by the development team through automation, allowing manual testing to focus on more complex attack vectors.
@@ -30,6 +20,16 @@ Project teams should focus on buildout of granular (manual and automated) securi
 For each project release, results from automated and manual security tests should be presented to management and business stakeholders for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them. As part of each release the quality of the security tests should be reviewed and improved if necessary.
 
 Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. The knowledge of the created security tests and the results are spread across the development team to improve security knowledge and awareness inside the organisation.
+
+# Overview
+
+| | A: Scalable Baseline | B: Deep Understanding |
+|:---|:---|:---|
+| Maturity 1 - Perform security testing (both manual and tool based) to discover security defects.  | Utilize automated security testing tools | Perform manual security testing of high-risk components |
+| Maturity 2 - Make security testing during development more complete and efficient through automation complemented with regular manual security penetration tests | Employ application-specific security testing automation | Conduct manual penetration testing |
+| Maturity 3 - Embed security testing as part of the development and deployment processes. | Integrate automated security testing into the build and deploy process | Integrate security testing into development process |
+
+
 
 <!--
 **Notes**
@@ -54,8 +54,6 @@ There are both commercial and open-source products available to cover popular pr
 
 Utilize input from security-savvy technical staff as well as developers and development managers in the selection process, and review overall results with stakeholders.
 
-### Indicators
-
 #### Maturity Questions
 ##### Q 1
 ##### Do project teams use automated testing tools to find security problems (static and dynamic)?
@@ -66,6 +64,8 @@ Utilize input from security-savvy technical staff as well as developers and deve
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
+
+### Quality Indicators
 
 <!--
 #### Notes
@@ -100,8 +100,6 @@ Additionally, many automated security testing tools can be greatly improved in a
 
 Project teams should focus on buildout of granular security test cases based on the business functionality of their software, and a central software security group should focus on specification of automated tests for compliance and internal standards.
 
-### Indicators
-
 ### Maturity Questions
 #### Q 1
 #### Are security test cases comprehensively generated for application-specific logic?
@@ -113,6 +111,7 @@ Project teams should focus on buildout of granular security test cases based on 
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
 
+### Quality Indicators
 
 <!--
 #### Notes
@@ -158,7 +157,6 @@ For each project release, results from automated and manual security tests shoul
 
 Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. The knowledge of the created security tests and the results are spread across the development team to improve security knowledge and awareness inside the organisation.
 
-### Indicators
 
 ### Maturity Questions
 #### Q 1
@@ -170,6 +168,8 @@ Consider and implement security test correlation tools to automate the matching 
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
+
+### Quality Indicators
 
 
 <!--
@@ -213,8 +213,6 @@ Since code-level vulnerabilities can have dramatically increased impacts if they
 
 During development cycles where high-risk code is being changed and reviewed, development managers should triage the findings and prioritize remediation appropriately with input from other project stakeholders.
 
-### Indicators
-
 ### Maturity Questions
 #### Q 1
 #### Do project teams manually review selected high-risk components?
@@ -225,6 +223,8 @@ During development cycles where high-risk code is being changed and reviewed, de
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
+
+### Quality Indicators
 
 
 <!--
@@ -257,8 +257,6 @@ Penetration testing cases should include both application-specific tests to chec
 
 Prior to release or deployment, stakeholders must review results of security tests and accept the risks indicated by failing security tests at release time. In the latter case, a concrete timeline should be established to address the gaps over time. The knowledge of manual security testing and the results are spread across the development team to improve security knowledge and awareness inside the organisation.
 
-### Indicators
-
 ### Maturity Questions
 #### Q 1
 #### Is manual penetration testing performed on high risk projects prior to release (both statis and dynamic)?
@@ -269,6 +267,8 @@ Prior to release or deployment, stakeholders must review results of security tes
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
+
+### Quality Indicators
 
 <!--
 
@@ -299,8 +299,6 @@ With tools to run automated security tests, projects within the organization sho
 
 Results from automated and manual security tests during development should be reviewed by the security champions and the central secure software group and considered to be included as part of the security awareness trainings towards the development teams. Lessons learned should be integrated in overall playbooks to improve security testing as part of the organisation development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
 
-### Indicators
-
 ### Maturity Questions
 #### Q 1
 #### Do projects use security testing to evaluate security during development?
@@ -311,6 +309,8 @@ Results from automated and manual security tests during development should be re
 - Yes, a small percentage are/do
 - Yes, at least half of them are/do
 - Yes, the majority of them are/do
+
+### Quality Indicators
 
 <!--
 #### Notes
