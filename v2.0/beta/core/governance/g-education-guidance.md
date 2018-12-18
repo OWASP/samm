@@ -7,15 +7,16 @@ status           : draft        #new, draft, for_review, release_candidate, done
 business_functions_weight: 3
 type: security_practice
 ---
+# Short Description
 
-# Overview
-
+# Long Description
 The Education & Guidance (EG) Practice is focused on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams will be better able to proactively identify and mitigate the specific security risks that apply to their organization.
 
 One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness, either through instructor-led sessions or computer-based modules. As an organization progresses, a broad base of training is built by starting with developers and moving to other roles throughout the organization, culminating with the addition of role-based training to ensure applicability and effectiveness.
 
 In addition to training, this Practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams.  This approach should be supported with collaboration tools and increased transparency between technologies and tools leveraged for improving the security of the applications.
 
+# Overview
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
 | Maturity 1 - Offer staff access to resources around the topics of secure development and deployment. | Provide security awareness training for all personnel involved in software development | Identify a "Security Champion" within each development team |
@@ -34,8 +35,17 @@ Course content should include a range of topics relevant to application security
 
 Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance. Training should strive to leverage new and innovative ways of delivery (such as gamifying certain elements) to maximise its effectiveness and combat desensetisation.
 
+### Maturity Questions
+#### Q 1
+Are ...?
 
-### Indicators
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
   * Developers recognize the most important application security flaws.
   * Managers understand the importance of security activities.
   * Testers better understand the attacker mindset.
@@ -72,7 +82,17 @@ Ideally, each organization should identify a subject-matter expert in each techn
 
 Training should be considered mandatory for all employees and contractors involved with software development and include an auditable sign-off to demonstrate compliance.  The training should be updated and delivered annually, to include changes in the organization, technology, and trends.   Additionally, training participants should be polled to evaluate the quality and relevance of the training, as well as solicit suggestions of other information that may be relevant to their work or environments.
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
   * Members of the software security excellence centre regularly attend software security events and conferences.
   * Developers understand how the most relevant application security flaws occur and how to prevent them.
   * Managers require security activities throughout the SDLC
@@ -104,8 +124,18 @@ To facilitate progress monitoring and successful completion of each training mod
 
 Issues resulting from employees not following established standards, policies, procedures, or security best practices should be reviewed at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization.  While updating the complete training may be unnecessary on an annual basis, the organization should periodically update the training and ensure all employees receive training on any changes and most prevalent security deficiencies.
 
+### Maturity Questions
+#### Q 1
+Are ...?
 
-### Indicators
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
   * Members of the organisation invovled in developing products regularly demonstrate thought leadership on security topics
   * Members of the software security excellence centre regularly speak at software security events and conferences.
   * All new recruits follow a standardised, mandatory training programme on which they are tested.
@@ -151,6 +181,8 @@ In addition to assisting Information Security, "Security Champions" should also 
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
@@ -161,6 +193,8 @@ In addition to assisting Information Security, "Security Champions" should also 
 * Wording: Project team vs development team - we should decide and align
 
 ## Maturity 2
+### Benefit
+
 ### Activity
 Velocity of change in technology, programming languages, and development frameworks and libraries have made it very difficult for Information Security professionals to be fully informed of all the technical nuances that may impact security.  Even developers often struggle keeping up with all the changes and new tools intended to make software development faster, better, and safer.  Therefore, organizations should implement a formal secure coding center of excellence, comprised of architects and senior developers representing the different business units and technology stacks.  The team should have an official charter and be expected to define standards and best practices intended to help the organization improve their software development practices.
 
@@ -196,11 +230,15 @@ Finally, the group should also provide subject matter expertise in helping infor
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 **Summit MN:**
 
 ## Maturity 3
+### Benefit
+
 ### Activity
 Security is the responsibility of all employees, not just the Information Security team.  The organizations should deploy communication and knowledge sharing platforms to help developers build communities around different technologies, tools, and programming languages.  These communities may consist of one or multiple tools, and enable employees to share information, discuss challenges with other developers, and search the knowledge-base for answers to previously discussed issues.
 
@@ -227,6 +265,8 @@ The information portal should be reviewed on a regular basis by the Secure Softw
 - Option 2
 - Option 3
 - Option 4
+
+### Quality Indicators
 
 #### Notes
 
