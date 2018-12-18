@@ -7,14 +7,6 @@ business_functions_weight: 2
 type: security_practice
 ---
 
-# Overview
-
-| | A: Configuration Hardening | B: Patching and Updating |
-|:---|:---|----|
-| Maturity 1 - Best-effort patching and hardening | Prioritized best-effort hardening | Prioritized best-effort patching |
-| Maturity 2 - Formal process with baselines in place | Hardening baseline and guidelines available | Formal process covering the full stack |
-| Maturity 3 - Conformity with continuously improving process enforced | Detection and handling of non-conformities | Consolidated update process with SLA and reporting |
-
 # Short Description
 
 Environment Management practice describes proactive activities carried out in order to keep the environment reasonably secure during the application operation.
@@ -26,6 +18,15 @@ Proactive work invested in application security is not over once the application
 Most technology you're relying on within your application stack is not coming secure by default. Due to issues like backwards compatibility or ease of setup, you often need to explicitely turn security features on. This topic is handled by the Configuration Hardening stream. 
 
 For the most of the technologies you're relying on, vulnerabilities will be discovered throughout the application lifecycle and new versions fixing those will be released. That's why it's important to keep up with this information about new vulnerabilities being discovered and react accordingly. The activities leading to this goal are described by the Patching and Updating stream. 
+
+# Overview
+
+| | A: Configuration Hardening | B: Patching and Updating |
+|:---|:---|----|
+| Maturity 1 - Best-effort patching and hardening | Prioritized best-effort hardening | Prioritized best-effort patching |
+| Maturity 2 - Formal process with baselines in place | Hardening baseline and guidelines available | Formal process covering the full stack |
+| Maturity 3 - Conformity with continuously improving process enforced | Detection and handling of non-conformities | Consolidated update process with SLA and reporting |
+
 
 # A: Configuration Hardening
 
@@ -43,7 +44,17 @@ On the first maturity level, you've acknowledged the importancy of configuration
 
 You are actively working with publicly available information sources (open source projects, vendor documentation, blog articles...), increasing your know-how from those and implementing at least "low hanging fruits". 
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -74,7 +85,18 @@ The baselines have an owner who's responsible for keeping them up-to-date (e.g. 
 
 In larger environments, it's sensible to derive configuration of all instances from your own master, where the common ground work has been done already. Usage of automated tools for hardening configuration is at least considered.
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -105,7 +127,18 @@ Component update process includes verification of validity of the current harden
 
 The continuous improvement process for the baselines is periodically audited and the resulting findings are acted upon.
 
-### Indicators:
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -139,7 +172,18 @@ At least the process responsible for the particular components is known and coop
 
 You're able to find out reasonably quickly the used versions of all components in order to evaluate whether you're affected by a particular public security vulnerability or not. 
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -185,8 +229,18 @@ There is a guidance for prioritization of particular updates, let it be the crit
 
 In case there is a known critical issue while patch is not available yet, this issue is triaged and consciously handled (e.g. by finding workarounds, monitoring measures or even switching off the affected applications in the worst case).
 
+### Maturity Questions
+#### Q 1
+Are ...?
 
-### Indicators
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
@@ -216,7 +270,18 @@ On the third level, you have a very good insight, such as dashboard, in the patc
 
 If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable. 
 
-### Indicators
+### Maturity Questions
+#### Q 1
+Are ...?
+
+*Answer Options*
+- No
+- Yes, some of the time
+- Yes, approx. half the time
+- Yes, most or all of the time
+
+
+### Quality Indicators
 
 Typically, on this maturity level:
 
