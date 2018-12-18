@@ -6,8 +6,11 @@ complete          : 0%
 business_functions_weight: 1
 type: security_practice
 ---
+# Short Description
 
-# Proposed Overview (updated objectives)
+# Long Description
+
+# Overview (updated objectives)
 
 | | A: Architecture Validation | B: Architecture Compliance |
 |:---|:---|:---|
@@ -31,6 +34,8 @@ type: security_practice
 # A: Architecture Validation
 
 ## Maturity 1
+### Benefit
+
 ### Activity
 Identify application and infrastructure architecture components. Create a simplified view of the overall architecture. Typically, this should be created based on project artifacts such as high-level requirements and design documents, interviews with technical staff, or module-level review of the code base.
 Also identify the infrastructure components. These are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
@@ -46,6 +51,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+### Quality indicators
 
 #### Notes
 Use of checklists
@@ -71,6 +78,8 @@ https://www.owasp.org/index.php/ASVS_V1_Architecture
 http://www.guidanceshare.com/wiki/Security_Engineering_Explained_-_Chapter_5_-_Security_Architecture_and_Design_Review
 
 ## Maturity 2
+### Benefit
+
 ### Activity
 Are the architecture security mechanisms well implemented.
 For each interface in the application and infrastructure architecture , formally iterate through the list of security mechanisms and analyze the system for their provision. This type of analysis should be performed on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface.
@@ -89,6 +98,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 * expose the high-risk design decisions that have been made
 * Remove “well implemented” from maturity 2. Move it more into 3 to increase the difference between the 2 levels.
@@ -96,6 +107,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 *  Architecture review should be performed once per release is not CICD friendly. Need to establish what a release is. Or reword.
 
 ## Maturity 3
+### Benefit 
+
 ### Activity
 Review of the architecture components effectiveness. For each of the application and infrastructure components, review their effectiveness to secure the application.
 Effectiveness should be evaluated for the security mechanisms provided by the components in terms of identification, protection, detection, response and recovery of security or privacy issues. Review their effectiveness in terms of strategy alignment, appropriate support and scaleability.
@@ -112,6 +125,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 
@@ -120,6 +135,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * **This will be rewritten. See notes section at the top of the practice**
 
 ## Maturity 1
+### Benefit
+
 ### Activity
 Ad-hoc review of the architecture against compliance requirement.
 
@@ -140,10 +157,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 
 ## Maturity 2
+### Benefit 
+
 ### Activity
 Analyze the architecture against known security requirements and best practices.
 
@@ -163,11 +184,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
 #### Notes
 
 
 
 ## Maturity 3
+### Benefit
+
 ### Activity
 Feedback the architecture review results into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
 
@@ -183,3 +208,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 2
 - Option 3
 - Option 4
+
+### Quality Indicators
