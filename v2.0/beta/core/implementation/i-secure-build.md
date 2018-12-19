@@ -2,7 +2,7 @@
 business_functions : Implementation
 title : Secure Build
 assignedto       : Chris Cooper (chris.cooper@owasp.org)
-complete          : 40s%
+complete          : 40%
 business_functions_weight: 1
 type: security_practice
 ---
