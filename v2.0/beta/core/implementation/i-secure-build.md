@@ -60,12 +60,12 @@ Reproducable build?
 How is integrity of the build software guaranteed with this activity? [Added to M3 by CC]
 
 Does "documented" imply a separate document. How about using "captured" instead. [Not changed - question of language we adopt across the board? CC]
--->
 
 #### Guidance
 Provide examples of which security tools might fit here.  
 are there any others than SAST(?) - how about obfuscation toolings (e.g. mobile).
 
+-->
 
 ## Maturity 2
 ### Benefit
@@ -127,8 +127,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 lot of overlap/duplication with the security testing stream, to be revised. [Changed to references by CC]
 -->
 
-#### Guidance
-
 # B: Software Dependencies
 
 ## Maturity 1
@@ -177,8 +175,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - associate it with "bill of materials", but add more details than Maven BOM files [Referenced. CC]
 
 -->
-
-#### Guidance
 
 ## Maturity 2
 ### Benefit
@@ -245,5 +241,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 Add other verification activities as well. [Generalised the content in question. CC]
 -->
-
-#### Guidance
