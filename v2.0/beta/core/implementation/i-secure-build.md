@@ -245,7 +245,7 @@ The application is more inline with its assigned security level which is consist
 
 ### Activity
 
-Verification tests are performed against dependencies in the same way that they are against the target application itself. Refer to [Verification > Security Testing](../v-security-testing). Depending on the build process maturity level, the discovery of significant issues might cause the build to fail.
+Verification tests are performed against dependencies in the same way that they are against the target application itself. Refer to [Verification > Security Testing](../verification/v-security-testing). Depending on the build process maturity level, the discovery of significant issues might cause the build to fail.
 
 Results should be logged centrally and actioned appropriately. Vulnerable dependencies should be blacklisted and not permitted to be used during builds. Additionally, valid findings should be fed back to the vendor or open source project as appropriate, following a set of ethical disclosure guidelines.
 
