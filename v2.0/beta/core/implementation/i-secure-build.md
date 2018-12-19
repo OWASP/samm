@@ -147,6 +147,7 @@ lot of overlap/duplication with the security testing stream, to be revised. [Cha
 
 ## Maturity 1
 ### Benefit
+Production applications which are at risk from a known vulnerable 3rd party component can be enumerated.
 
 ### Activity
 
@@ -183,7 +184,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 ### Quality Indicators
-
+  * Each software release is accompanied by an accurate BOM
+  * There is a policy for updating dependency information before production releases.
+  
 <!--
 #### Notes
 - is "Software Supply Chain" to best title for this stream? [Changed to Software Dependencies by CC]
@@ -194,6 +197,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Benefit
+There is an audit trail of all 3rd party libraries used in development and their security status at any given time is known and proactively tracked.
 
 ### Activity
 
@@ -221,6 +225,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 ### Quality Indicators
+  * Each software release is accompanied by an accurate BOM automatically generated.
+  * The security status of all 3rd party components can be queried at any given time
+  * A well-defined procedure exists for addressing vulnerabilities in 3rd party components.
 
 <!--
 #### Notes
@@ -234,6 +241,7 @@ Consider a curated and controlled central repository for the build. [Added. CC]
 
 ## Maturity 3
 ### Benefit
+The application is more inline with its assigned security level which is consistent across internally developed components as well as 3rd party ones.
 
 ### Activity
 
@@ -252,7 +260,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 ### Quality Indicators
-
+  * The security of important 3rd party components is assessed.
+  * The organisation actively contributes security improvements to important 3rd party components (testing, reports, features).
+  * Security is an important factor during 3rd party component selection
+  * Important 3rd party components have an assigned owner/champion [within the organisation].
+  * Multiple intelligence feeds are proactively used to track the security of 3rd party components.
+  * There is an active policy to minimise the number of different versions of 3rd party components used.
+ 
 <!--
 #### Notes
 Add other verification activities as well. [Generalised the content in question. CC]
