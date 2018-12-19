@@ -2,10 +2,14 @@
 business_functions : Implementation
 title : Defect Management
 assignedto       : Chris Cooper (chris.cooper@owasp.org)
-complete          : 0%
+complete          : 30%
 business_functions_weight: 3
 type: security_practice
 ---
+
+# Short Description
+
+# Long Description
 
 # Overview
 
@@ -19,8 +23,9 @@ type: security_practice
 # A: Defect Tracking (Flaws/Bugs/Process)
 
 ## Maturity 1
+### Benefits
 ### Activity
-Any and all security defects should be recorded and tracked in a central location. Defects should be assigned meaningful categories, and should be prioritised based on the risk they pose.
+Any and all security defects should be recorded and tracked in a central location. This location can be per team, project, or organisation-wide. Defects should be assigned meaningful categories, and should be prioritised based on the risk they pose.
 
 Sources of defects should include, but not be limited to, those discovered via:
 
@@ -34,7 +39,11 @@ Sources of defects should include, but not be limited to, those discovered via:
 - Public/private vulnerability disclosures (e.g. for 3rd party libraries)
 - Bug bounties
 
+All defects should be qualified to ensure that the records only contain valid and significant issues.
+
 Manageability should be considered. Within reason, it should possible to avoid duplicate defects being recorded (i.e. it should be easy to browse/search for similar issues). Defects that are duplicates should be merged. Issues that are very similar, particularly if they are remediated in the same way, could be grouped together.
+
+The organisation should use these records to make decisions and resolve vulnerabilities. They should be updated when issues are resolved, tracking vulnerabilities over time. Security testing should be employed to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
 
 #### Maturity Questions
 ##### Q 1
@@ -46,20 +55,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
+<!--
 #### Notes
-"Any and all security defects should be recorded and tracked in a central location." - does this matter on level 1? Aggregate this per team/product? Not as an organisation. to be rephrased.  
-Should only be "validated or qualified" defects. 
-vulnerability reports and scans should be input for this . 
-security defect management includes vulnerability management 
-fixing is implicitly implied in this stream
+"Any and all security defects should be recorded and tracked in a central location." - does this matter on level 1? Aggregate this per team/product? Not as an organisation. to be rephrased.  [Done by CC]
+Should only be "validated or qualified" defects. [Added by CC]
+vulnerability reports and scans should be input for this . [already there. CC]
+security defect management includes vulnerability management [Added by CC]
+fixing is implicitly implied in this stream [Added explicitly by CC]
 
 
 #### Guidance
-
+-->
 
 ## Maturity 2
+### Benefits
 ### Activity
 There is a well defined threshold for defects that require resolution and/or mitigation. Where this threshold is exceeded, the intention should be that the software is not deployed into production until the relevant defects are fixed, or fall below the threshold.
+
+This quality gate may not only exist at deployment to production. It can come into force at whatever point the issue is detected. For instance, if an issue is detected by static analysis prior to build, the build system might prevent the software from building. However, deloyment to production is always the final and mandatory quality gate.
 
 Organisations should set a threshold that is right for them. It might take into consideration: 
 
@@ -70,6 +85,8 @@ Organisations should set a threshold that is right for them. It might take into 
 - potential impact to the business
 
 Organisations should look to use a well established risk rating methodology consistently across their defect management solution.
+
+Agreement of an appropriate threshold should be reached between persons responsible for application security and key stakeholders. 
 
 Relevant persons should be notified if a defect is raised that exceeds the defined threshold, and action should be taken to resolve or mitigate the issue before the software is deployed into a production environment. A satisfactory mitigation is one that reduces the risk to fall below the threshold.
 
@@ -87,18 +104,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
+<!--
 #### Notes
-is the quality gate only deployment?  
-definition and agreement of the "threshold" and related timelines is part of this maturity level activity 
-severity level should be included in the threshold ? 
-add locations here as well 
-add consistent risk levels 
+is the quality gate only deployment? [Added by CC] 
+definition and agreement of the "threshold" and related timelines is part of this maturity level activity  [Added by CC] 
 
 #### Guidance
-
+-->
 
 
 ## Maturity 3
+### Benefits
 ### Activity
 An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) should be responsible for managing known defects and enforcing the threshold defined at maturity 2. 
 
@@ -119,24 +137,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-#### Notes
-add locations here as well 
-
-#### Guidance
+### Quality Indicators
 
 
 # B: Metrics and Feedback/Learning
 
 ## Maturity 1
+### Benefits
 ### Activity
 Calculate and share basic information about defects, and use this data to make decisions about remediation. Basic information might include: 
 
-- the total number of defects
-- the software components the defect resides in
-- the type / category of the defect
-- the severity of the defect
+- The total number of defects. Tracking this over time, in particular, can show the effectiveness of resolution efforts.
+- The software components the defect resides in, which can be indicative of where attention is most required, and where security flaws are most likely to appear in the future.
+- The type / category of the defect, which can suggest areas where the development team might need further training.
+- The severity of the defect, which can help the organisation understand the software's risk exposure in a simple sense.
 
-Use this data to inform your decision-making in terms of remediation priority, and training requirements (i.e. secure development).
+Feedback what you learn through these metrics to the teams involved. Use this data to inform your decision-making in terms of remediation priority, and training requirements (i.e. secure development).
 
 ### Maturity Questions
 #### Q 1
@@ -148,20 +164,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
+<!--
 #### Notes
-first align on objectives of these metrics and flesh out overlap with BG Governance.  
+first align on objectives of these metrics and flesh out overlap with BG Governance.  [CC - still to do]
 add mean time to fix here? 
 
 levels? 
-1: provide feedback to the team 
+1: provide feedback to the team [done by CC]
 2: learn from it accross teams and provide feedback to the organisations, looking for trends 
 3: optimized practices and share statictics
-
-#### Guidance
-
+-->
 
 
 ## Maturity 2
+### Benefits
 ### Activity
 Calculate and share more advanced metrics. These might include:
 
@@ -188,6 +206,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
+<!--
 #### Notes
 learn from the metrics 
 identify patterns  
@@ -195,12 +216,10 @@ getting more granular
 enhance trainings, libraries, ...
 describe the type of lessons learned and put more emphasis on this 
 
-
-#### Guidance
-
-
+-->
 
 ## Maturity 3
+### Benefits
 ### Activity
 Ensure that defects are complimented with a range of fields, such as:
 
@@ -228,10 +247,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
+### Quality Indicators
+
+<!--
 #### Notes
 accross multiple projects/teams 
 put more focus on the feedback part
 change the SDLC   
 
-#### Guidance
+-->
 
