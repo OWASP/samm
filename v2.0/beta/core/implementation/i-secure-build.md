@@ -49,7 +49,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 5
 
 ### Quality Indicators
-
+ * A new build environment can be manually deployed by anyone following the documentation
+ 
 <!--
 #### Notes
 Why is this benificial for software security? [Added by CC]
@@ -69,6 +70,7 @@ are there any others than SAST(?) - how about obfuscation toolings (e.g. mobile)
 
 ## Maturity 2
 ### Benefit
+A fully automated build system allows easy integration of automated security checks at all stages of the build process, and ensures separate but consistent build environments.
 
 ### Activity
 Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The process should be reliable and not require developer intervention, further reducing the likelihood of human error.
@@ -92,9 +94,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 ### Quality Indicators
+  * New build environments can be rapidly and easily deployed without specialist knowledge.
+  * The build environment itself is versioned and maintained as code in a repository.
+  * New security checks can be easily added to any stage of the build pipeline.
+  * The majority of regressions in production should also occur in a pre-production environment.
+  * Build and runtime secrets are handled via a standardised solution (e.g. secret vault)
+  * Developers cannot access secrets in the production environment
+  * Any developer access to the production environment is securely audited.
 
 ## Maturity 3
 ### Benefit
+A clear minimal security baseline can be enforced in production; compliant applications can be automtically deployed.
 
 ### Activity
 
@@ -121,6 +131,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 ### Quality Indicators
+  * Issues should be automatically created for security failures during the build (and testing) process, and assigned to the development team
+  * Regressions in production which did not get detected in pre-production are treated themselves as issues and investigated.
+  * //A process exists for managing accepted risks//. The idea here is to stop ignoring a vulnerability whose risk was temporarily accepted after the grace period expires (?)
+  * The build environment is maintained as project, complete with with regression tests.
+  * The build environment can be rolled back to the exact version used to build and test a particular release of an application.
+  * The build environment is regularly pentested similarly to applications.
 
 <!--
 #### Notes
