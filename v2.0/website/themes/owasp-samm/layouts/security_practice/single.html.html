@@ -7,6 +7,7 @@
 <div class="ui buttons">
   <a href="{{ "/" | relURL }}" class="ui green button"><i class="hand point left icon"></i> Back</button>
   <a href="{{ $.Site.Params.ghrepo }}edit/master/{{ $.Site.Params.ghcontent }}{{.File.Path}}" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+  <a href="{{ $.Site.Params.ghraw }}master/{{ $.Site.Params.ghcontent }}{{.File.Path}}" class="ui red button"><i class="file code icon"></i> Raw</a>
 </div>
 
 <div class="ui hidden divider"></div>
