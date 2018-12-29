@@ -17,6 +17,21 @@ No particular order and all quick draft.
 
 General:
 ==============
+
+Agile is quick and quality assurance is traditionally bureaucratic and slower than you want for agile. The trick is to attain quality at speed. Security needs to be built in fluently. The key is to prevent and to fight mistakes with maximum efficiency, so to minimize manual work and the burden on developers.
+
+Prevent:
+- using solid technologies/frameworks/components that do part of the security
+- clear requirements
+- insight and understandinf ofsecurity principles with all people involved 
+- doable and therefore situational instructions for developers. No stacks of books but clear short lists based on what is needed for the specific task at hand
+- good changeability of code (maintainability) to minimise errors
+- everybody feels security responsibility, including the product owner
+
+Fight:
+- by checks that need to be automated as much as possible and the manual part needs to be performed in a smart incremental and risk-based way, focusing only on changes and their impact.
+
+
 “Careful with red tape.
 A maturity model seems conflicting with the agile manifesto, because Agile holds people over process and working software over documentation. Therefore, in an agile environment, it is important to take extra care for making the process and tracking maturity as lightweight as possible. Please note that agile does not disqualify process or documentation - it wants to minimise it where possible.”
 
