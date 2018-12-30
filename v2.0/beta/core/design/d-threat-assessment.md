@@ -7,9 +7,10 @@ business_functions_weight: 1
 type: security_practice
 ---
 # Short Description
+Threat Assessment focuses on identifying threats in applications.
 
 # Long Description
-The Threat Assessment (TA) practice is focused on accurately identifying and understanding potential attacks upon an organisation's software in order to better understand the risks and facilitate risk management. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
+The Threat Assessment (TA) practice focuses on accurately identifying and understanding potential attacks upon an organisation's software in order to better understand the risks and facilitate risk management. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
 
 Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Application Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.
 
@@ -25,6 +26,7 @@ Risks to an application can be relative to the business of the application (thin
 
 ## Maturity 1
 ### Benefit 
+Ability to classify applications according to risk
 
 ### Activity
 As an organisation, you want to spend your security budget where it matters. Application risk is a good tool to guide your security spending. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be attacked or breached.
@@ -57,6 +59,7 @@ Elements required for risk:
 
 ## Maturity 2
 ### Benefit
+Solid understanding of the risk level of an application
 
 ### Activity
 The goal of this activity is to thoroughly understand the risk level of all applications within the organisations. This will enable you to focus the effort of your software assurance activities to where it really matters. 
@@ -85,6 +88,7 @@ Are ...?
 
 ## Maturity 3
 ### Benefit
+Timely update of the application classification in case of changes
 
 ### Activity
 The application portfolio of an organisation changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). Therefor, a periodic review of the risk inventory is important to ensure correctness of the risk evaluations of the different applications. 
@@ -113,13 +117,14 @@ Are ...?
 
 ## Maturity 1
 ### Benefit
+Basic understanding of potential threats to the solution
 
 ### Activity
-The purpose of Threat Modeling is to identify potential issues in the technical setup of the application. Uncarefull design might lead to issues that can be exploited to target your organisation.
+The purpose of Threat Modeling is to identify, pro-actively, potential issues in the technical design of the application. Uncarefull setup might lead to important attack vectors in an application that can be exploited to target your organisation. Experience shows that architectural design can be an important source of security issues, and the consequences can be significant. 
 
-The elicitation of threats in Threat Modeling can be inspired by good security practices (or the lack thereof) or can be driven by a more structured approach such as STRIDE. It can be performed by a single person or by a group of people (in a more brainstorming mode). Fact is that experience is definitely helpful in eliciting useful threats.
+The practice of threat modelling includes both the elicitation and the management of threats. Threat elicitation can be inspired by known good security practices (or the lack thereof) or can be driven by a more structured approach such as STRIDE. While it can be performed by a single person, threat modelling is often more effective when performed by a group of people (in a more brainstorming mode). One of the key challenges in threat modelling is working towards a list of relevant and important threats in an efficient exercise, and avoiding lenghtly processes and overly detailed lists of low-relevant threats. Experience is a important helper in finding a proper balance.
 
-Threat modeling can be performed iteratively. If new functionality is added to an existing application, rather than trying to cover the entire scope continuously, it might make sense to only look into the newly added functions in order to spend your threat modeling efforts wisely.
+Threat modeling can be performed iteratively in order to align it to more iterative development paradigms. If new functionality is added to an existing application, rather than trying to cover the entire scope continuously, it can make sense to only look into the newly added functions in order to spend your threat modeling efforts wisely.
 
 At this level, you want to execute threat modeling on important projects (LINK: Application Risk Profile) in a best effort mode to identify the most important threats to the application. Existing network diagrams are a good starting point at this level, which can be annotated during discussion workshops.
 
@@ -142,6 +147,7 @@ Terminology: do we want to use application, software or solution as the main ter
 
 ## Maturity 2
 ### Benefit
+Streamlined elicitation and management of threats to the solution
 
 ### Activity
 In order to increase the quality and efficiency of threat modeling within your organisation, establish a standard approach to perform structured threat modeling. This will ensure that the invested effort is useful and well spent. Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats. 
@@ -171,6 +177,7 @@ Personally I'm not convinced about specifying mitigating controls in threat mode
 
 ## Maturity 3
 ### Benefit
+Timely update and qualitative management of application threat 
 
 ### Activity
 In a mature setup of threat modeling, an organisation would regularly (e.g., yearly) review the existing threat models to verify that no new threats would become relevant for your applications at hand. 
