@@ -41,19 +41,19 @@ This stream covers the time frame between a security-relevant event taking place
 
 ### Benefit
 
-Ability to detect most obvious security incidents within a reasonable timeframe from occurrence.
+Ability to detect the most obvious security incidents within a reasonable timeframe.
 
 ### Activity
 
-On the first level, available log data (e.g. access logs, application logs, infrastructure logs) are consciously analyzed in order to detect possible security incidents. This effort is carried in accordance with known log data retention periods. 
+The available log data (e.g. access logs, application logs, infrastructure logs) are analyzed to detect possible security incidents in accordance with known log data retention periods. 
 
-While in small setups, this analysis can be done manually with the help of common command line tools, once the amount of system generating logs grows, automation techniques are employed - even a simple script looking for suspicious events run periodically as a cron job is a step forward! 
+In small setups, you can do this manually with the help of common command line tools. With larger amounts of logs, employ automation techniques - even a simple script looking for suspicious events run periodically as a cron job is a step forward!
 
 In case the logs from different sources are sent to a dedicated log system, it might be a good idea to analyze the logs here and also employ basic log correlation principles. 
 
-On this maturity level, you might not go for 24/7 incident detection process, especially if you don't have this process established for generall incidents as well. However, it should be ensured that unavailability of person in charge(vacation, illness) won't significantly impact the detection speed and quality. 
+Even if you don’t have a 24⁄7 incident detection process, unavailability of the person in charge (vacation, illness) shouldn’t impact the detection speed and quality significantly. 
 
-If an event is evaluated to be a security incident, the contact point for formal creation of security incident is defined and generally known. 
+You have a defined and generally known contact point for formal creation of security incidents.
 
 ### Maturity Questions
 #### Q 1
@@ -67,35 +67,36 @@ Are ...?
 
 ### Quality Indicators
 
-Typically, on this maturity level:
+Typically, on this maturity level you have:
 
-- the most probable incident scenarios are defined and available for employees
-- there is a person or role having the responsibility of incident detection
-- suspicious events are sometimes identified and evaluated
-- the escalation process is documented
-- reasonable effort in order to achieve log integrity has provably been carried out
+- defined and published the most probable incident scenarios
+- assigned a person or role responsible for incident detection
+- identified and evaluated some suspicious events
+- documented the escalation process
+- put reasonable effort into achieving log integrity
 
+<!--
 ### Notes
-
 - Should whether or not you do 24/7 detection be specified by maturity level? Maybe maturity should relate to risk rather than timing -> **Fourth paragraph reformulated**
 - Log retention - risk-based decision on how long logs should be kept to aid -> **First paragraph edited**
 - Log trustworthiness / integrity - have they been tampered with??? -> **Indicator added**
+-->
 
 ## Maturity 2
 
 ### Benefit
 
-Solid degree of confidence of timely detection of expectable security incidents.
+Ability to timely detect expected security incidents.
 
 ### Activity
 
-On this level of maturity, the incident detection process has a dedicated owner who is also responsible for clear documentation accessible to all process stakeholders. It is ensured that employees responsible for carrying out the incident detection follow this process (e.g. using dedicated training). The incident detection process is also periodically checked for being up-to-date. 
+The incident detection process has a dedicated owner and clear documentation accessible to all process stakeholders, and is periodically checked to make sure it is up to date. You ensure employees responsible for incident detection follow this process (e.g. using training).
 
-The process typically relies on a high degree of automation, collecting and correlating log data from different sources including application logs (you might also want to collect the logs to a central place if suitable). Explicit attention is periodically paid to integrity of the analyzed data. If a new application is added, it is ensured that the process covers this application within reasonable period of time.
+The process typically relies on a high degree of automation, collecting and correlating log data from different sources including application logs. You may collect the logs to a central place, if suitable. Explicit attention is periodically paid to integrity of the analyzed data. If you add a new application, you ensure that the process covers it within reasonable period of time.
 
-Possible security incidents are being detected according to available checklist covering expected attack vectors and known / expected kill chains. The checklist is regularly evaluated for validity and updated.
+You detect possible security incidents according to an available checklist. The checklist covers expected attack vectors, and known or expected kill chains. You evaluate it and update it regularly.
 
-If an event is evaluated as a security incident with high level of confidence, the responsible staff is notified immediately (also outside business hours) in order perform further analysis and start escalation process. 
+If you evaluate an event as a security incident with high level of confidence, the responsible staff is notified immediately, even outside business hours. You  perform further analysis and start the escalation process.
 
 ### Maturity Questions
 #### Q 1
@@ -110,39 +111,42 @@ Are ...?
 
 ### Quality Indicators
 
-Typically, on this maturity level:
+Typically, on this maturity level, you:
 
-- some automated measures for incident detection are employed
-- the incident detection process is documented and the documentation is up to date
-- most probable incident scenarios are documented
-- when a new system is taken into production, it is integrated into the process
+- employ some automated measures for incident detection
+- have up-to-date documentation for the incident detection process
+- have documentation for the most probable incident scenarios
+- integrate every new system taken to production into the process
 
+<!--
 ### Notes
-
 - Software-driven application-specific logs (whereas level 1 might be general logs) -> **Second paragraph**
 - Look at known kill-chains / attacks and work backwards to select relevant logs - proactively checking that you are collecting the right data -> **third paragraph**
 - Added value of the process -> **In the benefit now?**
 - Centralized logging -> **2nd paragraph**
+-->
 
 ## Maturity 3
 
 ### Benefit
 
-Solid degree of confidence of timely detection of also unexpected incident scenarios.
+Ability to timely detect unexpected security incidents.
 
 ### Activity
 
-The process documentation also includes measures for continuous process improvement. The continuity of process improvement is also checked, e.g. via tracking of changes. If the process has not been reviewed within reasonable amount of time, such state is detected and acted upon. 
+The process documentation includes measures for continuous process improvement. You check the continuity of process improvement, e.g. via tracking of changes. 
 
-The checklist for suspicious event detection is correlated at least from the following sources:
+The checklist for suspicious event detection is correlated at least from:
 
 - Sources and knowledge bases external to the company (e.g. new vulnerability announcements affecting the used technologies)
 - Past security incidents
 - Threat model outcomes
 
-Correlation of logs is used for incident detection for all reasonable incident scenarios. In case the log data for incident detection is not available, such state is documented as a defect, triaged and handled upon according to the resulting priority / SLA. 
 
-The quality of the incident detection is not dependant on the time or day of the event. In case the security event is not acted upon within a defined time, further contact according to a defined escalation path are notified. The efficiency is of the incident is also checked by exercises with defined improvement action points.
+You use correlation of logs for incident detection for all reasonable incident scenarios. If the log data for incident detection is not available, you document it  as a defect, triage and handle it according to the resulting priority / SLA.
+
+The quality of the incident detection does not depend on the time or day of the event. If you do not act upon the security event within a defined time, it triggers further notifications according to a defined escalation path. The efficiency is of the incident is also checked by exercises with defined improvement action points.
+
 
 ### Maturity Questions
 #### Q 1
@@ -159,15 +163,16 @@ Are ...?
 
 Typically, on this maturity level:
 
-- there is an evidence that the process has been improved within last year
-- suspicious events are evaluated in less than one hour since the occurrence and the result is documented
+- there is evidence that you have improved the process within the last year
+- you evaluate suspicious events in less than one hour from their  occurrence and  document the result
 - the detection process has its own KPIs
 - there are tickets in dev queues with requests for log data improvement
 
+<!--
 ### Notes
-
 - Tabletop exercises / simulation exercises -> **Last paragraph edited**
 - Centralized logging -> **Covered in level 2**
+-->
 
 # B: Incident Response
 
