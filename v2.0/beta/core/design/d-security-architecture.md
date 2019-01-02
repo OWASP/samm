@@ -7,7 +7,7 @@ business_functions_weight: 3
 type: security_practice
 ---
 # Short Description
-
+The security architecture practice focuses on managing architectural risks for the software solution.
 
 # Long Description
 This security practice focuses on the security linked to components and technology dealt with during the architectural design of your software solutions. Secure Architecture Design looks at (the selection and composition of) components that form the foundation of the solution that you're building, with a particular focus on the security properties hereof. Technology management on the other hand looks at the security of supporting technologies that are used during development, deployment and operations, such as development stacks and tooling, deployment tooling, operating systems and tooling, etc.
@@ -24,6 +24,7 @@ This security practice focuses on the security linked to components and technolo
 
 ## Maturity 1
 ### Benefit
+You get basic security practices right in your software design.
 
 ### Activity
 During design, technical staff on the project team should use a short list of guiding security principles as a checklist against system designs. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
@@ -52,6 +53,7 @@ I don't like the fact that the Practice is called Secure Architecture and the st
 
 ## Maturity 2
 ### Benefit
+The organisation leverages common security solutions.
 
 ### Activity
 Organizations should identify shared infrastructure or services with security functionality. These will typically include single-sign-on services, access control or entitlements services, logging and monitoring services or application-level firewalling. By collecting and evaluating reusable systems, assemble a list of such resources and categorize them by the security mechanism they fulfill. It is also helpful to consider each resource in terms of why a development or an operations team would want to integrate with it, i.e. the benefits of using the shared resource.
@@ -82,6 +84,7 @@ Combination of the 2 level 2 activities of SAMM1.5
 
 ## Maturity 3
 ### Benefit 
+Software architectures are standardized to minimize security risks.
 
 ### Activity
 Build one (or a set of) reference architecture(s) that selects and combines a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. Architects, senior developers and other technical stakeholders should participate in design and creation of reference platforms. After creation, a team must maintain ongoing support and updates.
