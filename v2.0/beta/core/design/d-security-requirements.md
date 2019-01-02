@@ -8,6 +8,7 @@ type: security_practice
 ---
 
 # Short Description
+This practice focuses on defining appropriate security requirements for your software and your software suppliers.
 
 # Long Description
 This security practice focuses on security requirements that are important in the context of secure software. A first type of requirements deals with typical software-related requirements, to specify concrete objectives and expectations to protect the service and data that form the core of the application. A second type of requirements deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. Since the latter can have significant impact on the security posture of the application, it is important to streamline the expectations in terms of secure development. Note that the security of 3rd party (technical) libraries is not included in this practice ; this forms part of the software supply chain stream (LINK Secure Build).
@@ -24,6 +25,7 @@ This security practice focuses on security requirements that are important in th
 
 ## Maturity 1
 ### Benefit 
+You have an understanding of key security requirements.
 
 ### Activity
 Perform a review of the functional requirements of the software project. Identify relevant security requirements (i.e. expectations) for this functionality by means of interactions between business persons and security-aware people. These requirements will relate to the confidentiality, integrity or availability of the service or data offered by the software project. Requirements should state the objective to be achieved (e.g., "personal data for the registration process should be transferred and stored securely"), but not the actual measure to achieve the objective (e.g., "use TLSv1.2 for secure transfer").
@@ -50,6 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Benefit
+You have specified relevant security requirements in a structured format.
 
 ### Activity
 Security requirements can originate from other sources including policies and legislation, known problems in the application, intelligence from metrics and feedback (LINK to DM lvl 3), and so forth. At this level, a more systematic elicitation of security requirements must be achieved by analysing different sources of such requirements. Ensure that appropriate input is received from these sources to help the elicitation of requirements. This might mean organizing interviews or brainstorm sessions (e.g., in the case of policy and legislation), analysing historical logs or vulnerability systems, etc.
@@ -76,6 +79,7 @@ References:
 
 ## Maturity 3
 ### Benefit 
+You have a set of reusable security requirements to improve the overall quality.
 
 ### Activity
 Setup a security requirements framework within the organisation that will help projects to elicit an appropriate and complete requirements set for their project. The requirements framework should take into account the different types of requirements, different sources of requirements, it should be adapted to the organisational habits and culture and it should provide effective methodology and guidance in the elicitation and formation of requirements.
@@ -105,6 +109,7 @@ Question: somehow link requirements to solutions ?
 
 ## Maturity 1
 ### Benefit
+You understand the security practices of your software suppliers.
 
 ### Activity
 The security competences and habits of the expernal suppliers involved in the development of your software can have a significant impact on the security posture of the final product. Consequently, it is important to know and evaluate your suppliers on this front.
@@ -131,6 +136,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Benefit 
+You structurally assign responsibilities for software security activities.
 
 ### Activity
 In a next maturity level, you want to increase your confidence in the capability of your suppliers for software security. The most effective way to achieve this is to discuss concrete responsibilities and expectations from your suppliers (and your own organisation) and build these into the agreement (contract) with the supplier. These responsibilities can specify specific quality requirements or particular tasks to be performed, and minimal service can be detailed in a Service Level Agreement (SLA). For quality, this may mean that they will deliver software that is protected against the OWASP Top 10 and in case issues are detected, these will be fixed. For tasks, they might have to perform continuous static code analysis, or perform an independent penetration test before a major release. An agreement should also stipulate liabilities (and caps) in case an important issue arises.
@@ -154,6 +160,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Benefit 
+You align software development practices to limit security risks.
 
 ### Activity
 The best way to minimize the risk of issues occurring in software is to align maximally and integrate closely between the different parties. From a process perspective, this means that similar development paradigms are used and regular milestones are introduced to ensure proper alignment and qualitative progress. From a tools perspective, this might mean that similar build, verification and deployment environments are used, and other supporting tools (e.g. requirements or architecture tools) are shared to the extent possible. Code repositories should be shared or linked where possible. 
