@@ -38,6 +38,7 @@ Can also include activities included in an app’s risk profile.
 
 ## Maturity 1 - Identify application and infrastructure architecture components
 ### Benefit
+Identifying components on the software and supporting infrastructure helps developers understand the architecture, interfaces and how to secure them.
 
 ### Activity
 Identify application and infrastructure architecture components. Create a simplified view of the overall architecture. Typically, this should be created based on project artifacts such as high-level requirements and design documents, interviews with technical staff, or module-level review of the code base.
@@ -77,17 +78,18 @@ threat modeling as a verification activity versus design? (TBD)
 -->
 
 #### Guidance
-https://www.owasp.org/index.php/How_to_perform_a_security_architecture_review_at_Level_1
-https://www.owasp.org/index.php/ASVS_V1_Architecture
+https://www.owasp.org/index.php/How_to_perform_a_security_architecture_review_at_Level_1 . 
+https://www.owasp.org/index.php/ASVS_V1_Architecture . 
 http://www.guidanceshare.com/wiki/Security_Engineering_Explained_-_Chapter_5_-_Security_Architecture_and_Design_Review
 
 ## Maturity 2 - Validate the architecture security mechanisms
 ### Benefit
+This activity validates the security mechanisms on the attack surface of the sofware and infrastructure architecture.
 
 ### Activity
- For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. This type of analysis should be performed on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface.
+For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. This type of analysis should be performed on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface.
 
- The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided and note any missing or unclear features as findings. Also identify the high-risk design decisions that have been made as part of the architecture and validate these.
+The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided and note any missing or unclear features as findings. Also identify the high-risk design decisions that have been made as part of the architecture and validate these.
 
 This analysis should be conducted by security-savvy staff with assistance from the project team for application-specific knowledge. This analysis should be performed upon major architecture changes, usually toward the end of a design phase. After initial analysis, subsequent analysis is required to update the findings based on changes being made during the development cycle.
 
@@ -113,6 +115,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3 - Review of the architecture components effectiveness
 ### Benefit
+Gets assurance on the effectiveness of the architecture security mechanisms in terms of strategy alignment, appropriate support, and scaleability.
 
 ### Activity
 Review of the architecture components effectiveness. Are the architecture security mechanisms well implemented? For each of the application and infrastructure components, review their effectiveness to secure the application.
@@ -145,6 +148,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1 - Ad-hoc review of the architecture against compliance requirements
 ### Benefit
+Assures that the compliance requirements of the architecture are met.
 
 ### Activity
 Ad-hoc review of the architecture against compliance requirements. Compliance requirements, either formally identified or informally known, should be identified and collected.
@@ -172,6 +176,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2 - Analyze the architecture against known security requirements and best practices
 ### Benefit
+This activity assures that the architecture is aligned with the security requirements and best practices. 
 
 ### Activity
 Analyze the architecture against known security requirements and best practices. Security requirements, either formally identified or informally known, should be identified and collected. Additionally, identify and include any security assumptions upon which safe operation of the system relies.
@@ -195,6 +200,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 -->
 #### Guidance
+Assures improvement of the security archictecture practice, based on feedback from the architecture assessment activities. 
 
 ## Maturity 3 - Feedback the architecture review results into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures
 ### Benefit
