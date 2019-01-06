@@ -1,4 +1,4 @@
-The Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization. SAMM helps you:
+The Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization. SAMM helps you: 
 
 - Evaluate an organization’s existing software security practices
 - Build a balanced software security assurance program in well-defined iterations
