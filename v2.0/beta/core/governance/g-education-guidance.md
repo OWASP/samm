@@ -59,10 +59,8 @@ Are ...?
 
 #### Notes
 
-**Summit MN:**
-
 <!--
-Summit MN: 
+**Summit MN:** 
 * DK: I wouldn’t base anything on Top10 
 * DK: Mandatory technical trainings: project manager won’t understand much, QA also problematic, I would rather go for conscious decision 
 * DK: I’m not convinced that an awareness training should be too technical. 
