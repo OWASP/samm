@@ -30,7 +30,7 @@ Fully document the complete build process, breaking it down into clear stages fo
 
 The documentation does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, environments, and code repositories . Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
 
-Keep a master copy of the build documentation in one central location accessible by all who require access. Avoid having multiple copies, some of which may not benefit from updated processes.
+Keep a master copy of the build documentation in one central location accessible by all who require access. Avoid having multiple copies, some of which may become accidentally outdated.
 
 Include all the tools required for the build to succeed in the documentation. Review these tools routinely to ensure that they are actively maintained (supported) and up to date with all security patches. Harden each tool's configuration so they are aligned with vendor or trusted third-party guidelines.
 
@@ -240,13 +240,13 @@ Consider a curated and controlled central repository for the build. [Added. CC]
 
 ## Maturity 3
 ### Benefit
-The application is more inline with its assigned security level which is consistent across internally developed components as well as 3rd party ones.
+The application’s security level is more indicative of its real security, by consistently assessing its 3rd party components.
 
 ### Activity
 
 Perform verification tests against dependencies in the same way you do against the target application. Refer to [Verification > Security Testing](../verification/v-security-testing). Depending on the build process maturity level, the discovery of significant issues might cause the build to fail.
 
-Log results centrally and take appropriate action. Vulnerable dependencies should be blacklisted and not permitted to be used during builds. Feed findings back to the vendor or open source project, following a set of ethical disclosure guidelines.
+Log results centrally, triage and validate findings appropriately as described in [Implementation > Defect Management](../implementation/i-defect-management). Vulnerable dependencies should be blacklisted and not permitted to be used during builds. Feed findings back to the vendor or open source project, following a set of ethical disclosure guidelines.
 
 ### Maturity Questions
 #### Q 1
