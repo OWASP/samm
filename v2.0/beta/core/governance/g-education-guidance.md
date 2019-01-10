@@ -60,7 +60,8 @@ Are ...?
 #### Notes
 
 **Summit MN:**
-<--
+
+<!--
 Summit MN: 
 * DK: I wouldn’t base anything on Top10 
 * DK: Mandatory technical trainings: project manager won’t understand much, QA also problematic, I would rather go for conscious decision 
@@ -113,7 +114,7 @@ Are ...?
 
 #### Notes
 
-<--
+<!--
 **Summit MN:** * DK: maybe mention different areas of development- training for an iOS developer vs. REST B/E * Q: Shall we mention Security Champions and their trainings? NK: Addressed.
 -->
 
@@ -151,7 +152,7 @@ Are ...?
 
 
 #### Notes
-<--
+<!--
 **Summit MN:** * DK: Employees should demonstrate gained knowledge on this level IMHO * Continuous training on level 3? * Maybe refer to conferences, OWASP Chapter meetings etc. in the guidance * Q: shall we add conducting trainings, organizing conferences, also in order to improve image? No, we should put it into the Org&Culture * Maybe we should include gamification. NK: most comments incorporated. Conducting training was added as an indicator.
 -->
 
@@ -188,7 +189,7 @@ In addition to assisting Information Security, “Security Champions” provide 
 ### Quality Indicators
 
 #### Notes
-<--
+<!--
 **Summit MN:**
 * DK: My high-level idea:
   * Maturity 1: You have someone responsible for pushing AppSec
@@ -239,7 +240,7 @@ The group provides subject matter expertise, helping information security teams 
 
 #### Notes
 
-<--
+<!--
 **Summit MN:**
 -->
 
@@ -276,7 +277,7 @@ The Secure Software Center of Excellence and Application Security teams review t
 
 #### Notes
 
-<--
+<!--
 **Summit MN:**
 * Q: Information portal - shouldn't be introduced on earlier levels with lower quality? Or should be introduced in Education? A: It should be present in earlier stages.
 * Q: Separate stream for sharing knowledge? Maybe
