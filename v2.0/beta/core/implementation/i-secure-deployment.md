@@ -25,13 +25,13 @@ type: security_practice
 ## Maturity 1
 ### Benefits
 ### Activity
-Applications are deployed via automated processes, or manually by persons other than the developers. Developers should not have access to production environments.
+Deploy applications via automated processes, or manually by people other than the developers. Developers do not have access to production environments.
 
-Any tools utilised during deployment should be carefully chosen and hardened appropriately. These tools may require access to the production environment, which makes the security of the tools themselves extremely critical. This includes ensuring that the integrity of the tools themselves and the workflows that they are programmed to follow.
+Choose any tools used during deployment carefully and harden them appropriately. If these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow.
 
-The tools and/or engineer conducting the deployment will require access to production credentials and secrets. These should be handled with care - e.g. according to the principle of least privilege, and encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
+Handle access to the production credentials and secrets for the tools and engineer conducting the deployment with care - e.g. according to the principle of least privilege, and encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
 
-Persons with access to production should have to go through a minimum level of training or certification to ensure competancy in this sensitive environment. Refer to [Governance > Education & Guidance](../governance/g-education-guidance/).
+People with access to production have to go through a minimum level of training or certification to ensure competency in this sensitive environment. Refer to [Governance > Education & Guidance](../governance/g-education-guidance/).
 
 #### Maturity Questions
 ##### Q 1
@@ -57,11 +57,11 @@ ACTION: review this stream completely
 ### Benefits
 ### Activity
 
-Deployment is fully or at least semi-automated for consistency, to reduce the need for manual changes on production, and to ultimately reduce the chances of human error.
+Fully or partially automate deployment to reduce the need for manual changes on production, and to reduce the chances of human error.
 
-Deployments include appropriate automated security checks such as DAST and malware scanning. Relevant persons should be notified automatically of any defects. The deployment should be stopped or reversed automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. The results from these tests should be logged centrally and actioned as necessary.
+Deployments include appropriate automated security checks such as DAST and malware scanning. Notify relevant people of any defects automatically.Stop or reverse the deployment automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. Log the results from these tests centrally and take any necessary actions.
 
-All deployments are accounted for and are auditable. A system is in place to record each deployment, including information about who conducted the deploy, the software version that was deployed, and any relevant variables that were specific to the deploy. 
+Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy. 
 
 ### Maturity Questions
 
@@ -81,11 +81,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Maturity 3
 ### Benefits
 ### Activity
-The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Binaries should have been signed at build time. This may include binaries that have been developed and built in-house, as well as third-party libraries. Binary signatures that cannot be verified, including if the certificate is invalid or has expired, should not be deployed.
+The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Sign binaries at build time. This may include binaries developed and built in-house, as well as third-party libraries. Do not deploy binary signatures that cannot be verified, including those with invalid or expired certificates.
 
-If the list of trusted certificates includes third-party developers, these should be checked periodically, and maintained in-line with the organisation's wider governance surrounding trusted third-party suppliers.
+If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organisation's wider governance surrounding trusted third-party suppliers.
 
-A human should manually approve the deployment on at least one occasion during an automated deployment. Manual interventions should be inserted into the otherwise automated deployment process for checking and approval. These interventions should occur at any points where such human checks could be significantly more accurate than an automated one would be.
+Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, do it manually.
 
 ### Maturity Questions
 #### Q 1
@@ -105,13 +105,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Maturity 1
 ### Benefits
 ### Activity
-Configuration files should be versioned and protected just like source code. However, developers should not have access to secrets or credentials for production environments. Production secrets should be added into configuration files during the deployment process by someone who is responsible for the production environment.
+Version and protect configuration files just like source code. Developers do not have access to secrets or credentials for production environments. Someone responsible for the production environment adds production secrets to configuration files during the deployment process.
 
-Production secrets should not be kept (even unused) in configuration files used within development or testing environments, as such environments may have a significantly lower security posture. Equally, they should not remain in configuration files that are stored in code repositories.
+Do not keep production secrets in configuration files for development or testing environments, as such environments may have a significantly lower security posture. Do not keep secrets in configuration files stored in code repositories.
 
-Before deployment, sensitive credentials and secrets for production systems should be stored with encryption-at-rest and appropriate key management. The organisation should consider using a purpose-built tool/vault for this data. Key management should be handled carefully to ensure that only personnel with responsibility for production deployments are able to access this data (the principle of least privilege).
+Before deployment, store sensitive credentials and secrets for production systems with encryption-at-rest and appropriate key management. Consider using a purpose-built tool/vault for this data. Handle key management carefully so only personnel with responsibility for production deployments are able to access this data (the principle of least privilege).
 
-Where possible during deployment, secrets should be encrypted-at-rest in configuration files as well. There should be appropriate key management such that the application can access the secrets whilst it is running, but an attacker who obtains the configuration files alone would not be able to decipher them.
+Encrypt secrets at rest in configuration files during deployment. Manage  keys so the application can access the secrets while running, but an attacker who obtains the configuration files alone cannot decipher them.
 
 ### Maturity Questions
 #### Q 1
@@ -133,11 +133,10 @@ Level 1: you cannot have plaintext credentials in code?  Config file separate? [
 ## Maturity 2
 ### Benefits
 ### Activity
-Credentials and secrets appropriate for the target environment are added to configuration files dynamically during the deployment process, in such a way that the deployer has no need to see or handle those sensitive values. I.e. this should be an automated process.
+Have an automated process to add credentials and secrets appropriate for the target environment to configuration files  during the deployment process. This way, developers and deployers do not  see or handle those sensitive values.
 
-The developer should have no need to view or access those credentials or secrets, particularly from production systems, since they will be included automatically during deploy.
 
-The system used to store and process the secrets and credentials must be robust from a security perspective. Secrets should be encrypted at rest and during transport. Users who configure this system and the secrets it contains should be subject to the principle of least privilege. For example, in some cases it might be appropriate for a developer to manage the secrets pertaining to a development environment, but not a UAT or production environment.
+Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a UAT or production environment.
 
 ### Maturity Questions
 #### Q 1
@@ -160,11 +159,11 @@ Protection of secrets in config file
 ## Maturity 3
 ### Benefits
 ### Activity
-Where secrets are not pre-defined or dependant on another system, they should be generated afresh during the deployment process. This mechanism should meet appropriate best practices such as using a cryptographically secure pseudorandom number generator if the value is to be randomly generated.
+Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly.
 
-Implement checks, to be run periodically, that detect the presence of of secrets in code repositories and files. Tools can be configured, for instance, to look for known strings, as well as unknown high entropy strings. In systems such as code repositories, where a history is also maintained, the historic versions should be included in the checks. 
+Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks. 
 
-When potential secrets are discovered, these should be qualified as being sensitive values, and then either removed or rendered non-sensitive. In some cases, it will be possible to remove the value. However, in other cases, such as a historic file in a code repository, it may be required to refresh the value on the system that consumes the secret. In this way, if the secret were discovered by an attacker, it would no longer be useful to them.
+Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them, from  a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
 
 ### Maturity Questions
 #### Q 1
