@@ -11,7 +11,7 @@ type: security_practice
 This practice focuses on defining appropriate security requirements for your software and your software suppliers.
 
 # Long Description
-This security practice focuses on security requirements that are important in the context of secure software. A first type of requirements deals with typical software-related requirements, to specify concrete objectives and expectations to protect the service and data that form the core of the application. A second type of requirements deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. Since the latter can have significant impact on the security posture of the application, it is important to streamline the expectations in terms of secure development. Note that the security of 3rd party (technical) libraries is not included in this practice ; this forms part of the software supply chain stream (LINK Secure Build).
+This practice focuses on security requirements that are important in the context of secure software. A first type deals with typical software-related requirements, to specify objectives and expectations to protect the service and data at the core of the application. A second type deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. It is important to streamline the expectations in terms of secure development because outsourced development can have significant impact on the security of the application. The security of 3rd party (technical) libraries is part of the software supply chaing stream (LINK Secure Build), so it is not included in this practice.
 
 # Overview
 | | A: Software Requirements | B: Supplier Security |
@@ -28,11 +28,11 @@ This security practice focuses on security requirements that are important in th
 You have an understanding of key security requirements.
 
 ### Activity
-Perform a review of the functional requirements of the software project. Identify relevant security requirements (i.e. expectations) for this functionality by means of interactions between business persons and security-aware people. These requirements will relate to the confidentiality, integrity or availability of the service or data offered by the software project. Requirements should state the objective to be achieved (e.g., "personal data for the registration process should be transferred and stored securely"), but not the actual measure to achieve the objective (e.g., "use TLSv1.2 for secure transfer").
+Perform a review of the functional requirements of the software project. Identify relevant security requirements (i.e. expectations) for this functionality by reasoning on the desired confidentiality, integrity or availability of the service or data offered by the software project. Requirements state the objective (e.g., "personal data for the registration process should be transferred and stored securely"), but not the actual measure to achieve the objective (e.g., "use TLSv1.2 for secure transfer").
 
-Next to eliciting specific expectations, the functionality should also be reviewed from an attacker perspective in order to understand how the functionality could be misused. This in itself will enable you to identify extra protective requirements for the software project at hand.
+At the same time, review the functionality from an attacker perspective to understand how it could be misused. This way you can identify extra protective requirements for the software project at hand.
 
-Security objectives can relate to specific security functionality that is to be added to the application (e.g., "Identify at all times the user of the application"), but they can also relate to the overall behaviour and quality of the application (e.g., "Ensure that personal data is properly protected in transit"), which will not lead to new functionality to be added to the application.Security requirements It is important to ensure that all security requirements follow good practices for writing requirements in general. Specifically, they should be specific, measurable, actionable, relevant and time-bound (SMART). Beware of adding too general-purpose requirements that do not relate to the application at hand, e.g., by stating that the application should protect against the OWASP Top 10. While this is certainly true, it brings not much interesting to the discussion table.
+Security objectives can relate to specific security functionality you need to add to the application (e.g., "Identify the user of the application at all times") or to the overall behaviour and quality of the application (e.g., "Ensure personal data is properly protected in transit"), which will not lead to new functionality. Follow good practices for writing security requirements. Make them specific, measurable, actionable, relevant and time-bound (SMART). Beware of adding requirements too general-purpose to not relate to the application at hand (e.g., The application should protect against the OWASP Top 10). While they can be true, they don't add value to the discussion.
 
 
 #### Maturity Questions
@@ -55,11 +55,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 You have specified relevant security requirements in a structured format.
 
 ### Activity
-Security requirements can originate from other sources including policies and legislation, known problems in the application, intelligence from metrics and feedback (LINK to DM lvl 3), and so forth. At this level, a more systematic elicitation of security requirements must be achieved by analysing different sources of such requirements. Ensure that appropriate input is received from these sources to help the elicitation of requirements. This might mean organizing interviews or brainstorm sessions (e.g., in the case of policy and legislation), analysing historical logs or vulnerability systems, etc.
+Security requirements can originate from other sources including policies and legislation, known problems in the application, and intelligence from metrics and feedback (LINK to DM lvl 3). At this level, a more systematic elicitation of security requirements must be achieved by analysing different sources of such requirements. Ensure that appropriate input is received from these sources to help the elicitation of requirements. For example, organize interviews or brainstorm sessions (e.g., in the case of policy and legislation), analyse historical logs or vulnerability systems.
 
-At this level, using a structured notation of security requirements across applications is expected. Use an appropriate formalism that integrates well with how other (functional) requirements are specified for the project at hand. This might mean extending analysis documents, writing user stories, etc.
+Use a structured notation of security requirements across applications and an appropriate formalism that integrates well with how you specify other (functional) requirements for the project. This could mean, for example, extending analysis documents, writing user stories, etc.
 
-When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. This might mean annotating requirements with priorities, or influencing the handling of requirements to enforce sufficient security appetite (while carefully balancing against other non-functional requirements).
+When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. For example, annotate requirements with priorities, or influence the handling of requirements to enforce sufficient security appetite (while balancing against other non-functional requirements).
 
 
 ### Maturity Questions
@@ -82,11 +82,11 @@ References:
 You have a set of reusable security requirements to improve the overall quality.
 
 ### Activity
-Setup a security requirements framework within the organisation that will help projects to elicit an appropriate and complete requirements set for their project. The requirements framework should take into account the different types of requirements, different sources of requirements, it should be adapted to the organisational habits and culture and it should provide effective methodology and guidance in the elicitation and formation of requirements.
+Setup a security requirements framework to help projects elicit an appropriate and complete requirements set for their project. This framework considers the different types of requirements and sources sources of requirements. It should be adapted to the organisational habits and culture, and provide effective methodology and guidance in the elicitation and formation of requirements.
 
-The framework should help project teams in increasing the efficiency and effectiveness of requirements engineering. It can provide a categorisation of common requirements and provide a number of reusable requirements. While thoughtless copying is considered very ineffective, the fact of having potential relevant requirements to reason about is often productive.
+The framework helps project teams increase the efficiency and effectiveness of requirements engineering. It can provide a categorisation of common requirements and a number of reusable requirements. Do remember that, while thoughtless copying is ineffective, the fact of having potential relevant requirements to reason about is often productive.
 
-The framework should give clear guidance on the quality of requirements and should provide a formalism to describe these requirements. In the case of user stories, for instance, concrete guidance can explain what to describe in the DOD, DOR, story description and acceptance criteria.
+The framework also gives clear guidance on the quality of requirements and formalizes how to describe them. For user stories, for instance, concrete guidance can explain what to describe in the DOD, DOR, story description and acceptance criteria.
 
 ### Maturity Questions
 #### Q 1
@@ -114,9 +114,9 @@ You understand the security practices of your software suppliers.
 ### Activity
 The security competences and habits of the expernal suppliers involved in the development of your software can have a significant impact on the security posture of the final product. Consequently, it is important to know and evaluate your suppliers on this front.
 
-In a first maturity level, you will understand the strengths and weaknesses of your suppliers by means of interviews and review of their typical practices and deliveries, i.e. a vendor assessment. This will give you an idea of how they organize themselves and give you elements to evaluate whether additional measures must be taken in your organisation to mitigate potential risks. Ideally, you will speak to different roles in the organisation, or you could even organise a small maturity evaluation to this end. Strong suppliers will run their own software assurance program and will be able to answer most of your questions/inquiries. If suppliers turn out to have weak competences in software security, discuss with them how and to what extent they plan to work on this and evaluate whether this is sufficient for your organisation. Do realise that a software supplier might, for now, be working on a low-risk project, but this might always change in the future. 
+Carry out a vendor assessment to understand the strengths and weaknesses of your suppliers. Conduct interviews and review their typical practices and deliveries. This gives you an idea of how they organize themselves and elements to evaluate whether you need to take additional measures to mitigate potential risks. Ideally, speak to different roles in the organisation, or even organise a small maturity evaluation to this end. Strong suppliers will run their own software assurance program and will be able to answer most of your questions. If suppliers have weak competences in software security, discuss with them how and to what extent they plan to work on this and evaluate whether this is enough for your organisation. A software supplier might be working on a low-risk project, but this could  change. 
 
-It is important that your suppliers understand and align to the risk appetite and are able to meet your requirements in that area. Make explicit what you expect from them and discuss this clearly.
+It is important that your suppliers understand and align to the risk appetite and are able to meet your requirements in that area. Make what you expect from them explicit and discuss this clearly.
 
 ### Maturity Questions
 #### Q 1
@@ -139,9 +139,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 You structurally assign responsibilities for software security activities.
 
 ### Activity
-In a next maturity level, you want to increase your confidence in the capability of your suppliers for software security. The most effective way to achieve this is to discuss concrete responsibilities and expectations from your suppliers (and your own organisation) and build these into the agreement (contract) with the supplier. These responsibilities can specify specific quality requirements or particular tasks to be performed, and minimal service can be detailed in a Service Level Agreement (SLA). For quality, this may mean that they will deliver software that is protected against the OWASP Top 10 and in case issues are detected, these will be fixed. For tasks, they might have to perform continuous static code analysis, or perform an independent penetration test before a major release. An agreement should also stipulate liabilities (and caps) in case an important issue arises.
+Increase your confidence in the capability of your suppliers for software security. Discuss concrete responsibilities and expectations from your suppliers and your own organisation and establish a contract with the supplier. The responsibilities can be specific quality requirements or particular tasks, and minimal service can be detailed in a Service Level Agreement (SLA). A quality requirement example is that they will deliver software that is protected against the OWASP Top 10 and in case issues are detected, these will be fixed. A task example is that they have to perform continuous static code analysis, or perform an independent penetration test before a major release. The agreement stipulates liabilities and caps in case an important issue arises.
 
-Once you have implemented this for a few suppliers, work towards having a standard agreement for suppliers that forms the basis of your negotiations. You can deviate from this standard agreement on a case by case basis, but a standard agreement will help you to ensure that important topics are not overlooked.
+Once you have implemented this for a few suppliers, work towards a standard agreement for suppliers that forms the basis of your negotiations. You can deviate from this standard agreement on a case by case basis, but it will help you to ensure you do not overlook important topics.
 
 ### Maturity Questions
 #### Q 1
@@ -163,9 +163,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 You align software development practices to limit security risks.
 
 ### Activity
-The best way to minimize the risk of issues occurring in software is to align maximally and integrate closely between the different parties. From a process perspective, this means that similar development paradigms are used and regular milestones are introduced to ensure proper alignment and qualitative progress. From a tools perspective, this might mean that similar build, verification and deployment environments are used, and other supporting tools (e.g. requirements or architecture tools) are shared to the extent possible. Code repositories should be shared or linked where possible. 
+The best way to minimize the risk of issues in software is to align maximally and integrate closely between the different parties. From a process perspective, this means using similar development paradigms and introducing regular milestones to ensure proper alignment and qualitative progress. From a tools perspective, this might mean using similar build, verification and deployment environments, and sharing other supporting tools (e.g. requirements or architecture tools, or code repositories).  
 
-In case suppliers cannot meet the objectives that you have stipulated, implement compensating controls to ensure that, overall, your objectives are met. This might mean executing extra activities (e.g., threat modelling before starting the actual implementation cycle) or implementing extra tooling (e.g., 3rd party library analysis at solution intake). The more suppliers deviate from your requirements, the more work will be required to compensate.
+In case suppliers cannot meet the objectives that you have set, implement compensating controls so that, overall, you meet your objectives. Execute extra activities (e.g., threat modelling before starting the actual implementation cycle) or implement extra tooling (e.g., 3rd party library analysis at solution intake). The more suppliers deviate from your requirements, the more work will be required to compensate.
 
 
 ### Maturity Questions
