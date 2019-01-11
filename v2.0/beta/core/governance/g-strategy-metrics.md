@@ -62,7 +62,7 @@ The goal here is to promote the metrics as well as the application security prog
 ### Benefit 
 
 ### Activity
-Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security. The plancovers 3 to 5 years and includes milestones consistent with the organization’s business drivers and risks. It provides tactical and strategic initiatives and follows a roadmap that makes its alignment with business priorities and needs visible.
+Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security. The plan covers 1 to 3 years and includes milestones consistent with the organization’s business drivers and risks. It provides tactical and strategic initiatives and follows a roadmap that makes its alignment with business priorities and needs visible.
 
 In the roadmap reach a balance between changes requiring financial expenditures, changes of processes and procedures, and changes impacting the organization’s culture. This balance helps accomplish multiple milestones concurrently and without overloading or exhausting available resources or development teams. The milestones are frequent enough to help monitor program success and trigger timely roadmap adjustments.
 
@@ -85,7 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 **Summit MN:**
 * short description: establish roadmaps AND KPIs
-* 3-5 year strategy is too long, maybe 1-3 years?
+* 3-5 year strategy is too long, maybe 1-3 years? NK: changed in text.
 -->
 
 ## Maturity 3
