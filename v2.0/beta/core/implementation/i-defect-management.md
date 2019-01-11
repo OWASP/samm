@@ -145,14 +145,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Maturity 1
 ### Benefits
 ### Activity
-Calculate and share basic information about defects, and use this data to make decisions about remediation. Basic information might include: 
+Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include: 
 
-- The total number of defects. Tracking this over time, in particular, can show the effectiveness of resolution efforts.
-- The software components the defect resides in, which can be indicative of where attention is most required, and where security flaws are most likely to appear in the future.
-- The type / category of the defect, which can suggest areas where the development team might need further training.
-- The severity of the defect, which can help the organisation understand the software's risk exposure in a simple sense.
+- The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.
+- The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.
+- The type / category of the defect, which suggests areas where the development team might need further training.
+- The severity of the defect, which helps the organisation understand the software's risk exposure in a simple way.
 
-Feedback what you learn through these metrics to the teams involved. Use this data to inform your decision-making in terms of remediation priority, and training requirements (i.e. secure development).
+Outcomes are fed back to the teams involved. This data is used to inform decision-making in terms of remediation priority, and training requirements (i.e. secure development).
+
+Defects are considered within the wider metrics throughout the oragnisation. See [Governance > Strategy & Metrics](../g-strategy-metrics) > B.
 
 ### Maturity Questions
 #### Q 1
@@ -181,19 +183,21 @@ levels?
 ## Maturity 2
 ### Benefits
 ### Activity
-Calculate and share more advanced metrics. These might include:
+More advanced metrics are calculated and shared. These can include:
 
-- Formal risk ratings that consider likelihood and impact
-- Number of open vulnerabilities above a defined threshold in terms of severity or risk
-- Risk per software component / product / project / business unit
-- Amount of accepted risk
-- Time to detect vulnerabilities
-- Time to resolve vulnerabilities
-- Window of exposure where vulnerabilities are detected on live systems
-- Coverage of software components by verification tests
-- Number of regressions / reopened vulnerabilities
+- Formal risk ratings that consider likelihood and impact.
+- Number of open vulnerabilities above a defined threshold in terms of severity or risk.
+- Risk per software component / product / project / business unit.
+- Amount of accepted risk.
+- Time to detect vulnerabilities.
+- Time to resolve vulnerabilities.
+- Window of exposure where vulnerabilities are detected on live systems.
+- Coverage of software components by verification tests.
+- Number of regressions / reopened vulnerabilities.
 
-This data should be available in an accessible way to management, information security persons, developers and engineers who may use it to inform their decision-making. For example, a central dashboard might be provided.
+This data is available in an accessible way to management, information security persons, developers and engineers who may use it to inform their decision-making. For example, a central dashboard might be provided.
+
+A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme. 
 
 ### Maturity Questions
 
@@ -221,7 +225,7 @@ describe the type of lessons learned and put more emphasis on this
 ## Maturity 3
 ### Benefits
 ### Activity
-Ensure that defects are complimented with a range of fields, such as:
+Defects are complimented with a range of fields, such as:
 
 - Category
 - CVE / CWE
@@ -232,9 +236,7 @@ Ensure that defects are complimented with a range of fields, such as:
 - Risk
 - CVSS
 
-Use these fields to look for trends in new defects as they are raised. Graph and search for trends across various timespans such as a week, a month, and a year. 
-
-Analyse these trends continually and leverage the findings to influence the design and implementation of software.
+Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs. Analyse these trends continually and use the findings to influence the design and implementation of software, as well as the overall security stategy.
 
 ### Maturity Questions
 
