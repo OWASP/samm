@@ -8,8 +8,14 @@ business_functions_weight: 1
 type: security_practice
 ---
 # Short Description
+This practice forms the basis of your secure software activities by building an overall plan.
 
 # Long Description
+Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organisation.
+
+A software security program, that selects and prioritizes activities of the rest of the model, serves as the foundation for your efforts. The practice works on building the plan, maintaining and disseminating it.
+
+At the same time, you want to keep track of your security posture and program improvements. A metrics-driven approach is included to ensure an accurate view on your activities. To measure is to know.
 
 # Overview
 | | A: Create and Promote | B: Measure and Improve |
