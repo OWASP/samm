@@ -8,6 +8,7 @@ status           : for_review        #new, draft, for_review, release_candidate,
 type: security_practice
 ---
 # Short Description
+This practice drives the adherence to internal and external standards and regulations.
 
 # Long Description
 The Policy & Compliance (PC) Practice focuses on understanding and meeting external legal and regulatory requirements while driving internal security standards to ensure compliance in a way that’s aligned with the business purpose of the organization.
