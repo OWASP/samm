@@ -8,6 +8,7 @@ business_functions_weight: 3
 type: security_practice
 ---
 # Short Description
+This practice focuses on increasing the knowledge in the organisation regarding secure software.
 
 # Long Description
 The Education & Guidance (EG) Practice focuses on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization.
