@@ -7,8 +7,13 @@ business_functions_weight: 1
 type: security_practice
 ---
 # Short Description
-
+This practice focuses on creating a consistently repeatable build process and accounting for the security of application dependencies.
 # Long Description
+The Secure Build practice emphasises the importance of building software in a standardised, repeatable manner, and of doing so using secure components, including 3rd party software dependencies.
+
+The first stream focuses on removing any subjectivity from the build process by striving for full automation. An automated build pipeline can include additional automated security checks such as SAST and DAST to gain further assurance and flag security regressions early by failing the build for example.
+
+The second stream acknowledges the prevalence of software dependencies in modern applications. It aims to identify them and track their security status in order to contain the impact of their insecurity on an otherwise secure application. In an advanced form, it applies similar security checks to software dependencies as to the application itself.
 
 # Overview
 
