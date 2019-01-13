@@ -2,7 +2,7 @@
 business_functions : Governance
 title : Strategy & Metrics
 assignedto       : Yan Kravchenko (@yanfosec)
-complete         : 20%
+complete         : 40%
 status           : draft        #new, draft, for_review, release_candidate, done
 business_functions_weight: 1
 type: security_practice
@@ -28,6 +28,7 @@ At the same time, you want to keep track of your security posture and program im
 
 ## Maturity 1
 ### Benefit 
+Have a common understanding of an application security baseline.
 
 ### Activity
 Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization. Gathered information includes worst-case scenarios that could impact the organization, as well as opportunities where an optimized software development lifecycle and more secure applications could provide a market-differentiator or create additional opportunities.
@@ -65,7 +66,8 @@ The goal here is to promote the metrics as well as the application security prog
 #### Guidance
 
 ## Maturity 2
-### Benefit 
+### Benefit
+Have an aligned plan and roadmap within the organisation.
 
 ### Activity
 Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security. The plan covers 1 to 3 years and includes milestones consistent with the organization’s business drivers and risks. It provides tactical and strategic initiatives and follows a roadmap that makes its alignment with business priorities and needs visible.
@@ -95,7 +97,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 -->
 
 ## Maturity 3
-### Benefit 
+### Benefit
+Continuous improvement of your application security efforts.
 
 ### Activity
 You review the application security plan periodically for ongoing applicability and support of the organization’s evolving needs and future growth. To do this, you repeat the steps from the first two maturity levels of this Security Practice at least annually. The goal is for the plan to always support the current and future needs of the organization, which ensures the program is aligned with the business.
@@ -128,6 +131,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Benefit 
+Have a set of base metrics to provide insight into software security.
 
 ### Activity
 Define and document metrics to evaluate the effectiveness and efficiency of the application security program. This way improvements are measurable and you can use them to secure future support and funding for the program. Considering the dynamic nature of most development environments, metrics should be comprised of measurements in the following categories:
@@ -189,7 +193,8 @@ We should make sure to reference all other Security Practices and activities wit
 -->
 
 ## Maturity 2
-### Benefit 
+### Benefit
+A set of concrete objectives has been established to guide your improvement efforts
 
 ### Activity
 Once the organization has defined its application security metrics, collect enough information to establish realistic goals. Test identified metrics to ensure you can gather data consistently and efficiently over a short period. After the initial testing period, the organization should have enough information to commit to goals and objectives expressed through Key Performance Indicators (KPIs).
@@ -214,6 +219,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Benefit
+Your application security program is fundamentally driven by objective measures and concrete goals.
 
 ### Activity
 Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics. These guidelines  combine the maturity of the application development process and procedures  with different metrics to make the program more efficient. The following examples show a relationship between measurements and ways of evolving and improving application security:
@@ -223,7 +229,7 @@ Define guidelines for influencing the Application Security program based on the 
 * Individual Security Practices could provide indicators of success or failure of individual application security initiatives.
 * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
 
-When defining the overall metrics strategy,keep the end-goal in mind and define what decisions can be made as a result of changes in KPIs and metrics as soon as possible, to help guide development of metrics.
+When defining the overall metrics strategy, keep the end-goal in mind and define what decisions can be made as a result of changes in KPIs and metrics as soon as possible, to help guide development of metrics.
 
 ### Maturity Questions
 #### Q 1
