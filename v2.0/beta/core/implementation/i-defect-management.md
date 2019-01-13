@@ -8,8 +8,14 @@ type: security_practice
 ---
 
 # Short Description
+This practice focuses on managing security defects in software and their associated metrics.
 
 # Long Description
+The Defect Management practice focuses on collecting, recording, and analysing software security defects and enriching them with information to drive metrics-based decisions. 
+
+The practice’s first stream deals with the process of handling and managing defects to ensure released software has a given assurance level. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole. 
+
+In a sophisticated form, the practice requires formalised, independent defect management and real-time, correlated information to detect trends and influence security strategy. 
 
 # Overview
 
@@ -24,6 +30,8 @@ type: security_practice
 
 ## Maturity 1
 ### Benefits
+All software security defects are recorded centrally.
+
 ### Activity
 Any and all security defects should be recorded and tracked in a central location. This location can be per team, project, or organisation-wide. Defects should be assigned meaningful categories, and should be prioritised based on the risk they pose.
 
@@ -71,6 +79,8 @@ fixing is implicitly implied in this stream [Added explicitly by CC]
 
 ## Maturity 2
 ### Benefits
+Minimal defect quality gates are enforced throughout the SDLC.
+
 ### Activity
 Define a threshold for defects that require resolution or mitigation. You do not deploy software into production when this threshold is exceeded, until the relevant defects are fixed, or fall below the threshold.
 
@@ -117,6 +127,8 @@ definition and agreement of the "threshold" and related timelines is part of thi
 
 ## Maturity 3
 ### Benefits
+Quality gates are enforced by a security officer following formal processes.
+
 ### Activity
 An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) is responsible for managing known defects and enforcing the defined threshold. 
 
@@ -144,6 +156,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Benefits
+Basic information about defects is shared and used for remediation and training decisions.
+
 ### Activity
 Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include: 
 
@@ -182,6 +196,8 @@ levels?
 
 ## Maturity 2
 ### Benefits
+Advanced defect metrics are calculated and shared and used to taylor the assurance program.
+
 ### Activity
 Calculate and share more advanced metrics. These can include:
 
@@ -230,6 +246,8 @@ describe the type of lessons learned and put more emphasis on this
 
 ## Maturity 3
 ### Benefits
+Defect metrics are enriched with real time information and correlated to detect trends and influence the overall security strategy.
+
 ### Activity
 Add information to defects, such as:
 
