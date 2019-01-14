@@ -42,6 +42,7 @@ status: implemented
 ## Maturity 1 - Utilize automated security testing tools
 
 ### Benefit
+Detect software vulnerabilities with automated security testing tools. 
 
 ### Activity
 Use automated static and dynamic security test tools for software, resulting in more efficient security testing and higher quality results. Gradually increase the frequency of security tests and extend  code coverage.
@@ -91,6 +92,7 @@ status: took this as short Description
 ## Maturity 2 - Employ application-specific security testing automation
 
 ### Benefit
+Improves the efficiency and effectiveness of security testing automation by custumizing them towards the software. 
 
 ### Activity
 
@@ -146,6 +148,7 @@ status: this is already part of the text?
 ## Maturity 3 - Integrate automated security testing into the build and deploy process
 
 ### Benefit
+Allows to detect software vulnerabilities at the speed of build and deployment by integrating test tools as part of this process. 
 
 ### Activity
 
@@ -205,6 +208,7 @@ status: updated activity
 ## Maturity 1 - Perform manual security testing of high-risk components
 
 ### Benefit
+Detect vulnerabilities that cannot by found with tools. 
 
 ### Activity
 Perform selective blackbox manual security testing, usually using a combination of open source automated utilities (static and dynamic) for performing hands-on analysis to attempt to further ‘hack’ the application as an attacker.
@@ -248,6 +252,7 @@ status: updated activity
 ## Maturity 2 - Conduct manual penetration testing
 
 ### Benefit
+Tests the robustness of the software by mimicking an attacker that tries to penetrate it. 
 
 ### Activity
 
@@ -291,6 +296,7 @@ status: updated activity
 ## Maturity 3 - Integrate security testing into development process
 
 ### Benefit
+Identify security issues earlier in the development process by testing security early and often. 
 
 ### Activity
 Integrate security testing in parallel to all other development activities, including requirement analysis, software design and construction.
