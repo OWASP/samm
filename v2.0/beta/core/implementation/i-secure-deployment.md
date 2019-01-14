@@ -8,8 +8,11 @@ type: security_practice
 ---
 
 # Short Description
-
+This practice focuses on automatically securing deployments to the production environment and all required secrets.
 # Long Description
+One of the final stages in delivering secure software is ensuring the security and integrity of developed applications are not compromised during their deployment. To this end, the practice’s first stream focuses on removing manual error by automating the deployment process as much as possible, and making its success contingent upon the outcomes of integrated security verification checks. It also fosters Separation of Duties by making adequately trained, non-developers responsible for deployment.
+
+The second stream goes beyond the mechanics of deployment, and focuses on protecting the privacy and integrity of sensitive data, such as passwords, tokens, and other secrets, required for applications to operate in production environments. In its simplest form, suitable production secrets are moved from repositories and configuration files into adequately managed digital vaults. In more advanced forms, secrets are dynamically generated at deployment time and routine processes detect and mitigate the presence of any unprotected secrets in the environment.
 
 # Overview
 
@@ -24,6 +27,7 @@ type: security_practice
 
 ## Maturity 1
 ### Benefits
+Only qualified personnel, different from developers can deploy to production environments
 ### Activity
 Deploy applications via automated processes, or manually by people other than the developers. Developers do not have access to production environments.
 
@@ -55,6 +59,7 @@ ACTION: review this stream completely
 
 ## Maturity 2
 ### Benefits
+The deployment process is fully or partially automated and can be halted based on the results of integrated security verification tests. 
 ### Activity
 
 Fully or partially automate deployment to reduce the need for manual changes on production, and to reduce the chances of human error.
@@ -80,6 +85,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Benefits
+The deployment process automatically validates the integrity of its artifacts. 
+
 ### Activity
 The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Sign binaries at build time. This may include binaries developed and built in-house, as well as third-party libraries. Do not deploy binary signatures that cannot be verified, including those with invalid or expired certificates.
 
@@ -104,6 +111,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Benefits
+Production secrets are adequately protected in a digital vault, inaccessible to developers.
+
 ### Activity
 Version and protect configuration files just like source code. Developers do not have access to secrets or credentials for production environments. Someone responsible for the production environment adds production secrets to configuration files during the deployment process.
 
@@ -132,6 +141,8 @@ Level 1: you cannot have plaintext credentials in code?  Config file separate? [
 
 ## Maturity 2
 ### Benefits
+Secrets are dynamically extracted from the digital vault for use in deployment.
+
 ### Activity
 Have an automated process to add credentials and secrets appropriate for the target environment to configuration files  during the deployment process. This way, developers and deployers do not  see or handle those sensitive values.
 
@@ -158,6 +169,8 @@ Protection of secrets in config file
 
 ## Maturity 3
 ### Benefits
+Secrets are dynamically generated during deployment and a process routinely checks for and mitigates unprotected secrets.
+
 ### Activity
 Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly.
 
