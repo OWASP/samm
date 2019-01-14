@@ -296,8 +296,9 @@ Typically, on this maturity level:
 - Process metrics are available (e.g. resolution speed, affected customers, ...)
 - In most incidents, you use playbooks to a high degree
 
+<!--
 ### Notes
-
 - Root cause analysis - feedback loop - learning and improving beyond the incident at hand -> **first paragraph updated**
 - Automated incident response (e.g. rasp [Runtime Application Self-Protection Security], phantom, demisto) -> **automation mentioned in the first paragraph**
 - Not concrete - what are you going to do to concretely improve on L2 -> **Mentioned RCAs, Exercices, Metric evaluation...**
+-->
