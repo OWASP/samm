@@ -176,7 +176,7 @@ Typically, on this maturity level:
 
 # B: Incident Response
 
-Incident Response starts in the moment when you have acknowledged and verified the existence of the particular security incident. Your goal is now to act in a coordinated and efficient way so that further damage is limited as much as possible. If suitable, you want also to identify the root cause and limit the probability of similar incidents from hapenning in the future. 
+Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible. If suitable, you want to identify the root cause and limit the probability of similar incidents happening in the future. 
 
 ## Maturity 1
 
@@ -186,11 +186,11 @@ Ability to efficiently solve most common security incidents.
 
 ### Activity
 
-The first step is to recognize the incident response competence as such and define an owner being responsible for its continuous development and keeping up with current state of incident handling best practices and forensic tooling. 
+The first step is to recognize the incident response competence as such and define an owner responsible for its continuous development. They keep up with current state of incident handling best practices and forensic tooling. 
 
-You usually don't go for dedicated incident response personnel on this maturity level, however the participants of the process are defined (could be for instance regular admins or developers helping in case of need) and it's generally known how the team can be contacted using a single point of contact. Conscious decision regarding reachibility of the personnel is made. 
+You usually don't go for dedicated incident response personnel on this maturity level, but you define  the participants of the process are defined (for instance, regular admins or developers helping in case of need). There is a know single point of contact for  the team And a conscious decision regarding reachability of the personnel. 
 
-When security incidents happen, the steps taken are documented, however this information can be protected from unauthorized access in case of need. 
+When security incidents happen, you document the steps taken. Protect this information from unauthorized access if necessary. 
 
 ### Maturity Questions
 #### Q 1
@@ -211,10 +211,10 @@ Typically, on this maturity level:
 - all security incidents are documented in a consistent way
 - first KPIs for security incidents are collected
 
+<!--
 ### Notes
-
 - Define 'incident' -> **Defined in Practise Long Description**
-
+-->
 
 ## Maturity 2
 
@@ -223,15 +223,15 @@ Typically, on this maturity level:
 Understanding and efficient handling of most security incidents.
 
 ### Activity
-Security incident response process is formally established and documented. The documentation should include information like: 
+Formally establish and document the security incident response process. The documentation includes information like: 
 
-- Most probable/common scenarios of security incidents and high-level instruction how to handle them. For such scenarious, also public knowledge about possibly relevant 3rd-party incidents should be used
+- Most probable/common scenarios of security incidents and high-level instruction how to handle them. For such scenarios, also use public knowledge about possibly relevant 3rd-party incidents
 - Rules for triaging the incident
 - Rules for involvement of different stakeholders (including mandatory timeframe to do so, if needed), e.g. senior management, Public Relations, Legal, privacy, Human Resources, External (law enforcement) Authorities, Customers. 
 
-Knowledgeable and properly trained staff should be available also outside of business hours with defined time to action. Both hardware and software tools should be kept up to date and ready to be used anytime. War room should be defined for cases when needed. 
+Knowledgeable and properly trained staff is available in and outside of business hours with defined time to act. Keep both hardware and software tools up to date and ready for use anytime. Define a war room. 
 
-The process should also include a policy for carrying out root cause analysis and its expected outcomes.
+The process includes a policy for carrying out root cause analysis and its expected outcomes.
 
 ### Maturity Questions
 #### Q 1
@@ -248,32 +248,32 @@ Are ...?
 
 Typically, on this maturity level:
 
-- Root Case Analysis is performed for the most severe security incidents 
+- You perform Root Case Analysis for the most severe security incidents 
 - Security playbooks are available for the most common incidents
-- there are dedicated trainings for incident response staff
+- there is dedicated trainings for incident response staff
 - forensic analysis tooling is available
 
+<!--
 ### Notes
-
 - Root cause analysis - should be about the incident in question (becomes more advanced at L3) -> **last paragraph reformulated**
 - You have to communicate the incident (within a certain timeframe). Involve authorities if necessary. -> **Third bullet point adapted**
-
+-->
 
 ## Maturity 3
 
 ### Benefit
 
-Efficient incident response, independent on time, location or art of the incident.
+Efficient incident response independent of time, location, or art of the incident.
 
 ### Activity
 
-Dedicated incident response team is established, continuously available and also in charge of the continuous process improvement with the help of regular RCAs. For distributed organizations, logistics rules are defined and documented for all relevant locations if sensible.  
+Establish a dedicated incident response team, continuously available and also in charge of the continuous process improvement with the help of regular RCAs. For distributed organizations, define and document logistics rules for all relevant locations if sensible.
 
-Also detailed incident response procedures are documented and kept up-to-date on this level. Where sensible, procedures are automated. All resources assumed by these procedures (e.g. separate communicating infrastructure or reliable external location) are kept ready-to-use. Unavailability of these resources is detected in a timely manner.  
+Document detailed incident response procedures and keep them upd to date. Where sensible, automate procedures. Keep ll resources necessary for these procedures (e.g. separate communicating infrastructure or reliable external location) ready to use. Detect unavailability of these resources in a timely manner.  
 
-Incident and emergency exercises are carried out regularly; the results of these are used for the process improvement.
+Carry out incident and emergency exercises are regularly. Use the results for process improvement.
 
-Metrics on the incident response process including its continuous improvement, are defined, gathered, evaluated and acted upon. 
+Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement. 
 
 ### Maturity Questions
 #### Q 1
@@ -287,15 +287,14 @@ Are ...?
 
 
 ### Quality Indicators
-
 Typically, on this maturity level:
 
-- Root Case Analysis is performed for all security incidents unless there is a specific reason not to do so
-- Improvements are identified and documented in the RCAs. THey are provably implemented.
-- Some exerices have been carried out in the last year. 
-- There is a roadmap for process improvement.
+- You perform Root Case Analysis for all security incidents unless there is a specific reason not to do so
+- You identify and document improvements in the RCAs and you have probably implemented them
+- You have carried out some exercises in the last year.
+- There is a roadmap for process improvement
 - Process metrics are available (e.g. resolution speed, affected customers, ...)
-- In most incidents, playbooks are used to a high degree.
+- In most incidents, you use playbooks to a high degree
 
 ### Notes
 
