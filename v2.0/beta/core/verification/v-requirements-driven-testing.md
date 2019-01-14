@@ -42,6 +42,7 @@ A good practice for developers is to build security test cases as a generic secu
 
 ## Maturity 1 - Test for software security controls
 ### Benefit
+Verifies that the standard software security controls operate as expected. 
 
 ### Activity
 Conduct security tests to verify that the standard software security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service. Security test cases at least include testing for authentication, access control, input validation, encoding, and escaping data and encryption controls. The test objective is to validate that the security controls are implemented with few or no vulnerabilities.
@@ -74,6 +75,7 @@ Typically these will be security tests for controls that prevent the OWASP Top 1
 
 ## Maturity 2 - Derive test cases from known security requirements
 ### Benefit 
+Assures that security requirements are met by creating and performing tests derived from the requirements. 
 
 ### Activity
 From the security requirements, identify and implement a set of security test cases to check the software for correct functionality. To have a successful testing program, you must know the testing objectives, specified by the security requirements.
@@ -106,6 +108,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3 - Perform regression testing (with security unit tests)
 ### Benefit
+Prevents identified (and fixed) bugs to be introduced as part of later releases through regression testing. 
 
 ### Activity
 Write and automate regression tests for all identified (and fixed) bugs to ensures that these become a test harness preventing similar issues to be introduced as part of later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
@@ -147,6 +150,7 @@ status: added to activity
 
 ## Maturity 1 - Perform security fuzzing testing
 ### Benefit
+Detect security bugs that would have often been missed by human eyes. 
 
 ### Activity
 During security tests, cover at least a minimum fuzzing for vulnerabilities against the main input parameters of the application.
@@ -182,6 +186,7 @@ https://en.wikipedia.org/wiki/Fuzzing
 
 ## Maturity 2 - Create and test abuse cases and business logic flaw test
 ### Benefit
+Detect business logic flaws or vulnerabilities thay allow functionality in the software to be abused. 
 
 ### Activity
 Misuse and abuse cases describe unintended and malicious use scenarios of the application, describing how an attacker could do this. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application. Use abuse-case models for an application to serve as fuel for identification of concrete security tests that directly or indirectly exploit the abuse scenarios.
@@ -217,6 +222,7 @@ https://www.owasp.org/index.php/Testing_for_business_logic
 
 ## Maturity 3 - Denial of service and security stress testing
 ### Benefit
+Identifies functionality or resources in the sofware that can be abused to perform denial of service attacks. 
 
 ### Activity
 Applications are particularly susceptible to denial of service attacks. Perform denial of service and security stress testing against them. Perform these tests under controlled circumstances and on application acceptance environments, if possible.
