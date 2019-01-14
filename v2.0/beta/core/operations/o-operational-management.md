@@ -22,7 +22,8 @@ The functions covered by this practice include, but are not limited to: system p
 | Maturity 3 - Active Monitoring and Response | Data policy breaches detected and acted upon | Proactive reliable handling of legacy applications/services |
 
 ## Practice Notes
-Possibly move the Third-Party Requirements stream into this practice, as a third stream?
+* Possibly move the Third-Party Requirements stream into this practice, as a third stream?
+* Possibly split the System Decommissioning/Legacy Management Stream into two streams - one for the org. as a software consumer, and one for the org. as a software producer
 
 
 # A: Data Protection
