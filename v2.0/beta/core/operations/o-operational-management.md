@@ -7,6 +7,7 @@ business_functions_weight: 3
 type: security_practice
 ---
 # Short Description
+This practice focuses on operational support activities required to maintain security throughout the product lifecycle.
 
 # Long Description
 The Operational Management practice focuses on activities to ensure security is maintained throughout operational support functions. Although these functions are not performed directly by an application, the overall security of the application and its data depends on their proper performance. Deploying an application on an unsupported operating system with unpatched vulnerabilities, or failing to store backup media securely, can make the protections built into that application irrelevant.
