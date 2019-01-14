@@ -20,7 +20,7 @@ The second stream goes beyond the mechanics of deployment, and focuses on protec
 |:---|:---|:---|
 | Maturity 1 - Deployment processes are fully documented | Deployment is automated or done by someone other than the developer. | Production secrets are encrypted and not handled by developers |
 | Maturity 2 - Deployment processes include security verification milestores | Integration of security verification in deployment (e.g. binary static code analysis / AV scan) | Secrets are dynamically included during the deployment process |
-| Maturity 3 - Deployment process is fully automated and incorporates automated verification of all critical milestones | Integrity of the code is verified prior to deployment | Files and repositories and checked periodically for secrets that should be protected |
+| Maturity 3 - Deployment process is fully automated and incorporates automated verification of all critical milestones | Integrity of the code is verified prior to deployment | Files and repositories are checked periodically for secrets that should be protected |
 
 
 # A: Deployment Process
