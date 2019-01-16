@@ -37,25 +37,6 @@ Next, use a scheme to classify applications according to this risk. A simple, qu
 
 Evaluate the risk based on the set of questions and assign a risk level to each application. 
 
-### Maturity Questions
-
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-#### Quality Indicators
-
-### Notes
-Elements required for risk:
-- set of questions to evaluate
-- risk levels to represent application risk
-- risk portfolio
-
 
 ## Maturity 2
 ### Benefit
@@ -70,21 +51,6 @@ Consider using quantitative schemes to classify application risk. A simple quali
 
 Based on this input, build a centralized inventory of risk profiles that use the outcome of the risk evaluations to define the profile. This inventory gives all stakeholders an aligned view of the risk level of an application to assign appropriate priority to security-related activities.
 
-### Maturity Questions
-
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-### Notes
-
 
 ## Maturity 3
 ### Benefit
@@ -96,21 +62,6 @@ The application portfolio of an organisation changes, as well as the conditions 
 Have a periodic review at an enterprise-wide level. Also, as your enterprise matures in software assurance, stimulate teams to continuously question which changes in conditions might impact the risk profile. For instance, an internal application might become exposed to the internet by a business decision. This should trigger the teams to rerun the risk evaluation and update the application risk profile accordingly.
 
 In a mature implementation of this practice, train and continuously update teams on lessons learned and best practices from these risk evaluations. This leads to a better execution and a more accurate representation of the application risk profile.
-
-### Maturity Questions
-
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-### Notes
 
 
 # B: Threat Modeling
@@ -128,22 +79,6 @@ Perform threat modeling iteratively to align to more iterative development parad
 
 Execute threat modeling on important projects (LINK: Application Risk Profile) in a best effort mode to identify the most important threats to the application. Existing network diagrams you can annotate during discussion workshops are a good starting point.
 
-### Maturity Questions
-
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-### Notes
-Terminology: do we want to use application, software or solution as the main term ?
-
 
 ## Maturity 2
 ### Benefit
@@ -159,21 +94,6 @@ Feed the output of threat modeling to the defect management process for adequate
 Consider using a tool to manage the treat models of the different applications. Train people to focus on important threats as one of the challenges in threat modeling is a potential overload of trivial threats.
 Tools help in identifying potential threats but, in the end, threat modeling requires human intelligence that cannot be easily automated.
 
-### Maturity Questions
-
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-### Notes
-Personally I'm not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this. Even after the Minneapolis discussions, I'm still not convinced about the usefulness of this ;-)
 
 ## Maturity 3
 ### Benefit
@@ -186,19 +106,3 @@ Use automated analysis to evaluate the quality and discover gaps and/or patterns
 
 Review the threat categories relevant to your organisation. When you identify new threat categories, feed this information to the organisation to ensure appropriate handling. 
 
-### Maturity Questions
-
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-### Notes
-I cannot think of good examples of threat categories. Anybody ?
-IMO we should go further than just yearly review of threat models. Any ideas ? What about automated analysis to verify the quality of threat models, or to discover new threats ?
