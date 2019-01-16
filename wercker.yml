@@ -23,7 +23,7 @@ build:
     - arjen/hugo-build:
         version: "0.41"
         flags: --buildDrafts=true
-        basedir: "v2.0/website"
+        basedir: "Website/Hugo"
 deploy:
   steps:
     - install-packages:
@@ -31,4 +31,4 @@ deploy:
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
         domain: owaspsamm.org
-        basedir: v2.0/website/public
+        basedir: Website/public
