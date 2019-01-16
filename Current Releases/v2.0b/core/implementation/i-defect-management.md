@@ -50,29 +50,6 @@ Sources of defects include, but are not limited to, those discovered via:
 Qualify all defects so the records only contain valid and significant issues. Consider manageability. void recording duplicate defects, for example, searching  for similar issues. Merge duplicates and group similar issues,, particularly if you will handle them in the same way.
 The organisation uses these records to make decisions and resolve vulnerabilities. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-"Any and all security defects should be recorded and tracked in a central location." - does this matter on level 1? Aggregate this per team/product? Not as an organisation. to be rephrased.  [Done by CC]
-Should only be "validated or qualified" defects. [Added by CC]
-vulnerability reports and scans should be input for this . [already there. CC]
-security defect management includes vulnerability management [Added by CC]
-fixing is implicitly implied in this stream [Added explicitly by CC]
-
-
-#### Guidance
--->
 
 ## Maturity 2
 ### Benefits
@@ -101,26 +78,6 @@ Define processes for dealing with false positive defects, or ones with existing 
 
 Consider defects below the threshold deployed into production environments for resolution or mitigation at a later time.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-is the quality gate only deployment? [Added by CC] 
-definition and agreement of the "threshold" and related timelines is part of this maturity level activity  [Added by CC] 
-
-#### Guidance
--->
-
 
 ## Maturity 3
 ### Benefits
@@ -134,19 +91,6 @@ Defects that exceed the threshold block or prevent deployment into production, u
 Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries). 
 
 This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Review the status of accepted and mitigated risks periodically (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).
-
-### Maturity Questions
-
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
 
 
 # B: Metrics and Feedback/Learning
@@ -166,29 +110,6 @@ Basic information about defects is calculated, shared, and used to make decision
 Outcomes are fed back to the teams involved. This data is used to make decisions about remediation priority and training requirements.
 
 Defects are considered within the wider metrics throughout the oragnisation. See [Governance > Strategy & Metrics](../g-strategy-metrics) > B.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-first align on objectives of these metrics and flesh out overlap with BG Governance.  [CC - still to do]
-add mean time to fix here? 
-
-levels? 
-1: provide feedback to the team [done by CC]
-2: learn from it accross teams and provide feedback to the organisations, looking for trends 
-3: optimized practices and share statictics
--->
 
 
 ## Maturity 2
@@ -218,28 +139,6 @@ Security teams are able to report an accurate picture of the organisation's defe
 
 A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme. 
 
-### Maturity Questions
-
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-learn from the metrics 
-identify patterns  
-getting more granular 
-enhance trainings, libraries, ...
-describe the type of lessons learned and put more emphasis on this 
-
--->
 
 ## Maturity 3
 ### Benefits
@@ -263,23 +162,3 @@ Different metrics and fields are combined to look for trends. Trends across vari
 
 Metrics are used to empower the whole organisation. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.
 
-### Maturity Questions
-
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-accross multiple projects/teams 
-put more focus on the feedback part
-change the SDLC   
-
--->
