@@ -49,29 +49,6 @@ Conduct security tests to verify that the standard software security controls op
 
 The security testing tests for software security controls that are relevant for the software under test. Perform control verification security tests manually or with tools each time the application changes its use of the controls. Software control verification is mandatory for all software that is part of the SAMM program. Review the tests regularly to include changes in the software technology and vulnerability trends.
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-* rename to remove standard security control. Use something more suggestive of app appropriateness/relevance. (DONE)
--->
-
-#### Guidance
-Typically these will be security tests for controls that prevent the OWASP Top 10 vulnerabilities. Test cases can be derived from the OWASP Testing Guide, OWASP Mobile Testing Guide, OWASP ASVS or the OWASP Top 10 Proactive Controls.
-* https://www.owasp.org/index.php/OWASP_Proactive_Controls
-* https://www.owasp.org/index.php/Testing_Guide_Introduction
-* https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
-* https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide
 
 ## Maturity 2 - Derive test cases from known security requirements
 ### Benefit 
@@ -84,27 +61,6 @@ Derive security test cases for the applications in scope from the security requi
 
 Often, it is most effective to use the project team’s time to build application-specific test cases, and publicly available resources or purchased knowledge bases to select applicable general test cases for security. Relevant development, security, and quality assurance staff review candidate test cases for applicability, efficacy, and feasibility. Derive the test cases during the requirements and/or design phase of the functionality. Testing the security requirements is part of the functional testing of the software.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-
-#### Guidance
-
-<!--
-#### Notes
-* This activity depends on the security practice "Security Requirements". (DONE)
-* 3rd paragraph is unclear. (Removed)
-* Paragraph before last: App-specific test cases rather than applicable general test cases. (Removed)
--->
 
 ## Maturity 3 - Perform regression testing (with security unit tests)
 ### Benefit
@@ -117,34 +73,6 @@ A good practice for developers is to build security test cases as a generic secu
 
 Adapt unit test frameworks such as Junit, Nunit, and CUnit to verify security test requirements. For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Guidance
-References to https://github.com/continuumsecurity/bdd-security and http://gauntlt.org/
-
-<!--
-#### Notes
-include https://github.com/continuumsecurity/bdd-security ?
-http://gauntlt.org/ reference?
-status: added to guidance
-
-* Not bugs, test harness.
-status: added to activity
-
-* Link to secure build (e.g. Definition of Merge).
-status: added to activity
-
--->
 
 # B: Misuse/Abuse Testing
 
@@ -161,28 +89,6 @@ The great advantage of fuzz testing is that the test design is extremely simple,
 
 Consider the use of automated fuzzing tools and build an application specific dictionary of fuzzing payloads like fault injection patterns, predictable resource locations, and regexes for matching server responses (you can start with open source dictionaries like FuzzDB*)
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
--->
-
-#### Guidance
-https://www.owasp.org/index.php/Fuzzing
-https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsFuzzConcepts
-https://github.com/fuzzdb-project/fuzzdb
-https://www.owasp.org/index.php/OWASP_Testing_Guide_Appendix_C:_Fuzz_Vectors
-https://en.wikipedia.org/wiki/Fuzzing
 
 ## Maturity 2 - Create and test abuse cases and business logic flaw test
 ### Benefit
@@ -194,30 +100,6 @@ Misuse and abuse cases describe unintended and malicious use scenarios of the ap
 Abuse of functionality, sometimes referred to as a "business logic attack", depends on the design and implementation for application functions and features. As you add functionality to applications, think about how it can be manipulated to circumvent the business process, or abused to perform a function not intended by the developer. An example is using a password reset flow to enumerate accounts. As part of business logic testing, identify the business rules that are important for the application and turn them into experiments to verify whether the application properly enforces the business rule. For example, on a stock trading application, is the attacker allowed to start a trade at the beginning of the day and lock in a price, hold the transaction open until the end of the day, then complete the sale if the stock price has risen or cancel out if the price dropped?
 
 While there are tools for testing and verifying that business processes are functioning correctly in valid situations, these tools are incapable of detecting logical vulnerabilities. For example, tools have no means of detecting if a user is able to circumvent the business process flow through editing parameters, predicting resource names, or escalating privileges to access restricted resources. There’s also no mechanism to help  human testers suspect this.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-* Remove “that is part of the unit tests”.
-status: removed from activity
-* Don’t link abuse cases to each positive test case.
-** There will be abuse cases which go beyond use cases (e.g. business logic attacks). Here we go beyond use cases. Security Testing practice will focus on the edge cases (linked directly to use cases)
-status: removed from activity
--->
-
-#### Guidance
-https://www.owasp.org/index.php/Testing_for_business_logic
 
 
 ## Maturity 3 - Denial of service and security stress testing
@@ -238,28 +120,4 @@ Denial of service tests can include tests that check:
 * whether it is possible to force the application to loop through a code segment that needs high computing resources, to decrease its overall performance
 
 Stress testing exposes software systems to simulated cyber attacks, revealing potential weaknesses and vulnerabilities in their implementation. Use them to discover these internal weaknesses and vulnerabilities early in the software development life cycle. Correct them prior to deployment for improved software quality. Complement overall denial of service tests with security stress tests to perform actions or create conditions which cause delays, disruptions, or failures of the application under test.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-
-<!--
-#### Notes
--->
-
-#### Guidance
-https://www.owasp.org/index.php/Application_Denial_of_Service
-https://www.owasp.org/index.php/Denial_of_Service_Cheat_Sheet
-https://www.owasp.org/index.php/Testing_for_Denial_of_Service
-
-
 
