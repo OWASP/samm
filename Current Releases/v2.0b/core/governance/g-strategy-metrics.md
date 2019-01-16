@@ -38,32 +38,6 @@ Gathered information provides a baseline for  the organization to develop and pr
 The baseline and individual risk factors should be published and made available to application development teams to ensure a more transparent process of creating application risk profiles and incorporating the organization’s priorities into the program. Additionally, these goals should provide a set of objectives which should be used to ensure all application security program enhancements provide direct support of the organization’s current and future needs.
 
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Quality Indicators
-
-#### Notes
-<!--
-should also include organisational perspective + link to business priorities and regulatory compliance
-The goal here is to promote the metrics as well as the application security program.
-
-**Summit MN**:
-* identify objectives, not drivers
-* some of the writing is linked to rather to business than to applications -> talk about organization/business risk rather than application risk
-* link betwwen application risk profile (design -> threat assessnent) and this level should be made
-* baseline = minimal set of requirements which all aplications within the organization have to meet
-* It might be better to work with risk drivers rather than threats (is it sensibvle to start rather positively?) - maybe add sth like "depending on your culture" or put it in the implementation guidance
--->
-
-#### Guidance
 
 ## Maturity 2
 ### Benefit
@@ -76,25 +50,6 @@ In the roadmap reach a balance between changes requiring financial expenditures,
 
 For the program to be successful, the application security team obtains buy-in from the organization’s stakeholders and application development teams. A published plan is available to anyone who is required to support or participate in its implementation.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-<!--
-
-**Summit MN:**
-* short description: establish roadmaps AND KPIs
-* 3-5 year strategy is too long, maybe 1-3 years? NK: changed in text.
--->
 
 ## Maturity 3
 ### Benefit
@@ -107,25 +62,6 @@ In addition to reviewing the business drivers, the organization closely monitors
 
 The organization develops dashboards and measurements for management and teams responsible for software development to monitor the implementation of the roadmap. These dashboards are detailed enough to identify individual projects and initiatives and provide a clear understanding of whether the program is successful and aligned with the organization’s needs.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-<!--
-**Summit MN:**
-* maybe consider only focus on metrics
-* develop a set of dashboards -> make sure that metrics support it 
-* rephrase level 3, last paragraph focus on challenging the efficiency of the metrics
--->
 
 # B: Measure and Improve
 
@@ -152,45 +88,6 @@ While identifying metrics, it’s always recommended to stick to the metrics tha
 Document metrics and include descriptions of best and most efficient methods for gathering data, as well as recommended methods for combining individual measures into meaningful metrics. For example, a number of applications and a total number of defects across all applications may not be useful by themselves but, when combined as a number of outstanding high-severity defects per application, they provide a more actionable metric.
 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-<!--
-Assets is to be interpreted broader than the software only.
-
-We should make sure that we address metrics from the stand point of:
-- Metrics to measure the maturity of each BF and SP
-- Non-Defect related metrics that measure activities such as training, threat assessments, etc
-- Defect-related such as bugs / issues / etc
-
-We should make sure to reference all other Security Practices and activities within the model, such as Implementation Defect Tracking metrics
-
-**Summit MN:**
-* decrease of number of vulnerabilites is 2nd order metrics, focus on 1st level metrics
-* number of base metrics and deduced metrics -> might be sensible to mention it
-* we can call the metrics from defect tracking as an example
-* "result" is a better word rather than "impact" (just stressing the fact)
-* "most efficient matter for gathering data" -> mention that you can gather data in a manual or automated (preferred) way 
-* "Expressed as a unit of measure" -> units should be the ones people care about ("covered lines of code" not a good example)
-* CMMI levels not very recognizeable in the description of all levels (Best effort / Process and alignment / Improving and measuring)
-* we don't mention that one of the metrics is budget spent 
-* what are the drivers for definition of a particular metric? Which metrics are useful? Should we measure anything we can or not? Some ground should be laid in the practice description
-* measuring SAMM Maturity as an example as well?
-* discussion on inexpensive vs expensive metrics - cost/benefit? or just cost e.g. in term of hours?
-* Maybe some of the metrics to be put on level 2? bar too high?
-* discussion about coverage? where to start? (probably rather easy)
-* measurement and risk mgmt? Should there be more of it? - no decision
--->
 
 ## Maturity 2
 ### Benefit
@@ -203,19 +100,6 @@ While several measurements are useful for monitoring the information security pr
 
 Fully document KPIs and distribute them to the teams contributing to the success of the program as well as organization’s leadership. Ideally, include a brief explanation of the information sources for each KPI and the meaning if the numbers are high or low. Include short and long-term goals, and ranges for unacceptable measurements requiring immediate intervention. Share action plans with application security and application development teams to ensure full transparency in understanding of the organization’s objectives and goals.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
 
 ## Maturity 3
 ### Benefit
@@ -231,20 +115,3 @@ Define guidelines for influencing the Application Security program based on the 
 
 When defining the overall metrics strategy, keep the end-goal in mind and define what decisions can be made as a result of changes in KPIs and metrics as soon as possible, to help guide development of metrics.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-<!--
-**Summit MN:**
-* level 3 should be about driving and correcting your program - not very visible in the description
--->
