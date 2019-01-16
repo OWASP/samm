@@ -22,10 +22,6 @@ The functions covered by this practice include, but are not limited to: system p
 | Maturity 2 - Managed, Responsive Processes | Data catalogued and data protection policy established | Decomissioning and legacy migration processes in place |
 | Maturity 3 - Active Monitoring and Response | Data policy breaches detected and acted upon | Proactive reliable handling of legacy applications/services |
 
-## Practice Notes
-* Possibly move the Third-Party Requirements stream into this practice, as a third stream?
-* Possibly split the System Decommissioning/Legacy Management Stream into two streams - one for the org. as a software consumer, and one for the org. as a software producer
-
 
 # A: Data Protection
 
@@ -40,41 +36,6 @@ The organization understands the types and sensitivity of data stored and proces
 
 The organization implements basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, the organization can focus data protection policies and activities on production. 
 
-### Maturity Questions
-#### Q 1
-Are the types and sensitivity of data stored and processed by applications well understood?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-#### Q 2
-Are controls in place to ensure sensitive data are sanitized before propagation to a non-production environment, and is compliance with those controls verified?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-- The organization has assigned a sensitivity level to each appplication and data store
-- Offline media are labeled and handled according to the sensitivity of the data they contain
-- Sensitive data do not appear in non-production environments
-
-### Notes
-
-### Guidance
-
-- Establish organization-wide guidelines for the labeling, handling, and protection of physical media, including printed reports.
-- Establish organization-wide guidelines on data sanitization requirements
-- Provide training on the organization's data handling and sanitization guidelines to all staff, preferably as part of onboarding.
-- Conduct periodic reviews of non-production environments, to verify no sensitive data have propagated to them.
 
 ## Maturity 2
 ### Benefit 
@@ -89,50 +50,6 @@ The organization identifies the data stored, processed, and transmitted by appli
 Based on the organization's Data Protection Policy, the organization establishes processes and procedures for protecting and preserving data throughout their lifetime, whether at rest, being processed, or in transit. Particular attention is given to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Organization processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
 
 
-### Maturity Questions
-#### Q 1
-Are data cataloged, including their types, sensitivity levels, and processing/storage locations?
-
-*Answer Options*
-
-- No
-- Yes, for a small percentage
-- Yes, for approx. half
-- Yes, for most or all
-
-#### Q 2
-Are retention requirements established for data, and are backups destroyed in a timely manner after the relevant retention period ends?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half of the time
-- Yes, most or all of the time
-
-#### Q 3
-Are handling requirements established and documented for all data elements in the catalog, in accordance with their established sensitivity levels, and are these requirements followed?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half of the time
-- Yes, most or all of the time
-
-### Quality Indicators
-- Data catalog is complete and current
-- Offline media are protected from disclosure, corruption, and destruction
-- Media at end-of-life are destroyed and disposed of in a secure manner
-
-### Notes
-- Data protection capabilities overlaps with policy & compliance governance. Third paragraph. However, the content here is already more specific. So maybe it just needs a reference to the P&C activity stream.
-- Make the difference between L1 and L2 more clear. More concrete. Maybe mention the "data catalog".
-- Why is a data catalogue useful? Data classification. Threat modelling.
-
-### Guidance
-- Inspect off-site data storage facilities, to verify all required security protections (e.g., locks, video surveillance) remain in place and function properly.
-- Conduct periodic spot checks of backup media, to verify they are not corrupted, and equipment needed to restore data (e.g., tape drives) are functioning correctly.
 
 ## Maturity 3
 ### Benefit
@@ -146,46 +63,6 @@ The organization implements technical controls to enforce compliance with the Da
 The organization regularly audits compliance with established administrative controls, and closely monitors performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting the organization to take timely corrective action.
 
 The organization reviews and updates the data catalog regularly, to maintain its accurate reflection of the data landscape. Regular reviews and updates of processes and procedures maintain their alignment with the organization's policies and priorities.
-
-### Maturity Questions
-#### Q 1
-Is automated monitoring in place, to detect attempted or actual violations of the Data Protection Policy?
-
-*Answer Options*
-
-- No
-- Yes, for some data
-- Yes, for approx. half of the data
-- Yes, for most or all of the data
-
-#### Q 2
-Are administrative data protection controls audited?
-
-*Answer Options*
-
-- No
-- Yes, we did it once
-- Yes, we do it every few years
-- Yes, we do it at least annually
-
-#### Q 3
-Are the data catalogue and data protection policies/procedures reviewed and updated?
-
-*Answer Options*
-
-- No
-- Yes, we do it when requested
-- Yes, we do it every few years
-- Yes, we do it at least annually
-
-### Quality Indicators
-
-### Notes
-
-### Guidance
-
-- DLP and data vaults as examples - anomaly detection
-- Watermarks on documents? To help you trace leaks
 
 
 # B: System decomissioning / Legacy management
@@ -204,26 +81,6 @@ Identification of unused applications occurs on an _ad hoc_ basis, either by cha
 
 The organization manages customer/user migration from older versions of its products individually for each product and customer/user group. Multiple versions of each product may be in active use, requiring development teams to invest significant effort in back-porting product fixes.
 
-### Maturity Questions
-#### Q 1
-When unused systems, applications, or services are identified, are they removed from service?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half of the time
-- Yes, most or all of the time
-
-#### Q 2
-Are end-of-life resources (operating system versions, third-party applications/services/libraries) removed from the environment before their support period ends?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half of the time
-- Yes, most or all of the time
 
 ## Maturity 2
 ### Benefit
@@ -237,40 +94,6 @@ The organization follows a consistent process for timely replacement or upgrade 
 
 The organization engages with customers and user groups for its products at or approaching end of life, to migrate them to supported versions in a timely manner.
 
-### Maturity Questions
-#### Q 1
-Does the organization follow an established process for removing all associated resources, as part of decommissioning unused applications?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half of the time
-- Yes, most or all of the time
-
-#### Q 2
-Does the organization discontinue use of open-source applications/services/libraries that are no longer actively maintained?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half of the time
-- Yes, most or all of the time
-
-### Quality Indicators
-- Operating environments do not contain orphaned accounts, firewall rules, or other configuration artifacts
-- Operations are not dependent on end-of-life applications or components
-- Customers are not using outdated versions of the organization's products, or migration plans are in place
-
-### Notes
-
-- Maybe define a high level objective for the established process (this text has been revised - objective is timely replacement/upgrade of EOL software)
-- Maybe separate software supplier and software consumer activities into separate streams ([issue #53](https://github.com/OWASP/samm/issues/53))
-- Explicitly mention manageability and attack surface as benefits. (Done, I think)
-
-### Guidance
-
 
 ## Maturity 3
 ### Benefit
@@ -281,44 +104,4 @@ Does the organization discontinue use of open-source applications/services/libra
 The organization regularly evaluates the lifecycle state and support status of every software asset and underlying infrastructure component, and estimates their end-of-life. The organization follows a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. The organization regularly reviews and updates its process, to reflect lessons learned. 
 
 The organization has established a product support plan, providing clear timelines for ending support on older product versions. Product versions in active use are limited to only a small number (e.g., N.x.x and N-1.x.x only). The organization establishes and publicizes timelines for discontinuing support on prior versions, and proactively engages with customers and user groups to prevent disruption of service or support.  
-
-### Maturity Questions
-#### Q 1
-Are lifecycle state and end-of-life estimates captured for each software asset and infrastructure component?
-
-*Answer Options*
-
-- No
-- Yes, for some of them
-- Yes, for approx. half of them
-- Yes, for most or all of them
-
-#### Q 2
-Does the organization actively manage customers/user groups, to ensure they are using only actively supported versions of the organization's products?
-
-*Answer Options*
-
-- No
-- Yes, some of the time
-- Yes, approx. half of the time
-- Yes, most or all of the time
-
-#### Q 3
-Are the asset/component inventory, and the associated end-of-life management process, reviewed and updated?
-
-*Answer Options*
-
-- No
-- Yes, we do it when requested
-- Yes, we do it every few years
-- Yes, we do it at least annually
-
-### Quality Indicators
-- The organization is not using unsupported applications or dependencies
-- No active customers are using product versions that are no longer supported
-
-### Notes
-
-- Track if the application / service / firewall rule is being used or not / how much.
-- Product support roadmap - expand on L2 by having support / sales staff proactively reaching to customers
 
