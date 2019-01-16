@@ -41,36 +41,6 @@ Include all the tools required for the build to succeed in the documentation. Re
 
 Include steps in the build process for signing the generated binaries with an appropriate certificate.
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-- Option 5
-
-### Quality Indicators
- * Anyone following the documentation can manually deploy a new build environment
- 
-<!--
-#### Notes
-Why is this beneficial for software security? [Added by CC]
-
-Note for implementation: "Where it is reasonable to do so, implement static application security testing (SAST) to run as part of the build process. The results from these tests should be logged centrally and actioned as necessary." [Removed from activity by CC]
-
-Reproducible build? 
-How is integrity of the build software guaranteed with this activity? [Added to M3 by CC]
-
-Does "documented" imply a separate document. How about using "captured" instead. [Not changed - question of language we adopt across the board? CC]
-
-#### Guidance
-Provide examples of which security tools might fit here.  
-are there any others than SAST(?) - how about obfuscation toolings (e.g. mobile).
-
--->
 
 ## Maturity 2
 ### Benefit
@@ -87,24 +57,6 @@ The automated process may require access to credentials and secrets required to 
 
 Ideally, handle code signing on a separate centralized server which does not expose the certificate to the system executing the build.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-  * You can rapidly and easily deploy new build environments without specialist knowledge
-  * You version and maintain the build environment as code in a repository
-  * You can easily add new security checks to any stage of the build pipeline
-  * Most of regressions in production also occur in a pre-production environment
-  * You handle build and runtime secrets via a standardised solution (e.g. secret vault)
-  * Developers cannot access secrets in the production environment
-  * You securely audit any developer access to the production environment
 
 ## Maturity 3
 ### Benefit
@@ -124,28 +76,6 @@ If technical limitations prevent the organisation from breaking the build automa
 
 Take steps to verify the integrity of the build system, for example through a deterministic method that outputs byte-for-byte reproducible builds. Compare the binary output with that from other equivalent build systems to ensure it hasn't been tampered with.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-  * You create issues for security failures during the build (and testing) process automatically, and assign them to the development team
-  * You treat regressions in production which did not get detected in pre-production as issues and you investigate them
-  * A process exists for managing risks. Temporarily accepted vulnerabilities are no longer ignored after their assigned grace period expires.
-  * The build environment is a project, complete with with regression tests.
-  * You can roll back the build environment to the exact version used to build and test a particular release of an application.
-  * You test the security of the build environment regularly.
-
-<!--
-#### Notes
-lot of overlap/duplication with the security testing stream, to be revised. [Changed to references by CC]
--->
 
 # B: Software Dependencies
 
@@ -177,27 +107,6 @@ Check the records, whenever practical, to discover any dependencies with known v
 
 Ensure that providers actively maintain components, and that they deal with security vulnerabilities appropriately. Gain assurance when dealing with open source components, either through agreements with a commercial vendor, or other means, for example, by looking at repository activity, and the developers' responses to security issues raised by the community.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-  * There is an accurate BOM for each software release
-  * There is a policy for updating dependency information before production releases
-  
-<!--
-#### Notes
-- is "Software Supply Chain" the best title for this stream? [Changed to Software Dependencies by CC]
-- Make sure activities address Docker and other system-level dependencies that are part of infrastructure as code. [I contest that this is related to deployment, not code dependencies in the build. CC]
-- associate it with "bill of materials", but add more details than Maven BOM files [Referenced. CC]
-
--->
 
 ## Maturity 2
 ### Benefit
@@ -218,29 +127,6 @@ Review components regularly to ensure that:
 
 You may need tools to automate some or all of this process, such as analyzing where the component is used, or checking for updates via a package manager. Consider using an automated tool to scan for vulnerable dependencies.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-  * There is an automatically generated BOM for each software release
-  * You can query the security status of all 3rd party components anytime
-  * There is a well-defined procedure for addressing vulnerabilities in 3rd party components
-
-<!--
-#### Notes
-Difference with level 1 is not clear enough 
-Review being more thorough? 
-Tooling is practically required to do this, very hard to get to this maturity level manually [Changed tooling from "desirable" to "necessary". CC]
-Consider whitelisting/blacklisting [Added. CC]
-Consider a curated and controlled central repository for the build. [Added. CC]
--->
 
 
 ## Maturity 3
@@ -253,25 +139,3 @@ Perform verification tests against dependencies in the same way you do against t
 
 Log results centrally, triage and validate findings appropriately as described in [Implementation > Defect Management](../implementation/i-defect-management). Vulnerable dependencies should be blacklisted and not permitted to be used during builds. Feed findings back to the vendor or open source project, following a set of ethical disclosure guidelines.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-  * You assess the security of important 3rd party components. The components are either flagged during a risk analysis or threat modelling, or are of high value to business
-  * The organisation actively contributes security improvements to important 3rd party components (testing, reports, features)
-  * Security is an important factor during 3rd party component selection
-  * Important 3rd party components have an assigned owner within the organisation. For sufficiently important components, the owner may also be the component’s champion
-  * You use multiple intelligence feeds to track the security of 3rd party components
-  * There is an active policy to minimise the number of different versions of 3rd party components
- 
-<!--
-#### Notes
-Add other verification activities as well. [Generalised the content in question. CC]
--->
