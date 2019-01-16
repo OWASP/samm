@@ -23,8 +23,8 @@
   <meta name="author" content="{{ .Site.Params.author }}">
   {{ end -}}
   <!-- Styles -->
-  <link href="{{ "css/semantic.min.css" | relURL }}" rel="stylesheet">
-  <link href="{{ "css/style.css" | relURL }}" rel="stylesheet">
+  <link href="{{ "semantic/semantic.min.css" | relURL }}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png"  | relURL }}">
   <link rel="icon" href="{{ "img/favicon.png"  | relURL }}">
@@ -38,17 +38,22 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-127457120-1');
   </script>
 </head>
 <body class="{{if eq .Kind `page` }}single{{else}}list{{end}}">
-  <header class="ui container">
-    <h1 class="ui header">
-      <div class="content">
+  <div class="headerback">
+    <header class="ui massive text menu">
+      <div class="header item">
         OWASP SAMM
-        <div class="sub header">Software Assurance Maturity Model</div>
       </div>
-    </h1>
-  </header>
-  <main class="ui container">
+      <div class="right menu">
+        <a class="item">
+          v1.5
+        </a>
+        <a class="item">
+          v2.0 Beta
+        </a>
+      </div>
+    </header>
+  </div>

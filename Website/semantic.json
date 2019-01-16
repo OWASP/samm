@@ -8,10 +8,10 @@
       "themes": "src/themes/"
     },
     "output": {
-      "packaged": "../website/themes/owasp-samm/static/semantic/",
-      "uncompressed": "../website/themes/owasp-samm/static/semantic/components/",
-      "compressed": "../website/themes/owasp-samm/static/semantic/components/",
-      "themes": "../website/themes/owasp-samm/static/semantic/themes/"
+      "packaged": "../hugo/themes/owasp-samm/static/semantic/",
+      "uncompressed": "../hugo/themes/owasp-samm/static/semantic/components/",
+      "compressed": "../hugo/themes/owasp-samm/static/semantic/components/",
+      "themes": "../hugo/themes/owasp-samm/static/semantic/themes/"
     },
     "clean": "dist/"
   },
