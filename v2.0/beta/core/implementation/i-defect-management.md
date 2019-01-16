@@ -8,8 +8,14 @@ type: security_practice
 ---
 
 # Short Description
+This practice focuses on managing security defects in software and their associated metrics.
 
 # Long Description
+The Defect Management practice focuses on collecting, recording, and analysing software security defects and enriching them with information to drive metrics-based decisions. 
+
+The practice’s first stream deals with the process of handling and managing defects to ensure released software has a given assurance level. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole. 
+
+In a sophisticated form, the practice requires formalised, independent defect management and real-time, correlated information to detect trends and influence security strategy. 
 
 # Overview
 
@@ -24,10 +30,12 @@ type: security_practice
 
 ## Maturity 1
 ### Benefits
-### Activity
-Any and all security defects should be recorded and tracked in a central location. This location can be per team, project, or organisation-wide. Defects should be assigned meaningful categories, and should be prioritised based on the risk they pose.
+All software security defects are recorded centrally.
 
-Sources of defects should include, but not be limited to, those discovered via:
+### Activity
+Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
+
+Sources of defects include, but are not limited to, those discovered via:
 
 - Threat assessments
 - Developers during self or peer code review
@@ -39,11 +47,8 @@ Sources of defects should include, but not be limited to, those discovered via:
 - Public/private vulnerability disclosures (e.g. for 3rd party libraries)
 - Bug bounties
 
-All defects should be qualified to ensure that the records only contain valid and significant issues.
-
-Manageability should be considered. Within reason, it should possible to avoid duplicate defects being recorded (i.e. it should be easy to browse/search for similar issues). Defects that are duplicates should be merged. Issues that are very similar, particularly if they are remediated in the same way, could be grouped together.
-
-The organisation should use these records to make decisions and resolve vulnerabilities. They should be updated when issues are resolved, tracking vulnerabilities over time. Security testing should be employed to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
+Qualify all defects so the records only contain valid and significant issues. Consider manageability. void recording duplicate defects, for example, searching  for similar issues. Merge duplicates and group similar issues,, particularly if you will handle them in the same way.
+The organisation uses these records to make decisions and resolve vulnerabilities. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
 
 #### Maturity Questions
 ##### Q 1
@@ -71,12 +76,14 @@ fixing is implicitly implied in this stream [Added explicitly by CC]
 
 ## Maturity 2
 ### Benefits
+Minimal defect quality gates are enforced throughout the SDLC.
+
 ### Activity
-There is a well defined threshold for defects that require resolution and/or mitigation. Where this threshold is exceeded, the intention should be that the software is not deployed into production until the relevant defects are fixed, or fall below the threshold.
+Define a threshold for defects that require resolution or mitigation. You do not deploy software into production when this threshold is exceeded, until the relevant defects are fixed, or fall below the threshold.
 
-This quality gate may not only exist at deployment to production. It can come into force at whatever point the issue is detected. For instance, if an issue is detected by static analysis prior to build, the build system might prevent the software from building. However, deloyment to production is always the final and mandatory quality gate.
+This quality gate may also exist at whatever point the issue is detected. For instance, if you detect an issue by static analysis prior to build, the build system might prevent the software from building. However, deployment to production is always the final and mandatory quality gate.
 
-Organisations should set a threshold that is right for them. It might take into consideration: 
+To set a threshold that is right your organisation, take into consideration: 
 
 - the threat model
 - the nature of applicable threats (i.e. skill level, motive, level of access, etc)
@@ -84,15 +91,15 @@ Organisations should set a threshold that is right for them. It might take into 
 - potential impact to confidentiality, integrity, availability
 - potential impact to the business
 
-Organisations should look to use a well established risk rating methodology consistently across their defect management solution.
+Use a well established risk rating methodology consistently across your defect management solution.
 
-Agreement of an appropriate threshold should be reached between persons responsible for application security and key stakeholders. 
+The people responsible for application security and key stakeholders reach an agreement regarding an appropriate threshold. 
 
-Relevant persons should be notified if a defect is raised that exceeds the defined threshold, and action should be taken to resolve or mitigate the issue before the software is deployed into a production environment. A satisfactory mitigation is one that reduces the risk to fall below the threshold.
+You notify relevant people if a defect exceeds the defined threshold, and take action to resolve or mitigate the issue before deploying the software into a production environment. A satisfactory mitigation is one that reduces the risk below the threshold.
 
-Processes should be defined for dealing with defects that are deemed as false positives, or have existing compensating controls. In other words, some defects might be identified which - at face value - exceed the threshold, but should not prevent the software from being deployed. This might be because they are false positives and have therefore been misreported, or because there are existing mitigations that had not been taken into consideration. Such defects should still be recorded somewhere for accountability purposes. 
+Define processes for dealing with false positive defects, or ones with existing compensating controls. In other words, some defects identified as exceeding the threshold should not prevent the software from being deployed. This might be because they have been misreported, or because you have not considered existing mitigations. Record such defects for accountability purposes.
 
-Defects below the threshold might be deployed into production environments, but these should still be considered for resolution or mitigation at a later time.
+Consider defects below the threshold deployed into production environments for resolution or mitigation at a later time.
 
 ### Maturity Questions
 #### Q 1
@@ -117,14 +124,16 @@ definition and agreement of the "threshold" and related timelines is part of thi
 
 ## Maturity 3
 ### Benefits
+Quality gates are enforced by a security officer following formal processes.
+
 ### Activity
-An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) should be responsible for managing known defects and enforcing the threshold defined at maturity 2. 
+An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) is responsible for managing known defects and enforcing the defined threshold. 
 
-Defects that exceed the threshold should block or prevent deployment into production, until they are resolved, or fall below the threshold. This could be achieved automatically in the build and deployment processes, if they are integrated with the defect management system. Alternatively, the deployment process could include a step that requires approval from an information security officer.
+Defects that exceed the threshold block or prevent deployment into production, until they are resolved, or fall below the threshold. You can do this automatically in the build and deployment processes, if they are integrated with the defect management system. Alternatively, the deployment process could include a step that requires approval from an information security officer.
 
-More emphasis is placed on maintaining the list of known defects, and ensuring that their risk rating and categorisations remain accurate over time (e.g. in-line with new research and changing opinions within the industry, as well as other factors like the improving capabilities of some adversaries). 
+Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries). 
 
-This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Accepted and mitigated risks should be reconsidered periodically to ensure that they are suitable to keep their statuses (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).
+This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Review the status of accepted and mitigated risks periodically (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).
 
 ### Maturity Questions
 
@@ -144,15 +153,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 1
 ### Benefits
+Basic information about defects is shared and used for remediation and training decisions.
+
 ### Activity
-Calculate and share basic information about defects, and use this data to make decisions about remediation. Basic information might include: 
+Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include: 
 
-- The total number of defects. Tracking this over time, in particular, can show the effectiveness of resolution efforts.
-- The software components the defect resides in, which can be indicative of where attention is most required, and where security flaws are most likely to appear in the future.
-- The type / category of the defect, which can suggest areas where the development team might need further training.
-- The severity of the defect, which can help the organisation understand the software's risk exposure in a simple sense.
+- The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.
+- The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.
+- The type or category of the defect, which suggests areas where the development team need further training.
+- The severity of the defect, which can help the organisation understand the software's risk exposure.
 
-Feedback what you learn through these metrics to the teams involved. Use this data to inform your decision-making in terms of remediation priority, and training requirements (i.e. secure development).
+Outcomes are fed back to the teams involved. This data is used to make decisions about remediation priority and training requirements.
+
+Defects are considered within the wider metrics throughout the oragnisation. See [Governance > Strategy & Metrics](../g-strategy-metrics) > B.
 
 ### Maturity Questions
 #### Q 1
@@ -180,20 +193,30 @@ levels?
 
 ## Maturity 2
 ### Benefits
+Advanced defect metrics are calculated and shared and used to taylor the assurance program.
+
 ### Activity
-Calculate and share more advanced metrics. These might include:
+Calculate and share more advanced metrics. These can include:
 
-- Formal risk ratings that consider likelihood and impact
-- Number of open vulnerabilities above a defined threshold in terms of severity or risk
-- Risk per software component / product / project / business unit
-- Amount of accepted risk
-- Time to detect vulnerabilities
-- Time to resolve vulnerabilities
-- Window of exposure where vulnerabilities are detected on live systems
-- Coverage of software components by verification tests
-- Number of regressions / reopened vulnerabilities
+- Formal risk ratings that consider likelihood and impact.
+- Number of open vulnerabilities above a defined threshold in terms of severity or risk.
+- Risk per software component / product / project / business unit.
+- Amount of accepted risk.
+- Time to detect vulnerabilities.
+- Time to resolve vulnerabilities.
+- Window of exposure where vulnerabilities are detected on live systems.
+- Coverage of software components by verification tests.
+- Number of regressions / reopened vulnerabilities.
 
-This data should be available in an accessible way to management, information security persons, developers and engineers who may use it to inform their decision-making. For example, a central dashboard might be provided.
+The risk metric takes into account the criticality of the asset and the resulting business impact. Defects are mapped to threats to better understand their risk to the organization. See Design > Threat Assessment > B.
+
+Tools such as spreadsheets or dedicated vulnerability tracking software are used to calculate metrics automatically. This makes collecting and acting on metrics a managable exercise.
+
+Make this data accessible to management, information security people, developers, and engineers to inform their decision-making. For example, provide a central dashboard. Metrics should guide remediation efforts and resource allocation.
+
+Security teams are able to report an accurate picture of the organisation's defect and risk metrics to executive management.
+
+A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme. 
 
 ### Maturity Questions
 
@@ -220,8 +243,10 @@ describe the type of lessons learned and put more emphasis on this
 
 ## Maturity 3
 ### Benefits
+Defect metrics are enriched with real time information and correlated to detect trends and influence the overall security strategy.
+
 ### Activity
-Ensure that defects are complimented with a range of fields, such as:
+Add information to defects, such as:
 
 - Category
 - CVE / CWE
@@ -232,9 +257,11 @@ Ensure that defects are complimented with a range of fields, such as:
 - Risk
 - CVSS
 
-Use these fields to look for trends in new defects as they are raised. Graph and search for trends across various timespans such as a week, a month, and a year. 
+For each defect, up-to-date or real-time data on the availability of exploits and hacker activity in the wild is used to contribute to risk scores.
 
-Analyse these trends continually and leverage the findings to influence the design and implementation of software.
+Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs and dashboarding. Trends are analysed and the results are used to influence the design and implementation of software and the overall security stategy.
+
+Metrics are used to empower the whole organisation. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.
 
 ### Maturity Questions
 
