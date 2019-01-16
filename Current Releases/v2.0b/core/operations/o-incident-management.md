@@ -55,32 +55,6 @@ Even if you don’t have a 24⁄7 incident detection process, unavailability of 
 
 You have a defined and generally known contact point for formal creation of security incidents.
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-Typically, on this maturity level you have:
-
-- defined and published the most probable incident scenarios
-- assigned a person or role responsible for incident detection
-- identified and evaluated some suspicious events
-- documented the escalation process
-- put reasonable effort into achieving log integrity
-
-<!--
-### Notes
-- Should whether or not you do 24/7 detection be specified by maturity level? Maybe maturity should relate to risk rather than timing -> **Fourth paragraph reformulated**
-- Log retention - risk-based decision on how long logs should be kept to aid -> **First paragraph edited**
-- Log trustworthiness / integrity - have they been tampered with??? -> **Indicator added**
--->
 
 ## Maturity 2
 
@@ -98,33 +72,6 @@ You detect possible security incidents according to an available checklist. The 
 
 If you evaluate an event as a security incident with high level of confidence, the responsible staff is notified immediately, even outside business hours. You  perform further analysis and start the escalation process.
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level, you:
-
-- employ some automated measures for incident detection
-- have up-to-date documentation for the incident detection process
-- have documentation for the most probable incident scenarios
-- integrate every new system taken to production into the process
-
-<!--
-### Notes
-- Software-driven application-specific logs (whereas level 1 might be general logs) -> **Second paragraph**
-- Look at known kill-chains / attacks and work backwards to select relevant logs - proactively checking that you are collecting the right data -> **third paragraph**
-- Added value of the process -> **In the benefit now?**
-- Centralized logging -> **2nd paragraph**
--->
 
 ## Maturity 3
 
@@ -148,31 +95,6 @@ You use correlation of logs for incident detection for all reasonable incident s
 The quality of the incident detection does not depend on the time or day of the event. If you do not act upon the security event within a defined time, it triggers further notifications according to a defined escalation path. The efficiency is of the incident is also checked by exercises with defined improvement action points.
 
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- there is evidence that you have improved the process within the last year
-- you evaluate suspicious events in less than one hour from their  occurrence and  document the result
-- the detection process has its own KPIs
-- there are tickets in dev queues with requests for log data improvement
-
-<!--
-### Notes
-- Tabletop exercises / simulation exercises -> **Last paragraph edited**
-- Centralized logging -> **Covered in level 2**
--->
 
 # B: Incident Response
 
@@ -192,29 +114,6 @@ You usually don't go for dedicated incident response personnel on this maturity 
 
 When security incidents happen, you document the steps taken. Protect this information from unauthorized access if necessary. 
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- the person responsible for the process is documented and generally known
-- all security incidents are documented in a consistent way
-- first KPIs for security incidents are collected
-
-<!--
-### Notes
-- Define 'incident' -> **Defined in Practise Long Description**
--->
 
 ## Maturity 2
 
@@ -233,31 +132,6 @@ Knowledgeable and properly trained staff is available in and outside of business
 
 The process includes a policy for carrying out root cause analysis and its expected outcomes.
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- You perform Root Case Analysis for the most severe security incidents 
-- Security playbooks are available for the most common incidents
-- there is dedicated trainings for incident response staff
-- forensic analysis tooling is available
-
-<!--
-### Notes
-- Root cause analysis - should be about the incident in question (becomes more advanced at L3) -> **last paragraph reformulated**
-- You have to communicate the incident (within a certain timeframe). Involve authorities if necessary. -> **Third bullet point adapted**
--->
 
 ## Maturity 3
 
@@ -275,30 +149,3 @@ Carry out incident and emergency exercises are regularly. Use the results for pr
 
 Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement. 
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-Typically, on this maturity level:
-
-- You perform Root Case Analysis for all security incidents unless there is a specific reason not to do so
-- You identify and document improvements in the RCAs and you have probably implemented them
-- You have carried out some exercises in the last year.
-- There is a roadmap for process improvement
-- Process metrics are available (e.g. resolution speed, affected customers, ...)
-- In most incidents, you use playbooks to a high degree
-
-<!--
-### Notes
-- Root cause analysis - feedback loop - learning and improving beyond the incident at hand -> **first paragraph updated**
-- Automated incident response (e.g. rasp [Runtime Application Self-Protection Security], phantom, demisto) -> **automation mentioned in the first paragraph**
-- Not concrete - what are you going to do to concretely improve on L2 -> **Mentioned RCAs, Exercices, Metric evaluation...**
--->
