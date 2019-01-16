@@ -46,41 +46,6 @@ Identify the infrastructure components. These are all the systems, components an
 From the architecture view, analyze each component in terms of accessibility of the interfaces from authorized users, anonymous users, operators, application-specific roles, etc.
 For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Note any breaks in consistency as assessment findings.
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality indicators
-<!--
-#### Notes
-Use of checklists
-Review the design choices in each of the key vulnerability categories defined by the security frame. (TBD)
-
-Supporting architecture are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
-Examples:
-build / deployment systems
-0auth, SSO, LDAP, ADFS, IAM, Firebase Authentication, ...
-Web services, application services/framework (e.g. .NET framework), middleware, ESBs, ...
-(Cloud) Storage, Backup
-Analytics, Monitoring,
-(cloud) acceleration, load balancing, WAF, (D)DOS protection
-Does this include connectivity, networking, OS (?)
-
-remarks:
-by combining application and supporting architecture, we can introduce an extra activity stream (DONE)
-threat modeling as a verification activity versus design? (TBD)
--->
-
-#### Guidance
-https://www.owasp.org/index.php/How_to_perform_a_security_architecture_review_at_Level_1 . 
-https://www.owasp.org/index.php/ASVS_V1_Architecture . 
-http://www.guidanceshare.com/wiki/Security_Engineering_Explained_-_Chapter_5_-_Security_Architecture_and_Design_Review
 
 ## Maturity 2 - Validate the architecture security mechanisms
 ### Benefit
@@ -92,25 +57,6 @@ For each interface in the application and infrastructure architecture, formally 
 The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling, and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided and note any missing or unclear features as findings. Identify and validate the high-risk design decisions made as part of the architecture.
 Conduct analysis to update the findings based on changes made during the development cycle.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-<!--
-#### Notes
-* expose the high-risk design decisions that have been made (DONE)
-* Remove “well implemented” from maturity 2. Move it more into 3 to increase the difference between the 2 levels. (DONE)
-* remove/adapt list of 6 in maturity 2. Perhaps add user/access management. (DONE)
-*  Architecture review should be performed once per release is not CICD friendly. Need to establish what a release is. Or reword. (DONE)
--->
-#### Guidance
 
 ## Maturity 3 - Review of the architecture components effectiveness
 ### Benefit
@@ -122,27 +68,8 @@ Review the effectiveness of the architecture components. Are the architecture se
 Evaluate effectiveness for the security mechanisms provided by the components in terms of identification, protection, detection, response, and recovery of security or privacy issues. Review their effectiveness in terms of strategy alignment, appropriate support, and scalability. Feed any findings back into the Security Architecture practice.
 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-<!--
-#### Notes
--->
-#### Guidance
 
 # B: Architecture Compliance
-<!--
-**Notes**
-* **This will be rewritten. See notes section at the top of the practice**
--->
 
 ## Maturity 1 - Ad-hoc review of the architecture against compliance requirements
 ### Benefit
@@ -156,21 +83,6 @@ Review each item on the list of known compliance requirements against the archit
 Security-savvy technical conduct this analysis staff with input from architects, developers, managers, and business owners as needed. Update it during the design phase when there are changes in compliance requirements or high-level system design.
 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-<!--
-#### Notes
--->
-#### Guidance
 
 ## Maturity 2 - Analyze the architecture against known security requirements and best practices
 ### Benefit
@@ -181,22 +93,6 @@ Analyze the architecture against known security requirements and best practices.
 
 Review each item on the list of known security requirements against the architecture. Elaborate the analysis to show the design-level features that address each security requirement. Perfor separate, detailed analysis iterations on parts of the architecture to simplify capturing this information if the system is large or complex. The overall goal is to verify that each known security requirement has been addressed by the system design. Note any security requirements \not clearly provided at the design level as assessment findings.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-<!--
-#### Notes
--->
-#### Guidance
-Assures improvement of the security architecture practice, based on feedback from the architecture assessment activities. 
 
 ## Maturity 3 - Feed the architecture review results back into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
 ### Benefit
@@ -205,18 +101,4 @@ Assures improvement of the security architecture practice, based on feedback fro
 Feed the architecture review results back into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
 
 Map security features to the security and compliance requirements in a traceability matrix. Identify the cause of gaps in the security assessment  and deal with them. Consider recurring architecture findings as input for the security architecture practice to update the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Guidance
 
