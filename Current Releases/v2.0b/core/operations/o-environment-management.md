@@ -44,33 +44,6 @@ You acknowledge the importance of configuration hardening of third party compone
 
 Work with publicly available information sources (open source projects, vendor documentation, blog articles), increasing your know-how from those and implementing at least "low hanging fruits". 
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- you use external public sources during configuration
-- you document carried out configuration
-
-<!--
-### Notes
-description more L2 aligned, versus best-effort **1st paragraph reformulated**
-full stack - too "devopsy"? -> **1st paragraph reformulated**
-definition = configuration hardening? -> **In the stream definition**
-L1 = identify what matters to protect your environment and what is missing and prioritized best-effort hardening -> **1st paragraph reformulated**
--->
-
-#### Guidance
-
 ## Maturity 2
 
 ### Benefit
@@ -85,34 +58,6 @@ The baselines have an owner responsible for keeping them up to date (e.g. if new
 
 In larger environments, derive configuration of all instances from your own master, where there is already common ground work. Consider using automated tools for hardening configuration.
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- You document security baselines for commonly used components
-- You have improved these baselines in the last year
-- You use an own configuration master when beneficial
-
-<!--
-### Notes
-- standards in place -> **I think it's covered already**
-- standard way if deploying the baselines -> **added in 1st paragraph**
-- Consider automated tools / solutions for hardening? Not all software can be hardened automatically. -> **3rd paragraph updated**
-- Where it makes sense (e.g. software with multiple instances), create a golden image/configuration that can be deployed widely -> **added in 3rd paragraph**
--->
-
-#### Guidance
 
 ## Maturity 3
 
@@ -128,31 +73,6 @@ Verify the validity of the current hardening baselines in the component update p
 
 Periodically audit the continuous improvement process for the baselines and act upon the resulting findings.
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- there is a dashboard covering the hardening state of particular components
-- there are security findings documented for nonconformities to the configuration baselines
-- tools for configuration hardening are in place (either acquired or internally developed)
-
-<!--
-### Notes
-non-conformities / self-healing (overwriting) -> **1st paragraph updated**
--->
-
-#### Guidance
 
 # B: Patching and Updating
 
@@ -174,46 +94,6 @@ Share knowledge of the patching process for components. . Teams cooperate if nec
 
 You can find out the versions of all components in use  to evaluate whether you are affected by a particular public security vulnerability. 
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- there is BOM for the used applications
-- you test applications after patching, if relevant
-- you have updated at least customer facing applications in the last year
-
-
-<!--
-### Notes
-- activities would be different for container based deployments -> **not sure if any todo**
-- implictly assumes you have an overview of what needs to be patched. -> **not sure if any todo**
-- coverage can be measured with the Q&As -> **I don't understand this**
-- use maintenance windows to oppurtunistically patch/upgrade software -> **First paragraph updated**
-- you know what patches are missing -> **I think this implies process -> level 2**
-- identify patching dependencies -> **I don't understand this**
-- L1 - identify what matters and what is missing and prioritized best-effort patching
-- L2 - strategy , process , calendar
-- L3 - SLA / reporting
-From SAMM Summit...
-- Reference to software supply chain **How?**
-- Reference to change management **How?**
-- How do you deal with zero days / vulnerabilities without patches? -> **level 2**
-- Validating the patch in terms of integrity -> **too low-level imho**
-- Checking the patch won't break your application / system -> **added**
--->
-
-#### Guidance
 
 ## Maturity 2
 
@@ -229,34 +109,6 @@ There is a guidance for prioritization of particular updates, including concerns
 
 If there is a known critical issue while the patch is not available yet, triage and handle this issue (e.g. by finding workarounds, monitoring measures, or even switching off the affected applications).
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- you follow the update calendar of vendors
-- you have defined and use 3rd party sources for vulnerability intelligence
-
-<!--
-### Notes
-- baseline or target levels defined -> **I'm missing an example how this could look like**
-- patch/upgrade calendar followed -> **2nd paragraph updated**
-- manage process information (e.g. gap) -> **Don't understand this**
-- Mention a patch schedule - structured approach. Take into account when the vendor releases patches. Regular patch windows - times to patch unforeseen patches / out-of-band patches. -> **2nd paragraph updated**
-- Move conformity to level 3? -> **done**
--->
-
-#### Guidance
 
 ## Maturity 3
 
@@ -270,29 +122,3 @@ You have very good insight (e.g. through a dashboard) of the patching strategy a
 
 If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable. 
 
-### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- a dashboard containing patch state information exists
-- there is an evidence of patching procedures
-- blind spots are identified and acted upon
-- pathing takes place also outside of regular business hours for critical issues
-
-<!--
-### Notes
-- 
--->
-
-#### Guidance
