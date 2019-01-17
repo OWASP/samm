@@ -1,0 +1,11 @@
+baseURL = "https://owaspsamm.org/"
+languageCode = "en-us"
+title = "OWASP SAMM"
+contentDir = "../../Current Releases/"
+theme = "owasp-samm"
+[params]
+  ghrepo = "https://github.com/OWASP/samm/"
+  ghraw = "https://raw.githubusercontent.com/OWASP/samm/"
+  ghcontent = "Current Releases/"
+[taxonomies]
+  business_function = "business_functions"
