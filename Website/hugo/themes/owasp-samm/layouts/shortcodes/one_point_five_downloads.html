@@ -3,7 +3,7 @@
   {{ range $download := (sort .Site.Data.one_point_five_downloads "weight" "asc") }}
   <div class="ui card">
     <a class="image" href="{{ $download.link }}">
-      <img src="{{ $download.image }}">
+      <img src="/{{ $download.image }}">
     </a>
     <div class="content">
       <a class="header" href="{{ $download.link }}">{{ $download.title }}</a>
