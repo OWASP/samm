@@ -5,11 +5,10 @@ type: security_practice
 ---
 The mission of OWASP SAMM is to be the prime maturity model for software assurance that provides an effective and measurable way for all types of organizations to analyse and improve their software security posture. OWASP SAMM supports the complete software lifecycle, including development and acquisition, and is technology and process agnostic. It is intentionally built to be evolutive and risk-driven in nature.  
 
-The original model (v1.0) was written by Pravir Chandra and dates back from 2009. Over the last 10 years, it has proven a widely distributed and effective model for improving secure
-software practices in different types of organisations throughout the world. Translations and supporting tools have been contributed by the community to facilitate
-adoption and alignment. With version 2.0, we further improve the model to deal with some of its current limitations.
+The original model (v1.0) was written by Pravir Chandra and dates back from 2009. Over the last 10 years, it has proven a widely distributed and effective model for improving secure software practices in different types of organisations throughout the world. Translations and supporting tools have been contributed by the community to facilitate adoption and alignment. With version 2.0, we further improve the model to deal with some of its current limitations.
 
 After a period of intensive discussions and with input from practitioners and the OWASP community during summits in Europe and the US on the best way forward, we take a new approach for version 2.0 based on the following improvements.
+
 - The model is development paradigm agnostic, it supports waterfall, iterative, agile and devops development, and potentially new future paradigms as well. The model provides a stable base with objectives and activities that should be considered from a generic/holistic point of view, but leaves open how to best fit this in a particular development context or paradigm. Particular activities may even not apply in a particular context.
 - We foresee for contributors to OWASP SAMM to provide, on a less formal basis, guidance in separate guidance sections (or documents) to provide extra insights in how to apply this
 for particular development paradigms (or technologies).
