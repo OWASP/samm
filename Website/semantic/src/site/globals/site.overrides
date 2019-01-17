@@ -67,7 +67,7 @@ main {
       font-weight: 600;
       text-transform: uppercase;
     }
-
+    text-decoration: none;
   }
   h1.ui.title.header, h1.ui.title.header:first-child {
     padding-top: 40px;

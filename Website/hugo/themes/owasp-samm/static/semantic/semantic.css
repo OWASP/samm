@@ -651,14 +651,13 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #690d62;
-  text-decoration: none;
+  color: #aa2297;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #47054d;
-  -webkit-text-decoration: underline ink;
-  text-decoration: underline ink;
+  color: #a20c8d;
+  text-decoration: underline;
 }
 
 /*******************************
@@ -807,6 +806,7 @@ main {
   color: #fff;
   text-align: center;
   padding-top: 30px;
+  text-decoration: none;
 }
 
 .homeback .version.square .ui.hidden.divider {
@@ -16069,7 +16069,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #47054d;
+  color: #a20c8d;
   -webkit-box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
@@ -16541,12 +16541,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #690d62;
+  color: #aa2297;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /* Linked Item Icons */
@@ -16561,12 +16561,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #690d62 !important;
+  color: #aa2297 !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #47054d !important;
+  color: #a20c8d !important;
 }
 
 /* Floated Content */
@@ -16742,7 +16742,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /* Linking Content */
@@ -16752,7 +16752,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #47054d !important;
+  color: #a20c8d !important;
 }
 
 /*-------------------
@@ -19913,7 +19913,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #690d62;
+  color: #aa2297;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -20255,11 +20255,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #690d62;
+  color: #aa2297;
 }
 
 .ui.breadcrumb a:hover {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /* Icon Divider */
@@ -29429,7 +29429,7 @@ body.single main table.large.table,
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /* Meta */
@@ -29549,7 +29549,7 @@ body.single main table.large.table,
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /*******************************
@@ -30324,7 +30324,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /*--------------
@@ -31063,7 +31063,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /* Meta */
@@ -31294,7 +31294,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #47054d;
+  color: #a20c8d;
 }
 
 /*--------------

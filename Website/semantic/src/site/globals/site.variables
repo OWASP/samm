@@ -10,6 +10,5 @@
 @fontSize : 16px;
 
 /* Links */
-@linkColor: #690d62;
-@linkHoverColor: #47054d;
-@linkHoverUnderline: underline ink;
+@linkColor: #aa2297;
+@linkUnderline: underline;

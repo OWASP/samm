@@ -102,13 +102,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #690d62;
-  text-decoration: none;
+  color: #aa2297;
+  text-decoration: underline;
 }
 a:hover {
-  color: #47054d;
-  -webkit-text-decoration: underline ink;
-          text-decoration: underline ink;
+  color: #a20c8d;
+  text-decoration: underline;
 }
 
 
@@ -245,6 +244,7 @@ main {
   color: #fff;
   text-align: center;
   padding-top: 30px;
+  text-decoration: none;
 }
 .homeback .version.square .ui.hidden.divider {
   margin-top: 5px;

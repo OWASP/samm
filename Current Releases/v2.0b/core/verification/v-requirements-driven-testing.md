@@ -7,9 +7,7 @@ status           : draft        #new, draft, for_review, release_candidate, done
 weight: 2
 type: security_practice
 ---
----
-assignedto       : Seba (seba@owasp.org)
----
+
 # Short Description
 
 Create and integrate both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).
