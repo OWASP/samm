@@ -31,11 +31,7 @@ Consider and implement security test correlation tools to automate the matching 
 
 
 
-<!--
-**Notes**
-* Make code review more explicit (in both streams)
-status: implemented
--->
+
 
 # A: Scalable Baseline
 
@@ -55,39 +51,6 @@ There are both commercial and open-source products available to cover popular pr
 
 Use input from security-savvy technical staff as well as developers and development managers in the selection process, and review overall results with stakeholders.
 
-#### Maturity Questions
-##### Q 1
-##### Do project teams use automated testing tools to find security problems (static and dynamic)?
-
-**Answer Options**
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-### Quality Indicators
-
-<!--
-#### Notes
-
-*Increase the frequency of tests and extend their coverage.*
-status: included in the activity.
-
-*Basic security issues are detected and fixed by the development team through automation, allowing manual testing to focus on more complex attack vectors.*
-status: took this as short Description
-
-*this is a merged copy of SAMMv1.5 CR2 and ST2*
--->
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 
 ## Maturity 2 - Employ application-specific security testing automation
 
@@ -102,48 +65,6 @@ Customize automated security testing tools to the specific software interfaces i
 
 Project teams focus on buildout of granular security test cases based on the business functionality of their software. A central software security group focuses on specification of automated tests for compliance and internal standards.
 
-### Maturity Questions
-#### Q 1
-#### Are security test cases comprehensively generated for application-specific logic?
-
-**Answer Options**
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-### Quality Indicators
-
-<!--
-#### Notes
-*this is an adapted copy of SAMMv1.5*
-
-*replace "a security auditor" by a central software security group?*
-status: updated activity
-
-*add the role of a security champion?*
-status: updated activity
-
-*review/update the questions*
-status: not clear why?
-
-* Remove iterating through requirements.
-status: updated activity
-
-* Write rules for the standards (org-wide) and app-specific.
-** Zap for example could be app-specific, secure coding rules not as they'll be harder to do.
-status: this is already part of the text?
-
--->
-
-#### OWASP References
-* https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3 - Integrate automated security testing into the build and deploy process
 
@@ -161,47 +82,6 @@ For each project release, present results from automated and manual security tes
 Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. Spread the knowledge of the created security tests and the results across the development team to improve security knowledge and awareness inside the organisation.
 
 
-### Maturity Questions
-#### Q 1
-#### Do projects use integrated automation to evaluate security test cases?
-
-**Answer Options**
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-### Quality Indicators
-
-
-<!--
-#### Notes
-
-*Knowledge is spread across the development team to improve security knowledge inside the organisation*
-status: updated activity
-
-*this is a copy of SAMMv1.5 (to be extended with deployment)*
-
-* should include improving the quality part of testing, not just adding it to the process.
-status: updated activity
-
-* Incorporate a ThreatFix/Splunk like concept here.
-* Link to defect management
-status: updated activity
--->
-
-#### Guidance
-* Select tests which can run before deploy, after, etc.
-
-
-#### OWASP References
-* https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 # B: Deep Understanding
 
@@ -217,37 +97,6 @@ Code-level vulnerabilities in security-critical parts of software can have drama
 
 During development cycles where high-risk code is changed and reviewed, development managers triage the findings and prioritize remediation appropriately with input from other project stakeholders.
 
-### Maturity Questions
-#### Q 1
-#### Do project teams manually review selected high-risk components?
-
-**Answer Options**
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-### Quality Indicators
-
-
-<!--
-#### Notes
-
-*this is a copy of SAMMv1.5*
-
-* late and ad-hoc, more blackbox like approach + lower quality of methodology (any owasp-like)
-status: updated activity
--->
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
-
 
 ## Maturity 2 - Conduct manual penetration testing
 
@@ -262,36 +111,6 @@ Penetration testing cases include both application-specific tests to check sound
 
 Prior to release or deployment, stakeholders review results of security tests and accept the risks indicated by failing security tests at release time. Establish a concrete timeline to address the gaps over time. Spread the knowledge of manual security testing and the results across the development team to improve security knowledge and awareness inside the organisation.
 
-### Maturity Questions
-#### Q 1
-#### Is manual penetration testing performed on high risk projects prior to release (both statis and dynamic)?
-
-**Answer Options**
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-### Quality Indicators
-
-<!--
-
-#### Notes
-
-*this is a copy of SAMMv1.5*
-
-* scheduled tests, more whitebox like approach (e.g. with interaction with devs). Improve quality of methodology used.
-status: updated activity
--->
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2
 
 ## Maturity 3 - Integrate security testing into development process
 
@@ -304,39 +123,3 @@ Integrate security testing in parallel to all other development activities, incl
 With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run as part of the development process, and findings should be inspected as they occur. Feed results from other security test activities into adding or improving the integrated security testing as part of development. For example, if a security penetration test identifies issues with session management, any changes to session management should trigger  explicit security tests before pushing the changes to production.
 
 Security champions and the central secure software group review results from automated and manual security tests during development including these results as part of the security awareness trainings towards the development teams. Integrate lessons learned in overall playbooks to improve security testing as part of the organisation development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
-
-### Maturity Questions
-#### Q 1
-#### Do projects use security testing to evaluate security during development?
-
-**Answer Options**
-
-- No
-- Yes, a small percentage are/do
-- Yes, at least half of them are/do
-- Yes, the majority of them are/do
-
-### Quality Indicators
-
-<!--
-#### Notes
-
-*this is a copy of SAMMv1.5*
-
-* continuous (involve pentesters in remediation with devs), improve methodology
-status: updated activity
-
-* Triggers for out-schedule repeat assessments based on results of pentests (e.g. if pentest identifies issues with session management, any changes to session management will trigger an explicit pentest before pushing to production)
-status: updated activity
-
-* Feedback from pentests used to drive requirements is handled within the education activity.
-status: updated activity
--->
-
-#### OWASP References
-* Link 1
-* Link 2
-
-#### External References
-* Link 1
-* Link 2

@@ -37,25 +37,6 @@ Handle access to the production credentials and secrets for the tools and engine
 
 People with access to production have to go through a minimum level of training or certification to ensure competency in this sensitive environment. Refer to [Governance > Education & Guidance](../governance/g-education-guidance/).
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-- Separation of roles/responsibilities regardless of size/process? How to marry this with DevOps practices? Whenever 3rd party certification is involved - it has to be done by a separate "department" (compliance requirement = segregation of duties)? consider 4-eyes principle? require training before being granted access? [Added. CC]
-
-ACTION: review this stream completely
--->
-
 
 ## Maturity 2
 ### Benefits
@@ -68,20 +49,6 @@ Deployments include appropriate automated security checks such as DAST and malwa
 
 Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
 
-### Maturity Questions
-
-#### Q 1
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
 
 ## Maturity 3
 ### Benefits
@@ -93,18 +60,6 @@ The deployment process automatically verifies the integrity of the binaries by c
 If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organisation's wider governance surrounding trusted third-party suppliers.
 
 Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, do it manually.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
 
 
 # B: Configurations/Secret Management
@@ -122,22 +77,6 @@ Before deployment, store sensitive credentials and secrets for production system
 
 Encrypt secrets at rest in configuration files during deployment. Manage  keys so the application can access the secrets while running, but an attacker who obtains the configuration files alone cannot decipher them.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-Level 1: you cannot have plaintext credentials in code?  Config file separate? [Added by CC]
--->
 
 ## Maturity 2
 ### Benefits
@@ -149,23 +88,7 @@ Have an automated process to add credentials and secrets appropriate for the tar
 
 Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a UAT or production environment.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
 
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-procedures when this happens? how to resolve this?
-Protection of secrets in config file
--->
 
 ## Maturity 3
 ### Benefits
@@ -177,26 +100,3 @@ Where secrets are not predefined or dependant on another system, generate them d
 Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.
 
 Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them, from  a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-<!--
-#### Notes
-push parts of this to level 2 and concentrate level 3 on validation and improvement of this process [Added by CC]
-detection of secrets in code? e.g. looking for strings with a high level of entropy. [Added by CC]
-a mature process when this happens anyway? part of incident process?
-
-#### Guidance
-truffleHog reference?
-also go into container level when appropriate
--->

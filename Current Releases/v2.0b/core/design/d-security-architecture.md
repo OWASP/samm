@@ -33,23 +33,6 @@ For perimeter interfaces, the design team considers each principle in the contex
 
 Train each project team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Quality Indicators
-
-#### Notes
-Still put focus on perimeter interfaces ?
-
-I don't like the fact that the Practice is called Secure Architecture and the stream almost has the same name.
-
 
 ## Maturity 2
 ### Benefit
@@ -67,21 +50,6 @@ These patterns can originate from specific projects or applications, but make su
 To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.
 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-Combination of the 2 level 2 activities of SAMM1.5
-
 ## Maturity 3
 ### Benefit
 Software architectures are standardized to minimize security risks.
@@ -92,21 +60,6 @@ Build a set of reference architectures that select and combine a verified set of
 Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the life-cycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization.
 
 Monitor weaknesses or gaps in the set of security solutions available in your organisation continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-
 
 
 # B: Technology Management
@@ -120,24 +73,6 @@ People often take the path of least resistance in developing, deploying or opera
 
 Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the solution architect's knowledge, or study the development and operating environment and artefacts. Then evaluate them for their security quality and raise important issues (LINK TO defect management).
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-- Most important technologies are elicited
-- Technologies are evaluated by the lead developer or architect
-- Important technological risks are identified
-- Undesired risky technologies in the solution are replaced in accordance with the organization's policy
-
-### Notes
-
 
 ## Maturity 2
 ### Benefit
@@ -150,25 +85,6 @@ Create a list and share it across the development organization as recommended te
 
 Senior developers and architects create this list, including input from managers and security auditors. Share this list of recommended components with the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-- Technologies in use have been identified throughout the software portfolio
-- A list of preferred technologies has been defined and approved by lead architects and developers
-- The list of preferred technologies has been shared across the development organisation
-- The list of preferred technologies is regularly (at least yearly) reviewed and updated
-
-### Notes
-Note that this used to be level 1 in SAMM 1.5. OK ?
-
 ## Maturity 3
 ### Benefit
 Compliance with the list is proactively monitored and violations are managed
@@ -177,22 +93,3 @@ Compliance with the list is proactively monitored and violations are managed
 For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks.
 
 Verify several factors with project teams. Identify use of non-recommended technologies to determine if there are gaps in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, implement functionality in the reference platforms as the organization evolves and project teams request it.
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-- Applications are regularly monitored for the correct use of the list of preferred frameworks
-- Violations against the list are solved in accorandance with the organisational's policy
-- The amount of violations on a yearly basis falls within objectives or concrete actions are taken to improve
-
-
-### Notes
-Align legacy software to these standards. -> realistic ? Also move to legacy Stream (Operations)

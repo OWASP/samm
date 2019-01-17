@@ -11,7 +11,7 @@ type: security_practice
 This practice focuses on defining appropriate security requirements for your software and your software suppliers.
 
 # Long Description
-This practice focuses on security requirements that are important in the context of secure software. A first type deals with typical software-related requirements, to specify objectives and expectations to protect the service and data at the core of the application. A second type deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. It is important to streamline the expectations in terms of secure development because outsourced development can have significant impact on the security of the application. The security of 3rd party (technical) libraries is part of the software supply chaing stream (LINK Secure Build), so it is not included in this practice.
+This practice focuses on security requirements that are important in the context of secure software. A first type deals with typical software-related requirements, to specify objectives and expectations to protect the service and data at the core of the application. A second type deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. It is important to streamline the expectations in terms of secure development because outsourced development can have significant impact on the security of the application. The security of 3rd party (technical) libraries is part of the software supply chain stream (LINK Secure Build), so it is not included in this practice.
 
 # Overview
 | | A: Software Requirements | B: Supplier Security |
@@ -35,20 +35,6 @@ At the same time, review the functionality from an attacker perspective to under
 Security objectives can relate to specific security functionality you need to add to the application (e.g., "Identify the user of the application at all times") or to the overall behaviour and quality of the application (e.g., "Ensure personal data is properly protected in transit"), which will not lead to new functionality. Follow good practices for writing security requirements. Make them specific, measurable, actionable, relevant and time-bound (SMART). Beware of adding requirements too general-purpose to not relate to the application at hand (e.g., The application should protect against the OWASP Top 10). While they can be true, they don't add value to the discussion.
 
 
-#### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-
 
 ## Maturity 2
 ### Benefit
@@ -62,21 +48,6 @@ Use a structured notation of security requirements across applications and an ap
 When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. For example, annotate requirements with priorities, or influence the handling of requirements to enforce sufficient security appetite (while balancing against other non-functional requirements).
 
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-References:
-
 ## Maturity 3
 ### Benefit
 You have a set of reusable security requirements to improve the overall quality.
@@ -88,22 +59,6 @@ The framework helps project teams increase the efficiency and effectiveness of r
 
 The framework also gives clear guidance on the quality of requirements and formalizes how to describe them. For user stories, for instance, concrete guidance can explain what to describe in the DOD, DOR, story description and acceptance criteria.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-References: Common criteria (although too extensive for the purpose, the idea is similar)
-
-Question: somehow link requirements to solutions ?
 
 # B: Supplier Requirements
 
@@ -118,21 +73,6 @@ Carry out a vendor assessment to understand the strengths and weaknesses of your
 
 It is important that your suppliers understand and align to the risk appetite and are able to meet your requirements in that area. Make what you expect from them explicit and discuss this clearly.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-
-
 
 ## Maturity 2
 ### Benefit
@@ -143,20 +83,6 @@ Increase your confidence in the capability of your suppliers for software securi
 
 Once you have implemented this for a few suppliers, work towards a standard agreement for suppliers that forms the basis of your negotiations. You can deviate from this standard agreement on a case by case basis, but it will help you to ensure you do not overlook important topics.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
-
 
 ## Maturity 3
 ### Benefit
@@ -166,18 +92,3 @@ You align software development practices to limit security risks.
 The best way to minimize the risk of issues in software is to align maximally and integrate closely between the different parties. From a process perspective, this means using similar development paradigms and introducing regular milestones to ensure proper alignment and qualitative progress. From a tools perspective, this might mean using similar build, verification and deployment environments, and sharing other supporting tools (e.g. requirements or architecture tools, or code repositories).  
 
 In case suppliers cannot meet the objectives that you have set, implement compensating controls so that, overall, you meet your objectives. Execute extra activities (e.g., threat modelling before starting the actual implementation cycle) or implement extra tooling (e.g., 3rd party library analysis at solution intake). The more suppliers deviate from your requirements, the more work will be required to compensate.
-
-
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-
-#### Notes
