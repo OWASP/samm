@@ -30,4 +30,4 @@ deploy:
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
         domain: owaspsamm.org
-        basedir: public
+        basedir: "Website/hugo/public"
