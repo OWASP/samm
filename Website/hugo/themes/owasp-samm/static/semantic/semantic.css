@@ -750,6 +750,36 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.mainwrapper {
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#toc.menu {
+  width: 200px;
+  position: fixed;
+  top: 50px;
+  bottom: 0px;
+  margin: 0;
+  border-radius: 0;
+  overflow-y: scroll;
+}
+
+main {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
 .homeback {
   background-image: url('/img/homeback.png');
   background-position: center;
@@ -808,7 +838,10 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 }
 
 .headerback {
+  position: fixed;
+  z-index: 100;
   background-color: #47054d;
+  width: 100%;
   height: 50px;
 }
 
@@ -839,6 +872,11 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
+  text-decoration: none;
+}
+
+#a50pxspacer {
+  height: 50px;
 }
 
 .headerbanner {
@@ -902,6 +940,32 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .footerback img.ui.image {
   max-width: 200px;
+}
+
+body.single main,
+#toc.menu {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+body.single main h1,
+#toc.menu h1,
+body.single main h2,
+#toc.menu h2,
+body.single main h3,
+#toc.menu h3,
+body.single main h4,
+#toc.menu h4,
+body.single main h5,
+#toc.menu h5,
+body.single main h6,
+#toc.menu h6,
+body.single main .header,
+#toc.menu .header,
+body.single main table thead th,
+#toc.menu table thead th {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600 !important;
 }
 /*!
  * # Semantic UI 2.4.2 - Button
@@ -2344,7 +2408,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.black.buttons .button,
 .ui.black.button {
-  background-color: #444;
+  background-color: #1B1C1D;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -2357,21 +2421,21 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.black.buttons .button:hover,
 .ui.black.button:hover {
-  background-color: #515151;
+  background-color: #27292a;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.black.buttons .button:focus,
 .ui.black.button:focus {
-  background-color: #585858;
+  background-color: #2f3032;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.black.buttons .button:active,
 .ui.black.button:active {
-  background-color: #5e5e5e;
+  background-color: #343637;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2380,7 +2444,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .ui.black.buttons .active.button:active,
 .ui.black.active.button,
 .ui.black.button .active.button:active {
-  background-color: #373737;
+  background-color: #0f0f10;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2389,40 +2453,40 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.basic.black.buttons .button,
 .ui.basic.black.button {
-  -webkit-box-shadow: 0px 0px 0px 1px #444 inset !important;
-  box-shadow: 0px 0px 0px 1px #444 inset !important;
-  color: #444 !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
+  box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
+  color: #1B1C1D !important;
 }
 
 .ui.basic.black.buttons .button:hover,
 .ui.basic.black.button:hover {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #515151 inset !important;
-  box-shadow: 0px 0px 0px 1px #515151 inset !important;
-  color: #515151 !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  color: #27292a !important;
 }
 
 .ui.basic.black.buttons .button:focus,
 .ui.basic.black.button:focus {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #585858 inset !important;
-  box-shadow: 0px 0px 0px 1px #585858 inset !important;
-  color: #515151 !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #2f3032 inset !important;
+  box-shadow: 0px 0px 0px 1px #2f3032 inset !important;
+  color: #27292a !important;
 }
 
 .ui.basic.black.buttons .active.button,
 .ui.basic.black.active.button {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #373737 inset !important;
-  box-shadow: 0px 0px 0px 1px #373737 inset !important;
-  color: #5e5e5e !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #0f0f10 inset !important;
+  box-shadow: 0px 0px 0px 1px #0f0f10 inset !important;
+  color: #343637 !important;
 }
 
 .ui.basic.black.buttons .button:active,
 .ui.basic.black.button:active {
-  -webkit-box-shadow: 0px 0px 0px 1px #5e5e5e inset !important;
-  box-shadow: 0px 0px 0px 1px #5e5e5e inset !important;
-  color: #5e5e5e !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #343637 inset !important;
+  box-shadow: 0px 0px 0px 1px #343637 inset !important;
+  color: #343637 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.black.button:not(:first-child) {
@@ -4802,7 +4866,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #444;
+  background-color: #1B1C1D;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4815,21 +4879,21 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #515151;
+  background-color: #27292a;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:focus,
 .ui.secondary.button:focus {
-  background-color: #585858;
+  background-color: #2e3032;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #5e5e5e;
+  background-color: #343637;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4838,7 +4902,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .ui.secondary.buttons .active.button:active,
 .ui.secondary.active.button,
 .ui.secondary.button .active.button:active {
-  background-color: #515151;
+  background-color: #27292a;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4847,40 +4911,40 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.basic.secondary.buttons .button,
 .ui.basic.secondary.button {
-  -webkit-box-shadow: 0px 0px 0px 1px #444 inset !important;
-  box-shadow: 0px 0px 0px 1px #444 inset !important;
-  color: #444 !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
+  box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
+  color: #1B1C1D !important;
 }
 
 .ui.basic.secondary.buttons .button:hover,
 .ui.basic.secondary.button:hover {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #515151 inset !important;
-  box-shadow: 0px 0px 0px 1px #515151 inset !important;
-  color: #515151 !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  color: #27292a !important;
 }
 
 .ui.basic.secondary.buttons .button:focus,
 .ui.basic.secondary.button:focus {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #585858 inset !important;
-  box-shadow: 0px 0px 0px 1px #585858 inset !important;
-  color: #515151 !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #2e3032 inset !important;
+  box-shadow: 0px 0px 0px 1px #2e3032 inset !important;
+  color: #27292a !important;
 }
 
 .ui.basic.secondary.buttons .active.button,
 .ui.basic.secondary.active.button {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #515151 inset !important;
-  box-shadow: 0px 0px 0px 1px #515151 inset !important;
-  color: #5e5e5e !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  color: #343637 !important;
 }
 
 .ui.basic.secondary.buttons .button:active,
 .ui.basic.secondary.button:active {
-  -webkit-box-shadow: 0px 0px 0px 1px #5e5e5e inset !important;
-  box-shadow: 0px 0px 0px 1px #5e5e5e inset !important;
-  color: #5e5e5e !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #343637 inset !important;
+  box-shadow: 0px 0px 0px 1px #343637 inset !important;
+  color: #343637 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -8013,7 +8077,7 @@ i.bordered.inverted.icon {
 
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
-  background-color: #444 !important;
+  background-color: #1B1C1D !important;
   color: #FFFFFF !important;
 }
 
@@ -8220,7 +8284,7 @@ i.inverted.circular.grey.icon {
 /* Black */
 
 i.black.icon {
-  color: #444 !important;
+  color: #1B1C1D !important;
 }
 
 i.inverted.black.icon {
@@ -8229,7 +8293,7 @@ i.inverted.black.icon {
 
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #444 !important;
+  background-color: #1B1C1D !important;
   color: #FFFFFF !important;
 }
 
@@ -8360,7 +8424,7 @@ i.icons .bottom.right.corner.icon {
 }
 
 i.icons .inverted.corner.icon {
-  text-shadow: -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 1px 1px 0 #444;
+  text-shadow: -1px -1px 0 #1B1C1D, 1px -1px 0 #1B1C1D, -1px 1px 0 #1B1C1D, 1px 1px 0 #1B1C1D;
 }
 
 /*
@@ -15946,8 +16010,8 @@ a.ui.basic.grey.label:hover {
 
 .ui.black.labels .label,
 .ui.black.label {
-  background-color: #444 !important;
-  border-color: #444 !important;
+  background-color: #1B1C1D !important;
+  border-color: #1B1C1D !important;
   color: #FFFFFF !important;
 }
 
@@ -15955,8 +16019,8 @@ a.ui.basic.grey.label:hover {
 
 .ui.black.labels .label:hover,
 a.ui.black.label:hover {
-  background-color: #515151 !important;
-  border-color: #515151 !important;
+  background-color: #27292a !important;
+  border-color: #27292a !important;
   color: #FFFFFF !important;
 }
 
@@ -15977,15 +16041,15 @@ a.ui.black.label:hover {
 
 .ui.basic.black.label {
   background: none #FFFFFF !important;
-  color: #444 !important;
-  border-color: #444 !important;
+  color: #1B1C1D !important;
+  border-color: #1B1C1D !important;
 }
 
 .ui.basic.black.labels a.label:hover,
 a.ui.basic.black.label:hover {
   background-color: #FFFFFF !important;
-  color: #515151 !important;
-  border-color: #515151 !important;
+  color: #27292a !important;
+  border-color: #27292a !important;
 }
 
 /*-------------------
@@ -17967,7 +18031,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.placeholder .image.header:after,
 .ui.inverted.placeholder .line,
 .ui.inverted.placeholder .line:after {
-  background-color: #444;
+  background-color: #1B1C1D;
 }
 
 /*******************************
@@ -19248,11 +19312,11 @@ ol.ui.horizontal.list li:before,
 /* Black */
 
 .ui.black.segment:not(.inverted) {
-  border-top: 2px solid #444 !important;
+  border-top: 2px solid #1B1C1D !important;
 }
 
 .ui.inverted.black.segment {
-  background-color: #444 !important;
+  background-color: #1B1C1D !important;
   color: #FFFFFF !important;
 }
 
@@ -19299,7 +19363,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #444;
+  background: #1B1C1D;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -19331,9 +19395,9 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.secondary.inverted.segment {
-  background: #777777 -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
-  background: #777777 -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
-  background: #777777 linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: #4c4f52 -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
+  background: #4c4f52 -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: #4c4f52 linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -19345,9 +19409,9 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.tertiary.inverted.segment {
-  background: #9d9d9d -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35)));
-  background: #9d9d9d -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
-  background: #9d9d9d linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
+  background: #717579 -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35)));
+  background: #717579 -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
+  background: #717579 linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -23095,7 +23159,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .black.row,
 .ui.grid > .black.column,
 .ui.grid > .row > .black.column {
-  background-color: #444 !important;
+  background-color: #1B1C1D !important;
   color: #FFFFFF;
 }
 
@@ -24840,7 +24904,7 @@ Floated Menu / Item
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #444;
+  border-color: #1B1C1D;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
 }
@@ -24848,7 +24912,7 @@ Floated Menu / Item
 /* Active Hover */
 
 .ui.secondary.pointing.menu .active.item:hover {
-  border-color: #444;
+  border-color: #1B1C1D;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -24879,7 +24943,7 @@ Floated Menu / Item
 /* Vertical Active */
 
 .ui.secondary.vertical.pointing.menu .active.item {
-  border-color: #444;
+  border-color: #1B1C1D;
 }
 
 /* Inverted */
@@ -25080,7 +25144,7 @@ Floated Menu / Item
 .ui.icon.menu .item {
   height: auto;
   text-align: center;
-  color: #444;
+  color: #1B1C1D;
 }
 
 /* Icon */
@@ -25287,7 +25351,7 @@ Floated Menu / Item
 
 .ui.inverted.menu {
   border: 0px solid transparent;
-  background: #444;
+  background: #1B1C1D;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -26346,7 +26410,7 @@ Floated Menu / Item
 ---------------*/
 
 .ui.black.message {
-  background-color: #444;
+  background-color: #1B1C1D;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -26460,7 +26524,7 @@ Floated Menu / Item
 
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #444;
+  background-color: #1B1C1D;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -26644,7 +26708,11 @@ Floated Menu / Item
 
 /* Prototype */
 
-.ui.table {
+.ui.table,
+body.single main table.table,
+body.single main table,
+#toc.menu table.table,
+#toc.menu table {
   width: 100%;
   background: #FFFFFF;
   margin: 1em 0em;
@@ -26658,11 +26726,19 @@ Floated Menu / Item
   border-spacing: 0px;
 }
 
-.ui.table:first-child {
+.ui.table:first-child,
+body.single main table.table:first-child,
+body.single main table:first-child,
+#toc.menu table.table:first-child,
+#toc.menu table:first-child {
   margin-top: 0em;
 }
 
-.ui.table:last-child {
+.ui.table:last-child,
+body.single main table.table:last-child,
+body.single main table:last-child,
+#toc.menu table.table:last-child,
+#toc.menu table:last-child {
   margin-bottom: 0em;
 }
 
@@ -26673,19 +26749,35 @@ Floated Menu / Item
 /* Table Content */
 
 .ui.table th,
-.ui.table td {
+.ui.table td,
+body.single main table.table th,
+body.single main table.table td,
+body.single main table th,
+body.single main table td,
+#toc.menu table.table th,
+#toc.menu table.table td,
+#toc.menu table th,
+#toc.menu table td {
   -webkit-transition: background 0.1s ease, color 0.1s ease;
   transition: background 0.1s ease, color 0.1s ease;
 }
 
 /* Headers */
 
-.ui.table thead {
+.ui.table thead,
+body.single main table.table thead,
+body.single main table thead,
+#toc.menu table.table thead,
+#toc.menu table thead {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.ui.table thead th {
+.ui.table thead th,
+body.single main table.table thead th,
+body.single main table thead th,
+#toc.menu table.table thead th,
+#toc.menu table thead th {
   cursor: auto;
   background: #F9FAFB;
   text-align: inherit;
@@ -26699,30 +26791,54 @@ Floated Menu / Item
   border-left: none;
 }
 
-.ui.table thead tr > th:first-child {
+.ui.table thead tr > th:first-child,
+body.single main table.table thead tr > th:first-child,
+body.single main table thead tr > th:first-child,
+#toc.menu table.table thead tr > th:first-child,
+#toc.menu table thead tr > th:first-child {
   border-left: none;
 }
 
-.ui.table thead tr:first-child > th:first-child {
+.ui.table thead tr:first-child > th:first-child,
+body.single main table.table thead tr:first-child > th:first-child,
+body.single main table thead tr:first-child > th:first-child,
+#toc.menu table.table thead tr:first-child > th:first-child,
+#toc.menu table thead tr:first-child > th:first-child {
   border-radius: 0.28571429rem 0em 0em 0em;
 }
 
-.ui.table thead tr:first-child > th:last-child {
+.ui.table thead tr:first-child > th:last-child,
+body.single main table.table thead tr:first-child > th:last-child,
+body.single main table thead tr:first-child > th:last-child,
+#toc.menu table.table thead tr:first-child > th:last-child,
+#toc.menu table thead tr:first-child > th:last-child {
   border-radius: 0em 0.28571429rem 0em 0em;
 }
 
-.ui.table thead tr:first-child > th:only-child {
+.ui.table thead tr:first-child > th:only-child,
+body.single main table.table thead tr:first-child > th:only-child,
+body.single main table thead tr:first-child > th:only-child,
+#toc.menu table.table thead tr:first-child > th:only-child,
+#toc.menu table thead tr:first-child > th:only-child {
   border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 
 /* Footer */
 
-.ui.table tfoot {
+.ui.table tfoot,
+body.single main table.table tfoot,
+body.single main table tfoot,
+#toc.menu table.table tfoot,
+#toc.menu table tfoot {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.ui.table tfoot th {
+.ui.table tfoot th,
+body.single main table.table tfoot th,
+body.single main table tfoot th,
+#toc.menu table.table tfoot th,
+#toc.menu table tfoot th {
   cursor: auto;
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   background: #F9FAFB;
@@ -26735,97 +26851,185 @@ Floated Menu / Item
   text-transform: none;
 }
 
-.ui.table tfoot tr > th:first-child {
+.ui.table tfoot tr > th:first-child,
+body.single main table.table tfoot tr > th:first-child,
+body.single main table tfoot tr > th:first-child,
+#toc.menu table.table tfoot tr > th:first-child,
+#toc.menu table tfoot tr > th:first-child {
   border-left: none;
 }
 
-.ui.table tfoot tr:first-child > th:first-child {
+.ui.table tfoot tr:first-child > th:first-child,
+body.single main table.table tfoot tr:first-child > th:first-child,
+body.single main table tfoot tr:first-child > th:first-child,
+#toc.menu table.table tfoot tr:first-child > th:first-child,
+#toc.menu table tfoot tr:first-child > th:first-child {
   border-radius: 0em 0em 0em 0.28571429rem;
 }
 
-.ui.table tfoot tr:first-child > th:last-child {
+.ui.table tfoot tr:first-child > th:last-child,
+body.single main table.table tfoot tr:first-child > th:last-child,
+body.single main table tfoot tr:first-child > th:last-child,
+#toc.menu table.table tfoot tr:first-child > th:last-child,
+#toc.menu table tfoot tr:first-child > th:last-child {
   border-radius: 0em 0em 0.28571429rem 0em;
 }
 
-.ui.table tfoot tr:first-child > th:only-child {
+.ui.table tfoot tr:first-child > th:only-child,
+body.single main table.table tfoot tr:first-child > th:only-child,
+body.single main table tfoot tr:first-child > th:only-child,
+#toc.menu table.table tfoot tr:first-child > th:only-child,
+#toc.menu table tfoot tr:first-child > th:only-child {
   border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 
 /* Table Row */
 
-.ui.table tr td {
+.ui.table tr td,
+body.single main table.table tr td,
+body.single main table tr td,
+#toc.menu table.table tr td,
+#toc.menu table tr td {
   border-top: 1px solid rgba(34, 36, 38, 0.1);
 }
 
-.ui.table tr:first-child td {
+.ui.table tr:first-child td,
+body.single main table.table tr:first-child td,
+body.single main table tr:first-child td,
+#toc.menu table.table tr:first-child td,
+#toc.menu table tr:first-child td {
   border-top: none;
 }
 
 /* Repeated tbody */
 
-.ui.table tbody + tbody tr:first-child td {
+.ui.table tbody + tbody tr:first-child td,
+body.single main table.table tbody + tbody tr:first-child td,
+body.single main table tbody + tbody tr:first-child td,
+#toc.menu table.table tbody + tbody tr:first-child td,
+#toc.menu table tbody + tbody tr:first-child td {
   border-top: 1px solid rgba(34, 36, 38, 0.1);
 }
 
 /* Table Cells */
 
-.ui.table td {
+.ui.table td,
+body.single main table.table td,
+body.single main table td,
+#toc.menu table.table td,
+#toc.menu table td {
   padding: 0.78571429em 0.78571429em;
   text-align: inherit;
 }
 
 /* Icons */
 
-.ui.table > .icon {
+.ui.table > .icon,
+body.single main table.table > .icon,
+body.single main table > .icon,
+#toc.menu table.table > .icon,
+#toc.menu table > .icon {
   vertical-align: baseline;
 }
 
-.ui.table > .icon:only-child {
+.ui.table > .icon:only-child,
+body.single main table.table > .icon:only-child,
+body.single main table > .icon:only-child,
+#toc.menu table.table > .icon:only-child,
+#toc.menu table > .icon:only-child {
   margin: 0em;
 }
 
 /* Table Segment */
 
-.ui.table.segment {
+.ui.table.segment,
+body.single main table.table.segment,
+body.single main table.segment,
+#toc.menu table.table.segment,
+#toc.menu table.segment {
   padding: 0em;
 }
 
-.ui.table.segment:after {
+.ui.table.segment:after,
+body.single main table.table.segment:after,
+body.single main table.segment:after,
+#toc.menu table.table.segment:after,
+#toc.menu table.segment:after {
   display: none;
 }
 
-.ui.table.segment.stacked:after {
+.ui.table.segment.stacked:after,
+body.single main table.table.segment.stacked:after,
+body.single main table.segment.stacked:after,
+#toc.menu table.table.segment.stacked:after,
+#toc.menu table.segment.stacked:after {
   display: block;
 }
 
 /* Responsive */
 
 @media only screen and (max-width: 767px) {
-  .ui.table:not(.unstackable) {
+  .ui.table:not(.unstackable),
+  body.single main table.table:not(.unstackable),
+  body.single main table:not(.unstackable),
+  #toc.menu table.table:not(.unstackable),
+  #toc.menu table:not(.unstackable) {
     width: 100%;
   }
 
   .ui.table:not(.unstackable) tbody,
   .ui.table:not(.unstackable) tr,
   .ui.table:not(.unstackable) tr > th,
-  .ui.table:not(.unstackable) tr > td {
+  .ui.table:not(.unstackable) tr > td,
+  body.single main table.table:not(.unstackable) tbody,
+  body.single main table.table:not(.unstackable) tr,
+  body.single main table.table:not(.unstackable) tr > th,
+  body.single main table.table:not(.unstackable) tr > td,
+  body.single main table:not(.unstackable) tbody,
+  body.single main table:not(.unstackable) tr,
+  body.single main table:not(.unstackable) tr > th,
+  body.single main table:not(.unstackable) tr > td,
+  #toc.menu table.table:not(.unstackable) tbody,
+  #toc.menu table.table:not(.unstackable) tr,
+  #toc.menu table.table:not(.unstackable) tr > th,
+  #toc.menu table.table:not(.unstackable) tr > td,
+  #toc.menu table:not(.unstackable) tbody,
+  #toc.menu table:not(.unstackable) tr,
+  #toc.menu table:not(.unstackable) tr > th,
+  #toc.menu table:not(.unstackable) tr > td {
     width: auto !important;
     display: block !important;
   }
 
-  .ui.table:not(.unstackable) {
+  .ui.table:not(.unstackable),
+  body.single main table.table:not(.unstackable),
+  body.single main table:not(.unstackable),
+  #toc.menu table.table:not(.unstackable),
+  #toc.menu table:not(.unstackable) {
     padding: 0em;
   }
 
-  .ui.table:not(.unstackable) thead {
+  .ui.table:not(.unstackable) thead,
+  body.single main table.table:not(.unstackable) thead,
+  body.single main table:not(.unstackable) thead,
+  #toc.menu table.table:not(.unstackable) thead,
+  #toc.menu table:not(.unstackable) thead {
     display: block;
   }
 
-  .ui.table:not(.unstackable) tfoot {
+  .ui.table:not(.unstackable) tfoot,
+  body.single main table.table:not(.unstackable) tfoot,
+  body.single main table:not(.unstackable) tfoot,
+  #toc.menu table.table:not(.unstackable) tfoot,
+  #toc.menu table:not(.unstackable) tfoot {
     display: block;
   }
 
-  .ui.table:not(.unstackable) tr {
+  .ui.table:not(.unstackable) tr,
+  body.single main table.table:not(.unstackable) tr,
+  body.single main table:not(.unstackable) tr,
+  #toc.menu table.table:not(.unstackable) tr,
+  #toc.menu table:not(.unstackable) tr {
     padding-top: 1em;
     padding-bottom: 1em;
     -webkit-box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset !important;
@@ -26833,7 +27037,15 @@ Floated Menu / Item
   }
 
   .ui.table:not(.unstackable) tr > th,
-  .ui.table:not(.unstackable) tr > td {
+  .ui.table:not(.unstackable) tr > td,
+  body.single main table.table:not(.unstackable) tr > th,
+  body.single main table.table:not(.unstackable) tr > td,
+  body.single main table:not(.unstackable) tr > th,
+  body.single main table:not(.unstackable) tr > td,
+  #toc.menu table.table:not(.unstackable) tr > th,
+  #toc.menu table.table:not(.unstackable) tr > td,
+  #toc.menu table:not(.unstackable) tr > th,
+  #toc.menu table:not(.unstackable) tr > td {
     background: none;
     border: none !important;
     padding: 0.25em 0.75em !important;
@@ -26842,13 +27054,23 @@ Floated Menu / Item
   }
 
   .ui.table:not(.unstackable) th:first-child,
-  .ui.table:not(.unstackable) td:first-child {
+  .ui.table:not(.unstackable) td:first-child,
+  body.single main table.table:not(.unstackable) th:first-child,
+  body.single main table.table:not(.unstackable) td:first-child,
+  body.single main table:not(.unstackable) th:first-child,
+  body.single main table:not(.unstackable) td:first-child,
+  #toc.menu table.table:not(.unstackable) th:first-child,
+  #toc.menu table.table:not(.unstackable) td:first-child,
+  #toc.menu table:not(.unstackable) th:first-child,
+  #toc.menu table:not(.unstackable) td:first-child {
     font-weight: bold;
   }
 
   /* Definition Table */
 
-  .ui.definition.table:not(.unstackable) thead th:first-child {
+  .ui.definition.table:not(.unstackable) thead th:first-child,
+  body.single main table.definition.table:not(.unstackable) thead th:first-child,
+  #toc.menu table.definition.table:not(.unstackable) thead th:first-child {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
@@ -26863,7 +27085,23 @@ Floated Menu / Item
 .ui.table th .image,
 .ui.table th .image img,
 .ui.table td .image,
-.ui.table td .image img {
+.ui.table td .image img,
+body.single main table.table th .image,
+body.single main table.table th .image img,
+body.single main table.table td .image,
+body.single main table.table td .image img,
+body.single main table th .image,
+body.single main table th .image img,
+body.single main table td .image,
+body.single main table td .image img,
+#toc.menu table.table th .image,
+#toc.menu table.table th .image img,
+#toc.menu table.table td .image,
+#toc.menu table.table td .image img,
+#toc.menu table th .image,
+#toc.menu table th .image img,
+#toc.menu table td .image,
+#toc.menu table td .image img {
   max-width: none;
 }
 
@@ -26875,27 +27113,39 @@ Floated Menu / Item
     Complex
 ---------------*/
 
-.ui.structured.table {
+.ui.structured.table,
+body.single main table.structured.table,
+#toc.menu table.structured.table {
   border-collapse: collapse;
 }
 
-.ui.structured.table thead th {
+.ui.structured.table thead th,
+body.single main table.structured.table thead th,
+#toc.menu table.structured.table thead th {
   border-left: none;
   border-right: none;
 }
 
-.ui.structured.sortable.table thead th {
+.ui.structured.sortable.table thead th,
+body.single main table.structured.sortable.table thead th,
+#toc.menu table.structured.sortable.table thead th {
   border-left: 1px solid rgba(34, 36, 38, 0.15);
   border-right: 1px solid rgba(34, 36, 38, 0.15);
 }
 
-.ui.structured.basic.table th {
+.ui.structured.basic.table th,
+body.single main table.structured.basic.table th,
+#toc.menu table.structured.basic.table th {
   border-left: none;
   border-right: none;
 }
 
 .ui.structured.celled.table tr th,
-.ui.structured.celled.table tr td {
+.ui.structured.celled.table tr td,
+body.single main table.structured.celled.table tr th,
+body.single main table.structured.celled.table tr td,
+#toc.menu table.structured.celled.table tr th,
+#toc.menu table.structured.celled.table tr td {
   border-left: 1px solid rgba(34, 36, 38, 0.1);
   border-right: 1px solid rgba(34, 36, 38, 0.1);
 }
@@ -26904,7 +27154,9 @@ Floated Menu / Item
    Definition
 ---------------*/
 
-.ui.definition.table thead:not(.full-width) th:first-child {
+.ui.definition.table thead:not(.full-width) th:first-child,
+body.single main table.definition.table thead:not(.full-width) th:first-child,
+#toc.menu table.definition.table thead:not(.full-width) th:first-child {
   pointer-events: none;
   background: transparent;
   font-weight: normal;
@@ -26913,7 +27165,9 @@ Floated Menu / Item
   box-shadow: -1px -1px 0px 1px #FFFFFF;
 }
 
-.ui.definition.table tfoot:not(.full-width) th:first-child {
+.ui.definition.table tfoot:not(.full-width) th:first-child,
+body.single main table.definition.table tfoot:not(.full-width) th:first-child,
+#toc.menu table.definition.table tfoot:not(.full-width) th:first-child {
   pointer-events: none;
   background: transparent;
   font-weight: rgba(0, 0, 0, 0.4);
@@ -26924,12 +27178,16 @@ Floated Menu / Item
 
 /* Remove Border */
 
-.ui.celled.definition.table thead:not(.full-width) th:first-child {
+.ui.celled.definition.table thead:not(.full-width) th:first-child,
+body.single main table.celled.definition.table thead:not(.full-width) th:first-child,
+#toc.menu table.celled.definition.table thead:not(.full-width) th:first-child {
   -webkit-box-shadow: 0px -1px 0px 1px #FFFFFF;
   box-shadow: 0px -1px 0px 1px #FFFFFF;
 }
 
-.ui.celled.definition.table tfoot:not(.full-width) th:first-child {
+.ui.celled.definition.table tfoot:not(.full-width) th:first-child,
+body.single main table.celled.definition.table tfoot:not(.full-width) th:first-child,
+#toc.menu table.celled.definition.table tfoot:not(.full-width) th:first-child {
   -webkit-box-shadow: 0px 1px 0px 1px #FFFFFF;
   box-shadow: 0px 1px 0px 1px #FFFFFF;
 }
@@ -26937,7 +27195,11 @@ Floated Menu / Item
 /* Highlight Defining Column */
 
 .ui.definition.table tr td:first-child:not(.ignored),
-.ui.definition.table tr td.definition {
+.ui.definition.table tr td.definition,
+body.single main table.definition.table tr td:first-child:not(.ignored),
+body.single main table.definition.table tr td.definition,
+#toc.menu table.definition.table tr td:first-child:not(.ignored),
+#toc.menu table.definition.table tr td.definition {
   background: rgba(0, 0, 0, 0.03);
   font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
@@ -26952,15 +27214,21 @@ Floated Menu / Item
 
 /* Fix 2nd Column */
 
-.ui.definition.table thead:not(.full-width) th:nth-child(2) {
+.ui.definition.table thead:not(.full-width) th:nth-child(2),
+body.single main table.definition.table thead:not(.full-width) th:nth-child(2),
+#toc.menu table.definition.table thead:not(.full-width) th:nth-child(2) {
   border-left: 1px solid rgba(34, 36, 38, 0.15);
 }
 
-.ui.definition.table tfoot:not(.full-width) th:nth-child(2) {
+.ui.definition.table tfoot:not(.full-width) th:nth-child(2),
+body.single main table.definition.table tfoot:not(.full-width) th:nth-child(2),
+#toc.menu table.definition.table tfoot:not(.full-width) th:nth-child(2) {
   border-left: 1px solid rgba(34, 36, 38, 0.15);
 }
 
-.ui.definition.table td:nth-child(2) {
+.ui.definition.table td:nth-child(2),
+body.single main table.definition.table td:nth-child(2),
+#toc.menu table.definition.table td:nth-child(2) {
   border-left: 1px solid rgba(34, 36, 38, 0.15);
 }
 
@@ -26973,13 +27241,29 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table tr.positive,
-.ui.table td.positive {
+.ui.table td.positive,
+body.single main table.table tr.positive,
+body.single main table.table td.positive,
+body.single main table tr.positive,
+body.single main table td.positive,
+#toc.menu table.table tr.positive,
+#toc.menu table.table td.positive,
+#toc.menu table tr.positive,
+#toc.menu table td.positive {
   -webkit-box-shadow: 0px 0px 0px #A3C293 inset;
   box-shadow: 0px 0px 0px #A3C293 inset;
 }
 
 .ui.table tr.positive,
-.ui.table td.positive {
+.ui.table td.positive,
+body.single main table.table tr.positive,
+body.single main table.table td.positive,
+body.single main table tr.positive,
+body.single main table td.positive,
+#toc.menu table.table tr.positive,
+#toc.menu table.table td.positive,
+#toc.menu table tr.positive,
+#toc.menu table td.positive {
   background: #FCFFF5 !important;
   color: #2C662D !important;
 }
@@ -26989,13 +27273,29 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table tr.negative,
-.ui.table td.negative {
+.ui.table td.negative,
+body.single main table.table tr.negative,
+body.single main table.table td.negative,
+body.single main table tr.negative,
+body.single main table td.negative,
+#toc.menu table.table tr.negative,
+#toc.menu table.table td.negative,
+#toc.menu table tr.negative,
+#toc.menu table td.negative {
   -webkit-box-shadow: 0px 0px 0px #E0B4B4 inset;
   box-shadow: 0px 0px 0px #E0B4B4 inset;
 }
 
 .ui.table tr.negative,
-.ui.table td.negative {
+.ui.table td.negative,
+body.single main table.table tr.negative,
+body.single main table.table td.negative,
+body.single main table tr.negative,
+body.single main table td.negative,
+#toc.menu table.table tr.negative,
+#toc.menu table.table td.negative,
+#toc.menu table tr.negative,
+#toc.menu table td.negative {
   background: #FFF6F6 !important;
   color: #9F3A38 !important;
 }
@@ -27005,13 +27305,29 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table tr.error,
-.ui.table td.error {
+.ui.table td.error,
+body.single main table.table tr.error,
+body.single main table.table td.error,
+body.single main table tr.error,
+body.single main table td.error,
+#toc.menu table.table tr.error,
+#toc.menu table.table td.error,
+#toc.menu table tr.error,
+#toc.menu table td.error {
   -webkit-box-shadow: 0px 0px 0px #E0B4B4 inset;
   box-shadow: 0px 0px 0px #E0B4B4 inset;
 }
 
 .ui.table tr.error,
-.ui.table td.error {
+.ui.table td.error,
+body.single main table.table tr.error,
+body.single main table.table td.error,
+body.single main table tr.error,
+body.single main table td.error,
+#toc.menu table.table tr.error,
+#toc.menu table.table td.error,
+#toc.menu table tr.error,
+#toc.menu table td.error {
   background: #FFF6F6 !important;
   color: #9F3A38 !important;
 }
@@ -27021,13 +27337,29 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table tr.warning,
-.ui.table td.warning {
+.ui.table td.warning,
+body.single main table.table tr.warning,
+body.single main table.table td.warning,
+body.single main table tr.warning,
+body.single main table td.warning,
+#toc.menu table.table tr.warning,
+#toc.menu table.table td.warning,
+#toc.menu table tr.warning,
+#toc.menu table td.warning {
   -webkit-box-shadow: 0px 0px 0px #C9BA9B inset;
   box-shadow: 0px 0px 0px #C9BA9B inset;
 }
 
 .ui.table tr.warning,
-.ui.table td.warning {
+.ui.table td.warning,
+body.single main table.table tr.warning,
+body.single main table.table td.warning,
+body.single main table tr.warning,
+body.single main table td.warning,
+#toc.menu table.table tr.warning,
+#toc.menu table.table td.warning,
+#toc.menu table tr.warning,
+#toc.menu table td.warning {
   background: #FFFAF3 !important;
   color: #573A08 !important;
 }
@@ -27037,13 +27369,29 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table tr.active,
-.ui.table td.active {
+.ui.table td.active,
+body.single main table.table tr.active,
+body.single main table.table td.active,
+body.single main table tr.active,
+body.single main table td.active,
+#toc.menu table.table tr.active,
+#toc.menu table.table td.active,
+#toc.menu table tr.active,
+#toc.menu table td.active {
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
 }
 
 .ui.table tr.active,
-.ui.table td.active {
+.ui.table td.active,
+body.single main table.table tr.active,
+body.single main table.table td.active,
+body.single main table tr.active,
+body.single main table td.active,
+#toc.menu table.table tr.active,
+#toc.menu table.table td.active,
+#toc.menu table tr.active,
+#toc.menu table td.active {
   background: #E0E0E0 !important;
   color: rgba(0, 0, 0, 0.87) !important;
 }
@@ -27055,7 +27403,23 @@ Floated Menu / Item
 .ui.table tr.disabled td,
 .ui.table tr td.disabled,
 .ui.table tr.disabled:hover,
-.ui.table tr:hover td.disabled {
+.ui.table tr:hover td.disabled,
+body.single main table.table tr.disabled td,
+body.single main table.table tr td.disabled,
+body.single main table.table tr.disabled:hover,
+body.single main table.table tr:hover td.disabled,
+body.single main table tr.disabled td,
+body.single main table tr td.disabled,
+body.single main table tr.disabled:hover,
+body.single main table tr:hover td.disabled,
+#toc.menu table.table tr.disabled td,
+#toc.menu table.table tr td.disabled,
+#toc.menu table.table tr.disabled:hover,
+#toc.menu table.table tr:hover td.disabled,
+#toc.menu table tr.disabled td,
+#toc.menu table tr td.disabled,
+#toc.menu table tr.disabled:hover,
+#toc.menu table tr:hover td.disabled {
   pointer-events: none;
   color: rgba(40, 40, 40, 0.3);
 }
@@ -27073,24 +27437,42 @@ Floated Menu / Item
   .ui[class*="tablet stackable"].table tbody,
   .ui[class*="tablet stackable"].table tr,
   .ui[class*="tablet stackable"].table tr > th,
-  .ui[class*="tablet stackable"].table tr > td {
+  .ui[class*="tablet stackable"].table tr > td,
+  body.single main table[class*="tablet stackable"].table,
+  body.single main table[class*="tablet stackable"].table tbody,
+  body.single main table[class*="tablet stackable"].table tr,
+  body.single main table[class*="tablet stackable"].table tr > th,
+  body.single main table[class*="tablet stackable"].table tr > td,
+  #toc.menu table[class*="tablet stackable"].table,
+  #toc.menu table[class*="tablet stackable"].table tbody,
+  #toc.menu table[class*="tablet stackable"].table tr,
+  #toc.menu table[class*="tablet stackable"].table tr > th,
+  #toc.menu table[class*="tablet stackable"].table tr > td {
     width: 100% !important;
     display: block !important;
   }
 
-  .ui[class*="tablet stackable"].table {
+  .ui[class*="tablet stackable"].table,
+  body.single main table[class*="tablet stackable"].table,
+  #toc.menu table[class*="tablet stackable"].table {
     padding: 0em;
   }
 
-  .ui[class*="tablet stackable"].table thead {
+  .ui[class*="tablet stackable"].table thead,
+  body.single main table[class*="tablet stackable"].table thead,
+  #toc.menu table[class*="tablet stackable"].table thead {
     display: block;
   }
 
-  .ui[class*="tablet stackable"].table tfoot {
+  .ui[class*="tablet stackable"].table tfoot,
+  body.single main table[class*="tablet stackable"].table tfoot,
+  #toc.menu table[class*="tablet stackable"].table tfoot {
     display: block;
   }
 
-  .ui[class*="tablet stackable"].table tr {
+  .ui[class*="tablet stackable"].table tr,
+  body.single main table[class*="tablet stackable"].table tr,
+  #toc.menu table[class*="tablet stackable"].table tr {
     padding-top: 1em;
     padding-bottom: 1em;
     -webkit-box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset !important;
@@ -27098,7 +27480,11 @@ Floated Menu / Item
   }
 
   .ui[class*="tablet stackable"].table tr > th,
-  .ui[class*="tablet stackable"].table tr > td {
+  .ui[class*="tablet stackable"].table tr > td,
+  body.single main table[class*="tablet stackable"].table tr > th,
+  body.single main table[class*="tablet stackable"].table tr > td,
+  #toc.menu table[class*="tablet stackable"].table tr > th,
+  #toc.menu table[class*="tablet stackable"].table tr > td {
     background: none;
     border: none !important;
     padding: 0.25em 0.75em;
@@ -27108,7 +27494,9 @@ Floated Menu / Item
 
   /* Definition Table */
 
-  .ui.definition[class*="tablet stackable"].table thead th:first-child {
+  .ui.definition[class*="tablet stackable"].table thead th:first-child,
+  body.single main table.definition[class*="tablet stackable"].table thead th:first-child,
+  #toc.menu table.definition[class*="tablet stackable"].table thead th:first-child {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
@@ -27119,17 +27507,41 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table[class*="left aligned"],
-.ui.table [class*="left aligned"] {
+.ui.table [class*="left aligned"],
+body.single main table.table[class*="left aligned"],
+body.single main table.table [class*="left aligned"],
+body.single main table[class*="left aligned"],
+body.single main table [class*="left aligned"],
+#toc.menu table.table[class*="left aligned"],
+#toc.menu table.table [class*="left aligned"],
+#toc.menu table[class*="left aligned"],
+#toc.menu table [class*="left aligned"] {
   text-align: left;
 }
 
 .ui.table[class*="center aligned"],
-.ui.table [class*="center aligned"] {
+.ui.table [class*="center aligned"],
+body.single main table.table[class*="center aligned"],
+body.single main table.table [class*="center aligned"],
+body.single main table[class*="center aligned"],
+body.single main table [class*="center aligned"],
+#toc.menu table.table[class*="center aligned"],
+#toc.menu table.table [class*="center aligned"],
+#toc.menu table[class*="center aligned"],
+#toc.menu table [class*="center aligned"] {
   text-align: center;
 }
 
 .ui.table[class*="right aligned"],
-.ui.table [class*="right aligned"] {
+.ui.table [class*="right aligned"],
+body.single main table.table[class*="right aligned"],
+body.single main table.table [class*="right aligned"],
+body.single main table[class*="right aligned"],
+body.single main table [class*="right aligned"],
+#toc.menu table.table[class*="right aligned"],
+#toc.menu table.table [class*="right aligned"],
+#toc.menu table[class*="right aligned"],
+#toc.menu table [class*="right aligned"] {
   text-align: right;
 }
 
@@ -27138,17 +27550,41 @@ Floated Menu / Item
 ------------------*/
 
 .ui.table[class*="top aligned"],
-.ui.table [class*="top aligned"] {
+.ui.table [class*="top aligned"],
+body.single main table.table[class*="top aligned"],
+body.single main table.table [class*="top aligned"],
+body.single main table[class*="top aligned"],
+body.single main table [class*="top aligned"],
+#toc.menu table.table[class*="top aligned"],
+#toc.menu table.table [class*="top aligned"],
+#toc.menu table[class*="top aligned"],
+#toc.menu table [class*="top aligned"] {
   vertical-align: top;
 }
 
 .ui.table[class*="middle aligned"],
-.ui.table [class*="middle aligned"] {
+.ui.table [class*="middle aligned"],
+body.single main table.table[class*="middle aligned"],
+body.single main table.table [class*="middle aligned"],
+body.single main table[class*="middle aligned"],
+body.single main table [class*="middle aligned"],
+#toc.menu table.table[class*="middle aligned"],
+#toc.menu table.table [class*="middle aligned"],
+#toc.menu table[class*="middle aligned"],
+#toc.menu table [class*="middle aligned"] {
   vertical-align: middle;
 }
 
 .ui.table[class*="bottom aligned"],
-.ui.table [class*="bottom aligned"] {
+.ui.table [class*="bottom aligned"],
+body.single main table.table[class*="bottom aligned"],
+body.single main table.table [class*="bottom aligned"],
+body.single main table[class*="bottom aligned"],
+body.single main table [class*="bottom aligned"],
+#toc.menu table.table[class*="bottom aligned"],
+#toc.menu table.table [class*="bottom aligned"],
+#toc.menu table[class*="bottom aligned"],
+#toc.menu table [class*="bottom aligned"] {
   vertical-align: bottom;
 }
 
@@ -27157,7 +27593,15 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table th.collapsing,
-.ui.table td.collapsing {
+.ui.table td.collapsing,
+body.single main table.table th.collapsing,
+body.single main table.table td.collapsing,
+body.single main table th.collapsing,
+body.single main table td.collapsing,
+#toc.menu table.table th.collapsing,
+#toc.menu table.table td.collapsing,
+#toc.menu table th.collapsing,
+#toc.menu table td.collapsing {
   width: 1px;
   white-space: nowrap;
 }
@@ -27166,12 +27610,18 @@ Floated Menu / Item
      Fixed
 ---------------*/
 
-.ui.fixed.table {
+.ui.fixed.table,
+body.single main table.fixed.table,
+#toc.menu table.fixed.table {
   table-layout: fixed;
 }
 
 .ui.fixed.table th,
-.ui.fixed.table td {
+.ui.fixed.table td,
+body.single main table.fixed.table th,
+body.single main table.fixed.table td,
+#toc.menu table.fixed.table th,
+#toc.menu table.fixed.table td {
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -27181,24 +27631,42 @@ Floated Menu / Item
 ---------------*/
 
 .ui.selectable.table tbody tr:hover,
-.ui.table tbody tr td.selectable:hover {
+.ui.table tbody tr td.selectable:hover,
+body.single main table.selectable.table tbody tr:hover,
+body.single main table.table tbody tr td.selectable:hover,
+body.single main table tbody tr td.selectable:hover,
+#toc.menu table.selectable.table tbody tr:hover,
+#toc.menu table.table tbody tr td.selectable:hover,
+#toc.menu table tbody tr td.selectable:hover {
   background: rgba(0, 0, 0, 0.05) !important;
   color: rgba(0, 0, 0, 0.95) !important;
 }
 
 .ui.selectable.inverted.table tbody tr:hover,
-.ui.inverted.table tbody tr td.selectable:hover {
+.ui.inverted.table tbody tr td.selectable:hover,
+body.single main table.selectable.inverted.table tbody tr:hover,
+body.single main table.inverted.table tbody tr td.selectable:hover,
+#toc.menu table.selectable.inverted.table tbody tr:hover,
+#toc.menu table.inverted.table tbody tr td.selectable:hover {
   background: rgba(255, 255, 255, 0.08) !important;
   color: #ffffff !important;
 }
 
 /* Selectable Cell Link */
 
-.ui.table tbody tr td.selectable {
+.ui.table tbody tr td.selectable,
+body.single main table.table tbody tr td.selectable,
+body.single main table tbody tr td.selectable,
+#toc.menu table.table tbody tr td.selectable,
+#toc.menu table tbody tr td.selectable {
   padding: 0em;
 }
 
-.ui.table tbody tr td.selectable > a:not(.ui) {
+.ui.table tbody tr td.selectable > a:not(.ui),
+body.single main table.table tbody tr td.selectable > a:not(.ui),
+body.single main table tbody tr td.selectable > a:not(.ui),
+#toc.menu table.table tbody tr td.selectable > a:not(.ui),
+#toc.menu table tbody tr td.selectable > a:not(.ui) {
   display: block;
   color: inherit;
   padding: 0.78571429em 0.78571429em;
@@ -27208,35 +27676,75 @@ Floated Menu / Item
 
 .ui.selectable.table tr.error:hover,
 .ui.table tr td.selectable.error:hover,
-.ui.selectable.table tr:hover td.error {
+.ui.selectable.table tr:hover td.error,
+body.single main table.selectable.table tr.error:hover,
+body.single main table.table tr td.selectable.error:hover,
+body.single main table.selectable.table tr:hover td.error,
+body.single main table tr td.selectable.error:hover,
+#toc.menu table.selectable.table tr.error:hover,
+#toc.menu table.table tr td.selectable.error:hover,
+#toc.menu table.selectable.table tr:hover td.error,
+#toc.menu table tr td.selectable.error:hover {
   background: #ffe7e7 !important;
   color: #943634 !important;
 }
 
 .ui.selectable.table tr.warning:hover,
 .ui.table tr td.selectable.warning:hover,
-.ui.selectable.table tr:hover td.warning {
+.ui.selectable.table tr:hover td.warning,
+body.single main table.selectable.table tr.warning:hover,
+body.single main table.table tr td.selectable.warning:hover,
+body.single main table.selectable.table tr:hover td.warning,
+body.single main table tr td.selectable.warning:hover,
+#toc.menu table.selectable.table tr.warning:hover,
+#toc.menu table.table tr td.selectable.warning:hover,
+#toc.menu table.selectable.table tr:hover td.warning,
+#toc.menu table tr td.selectable.warning:hover {
   background: #fff4e4 !important;
   color: #493107 !important;
 }
 
 .ui.selectable.table tr.active:hover,
 .ui.table tr td.selectable.active:hover,
-.ui.selectable.table tr:hover td.active {
+.ui.selectable.table tr:hover td.active,
+body.single main table.selectable.table tr.active:hover,
+body.single main table.table tr td.selectable.active:hover,
+body.single main table.selectable.table tr:hover td.active,
+body.single main table tr td.selectable.active:hover,
+#toc.menu table.selectable.table tr.active:hover,
+#toc.menu table.table tr td.selectable.active:hover,
+#toc.menu table.selectable.table tr:hover td.active,
+#toc.menu table tr td.selectable.active:hover {
   background: #E0E0E0 !important;
   color: rgba(0, 0, 0, 0.87) !important;
 }
 
 .ui.selectable.table tr.positive:hover,
 .ui.table tr td.selectable.positive:hover,
-.ui.selectable.table tr:hover td.positive {
+.ui.selectable.table tr:hover td.positive,
+body.single main table.selectable.table tr.positive:hover,
+body.single main table.table tr td.selectable.positive:hover,
+body.single main table.selectable.table tr:hover td.positive,
+body.single main table tr td.selectable.positive:hover,
+#toc.menu table.selectable.table tr.positive:hover,
+#toc.menu table.table tr td.selectable.positive:hover,
+#toc.menu table.selectable.table tr:hover td.positive,
+#toc.menu table tr td.selectable.positive:hover {
   background: #f7ffe6 !important;
   color: #275b28 !important;
 }
 
 .ui.selectable.table tr.negative:hover,
 .ui.table tr td.selectable.negative:hover,
-.ui.selectable.table tr:hover td.negative {
+.ui.selectable.table tr:hover td.negative,
+body.single main table.selectable.table tr.negative:hover,
+body.single main table.table tr td.selectable.negative:hover,
+body.single main table.selectable.table tr:hover td.negative,
+body.single main table tr td.selectable.negative:hover,
+#toc.menu table.selectable.table tr.negative:hover,
+#toc.menu table.table tr td.selectable.negative:hover,
+#toc.menu table.selectable.table tr:hover td.negative,
+#toc.menu table tr td.selectable.negative:hover {
   background: #ffe7e7 !important;
   color: #943634 !important;
 }
@@ -27247,7 +27755,9 @@ Floated Menu / Item
 
 /* Middle */
 
-.ui.attached.table {
+.ui.attached.table,
+body.single main table.attached.table,
+#toc.menu table.attached.table {
   top: 0px;
   bottom: 0px;
   border-radius: 0px;
@@ -27259,13 +27769,17 @@ Floated Menu / Item
   border: 1px solid #D4D4D5;
 }
 
-.ui.attached + .ui.attached.table:not(.top) {
+.ui.attached + .ui.attached.table:not(.top),
+body.single main table.attached + body.single main table.attached.table:not(.top),
+#toc.menu table.attached + #toc.menu table.attached.table:not(.top) {
   border-top: none;
 }
 
 /* Top */
 
-.ui[class*="top attached"].table {
+.ui[class*="top attached"].table,
+body.single main table[class*="top attached"].table,
+#toc.menu table[class*="top attached"].table {
   bottom: 0px;
   margin-bottom: 0em;
   top: 0px;
@@ -27273,13 +27787,19 @@ Floated Menu / Item
   border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 
-.ui.table[class*="top attached"]:first-child {
+.ui.table[class*="top attached"]:first-child,
+body.single main table.table[class*="top attached"]:first-child,
+body.single main table[class*="top attached"]:first-child,
+#toc.menu table.table[class*="top attached"]:first-child,
+#toc.menu table[class*="top attached"]:first-child {
   margin-top: 0em;
 }
 
 /* Bottom */
 
-.ui[class*="bottom attached"].table {
+.ui[class*="bottom attached"].table,
+body.single main table[class*="bottom attached"].table,
+#toc.menu table[class*="bottom attached"].table {
   bottom: 0px;
   margin-top: 0em;
   top: 0px;
@@ -27289,7 +27809,9 @@ Floated Menu / Item
   border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 
-.ui[class*="bottom attached"].table:last-child {
+.ui[class*="bottom attached"].table:last-child,
+body.single main table[class*="bottom attached"].table:last-child,
+#toc.menu table[class*="bottom attached"].table:last-child {
   margin-bottom: 0em;
 }
 
@@ -27300,20 +27822,30 @@ Floated Menu / Item
 /* Table Striping */
 
 .ui.striped.table > tr:nth-child(2n),
-.ui.striped.table tbody tr:nth-child(2n) {
+.ui.striped.table tbody tr:nth-child(2n),
+body.single main table.striped.table > tr:nth-child(2n),
+body.single main table.striped.table tbody tr:nth-child(2n),
+#toc.menu table.striped.table > tr:nth-child(2n),
+#toc.menu table.striped.table tbody tr:nth-child(2n) {
   background-color: rgba(0, 0, 50, 0.02);
 }
 
 /* Stripes */
 
 .ui.inverted.striped.table > tr:nth-child(2n),
-.ui.inverted.striped.table tbody tr:nth-child(2n) {
+.ui.inverted.striped.table tbody tr:nth-child(2n),
+body.single main table.inverted.striped.table > tr:nth-child(2n),
+body.single main table.inverted.striped.table tbody tr:nth-child(2n),
+#toc.menu table.inverted.striped.table > tr:nth-child(2n),
+#toc.menu table.inverted.striped.table tbody tr:nth-child(2n) {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Allow striped active hover */
 
-.ui.striped.selectable.selectable.selectable.table tbody tr.active:hover {
+.ui.striped.selectable.selectable.selectable.table tbody tr.active:hover,
+body.single main table.striped.selectable.selectable.selectable.table tbody tr.active:hover,
+#toc.menu table.striped.selectable.selectable.selectable.table tbody tr.active:hover {
   background: #EFEFEF !important;
   color: rgba(0, 0, 0, 0.95) !important;
 }
@@ -27323,12 +27855,28 @@ Floated Menu / Item
 ---------------*/
 
 .ui.table[class*="single line"],
-.ui.table [class*="single line"] {
+.ui.table [class*="single line"],
+body.single main table.table[class*="single line"],
+body.single main table.table [class*="single line"],
+body.single main table[class*="single line"],
+body.single main table [class*="single line"],
+#toc.menu table.table[class*="single line"],
+#toc.menu table.table [class*="single line"],
+#toc.menu table[class*="single line"],
+#toc.menu table [class*="single line"] {
   white-space: nowrap;
 }
 
 .ui.table[class*="single line"],
-.ui.table [class*="single line"] {
+.ui.table [class*="single line"],
+body.single main table.table[class*="single line"],
+body.single main table.table [class*="single line"],
+body.single main table[class*="single line"],
+body.single main table [class*="single line"],
+#toc.menu table.table[class*="single line"],
+#toc.menu table.table [class*="single line"],
+#toc.menu table[class*="single line"],
+#toc.menu table [class*="single line"] {
   white-space: nowrap;
 }
 
@@ -27338,144 +27886,196 @@ Floated Menu / Item
 
 /* Red */
 
-.ui.red.table {
+.ui.red.table,
+body.single main table.red.table,
+#toc.menu table.red.table {
   border-top: 0.2em solid #DB2828;
 }
 
-.ui.inverted.red.table {
+.ui.inverted.red.table,
+body.single main table.inverted.red.table,
+#toc.menu table.inverted.red.table {
   background-color: #DB2828 !important;
   color: #FFFFFF !important;
 }
 
 /* Orange */
 
-.ui.orange.table {
+.ui.orange.table,
+body.single main table.orange.table,
+#toc.menu table.orange.table {
   border-top: 0.2em solid #F2711C;
 }
 
-.ui.inverted.orange.table {
+.ui.inverted.orange.table,
+body.single main table.inverted.orange.table,
+#toc.menu table.inverted.orange.table {
   background-color: #F2711C !important;
   color: #FFFFFF !important;
 }
 
 /* Yellow */
 
-.ui.yellow.table {
+.ui.yellow.table,
+body.single main table.yellow.table,
+#toc.menu table.yellow.table {
   border-top: 0.2em solid #FBBD08;
 }
 
-.ui.inverted.yellow.table {
+.ui.inverted.yellow.table,
+body.single main table.inverted.yellow.table,
+#toc.menu table.inverted.yellow.table {
   background-color: #FBBD08 !important;
   color: #FFFFFF !important;
 }
 
 /* Olive */
 
-.ui.olive.table {
+.ui.olive.table,
+body.single main table.olive.table,
+#toc.menu table.olive.table {
   border-top: 0.2em solid #B5CC18;
 }
 
-.ui.inverted.olive.table {
+.ui.inverted.olive.table,
+body.single main table.inverted.olive.table,
+#toc.menu table.inverted.olive.table {
   background-color: #B5CC18 !important;
   color: #FFFFFF !important;
 }
 
 /* Green */
 
-.ui.green.table {
+.ui.green.table,
+body.single main table.green.table,
+#toc.menu table.green.table {
   border-top: 0.2em solid #21BA45;
 }
 
-.ui.inverted.green.table {
+.ui.inverted.green.table,
+body.single main table.inverted.green.table,
+#toc.menu table.inverted.green.table {
   background-color: #21BA45 !important;
   color: #FFFFFF !important;
 }
 
 /* Teal */
 
-.ui.teal.table {
+.ui.teal.table,
+body.single main table.teal.table,
+#toc.menu table.teal.table {
   border-top: 0.2em solid #00B5AD;
 }
 
-.ui.inverted.teal.table {
+.ui.inverted.teal.table,
+body.single main table.inverted.teal.table,
+#toc.menu table.inverted.teal.table {
   background-color: #00B5AD !important;
   color: #FFFFFF !important;
 }
 
 /* Blue */
 
-.ui.blue.table {
+.ui.blue.table,
+body.single main table.blue.table,
+#toc.menu table.blue.table {
   border-top: 0.2em solid #2185D0;
 }
 
-.ui.inverted.blue.table {
+.ui.inverted.blue.table,
+body.single main table.inverted.blue.table,
+#toc.menu table.inverted.blue.table {
   background-color: #2185D0 !important;
   color: #FFFFFF !important;
 }
 
 /* Violet */
 
-.ui.violet.table {
+.ui.violet.table,
+body.single main table.violet.table,
+#toc.menu table.violet.table {
   border-top: 0.2em solid #6435C9;
 }
 
-.ui.inverted.violet.table {
+.ui.inverted.violet.table,
+body.single main table.inverted.violet.table,
+#toc.menu table.inverted.violet.table {
   background-color: #6435C9 !important;
   color: #FFFFFF !important;
 }
 
 /* Purple */
 
-.ui.purple.table {
+.ui.purple.table,
+body.single main table.purple.table,
+#toc.menu table.purple.table {
   border-top: 0.2em solid #A333C8;
 }
 
-.ui.inverted.purple.table {
+.ui.inverted.purple.table,
+body.single main table.inverted.purple.table,
+#toc.menu table.inverted.purple.table {
   background-color: #A333C8 !important;
   color: #FFFFFF !important;
 }
 
 /* Pink */
 
-.ui.pink.table {
+.ui.pink.table,
+body.single main table.pink.table,
+#toc.menu table.pink.table {
   border-top: 0.2em solid #E03997;
 }
 
-.ui.inverted.pink.table {
+.ui.inverted.pink.table,
+body.single main table.inverted.pink.table,
+#toc.menu table.inverted.pink.table {
   background-color: #E03997 !important;
   color: #FFFFFF !important;
 }
 
 /* Brown */
 
-.ui.brown.table {
+.ui.brown.table,
+body.single main table.brown.table,
+#toc.menu table.brown.table {
   border-top: 0.2em solid #A5673F;
 }
 
-.ui.inverted.brown.table {
+.ui.inverted.brown.table,
+body.single main table.inverted.brown.table,
+#toc.menu table.inverted.brown.table {
   background-color: #A5673F !important;
   color: #FFFFFF !important;
 }
 
 /* Grey */
 
-.ui.grey.table {
+.ui.grey.table,
+body.single main table.grey.table,
+#toc.menu table.grey.table {
   border-top: 0.2em solid #767676;
 }
 
-.ui.inverted.grey.table {
+.ui.inverted.grey.table,
+body.single main table.inverted.grey.table,
+#toc.menu table.inverted.grey.table {
   background-color: #767676 !important;
   color: #FFFFFF !important;
 }
 
 /* Black */
 
-.ui.black.table {
-  border-top: 0.2em solid #444;
+.ui.black.table,
+body.single main table.black.table,
+#toc.menu table.black.table {
+  border-top: 0.2em solid #1B1C1D;
 }
 
-.ui.inverted.black.table {
-  background-color: #444 !important;
+.ui.inverted.black.table,
+body.single main table.inverted.black.table,
+#toc.menu table.inverted.black.table {
+  background-color: #1B1C1D !important;
   color: #FFFFFF !important;
 }
 
@@ -27485,149 +28085,309 @@ Floated Menu / Item
 
 /* Grid Based */
 
-.ui.one.column.table td {
+.ui.one.column.table td,
+body.single main table.one.column.table td,
+#toc.menu table.one.column.table td {
   width: 100%;
 }
 
-.ui.two.column.table td {
+.ui.two.column.table td,
+body.single main table.two.column.table td,
+#toc.menu table.two.column.table td {
   width: 50%;
 }
 
-.ui.three.column.table td {
+.ui.three.column.table td,
+body.single main table.three.column.table td,
+#toc.menu table.three.column.table td {
   width: 33.33333333%;
 }
 
-.ui.four.column.table td {
+.ui.four.column.table td,
+body.single main table.four.column.table td,
+#toc.menu table.four.column.table td {
   width: 25%;
 }
 
-.ui.five.column.table td {
+.ui.five.column.table td,
+body.single main table.five.column.table td,
+#toc.menu table.five.column.table td {
   width: 20%;
 }
 
-.ui.six.column.table td {
+.ui.six.column.table td,
+body.single main table.six.column.table td,
+#toc.menu table.six.column.table td {
   width: 16.66666667%;
 }
 
-.ui.seven.column.table td {
+.ui.seven.column.table td,
+body.single main table.seven.column.table td,
+#toc.menu table.seven.column.table td {
   width: 14.28571429%;
 }
 
-.ui.eight.column.table td {
+.ui.eight.column.table td,
+body.single main table.eight.column.table td,
+#toc.menu table.eight.column.table td {
   width: 12.5%;
 }
 
-.ui.nine.column.table td {
+.ui.nine.column.table td,
+body.single main table.nine.column.table td,
+#toc.menu table.nine.column.table td {
   width: 11.11111111%;
 }
 
-.ui.ten.column.table td {
+.ui.ten.column.table td,
+body.single main table.ten.column.table td,
+#toc.menu table.ten.column.table td {
   width: 10%;
 }
 
-.ui.eleven.column.table td {
+.ui.eleven.column.table td,
+body.single main table.eleven.column.table td,
+#toc.menu table.eleven.column.table td {
   width: 9.09090909%;
 }
 
-.ui.twelve.column.table td {
+.ui.twelve.column.table td,
+body.single main table.twelve.column.table td,
+#toc.menu table.twelve.column.table td {
   width: 8.33333333%;
 }
 
-.ui.thirteen.column.table td {
+.ui.thirteen.column.table td,
+body.single main table.thirteen.column.table td,
+#toc.menu table.thirteen.column.table td {
   width: 7.69230769%;
 }
 
-.ui.fourteen.column.table td {
+.ui.fourteen.column.table td,
+body.single main table.fourteen.column.table td,
+#toc.menu table.fourteen.column.table td {
   width: 7.14285714%;
 }
 
-.ui.fifteen.column.table td {
+.ui.fifteen.column.table td,
+body.single main table.fifteen.column.table td,
+#toc.menu table.fifteen.column.table td {
   width: 6.66666667%;
 }
 
-.ui.sixteen.column.table td {
+.ui.sixteen.column.table td,
+body.single main table.sixteen.column.table td,
+#toc.menu table.sixteen.column.table td {
   width: 6.25%;
 }
 
 /* Column Width */
 
 .ui.table th.one.wide,
-.ui.table td.one.wide {
+.ui.table td.one.wide,
+body.single main table.table th.one.wide,
+body.single main table.table td.one.wide,
+body.single main table th.one.wide,
+body.single main table td.one.wide,
+#toc.menu table.table th.one.wide,
+#toc.menu table.table td.one.wide,
+#toc.menu table th.one.wide,
+#toc.menu table td.one.wide {
   width: 6.25%;
 }
 
 .ui.table th.two.wide,
-.ui.table td.two.wide {
+.ui.table td.two.wide,
+body.single main table.table th.two.wide,
+body.single main table.table td.two.wide,
+body.single main table th.two.wide,
+body.single main table td.two.wide,
+#toc.menu table.table th.two.wide,
+#toc.menu table.table td.two.wide,
+#toc.menu table th.two.wide,
+#toc.menu table td.two.wide {
   width: 12.5%;
 }
 
 .ui.table th.three.wide,
-.ui.table td.three.wide {
+.ui.table td.three.wide,
+body.single main table.table th.three.wide,
+body.single main table.table td.three.wide,
+body.single main table th.three.wide,
+body.single main table td.three.wide,
+#toc.menu table.table th.three.wide,
+#toc.menu table.table td.three.wide,
+#toc.menu table th.three.wide,
+#toc.menu table td.three.wide {
   width: 18.75%;
 }
 
 .ui.table th.four.wide,
-.ui.table td.four.wide {
+.ui.table td.four.wide,
+body.single main table.table th.four.wide,
+body.single main table.table td.four.wide,
+body.single main table th.four.wide,
+body.single main table td.four.wide,
+#toc.menu table.table th.four.wide,
+#toc.menu table.table td.four.wide,
+#toc.menu table th.four.wide,
+#toc.menu table td.four.wide {
   width: 25%;
 }
 
 .ui.table th.five.wide,
-.ui.table td.five.wide {
+.ui.table td.five.wide,
+body.single main table.table th.five.wide,
+body.single main table.table td.five.wide,
+body.single main table th.five.wide,
+body.single main table td.five.wide,
+#toc.menu table.table th.five.wide,
+#toc.menu table.table td.five.wide,
+#toc.menu table th.five.wide,
+#toc.menu table td.five.wide {
   width: 31.25%;
 }
 
 .ui.table th.six.wide,
-.ui.table td.six.wide {
+.ui.table td.six.wide,
+body.single main table.table th.six.wide,
+body.single main table.table td.six.wide,
+body.single main table th.six.wide,
+body.single main table td.six.wide,
+#toc.menu table.table th.six.wide,
+#toc.menu table.table td.six.wide,
+#toc.menu table th.six.wide,
+#toc.menu table td.six.wide {
   width: 37.5%;
 }
 
 .ui.table th.seven.wide,
-.ui.table td.seven.wide {
+.ui.table td.seven.wide,
+body.single main table.table th.seven.wide,
+body.single main table.table td.seven.wide,
+body.single main table th.seven.wide,
+body.single main table td.seven.wide,
+#toc.menu table.table th.seven.wide,
+#toc.menu table.table td.seven.wide,
+#toc.menu table th.seven.wide,
+#toc.menu table td.seven.wide {
   width: 43.75%;
 }
 
 .ui.table th.eight.wide,
-.ui.table td.eight.wide {
+.ui.table td.eight.wide,
+body.single main table.table th.eight.wide,
+body.single main table.table td.eight.wide,
+body.single main table th.eight.wide,
+body.single main table td.eight.wide,
+#toc.menu table.table th.eight.wide,
+#toc.menu table.table td.eight.wide,
+#toc.menu table th.eight.wide,
+#toc.menu table td.eight.wide {
   width: 50%;
 }
 
 .ui.table th.nine.wide,
-.ui.table td.nine.wide {
+.ui.table td.nine.wide,
+body.single main table.table th.nine.wide,
+body.single main table.table td.nine.wide,
+body.single main table th.nine.wide,
+body.single main table td.nine.wide,
+#toc.menu table.table th.nine.wide,
+#toc.menu table.table td.nine.wide,
+#toc.menu table th.nine.wide,
+#toc.menu table td.nine.wide {
   width: 56.25%;
 }
 
 .ui.table th.ten.wide,
-.ui.table td.ten.wide {
+.ui.table td.ten.wide,
+body.single main table.table th.ten.wide,
+body.single main table.table td.ten.wide,
+body.single main table th.ten.wide,
+body.single main table td.ten.wide,
+#toc.menu table.table th.ten.wide,
+#toc.menu table.table td.ten.wide,
+#toc.menu table th.ten.wide,
+#toc.menu table td.ten.wide {
   width: 62.5%;
 }
 
 .ui.table th.eleven.wide,
-.ui.table td.eleven.wide {
+.ui.table td.eleven.wide,
+body.single main table.table th.eleven.wide,
+body.single main table.table td.eleven.wide,
+body.single main table th.eleven.wide,
+body.single main table td.eleven.wide,
+#toc.menu table.table th.eleven.wide,
+#toc.menu table.table td.eleven.wide,
+#toc.menu table th.eleven.wide,
+#toc.menu table td.eleven.wide {
   width: 68.75%;
 }
 
 .ui.table th.twelve.wide,
-.ui.table td.twelve.wide {
+.ui.table td.twelve.wide,
+body.single main table.table th.twelve.wide,
+body.single main table.table td.twelve.wide,
+body.single main table th.twelve.wide,
+body.single main table td.twelve.wide,
+#toc.menu table.table th.twelve.wide,
+#toc.menu table.table td.twelve.wide,
+#toc.menu table th.twelve.wide,
+#toc.menu table td.twelve.wide {
   width: 75%;
 }
 
 .ui.table th.thirteen.wide,
-.ui.table td.thirteen.wide {
+.ui.table td.thirteen.wide,
+body.single main table.table th.thirteen.wide,
+body.single main table.table td.thirteen.wide,
+body.single main table th.thirteen.wide,
+body.single main table td.thirteen.wide,
+#toc.menu table.table th.thirteen.wide,
+#toc.menu table.table td.thirteen.wide,
+#toc.menu table th.thirteen.wide,
+#toc.menu table td.thirteen.wide {
   width: 81.25%;
 }
 
 .ui.table th.fourteen.wide,
-.ui.table td.fourteen.wide {
+.ui.table td.fourteen.wide,
+body.single main table.table th.fourteen.wide,
+body.single main table.table td.fourteen.wide,
+body.single main table th.fourteen.wide,
+body.single main table td.fourteen.wide,
+#toc.menu table.table th.fourteen.wide,
+#toc.menu table.table td.fourteen.wide,
+#toc.menu table th.fourteen.wide,
+#toc.menu table td.fourteen.wide {
   width: 87.5%;
 }
 
 .ui.table th.fifteen.wide,
-.ui.table td.fifteen.wide {
+.ui.table td.fifteen.wide,
+body.single main table.table th.fifteen.wide,
+body.single main table.table td.fifteen.wide,
+body.single main table th.fifteen.wide,
+body.single main table td.fifteen.wide,
+#toc.menu table.table th.fifteen.wide,
+#toc.menu table.table td.fifteen.wide,
+#toc.menu table th.fifteen.wide,
+#toc.menu table td.fifteen.wide {
   width: 93.75%;
 }
 
 .ui.table th.sixteen.wide,
-.ui.table td.sixteen.wide {
+.ui.table td.sixteen.wide,
+body.single main table.table th.sixteen.wide,
+body.single main table.table td.sixteen.wide,
+body.single main table th.sixteen.wide,
+body.single main table td.sixteen.wide,
+#toc.menu table.table th.sixteen.wide,
+#toc.menu table.table td.sixteen.wide,
+#toc.menu table th.sixteen.wide,
+#toc.menu table td.sixteen.wide {
   width: 100%;
 }
 
@@ -27635,26 +28395,36 @@ Floated Menu / Item
     Sortable
 ---------------*/
 
-.ui.sortable.table thead th {
+.ui.sortable.table thead th,
+body.single main table.sortable.table thead th,
+#toc.menu table.sortable.table thead th {
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
 }
 
-.ui.sortable.table thead th:first-child {
+.ui.sortable.table thead th:first-child,
+body.single main table.sortable.table thead th:first-child,
+#toc.menu table.sortable.table thead th:first-child {
   border-left: none;
 }
 
 .ui.sortable.table thead th.sorted,
-.ui.sortable.table thead th.sorted:hover {
+.ui.sortable.table thead th.sorted:hover,
+body.single main table.sortable.table thead th.sorted,
+body.single main table.sortable.table thead th.sorted:hover,
+#toc.menu table.sortable.table thead th.sorted,
+#toc.menu table.sortable.table thead th.sorted:hover {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 
-.ui.sortable.table thead th:after {
+.ui.sortable.table thead th:after,
+body.single main table.sortable.table thead th:after,
+#toc.menu table.sortable.table thead th:after {
   display: none;
   font-style: normal;
   font-weight: normal;
@@ -27667,61 +28437,81 @@ Floated Menu / Item
   font-family: 'Icons';
 }
 
-.ui.sortable.table thead th.ascending:after {
+.ui.sortable.table thead th.ascending:after,
+body.single main table.sortable.table thead th.ascending:after,
+#toc.menu table.sortable.table thead th.ascending:after {
   content: '\f0d8';
 }
 
-.ui.sortable.table thead th.descending:after {
+.ui.sortable.table thead th.descending:after,
+body.single main table.sortable.table thead th.descending:after,
+#toc.menu table.sortable.table thead th.descending:after {
   content: '\f0d7';
 }
 
 /* Hover */
 
-.ui.sortable.table th.disabled:hover {
+.ui.sortable.table th.disabled:hover,
+body.single main table.sortable.table th.disabled:hover,
+#toc.menu table.sortable.table th.disabled:hover {
   cursor: auto;
   color: rgba(40, 40, 40, 0.3);
 }
 
-.ui.sortable.table thead th:hover {
+.ui.sortable.table thead th:hover,
+body.single main table.sortable.table thead th:hover,
+#toc.menu table.sortable.table thead th:hover {
   background: rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
 }
 
 /* Sorted */
 
-.ui.sortable.table thead th.sorted {
+.ui.sortable.table thead th.sorted,
+body.single main table.sortable.table thead th.sorted,
+#toc.menu table.sortable.table thead th.sorted {
   background: rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.95);
 }
 
-.ui.sortable.table thead th.sorted:after {
+.ui.sortable.table thead th.sorted:after,
+body.single main table.sortable.table thead th.sorted:after,
+#toc.menu table.sortable.table thead th.sorted:after {
   display: inline-block;
 }
 
 /* Sorted Hover */
 
-.ui.sortable.table thead th.sorted:hover {
+.ui.sortable.table thead th.sorted:hover,
+body.single main table.sortable.table thead th.sorted:hover,
+#toc.menu table.sortable.table thead th.sorted:hover {
   background: rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.95);
 }
 
 /* Inverted */
 
-.ui.inverted.sortable.table thead th.sorted {
+.ui.inverted.sortable.table thead th.sorted,
+body.single main table.inverted.sortable.table thead th.sorted,
+#toc.menu table.inverted.sortable.table thead th.sorted {
   background: rgba(255, 255, 255, 0.15) -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
   background: rgba(255, 255, 255, 0.15) -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   background: rgba(255, 255, 255, 0.15) linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   color: #ffffff;
 }
 
-.ui.inverted.sortable.table thead th:hover {
+.ui.inverted.sortable.table thead th:hover,
+body.single main table.inverted.sortable.table thead th:hover,
+#toc.menu table.inverted.sortable.table thead th:hover {
   background: rgba(255, 255, 255, 0.08) -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
   background: rgba(255, 255, 255, 0.08) -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   background: rgba(255, 255, 255, 0.08) linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   color: #ffffff;
 }
 
-.ui.inverted.sortable.table thead th {
+.ui.inverted.sortable.table thead th,
+body.single main table.inverted.sortable.table thead th,
+#toc.menu table.inverted.sortable.table thead th {
   border-left-color: transparent;
   border-right-color: transparent;
 }
@@ -27732,26 +28522,40 @@ Floated Menu / Item
 
 /* Text Color */
 
-.ui.inverted.table {
+.ui.inverted.table,
+body.single main table.inverted.table,
+#toc.menu table.inverted.table {
   background: #333333;
   color: rgba(255, 255, 255, 0.9);
   border: none;
 }
 
-.ui.inverted.table th {
+.ui.inverted.table th,
+body.single main table.inverted.table th,
+#toc.menu table.inverted.table th {
   background-color: rgba(0, 0, 0, 0.15);
   border-color: rgba(255, 255, 255, 0.1) !important;
   color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.ui.inverted.table tr td {
+.ui.inverted.table tr td,
+body.single main table.inverted.table tr td,
+#toc.menu table.inverted.table tr td {
   border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .ui.inverted.table tr.disabled td,
 .ui.inverted.table tr td.disabled,
 .ui.inverted.table tr.disabled:hover td,
-.ui.inverted.table tr:hover td.disabled {
+.ui.inverted.table tr:hover td.disabled,
+body.single main table.inverted.table tr.disabled td,
+body.single main table.inverted.table tr td.disabled,
+body.single main table.inverted.table tr.disabled:hover td,
+body.single main table.inverted.table tr:hover td.disabled,
+#toc.menu table.inverted.table tr.disabled td,
+#toc.menu table.inverted.table tr td.disabled,
+#toc.menu table.inverted.table tr.disabled:hover td,
+#toc.menu table.inverted.table tr:hover td.disabled {
   pointer-events: none;
   color: rgba(225, 225, 225, 0.3);
 }
@@ -27759,11 +28563,17 @@ Floated Menu / Item
 /* Definition */
 
 .ui.inverted.definition.table tfoot:not(.full-width) th:first-child,
-.ui.inverted.definition.table thead:not(.full-width) th:first-child {
+.ui.inverted.definition.table thead:not(.full-width) th:first-child,
+body.single main table.inverted.definition.table tfoot:not(.full-width) th:first-child,
+body.single main table.inverted.definition.table thead:not(.full-width) th:first-child,
+#toc.menu table.inverted.definition.table tfoot:not(.full-width) th:first-child,
+#toc.menu table.inverted.definition.table thead:not(.full-width) th:first-child {
   background: #FFFFFF;
 }
 
-.ui.inverted.definition.table tr td:first-child {
+.ui.inverted.definition.table tr td:first-child,
+body.single main table.inverted.definition.table tr td:first-child,
+#toc.menu table.inverted.definition.table tr td:first-child {
   background: rgba(255, 255, 255, 0.02);
   color: #ffffff;
 }
@@ -27772,7 +28582,9 @@ Floated Menu / Item
    Collapsing
 ---------------*/
 
-.ui.collapsing.table {
+.ui.collapsing.table,
+body.single main table.collapsing.table,
+#toc.menu table.collapsing.table {
   width: auto;
 }
 
@@ -27780,7 +28592,9 @@ Floated Menu / Item
       Basic
 ---------------*/
 
-.ui.basic.table {
+.ui.basic.table,
+body.single main table.basic.table,
+#toc.menu table.basic.table {
   background: transparent;
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
@@ -27788,50 +28602,78 @@ Floated Menu / Item
 }
 
 .ui.basic.table thead,
-.ui.basic.table tfoot {
+.ui.basic.table tfoot,
+body.single main table.basic.table thead,
+body.single main table.basic.table tfoot,
+#toc.menu table.basic.table thead,
+#toc.menu table.basic.table tfoot {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.ui.basic.table th {
+.ui.basic.table th,
+body.single main table.basic.table th,
+#toc.menu table.basic.table th {
   background: transparent;
   border-left: none;
 }
 
-.ui.basic.table tbody tr {
+.ui.basic.table tbody tr,
+body.single main table.basic.table tbody tr,
+#toc.menu table.basic.table tbody tr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.ui.basic.table td {
+.ui.basic.table td,
+body.single main table.basic.table td,
+#toc.menu table.basic.table td {
   background: transparent;
 }
 
-.ui.basic.striped.table tbody tr:nth-child(2n) {
+.ui.basic.striped.table tbody tr:nth-child(2n),
+body.single main table.basic.striped.table tbody tr:nth-child(2n),
+#toc.menu table.basic.striped.table tbody tr:nth-child(2n) {
   background-color: rgba(0, 0, 0, 0.05) !important;
 }
 
 /* Very Basic */
 
-.ui[class*="very basic"].table {
+.ui[class*="very basic"].table,
+body.single main table[class*="very basic"].table,
+#toc.menu table[class*="very basic"].table {
   border: none;
 }
 
 .ui[class*="very basic"].table:not(.sortable):not(.striped) th,
-.ui[class*="very basic"].table:not(.sortable):not(.striped) td {
+.ui[class*="very basic"].table:not(.sortable):not(.striped) td,
+body.single main table[class*="very basic"].table:not(.sortable):not(.striped) th,
+body.single main table[class*="very basic"].table:not(.sortable):not(.striped) td,
+#toc.menu table[class*="very basic"].table:not(.sortable):not(.striped) th,
+#toc.menu table[class*="very basic"].table:not(.sortable):not(.striped) td {
   padding: '';
 }
 
 .ui[class*="very basic"].table:not(.sortable):not(.striped) th:first-child,
-.ui[class*="very basic"].table:not(.sortable):not(.striped) td:first-child {
+.ui[class*="very basic"].table:not(.sortable):not(.striped) td:first-child,
+body.single main table[class*="very basic"].table:not(.sortable):not(.striped) th:first-child,
+body.single main table[class*="very basic"].table:not(.sortable):not(.striped) td:first-child,
+#toc.menu table[class*="very basic"].table:not(.sortable):not(.striped) th:first-child,
+#toc.menu table[class*="very basic"].table:not(.sortable):not(.striped) td:first-child {
   padding-left: 0em;
 }
 
 .ui[class*="very basic"].table:not(.sortable):not(.striped) th:last-child,
-.ui[class*="very basic"].table:not(.sortable):not(.striped) td:last-child {
+.ui[class*="very basic"].table:not(.sortable):not(.striped) td:last-child,
+body.single main table[class*="very basic"].table:not(.sortable):not(.striped) th:last-child,
+body.single main table[class*="very basic"].table:not(.sortable):not(.striped) td:last-child,
+#toc.menu table[class*="very basic"].table:not(.sortable):not(.striped) th:last-child,
+#toc.menu table[class*="very basic"].table:not(.sortable):not(.striped) td:last-child {
   padding-right: 0em;
 }
 
-.ui[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th {
+.ui[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th,
+body.single main table[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th,
+#toc.menu table[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th {
   padding-top: 0em;
 }
 
@@ -27840,12 +28682,28 @@ Floated Menu / Item
 ---------------*/
 
 .ui.celled.table tr th,
-.ui.celled.table tr td {
+.ui.celled.table tr td,
+body.single main table.celled.table tr th,
+body.single main table.celled.table tr td,
+body.single main table tr th,
+body.single main table tr td,
+#toc.menu table.celled.table tr th,
+#toc.menu table.celled.table tr td,
+#toc.menu table tr th,
+#toc.menu table tr td {
   border-left: 1px solid rgba(34, 36, 38, 0.1);
 }
 
 .ui.celled.table tr th:first-child,
-.ui.celled.table tr td:first-child {
+.ui.celled.table tr td:first-child,
+body.single main table.celled.table tr th:first-child,
+body.single main table.celled.table tr td:first-child,
+body.single main table tr th:first-child,
+body.single main table tr td:first-child,
+#toc.menu table.celled.table tr th:first-child,
+#toc.menu table.celled.table tr td:first-child,
+#toc.menu table tr th:first-child,
+#toc.menu table tr td:first-child {
   border-left: none;
 }
 
@@ -27853,24 +28711,34 @@ Floated Menu / Item
      Padded
 ---------------*/
 
-.ui.padded.table th {
+.ui.padded.table th,
+body.single main table.padded.table th,
+#toc.menu table.padded.table th {
   padding-left: 1em;
   padding-right: 1em;
 }
 
 .ui.padded.table th,
-.ui.padded.table td {
+.ui.padded.table td,
+body.single main table.padded.table th,
+body.single main table.padded.table td,
+#toc.menu table.padded.table th,
+#toc.menu table.padded.table td {
   padding: 1em 1em;
 }
 
 /* Very */
 
-.ui[class*="very padded"].table th {
+.ui[class*="very padded"].table th,
+body.single main table[class*="very padded"].table th,
+#toc.menu table[class*="very padded"].table th {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
-.ui[class*="very padded"].table td {
+.ui[class*="very padded"].table td,
+body.single main table[class*="very padded"].table td,
+#toc.menu table[class*="very padded"].table td {
   padding: 1.5em 1.5em;
 }
 
@@ -27878,23 +28746,31 @@ Floated Menu / Item
      Compact
 ---------------*/
 
-.ui.compact.table th {
+.ui.compact.table th,
+body.single main table.compact.table th,
+#toc.menu table.compact.table th {
   padding-left: 0.7em;
   padding-right: 0.7em;
 }
 
-.ui.compact.table td {
+.ui.compact.table td,
+body.single main table.compact.table td,
+#toc.menu table.compact.table td {
   padding: 0.5em 0.7em;
 }
 
 /* Very */
 
-.ui[class*="very compact"].table th {
+.ui[class*="very compact"].table th,
+body.single main table[class*="very compact"].table th,
+#toc.menu table[class*="very compact"].table th {
   padding-left: 0.6em;
   padding-right: 0.6em;
 }
 
-.ui[class*="very compact"].table td {
+.ui[class*="very compact"].table td,
+body.single main table[class*="very compact"].table td,
+#toc.menu table[class*="very compact"].table td {
   padding: 0.4em 0.6em;
 }
 
@@ -27904,19 +28780,27 @@ Floated Menu / Item
 
 /* Small */
 
-.ui.small.table {
+.ui.small.table,
+body.single main table.small.table,
+#toc.menu table.small.table {
   font-size: 0.9em;
 }
 
 /* Standard */
 
-.ui.table {
+.ui.table,
+body.single main table.table,
+body.single main table,
+#toc.menu table.table,
+#toc.menu table {
   font-size: 1em;
 }
 
 /* Large */
 
-.ui.large.table {
+.ui.large.table,
+body.single main table.large.table,
+#toc.menu table.large.table {
   font-size: 1.1em;
 }
 
@@ -28947,15 +29831,15 @@ a.ui.card:hover,
 .ui.black.cards > .card,
 .ui.cards > .black.card,
 .ui.black.card {
-  -webkit-box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #444, 0px 1px 3px 0px #D4D4D5;
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #444, 0px 1px 3px 0px #D4D4D5;
+  -webkit-box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #1B1C1D, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #1B1C1D, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.black.cards > .card:hover,
 .ui.cards > .black.card:hover,
 .ui.black.card:hover {
-  -webkit-box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #515151, 0px 1px 3px 0px #BCBDBD;
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #515151, 0px 1px 3px 0px #BCBDBD;
+  -webkit-box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #27292a, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #27292a, 0px 1px 3px 0px #BCBDBD;
 }
 
 /*--------------
@@ -30547,7 +31431,7 @@ a.ui.card:hover,
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
-  color: #444;
+  color: #1B1C1D;
   text-transform: uppercase;
   text-align: center;
 }
@@ -35156,13 +36040,13 @@ a.ui.nag {
 /* Arrow Position */
 
 [data-tooltip][data-inverted]:before {
-  background: #444;
+  background: #1B1C1D;
 }
 
 /* Popup  */
 
 [data-tooltip][data-inverted]:after {
-  background: #444;
+  background: #1B1C1D;
   color: #FFFFFF;
   border: none;
   -webkit-box-shadow: none;
@@ -35354,25 +36238,25 @@ a.ui.nag {
 /* Inverted Arrow Color */
 
 [data-inverted][data-position~="bottom"][data-tooltip]:before {
-  background: #444;
+  background: #1B1C1D;
   -webkit-box-shadow: -1px -1px 0px 0px #bababc;
   box-shadow: -1px -1px 0px 0px #bababc;
 }
 
 [data-inverted][data-position="left center"][data-tooltip]:before {
-  background: #444;
+  background: #1B1C1D;
   -webkit-box-shadow: 1px -1px 0px 0px #bababc;
   box-shadow: 1px -1px 0px 0px #bababc;
 }
 
 [data-inverted][data-position="right center"][data-tooltip]:before {
-  background: #444;
+  background: #1B1C1D;
   -webkit-box-shadow: -1px 1px 0px 0px #bababc;
   box-shadow: -1px 1px 0px 0px #bababc;
 }
 
 [data-inverted][data-position~="top"][data-tooltip]:before {
-  background: #444;
+  background: #1B1C1D;
 }
 
 [data-position~="bottom"][data-tooltip]:before {
@@ -35601,16 +36485,16 @@ a.ui.nag {
 /* Inverted Arrow Color */
 
 .ui.inverted.bottom.popup:before {
-  background: #444;
+  background: #1B1C1D;
 }
 
 .ui.inverted.right.center.popup:before,
 .ui.inverted.left.center.popup:before {
-  background: #444;
+  background: #1B1C1D;
 }
 
 .ui.inverted.top.popup:before {
-  background: #444;
+  background: #1B1C1D;
 }
 
 /*******************************
@@ -35693,7 +36577,7 @@ a.ui.nag {
 /* Inverted colors  */
 
 .ui.inverted.popup {
-  background: #444;
+  background: #1B1C1D;
   color: #FFFFFF;
   border: none;
   -webkit-box-shadow: none;
@@ -35706,7 +36590,7 @@ a.ui.nag {
 }
 
 .ui.inverted.popup:before {
-  background-color: #444;
+  background-color: #1B1C1D;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
@@ -36278,7 +37162,7 @@ a.ui.nag {
 /* Black */
 
 .ui.black.progress .bar {
-  background-color: #444;
+  background-color: #1B1C1D;
 }
 
 .ui.black.inverted.progress .bar {

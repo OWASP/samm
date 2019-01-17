@@ -3,7 +3,7 @@ business_functions : Design
 title : Security Architecture
 assignedto       : bart.dewin@owasp.org
 complete          : 40%
-business_functions_weight: 3
+weight: 3
 type: security_practice
 ---
 # Short Description
@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Quality Indicators
 
 #### Notes
-Still put focus on perimeter interfaces ? 
+Still put focus on perimeter interfaces ?
 
 I don't like the fact that the Practice is called Secure Architecture and the stream almost has the same name.
 
@@ -62,7 +62,7 @@ If multiple resources exist in each category, select and standardize on one or m
 
 Establish a set of general design patterns representing sound methods of implementing security functionality. You can research them or purchase them, and it is often even more effective if you customize them so they are more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
 
-These patterns can originate from specific projects or applications, but make sure you share them between different development and/or operations teams across the organisation for efficient and consistent application of appropriate security solutions. 
+These patterns can originate from specific projects or applications, but make sure you share them between different development and/or operations teams across the organisation for efficient and consistent application of appropriate security solutions.
 
 To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.
 
@@ -83,13 +83,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Combination of the 2 level 2 activities of SAMM1.5
 
 ## Maturity 3
-### Benefit 
+### Benefit
 Software architectures are standardized to minimize security risks.
 
 ### Activity
 Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. Have architects, senior developers and other technical stakeholders participate in design and creation of reference platforms. After creation, teams maintain ongoing support and updates.
 
-Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the life-cycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization. 
+Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the life-cycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization.
 
 Monitor weaknesses or gaps in the set of security solutions available in your organisation continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.
 
@@ -118,7 +118,7 @@ Risky technologies are identified and replaced
 ### Activity
 People often take the path of least resistance in developing, deploying or operating a software solution. New technologies are included when they can facilitate or speed up the effort or enable the solution to scale better. These new technologies might, however, introduce new risks to the organisation that you need to manage.
 
-Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the solution architect's knowledge, or study the development and operating environment and artefacts. Then evaluate them for their security quality and raise important issues (LINK TO defect management). 
+Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the solution architect's knowledge, or study the development and operating environment and artefacts. Then evaluate them for their security quality and raise important issues (LINK TO defect management).
 
 ### Maturity Questions
 #### Q 1
@@ -146,7 +146,7 @@ There is a common agreement on the key technologies to use
 ### Activity
 Identify commonly used technologies, frameworks and tools in use across software projects in the organisation, whereby you focus on capturing the high-level technologies.
 
-Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organisation. 
+Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organisation.
 
 Senior developers and architects create this list, including input from managers and security auditors. Share this list of recommended components with the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
 
@@ -160,11 +160,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 3
 - Option 4
 
-### Quality Indicators 
+### Quality Indicators
 - Technologies in use have been identified throughout the software portfolio
 - A list of preferred technologies has been defined and approved by lead architects and developers
 - The list of preferred technologies has been shared across the development organisation
-- The list of preferred technologies is regularly (at least yearly) reviewed and updated 
+- The list of preferred technologies is regularly (at least yearly) reviewed and updated
 
 ### Notes
 Note that this used to be level 1 in SAMM 1.5. OK ?
@@ -174,7 +174,7 @@ Note that this used to be level 1 in SAMM 1.5. OK ?
 Compliance with the list is proactively monitored and violations are managed
 
 ### Activity
-For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks. 
+For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks.
 
 Verify several factors with project teams. Identify use of non-recommended technologies to determine if there are gaps in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, implement functionality in the reference platforms as the organization evolves and project teams request it.
 

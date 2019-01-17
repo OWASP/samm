@@ -3,7 +3,7 @@ business_functions : Operations
 title : Incident Management
 assignedto       : Daniel (dan.kefer@gmail.com)
 complete          : 90%
-business_functions_weight: 1
+weight: 1
 type: security_practice
 ---
 # Short Description
@@ -16,9 +16,9 @@ Once your applications become operational, you’re likely to face security inci
 
 - successful DoS (Denial of Service) attack against a cloud application
 - application user accessing private data of another one by abusing a security vulnerability
-- attacker modifying the application source code 
+- attacker modifying the application source code
 
-Sometimes, a security incident is detected only after months or even years when all damage has already been done. That's why the first stream called "Incident Detection" tackles the ability to reliably and timely detect security incidents. 
+Sometimes, a security incident is detected only after months or even years when all damage has already been done. That's why the first stream called "Incident Detection" tackles the ability to reliably and timely detect security incidents.
 
 Once you have identified that you're suffering from a security incident, it's essential to act in a well organized way in order to limit the damage as much as possible. Actitivies leading to this goal are described by the second stream called "Incident Response".
 
@@ -45,13 +45,13 @@ Ability to detect the most obvious security incidents within a reasonable timefr
 
 ### Activity
 
-The available log data (e.g. access logs, application logs, infrastructure logs) are analyzed to detect possible security incidents in accordance with known log data retention periods. 
+The available log data (e.g. access logs, application logs, infrastructure logs) are analyzed to detect possible security incidents in accordance with known log data retention periods.
 
 In small setups, you can do this manually with the help of common command line tools. With larger amounts of logs, employ automation techniques - even a simple script looking for suspicious events run periodically as a cron job is a step forward!
 
-In case the logs from different sources are sent to a dedicated log system, it might be a good idea to analyze the logs here and also employ basic log correlation principles. 
+In case the logs from different sources are sent to a dedicated log system, it might be a good idea to analyze the logs here and also employ basic log correlation principles.
 
-Even if you don’t have a 24⁄7 incident detection process, unavailability of the person in charge (vacation, illness) shouldn’t impact the detection speed and quality significantly. 
+Even if you don’t have a 24⁄7 incident detection process, unavailability of the person in charge (vacation, illness) shouldn’t impact the detection speed and quality significantly.
 
 You have a defined and generally known contact point for formal creation of security incidents.
 
@@ -134,7 +134,7 @@ Ability to timely detect unexpected security incidents.
 
 ### Activity
 
-The process documentation includes measures for continuous process improvement. You check the continuity of process improvement, e.g. via tracking of changes. 
+The process documentation includes measures for continuous process improvement. You check the continuity of process improvement, e.g. via tracking of changes.
 
 The checklist for suspicious event detection is correlated at least from:
 
@@ -176,7 +176,7 @@ Typically, on this maturity level:
 
 # B: Incident Response
 
-Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible. If suitable, you want to identify the root cause and limit the probability of similar incidents happening in the future. 
+Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible. If suitable, you want to identify the root cause and limit the probability of similar incidents happening in the future.
 
 ## Maturity 1
 
@@ -186,11 +186,11 @@ Ability to efficiently solve most common security incidents.
 
 ### Activity
 
-The first step is to recognize the incident response competence as such and define an owner responsible for its continuous development. They keep up with current state of incident handling best practices and forensic tooling. 
+The first step is to recognize the incident response competence as such and define an owner responsible for its continuous development. They keep up with current state of incident handling best practices and forensic tooling.
 
-You usually don't go for dedicated incident response personnel on this maturity level, but you define  the participants of the process are defined (for instance, regular admins or developers helping in case of need). There is a know single point of contact for  the team And a conscious decision regarding reachability of the personnel. 
+You usually don't go for dedicated incident response personnel on this maturity level, but you define  the participants of the process are defined (for instance, regular admins or developers helping in case of need). There is a know single point of contact for  the team And a conscious decision regarding reachability of the personnel.
 
-When security incidents happen, you document the steps taken. Protect this information from unauthorized access if necessary. 
+When security incidents happen, you document the steps taken. Protect this information from unauthorized access if necessary.
 
 ### Maturity Questions
 #### Q 1
@@ -223,13 +223,13 @@ Typically, on this maturity level:
 Understanding and efficient handling of most security incidents.
 
 ### Activity
-Formally establish and document the security incident response process. The documentation includes information like: 
+Formally establish and document the security incident response process. The documentation includes information like:
 
 - Most probable/common scenarios of security incidents and high-level instruction how to handle them. For such scenarios, also use public knowledge about possibly relevant 3rd-party incidents
 - Rules for triaging the incident
-- Rules for involvement of different stakeholders (including mandatory timeframe to do so, if needed), e.g. senior management, Public Relations, Legal, privacy, Human Resources, External (law enforcement) Authorities, Customers. 
+- Rules for involvement of different stakeholders (including mandatory timeframe to do so, if needed), e.g. senior management, Public Relations, Legal, privacy, Human Resources, External (law enforcement) Authorities, Customers.
 
-Knowledgeable and properly trained staff is available in and outside of business hours with defined time to act. Keep both hardware and software tools up to date and ready for use anytime. Define a war room. 
+Knowledgeable and properly trained staff is available in and outside of business hours with defined time to act. Keep both hardware and software tools up to date and ready for use anytime. Define a war room.
 
 The process includes a policy for carrying out root cause analysis and its expected outcomes.
 
@@ -248,7 +248,7 @@ Are ...?
 
 Typically, on this maturity level:
 
-- You perform Root Case Analysis for the most severe security incidents 
+- You perform Root Case Analysis for the most severe security incidents
 - Security playbooks are available for the most common incidents
 - there is dedicated trainings for incident response staff
 - forensic analysis tooling is available
@@ -273,7 +273,7 @@ Document detailed incident response procedures and keep them upd to date. Where 
 
 Carry out incident and emergency exercises are regularly. Use the results for process improvement.
 
-Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement. 
+Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement.
 
 ### Maturity Questions
 #### Q 1

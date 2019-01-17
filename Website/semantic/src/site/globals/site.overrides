@@ -2,6 +2,36 @@
          Site Overrides
 *******************************/
 
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.mainwrapper {
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#toc.menu {
+  width: 200px;
+  position: fixed;
+  top: 50px;
+  bottom: 0px;
+  margin: 0;
+  border-radius: 0;
+  overflow-y: scroll;
+}
+
+main {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
 .homeback {
   background-image: url('/img/homeback.png');
   background-position: center;
@@ -53,7 +83,10 @@
 }
 
 .headerback {
+  position: fixed;
+  z-index: 100;
   background-color: #47054d;
+  width: 100%;
   height: 50px;
   .ui.text.menu {
     margin-left: 20px;
@@ -76,8 +109,13 @@
       font-family: 'Comfortaa', sans-serif;
       font-weight: 700;
       font-size: 1.2em;
+      text-decoration: none;
     }
   }
+}
+
+#a50pxspacer {
+  height: 50px;
 }
 
 .headerbanner {
@@ -131,5 +169,14 @@
   }
   img.ui.image {
     max-width: 200px;
+  }
+}
+
+body.single main, #toc.menu {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  h1, h2, h3, h4, h5, h6, .header, table thead th {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600 !important;
   }
 }

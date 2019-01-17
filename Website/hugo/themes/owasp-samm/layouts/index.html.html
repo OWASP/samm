@@ -15,7 +15,7 @@
         </a>
       </div>
       <div class="eight wide column">
-        <a class="version square" href="#">
+        <a class="version square" href="/v2.0b/introduction/">
           v2.0
           <div class="ui hidden divider"></div>
           <div class="ui orange label">Beta</div>
@@ -27,7 +27,7 @@
 </div>
 
 <div class="headerbanner">
-  <div class="ui container"><p>We also maintain a <a href="#">working copy</a> which is updated in real time based on our <a href="#">GitHub respository</a>.</p></div>
+  <div class="ui container"><p>We also maintain a <a href="/head/introduction/">working copy</a> which is updated in real time based on our <a href="https://github.com/owasp/samm">GitHub respository</a>.</p></div>
 </div>
 
 <div class="ui hidden divider"></div>
@@ -62,11 +62,6 @@
 
 <div class="ui hidden divider"></div>
 
-<div class="ui container">
-  <h1 class="ui header">Sponsors</h1>
-</div>
-
-<div class="ui hidden divider"></div>
 
 <div class="footerback">
   <div class="ui hidden divider"></div>
@@ -93,13 +88,4 @@
   </footer>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
-<script src="{{ "semantic/semantic.min.js"  | relURL }}" data-no-instant></script>
-<script src="{{ "js/jquery.peity.min.js"  | relURL }}" data-no-instant></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('.donut').peity('donut');
-  });
-</script>
-</body>
-</html>
+{{ partial "footer.html" . }}

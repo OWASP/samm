@@ -3,14 +3,14 @@ business_functions : Verification
 title : Architecture Assessment
 assignedto       : Seba (seba@owasp.org)
 complete          : 40%
-business_functions_weight: 1
+weight: 1
 type: security_practice
 ---
 # Short Description
 Validate the security and compliance of the software and supporting infrastructure architecture.  
 
 # Long Description
-Validate the security of the software and supporting infrastructure architecture. Identify application and infrastructure architecture components. For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Iterate through the list of security mechanisms and analyze the system for their provision. 
+Validate the security of the software and supporting infrastructure architecture. Identify application and infrastructure architecture components. For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Iterate through the list of security mechanisms and analyze the system for their provision.
 
 Validate the software and supporting infrastructure architecture against known security requirements, compliance goals and best practices. The overall goal is to verify that the system design has addressed each requirement and best practice. Note nny requirements that are not met at the design level as assessment findings.
 
@@ -78,8 +78,8 @@ threat modeling as a verification activity versus design? (TBD)
 -->
 
 #### Guidance
-https://www.owasp.org/index.php/How_to_perform_a_security_architecture_review_at_Level_1 . 
-https://www.owasp.org/index.php/ASVS_V1_Architecture . 
+https://www.owasp.org/index.php/How_to_perform_a_security_architecture_review_at_Level_1 .
+https://www.owasp.org/index.php/ASVS_V1_Architecture .
 http://www.guidanceshare.com/wiki/Security_Engineering_Explained_-_Chapter_5_-_Security_Architecture_and_Design_Review
 
 ## Maturity 2 - Validate the architecture security mechanisms
@@ -174,7 +174,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2 - Analyze the architecture against known security requirements and best practices
 ### Benefit
-This activity assures that the architecture is aligned with the security requirements and best practices. 
+This activity assures that the architecture is aligned with the security requirements and best practices.
 
 ### Activity
 Analyze the architecture against known security requirements and best practices. Identify and collect either formally identified or informally known security requirements. Additionally, identify and include any security assumptions on which safe operation of the system relies.
@@ -196,7 +196,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 -->
 #### Guidance
-Assures improvement of the security architecture practice, based on feedback from the architecture assessment activities. 
+Assures improvement of the security architecture practice, based on feedback from the architecture assessment activities.
 
 ## Maturity 3 - Feed the architecture review results back into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
 ### Benefit
@@ -219,4 +219,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Quality Indicators
 
 #### Guidance
-

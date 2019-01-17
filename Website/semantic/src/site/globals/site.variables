@@ -13,5 +13,3 @@
 @linkColor: #690d62;
 @linkHoverColor: #47054d;
 @linkHoverUnderline: underline ink;
-
-@black: #444;

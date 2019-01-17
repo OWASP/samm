@@ -3,7 +3,7 @@ business_functions : Implementation
 title : Defect Management
 assignedto       : Chris Cooper (chris.cooper@owasp.org)
 complete          : 30%
-business_functions_weight: 3
+weight: 3
 type: security_practice
 ---
 
@@ -11,11 +11,11 @@ type: security_practice
 This practice focuses on managing security defects in software and their associated metrics.
 
 # Long Description
-The Defect Management practice focuses on collecting, recording, and analysing software security defects and enriching them with information to drive metrics-based decisions. 
+The Defect Management practice focuses on collecting, recording, and analysing software security defects and enriching them with information to drive metrics-based decisions.
 
-The practice’s first stream deals with the process of handling and managing defects to ensure released software has a given assurance level. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole. 
+The practice’s first stream deals with the process of handling and managing defects to ensure released software has a given assurance level. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole.
 
-In a sophisticated form, the practice requires formalised, independent defect management and real-time, correlated information to detect trends and influence security strategy. 
+In a sophisticated form, the practice requires formalised, independent defect management and real-time, correlated information to detect trends and influence security strategy.
 
 # Overview
 
@@ -83,7 +83,7 @@ Define a threshold for defects that require resolution or mitigation. You do not
 
 This quality gate may also exist at whatever point the issue is detected. For instance, if you detect an issue by static analysis prior to build, the build system might prevent the software from building. However, deployment to production is always the final and mandatory quality gate.
 
-To set a threshold that is right your organisation, take into consideration: 
+To set a threshold that is right your organisation, take into consideration:
 
 - the threat model
 - the nature of applicable threats (i.e. skill level, motive, level of access, etc)
@@ -93,7 +93,7 @@ To set a threshold that is right your organisation, take into consideration:
 
 Use a well established risk rating methodology consistently across your defect management solution.
 
-The people responsible for application security and key stakeholders reach an agreement regarding an appropriate threshold. 
+The people responsible for application security and key stakeholders reach an agreement regarding an appropriate threshold.
 
 You notify relevant people if a defect exceeds the defined threshold, and take action to resolve or mitigate the issue before deploying the software into a production environment. A satisfactory mitigation is one that reduces the risk below the threshold.
 
@@ -115,8 +115,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!--
 #### Notes
-is the quality gate only deployment? [Added by CC] 
-definition and agreement of the "threshold" and related timelines is part of this maturity level activity  [Added by CC] 
+is the quality gate only deployment? [Added by CC]
+definition and agreement of the "threshold" and related timelines is part of this maturity level activity  [Added by CC]
 
 #### Guidance
 -->
@@ -127,11 +127,11 @@ definition and agreement of the "threshold" and related timelines is part of thi
 Quality gates are enforced by a security officer following formal processes.
 
 ### Activity
-An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) is responsible for managing known defects and enforcing the defined threshold. 
+An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) is responsible for managing known defects and enforcing the defined threshold.
 
 Defects that exceed the threshold block or prevent deployment into production, until they are resolved, or fall below the threshold. You can do this automatically in the build and deployment processes, if they are integrated with the defect management system. Alternatively, the deployment process could include a step that requires approval from an information security officer.
 
-Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries). 
+Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries).
 
 This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Review the status of accepted and mitigated risks periodically (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).
 
@@ -156,7 +156,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Basic information about defects is shared and used for remediation and training decisions.
 
 ### Activity
-Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include: 
+Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include:
 
 - The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.
 - The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.
@@ -182,11 +182,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 #### Notes
 first align on objectives of these metrics and flesh out overlap with BG Governance.  [CC - still to do]
-add mean time to fix here? 
+add mean time to fix here?
 
-levels? 
+levels?
 1: provide feedback to the team [done by CC]
-2: learn from it accross teams and provide feedback to the organisations, looking for trends 
+2: learn from it accross teams and provide feedback to the organisations, looking for trends
 3: optimized practices and share statictics
 -->
 
@@ -216,7 +216,7 @@ Make this data accessible to management, information security people, developers
 
 Security teams are able to report an accurate picture of the organisation's defect and risk metrics to executive management.
 
-A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme. 
+A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme.
 
 ### Maturity Questions
 
@@ -233,11 +233,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!--
 #### Notes
-learn from the metrics 
+learn from the metrics
 identify patterns  
-getting more granular 
+getting more granular
 enhance trainings, libraries, ...
-describe the type of lessons learned and put more emphasis on this 
+describe the type of lessons learned and put more emphasis on this
 
 -->
 
@@ -278,7 +278,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!--
 #### Notes
-accross multiple projects/teams 
+accross multiple projects/teams
 put more focus on the feedback part
 change the SDLC   
 

@@ -4,7 +4,7 @@ title : Education & Guidance
 assignedto       : Yan Kravchenko (@yanfosec)
 complete         : 40%
 status           : draft        #new, draft, for_review, release_candidate, done
-business_functions_weight: 3
+weight: 3
 type: security_practice
 ---
 # Short Description
@@ -61,10 +61,10 @@ Are ...?
 #### Notes
 
 <!--
-**Summit MN:** 
-* DK: I wouldn’t base anything on Top10 
-* DK: Mandatory technical trainings: project manager won’t understand much, QA also problematic, I would rather go for conscious decision 
-* DK: I’m not convinced that an awareness training should be too technical. 
+**Summit MN:**
+* DK: I wouldn’t base anything on Top10
+* DK: Mandatory technical trainings: project manager won’t understand much, QA also problematic, I would rather go for conscious decision
+* DK: I’m not convinced that an awareness training should be too technical.
 NK: Generally addressed. Kept the Top 10 as it is a standard reference for webapp security among developers.
 -->
 
@@ -77,10 +77,10 @@ Stakeholders involved in producing software receive role-specific security train
 Conduct instructor-led or CBT security training specific to the organization’s roles and technologies, starting with the core development team. The organization customizes training for product managers, software developers, testers, and security auditors, based on each group’s technical needs.
 
 - Product managers train on topics related to SAMM business functions and security practices, with emphasis on security requirements, threat modeling, and defect tracking.
-- Developers train on coding standards and best practices for the technologies they work with to ensure the training directly benefits application security. They have a solid technical understanding of the OWASP Top 10 vulnerabilities, or similar weaknesses relevant to the technologies and frameworks used (e.g. mobile), and the most common remediation strategies for each issue. 
+- Developers train on coding standards and best practices for the technologies they work with to ensure the training directly benefits application security. They have a solid technical understanding of the OWASP Top 10 vulnerabilities, or similar weaknesses relevant to the technologies and frameworks used (e.g. mobile), and the most common remediation strategies for each issue.
 - Testers train on the different testing tools and best practices for technologies used in the organization, and in tools that identify security defects.
 - Security auditors train on the SDLC lifecycle, application security mechanisms used in the organization, and the process for submitting security defects for remediation.
-- Security Champions train on security topics from various phases of the SDLC. They receive the same training as developers and testers, but also understand threat modelling and secure design, as well as security tools and technologies that can be integrated into the build environment. 
+- Security Champions train on security topics from various phases of the SDLC. They receive the same training as developers and testers, but also understand threat modelling and secure design, as well as security tools and technologies that can be integrated into the build environment.
 
 Include all training content from the Maturity Level 1 activities of this stream and additional role-specific and technology-specific content. Eliminate unnecessary aspects of the training.
 
@@ -196,7 +196,7 @@ In addition to assisting Information Security, “Security Champions” provide 
 * DK: My high-level idea:
   * Maturity 1: You have someone responsible for pushing AppSec
   * Maturity 2: Security Champions (ensure scalability, clear tasks), possibly guilds
-  * Maturity 3: Evaluation of Security Champions, full orga coverage / organization efficiency 
+  * Maturity 3: Evaluation of Security Champions, full orga coverage / organization efficiency
 * Wording: Project team vs development team - we should decide and align
 -->
 

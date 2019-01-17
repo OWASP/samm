@@ -32,6 +32,8 @@
   <meta name="generator" content="Hugo">
   <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" href="/index.xml" title="{{ .Site.Title }}">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
   <script>
@@ -44,16 +46,17 @@
 <body class="{{if eq .Kind `page` }}single{{else}}list{{end}}">
   <div class="headerback">
     <header class="ui massive text menu">
-      <div class="header item">
+      <a class="header item" href="/">
         OWASP SAMM
-      </div>
+      </a>
       <div class="right menu">
         <a class="item">
           v1.5
         </a>
-        <a class="item">
+        <a class="item" href="/v2.0b/introduction/">
           v2.0 Beta
         </a>
       </div>
     </header>
   </div>
+  <div id="a50pxspacer"></div>

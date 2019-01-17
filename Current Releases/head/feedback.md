@@ -1,6 +1,11 @@
-OWASP SAMM is an open source software assurance model and we highly value feedback and contributions from the community. 
-For the beta draft version of version 2, we're explicitly soliciting feedback on the structure and content of the current state 
-of the model. Detailed comments on the detailed wording are less relevant at this stage, but can also be provided. 
+---
+title: Feedback
+weight: 2
+type: security_practice
+---
+OWASP SAMM is an open source software assurance model and we highly value feedback and contributions from the community.
+For the beta draft version of version 2, we're explicitly soliciting feedback on the structure and content of the current state
+of the model. Detailed comments on the detailed wording are less relevant at this stage, but can also be provided.
 
 We would very much like to hear your opinion on considerations like:
 * the overall structure: can the structure be improved to support the set of activities?

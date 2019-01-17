@@ -3,7 +3,7 @@ business_functions : Governance
 title : Policy & Compliance
 assignedto       : Yan Kravchenko (@yanfosec)
 complete          : 40%
-business_functions_weight: 2
+weight: 2
 status           : for_review        #new, draft, for_review, release_candidate, done
 type: security_practice
 ---
@@ -28,7 +28,7 @@ In a sophisticated form, provision of this Practice entails an organization-wide
 # A: Policy and Standards
 
 ## Maturity 1
-### Benefit 
+### Benefit
 Have a common set of policies and standards within your organisation.
 
 ### Activity
@@ -100,7 +100,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Notes
 <!--
 **Summit MN:**
-* there is a whole practice on security requirements - wording? 
+* there is a whole practice on security requirements - wording?
 * last paragraph should be linked to security testing
 * "test scripts" -> rather playbooks meant
 -->

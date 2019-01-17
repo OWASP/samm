@@ -3,7 +3,7 @@ business_functions : Design
 title : Security Requirements
 assignedto       : bart.dewin@owasp.org
 complete          : 40%
-business_functions_weight: 2
+weight: 2
 type: security_practice
 ---
 
@@ -24,7 +24,7 @@ This practice focuses on security requirements that are important in the context
 # A: Software Requirements
 
 ## Maturity 1
-### Benefit 
+### Benefit
 You have an understanding of key security requirements.
 
 ### Activity
@@ -75,10 +75,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Quality Indicators
 
 #### Notes
-References: 
+References:
 
 ## Maturity 3
-### Benefit 
+### Benefit
 You have a set of reusable security requirements to improve the overall quality.
 
 ### Activity
@@ -114,7 +114,7 @@ You understand the security practices of your software suppliers.
 ### Activity
 The security competences and habits of the expernal suppliers involved in the development of your software can have a significant impact on the security posture of the final product. Consequently, it is important to know and evaluate your suppliers on this front.
 
-Carry out a vendor assessment to understand the strengths and weaknesses of your suppliers. Conduct interviews and review their typical practices and deliveries. This gives you an idea of how they organize themselves and elements to evaluate whether you need to take additional measures to mitigate potential risks. Ideally, speak to different roles in the organisation, or even organise a small maturity evaluation to this end. Strong suppliers will run their own software assurance program and will be able to answer most of your questions. If suppliers have weak competences in software security, discuss with them how and to what extent they plan to work on this and evaluate whether this is enough for your organisation. A software supplier might be working on a low-risk project, but this could  change. 
+Carry out a vendor assessment to understand the strengths and weaknesses of your suppliers. Conduct interviews and review their typical practices and deliveries. This gives you an idea of how they organize themselves and elements to evaluate whether you need to take additional measures to mitigate potential risks. Ideally, speak to different roles in the organisation, or even organise a small maturity evaluation to this end. Strong suppliers will run their own software assurance program and will be able to answer most of your questions. If suppliers have weak competences in software security, discuss with them how and to what extent they plan to work on this and evaluate whether this is enough for your organisation. A software supplier might be working on a low-risk project, but this could  change.
 
 It is important that your suppliers understand and align to the risk appetite and are able to meet your requirements in that area. Make what you expect from them explicit and discuss this clearly.
 
@@ -135,7 +135,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ## Maturity 2
-### Benefit 
+### Benefit
 You structurally assign responsibilities for software security activities.
 
 ### Activity
@@ -159,7 +159,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ## Maturity 3
-### Benefit 
+### Benefit
 You align software development practices to limit security risks.
 
 ### Activity

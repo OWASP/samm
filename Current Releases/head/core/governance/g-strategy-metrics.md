@@ -4,7 +4,7 @@ title : Strategy & Metrics
 assignedto       : Yan Kravchenko (@yanfosec)
 complete         : 40%
 status           : draft        #new, draft, for_review, release_candidate, done
-business_functions_weight: 1
+weight: 1
 type: security_practice
 ---
 # Short Description
@@ -27,7 +27,7 @@ At the same time, you want to keep track of your security posture and program im
 # A: Create and Promote
 
 ## Maturity 1
-### Benefit 
+### Benefit
 Have a common understanding of an application security baseline.
 
 ### Activity
@@ -123,14 +123,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 **Summit MN:**
 * maybe consider only focus on metrics
-* develop a set of dashboards -> make sure that metrics support it 
+* develop a set of dashboards -> make sure that metrics support it
 * rephrase level 3, last paragraph focus on challenging the efficiency of the metrics
 -->
 
 # B: Measure and Improve
 
 ## Maturity 1
-### Benefit 
+### Benefit
 Have a set of base metrics to provide insight into software security.
 
 ### Activity
@@ -180,10 +180,10 @@ We should make sure to reference all other Security Practices and activities wit
 * number of base metrics and deduced metrics -> might be sensible to mention it
 * we can call the metrics from defect tracking as an example
 * "result" is a better word rather than "impact" (just stressing the fact)
-* "most efficient matter for gathering data" -> mention that you can gather data in a manual or automated (preferred) way 
+* "most efficient matter for gathering data" -> mention that you can gather data in a manual or automated (preferred) way
 * "Expressed as a unit of measure" -> units should be the ones people care about ("covered lines of code" not a good example)
 * CMMI levels not very recognizeable in the description of all levels (Best effort / Process and alignment / Improving and measuring)
-* we don't mention that one of the metrics is budget spent 
+* we don't mention that one of the metrics is budget spent
 * what are the drivers for definition of a particular metric? Which metrics are useful? Should we measure anything we can or not? Some ground should be laid in the practice description
 * measuring SAMM Maturity as an example as well?
 * discussion on inexpensive vs expensive metrics - cost/benefit? or just cost e.g. in term of hours?

@@ -3,7 +3,7 @@ business_functions : Operations
 title : Operational Management
 assignedto       : John (john.dileo@owasp.org)
 complete          : 40%
-business_functions_weight: 3
+weight: 3
 type: security_practice
 ---
 # Short Description
@@ -29,16 +29,16 @@ The functions covered by this practice include, but are not limited to: system p
 
 # A: Data Protection
 
-The activities in this stream focus on ensuring the organization properly protects data in all aspects of their creation, handling, storage, and processing. As an organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected. 
+The activities in this stream focus on ensuring the organization properly protects data in all aspects of their creation, handling, storage, and processing. As an organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected.
 
 ## Maturity 1
 ### Benefit
 Sensitive data are protected from accidental disclosure
 
 ### Activity
-The organization understands the types and sensitivity of data stored and processed by applications, and maintains awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. The organization protects and handles all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed. 
+The organization understands the types and sensitivity of data stored and processed by applications, and maintains awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. The organization protects and handles all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed.
 
-The organization implements basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, the organization can focus data protection policies and activities on production. 
+The organization implements basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, the organization can focus data protection policies and activities on production.
 
 ### Maturity Questions
 #### Q 1
@@ -77,7 +77,7 @@ Are controls in place to ensure sensitive data are sanitized before propagation 
 - Conduct periodic reviews of non-production environments, to verify no sensitive data have propagated to them.
 
 ## Maturity 2
-### Benefit 
+### Benefit
 - Increased understanding of the organization's data landscape
 - Improved confidentiality, integrity, and availability of data backups
 
@@ -200,7 +200,7 @@ From the perspective of the organization as a supplier of software, activities i
 - Reduced support costs for legacy product versions
 
 ### Activity
-Identification of unused applications occurs on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When unused applications are identified, findings are processed for further action; if a formal process for decommissioning unused applications has been established, that process is used. 
+Identification of unused applications occurs on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When unused applications are identified, findings are processed for further action; if a formal process for decommissioning unused applications has been established, that process is used.
 
 The organization manages customer/user migration from older versions of its products individually for each product and customer/user group. Multiple versions of each product may be in active use, requiring development teams to invest significant effort in back-porting product fixes.
 
@@ -321,4 +321,3 @@ Are the asset/component inventory, and the associated end-of-life management pro
 
 - Track if the application / service / firewall rule is being used or not / how much.
 - Product support roadmap - expand on L2 by having support / sales staff proactively reaching to customers
-

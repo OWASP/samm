@@ -3,7 +3,7 @@ business_functions : Implementation
 title : Secure Build
 assignedto       : Chris Cooper (chris.cooper@owasp.org)
 complete          : 40%
-business_functions_weight: 1
+weight: 1
 type: security_practice
 ---
 # Short Description
@@ -54,14 +54,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Quality Indicators
  * Anyone following the documentation can manually deploy a new build environment
- 
+
 <!--
 #### Notes
 Why is this beneficial for software security? [Added by CC]
 
 Note for implementation: "Where it is reasonable to do so, implement static application security testing (SAST) to run as part of the build process. The results from these tests should be logged centrally and actioned as necessary." [Removed from activity by CC]
 
-Reproducible build? 
+Reproducible build?
 How is integrity of the build software guaranteed with this activity? [Added to M3 by CC]
 
 Does "documented" imply a separate document. How about using "captured" instead. [Not changed - question of language we adopt across the board? CC]
@@ -190,7 +190,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Quality Indicators
   * There is an accurate BOM for each software release
   * There is a policy for updating dependency information before production releases
-  
+
 <!--
 #### Notes
 - is "Software Supply Chain" the best title for this stream? [Changed to Software Dependencies by CC]
@@ -235,8 +235,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!--
 #### Notes
-Difference with level 1 is not clear enough 
-Review being more thorough? 
+Difference with level 1 is not clear enough
+Review being more thorough?
 Tooling is practically required to do this, very hard to get to this maturity level manually [Changed tooling from "desirable" to "necessary". CC]
 Consider whitelisting/blacklisting [Added. CC]
 Consider a curated and controlled central repository for the build. [Added. CC]
@@ -270,7 +270,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   * Important 3rd party components have an assigned owner within the organisation. For sufficiently important components, the owner may also be the component’s champion
   * You use multiple intelligence feeds to track the security of 3rd party components
   * There is an active policy to minimise the number of different versions of 3rd party components
- 
+
 <!--
 #### Notes
 Add other verification activities as well. [Generalised the content in question. CC]

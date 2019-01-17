@@ -3,7 +3,7 @@ business_functions : Implementation
 title : Secure Deployment
 assignedto       : Chris Cooper (chris.cooper@owasp.org)
 complete          : 40%
-business_functions_weight: 2
+weight: 2
 type: security_practice
 ---
 
@@ -59,14 +59,14 @@ ACTION: review this stream completely
 
 ## Maturity 2
 ### Benefits
-The deployment process is fully or partially automated and can be halted based on the results of integrated security verification tests. 
+The deployment process is fully or partially automated and can be halted based on the results of integrated security verification tests.
 ### Activity
 
 Fully or partially automate deployment to reduce the need for manual changes on production, and to reduce the chances of human error.
 
 Deployments include appropriate automated security checks such as DAST and malware scanning. Notify relevant people of any defects automatically.Stop or reverse the deployment automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. Log the results from these tests centrally and take any necessary actions.
 
-Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy. 
+Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
 
 ### Maturity Questions
 
@@ -85,7 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 3
 ### Benefits
-The deployment process automatically validates the integrity of its artifacts. 
+The deployment process automatically validates the integrity of its artifacts.
 
 ### Activity
 The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Sign binaries at build time. This may include binaries developed and built in-house, as well as third-party libraries. Do not deploy binary signatures that cannot be verified, including those with invalid or expired certificates.
@@ -163,8 +163,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!--
 #### Notes
-procedures when this happens? how to resolve this? 
-Protection of secrets in config file 
+procedures when this happens? how to resolve this?
+Protection of secrets in config file
 -->
 
 ## Maturity 3
@@ -174,7 +174,7 @@ Secrets are dynamically generated during deployment and a process routinely chec
 ### Activity
 Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly.
 
-Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks. 
+Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.
 
 Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them, from  a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
 
