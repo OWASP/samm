@@ -23,7 +23,7 @@ build:
     - arjen/hugo-build:
         version: "0.41"
         flags: --buildDrafts=true
-        basedir: "Website/Hugo"
+        basedir: "Website/hugo"
 deploy:
   steps:
     - install-packages:
