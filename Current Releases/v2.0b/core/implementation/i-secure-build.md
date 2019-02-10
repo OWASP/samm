@@ -47,11 +47,11 @@ Include steps in the build process for signing the generated binaries with an ap
 A fully automated build system allows easy integration of automated security checks at all stages of the build process, and ensures separate but consistent build environments.
 
 ### Activity
-Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The process is reliable and does not require developer intervention, further reducing the likelihood of human error.
+Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The build process is reliable and does not require developer intervention, further reducing the likelihood of human error.
 
 Automation makes it easier to include security checks during the build process. Implement static application security testing (SAST) to run as part of the build process. Refer to guidance in [Verification > Security Testing](../v-security-testing) > A3.
 
-The use of an automated system increases reliance on the build tools for security, and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+The use of an automated system to setup the build pipeline increases reliance on the build tools for security, and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
 
 The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Refer to [Implementation > Secure Deployment](i-secure-deployment) > B.
 
