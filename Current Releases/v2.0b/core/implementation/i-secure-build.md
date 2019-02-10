@@ -33,7 +33,7 @@ Consistent and repeatable builds help developers focus on application-specific i
 ### Activity
 Fully document the complete build process, breaking it down into clear stages for consistent reproduction. Following the build process does not require any additional knowledge about the software - meaning that the documentation is complete and not open to interpretation.
 
-The documentation does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, environments, and code repositories . Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
+The documentation does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
 
 Keep a master copy of the build documentation in one central location accessible by all who require access. Avoid having multiple copies, some of which may become accidentally outdated.
 
