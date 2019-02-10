@@ -7,7 +7,7 @@ weight: 1
 type: security_practice
 ---
 # Short Description
-This practice focuses on creating a consistently repeatable build process and accounting for the security of application dependencies.
+This practice focuses on creating a consistently repeatable build process and accounting for the security of dependencies.
 # Long Description
 The Secure Build practice emphasises the importance of building software in a standardised, repeatable manner, and of doing so using secure components, including 3rd party software dependencies.
 
@@ -20,8 +20,8 @@ The second stream acknowledges the prevalence of software dependencies in modern
 | | A: Build Process | B: Software Dependencies |
 |:---|:---|:---|
 | Maturity 1 - Build process is repeatable and consistent | The build process is defined and consistent.   | All application dependencies are identified and documented |
-| Maturity 2 - Build process is optimized and fully integrated into the workflow | The build process is fully automated and does not require intervention by the developer. | All components and libraries are periodically reviewed for known security vulnerabilities and licensing issues |
-| Maturity 3 - Build process helps prevent known defects from entering the production environment. | Security defects may trigger the build to stop executing | Components and libraries are independently scanned for vulnerabilities |
+| Maturity 2 - Build process is optimized and fully integrated into the workflow | The build process is fully automated and does not require intervention by the developer. | All components and dependencies are periodically reviewed for known security vulnerabilities and licensing issues |
+| Maturity 3 - Build process helps prevent known defects from entering the production environment. | Security defects may trigger the build to stop executing | Components and dependencies are independently scanned for vulnerabilities |
 
 
 # A: Build Process
@@ -151,17 +151,17 @@ lot of overlap/duplication with the security testing stream, to be revised. [Cha
 
 ## Maturity 1
 ### Benefit
-You know which production applications are at risk from a known vulnerable 3rd party component.
+You know which production components are at risk from a known vulnerable 3rd party dependencies. Dependencies include 3rd party software dependencies and operating system dependencies. 3rd party dependencies often inculde more dependencies (called _transitive dependencies_).
 
 ### Activity
 
-Keep a record of all software dependencies used throughout the target application. This is sometimes referred to as a Bill of Materials (BOM). In building these records, consider the various locations where dependencies might be specified:
+Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). In building these records, consider the various locations where dependencies might be specified:
 - configuration files
 - the project's directory on disk
 - package management tool
 - code (e.g. via an IDE that supports listing dependencies)
 
-Consider that the different components and aspects of the application may consume entirely different dependencies. For example, if the software package is a web app, cover both the server-side application code and client-side scripts.
+Consider that the different dependencies and aspects of the application may consume entirely different dependencies. For example, if the software package is a web app, cover both the server-side application code and client-side scripts.
 
 The records include the following information about each dependency:
 
@@ -171,11 +171,11 @@ The records include the following information about each dependency:
 * License
 * Source information (link to repository, author's name, etc.)
 * Open source or proprietary
-* Support and maintenance status of the component
+* Support and maintenance status of the dependency
 
 Check the records, whenever practical, to discover any dependencies with known vulnerabilities and update or replace them accordingly.
 
-Ensure that providers actively maintain components, and that they deal with security vulnerabilities appropriately. Gain assurance when dealing with open source components, either through agreements with a commercial vendor, or other means, for example, by looking at repository activity, and the developers' responses to security issues raised by the community.
+Ensure that providers actively maintain dependencies, and that they deal with security vulnerabilities appropriately. Gain assurance when dealing with open source dependencies, either through agreements with a commercial vendor, or other means, for example, by looking at repository activity, and the developers' responses to security issues raised by the community.
 
 ### Maturity Questions
 #### Q 1
@@ -201,22 +201,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Maturity 2
 ### Benefit
-There is an audit trail of all 3rd party libraries used in development and you know and track their security status at any given time.
+There is an audit trail of all 3rd party dependencies used in development and you know and track their security status at any given time.
 
 ### Activity
 
-Evaluate libraries to establish a whitelist of acceptable code dependencies approved for use within a project, team, or the wider organization.
+Evaluate dependencies to establish a whitelist of acceptable code dependencies approved for use within a project, team, or the wider organization.
 
 Alternatively, introduce a central repository of approved dependencies that all software must be built from.
 
-Review components regularly to ensure that:
+Review dependencies regularly to ensure that:
 
 * they remain correctly licensed
 * no known and significant vulnerabilities are present
-* there is support and active maintenance for the component
-* there is a good business reason to include the component
+* there is support and active maintenance for the dependency
+* there is a good business reason to include the dependency
 
-You may need tools to automate some or all of this process, such as analyzing where the component is used, or checking for updates via a package manager. Consider using an automated tool to scan for vulnerable dependencies.
+You may need tools to automate some or all of this process, such as analyzing where the dependency is used, or checking for updates via a package manager. Consider using an automated tool to scan for vulnerable dependencies.
 
 ### Maturity Questions
 #### Q 1
@@ -230,8 +230,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Quality Indicators
   * There is an automatically generated BOM for each software release
-  * You can query the security status of all 3rd party components anytime
-  * There is a well-defined procedure for addressing vulnerabilities in 3rd party components
+  * You can query the security status of all 3rd party dependencies anytime
+  * There is a well-defined procedure for addressing vulnerabilities in 3rd party dependencies
 
 <!--
 #### Notes
@@ -245,7 +245,7 @@ Consider a curated and controlled central repository for the build. [Added. CC]
 
 ## Maturity 3
 ### Benefit
-The application’s security level is more indicative of its real security, by consistently assessing its 3rd party components.
+The application’s security level is more indicative of its real security, by consistently assessing its 3rd party dependencies.
 
 ### Activity
 
@@ -264,12 +264,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Option 4
 
 ### Quality Indicators
-  * You assess the security of important 3rd party components. The components are either flagged during a risk analysis or threat modelling, or are of high value to business
-  * The organisation actively contributes security improvements to important 3rd party components (testing, reports, features)
-  * Security is an important factor during 3rd party component selection
-  * Important 3rd party components have an assigned owner within the organisation. For sufficiently important components, the owner may also be the component’s champion
-  * You use multiple intelligence feeds to track the security of 3rd party components
-  * There is an active policy to minimise the number of different versions of 3rd party components
+  * You assess the security of important 3rd party dependencies. The dependencies are either flagged during a risk analysis or threat modelling, or are of high value to business
+  * The organisation actively contributes security improvements to important 3rd party dependencies (testing, reports, features)
+  * Security is an important factor during 3rd party dependency selection
+  * Important 3rd party dependencies have an assigned owner within the organisation. For sufficiently important dependencies, the owner may also be the dependency’s champion
+  * You use multiple intelligence feeds to track the security of 3rd party dependencies
+  * There is an active policy to minimise the number of different versions of 3rd party dependencies
 
 <!--
 #### Notes
