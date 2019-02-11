@@ -35,7 +35,7 @@ All software security defects are recorded centrally.
 ### Activity
 Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
 
-Sources of defects include, but are not limited to, those discovered via:
+Sources of defects and violations include, but are not limited to, those discovered via:
 
 - Threat assessments
 - Developers during self or peer code review
@@ -47,8 +47,8 @@ Sources of defects include, but are not limited to, those discovered via:
 - Public/private vulnerability disclosures (e.g. for 3rd party libraries)
 - Bug bounties
 
-Qualify all defects so the records only contain valid and significant issues. Consider manageability. void recording duplicate defects, for example, searching  for similar issues. Merge duplicates and group similar issues,, particularly if you will handle them in the same way.
-The organisation uses these records to make decisions and resolve vulnerabilities. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
+Qualify all defects and license violations so the records only contain valid and significant issues. Consider manageability. Void recording duplicate defects, for example, searching  for similar issues. Merge duplicates and group similar issues, particularly if you will handle them in the same way.
+The organisation uses these records to make decisions and resolve defects and violations. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
 
 #### Maturity Questions
 ##### Q 1
