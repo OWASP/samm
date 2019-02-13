@@ -289,7 +289,7 @@ Are ...?
 ### Quality Indicators
 Typically, on this maturity level:
 
-- You perform Root Case Analysis for all security incidents unless there is a specific reason not to do so
+- You perform Root Cause Analysis for all security incidents unless there is a specific reason not to do so
 - You identify and document improvements in the RCAs and you have probably implemented them
 - You have carried out some exercises in the last year.
 - There is a roadmap for process improvement
