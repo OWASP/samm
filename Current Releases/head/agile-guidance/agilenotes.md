@@ -13,7 +13,7 @@ Link texts to identifiers in the core model using https://github.com/OWASP/samm/
 # The notes
 No particular order and all quick draft.
 ## Topic: General 
-###Quality at speed:
+### Quality at speed:
 How to attain quality at speed? Agile delivers software more frequently, which means that quality assurance is a more frequent issue. Traditionally, quality assurance has been a carefully designed single phase in software development. The challenge is to make it less bureaucratic, take less time and still get quality software. To make this happen, mistakes need to be both prevented (build security in) and fought (find mistakes) with maximum efficiency, so to minimize manual work and the burden on developers:
 Prevent:
 -using solid technologies/frameworks/components that take care of as much security as possible
@@ -27,11 +27,11 @@ Fight:
 -by checks that need to be automated as much as possible 
 -manual checking will still be required and needs needs to be performed in a smart incremental and risk-based way, focusing only on changes and their impact.
 
-###Does a maturity model conflict with agile?
+### Does a maturity model conflict with agile?
 A maturity model may seem conflicting with the agile manifesto, because Agile holds people over process and working software over documentation. However, agile does not disqualify process or documentation - it wants to minimise it where possible. To make this happen, a maturity model can provide tremendous help and it supports the Agile way of improving the way you work by learning as you go along.
 
 ## Topic: Strategy & Metrics
-### “Team autonomy”
+### Team autonomy
 In most agile environments, team autonomy is important, which means that it can be a challenge to work on process maturity on an organisation-wide scale. If team-autonomy is important, than a maturity program should embrace that different teams can have different maturities and different ways of working, including security. At the same time it is advisable to let teams learn from each other, so sharing of practices between teams is a best practice for maturity programs.”
 ### Security is a shared responsibility
 In an Agile environment security needs to be built in from the start. There is no time every sprint for the approach of building features without worrying too much about security, then do security testing and then fix the weaknesses. First of all, this would require undirected full testing every time and it would require much rework, leading to a situation where the product owner and development team are fighting it out with the security team. Therefore, security needs to be owned by everyone including the product Owner. This puts security professionals much more in an advisory and supportive role than in a role of a quality gate that has different stakes than the team. By including security in the discussions and in the planning, no room is left to ignore it. 
@@ -44,7 +44,7 @@ I’m not sure if it’s a good idea to have the security group ensure that deve
 
 
 ## Design-Threat assessment
-###Inremental threat modelling
+### Inremental threat modelling
 Even though the Agile manifesto states “working software is more important than comprehensive documentation”, the concept of a threat model should not be dismissed. First of all, a threat model provides a shared mental model of possible attacks in a development team which decreases the probability of security mistakes. Second of all, a threat model can be helpful in selecting the right requirements: system-generic and story-specific (see “Requirements in stories”).
 
 The entire threat modelling process doesn’t have to be done all over again every time. It can be done incrementally as the software evolves, by assessing for every new story whether it introduces a new component, process, dataflow or trust boundary. If it does, it can be helpful to extend the existing threat model and identify the new threats and their countermeasures (in the form of functional security stories or requirements for the new story). If the threat model is an important method for the team to build security in, then the system threat model should occasionally be reworked, as mistakes tend to build up, incremental change after incremental change.
@@ -89,7 +89,7 @@ PITFALL: The key to agile security is to apply the right requirements at the rig
 PITFALL: Filling in the security details should be done during either creation of the story or backlog refinements. Doing this during sprint planning is not recommended because all the time will be needed to plan.
 
 PITFALL: In case the team works with the “conditions of satisfaction” these should not be used for security requirements because these are typically functional. Furthermore, story-specific reqruirements should not be in the definition of done either - because these are user story independent.
-### “Abuse Stories”
+### Abuse Stories
 An Abuse story is a descriptions from the perspective of an attacker (as supposed to a user), how a system is abused through a security weakness: “As an attacker…”. It is normally not added on a sprint backlog because it does not describe development work. The purpose of an abuse story is to help the team think about what could go wrong so they can specify the work/the requirements needed in user stories. The form of the abuse story is helpful because developers are familiar with user stories.
 @@Validate: Abuse stories are advantageous mostly in the beginning of development. Not every story needs an abuse story counterpart: that would add much overhead. 
 Abuse stories can be helpful as explanation of certain security tests, explaining for example to a pentester against what threats a specific requirement needs to be tested.
@@ -99,7 +99,7 @@ PITFALL: Abuse stories should not be the only method to find security requiremen
 ### Agile testing
 In Agile, testing happens more frequently and typically covers the same parts of a system over and over again, which is why it is important to automate testing and to base time consuming manual testing and reviewing on the effects of the changes made. For code review this means that review needs to focus on changed and added code only and therefore requires a structured approach and administration. For manual pentesting this means that the testing should focus on the behaviour that is likely to be affected by the changes made.  Because the behavioural effect of changes is hard to predict, mistakes may be made in limiting the pentest, which is why it is recommended to do a complete penetration test when the risk of such a mistake is deemed high.
 
-This need for change-based selection of tests shows that especially for agile it is important to have modular system, in which modules can be tested separately and there is limited propagation of changes. In an agile environment there typically is not a budget for in depth expert manual review and testing after every sprint. This means that in release planning it should be taken into account when such manual work is expected to be necessary, so it can be prepared and planned."
+This need for change-based selection of tests shows that especially for agile it is important to have modular system, in which modules can be tested separately and there is limited propagation of changes. In an agile environment there typically is not a budget for in depth expert manual review and testing after every sprint. This means that in release planning it should be taken into account when such manual work is expected to be necessary, so it can be prepared and planned.
 
 Test automation has obvious benefits. Effortless reruns, consistency and repeatability, quick feedback and control over test cases. It does require developer discipline to maintain them along with source code changes. The same holds for security tests. Part of security concerns can be caught early on by unit tests (e.g. invalid ranges of inputs) but are easier to catch in higher level end-to-end tests where input and output are compared with expectations (through a black box). @@TODO: keep paragraph?
 
