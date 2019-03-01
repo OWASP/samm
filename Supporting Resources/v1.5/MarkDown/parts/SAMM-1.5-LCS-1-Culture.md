@@ -116,7 +116,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under contruction and in operation.
 
-**Education & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
+**Lifecycle Security Culture** add short description here.
 
 …*more on page 10*
 
@@ -129,6 +129,8 @@ Construction concerns the processes and activities related to how an organizatio
 
 **Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
 
+**Lifecycle Security Design** add short description here.
+
 …*more on page 12*
 
 ## Verification
@@ -140,6 +142,8 @@ Verification is focused on the processes and activities related to how an organi
 
 **Security Testing** involves testing the organization’s software in its runtime environment, in order to both discover vulnerabilities, and establish a minimum standard for software releases.
 
+**Lifecycle Security Testing** add short description here.
+
 …*more on page 14*
 
 ## Operations
@@ -150,6 +154,8 @@ Operations entails the processes and activities related to how an organization m
 **Environment Hardening** involves implementing controls for the operating environment surrounding an organization’s software to bolster the security posture of applications that have been deployed.
 
 **Operational Enablement** involves identifying and capturing security-relevant information needed by an operator to properly configure, deploy, and run an organization’s software.
+
+**Lifecycle Security Monitoring** add short description here.
 
 *…more on page 16*
 
@@ -199,6 +205,10 @@ One major theme for improvement across the objectives is providing training for 
 
 In addition to training, this practice also requires pulling security-relevant information into guidelines that serve as reference information to staff. This builds a foundation for establishing a baseline expectation for security practices in your organization, and later allows for incremental improvement once usage of the guidelines has been adopted.
 
+### Lifecycle Security Culture
+
+Add long description here.
+
 
 # Governance
 ## Activities Overview
@@ -227,6 +237,14 @@ In addition to training, this practice also requires pulling security-relevant i
 | **Objective:** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software lifecycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.** |
 | **Activities:** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines| **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification|
 
+### Lifecycle Security Culture
+*…more on page XX*
+
+| | SC 1  | SC 2  | SC 3 |
+:-------------|:------------- |:---------------|:-------------|
+| **Objective:** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software lifecycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.** |
+| **Activities:** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines| **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification|
+
 # Construction
 ## Description of Security Practices
 
@@ -246,6 +264,10 @@ The Secure Architecture (SA) practice is focused on proactive steps for an organ
 Beginning from simple recommendations about software frameworks and explicit consideration of secure design principles, an organization evolves toward consistently using design patterns for security functionality. Also, activities encourage project teams to increased utilization of centralized security services and infrastructure.
 
 As an organization evolves over time, sophisticated provision of this practice entails organizations building reference platforms to cover the generic types of software they build. These serve as frameworks upon which developers can build custom software with lower risk of vulnerabilities.
+
+### Lifecycle Security Design
+Add long description here.
+
 
 # Construction
 ## Activities Overview
@@ -269,6 +291,14 @@ As an organization evolves over time, sophisticated provision of this practice e
 *…more on page 44*
 
 | | SA 1  | SA 2  | SA 3 |
+|:-------------|:------------- |:---------------|:-------------|
+| **Objective:** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known- secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.** |
+| **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
+
+### Lifecycle Security Design
+*…more on page XX*
+
+| | SD 1  | SD 2  | SD 3 |
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known- secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.** |
 | **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
@@ -297,6 +327,9 @@ Starting with penetration testing and high-level test cases based on the functio
 
 In an advanced form, provision of this practice involves customization of testing automation to build a battery of security tests covering application-specific concerns in detail. With additional visibility at the organization level, security testing enables organizations to set minimum expectations for security testing results before a project release is accepted.
 
+### Lifecycle Security Testing
+Add long description here.
+
 # Verification
 ## Activities Overview
 
@@ -318,6 +351,14 @@ In an advanced form, provision of this practice involves customization of testin
 
 ### Security Testing 
 *...more on page 56*
+
+| | ST1 |ST2 | ST3 |
+|:-------------|:------------- |:---------------|:-------------|
+| **Objective:**| **Establish process to perform basic security tests based on implementation and software requirements.** |**Make security testing during development more complete and efficient through automation.** | **Require application- specific security testing to ensure baseline security before deployment.** |
+| **Activities:**|**A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing
+
+### Lifecycle Security Testing 
+*...more on page XX*
 
 | | ST1 |ST2 | ST3 |
 |:-------------|:------------- |:---------------|:-------------|
@@ -346,6 +387,9 @@ The Operational Enablement (OE) practice is focused on gathering security critic
 Starting from lightweight documentation to capture the most important details for users and operators, an organization evolves toward building complete operational security guides that are delivered with each release.
 
 In an advanced form, operational enablement also entails organization-level checks against individual project teams to ensure that information is being captured and shared according to expectations.
+   
+### Lifecycle Security Monitoring
+Add long description here.
 
 # Operations
 ## Activities Overview
@@ -369,6 +413,14 @@ In an advanced form, operational enablement also entails organization-level chec
 *…more on page 68*
 
 | | OE1 | OE2 | OE3 |
+|:-------------|:------------- |:---------------|:-------------|
+|**Objective:** | **Enable communications between development teams and operators for critical security-relevant data.** | **Improve expectations for continuous secure operations through provision of detailed procedures.** | **Mandate communication of security information and validate artifacts for completeness.** |
+| **Activities:** | **A.** Capture critical security information for deployment **B.** Document procedures for typical application alerts | **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components |
+
+### Lifecycle Security Monitoring
+*…more on page XX*
+
+| | SM1 | SM2 | SM3 |
 |:-------------|:------------- |:---------------|:-------------|
 |**Objective:** | **Enable communications between development teams and operators for critical security-relevant data.** | **Improve expectations for continuous secure operations through provision of detailed procedures.** | **Mandate communication of security information and validate artifacts for completeness.** |
 | **Activities:** | **A.** Capture critical security information for deployment **B.** Document procedures for typical application alerts | **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components |
@@ -419,6 +471,20 @@ In an advanced form, operational enablement also entails organization-level chec
 | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
+### Lifecycle Security Culture
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
+| **SC1** 
+| ✦Have developers been given high-level security awareness training?| NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+|✦Does each project team understand where to find secure development best-practices and guidance? | NO | SOME | HALF | MOST |
+|**SC2** 
+|✦Are those involved in the development process given role-specific security training and guidance? | NO | SOME | HALF | MOST |
+|✦ Are stakeholders able to pull in security coaches for use on projects? | NO | SOME | HALF | MOST |
+| **SC3** 
+| ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+
 # Construction
 ## Assessment worksheet
 ### Threat Assessmment
@@ -465,6 +531,20 @@ In an advanced form, operational enablement also entails organization-level chec
 | ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
 | ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
+### Lifecycle Security Design
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
+| **SD1**
+|✦ Are project teams provided with a list of recommended third-party components? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦ Are project teams aware of secure design principles and do they apply them consistently? | NO | SOME | HALF | MOST |
+| **SD2**
+| ✦Do you advertise shared security services with guidance for project teams? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
+| ✦ Are project teams provided with prescriptive design patterns based on their application architecture? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+|**SD3**
+| ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
+| ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+
 # Verification
 ## Assessment worksheet
 ### Design Review
@@ -496,6 +576,21 @@ In an advanced form, operational enablement also entails organization-level chec
 | ✦Does a minimum security baseline exist for code review results? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 ### Security Testing
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
+| **ST1**
+| ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
+| ✦Is penetration testing performed on high risk projects prior to release? | NO | SOME | HALF | MOST |
+|✦Are stakeholders aware of the security test status prior to release? | NO | SOME | HALF | MOST |
+| **ST2**
+| ✦Do projects use automation to evaluate security test cases? | NO | SOME | HALF | MOST |
+| ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | NO | SOME | HALF | MOST |
+| **ST3**
+| ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
+| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+
+### Lifecycle Security Testing
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -552,6 +647,20 @@ In an advanced form, operational enablement also entails organization-level chec
 | ✦Do projects utilize a change management process that’s well understood? | NO | SOME | HALF | MOST |
 | ✦Do project teams deliver an operational security guide with each product release? | NO | SOME | HALF | MOST |
 | **OE3**
+| ✦Are project releases audited for appropriate operational security information? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
+| ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
+
+### Lifecycle Security Monitoring
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
+| **SM1**
+| ✦Are security notes delivered with each software release? | NO | SOME | HALF | MOST |
+| ✦Are security-related alerts and error conditions documented on a per-project basis? | NO | SOME | HALF | MOST |
+| **SM2**
+| ✦Do projects utilize a change management process that’s well understood? | NO | SOME | HALF | MOST |
+| ✦Do project teams deliver an operational security guide with each product release? | NO | SOME | HALF | MOST |
+| **SM3**
 | ✦Are project releases audited for appropriate operational security information? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
 | ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
 
@@ -2404,5 +2513,153 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4MzM5MTU5XX0=
+eyJkaXNjdXNzaW9ucyI6eyIwQ25LSk9iWUZzbGdZVG1tIjp7In
+N0YXJ0Ijo1NzY4LCJlbmQiOjU3NjksInRleHQiOiIjIn0sIlNT
+OVFvUkd0Vk8xZDFPMG8iOnsic3RhcnQiOjU5OTksImVuZCI6Nj
+AwMCwidGV4dCI6IiMifSwiY1dHQmtPMFJvYmhlSGRITyI6eyJz
+dGFydCI6NzE3MywiZW5kIjo3MjQzLCJ0ZXh0IjoiKipGb3IgZW
+FjaCBidXNpbmVzcyBmdW5jdGlvbiwgU0FNTSBkZWZpbmVzIHRo
+cmVlIHNlY3VyaXR5IHByYWN0aWNlcy4qKiJ9LCJDaGVxNldkYW
+FjdUlUa3I4Ijp7InN0YXJ0Ijo4NjU2LCJlbmQiOjg3MTQsInRl
+eHQiOiIqKkxpZmVjeWNsZSBDdWx0dXJlKiogYWRkIHNob3J0IG
+Rlc2NyaXB0aW9uIGhlcmUuIn0sIktOVDFXYURVN0Fnc1U3aVIi
+Onsic3RhcnQiOjk2MzEsImVuZCI6OTY4OCwidGV4dCI6IioqTG
+lmZWN5Y2xlIFNlY3VyaXR5IERlc2lnbioqIGFkZCBzaG9ydCBk
+ZXNjcmlwdGlvbiBoZXJlLiJ9LCJ4RGJHYXVrYjRTUmF4eElDIj
+p7InN0YXJ0IjoxMDYxOCwiZW5kIjoxMDY3NiwidGV4dCI6Iioq
+TGlmZWN5Y2xlIFRlc3RpbmcqKiBhZGQgc2hvcnQgZGVzY3JpcH
+Rpb24gaGVyZS4ifSwiY3BUV0N1bTJET3o5ZExodiI6eyJzdGFy
+dCI6MTE1ODMsImVuZCI6MTE2NDQsInRleHQiOiIqKkxpZmVjeW
+NsZSBTZWN1cml0eSBNb25pdG9yaW5nKiogYWRkIHNob3J0IGRl
+c2NyaXB0aW9uIGhlcmUuIn0sImdERmxFRlRtQ2NNb0FKdUsiOn
+sic3RhcnQiOjE3NjcyLCJlbmQiOjE3NzMwLCJ0ZXh0IjoiIyMj
+IExpZmVjeWNsZSBTZWN1cml0eSBDdWx0dXJlXG5cbkFkZCBsb2
+5nIGRlc2NyaXB0aW9uIGhlcmUuIn0sIktKamY4UHlCWGJES2dl
+QXEiOnsic3RhcnQiOjIwMTE4LCJlbmQiOjIwMTM2LCJ0ZXh0Ij
+oiKuKApm1vcmUgb24gcGFnZSBYWCoifSwiWml2Q0NZTWhVUTIw
+VDVKMyI6eyJzdGFydCI6MjAxMzgsImVuZCI6MjA5MDEsInRleH
+QiOiJ8IHwgU0MgMSAgfCBTQyAyICB8IFNDIDMgfFxuOi0tLS0t
+LS0tLS0tLS18Oi0tLS0tLS0tLS0tLS0gfDotLS0tLS0tLS0tLS
+0tLS18Oi0tLeKApiJ9LCJwanpLc2RVSzJxNmpFM2VRIjp7InN0
+YXJ0IjoyMzc3NSwiZW5kIjoyMzgzMSwidGV4dCI6IiMjIyBMaW
+ZlY3ljbGUgU2VjdXJpdHkgRGVzaWduXG5BZGQgbG9uZyBkZXNj
+cmlwdGlvbiBoZXJlLiJ9LCJ2R2tMbVBZdGJvcFFOZjhLIjp7In
+N0YXJ0IjoyNjQxNSwiZW5kIjoyNzIwMiwidGV4dCI6InwgfCBT
+RCAxICB8IFNEIDIgIHwgU0QgMyB8XG58Oi0tLS0tLS0tLS0tLS
+18Oi0tLS0tLS0tLS0tLS0gfDotLS0tLS0tLS0tLS0tLS18Oi0t
+4oCmIn0sIlM4S1d0N3M3VmczSnhpMHgiOnsic3RhcnQiOjI2Mz
+k1LCJlbmQiOjI2NDEzLCJ0ZXh0IjoiKuKApm1vcmUgb24gcGFn
+ZSBYWCoifSwiVHNscVp5dGV1MWw5OU93TiI6eyJzdGFydCI6Mz
+AxMzgsImVuZCI6MzAxOTUsInRleHQiOiIjIyMgTGlmZWN5Y2xl
+IFNlY3VyaXR5IFRlc3RpbmdcbkFkZCBsb25nIGRlc2NyaXB0aW
+9uIGhlcmUuIn0sIkN0SGtPYW16UHdtTzFTWUgiOnsic3RhcnQi
+OjMyNjUyLCJlbmQiOjMzNDY4LCJ0ZXh0IjoiIyMjIExpZmVjeW
+NsZSBTZWN1cml0eSBUZXN0aW5nIFxuKi4uLm1vcmUgb24gcGFn
+ZSBYWCpcblxufCB8IFNUMSB8U1QyIHwgU1QzIHxcbnw6LS3igK
+YifSwidVBYMjQzVXBMNnBsVHFDSCI6eyJzdGFydCI6MzYxNzgs
+ImVuZCI6MzYyMzgsInRleHQiOiIjIyMgTGlmZWN5Y2xlIFNlY3
+VyaXR5IE1vbml0b3JpbmdcbkFkZCBsb25nIGRlc2NyaXB0aW9u
+IGhlcmUuIn0sIkVLTElKYXNqMnE1a0VPZVMiOnsic3RhcnQiOj
+M4NjMxLCJlbmQiOjM4NjgzLCJ0ZXh0IjoiIyMjIExpZmVjeWNs
+ZSBTZWN1cml0eSBNb25pdG9yaW5nXG4q4oCmbW9yZSBvbiBwYW
+dlIFhYKiJ9LCI2eEppNk10NDhDVXZSZUY0Ijp7InN0YXJ0Ijoz
+ODY4NSwiZW5kIjozOTQ1MCwidGV4dCI6InwgfCBTTTEgfCBTTT
+IgfCBTTTMgfFxufDotLS0tLS0tLS0tLS0tfDotLS0tLS0tLS0t
+LS0tIHw6LS0tLS0tLS0tLS0tLS0tfDotLS0tLS0t4oCmIn0sIl
+g1RlNVSTFXczlqUGFWT3UiOnsic3RhcnQiOjQyNDM4LCJlbmQi
+OjQzNDA4LCJ0ZXh0IjoiIyMjIExpZmVjeWNsZSBTZWN1cml0eS
+BDdWx0dXJlXG58IHwgfCB8IHwgfFxufDotLS0tLS0tLS0tLS0t
+fDotLS0tLS0tLS0tLS0tfDotLS0t4oCmIn0sImVTSUhieWNtN0
+1SUERuVGQiOnsic3RhcnQiOjMyNzA2LCJlbmQiOjMyNzI2LCJ0
+ZXh0IjoifCB8IFNUMSB8U1QyIHwgU1QzIHwifSwiYUo4N1VDNE
+1CV2ozMDRBOSI6eyJzdGFydCI6NDYyNTIsImVuZCI6NDcyMjcs
+InRleHQiOiIjIyMgTGlmZWN5Y2xlIFNlY3VyaXR5IERlc2lnbl
+xufCB8IHwgfCB8IHxcbnw6LS0tLS0tLS0tLS0tLXw6LS0tLS0t
+LS0tLS0tLXw6LS0tLS3igKYifSwieUdJUXZJWk43SFhOcGNRUy
+I6eyJzdGFydCI6NDk5ODksImVuZCI6NTA5NTEsInRleHQiOiIj
+IyMgTGlmZWN5Y2xlIFNlY3VyaXR5IFRlc3RpbmdcbnwgfCB8IH
+wgfCB8XG58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18
+Oi0tLS3igKYifSwiemFjS3hoazBUTnMwZU10OSI6eyJzdGFydC
+I6NTM4MjAsImVuZCI6NTQ2OTMsInRleHQiOiIjIyMgTGlmZWN5
+Y2xlIFNlY3VyaXR5IE1vbml0b3JpbmdcbnwgfCB8IHwgfCB8XG
+58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18Oi3igKYi
+fX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNTMiOnsiZG
+lzY3Vzc2lvbklkIjoiMENuS0pPYllGc2xnWVRtbSIsInN1YiI6
+ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMgY2
+hhbmdlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNTUxNDM4MDQ4NzIw
+fSwiOUVIVjBybEZzWko4RnpaVyI6eyJkaXNjdXNzaW9uSWQiOi
+JTUzlRb1JHdFZPMWQxTzBvIiwic3ViIjoiZ2g6MTY3MDUwOTUi
+LCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBhZGQgcHJhY3RpY2VzIi
+wiY3JlYXRlZCI6MTU1MTQzODA3MDY3MX0sInViQ3JadGVNWWh6
+T0N2cFYiOnsiZGlzY3Vzc2lvbklkIjoiY1dHQmtPMFJvYmhlSG
+RITyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8g
+Sm9oYW5uZXMgXCJmb3VyIHNlY3VyaXR5IHByYWN0aWNlc1wiIi
+wiY3JlYXRlZCI6MTU1MTQzODEzNTgyMH0sInNNNG1yaUR3azMy
+ZHpqUzIiOnsiZGlzY3Vzc2lvbklkIjoiQ2hlcTZXZGFhY3VJVG
+tyOCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8g
+SsO8cmdlbiIsImNyZWF0ZWQiOjE1NTE0MzgxOTg5ODh9LCJTU0
+JrdktDSWdzOU9sWUoxIjp7ImRpc2N1c3Npb25JZCI6IktOVDFX
+YURVN0Fnc1U3aVIiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleH
+QiOiJUT0RPIFRhYmVhIEthdGphIiwiY3JlYXRlZCI6MTU1MTQz
+ODI3MjA1NH0sImpLUkV5YkN5c0NEZjRDRksiOnsiZGlzY3Vzc2
+lvbklkIjoieERiR2F1a2I0U1JheHhJQyIsInN1YiI6ImdoOjE2
+NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdG
+VkIjoxNTUxNDM4MzIyOTY4fSwiYTQyVnhKZ1VHR0l4N245VCI6
+eyJkaXNjdXNzaW9uSWQiOiJjcFRXQ3VtMkRPejlkTGh2Iiwic3
+ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBFZHVhcmQi
+LCJjcmVhdGVkIjoxNTUxNDM4MzgwNTA2fSwiTGtDVzBZdVJQT1
+dIT2hrSyI6eyJkaXNjdXNzaW9uSWQiOiJnREZsRUZUbUNjTW9B
+SnVLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETy
+BKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODQ3MzM3OX0sImpx
+UjQ5emlRZnR4cmJSWmwiOnsiZGlzY3Vzc2lvbklkIjoiS0pqZj
+hQeUJYYkRLZ2VBcSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4
+dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNTUxNDM4NT
+M5NjYxfSwiRFFjS1ppenBTRHI0ak5heiI6eyJkaXNjdXNzaW9u
+SWQiOiJaaXZDQ1lNaFVRMjBUNUozIiwic3ViIjoiZ2g6MTY3MD
+UwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6
+MTU1MTQzODYwMDEyMH0sInpxVnJHNEVRT1RwYWJzZWMiOnsiZG
+lzY3Vzc2lvbklkIjoicGp6S3NkVUsycTZqRTNlUSIsInN1YiI6
+ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0am
+EiLCJjcmVhdGVkIjoxNTUxNDM4NzAwMjE5fSwidG5abmtZZ09J
+S3J4bVk1VCI6eyJkaXNjdXNzaW9uSWQiOiJ2R2tMbVBZdGJvcF
+FOZjhLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9E
+TyBUYWJlYSAmIEthdGphIiwiY3JlYXRlZCI6MTU1MTQzODc1OT
+UzMn0sIjFhRG94OWNaeGNPdjRseDMiOnsiZGlzY3Vzc2lvbklk
+IjoiUzhLV3Q3czdWZzNKeGkweCIsInN1YiI6ImdoOjE2NzA1MD
+k1IiwidGV4dCI6IlRPRE8gSm9oYW5lbnMiLCJjcmVhdGVkIjox
+NTUxNDM4Nzc2NDIwfSwiOVRhMGhjSlJ6TVc3OEhlUSI6eyJkaX
+NjdXNzaW9uSWQiOiJUc2xxWnl0ZXUxbDk5T3dOIiwic3ViIjoi
+Z2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsIm
+NyZWF0ZWQiOjE1NTE0Mzg4MzAzMjV9LCJNQVhySlJNeFVkNmNi
+YVVUIjp7ImRpc2N1c3Npb25JZCI6IkN0SGtPYW16UHdtTzFTWU
+giLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIEpv
+aGFubmVzIiwiY3JlYXRlZCI6MTU1MTQzODg2ODc3NH0sImdBdX
+hjMHJQVktWSU1mVWYiOnsiZGlzY3Vzc2lvbklkIjoidVBYMjQz
+VXBMNnBsVHFDSCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dC
+I6IlRPRE8gRWR1YXJkIiwiY3JlYXRlZCI6MTU1MTQzODkxMDE5
+N30sImxKaHRRYU14cHMyUjhSYVAiOnsiZGlzY3Vzc2lvbklkIj
+oiRUtMSUphc2oycTVrRU9lUyIsInN1YiI6ImdoOjE2NzA1MDk1
+IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNT
+UxNDM4OTU0NjQ0fSwic3FDYWVuZWFha2w5WmNHNiI6eyJkaXNj
+dXNzaW9uSWQiOiI2eEppNk10NDhDVXZSZUY0Iiwic3ViIjoiZ2
+g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBFZHVhcmQiLCJjcmVh
+dGVkIjoxNTUxNDM4OTg4OTkxfSwiTUE4bDltS1R0R3lDTk8yeC
+I6eyJkaXNjdXNzaW9uSWQiOiJYNUZTVUkxV3M5alBhVk91Iiwi
+c3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2
+VuIiwiY3JlYXRlZCI6MTU1MTQzOTA4MzIwOH0sIkx1SFlKVkdT
+Z2hqZEY4M3IiOnsiZGlzY3Vzc2lvbklkIjoiZVNJSGJ5Y203TV
+JQRG5UZCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRP
+RE8gSm9oYW5uZXMgY2hhbmdlIHNob3J0Y3V0IiwiY3JlYXRlZC
+I6MTU1MTQzOTE0NDcyM30sIlBidERvNHp1eEZDdjY5bUwiOnsi
+ZGlzY3Vzc2lvbklkIjoiYUo4N1VDNE1CV2ozMDRBOSIsInN1Yi
+I6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0
+amEiLCJjcmVhdGVkIjoxNTUxNDM5MjE5Njg3fSwiMVZWYWRpWU
+JXcnNVSzN6SSI6eyJkaXNjdXNzaW9uSWQiOiJ5R0lRdklaTjdI
+WE5wY1FTIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE
+9ETyBKb2hhbm5lcyIsImNyZWF0ZWQiOjE1NTE0MzkyNTM3NzR9
+LCJRZ05jMkJWVnV3d1Y3ekhRIjp7ImRpc2N1c3Npb25JZCI6In
+phY0t4aGswVE5zMGVNdDkiLCJzdWIiOiJnaDoxNjcwNTA5NSIs
+InRleHQiOiJUT0RPIEVkdWFyZCIsImNyZWF0ZWQiOjE1NTE0Mz
+kyOTk0NDd9fSwiaGlzdG9yeSI6Wy02NDQzNDI0MjksNjY4MzM5
+MTU5LC0xMzE4MzI0NDk2XX0=
 -->
