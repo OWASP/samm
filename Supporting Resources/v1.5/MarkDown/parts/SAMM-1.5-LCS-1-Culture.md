@@ -388,8 +388,8 @@ Starting from lightweight documentation to capture the most important details fo
 
 In an advanced form, operational enablement also entails organization-level checks against individual project teams to ensure that information is being captured and shared according to expectations.
    
-### Lifecycle Security Monitoring Enablement
-The Operational Enablement (OE) practice is focused on gathering security critical information from the project teams building software and communicating it to the users and operators of the software. Without this information, even the most securely designed software carries undue risks since important security characteristics and choices will not be known at a deployment site.
+### Lifecycle Security Monitoring
+Add long description here.
 
 # Operations
 ## Activities Overview
@@ -413,6 +413,14 @@ The Operational Enablement (OE) practice is focused on gathering security critic
 *…more on page 68*
 
 | | OE1 | OE2 | OE3 |
+|:-------------|:------------- |:---------------|:-------------|
+|**Objective:** | **Enable communications between development teams and operators for critical security-relevant data.** | **Improve expectations for continuous secure operations through provision of detailed procedures.** | **Mandate communication of security information and validate artifacts for completeness.** |
+| **Activities:** | **A.** Capture critical security information for deployment **B.** Document procedures for typical application alerts | **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components |
+
+### Lifecycle Security Monitoring
+*…more on page XX*
+
+| | SM1 | SM2 | SM3 |
 |:-------------|:------------- |:---------------|:-------------|
 |**Objective:** | **Enable communications between development teams and operators for critical security-relevant data.** | **Improve expectations for continuous secure operations through provision of detailed procedures.** | **Mandate communication of security information and validate artifacts for completeness.** |
 | **Activities:** | **A.** Capture critical security information for deployment **B.** Document procedures for typical application alerts | **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components |
@@ -2491,57 +2499,69 @@ IFNlY3VyaXR5IFRlc3RpbmdcbkFkZCBsb25nIGRlc2NyaXB0aW
 OjMyNjUyLCJlbmQiOjMzNDY4LCJ0ZXh0IjoiIyMjIExpZmVjeW
 NsZSBTZWN1cml0eSBUZXN0aW5nIFxuKi4uLm1vcmUgb24gcGFn
 ZSBYWCpcblxufCB8IFNUMSB8U1QyIHwgU1QzIHxcbnw6LS3igK
-YifX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNTMiOnsi
-ZGlzY3Vzc2lvbklkIjoiMENuS0pPYllGc2xnWVRtbSIsInN1Yi
-I6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMg
-Y2hhbmdlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNTUxNDM4MDQ4Nz
-IwfSwiOUVIVjBybEZzWko4RnpaVyI6eyJkaXNjdXNzaW9uSWQi
-OiJTUzlRb1JHdFZPMWQxTzBvIiwic3ViIjoiZ2g6MTY3MDUwOT
-UiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBhZGQgcHJhY3RpY2Vz
-IiwiY3JlYXRlZCI6MTU1MTQzODA3MDY3MX0sInViQ3JadGVNWW
-h6T0N2cFYiOnsiZGlzY3Vzc2lvbklkIjoiY1dHQmtPMFJvYmhl
-SGRITyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE
-8gSm9oYW5uZXMgXCJmb3VyIHNlY3VyaXR5IHByYWN0aWNlc1wi
-IiwiY3JlYXRlZCI6MTU1MTQzODEzNTgyMH0sInNNNG1yaUR3az
-MyZHpqUzIiOnsiZGlzY3Vzc2lvbklkIjoiQ2hlcTZXZGFhY3VJ
-VGtyOCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE
-8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NTE0MzgxOTg5ODh9LCJT
-U0JrdktDSWdzOU9sWUoxIjp7ImRpc2N1c3Npb25JZCI6IktOVD
-FXYURVN0Fnc1U3aVIiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRl
-eHQiOiJUT0RPIFRhYmVhIEthdGphIiwiY3JlYXRlZCI6MTU1MT
-QzODI3MjA1NH0sImpLUkV5YkN5c0NEZjRDRksiOnsiZGlzY3Vz
-c2lvbklkIjoieERiR2F1a2I0U1JheHhJQyIsInN1YiI6ImdoOj
-E2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVh
-dGVkIjoxNTUxNDM4MzIyOTY4fSwiYTQyVnhKZ1VHR0l4N245VC
-I6eyJkaXNjdXNzaW9uSWQiOiJjcFRXQ3VtMkRPejlkTGh2Iiwi
-c3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBFZHVhcm
-QiLCJjcmVhdGVkIjoxNTUxNDM4MzgwNTA2fSwiTGtDVzBZdVJQ
-T1dIT2hrSyI6eyJkaXNjdXNzaW9uSWQiOiJnREZsRUZUbUNjTW
-9BSnVLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9E
-TyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODQ3MzM3OX0sIm
-pxUjQ5emlRZnR4cmJSWmwiOnsiZGlzY3Vzc2lvbklkIjoiS0pq
-ZjhQeUJYYkRLZ2VBcSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidG
-V4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNTUxNDM4
-NTM5NjYxfSwiRFFjS1ppenBTRHI0ak5heiI6eyJkaXNjdXNzaW
-9uSWQiOiJaaXZDQ1lNaFVRMjBUNUozIiwic3ViIjoiZ2g6MTY3
-MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZC
-I6MTU1MTQzODYwMDEyMH0sInpxVnJHNEVRT1RwYWJzZWMiOnsi
-ZGlzY3Vzc2lvbklkIjoicGp6S3NkVUsycTZqRTNlUSIsInN1Yi
-I6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0
-amEiLCJjcmVhdGVkIjoxNTUxNDM4NzAwMjE5fSwidG5abmtZZ0
-9JS3J4bVk1VCI6eyJkaXNjdXNzaW9uSWQiOiJ2R2tMbVBZdGJv
-cFFOZjhLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE
-9ETyBUYWJlYSAmIEthdGphIiwiY3JlYXRlZCI6MTU1MTQzODc1
-OTUzMn0sIjFhRG94OWNaeGNPdjRseDMiOnsiZGlzY3Vzc2lvbk
-lkIjoiUzhLV3Q3czdWZzNKeGkweCIsInN1YiI6ImdoOjE2NzA1
-MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5lbnMiLCJjcmVhdGVkIj
-oxNTUxNDM4Nzc2NDIwfSwiOVRhMGhjSlJ6TVc3OEhlUSI6eyJk
-aXNjdXNzaW9uSWQiOiJUc2xxWnl0ZXUxbDk5T3dOIiwic3ViIj
+YifSwidVBYMjQzVXBMNnBsVHFDSCI6eyJzdGFydCI6MzYxNzgs
+ImVuZCI6MzYyMzgsInRleHQiOiIjIyMgTGlmZWN5Y2xlIFNlY3
+VyaXR5IE1vbml0b3JpbmdcbkFkZCBsb25nIGRlc2NyaXB0aW9u
+IGhlcmUuIn0sIkVLTElKYXNqMnE1a0VPZVMiOnsic3RhcnQiOj
+M4NjMxLCJlbmQiOjM4NjgzLCJ0ZXh0IjoiIyMjIExpZmVjeWNs
+ZSBTZWN1cml0eSBNb25pdG9yaW5nXG4q4oCmbW9yZSBvbiBwYW
+dlIFhYKiJ9fSwiY29tbWVudHMiOnsiSHlITVRuYUtQNnlzU0c1
+MyI6eyJkaXNjdXNzaW9uSWQiOiIwQ25LSk9iWUZzbGdZVG1tIi
+wic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hh
+bm5lcyBjaGFuZ2UgcGljdHVyZSIsImNyZWF0ZWQiOjE1NTE0Mz
+gwNDg3MjB9LCI5RUhWMHJsRnNaSjhGelpXIjp7ImRpc2N1c3Np
+b25JZCI6IlNTOVFvUkd0Vk8xZDFPMG8iLCJzdWIiOiJnaDoxNj
+cwNTA5NSIsInRleHQiOiJUT0RPIEpvaGFubmVzIGFkZCBwcmFj
+dGljZXMiLCJjcmVhdGVkIjoxNTUxNDM4MDcwNjcxfSwidWJDcl
+p0ZU1ZaHpPQ3ZwViI6eyJkaXNjdXNzaW9uSWQiOiJjV0dCa08w
+Um9iaGVIZEhPIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0Ij
+oiVE9ETyBKb2hhbm5lcyBcImZvdXIgc2VjdXJpdHkgcHJhY3Rp
+Y2VzXCIiLCJjcmVhdGVkIjoxNTUxNDM4MTM1ODIwfSwic000bX
+JpRHdrMzJkempTMiI6eyJkaXNjdXNzaW9uSWQiOiJDaGVxNldk
+YWFjdUlUa3I4Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0Ij
+oiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODE5ODk4
+OH0sIlNTQmt2S0NJZ3M5T2xZSjEiOnsiZGlzY3Vzc2lvbklkIj
+oiS05UMVdhRFU3QWdzVTdpUiIsInN1YiI6ImdoOjE2NzA1MDk1
+IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0amEiLCJjcmVhdGVkIj
+oxNTUxNDM4MjcyMDU0fSwiaktSRXliQ3lzQ0RmNENGSyI6eyJk
+aXNjdXNzaW9uSWQiOiJ4RGJHYXVrYjRTUmF4eElDIiwic3ViIj
 oiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIs
-ImNyZWF0ZWQiOjE1NTE0Mzg4MzAzMjV9LCJNQVhySlJNeFVkNm
-NiYVVUIjp7ImRpc2N1c3Npb25JZCI6IkN0SGtPYW16UHdtTzFT
-WUgiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIE
-pvaGFubmVzIiwiY3JlYXRlZCI6MTU1MTQzODg2ODc3NH19LCJo
-aXN0b3J5IjpbMjAxMDE5MTgwMCw2NjgzMzkxNTksLTEzMTgzMj
-Q0OTZdfQ==
+ImNyZWF0ZWQiOjE1NTE0MzgzMjI5Njh9LCJhNDJWeEpnVUdHSX
+g3bjlUIjp7ImRpc2N1c3Npb25JZCI6ImNwVFdDdW0yRE96OWRM
+aHYiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIE
+VkdWFyZCIsImNyZWF0ZWQiOjE1NTE0MzgzODA1MDZ9LCJMa0NX
+MFl1UlBPV0hPaGtLIjp7ImRpc2N1c3Npb25JZCI6ImdERmxFRl
+RtQ2NNb0FKdUsiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQi
+OiJUT0RPIErDvHJnZW4iLCJjcmVhdGVkIjoxNTUxNDM4NDczMz
+c5fSwianFSNDl6aVFmdHhyYlJabCI6eyJkaXNjdXNzaW9uSWQi
+OiJLSmpmOFB5QlhiREtnZUFxIiwic3ViIjoiZ2g6MTY3MDUwOT
+UiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZWF0ZWQiOjE1
+NTE0Mzg1Mzk2NjF9LCJEUWNLWml6cFNEcjRqTmF6Ijp7ImRpc2
+N1c3Npb25JZCI6IlppdkNDWU1oVVEyMFQ1SjMiLCJzdWIiOiJn
+aDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcm
+VhdGVkIjoxNTUxNDM4NjAwMTIwfSwienFWckc0RVFPVHBhYnNl
+YyI6eyJkaXNjdXNzaW9uSWQiOiJwanpLc2RVSzJxNmpFM2VRIi
+wic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYWJl
+YSBLYXRqYSIsImNyZWF0ZWQiOjE1NTE0Mzg3MDAyMTl9LCJ0bl
+pua1lnT0lLcnhtWTVUIjp7ImRpc2N1c3Npb25JZCI6InZHa0xt
+UFl0Ym9wUU5mOEsiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleH
+QiOiJUT0RPIFRhYmVhICYgS2F0amEiLCJjcmVhdGVkIjoxNTUx
+NDM4NzU5NTMyfSwiMWFEb3g5Y1p4Y092NGx4MyI6eyJkaXNjdX
+NzaW9uSWQiOiJTOEtXdDdzN1ZnM0p4aTB4Iiwic3ViIjoiZ2g6
+MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbmVucyIsImNyZW
+F0ZWQiOjE1NTE0Mzg3NzY0MjB9LCI5VGEwaGNKUnpNVzc4SGVR
+Ijp7ImRpc2N1c3Npb25JZCI6IlRzbHFaeXRldTFsOTlPd04iLC
+JzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIEpvaGFu
+bmVzIiwiY3JlYXRlZCI6MTU1MTQzODgzMDMyNX0sIk1BWHJKUk
+14VWQ2Y2JhVVQiOnsiZGlzY3Vzc2lvbklkIjoiQ3RIa09hbXpQ
+d21PMVNZSCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6Il
+RPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNTUxNDM4ODY4Nzc0
+fSwiZ0F1eGMwclBWS1ZJTWZVZiI6eyJkaXNjdXNzaW9uSWQiOi
+J1UFgyNDNVcEw2cGxUcUNIIiwic3ViIjoiZ2g6MTY3MDUwOTUi
+LCJ0ZXh0IjoiVE9ETyBFZHVhcmQiLCJjcmVhdGVkIjoxNTUxND
+M4OTEwMTk3fSwibEpodFFhTXhwczJSOFJhUCI6eyJkaXNjdXNz
+aW9uSWQiOiJFS0xJSmFzajJxNWtFT2VTIiwic3ViIjoiZ2g6MT
+Y3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZWF0
+ZWQiOjE1NTE0Mzg5NTQ2NDR9fSwiaGlzdG9yeSI6WzMxOTAwOD
+IxLDY2ODMzOTE1OSwtMTMxODMyNDQ5Nl19
 -->
