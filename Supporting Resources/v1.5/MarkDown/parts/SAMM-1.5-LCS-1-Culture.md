@@ -15,7 +15,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Education & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
 
-**Lifecycle Sec & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
+**Lifecycle Security Culture** add short description here.
 
 …*more on page 10*
 
@@ -2303,5 +2303,11 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjM1Nzc5Niw2NjgzMzkxNTldfQ==
+eyJkaXNjdXNzaW9ucyI6eyJ2YzFUekUydU1Ja3EyQ2w0Ijp7In
+N0YXJ0IjoyMDQ3LCJlbmQiOjIwNzMsInRleHQiOiJhZGQgc2hv
+cnQgZGVzY3JpcHRpb24gaGVyZSJ9fSwiY29tbWVudHMiOnsiME
+x6OHNGMnpiOVlzaExsaCI6eyJkaXNjdXNzaW9uSWQiOiJ2YzFU
+ekUydU1Ja3EyQ2w0Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZX
+h0IjoiVE9ETyIsImNyZWF0ZWQiOjE1NTE0Mzc4MzA5MjF9fSwi
+aGlzdG9yeSI6Wy0xMzE4MzI0NDk2LDY2ODMzOTE1OV19
 -->
