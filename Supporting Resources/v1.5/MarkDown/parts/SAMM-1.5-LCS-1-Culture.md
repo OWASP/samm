@@ -531,6 +531,20 @@ Add long description here.
 | ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
 | ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
+### Lifecycle Security Design
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
+| **SD1**
+|✦ Are project teams provided with a list of recommended third-party components? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦ Are project teams aware of secure design principles and do they apply them consistently? | NO | SOME | HALF | MOST |
+| **SD2**
+| ✦Do you advertise shared security services with guidance for project teams? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
+| ✦ Are project teams provided with prescriptive design patterns based on their application architecture? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+|**SD3**
+| ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
+| ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+
 # Verification
 ## Assessment worksheet
 ### Design Review
@@ -576,6 +590,21 @@ Add long description here.
 | ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
 | ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
+### Lifecycle Security Testing
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
+| **ST1**
+| ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
+| ✦Is penetration testing performed on high risk projects prior to release? | NO | SOME | HALF | MOST |
+|✦Are stakeholders aware of the security test status prior to release? | NO | SOME | HALF | MOST |
+| **ST2**
+| ✦Do projects use automation to evaluate security test cases? | NO | SOME | HALF | MOST |
+| ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | NO | SOME | HALF | MOST |
+| **ST3**
+| ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
+| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+
 # Operations
 ## Assessment worksheet
 ### Issue Management
@@ -606,6 +635,20 @@ Add long description here.
 | **EH3**
 | ✦ Are stakeholders aware of options for additional tools to protect software while running in operations? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦Does a minimum security baseline exist for environment health (versioning, patching, etc)? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
+
+### Operational Enablement
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
+| **OE1**
+| ✦Are security notes delivered with each software release? | NO | SOME | HALF | MOST |
+| ✦Are security-related alerts and error conditions documented on a per-project basis? | NO | SOME | HALF | MOST |
+| **OE2**
+| ✦Do projects utilize a change management process that’s well understood? | NO | SOME | HALF | MOST |
+| ✦Do project teams deliver an operational security guide with each product release? | NO | SOME | HALF | MOST |
+| **OE3**
+| ✦Are project releases audited for appropriate operational security information? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
+| ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
 
 ### Operational Enablement
 | | | | | |
@@ -2528,74 +2571,88 @@ OjQzNDA4LCJ0ZXh0IjoiIyMjIExpZmVjeWNsZSBTZWN1cml0eS
 BDdWx0dXJlXG58IHwgfCB8IHwgfFxufDotLS0tLS0tLS0tLS0t
 fDotLS0tLS0tLS0tLS0tfDotLS0t4oCmIn0sImVTSUhieWNtN0
 1SUERuVGQiOnsic3RhcnQiOjMyNzA2LCJlbmQiOjMyNzI2LCJ0
-ZXh0IjoifCB8IFNUMSB8U1QyIHwgU1QzIHwifX0sImNvbW1lbn
-RzIjp7Ikh5SE1UbmFLUDZ5c1NHNTMiOnsiZGlzY3Vzc2lvbklk
-IjoiMENuS0pPYllGc2xnWVRtbSIsInN1YiI6ImdoOjE2NzA1MD
-k1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMgY2hhbmdlIHBpY3R1
-cmUiLCJjcmVhdGVkIjoxNTUxNDM4MDQ4NzIwfSwiOUVIVjBybE
-ZzWko4RnpaVyI6eyJkaXNjdXNzaW9uSWQiOiJTUzlRb1JHdFZP
-MWQxTzBvIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE
-9ETyBKb2hhbm5lcyBhZGQgcHJhY3RpY2VzIiwiY3JlYXRlZCI6
-MTU1MTQzODA3MDY3MX0sInViQ3JadGVNWWh6T0N2cFYiOnsiZG
-lzY3Vzc2lvbklkIjoiY1dHQmtPMFJvYmhlSGRITyIsInN1YiI6
-ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMgXC
-Jmb3VyIHNlY3VyaXR5IHByYWN0aWNlc1wiIiwiY3JlYXRlZCI6
-MTU1MTQzODEzNTgyMH0sInNNNG1yaUR3azMyZHpqUzIiOnsiZG
-lzY3Vzc2lvbklkIjoiQ2hlcTZXZGFhY3VJVGtyOCIsInN1YiI6
-ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSsO8cmdlbiIsIm
-NyZWF0ZWQiOjE1NTE0MzgxOTg5ODh9LCJTU0JrdktDSWdzOU9s
-WUoxIjp7ImRpc2N1c3Npb25JZCI6IktOVDFXYURVN0Fnc1U3aV
-IiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIFRh
-YmVhIEthdGphIiwiY3JlYXRlZCI6MTU1MTQzODI3MjA1NH0sIm
-pLUkV5YkN5c0NEZjRDRksiOnsiZGlzY3Vzc2lvbklkIjoieERi
-R2F1a2I0U1JheHhJQyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidG
-V4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNTUxNDM4
-MzIyOTY4fSwiYTQyVnhKZ1VHR0l4N245VCI6eyJkaXNjdXNzaW
-9uSWQiOiJjcFRXQ3VtMkRPejlkTGh2Iiwic3ViIjoiZ2g6MTY3
-MDUwOTUiLCJ0ZXh0IjoiVE9ETyBFZHVhcmQiLCJjcmVhdGVkIj
-oxNTUxNDM4MzgwNTA2fSwiTGtDVzBZdVJQT1dIT2hrSyI6eyJk
-aXNjdXNzaW9uSWQiOiJnREZsRUZUbUNjTW9BSnVLIiwic3ViIj
-oiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwi
-Y3JlYXRlZCI6MTU1MTQzODQ3MzM3OX0sImpxUjQ5emlRZnR4cm
-JSWmwiOnsiZGlzY3Vzc2lvbklkIjoiS0pqZjhQeUJYYkRLZ2VB
-cSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm
-9oYW5uZXMiLCJjcmVhdGVkIjoxNTUxNDM4NTM5NjYxfSwiRFFj
-S1ppenBTRHI0ak5heiI6eyJkaXNjdXNzaW9uSWQiOiJaaXZDQ1
-lNaFVRMjBUNUozIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0
-IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODYwMD
-EyMH0sInpxVnJHNEVRT1RwYWJzZWMiOnsiZGlzY3Vzc2lvbklk
-IjoicGp6S3NkVUsycTZqRTNlUSIsInN1YiI6ImdoOjE2NzA1MD
-k1IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0amEiLCJjcmVhdGVk
-IjoxNTUxNDM4NzAwMjE5fSwidG5abmtZZ09JS3J4bVk1VCI6ey
-JkaXNjdXNzaW9uSWQiOiJ2R2tMbVBZdGJvcFFOZjhLIiwic3Vi
-IjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYWJlYSAmIE
-thdGphIiwiY3JlYXRlZCI6MTU1MTQzODc1OTUzMn0sIjFhRG94
-OWNaeGNPdjRseDMiOnsiZGlzY3Vzc2lvbklkIjoiUzhLV3Q3cz
-dWZzNKeGkweCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6
-IlRPRE8gSm9oYW5lbnMiLCJjcmVhdGVkIjoxNTUxNDM4Nzc2ND
-IwfSwiOVRhMGhjSlJ6TVc3OEhlUSI6eyJkaXNjdXNzaW9uSWQi
-OiJUc2xxWnl0ZXUxbDk5T3dOIiwic3ViIjoiZ2g6MTY3MDUwOT
-UiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZWF0ZWQiOjE1
-NTE0Mzg4MzAzMjV9LCJNQVhySlJNeFVkNmNiYVVUIjp7ImRpc2
-N1c3Npb25JZCI6IkN0SGtPYW16UHdtTzFTWUgiLCJzdWIiOiJn
-aDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIEpvaGFubmVzIiwiY3
-JlYXRlZCI6MTU1MTQzODg2ODc3NH0sImdBdXhjMHJQVktWSU1m
-VWYiOnsiZGlzY3Vzc2lvbklkIjoidVBYMjQzVXBMNnBsVHFDSC
-IsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gRWR1
-YXJkIiwiY3JlYXRlZCI6MTU1MTQzODkxMDE5N30sImxKaHRRYU
-14cHMyUjhSYVAiOnsiZGlzY3Vzc2lvbklkIjoiRUtMSUphc2oy
-cTVrRU9lUyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6Il
-RPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNTUxNDM4OTU0NjQ0
-fSwic3FDYWVuZWFha2w5WmNHNiI6eyJkaXNjdXNzaW9uSWQiOi
-I2eEppNk10NDhDVXZSZUY0Iiwic3ViIjoiZ2g6MTY3MDUwOTUi
-LCJ0ZXh0IjoiVE9ETyBFZHVhcmQiLCJjcmVhdGVkIjoxNTUxND
-M4OTg4OTkxfSwiTUE4bDltS1R0R3lDTk8yeCI6eyJkaXNjdXNz
-aW9uSWQiOiJYNUZTVUkxV3M5alBhVk91Iiwic3ViIjoiZ2g6MT
-Y3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRl
-ZCI6MTU1MTQzOTA4MzIwOH0sIkx1SFlKVkdTZ2hqZEY4M3IiOn
-siZGlzY3Vzc2lvbklkIjoiZVNJSGJ5Y203TVJQRG5UZCIsInN1
+ZXh0IjoifCB8IFNUMSB8U1QyIHwgU1QzIHwifSwiYUo4N1VDNE
+1CV2ozMDRBOSI6eyJzdGFydCI6NDYyNTIsImVuZCI6NDcyMjcs
+InRleHQiOiIjIyMgTGlmZWN5Y2xlIFNlY3VyaXR5IERlc2lnbl
+xufCB8IHwgfCB8IHxcbnw6LS0tLS0tLS0tLS0tLXw6LS0tLS0t
+LS0tLS0tLXw6LS0tLS3igKYifSwieUdJUXZJWk43SFhOcGNRUy
+I6eyJzdGFydCI6NDk5ODksImVuZCI6NTA5NTEsInRleHQiOiIj
+IyMgTGlmZWN5Y2xlIFNlY3VyaXR5IFRlc3RpbmdcbnwgfCB8IH
+wgfCB8XG58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18
+Oi0tLS3igKYifX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1
+NHNTMiOnsiZGlzY3Vzc2lvbklkIjoiMENuS0pPYllGc2xnWVRt
+bSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm
+9oYW5uZXMgY2hhbmdlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNTUx
+NDM4MDQ4NzIwfSwiOUVIVjBybEZzWko4RnpaVyI6eyJkaXNjdX
+NzaW9uSWQiOiJTUzlRb1JHdFZPMWQxTzBvIiwic3ViIjoiZ2g6
+MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBhZGQgcH
+JhY3RpY2VzIiwiY3JlYXRlZCI6MTU1MTQzODA3MDY3MX0sInVi
+Q3JadGVNWWh6T0N2cFYiOnsiZGlzY3Vzc2lvbklkIjoiY1dHQm
+tPMFJvYmhlSGRITyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4
+dCI6IlRPRE8gSm9oYW5uZXMgXCJmb3VyIHNlY3VyaXR5IHByYW
+N0aWNlc1wiIiwiY3JlYXRlZCI6MTU1MTQzODEzNTgyMH0sInNN
+NG1yaUR3azMyZHpqUzIiOnsiZGlzY3Vzc2lvbklkIjoiQ2hlcT
+ZXZGFhY3VJVGtyOCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4
+dCI6IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NTE0MzgxOT
+g5ODh9LCJTU0JrdktDSWdzOU9sWUoxIjp7ImRpc2N1c3Npb25J
+ZCI6IktOVDFXYURVN0Fnc1U3aVIiLCJzdWIiOiJnaDoxNjcwNT
+A5NSIsInRleHQiOiJUT0RPIFRhYmVhIEthdGphIiwiY3JlYXRl
+ZCI6MTU1MTQzODI3MjA1NH0sImpLUkV5YkN5c0NEZjRDRksiOn
+siZGlzY3Vzc2lvbklkIjoieERiR2F1a2I0U1JheHhJQyIsInN1
 YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZX
-MgY2hhbmdlIHNob3J0Y3V0IiwiY3JlYXRlZCI6MTU1MTQzOTE0
-NDcyM319LCJoaXN0b3J5IjpbLTEyMTE1Nzg4MzQsNjY4MzM5MT
-U5LC0xMzE4MzI0NDk2XX0=
+MiLCJjcmVhdGVkIjoxNTUxNDM4MzIyOTY4fSwiYTQyVnhKZ1VH
+R0l4N245VCI6eyJkaXNjdXNzaW9uSWQiOiJjcFRXQ3VtMkRPej
+lkTGh2Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9E
+TyBFZHVhcmQiLCJjcmVhdGVkIjoxNTUxNDM4MzgwNTA2fSwiTG
+tDVzBZdVJQT1dIT2hrSyI6eyJkaXNjdXNzaW9uSWQiOiJnREZs
+RUZUbUNjTW9BSnVLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZX
+h0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODQ3
+MzM3OX0sImpxUjQ5emlRZnR4cmJSWmwiOnsiZGlzY3Vzc2lvbk
+lkIjoiS0pqZjhQeUJYYkRLZ2VBcSIsInN1YiI6ImdoOjE2NzA1
+MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIj
+oxNTUxNDM4NTM5NjYxfSwiRFFjS1ppenBTRHI0ak5heiI6eyJk
+aXNjdXNzaW9uSWQiOiJaaXZDQ1lNaFVRMjBUNUozIiwic3ViIj
+oiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwi
+Y3JlYXRlZCI6MTU1MTQzODYwMDEyMH0sInpxVnJHNEVRT1RwYW
+JzZWMiOnsiZGlzY3Vzc2lvbklkIjoicGp6S3NkVUsycTZqRTNl
+USIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gVG
+FiZWEgS2F0amEiLCJjcmVhdGVkIjoxNTUxNDM4NzAwMjE5fSwi
+dG5abmtZZ09JS3J4bVk1VCI6eyJkaXNjdXNzaW9uSWQiOiJ2R2
+tMbVBZdGJvcFFOZjhLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0
+ZXh0IjoiVE9ETyBUYWJlYSAmIEthdGphIiwiY3JlYXRlZCI6MT
+U1MTQzODc1OTUzMn0sIjFhRG94OWNaeGNPdjRseDMiOnsiZGlz
+Y3Vzc2lvbklkIjoiUzhLV3Q3czdWZzNKeGkweCIsInN1YiI6Im
+doOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5lbnMiLCJj
+cmVhdGVkIjoxNTUxNDM4Nzc2NDIwfSwiOVRhMGhjSlJ6TVc3OE
+hlUSI6eyJkaXNjdXNzaW9uSWQiOiJUc2xxWnl0ZXUxbDk5T3dO
+Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2
+hhbm5lcyIsImNyZWF0ZWQiOjE1NTE0Mzg4MzAzMjV9LCJNQVhy
+SlJNeFVkNmNiYVVUIjp7ImRpc2N1c3Npb25JZCI6IkN0SGtPYW
+16UHdtTzFTWUgiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQi
+OiJUT0RPIEpvaGFubmVzIiwiY3JlYXRlZCI6MTU1MTQzODg2OD
+c3NH0sImdBdXhjMHJQVktWSU1mVWYiOnsiZGlzY3Vzc2lvbklk
+IjoidVBYMjQzVXBMNnBsVHFDSCIsInN1YiI6ImdoOjE2NzA1MD
+k1IiwidGV4dCI6IlRPRE8gRWR1YXJkIiwiY3JlYXRlZCI6MTU1
+MTQzODkxMDE5N30sImxKaHRRYU14cHMyUjhSYVAiOnsiZGlzY3
+Vzc2lvbklkIjoiRUtMSUphc2oycTVrRU9lUyIsInN1YiI6Imdo
+OjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcm
+VhdGVkIjoxNTUxNDM4OTU0NjQ0fSwic3FDYWVuZWFha2w5WmNH
+NiI6eyJkaXNjdXNzaW9uSWQiOiI2eEppNk10NDhDVXZSZUY0Ii
+wic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBFZHVh
+cmQiLCJjcmVhdGVkIjoxNTUxNDM4OTg4OTkxfSwiTUE4bDltS1
+R0R3lDTk8yeCI6eyJkaXNjdXNzaW9uSWQiOiJYNUZTVUkxV3M5
+alBhVk91Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE
+9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzOTA4MzIwOH0s
+Ikx1SFlKVkdTZ2hqZEY4M3IiOnsiZGlzY3Vzc2lvbklkIjoiZV
+NJSGJ5Y203TVJQRG5UZCIsInN1YiI6ImdoOjE2NzA1MDk1Iiwi
+dGV4dCI6IlRPRE8gSm9oYW5uZXMgY2hhbmdlIHNob3J0Y3V0Ii
+wiY3JlYXRlZCI6MTU1MTQzOTE0NDcyM30sIlBidERvNHp1eEZD
+djY5bUwiOnsiZGlzY3Vzc2lvbklkIjoiYUo4N1VDNE1CV2ozMD
+RBOSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8g
+VGFiZWEgS2F0amEiLCJjcmVhdGVkIjoxNTUxNDM5MjE5Njg3fS
+wiMVZWYWRpWUJXcnNVSzN6SSI6eyJkaXNjdXNzaW9uSWQiOiJ5
+R0lRdklaTjdIWE5wY1FTIiwic3ViIjoiZ2g6MTY3MDUwOTUiLC
+J0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZWF0ZWQiOjE1NTE0
+MzkyNTM3NzR9fSwiaGlzdG9yeSI6Wy0xODYzMDM3NDY1LDY2OD
+MzOTE1OSwtMTMxODMyNDQ5Nl19
 -->
