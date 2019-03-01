@@ -237,10 +237,10 @@ Add long description here.
 | **Objective:** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software lifecycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.** |
 | **Activities:** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines| **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification|
 
-### Education & Guidance
-*…more on page 32*
+### Lifecycle Security Culture
+*…more on page XX*
 
-| | EG 1  | EG 2  | EG 3 |
+| | SC 1  | SC 2  | SC 3 |
 :-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software lifecycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.** |
 | **Activities:** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines| **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification|
@@ -2443,34 +2443,46 @@ NsZSBTZWN1cml0eSBNb25pdG9yaW5nKiogYWRkIHNob3J0IGRl
 c2NyaXB0aW9uIGhlcmUuIn0sImdERmxFRlRtQ2NNb0FKdUsiOn
 sic3RhcnQiOjE3NjcyLCJlbmQiOjE3NzMwLCJ0ZXh0IjoiIyMj
 IExpZmVjeWNsZSBTZWN1cml0eSBDdWx0dXJlXG5cbkFkZCBsb2
-5nIGRlc2NyaXB0aW9uIGhlcmUuIn19LCJjb21tZW50cyI6eyJI
-eUhNVG5hS1A2eXNTRzUzIjp7ImRpc2N1c3Npb25JZCI6IjBDbk
-tKT2JZRnNsZ1lUbW0iLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRl
-eHQiOiJUT0RPIEpvaGFubmVzIGNoYW5nZSBwaWN0dXJlIiwiY3
-JlYXRlZCI6MTU1MTQzODA0ODcyMH0sIjlFSFYwcmxGc1pKOEZ6
-WlciOnsiZGlzY3Vzc2lvbklkIjoiU1M5UW9SR3RWTzFkMU8wby
-IsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9o
-YW5uZXMgYWRkIHByYWN0aWNlcyIsImNyZWF0ZWQiOjE1NTE0Mz
-gwNzA2NzF9LCJ1YkNyWnRlTVloek9DdnBWIjp7ImRpc2N1c3Np
-b25JZCI6ImNXR0JrTzBSb2JoZUhkSE8iLCJzdWIiOiJnaDoxNj
-cwNTA5NSIsInRleHQiOiJUT0RPIEpvaGFubmVzIFwiZm91ciBz
-ZWN1cml0eSBwcmFjdGljZXNcIiIsImNyZWF0ZWQiOjE1NTE0Mz
-gxMzU4MjB9LCJzTTRtcmlEd2szMmR6alMyIjp7ImRpc2N1c3Np
-b25JZCI6IkNoZXE2V2RhYWN1SVRrcjgiLCJzdWIiOiJnaDoxNj
-cwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcmVhdGVk
-IjoxNTUxNDM4MTk4OTg4fSwiU1NCa3ZLQ0lnczlPbFlKMSI6ey
-JkaXNjdXNzaW9uSWQiOiJLTlQxV2FEVTdBZ3NVN2lSIiwic3Vi
-IjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYWJlYSBLYX
-RqYSIsImNyZWF0ZWQiOjE1NTE0MzgyNzIwNTR9LCJqS1JFeWJD
-eXNDRGY0Q0ZLIjp7ImRpc2N1c3Npb25JZCI6InhEYkdhdWtiNF
-NSYXh4SUMiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJU
-T0RPIEpvaGFubmVzIiwiY3JlYXRlZCI6MTU1MTQzODMyMjk2OH
-0sImE0MlZ4SmdVR0dJeDduOVQiOnsiZGlzY3Vzc2lvbklkIjoi
-Y3BUV0N1bTJET3o5ZExodiIsInN1YiI6ImdoOjE2NzA1MDk1Ii
-widGV4dCI6IlRPRE8gRWR1YXJkIiwiY3JlYXRlZCI6MTU1MTQz
-ODM4MDUwNn0sIkxrQ1cwWXVSUE9XSE9oa0siOnsiZGlzY3Vzc2
-lvbklkIjoiZ0RGbEVGVG1DY01vQUp1SyIsInN1YiI6ImdoOjE2
-NzA1MDk1IiwidGV4dCI6IlRPRE8gSsO8cmdlbiIsImNyZWF0ZW
-QiOjE1NTE0Mzg0NzMzNzl9fSwiaGlzdG9yeSI6WzExMDI1NjMw
-MzQsNjY4MzM5MTU5LC0xMzE4MzI0NDk2XX0=
+5nIGRlc2NyaXB0aW9uIGhlcmUuIn0sIktKamY4UHlCWGJES2dl
+QXEiOnsic3RhcnQiOjIwMTE4LCJlbmQiOjIwMTM2LCJ0ZXh0Ij
+oiKuKApm1vcmUgb24gcGFnZSBYWCoifSwiWml2Q0NZTWhVUTIw
+VDVKMyI6eyJzdGFydCI6MjAxMzgsImVuZCI6MjA5MDEsInRleH
+QiOiJ8IHwgU0MgMSAgfCBTQyAyICB8IFNDIDMgfFxuOi0tLS0t
+LS0tLS0tLS18Oi0tLS0tLS0tLS0tLS0gfDotLS0tLS0tLS0tLS
+0tLS18Oi0tLeKApiJ9fSwiY29tbWVudHMiOnsiSHlITVRuYUtQ
+NnlzU0c1MyI6eyJkaXNjdXNzaW9uSWQiOiIwQ25LSk9iWUZzbG
+dZVG1tIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9E
+TyBKb2hhbm5lcyBjaGFuZ2UgcGljdHVyZSIsImNyZWF0ZWQiOj
+E1NTE0MzgwNDg3MjB9LCI5RUhWMHJsRnNaSjhGelpXIjp7ImRp
+c2N1c3Npb25JZCI6IlNTOVFvUkd0Vk8xZDFPMG8iLCJzdWIiOi
+JnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIEpvaGFubmVzIGFk
+ZCBwcmFjdGljZXMiLCJjcmVhdGVkIjoxNTUxNDM4MDcwNjcxfS
+widWJDclp0ZU1ZaHpPQ3ZwViI6eyJkaXNjdXNzaW9uSWQiOiJj
+V0dCa08wUm9iaGVIZEhPIiwic3ViIjoiZ2g6MTY3MDUwOTUiLC
+J0ZXh0IjoiVE9ETyBKb2hhbm5lcyBcImZvdXIgc2VjdXJpdHkg
+cHJhY3RpY2VzXCIiLCJjcmVhdGVkIjoxNTUxNDM4MTM1ODIwfS
+wic000bXJpRHdrMzJkempTMiI6eyJkaXNjdXNzaW9uSWQiOiJD
+aGVxNldkYWFjdUlUa3I4Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLC
+J0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQz
+ODE5ODk4OH0sIlNTQmt2S0NJZ3M5T2xZSjEiOnsiZGlzY3Vzc2
+lvbklkIjoiS05UMVdhRFU3QWdzVTdpUiIsInN1YiI6ImdoOjE2
+NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0amEiLCJjcm
+VhdGVkIjoxNTUxNDM4MjcyMDU0fSwiaktSRXliQ3lzQ0RmNENG
+SyI6eyJkaXNjdXNzaW9uSWQiOiJ4RGJHYXVrYjRTUmF4eElDIi
+wic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hh
+bm5lcyIsImNyZWF0ZWQiOjE1NTE0MzgzMjI5Njh9LCJhNDJWeE
+pnVUdHSXg3bjlUIjp7ImRpc2N1c3Npb25JZCI6ImNwVFdDdW0y
+RE96OWRMaHYiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOi
+JUT0RPIEVkdWFyZCIsImNyZWF0ZWQiOjE1NTE0MzgzODA1MDZ9
+LCJMa0NXMFl1UlBPV0hPaGtLIjp7ImRpc2N1c3Npb25JZCI6Im
+dERmxFRlRtQ2NNb0FKdUsiLCJzdWIiOiJnaDoxNjcwNTA5NSIs
+InRleHQiOiJUT0RPIErDvHJnZW4iLCJjcmVhdGVkIjoxNTUxND
+M4NDczMzc5fSwianFSNDl6aVFmdHhyYlJabCI6eyJkaXNjdXNz
+aW9uSWQiOiJLSmpmOFB5QlhiREtnZUFxIiwic3ViIjoiZ2g6MT
+Y3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZWF0
+ZWQiOjE1NTE0Mzg1Mzk2NjF9LCJEUWNLWml6cFNEcjRqTmF6Ij
+p7ImRpc2N1c3Npb25JZCI6IlppdkNDWU1oVVEyMFQ1SjMiLCJz
+dWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW
+4iLCJjcmVhdGVkIjoxNTUxNDM4NjAwMTIwfX0sImhpc3Rvcnki
+OlsxOTkwMTUyNDU1LDY2ODMzOTE1OSwtMTMxODMyNDQ5Nl19
 -->
