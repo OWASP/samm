@@ -1,106 +1,3 @@
-![Cover](Cover.png)
-**For the latest version and additional info, please see the project web site at**
-
-<https://www.owasp.org/index.php/OWASP_SAMM_Project>
-
-### **_Acknowledgements_**
-
-This document was originally created through the OpenSAMM Project led by Pravir Chandra (chandra@owasp.org), an independent software security consultant. Creation of the first draft was made possible through funding from Fortify Software, Inc. Since the initial release of SAMM, this project has become part of the Open Web Application Security Project (OWASP). This document is currently maintained and updated through the OWASP SAMM Project led by Sebastien Deleersnyder, Bart De Win & Brian Glas. Thanks also go to many supporting organizations that are listed on back cover.
-
-### **_Contributors & Reviewers_**
-
-This work would not be possible without the support of many individual reviewers and experts that offered contributions and critical feedback.
-
-• Fabio Arciniegas • Matt Bartoldus • Jonathan Carter • Darren Challey • Brian Chess • Justin Clarke • Dan Cornell • Michael Craigue • Dinis Cruz
-• Sebastien Deleersnyder • Justin Derry • Bart De Win • John Dickson • Alexios Fakos • David Fern • Brian Glas • Kuai Hinojosa • Jerry Hoff • Carsten Huth • Bruce Jenkins • Daniel Kefer • Yan Kravchenko • James McGovern • Matteo Meucci • Jeff Payne • Gunnar Peterson • Jeff Piper • Andy Steingruebl • John Steven • Chad Thunberg • Colin Watson • Jeff Williams • Steven Wierckx
-
-This is an OWASP Project 
-
-#![OWASP LOGO HERE](Logo.png)
-
-OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <https://www.owasp.org>.
-
-### License
-This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <https://creativecommons.org/licenses/bysa/4.0/>, send an email to <info@creativecommons.org>, or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042.
-###![CC Logo](CC_Logo.png)
-
-# Executive Summary
-
-The Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization. The resources provided by SAMM will aid in:
-
-✦ Evaluating an organization’s existing software security practices.
-
-
-✦ Building a balanced software security assurance program in well-defined iterations. 
-
-✦ Demonstrating concrete improvements to a security assurance program.
-
-
-✦ Defining and measuring security-related activities throughout an organization.
-
-Version 1.1 of SAMM expanded and restructured its predecessor into four complementary resources: this document that describes the core SAMM model, the How-To Guide that explains how to apply the model, the Quick Start Guide to help accelerate learning and adoption, and the toolbox that provides simple automation for data collection, metrics, and graphs. Furthermore, a number of elements have been renamed to better represent their purpose.
-
-Version 1.5 of SAMM incorporates a refinement of the scoring model to provide more granularity to the scoring in an assessment. Now an organization will get credit for all the related work done in a practice rather than having the base number held at the highest completed maturity level. The updated scoring model has been designed to help SAMM assessors and organizations avoid the awkward discussion on whether to mark an answer yes or no when it is honestly something in between, and to show incremental improvements.
-
-SAMM was defined with flexibility in mind such that it can be utilized by small, medium, and large organizations using any style of development. Additionally, this model can be applied organization-wide, for a single line-of-business, or even for an individual project. Beyond these traits, SAMM was built on the following principles:
-
-✦ An organization’s behavior changes slowly over time - A successful software security program should be specified in small iterations that deliver tangible assurance gains while incrementally working toward long-term goals.
-
-✦ There is no single recipe that works for all organizations - A software security framework must be flexible and allow organizations to tailor their choices based on their risk tolerance and the way in which they build and use software.
-
-✦ Guidance related to security activities must be prescriptive - All the steps in building and assessing an assurance program should be simple, well-defined, and measurable. This model also provides roadmap templates for common types of organizations.
-
-The foundation of the model is built upon the core business functions of software development with security practices tied to each (see diagram below). The building blocks of the model are the three maturity levels defined for each of the twelve security practices. These define a wide variety of activities in which an organization could engage to reduce security risks and increase software assurance. Additional details are included to measure successful activity performance, understand the associated assurance benefits, estimate personnel and other costs.
-
-As an open project, SAMM content shall always remain vendor-neutral and freely available for all to use.
-
-#![SAMM Overview Image Here](SAMM-Overview.png )
-# Contents
-
-Executive Summary  3
-#### Understanding the model 6
-Business Functions  8 
-
-Governance 10 
-
-Construction 12 
-
-Verification 14 
-
-Operations 16 
-
-Assessment worksheets 18
-
-#### The Security Practices 22
-
-Strategy & Metrics 24 
-
-Policy & Compliance 28 
-
-Education & Guidance 32 
-
-Threat Assessment 36 
-
-Security Requirements 40 
-
-SecureArchitecture 44 
-
-Design Review 48 
-
-Implementation Review 52 
-
-SecurityTesting 56 
-
-Issue Management 60 
-
-Environment Hardening 64 
-
-Operational Enablement 68
-
-
-#!['Understanding the Model' Image pages Here](UnderstaingModel.png)
-######SAMM is built upon a collection of security practices that are tied back into the core business functions involved in software development. This section introduces those business functions and the corresponding security practices for each. After covering the high-level framework, the maturity levels for each security practice are also discussed briefly in order to paint a picture of how each can be iteratively improved over time.
-
 # Business Functions
 
 **At the highest level, SAMM defines four critical business functions.** Each business function is a category of activities related to the nuts-and-bolts of software development, or stated another way, any organization involved with software development must fulfill each of these business functions to some degree.
@@ -117,6 +14,8 @@ Governance is centered on the processes and activities related to how an organiz
 **Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under contruction and in operation.
 
 **Education & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
+
+**Lifecycle Sec & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
 
 …*more on page 10*
 
@@ -1112,7 +1011,7 @@ After assigning each threat to a rating, use this information to prioritize risk
 
 ##### RESULTS
 * Granular understanding of likely threats to individual projects 
-* Framework for better tradeoff decisions within project teams 
+* Framework for better tradeoff decisions within project teams 
 * Ability to prioritize development efforts within a project team based on risk weighting
 
 ##### SUCCESS METRICS
@@ -2404,5 +2303,5 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4MzM5MTU5XX0=
+eyJoaXN0b3J5IjpbLTM3NjM1Nzc5Niw2NjgzMzkxNTldfQ==
 -->
