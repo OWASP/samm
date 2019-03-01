@@ -327,8 +327,8 @@ Starting with penetration testing and high-level test cases based on the functio
 
 In an advanced form, provision of this practice involves customization of testing automation to build a battery of security tests covering application-specific concerns in detail. With additional visibility at the organization level, security testing enables organizations to set minimum expectations for security testing results before a project release is accepted.
 
-### Security Testing
-The Security Testing (ST) practice is focused on inspection of software in the runtime environment in order to find security problems. These testing activities bolster the assurance case for software by checking it in the same context in which it is expected to run, thus making visible operational misconfigurations or errors in business logic that are difficult to otherwise find.
+### Lifecycle Security Testing
+Add long description here.
 
 # Verification
 ## Activities Overview
@@ -357,6 +357,14 @@ The Security Testing (ST) practice is focused on inspection of software in the r
 | **Objective:**| **Establish process to perform basic security tests based on implementation and software requirements.** |**Make security testing during development more complete and efficient through automation.** | **Require application- specific security testing to ensure baseline security before deployment.** |
 | **Activities:**|**A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing
 
+### Lifecycle Security Testing 
+*...more on page XX*
+
+| | ST1 |ST2 | ST3 |
+|:-------------|:------------- |:---------------|:-------------|
+| **Objective:**| **Establish process to perform basic security tests based on implementation and software requirements.** |**Make security testing during development more complete and efficient through automation.** | **Require application- specific security testing to ensure baseline security before deployment.** |
+| **Activities:**|**A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing
+
 # Operations
 ## Description of Security Practices
 ### Issue Management
@@ -379,6 +387,9 @@ The Operational Enablement (OE) practice is focused on gathering security critic
 Starting from lightweight documentation to capture the most important details for users and operators, an organization evolves toward building complete operational security guides that are delivered with each release.
 
 In an advanced form, operational enablement also entails organization-level checks against individual project teams to ensure that information is being captured and shared according to expectations.
+   
+### Lifecycle Security Monitoring Enablement
+The Operational Enablement (OE) practice is focused on gathering security critical information from the project teams building software and communicating it to the users and operators of the software. Without this information, even the most securely designed software carries undue risks since important security characteristics and choices will not be known at a deployment site.
 
 # Operations
 ## Activities Overview
@@ -2473,50 +2484,64 @@ RCAxICB8IFNEIDIgIHwgU0QgMyB8XG58Oi0tLS0tLS0tLS0tLS
 18Oi0tLS0tLS0tLS0tLS0gfDotLS0tLS0tLS0tLS0tLS18Oi0t
 4oCmIn0sIlM4S1d0N3M3VmczSnhpMHgiOnsic3RhcnQiOjI2Mz
 k1LCJlbmQiOjI2NDEzLCJ0ZXh0IjoiKuKApm1vcmUgb24gcGFn
-ZSBYWCoifX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNT
-MiOnsiZGlzY3Vzc2lvbklkIjoiMENuS0pPYllGc2xnWVRtbSIs
-InN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW
-5uZXMgY2hhbmdlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNTUxNDM4
-MDQ4NzIwfSwiOUVIVjBybEZzWko4RnpaVyI6eyJkaXNjdXNzaW
-9uSWQiOiJTUzlRb1JHdFZPMWQxTzBvIiwic3ViIjoiZ2g6MTY3
-MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBhZGQgcHJhY3
-RpY2VzIiwiY3JlYXRlZCI6MTU1MTQzODA3MDY3MX0sInViQ3Ja
-dGVNWWh6T0N2cFYiOnsiZGlzY3Vzc2lvbklkIjoiY1dHQmtPMF
-JvYmhlSGRITyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6
-IlRPRE8gSm9oYW5uZXMgXCJmb3VyIHNlY3VyaXR5IHByYWN0aW
-Nlc1wiIiwiY3JlYXRlZCI6MTU1MTQzODEzNTgyMH0sInNNNG1y
-aUR3azMyZHpqUzIiOnsiZGlzY3Vzc2lvbklkIjoiQ2hlcTZXZG
-FhY3VJVGtyOCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6
-IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NTE0MzgxOTg5OD
-h9LCJTU0JrdktDSWdzOU9sWUoxIjp7ImRpc2N1c3Npb25JZCI6
-IktOVDFXYURVN0Fnc1U3aVIiLCJzdWIiOiJnaDoxNjcwNTA5NS
-IsInRleHQiOiJUT0RPIFRhYmVhIEthdGphIiwiY3JlYXRlZCI6
-MTU1MTQzODI3MjA1NH0sImpLUkV5YkN5c0NEZjRDRksiOnsiZG
-lzY3Vzc2lvbklkIjoieERiR2F1a2I0U1JheHhJQyIsInN1YiI6
-ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLC
-JjcmVhdGVkIjoxNTUxNDM4MzIyOTY4fSwiYTQyVnhKZ1VHR0l4
-N245VCI6eyJkaXNjdXNzaW9uSWQiOiJjcFRXQ3VtMkRPejlkTG
-h2Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBF
-ZHVhcmQiLCJjcmVhdGVkIjoxNTUxNDM4MzgwNTA2fSwiTGtDVz
-BZdVJQT1dIT2hrSyI6eyJkaXNjdXNzaW9uSWQiOiJnREZsRUZU
-bUNjTW9BSnVLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0Ij
-oiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODQ3MzM3
-OX0sImpxUjQ5emlRZnR4cmJSWmwiOnsiZGlzY3Vzc2lvbklkIj
-oiS0pqZjhQeUJYYkRLZ2VBcSIsInN1YiI6ImdoOjE2NzA1MDk1
-IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNT
-UxNDM4NTM5NjYxfSwiRFFjS1ppenBTRHI0ak5heiI6eyJkaXNj
-dXNzaW9uSWQiOiJaaXZDQ1lNaFVRMjBUNUozIiwic3ViIjoiZ2
-g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3Jl
-YXRlZCI6MTU1MTQzODYwMDEyMH0sInpxVnJHNEVRT1RwYWJzZW
-MiOnsiZGlzY3Vzc2lvbklkIjoicGp6S3NkVUsycTZqRTNlUSIs
-InN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZW
-EgS2F0amEiLCJjcmVhdGVkIjoxNTUxNDM4NzAwMjE5fSwidG5a
-bmtZZ09JS3J4bVk1VCI6eyJkaXNjdXNzaW9uSWQiOiJ2R2tMbV
-BZdGJvcFFOZjhLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0
-IjoiVE9ETyBUYWJlYSAmIEthdGphIiwiY3JlYXRlZCI6MTU1MT
-QzODc1OTUzMn0sIjFhRG94OWNaeGNPdjRseDMiOnsiZGlzY3Vz
-c2lvbklkIjoiUzhLV3Q3czdWZzNKeGkweCIsInN1YiI6ImdoOj
-E2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5lbnMiLCJjcmVh
-dGVkIjoxNTUxNDM4Nzc2NDIwfX0sImhpc3RvcnkiOlszMTgzMz
-U4NzcsNjY4MzM5MTU5LC0xMzE4MzI0NDk2XX0=
+ZSBYWCoifSwiVHNscVp5dGV1MWw5OU93TiI6eyJzdGFydCI6Mz
+AxMzgsImVuZCI6MzAxOTUsInRleHQiOiIjIyMgTGlmZWN5Y2xl
+IFNlY3VyaXR5IFRlc3RpbmdcbkFkZCBsb25nIGRlc2NyaXB0aW
+9uIGhlcmUuIn0sIkN0SGtPYW16UHdtTzFTWUgiOnsic3RhcnQi
+OjMyNjUyLCJlbmQiOjMzNDY4LCJ0ZXh0IjoiIyMjIExpZmVjeW
+NsZSBTZWN1cml0eSBUZXN0aW5nIFxuKi4uLm1vcmUgb24gcGFn
+ZSBYWCpcblxufCB8IFNUMSB8U1QyIHwgU1QzIHxcbnw6LS3igK
+YifX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNTMiOnsi
+ZGlzY3Vzc2lvbklkIjoiMENuS0pPYllGc2xnWVRtbSIsInN1Yi
+I6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMg
+Y2hhbmdlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNTUxNDM4MDQ4Nz
+IwfSwiOUVIVjBybEZzWko4RnpaVyI6eyJkaXNjdXNzaW9uSWQi
+OiJTUzlRb1JHdFZPMWQxTzBvIiwic3ViIjoiZ2g6MTY3MDUwOT
+UiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBhZGQgcHJhY3RpY2Vz
+IiwiY3JlYXRlZCI6MTU1MTQzODA3MDY3MX0sInViQ3JadGVNWW
+h6T0N2cFYiOnsiZGlzY3Vzc2lvbklkIjoiY1dHQmtPMFJvYmhl
+SGRITyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE
+8gSm9oYW5uZXMgXCJmb3VyIHNlY3VyaXR5IHByYWN0aWNlc1wi
+IiwiY3JlYXRlZCI6MTU1MTQzODEzNTgyMH0sInNNNG1yaUR3az
+MyZHpqUzIiOnsiZGlzY3Vzc2lvbklkIjoiQ2hlcTZXZGFhY3VJ
+VGtyOCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE
+8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NTE0MzgxOTg5ODh9LCJT
+U0JrdktDSWdzOU9sWUoxIjp7ImRpc2N1c3Npb25JZCI6IktOVD
+FXYURVN0Fnc1U3aVIiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRl
+eHQiOiJUT0RPIFRhYmVhIEthdGphIiwiY3JlYXRlZCI6MTU1MT
+QzODI3MjA1NH0sImpLUkV5YkN5c0NEZjRDRksiOnsiZGlzY3Vz
+c2lvbklkIjoieERiR2F1a2I0U1JheHhJQyIsInN1YiI6ImdoOj
+E2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVh
+dGVkIjoxNTUxNDM4MzIyOTY4fSwiYTQyVnhKZ1VHR0l4N245VC
+I6eyJkaXNjdXNzaW9uSWQiOiJjcFRXQ3VtMkRPejlkTGh2Iiwi
+c3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBFZHVhcm
+QiLCJjcmVhdGVkIjoxNTUxNDM4MzgwNTA2fSwiTGtDVzBZdVJQ
+T1dIT2hrSyI6eyJkaXNjdXNzaW9uSWQiOiJnREZsRUZUbUNjTW
+9BSnVLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9E
+TyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODQ3MzM3OX0sIm
+pxUjQ5emlRZnR4cmJSWmwiOnsiZGlzY3Vzc2lvbklkIjoiS0pq
+ZjhQeUJYYkRLZ2VBcSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidG
+V4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNTUxNDM4
+NTM5NjYxfSwiRFFjS1ppenBTRHI0ak5heiI6eyJkaXNjdXNzaW
+9uSWQiOiJaaXZDQ1lNaFVRMjBUNUozIiwic3ViIjoiZ2g6MTY3
+MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZC
+I6MTU1MTQzODYwMDEyMH0sInpxVnJHNEVRT1RwYWJzZWMiOnsi
+ZGlzY3Vzc2lvbklkIjoicGp6S3NkVUsycTZqRTNlUSIsInN1Yi
+I6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0
+amEiLCJjcmVhdGVkIjoxNTUxNDM4NzAwMjE5fSwidG5abmtZZ0
+9JS3J4bVk1VCI6eyJkaXNjdXNzaW9uSWQiOiJ2R2tMbVBZdGJv
+cFFOZjhLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE
+9ETyBUYWJlYSAmIEthdGphIiwiY3JlYXRlZCI6MTU1MTQzODc1
+OTUzMn0sIjFhRG94OWNaeGNPdjRseDMiOnsiZGlzY3Vzc2lvbk
+lkIjoiUzhLV3Q3czdWZzNKeGkweCIsInN1YiI6ImdoOjE2NzA1
+MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5lbnMiLCJjcmVhdGVkIj
+oxNTUxNDM4Nzc2NDIwfSwiOVRhMGhjSlJ6TVc3OEhlUSI6eyJk
+aXNjdXNzaW9uSWQiOiJUc2xxWnl0ZXUxbDk5T3dOIiwic3ViIj
+oiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIs
+ImNyZWF0ZWQiOjE1NTE0Mzg4MzAzMjV9LCJNQVhySlJNeFVkNm
+NiYVVUIjp7ImRpc2N1c3Npb25JZCI6IkN0SGtPYW16UHdtTzFT
+WUgiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIE
+pvaGFubmVzIiwiY3JlYXRlZCI6MTU1MTQzODg2ODc3NH19LCJo
+aXN0b3J5IjpbMjAxMDE5MTgwMCw2NjgzMzkxNTksLTEzMTgzMj
+Q0OTZdfQ==
 -->
