@@ -116,7 +116,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under contruction and in operation.
 
-**Lifecycle Culture** add short description here.
+**Lifecycle Security Culture** add short description here.
 
 …*more on page 10*
 
@@ -129,7 +129,7 @@ Construction concerns the processes and activities related to how an organizatio
 
 **Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
 
-**Lifecycle Security Design** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
+**Lifecycle Security Design** add short description here.
 
 …*more on page 12*
 
@@ -141,6 +141,8 @@ Verification is focused on the processes and activities related to how an organi
 **Implementation Review** involves assessment of an organization’s source code to aid vulnerability discovery and related mitigation activities as well as establish a baseline for secure coding expectations.
 
 **Security Testing** involves testing the organization’s software in its runtime environment, in order to both discover vulnerabilities, and establish a minimum standard for software releases.
+
+**Lifecycle Testing** add short description here.
 
 …*more on page 14*
 
@@ -2413,23 +2415,36 @@ AwMCwidGV4dCI6IiMifSwiY1dHQmtPMFJvYmhlSGRITyI6eyJz
 dGFydCI6NzE3MywiZW5kIjo3MjQzLCJ0ZXh0IjoiKipGb3IgZW
 FjaCBidXNpbmVzcyBmdW5jdGlvbiwgU0FNTSBkZWZpbmVzIHRo
 cmVlIHNlY3VyaXR5IHByYWN0aWNlcy4qKiJ9LCJDaGVxNldkYW
-FjdUlUa3I4Ijp7InN0YXJ0Ijo4NjU2LCJlbmQiOjg3MDUsInRl
+FjdUlUa3I4Ijp7InN0YXJ0Ijo4NjU2LCJlbmQiOjg3MTQsInRl
 eHQiOiIqKkxpZmVjeWNsZSBDdWx0dXJlKiogYWRkIHNob3J0IG
-Rlc2NyaXB0aW9uIGhlcmUuIn19LCJjb21tZW50cyI6eyJIeUhN
-VG5hS1A2eXNTRzUzIjp7ImRpc2N1c3Npb25JZCI6IjBDbktKT2
-JZRnNsZ1lUbW0iLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQi
-OiJUT0RPIEpvaGFubmVzIGNoYW5nZSBwaWN0dXJlIiwiY3JlYX
-RlZCI6MTU1MTQzODA0ODcyMH0sIjlFSFYwcmxGc1pKOEZ6Wlci
-OnsiZGlzY3Vzc2lvbklkIjoiU1M5UW9SR3RWTzFkMU8wbyIsIn
+Rlc2NyaXB0aW9uIGhlcmUuIn0sIktOVDFXYURVN0Fnc1U3aVIi
+Onsic3RhcnQiOjk2MzEsImVuZCI6OTY4OCwidGV4dCI6IioqTG
+lmZWN5Y2xlIFNlY3VyaXR5IERlc2lnbioqIGFkZCBzaG9ydCBk
+ZXNjcmlwdGlvbiBoZXJlLiJ9LCJ4RGJHYXVrYjRTUmF4eElDIj
+p7InN0YXJ0IjoxMDYxOCwiZW5kIjoxMDY2NywidGV4dCI6Iioq
+TGlmZWN5Y2xlIFRlc3RpbmcqKiBhZGQgc2hvcnQgZGVzY3JpcH
+Rpb24gaGVyZS4ifX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5
+c1NHNTMiOnsiZGlzY3Vzc2lvbklkIjoiMENuS0pPYllGc2xnWV
+RtbSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8g
+Sm9oYW5uZXMgY2hhbmdlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNT
+UxNDM4MDQ4NzIwfSwiOUVIVjBybEZzWko4RnpaVyI6eyJkaXNj
+dXNzaW9uSWQiOiJTUzlRb1JHdFZPMWQxTzBvIiwic3ViIjoiZ2
+g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBhZGQg
+cHJhY3RpY2VzIiwiY3JlYXRlZCI6MTU1MTQzODA3MDY3MX0sIn
+ViQ3JadGVNWWh6T0N2cFYiOnsiZGlzY3Vzc2lvbklkIjoiY1dH
+QmtPMFJvYmhlSGRITyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidG
+V4dCI6IlRPRE8gSm9oYW5uZXMgXCJmb3VyIHNlY3VyaXR5IHBy
+YWN0aWNlc1wiIiwiY3JlYXRlZCI6MTU1MTQzODEzNTgyMH0sIn
+NNNG1yaUR3azMyZHpqUzIiOnsiZGlzY3Vzc2lvbklkIjoiQ2hl
+cTZXZGFhY3VJVGtyOCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidG
+V4dCI6IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NTE0Mzgx
+OTg5ODh9LCJTU0JrdktDSWdzOU9sWUoxIjp7ImRpc2N1c3Npb2
+5JZCI6IktOVDFXYURVN0Fnc1U3aVIiLCJzdWIiOiJnaDoxNjcw
+NTA5NSIsInRleHQiOiJUT0RPIFRhYmVhIEthdGphIiwiY3JlYX
+RlZCI6MTU1MTQzODI3MjA1NH0sImpLUkV5YkN5c0NEZjRDRksi
+OnsiZGlzY3Vzc2lvbklkIjoieERiR2F1a2I0U1JheHhJQyIsIn
 N1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5u
-ZXMgYWRkIHByYWN0aWNlcyIsImNyZWF0ZWQiOjE1NTE0MzgwNz
-A2NzF9LCJ1YkNyWnRlTVloek9DdnBWIjp7ImRpc2N1c3Npb25J
-ZCI6ImNXR0JrTzBSb2JoZUhkSE8iLCJzdWIiOiJnaDoxNjcwNT
-A5NSIsInRleHQiOiJUT0RPIEpvaGFubmVzIFwiZm91ciBzZWN1
-cml0eSBwcmFjdGljZXNcIiIsImNyZWF0ZWQiOjE1NTE0MzgxMz
-U4MjB9LCJzTTRtcmlEd2szMmR6alMyIjp7ImRpc2N1c3Npb25J
-ZCI6IkNoZXE2V2RhYWN1SVRrcjgiLCJzdWIiOiJnaDoxNjcwNT
-A5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcmVhdGVkIjox
-NTUxNDM4MTk4OTg4fX0sImhpc3RvcnkiOlsyMDkyMTI0MjU5LD
-Y2ODMzOTE1OSwtMTMxODMyNDQ5Nl19
+ZXMiLCJjcmVhdGVkIjoxNTUxNDM4MzIyOTY4fX0sImhpc3Rvcn
+kiOls5OTg0MjIxMTksNjY4MzM5MTU5LC0xMzE4MzI0NDk2XX0=
+
 -->
