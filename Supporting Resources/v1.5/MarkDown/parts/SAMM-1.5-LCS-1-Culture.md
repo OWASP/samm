@@ -295,6 +295,14 @@ Add long description here.
 | **Objective:** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known- secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.** |
 | **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
 
+### Lifecycle Security Design
+*…more on page XX*
+
+| | SD 1  | SD 2  | SD 3 |
+|:-------------|:------------- |:---------------|:-------------|
+| **Objective:** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known- secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.** |
+| **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
+
 # Verification
 ## Description of Security Practices
 
@@ -318,6 +326,9 @@ The Security Testing (ST) practice is focused on inspection of software in the r
 Starting with penetration testing and high-level test cases based on the functionality of software, an organization evolves toward usage of security testing automation to cover the wide variety of test cases that might demonstrate a vulnerability in the system.
 
 In an advanced form, provision of this practice involves customization of testing automation to build a battery of security tests covering application-specific concerns in detail. With additional visibility at the organization level, security testing enables organizations to set minimum expectations for security testing results before a project release is accepted.
+
+### Security Testing
+The Security Testing (ST) practice is focused on inspection of software in the runtime environment in order to find security problems. These testing activities bolster the assurance case for software by checking it in the same context in which it is expected to run, thus making visible operational misconfigurations or errors in business logic that are difficult to otherwise find.
 
 # Verification
 ## Activities Overview
@@ -2456,44 +2467,56 @@ LS0tLS0tLS18Oi0tLS0tLS0tLS0tLS0gfDotLS0tLS0tLS0tLS
 0tLS18Oi0tLeKApiJ9LCJwanpLc2RVSzJxNmpFM2VRIjp7InN0
 YXJ0IjoyMzc3NSwiZW5kIjoyMzgzMSwidGV4dCI6IiMjIyBMaW
 ZlY3ljbGUgU2VjdXJpdHkgRGVzaWduXG5BZGQgbG9uZyBkZXNj
-cmlwdGlvbiBoZXJlLiJ9fSwiY29tbWVudHMiOnsiSHlITVRuYU
-tQNnlzU0c1MyI6eyJkaXNjdXNzaW9uSWQiOiIwQ25LSk9iWUZz
-bGdZVG1tIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE
-9ETyBKb2hhbm5lcyBjaGFuZ2UgcGljdHVyZSIsImNyZWF0ZWQi
-OjE1NTE0MzgwNDg3MjB9LCI5RUhWMHJsRnNaSjhGelpXIjp7Im
-Rpc2N1c3Npb25JZCI6IlNTOVFvUkd0Vk8xZDFPMG8iLCJzdWIi
-OiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIEpvaGFubmVzIG
-FkZCBwcmFjdGljZXMiLCJjcmVhdGVkIjoxNTUxNDM4MDcwNjcx
-fSwidWJDclp0ZU1ZaHpPQ3ZwViI6eyJkaXNjdXNzaW9uSWQiOi
-JjV0dCa08wUm9iaGVIZEhPIiwic3ViIjoiZ2g6MTY3MDUwOTUi
-LCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBcImZvdXIgc2VjdXJpdH
-kgcHJhY3RpY2VzXCIiLCJjcmVhdGVkIjoxNTUxNDM4MTM1ODIw
-fSwic000bXJpRHdrMzJkempTMiI6eyJkaXNjdXNzaW9uSWQiOi
-JDaGVxNldkYWFjdUlUa3I4Iiwic3ViIjoiZ2g6MTY3MDUwOTUi
-LCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MT
-QzODE5ODk4OH0sIlNTQmt2S0NJZ3M5T2xZSjEiOnsiZGlzY3Vz
-c2lvbklkIjoiS05UMVdhRFU3QWdzVTdpUiIsInN1YiI6ImdoOj
-E2NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZWEgS2F0amEiLCJj
-cmVhdGVkIjoxNTUxNDM4MjcyMDU0fSwiaktSRXliQ3lzQ0RmNE
-NGSyI6eyJkaXNjdXNzaW9uSWQiOiJ4RGJHYXVrYjRTUmF4eElD
-Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2
-hhbm5lcyIsImNyZWF0ZWQiOjE1NTE0MzgzMjI5Njh9LCJhNDJW
-eEpnVUdHSXg3bjlUIjp7ImRpc2N1c3Npb25JZCI6ImNwVFdDdW
-0yRE96OWRMaHYiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQi
-OiJUT0RPIEVkdWFyZCIsImNyZWF0ZWQiOjE1NTE0MzgzODA1MD
-Z9LCJMa0NXMFl1UlBPV0hPaGtLIjp7ImRpc2N1c3Npb25JZCI6
-ImdERmxFRlRtQ2NNb0FKdUsiLCJzdWIiOiJnaDoxNjcwNTA5NS
-IsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcmVhdGVkIjoxNTUx
-NDM4NDczMzc5fSwianFSNDl6aVFmdHhyYlJabCI6eyJkaXNjdX
-NzaW9uSWQiOiJLSmpmOFB5QlhiREtnZUFxIiwic3ViIjoiZ2g6
-MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZW
-F0ZWQiOjE1NTE0Mzg1Mzk2NjF9LCJEUWNLWml6cFNEcjRqTmF6
-Ijp7ImRpc2N1c3Npb25JZCI6IlppdkNDWU1oVVEyMFQ1SjMiLC
-JzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJn
-ZW4iLCJjcmVhdGVkIjoxNTUxNDM4NjAwMTIwfSwienFWckc0RV
-FPVHBhYnNlYyI6eyJkaXNjdXNzaW9uSWQiOiJwanpLc2RVSzJx
-NmpFM2VRIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE
-9ETyBUYWJlYSBLYXRqYSIsImNyZWF0ZWQiOjE1NTE0Mzg3MDAy
-MTl9fSwiaGlzdG9yeSI6WzE0MDc4MTU5Nyw2NjgzMzkxNTksLT
-EzMTgzMjQ0OTZdfQ==
+cmlwdGlvbiBoZXJlLiJ9LCJ2R2tMbVBZdGJvcFFOZjhLIjp7In
+N0YXJ0IjoyNjQxNSwiZW5kIjoyNzIwMiwidGV4dCI6InwgfCBT
+RCAxICB8IFNEIDIgIHwgU0QgMyB8XG58Oi0tLS0tLS0tLS0tLS
+18Oi0tLS0tLS0tLS0tLS0gfDotLS0tLS0tLS0tLS0tLS18Oi0t
+4oCmIn0sIlM4S1d0N3M3VmczSnhpMHgiOnsic3RhcnQiOjI2Mz
+k1LCJlbmQiOjI2NDEzLCJ0ZXh0IjoiKuKApm1vcmUgb24gcGFn
+ZSBYWCoifX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNT
+MiOnsiZGlzY3Vzc2lvbklkIjoiMENuS0pPYllGc2xnWVRtbSIs
+InN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW
+5uZXMgY2hhbmdlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNTUxNDM4
+MDQ4NzIwfSwiOUVIVjBybEZzWko4RnpaVyI6eyJkaXNjdXNzaW
+9uSWQiOiJTUzlRb1JHdFZPMWQxTzBvIiwic3ViIjoiZ2g6MTY3
+MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBhZGQgcHJhY3
+RpY2VzIiwiY3JlYXRlZCI6MTU1MTQzODA3MDY3MX0sInViQ3Ja
+dGVNWWh6T0N2cFYiOnsiZGlzY3Vzc2lvbklkIjoiY1dHQmtPMF
+JvYmhlSGRITyIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6
+IlRPRE8gSm9oYW5uZXMgXCJmb3VyIHNlY3VyaXR5IHByYWN0aW
+Nlc1wiIiwiY3JlYXRlZCI6MTU1MTQzODEzNTgyMH0sInNNNG1y
+aUR3azMyZHpqUzIiOnsiZGlzY3Vzc2lvbklkIjoiQ2hlcTZXZG
+FhY3VJVGtyOCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6
+IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NTE0MzgxOTg5OD
+h9LCJTU0JrdktDSWdzOU9sWUoxIjp7ImRpc2N1c3Npb25JZCI6
+IktOVDFXYURVN0Fnc1U3aVIiLCJzdWIiOiJnaDoxNjcwNTA5NS
+IsInRleHQiOiJUT0RPIFRhYmVhIEthdGphIiwiY3JlYXRlZCI6
+MTU1MTQzODI3MjA1NH0sImpLUkV5YkN5c0NEZjRDRksiOnsiZG
+lzY3Vzc2lvbklkIjoieERiR2F1a2I0U1JheHhJQyIsInN1YiI6
+ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLC
+JjcmVhdGVkIjoxNTUxNDM4MzIyOTY4fSwiYTQyVnhKZ1VHR0l4
+N245VCI6eyJkaXNjdXNzaW9uSWQiOiJjcFRXQ3VtMkRPejlkTG
+h2Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBF
+ZHVhcmQiLCJjcmVhdGVkIjoxNTUxNDM4MzgwNTA2fSwiTGtDVz
+BZdVJQT1dIT2hrSyI6eyJkaXNjdXNzaW9uSWQiOiJnREZsRUZU
+bUNjTW9BSnVLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0Ij
+oiVE9ETyBKw7xyZ2VuIiwiY3JlYXRlZCI6MTU1MTQzODQ3MzM3
+OX0sImpxUjQ5emlRZnR4cmJSWmwiOnsiZGlzY3Vzc2lvbklkIj
+oiS0pqZjhQeUJYYkRLZ2VBcSIsInN1YiI6ImdoOjE2NzA1MDk1
+IiwidGV4dCI6IlRPRE8gSm9oYW5uZXMiLCJjcmVhdGVkIjoxNT
+UxNDM4NTM5NjYxfSwiRFFjS1ppenBTRHI0ak5heiI6eyJkaXNj
+dXNzaW9uSWQiOiJaaXZDQ1lNaFVRMjBUNUozIiwic3ViIjoiZ2
+g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3Jl
+YXRlZCI6MTU1MTQzODYwMDEyMH0sInpxVnJHNEVRT1RwYWJzZW
+MiOnsiZGlzY3Vzc2lvbklkIjoicGp6S3NkVUsycTZqRTNlUSIs
+InN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gVGFiZW
+EgS2F0amEiLCJjcmVhdGVkIjoxNTUxNDM4NzAwMjE5fSwidG5a
+bmtZZ09JS3J4bVk1VCI6eyJkaXNjdXNzaW9uSWQiOiJ2R2tMbV
+BZdGJvcFFOZjhLIiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0
+IjoiVE9ETyBUYWJlYSAmIEthdGphIiwiY3JlYXRlZCI6MTU1MT
+QzODc1OTUzMn0sIjFhRG94OWNaeGNPdjRseDMiOnsiZGlzY3Vz
+c2lvbklkIjoiUzhLV3Q3czdWZzNKeGkweCIsInN1YiI6ImdoOj
+E2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5lbnMiLCJjcmVh
+dGVkIjoxNTUxNDM4Nzc2NDIwfX0sImhpc3RvcnkiOlszMTgzMz
+U4NzcsNjY4MzM5MTU5LC0xMzE4MzI0NDk2XX0=
 -->
