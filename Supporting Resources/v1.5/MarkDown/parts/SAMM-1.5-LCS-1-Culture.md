@@ -116,7 +116,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under contruction and in operation.
 
-**Education & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
+**Lifecycle Culture** add short description here.
 
 …*more on page 10*
 
@@ -128,6 +128,8 @@ Construction concerns the processes and activities related to how an organizatio
 **Security Requirements** involves promoting the inclusion of security-related requirements during the software development process in order to specify correct functional-ity from inception.
 
 **Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
+
+**Lifecycle Security Design** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
 
 …*more on page 12*
 
@@ -2407,19 +2409,27 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 eyJkaXNjdXNzaW9ucyI6eyIwQ25LSk9iWUZzbGdZVG1tIjp7In
 N0YXJ0Ijo1NzY4LCJlbmQiOjU3NjksInRleHQiOiIjIn0sIlNT
 OVFvUkd0Vk8xZDFPMG8iOnsic3RhcnQiOjU5OTksImVuZCI6Nj
-AwMCwidGV4dCI6IiMifSwiQVZPeTVoOWRMQUN6dnJRdCI6eyJz
-dGFydCI6NzE3MywiZW5kIjo3MTc0LCJ0ZXh0IjoiKiJ9fSwiY2
-9tbWVudHMiOnsiSHlITVRuYUtQNnlzU0c1MyI6eyJkaXNjdXNz
-aW9uSWQiOiIwQ25LSk9iWUZzbGdZVG1tIiwic3ViIjoiZ2g6MT
-Y3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyBjaGFuZ2Ug
-cGljdHVyZSIsImNyZWF0ZWQiOjE1NTE0MzgwNDg3MjB9LCI5RU
-hWMHJsRnNaSjhGelpXIjp7ImRpc2N1c3Npb25JZCI6IlNTOVFv
-Ukd0Vk8xZDFPMG8iLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleH
-QiOiJUT0RPIEpvaGFubmVzIGFkZCBwcmFjdGljZXMiLCJjcmVh
-dGVkIjoxNTUxNDM4MDcwNjcxfSwiN2pYb2tkNmg0RmlMSUJYby
-I6eyJkaXNjdXNzaW9uSWQiOiJBVk95NWg5ZExBQ3p2clF0Iiwi
-c3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm
-5lcyBcImZvdXIgc2VjdXJpdHkgcHJhY3RpY2VzXCIiLCJjcmVh
-dGVkIjoxNTUxNDM4MTEwNDU4fX0sImhpc3RvcnkiOlstMTU3Nz
-gzMzUyLDY2ODMzOTE1OSwtMTMxODMyNDQ5Nl19
+AwMCwidGV4dCI6IiMifSwiY1dHQmtPMFJvYmhlSGRITyI6eyJz
+dGFydCI6NzE3MywiZW5kIjo3MjQzLCJ0ZXh0IjoiKipGb3IgZW
+FjaCBidXNpbmVzcyBmdW5jdGlvbiwgU0FNTSBkZWZpbmVzIHRo
+cmVlIHNlY3VyaXR5IHByYWN0aWNlcy4qKiJ9LCJDaGVxNldkYW
+FjdUlUa3I4Ijp7InN0YXJ0Ijo4NjU2LCJlbmQiOjg3MDUsInRl
+eHQiOiIqKkxpZmVjeWNsZSBDdWx0dXJlKiogYWRkIHNob3J0IG
+Rlc2NyaXB0aW9uIGhlcmUuIn19LCJjb21tZW50cyI6eyJIeUhN
+VG5hS1A2eXNTRzUzIjp7ImRpc2N1c3Npb25JZCI6IjBDbktKT2
+JZRnNsZ1lUbW0iLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRleHQi
+OiJUT0RPIEpvaGFubmVzIGNoYW5nZSBwaWN0dXJlIiwiY3JlYX
+RlZCI6MTU1MTQzODA0ODcyMH0sIjlFSFYwcmxGc1pKOEZ6Wlci
+OnsiZGlzY3Vzc2lvbklkIjoiU1M5UW9SR3RWTzFkMU8wbyIsIn
+N1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSm9oYW5u
+ZXMgYWRkIHByYWN0aWNlcyIsImNyZWF0ZWQiOjE1NTE0MzgwNz
+A2NzF9LCJ1YkNyWnRlTVloek9DdnBWIjp7ImRpc2N1c3Npb25J
+ZCI6ImNXR0JrTzBSb2JoZUhkSE8iLCJzdWIiOiJnaDoxNjcwNT
+A5NSIsInRleHQiOiJUT0RPIEpvaGFubmVzIFwiZm91ciBzZWN1
+cml0eSBwcmFjdGljZXNcIiIsImNyZWF0ZWQiOjE1NTE0MzgxMz
+U4MjB9LCJzTTRtcmlEd2szMmR6alMyIjp7ImRpc2N1c3Npb25J
+ZCI6IkNoZXE2V2RhYWN1SVRrcjgiLCJzdWIiOiJnaDoxNjcwNT
+A5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcmVhdGVkIjox
+NTUxNDM4MTk4OTg4fX0sImhpc3RvcnkiOlsyMDkyMTI0MjU5LD
+Y2ODMzOTE1OSwtMTMxODMyNDQ5Nl19
 -->
