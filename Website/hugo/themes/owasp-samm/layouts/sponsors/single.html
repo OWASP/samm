@@ -1,0 +1,55 @@
+{{ partial "header.html" . }}
+
+  <div class="ui sponsors container">
+    <div class="ui hidden divider"></div>
+    <h1 class="ui header">Sponsors</h1>
+    <div class="ui hidden divider"></div>
+    <div class="ui very relaxed stackable grid">
+      <div class="eight wide column">
+        <h2 class="ui centered header">Acknowledgements</h2>
+        <div class="ui three column middle aligned very relaxed centered stackable grid">
+          {{ range $sponsor := .Site.Data.sponsors }}
+          <div class="column">
+            <a href="{{ $sponsor.url }}"><img class="ui fluid image" src="{{  $sponsor.img | relURL }}" /></a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="eight wide column">
+        <h2 class="ui centered header">Call for Sponsors</h2>
+        <p>OWASP SAMM and the upcoming SAMM 2.0 release is the open source software security maturity model used to develop secure software for IT, application and software security technologists.</p>
+        <p>We are seeking sponsors to support OWASP SAMM. All proceeds from the sponsorship support the mission of the OWASP Foundation and the further development of SAMM. Supporting the project drives the funding for research grants, SAMM hosting, tools, templates, documents, promotion, and more.</p>
+        <p>By sponsoring SAMM, you not only support an important and flagship OWASP project, you will also get visibility during the next SAMM Summit (part of the <a href="https://open-security-summit.org/">Open Security Summit 2019</a>) and recognition on our website and the next release of SAMM (version 2.0).</p>
+        <p>For more information: contact <a href="mailto:info@owaspsamm.org">info@owaspsamm.org</a>.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="ui hidden divider"></div>
+
+<div class="footerback">
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+  <footer class="ui container footer">
+    <div class="ui stackable grid">
+      <div class="ui three wide column">
+        <a href="https://www.owasp.org/"><img class="ui fluid image" src="{{ "img/owasp.svg"  | relURL }}" /></a>
+      </div>
+      <div class="ui thirteen wide column">
+        <h3 class="ui header">This is an OWASP Project</h3>
+        <p>OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <a href="https://www.owasp.org/">https://www.owasp.org/</a>.</p>
+      </div>
+    </div>
+    <div class="ui stackable grid">
+      <div class="ui three wide column">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="{{ "img/by-sa.png"  | relURL }}" /></a>
+      </div>
+      <div class="ui thirteen wide column">
+        <h3 class="ui header">CC BY-SA 4.0</h3>
+        <p>This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+{{ partial "footer.html" . }}

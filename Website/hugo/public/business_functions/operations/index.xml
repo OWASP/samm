@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operations on OWASP SAMM</title>
+    <link>https://owaspsamm.org/business_functions/operations/</link>
+    <description>Recent content in Operations on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/business_functions/operations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Environment Management</title>
+      <link>https://owaspsamm.org/head/core/operations/o-environment-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/head/core/operations/o-environment-management/</guid>
+      <description>Short Description Environment Management practice describes proactive activities carried out to keep the environment reasonably secure during the application operation.
+Long Description Proactive work on application security is not over once the application becomes operational. New security features and patches are continuously released until the technology stack you&amp;rsquo;re using becomes obsolete.
+Most technology in your application stack is not secure by default. Due to issues like backwards compatibility or ease of setup, you often need to explicitly turn security features on.</description>
+    </item>
+    
+    <item>
+      <title>Environment Management</title>
+      <link>https://owaspsamm.org/v2.0b/core/operations/o-environment-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/operations/o-environment-management/</guid>
+      <description>Short Description Environment Management practice describes proactive activities carried out to keep the environment reasonably secure during the application operation.
+Long Description Proactive work on application security is not over once the application becomes operational. New security features and patches are continuously released until the technology stack you&amp;rsquo;re using becomes obsolete.
+Most technology in your application stack is not secure by default. Due to issues like backwards compatibility or ease of setup, you often need to explicitly turn security features on.</description>
+    </item>
+    
+    <item>
+      <title>Incident Management</title>
+      <link>https://owaspsamm.org/head/core/operations/o-incident-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/head/core/operations/o-incident-management/</guid>
+      <description>Short Description Incident Management security practice describes activities carried to detect and respond to security incidents.
+Long Description Once your applications become operational, you’re likely to face security incidents. For this document, we consider a security incident a breach or threat of an imminent breach of at least one asset’s security goals due to malicious or negligent behaviour. Examples of a security incidents might include:
+ successful DoS (Denial of Service) attack against a cloud application application user accessing private data of another one by abusing a security vulnerability attacker modifying the application source code  Sometimes, a security incident is detected only after months or even years when all damage has already been done.</description>
+    </item>
+    
+    <item>
+      <title>Incident Management</title>
+      <link>https://owaspsamm.org/v2.0b/core/operations/o-incident-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/operations/o-incident-management/</guid>
+      <description>Short Description Incident Management security practice describes activities carried to detect and respond to security incidents.
+Long Description Once your applications become operational, you’re likely to face security incidents. For this document, we consider a security incident a breach or threat of an imminent breach of at least one asset’s security goals due to malicious or negligent behaviour. Examples of a security incidents might include:
+ successful DoS (Denial of Service) attack against a cloud application application user accessing private data of another one by abusing a security vulnerability attacker modifying the application source code  Sometimes, a security incident is detected only after months or even years when all damage has already been done.</description>
+    </item>
+    
+    <item>
+      <title>Operational Management</title>
+      <link>https://owaspsamm.org/head/core/operations/o-operational-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/head/core/operations/o-operational-management/</guid>
+      <description>Short Description This practice focuses on operational support activities required to maintain security throughout the product lifecycle.
+Long Description The Operational Management practice focuses on activities to ensure security is maintained throughout operational support functions. Although these functions are not performed directly by an application, the overall security of the application and its data depends on their proper performance. Deploying an application on an unsupported operating system with unpatched vulnerabilities, or failing to store backup media securely, can make the protections built into that application irrelevant.</description>
+    </item>
+    
+    <item>
+      <title>Operational Management</title>
+      <link>https://owaspsamm.org/v2.0b/core/operations/o-operational-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/operations/o-operational-management/</guid>
+      <description>Short Description This practice focuses on operational support activities required to maintain security throughout the product lifecycle.
+Long Description The Operational Management practice focuses on activities to ensure security is maintained throughout operational support functions. Although these functions are not performed directly by an application, the overall security of the application and its data depends on their proper performance. Deploying an application on an unsupported operating system with unpatched vulnerabilities, or failing to store backup media securely, can make the protections built into that application irrelevant.</description>
+    </item>
+    
+  </channel>
+</rss>

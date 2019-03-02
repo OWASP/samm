@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Defect Management - OWASP SAMM</title>
+  
+  <meta name="description" content="Short Description This practice focuses on managing security defects in software and their associated metrics.
+Long Description The Defect Management practice focuses on collecting, recording, and analysing software security defects and enriching them with information to drive metrics-based decisions.
+The practice’s first stream deals with the process of handling and managing defects to ensure released software has a given assurance level. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole.">
+  <meta name="author" content="">
+  
+  <link href="/semantic/semantic.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127457120-1');
+  </script>
+</head>
+<body class="single">
+  <div class="headerback">
+    <header class="ui massive text menu">
+      <a class="header item" href="/">
+        OWASP SAMM
+      </a>
+      <div class="right menu">
+        <a class="item" href="/v1-5/downloads/">
+          v1.5
+        </a>
+        <a class="item" href="/v2.0b/introduction/">
+          v2.0 Beta
+        </a>
+      </div>
+    </header>
+  </div>
+  <div id="a50pxspacer"></div>
+
+
+<div class="mainwrapper">
+  <div class="ui inverted vertical menu" id="toc">
+    
+    
+    
+      
+    
+      
+        <h3 class="header item">
+          SAMM 2.0 Beta
+        </h3>
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="item" href="/v2.0b/introduction/">
+              Introduction
+            </a>
+          
+        
+          
+            <a class="item" href="/v2.0b/feedback/">
+              Feedback
+            </a>
+          
+        
+        
+          
+            <div class="item">
+              <h4 class="header">
+                Core Model
+              </h4>
+              
+              
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Governance
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-strategy-metrics/">
+                            Strategy &amp; Metrics
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-policy-compliance/">
+                            Policy &amp; Compliance
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-education-guidance/">
+                            Education &amp; Guidance
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Design
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-threat-assessment/">
+                            Threat Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-requirements/">
+                            Security Requirements
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-architecture/">
+                            Security Architecture
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Implementation
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-build/">
+                            Secure Build
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-deployment/">
+                            Secure Deployment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-defect-management/">
+                            Defect Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Verification
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-architecture-assessment/">
+                            Architecture Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-requirements-driven-testing/">
+                            Requirements Driven Testing
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-security-testing/">
+                            Security Testing
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Operations
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-incident-management/">
+                            Incident Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-environment-management/">
+                            Environment Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-operational-management/">
+                            Operational Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+              
+            </div>
+          
+        
+      
+    
+      
+    
+    <a class="item" href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.svg" /></a>
+    <a class="item" href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+
+  </div>
+
+  <main>
+    <div class="ui text container">
+
+      <h1 class="ui huge dividing header">
+        Defect Management
+      </h1>
+
+
+
+      
+
+      
+
+<h1 id="short-description">Short Description</h1>
+
+<p>This practice focuses on managing security defects in software and their associated metrics.</p>
+
+<h1 id="long-description">Long Description</h1>
+
+<p>The Defect Management practice focuses on collecting, recording, and analysing software security defects and enriching them with information to drive metrics-based decisions.</p>
+
+<p>The practice’s first stream deals with the process of handling and managing defects to ensure released software has a given assurance level. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole.</p>
+
+<p>In a sophisticated form, the practice requires formalised, independent defect management and real-time, correlated information to detect trends and influence security strategy.</p>
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Defect Tracking (Flaws/Bugs/Process)</th>
+<th align="left">B: Metrics and Feedback/Learning</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - All defects are tracked within each project</td>
+<td align="left">Track all defects</td>
+<td align="left">Calculate and share basic metrics, such as total counts</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Defect tracking used to influence the deployment process</td>
+<td align="left">Assign SLA based on security rating of the defect</td>
+<td align="left">Calculate more advanced metrics that include new issue velocity, remediation speed metrics, and trends.</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Defect tracking across multiple components is used to help reduce the number of new defects</td>
+<td align="left">Measure and enforce compliance with the SLA</td>
+<td align="left">Use trend analysis to influence changes in the Design and Implementation phase across multiple projects.</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-defect-tracking-flaws-bugs-process">A: Defect Tracking (Flaws/Bugs/Process)</h1>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="benefits">Benefits</h3>
+
+<p>All software security defects are recorded centrally.</p>
+
+<h3 id="activity">Activity</h3>
+
+<p>Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.</p>
+
+<p>Sources of defects include, but are not limited to, those discovered via:</p>
+
+<ul>
+<li>Threat assessments</li>
+<li>Developers during self or peer code review</li>
+<li>Static analysis</li>
+<li>Dynamic analysis</li>
+<li>Vulnerability scans</li>
+<li>Penetration testing</li>
+<li>Malware scans</li>
+<li>Public/private vulnerability disclosures (e.g. for 3rd party libraries)</li>
+<li>Bug bounties</li>
+</ul>
+
+<p>Qualify all defects so the records only contain valid and significant issues. Consider manageability. void recording duplicate defects, for example, searching  for similar issues. Merge duplicates and group similar issues,, particularly if you will handle them in the same way.
+The organisation uses these records to make decisions and resolve vulnerabilities. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to <a href="../../verification/v-security-testing">Verification &gt; Security Testing</a>.</p>
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="benefits-1">Benefits</h3>
+
+<p>Minimal defect quality gates are enforced throughout the SDLC.</p>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>Define a threshold for defects that require resolution or mitigation. You do not deploy software into production when this threshold is exceeded, until the relevant defects are fixed, or fall below the threshold.</p>
+
+<p>This quality gate may also exist at whatever point the issue is detected. For instance, if you detect an issue by static analysis prior to build, the build system might prevent the software from building. However, deployment to production is always the final and mandatory quality gate.</p>
+
+<p>To set a threshold that is right your organisation, take into consideration:</p>
+
+<ul>
+<li>the threat model</li>
+<li>the nature of applicable threats (i.e. skill level, motive, level of access, etc)</li>
+<li>how difficult it would be to find and exploit the issue</li>
+<li>potential impact to confidentiality, integrity, availability</li>
+<li>potential impact to the business</li>
+</ul>
+
+<p>Use a well established risk rating methodology consistently across your defect management solution.</p>
+
+<p>The people responsible for application security and key stakeholders reach an agreement regarding an appropriate threshold.</p>
+
+<p>You notify relevant people if a defect exceeds the defined threshold, and take action to resolve or mitigate the issue before deploying the software into a production environment. A satisfactory mitigation is one that reduces the risk below the threshold.</p>
+
+<p>Define processes for dealing with false positive defects, or ones with existing compensating controls. In other words, some defects identified as exceeding the threshold should not prevent the software from being deployed. This might be because they have been misreported, or because you have not considered existing mitigations. Record such defects for accountability purposes.</p>
+
+<p>Consider defects below the threshold deployed into production environments for resolution or mitigation at a later time.</p>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="benefits-2">Benefits</h3>
+
+<p>Quality gates are enforced by a security officer following formal processes.</p>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) is responsible for managing known defects and enforcing the defined threshold.</p>
+
+<p>Defects that exceed the threshold block or prevent deployment into production, until they are resolved, or fall below the threshold. You can do this automatically in the build and deployment processes, if they are integrated with the defect management system. Alternatively, the deployment process could include a step that requires approval from an information security officer.</p>
+
+<p>Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries).</p>
+
+<p>This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Review the status of accepted and mitigated risks periodically (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).</p>
+
+<h1 id="b-metrics-and-feedback-learning">B: Metrics and Feedback/Learning</h1>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="benefits-3">Benefits</h3>
+
+<p>Basic information about defects is shared and used for remediation and training decisions.</p>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include:</p>
+
+<ul>
+<li>The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.</li>
+<li>The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.</li>
+<li>The type or category of the defect, which suggests areas where the development team need further training.</li>
+<li>The severity of the defect, which can help the organisation understand the software&rsquo;s risk exposure.</li>
+</ul>
+
+<p>Outcomes are fed back to the teams involved. This data is used to make decisions about remediation priority and training requirements.</p>
+
+<p>Defects are considered within the wider metrics throughout the oragnisation. See <a href="../g-strategy-metrics">Governance &gt; Strategy &amp; Metrics</a> &gt; B.</p>
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="benefits-4">Benefits</h3>
+
+<p>Advanced defect metrics are calculated and shared and used to taylor the assurance program.</p>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Calculate and share more advanced metrics. These can include:</p>
+
+<ul>
+<li>Formal risk ratings that consider likelihood and impact.</li>
+<li>Number of open vulnerabilities above a defined threshold in terms of severity or risk.</li>
+<li>Risk per software component / product / project / business unit.</li>
+<li>Amount of accepted risk.</li>
+<li>Time to detect vulnerabilities.</li>
+<li>Time to resolve vulnerabilities.</li>
+<li>Window of exposure where vulnerabilities are detected on live systems.</li>
+<li>Coverage of software components by verification tests.</li>
+<li>Number of regressions / reopened vulnerabilities.</li>
+</ul>
+
+<p>The risk metric takes into account the criticality of the asset and the resulting business impact. Defects are mapped to threats to better understand their risk to the organization. See Design &gt; Threat Assessment &gt; B.</p>
+
+<p>Tools such as spreadsheets or dedicated vulnerability tracking software are used to calculate metrics automatically. This makes collecting and acting on metrics a managable exercise.</p>
+
+<p>Make this data accessible to management, information security people, developers, and engineers to inform their decision-making. For example, provide a central dashboard. Metrics should guide remediation efforts and resource allocation.</p>
+
+<p>Security teams are able to report an accurate picture of the organisation&rsquo;s defect and risk metrics to executive management.</p>
+
+<p>A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme.</p>
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="benefits-5">Benefits</h3>
+
+<p>Defect metrics are enriched with real time information and correlated to detect trends and influence the overall security strategy.</p>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>Add information to defects, such as:</p>
+
+<ul>
+<li>Category</li>
+<li>CVE / CWE</li>
+<li>Software component</li>
+<li>Business unit</li>
+<li>Exploitability</li>
+<li>Impact</li>
+<li>Risk</li>
+<li>CVSS</li>
+</ul>
+
+<p>For each defect, up-to-date or real-time data on the availability of exploits and hacker activity in the wild is used to contribute to risk scores.</p>
+
+<p>Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs and dashboarding. Trends are analysed and the results are used to influence the design and implementation of software and the overall security stategy.</p>
+
+<p>Metrics are used to empower the whole organisation. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.</p>
+
+    </div>
+  </main>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sidebar')
+    .sidebar('setting', 'transition', 'push')
+    .sidebar('setting', 'closable' , false)
+    .sidebar('setting', 'dimPage' , false);
+  });
+</script>
+
+
+<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="/js/jquery.peity.min.js" data-no-instant></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.donut').peity('donut');
+  });
+</script>
+</body>
+</html>
+

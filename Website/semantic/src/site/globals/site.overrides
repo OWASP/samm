@@ -153,6 +153,12 @@ main {
   }
 }
 
+.sponsors.container {
+  h1.header {
+    text-align: center;
+  }
+}
+
 .footerback {
   background: #47054d;
   color: #fff;

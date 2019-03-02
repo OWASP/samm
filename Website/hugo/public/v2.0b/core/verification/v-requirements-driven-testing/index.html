@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Requirements Driven Testing - OWASP SAMM</title>
+  
+  <meta name="description" content="Short Description Create and integrate both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).
+Long Description Conduct positive and negative security tests to verify that the software operates as expected. At a minimum, this means both testing the correct functioning of the standard software security controls, and fuzzing for vulnerabilities against the main input parameters of the application.
+From the known security requirements, identify and implement a set of security test cases to check the software for correct functionality.">
+  <meta name="author" content="">
+  
+  <link href="/semantic/semantic.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127457120-1');
+  </script>
+</head>
+<body class="single">
+  <div class="headerback">
+    <header class="ui massive text menu">
+      <a class="header item" href="/">
+        OWASP SAMM
+      </a>
+      <div class="right menu">
+        <a class="item" href="/v1-5/downloads/">
+          v1.5
+        </a>
+        <a class="item" href="/v2.0b/introduction/">
+          v2.0 Beta
+        </a>
+      </div>
+    </header>
+  </div>
+  <div id="a50pxspacer"></div>
+
+
+<div class="mainwrapper">
+  <div class="ui inverted vertical menu" id="toc">
+    
+    
+    
+      
+    
+      
+        <h3 class="header item">
+          SAMM 2.0 Beta
+        </h3>
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="item" href="/v2.0b/introduction/">
+              Introduction
+            </a>
+          
+        
+          
+            <a class="item" href="/v2.0b/feedback/">
+              Feedback
+            </a>
+          
+        
+        
+          
+            <div class="item">
+              <h4 class="header">
+                Core Model
+              </h4>
+              
+              
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Governance
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-strategy-metrics/">
+                            Strategy &amp; Metrics
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-policy-compliance/">
+                            Policy &amp; Compliance
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-education-guidance/">
+                            Education &amp; Guidance
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Design
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-threat-assessment/">
+                            Threat Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-requirements/">
+                            Security Requirements
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-architecture/">
+                            Security Architecture
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Implementation
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-build/">
+                            Secure Build
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-deployment/">
+                            Secure Deployment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-defect-management/">
+                            Defect Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Verification
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-architecture-assessment/">
+                            Architecture Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-requirements-driven-testing/">
+                            Requirements Driven Testing
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-security-testing/">
+                            Security Testing
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Operations
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-incident-management/">
+                            Incident Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-environment-management/">
+                            Environment Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-operational-management/">
+                            Operational Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+              
+            </div>
+          
+        
+      
+    
+      
+    
+    <a class="item" href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.svg" /></a>
+    <a class="item" href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+
+  </div>
+
+  <main>
+    <div class="ui text container">
+
+      <h1 class="ui huge dividing header">
+        Requirements Driven Testing
+      </h1>
+
+
+
+      
+
+      
+
+<h1 id="short-description">Short Description</h1>
+
+<p>Create and integrate both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).</p>
+
+<h1 id="long-description">Long Description</h1>
+
+<p>Conduct positive and negative security tests to verify that the software operates as expected. At a minimum, this means both testing the correct functioning of the standard software security controls, and fuzzing for vulnerabilities against the main input parameters of the application.</p>
+
+<p>From the known security requirements, identify and implement a set of security test cases to check the software for correct functionality. Use abuse-case models for an application to identify concrete security tests that directly or indirectly exploit the abuse scenarios. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application.</p>
+
+<p>Write and automate regression tests for all identified and fixed bugs so these become a test harness preventing the introduction of in later releases. Security unit tests verify at run time that the components function as expected and validate that code changes are properly implemented.</p>
+
+<p>A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. Consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base. Perform denial of service and security stress testing against the applications. Perform these tests under controlled circumstances and possibly on application acceptance environments.</p>
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Control Verification</th>
+<th align="left">B: Misuse/Abuse Testing</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Opportunistically find basic vulnerabilities and other security issues.</td>
+<td align="left">Test for standard security controls</td>
+<td align="left">Perform security fuzzing testing</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Perform implementation review to discover application-specific risks against the security requirements.</td>
+<td align="left">Derive test cases from known security requirements</td>
+<td align="left">Create and test abuse cases and business logic flaw test</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Maintain the application security level after bug fixes, changes or during maintenance</td>
+<td align="left">Perform regression testing (with security unit tests)</td>
+<td align="left">Denial of service and security stress testing</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-control-verification">A: Control Verification</h1>
+
+<!--
+**Notes**
+* Add links to mobile (DONE), etc. in guidance section.
+* Requirements: do not specify per app owasp top 10. Should go into coding guidelines, or standards (governance), etc.
+-->
+
+<h2 id="maturity-1-test-for-software-security-controls">Maturity 1 - Test for software security controls</h2>
+
+<h3 id="benefit">Benefit</h3>
+
+<p>Verifies that the standard software security controls operate as expected.</p>
+
+<h3 id="activity">Activity</h3>
+
+<p>Conduct security tests to verify that the standard software security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service. Security test cases at least include testing for authentication, access control, input validation, encoding, and escaping data and encryption controls. The test objective is to validate that the security controls are implemented with few or no vulnerabilities.</p>
+
+<p>The security testing tests for software security controls that are relevant for the software under test. Perform control verification security tests manually or with tools each time the application changes its use of the controls. Software control verification is mandatory for all software that is part of the SAMM program. Review the tests regularly to include changes in the software technology and vulnerability trends.</p>
+
+<h2 id="maturity-2-derive-test-cases-from-known-security-requirements">Maturity 2 - Derive test cases from known security requirements</h2>
+
+<h3 id="benefit-1">Benefit</h3>
+
+<p>Assures that security requirements are met by creating and performing tests derived from the requirements.</p>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>From the security requirements, identify and implement a set of security test cases to check the software for correct functionality. To have a successful testing program, you must know the testing objectives, specified by the security requirements.</p>
+
+<p>Derive security test cases for the applications in scope from the security requirements created as part of the &ldquo;Security Requirements&rdquo; SAMM security practice. To validate security requirements with security tests, security requirements are function-driven and highlight the expected functionality (the what) and, implicitly, the implementation (the how). These requirements are also referred to as “positive requirements”, since they state the expected functionality that can be validated through security tests. Examples of positive requirements are: “the application will lockout the user after six failed login attempts” or “passwords need to be a minimum of six alphanumeric characters”. The validation of positive requirements consists of asserting the expected functionality. You can do it re-creating the testing conditions and running the test according to predefined inputs. Show the results as as a fail or pass condition.</p>
+
+<p>Often, it is most effective to use the project team’s time to build application-specific test cases, and publicly available resources or purchased knowledge bases to select applicable general test cases for security. Relevant development, security, and quality assurance staff review candidate test cases for applicability, efficacy, and feasibility. Derive the test cases during the requirements and/or design phase of the functionality. Testing the security requirements is part of the functional testing of the software.</p>
+
+<h2 id="maturity-3-perform-regression-testing-with-security-unit-tests">Maturity 3 - Perform regression testing (with security unit tests)</h2>
+
+<h3 id="benefit-2">Benefit</h3>
+
+<p>Prevents identified (and fixed) bugs to be introduced as part of later releases through regression testing.</p>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>Write and automate regression tests for all identified (and fixed) bugs to ensures that these become a test harness preventing similar issues to be introduced as part of later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.</p>
+
+<p>A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as: Identity, Authentication &amp; Access Control, Input Validation &amp; Encoding, User and Session Management, Error and Exception Handling, Encryption and Auditing and Logging. Consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base.</p>
+
+<p>Adapt unit test frameworks such as Junit, Nunit, and CUnit to verify security test requirements. For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.</p>
+
+<h1 id="b-misuse-abuse-testing">B: Misuse/Abuse Testing</h1>
+
+<h2 id="maturity-1-perform-security-fuzzing-testing">Maturity 1 - Perform security fuzzing testing</h2>
+
+<h3 id="benefit-3">Benefit</h3>
+
+<p>Detect security bugs that would have often been missed by human eyes.</p>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>During security tests, cover at least a minimum fuzzing for vulnerabilities against the main input parameters of the application.</p>
+
+<p>Perform fuzzing, sending massive amounts of random data, to the test subject in an attempt to make it crash. Fuzz testing or Fuzzing is a Black Box software testing technique, which consists of finding implementation bugs using automated malformed or semi-malformed data injection.</p>
+
+<p>The great advantage of fuzz testing is that the test design is extremely simple, and free of preconceptions about system behavior. The random approach allows this method to find bugs that human eyes would often miss. Plus, when the tested system is totally closed (say, a SIP phone), fuzzing is one of the only means of reviewing its quality.</p>
+
+<p>Consider the use of automated fuzzing tools and build an application specific dictionary of fuzzing payloads like fault injection patterns, predictable resource locations, and regexes for matching server responses (you can start with open source dictionaries like FuzzDB*)</p>
+
+<h2 id="maturity-2-create-and-test-abuse-cases-and-business-logic-flaw-test">Maturity 2 - Create and test abuse cases and business logic flaw test</h2>
+
+<h3 id="benefit-4">Benefit</h3>
+
+<p>Detect business logic flaws or vulnerabilities thay allow functionality in the software to be abused.</p>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Misuse and abuse cases describe unintended and malicious use scenarios of the application, describing how an attacker could do this. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application. Use abuse-case models for an application to serve as fuel for identification of concrete security tests that directly or indirectly exploit the abuse scenarios.</p>
+
+<p>Abuse of functionality, sometimes referred to as a &ldquo;business logic attack&rdquo;, depends on the design and implementation for application functions and features. As you add functionality to applications, think about how it can be manipulated to circumvent the business process, or abused to perform a function not intended by the developer. An example is using a password reset flow to enumerate accounts. As part of business logic testing, identify the business rules that are important for the application and turn them into experiments to verify whether the application properly enforces the business rule. For example, on a stock trading application, is the attacker allowed to start a trade at the beginning of the day and lock in a price, hold the transaction open until the end of the day, then complete the sale if the stock price has risen or cancel out if the price dropped?</p>
+
+<p>While there are tools for testing and verifying that business processes are functioning correctly in valid situations, these tools are incapable of detecting logical vulnerabilities. For example, tools have no means of detecting if a user is able to circumvent the business process flow through editing parameters, predicting resource names, or escalating privileges to access restricted resources. There’s also no mechanism to help  human testers suspect this.</p>
+
+<h2 id="maturity-3-denial-of-service-and-security-stress-testing">Maturity 3 - Denial of service and security stress testing</h2>
+
+<h3 id="benefit-5">Benefit</h3>
+
+<p>Identifies functionality or resources in the sofware that can be abused to perform denial of service attacks.</p>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>Applications are particularly susceptible to denial of service attacks. Perform denial of service and security stress testing against them. Perform these tests under controlled circumstances and on application acceptance environments, if possible.</p>
+
+<p>Load testing tools, such as JMeter can generate web traffic so you can test certain aspects of how your site performs under heavy load. One important test is how many requests per second your application can field. Testing from a single IP address is useful as it will give you an idea of how many requests an attacker will have to generate in order to damage your site. To determine if any resources can be used to create a denial of service, analyze each one to see if there is a way to exhaust it. Focus on what an unauthenticated user can do but, unless you trust all of your users, examine what an authenticated user can do as well.</p>
+
+<p>Denial of service tests can include tests that check:
+* whether it is possible to cause a denial of service condition by overflowing one or more data structures of the target application.
+* that the application properly releases resources (files and/or memory) after their use.
+* whether an attacker can lock valid user accounts by repeatedly attempting to log in with a wrong password.
+* whether it is possible to exhaust server resources by making it allocate a very large number of objects.
+* whether it is possible to allocate big amounts of data into a user session object to make the server exhaust its memory resources.
+* whether it is possible to force the application to loop through a code segment that needs high computing resources, to decrease its overall performance</p>
+
+<p>Stress testing exposes software systems to simulated cyber attacks, revealing potential weaknesses and vulnerabilities in their implementation. Use them to discover these internal weaknesses and vulnerabilities early in the software development life cycle. Correct them prior to deployment for improved software quality. Complement overall denial of service tests with security stress tests to perform actions or create conditions which cause delays, disruptions, or failures of the application under test.</p>
+
+    </div>
+  </main>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sidebar')
+    .sidebar('setting', 'transition', 'push')
+    .sidebar('setting', 'closable' , false)
+    .sidebar('setting', 'dimPage' , false);
+  });
+</script>
+
+
+<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="/js/jquery.peity.min.js" data-no-instant></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.donut').peity('donut');
+  });
+</script>
+</body>
+</html>
+

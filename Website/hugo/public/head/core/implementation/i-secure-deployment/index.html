@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Secure Deployment - OWASP SAMM</title>
+  
+  <meta name="description" content="Short Description This practice focuses on automatically securing deployments to the production environment and all required secrets.
+Long Description One of the final stages in delivering secure software is ensuring the security and integrity of developed applications are not compromised during their deployment. To this end, the practice’s first stream focuses on removing manual error by automating the deployment process as much as possible, and making its success contingent upon the outcomes of integrated security verification checks.">
+  <meta name="author" content="">
+  
+  <link href="/semantic/semantic.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127457120-1');
+  </script>
+</head>
+<body class="single">
+  <div class="headerback">
+    <header class="ui massive text menu">
+      <a class="header item" href="/">
+        OWASP SAMM
+      </a>
+      <div class="right menu">
+        <a class="item" href="/v1-5/downloads/">
+          v1.5
+        </a>
+        <a class="item" href="/v2.0b/introduction/">
+          v2.0 Beta
+        </a>
+      </div>
+    </header>
+  </div>
+  <div id="a50pxspacer"></div>
+
+
+<div class="mainwrapper">
+  <div class="ui inverted vertical menu" id="toc">
+    
+    
+    
+      
+        <h3 class="header item">
+          SAMM Head
+        </h3>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="item" href="/head/introduction/">
+              Introduction
+            </a>
+          
+        
+          
+            <a class="item" href="/head/feedback/">
+              Feedback
+            </a>
+          
+        
+        
+          
+            <div class="item">
+              <h4 class="header">
+                Core Model
+              </h4>
+              
+              
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Governance
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/governance/g-strategy-metrics/">
+                            Strategy &amp; Metrics
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/governance/g-policy-compliance/">
+                            Policy &amp; Compliance
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/governance/g-education-guidance/">
+                            Education &amp; Guidance
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Design
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/design/d-threat-assessment/">
+                            Threat Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/design/d-security-requirements/">
+                            Security Requirements
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/design/d-security-architecture/">
+                            Security Architecture
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Implementation
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/implementation/i-secure-build/">
+                            Secure Build
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/implementation/i-secure-deployment/">
+                            Secure Deployment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/implementation/i-defect-management/">
+                            Defect Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Verification
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/verification/v-architecture-assessment/">
+                            Architecture Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/verification/v-requirements-driven-testing/">
+                            Requirements Driven Testing
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/verification/v-security-testing/">
+                            Security Testing
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Operations
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/operations/o-incident-management/">
+                            Incident Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/operations/o-environment-management/">
+                            Environment Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/operations/o-operational-management/">
+                            Operational Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+              
+            </div>
+          
+        
+      
+    
+      
+    
+      
+    
+    <a class="item" href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.svg" /></a>
+    <a class="item" href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+
+  </div>
+
+  <main>
+    <div class="ui text container">
+
+      <h1 class="ui huge dividing header">
+        Secure Deployment
+      </h1>
+
+
+
+      
+      <div class="ui buttons">
+        <a href="https://github.com/OWASP/samm/edit/master/Current%20Releases/head/core/implementation/i-secure-deployment.md" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+        <a href="https://raw.githubusercontent.com/OWASP/samm/master/Current%20Releases/head/core/implementation/i-secure-deployment.md" target="_blank" class="ui red button"><i class="file code icon"></i> Raw</a>
+      </div>
+
+      <div class="ui hidden divider"></div>
+
+      <div class="ui large labels">
+        <div class="ui green label">
+          Business function
+          <div class="detail">Implementation</div>
+        </div>
+        <div class="ui orange label">
+          Assigned to
+          <div class="detail">Chris Cooper (chris.cooper@owasp.org)</div>
+        </div>
+        
+        <div class="ui label">
+          Progress
+          <div class="detail"><span class="donut">40/100</span> 40%</div>
+        </div>
+        
+      </div>
+      
+
+      
+
+<h1 id="short-description">Short Description</h1>
+
+<p>This practice focuses on automatically securing deployments to the production environment and all required secrets.</p>
+
+<h1 id="long-description">Long Description</h1>
+
+<p>One of the final stages in delivering secure software is ensuring the security and integrity of developed applications are not compromised during their deployment. To this end, the practice’s first stream focuses on removing manual error by automating the deployment process as much as possible, and making its success contingent upon the outcomes of integrated security verification checks. It also fosters Separation of Duties by making adequately trained, non-developers responsible for deployment.</p>
+
+<p>The second stream goes beyond the mechanics of deployment, and focuses on protecting the privacy and integrity of sensitive data, such as passwords, tokens, and other secrets, required for applications to operate in production environments. In its simplest form, suitable production secrets are moved from repositories and configuration files into adequately managed digital vaults. In more advanced forms, secrets are dynamically generated at deployment time and routine processes detect and mitigate the presence of any unprotected secrets in the environment.</p>
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Deployment Process</th>
+<th align="left">B: Secret Management</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Deployment processes are fully documented</td>
+<td align="left">Deployment is automated or done by someone other than the developer.</td>
+<td align="left">Production secrets are encrypted and not handled by developers</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Deployment processes include security verification milestores</td>
+<td align="left">Integration of security verification in deployment (e.g. binary static code analysis / AV scan)</td>
+<td align="left">Secrets are dynamically included during the deployment process</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Deployment process is fully automated and incorporates automated verification of all critical milestones</td>
+<td align="left">Integrity of the code is verified prior to deployment</td>
+<td align="left">Files and repositories are checked periodically for secrets that should be protected</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-deployment-process">A: Deployment Process</h1>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="benefits">Benefits</h3>
+
+<p>Only qualified personnel, different from developers can deploy to production environments</p>
+
+<h3 id="activity">Activity</h3>
+
+<p>Deploy applications via automated processes, or manually by people other than the developers. Developers do not have access to production environments.</p>
+
+<p>Choose any tools used during deployment carefully and harden them appropriately. If these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow.</p>
+
+<p>Handle access to the production credentials and secrets for the tools and engineer conducting the deployment with care - e.g. according to the principle of least privilege, and encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).</p>
+
+<p>People with access to production have to go through a minimum level of training or certification to ensure competency in this sensitive environment. Refer to <a href="../governance/g-education-guidance/">Governance &gt; Education &amp; Guidance</a>.</p>
+
+<h4 id="maturity-questions">Maturity Questions</h4>
+
+<h5 id="q-1">Q 1</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators">Quality Indicators</h3>
+
+<!--
+#### Notes
+- Separation of roles/responsibilities regardless of size/process? How to marry this with DevOps practices? Whenever 3rd party certification is involved - it has to be done by a separate "department" (compliance requirement = segregation of duties)? consider 4-eyes principle? require training before being granted access? [Added. CC]
+
+ACTION: review this stream completely
+-->
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="benefits-1">Benefits</h3>
+
+<p>The deployment process is fully or partially automated and can be halted based on the results of integrated security verification tests.</p>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>Fully or partially automate deployment to reduce the need for manual changes on production, and to reduce the chances of human error.</p>
+
+<p>Deployments include appropriate automated security checks such as DAST and malware scanning. Notify relevant people of any defects automatically.Stop or reverse the deployment automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. Log the results from these tests centrally and take any necessary actions.</p>
+
+<p>Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.</p>
+
+<h3 id="maturity-questions-1">Maturity Questions</h3>
+
+<h4 id="q-1-1">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong></p>
+
+<ul>
+<li>Option 1</li>
+<li>Option 2</li>
+<li>Option 3</li>
+<li>Option 4</li>
+</ul>
+
+<h3 id="quality-indicators-1">Quality Indicators</h3>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="benefits-2">Benefits</h3>
+
+<p>The deployment process automatically validates the integrity of its artifacts.</p>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Sign binaries at build time. This may include binaries developed and built in-house, as well as third-party libraries. Do not deploy binary signatures that cannot be verified, including those with invalid or expired certificates.</p>
+
+<p>If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organisation&rsquo;s wider governance surrounding trusted third-party suppliers.</p>
+
+<p>Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, do it manually.</p>
+
+<h3 id="maturity-questions-2">Maturity Questions</h3>
+
+<h4 id="q-1-2">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-2">Quality Indicators</h3>
+
+<h1 id="b-configurations-secret-management">B: Configurations/Secret Management</h1>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="benefits-3">Benefits</h3>
+
+<p>Production secrets are adequately protected in a digital vault, inaccessible to developers.</p>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>Version and protect configuration files just like source code. Developers do not have access to secrets or credentials for production environments. Someone responsible for the production environment adds production secrets to configuration files during the deployment process.</p>
+
+<p>Do not keep production secrets in configuration files for development or testing environments, as such environments may have a significantly lower security posture. Do not keep secrets in configuration files stored in code repositories.</p>
+
+<p>Before deployment, store sensitive credentials and secrets for production systems with encryption-at-rest and appropriate key management. Consider using a purpose-built tool/vault for this data. Handle key management carefully so only personnel with responsibility for production deployments are able to access this data (the principle of least privilege).</p>
+
+<p>Encrypt secrets at rest in configuration files during deployment. Manage  keys so the application can access the secrets while running, but an attacker who obtains the configuration files alone cannot decipher them.</p>
+
+<h3 id="maturity-questions-3">Maturity Questions</h3>
+
+<h4 id="q-1-3">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-3">Quality Indicators</h3>
+
+<!--
+#### Notes
+Level 1: you cannot have plaintext credentials in code?  Config file separate? [Added by CC]
+-->
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="benefits-4">Benefits</h3>
+
+<p>Secrets are dynamically extracted from the digital vault for use in deployment.</p>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Have an automated process to add credentials and secrets appropriate for the target environment to configuration files  during the deployment process. This way, developers and deployers do not  see or handle those sensitive values.</p>
+
+<p>Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a UAT or production environment.</p>
+
+<h3 id="maturity-questions-4">Maturity Questions</h3>
+
+<h4 id="q-1-4">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-4">Quality Indicators</h3>
+
+<!--
+#### Notes
+procedures when this happens? how to resolve this?
+Protection of secrets in config file
+-->
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="benefits-5">Benefits</h3>
+
+<p>Secrets are dynamically generated during deployment and a process routinely checks for and mitigates unprotected secrets.</p>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly.</p>
+
+<p>Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.</p>
+
+<p>Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them, from  a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.</p>
+
+<h3 id="maturity-questions-5">Maturity Questions</h3>
+
+<h4 id="q-1-5">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-5">Quality Indicators</h3>
+
+<!--
+#### Notes
+push parts of this to level 2 and concentrate level 3 on validation and improvement of this process [Added by CC]
+detection of secrets in code? e.g. looking for strings with a high level of entropy. [Added by CC]
+a mature process when this happens anyway? part of incident process?
+
+#### Guidance
+truffleHog reference?
+also go into container level when appropriate
+-->
+
+    </div>
+  </main>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sidebar')
+    .sidebar('setting', 'transition', 'push')
+    .sidebar('setting', 'closable' , false)
+    .sidebar('setting', 'dimPage' , false);
+  });
+</script>
+
+
+<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="/js/jquery.peity.min.js" data-no-instant></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.donut').peity('donut');
+  });
+</script>
+</body>
+</html>
+

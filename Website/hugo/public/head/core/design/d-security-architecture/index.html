@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Security Architecture - OWASP SAMM</title>
+  
+  <meta name="description" content="Short Description The security architecture practice focuses on managing architectural risks for the software solution.
+Long Description This practice focuses on the security linked to components and technology you deal with during the design of the architecture of your software. Secure Architecture Design looks at the selection and composition of components that form the foundation of your solution, focusing on its security properties. Technology management looks at the security of supporting technologies used during development, deployment and operations, such as development stacks and tooling, deployment tooling, and operating systems and tooling.">
+  <meta name="author" content="">
+  
+  <link href="/semantic/semantic.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127457120-1');
+  </script>
+</head>
+<body class="single">
+  <div class="headerback">
+    <header class="ui massive text menu">
+      <a class="header item" href="/">
+        OWASP SAMM
+      </a>
+      <div class="right menu">
+        <a class="item" href="/v1-5/downloads/">
+          v1.5
+        </a>
+        <a class="item" href="/v2.0b/introduction/">
+          v2.0 Beta
+        </a>
+      </div>
+    </header>
+  </div>
+  <div id="a50pxspacer"></div>
+
+
+<div class="mainwrapper">
+  <div class="ui inverted vertical menu" id="toc">
+    
+    
+    
+      
+        <h3 class="header item">
+          SAMM Head
+        </h3>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="item" href="/head/introduction/">
+              Introduction
+            </a>
+          
+        
+          
+            <a class="item" href="/head/feedback/">
+              Feedback
+            </a>
+          
+        
+        
+          
+            <div class="item">
+              <h4 class="header">
+                Core Model
+              </h4>
+              
+              
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Governance
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/governance/g-strategy-metrics/">
+                            Strategy &amp; Metrics
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/governance/g-policy-compliance/">
+                            Policy &amp; Compliance
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/governance/g-education-guidance/">
+                            Education &amp; Guidance
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Design
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/design/d-threat-assessment/">
+                            Threat Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/design/d-security-requirements/">
+                            Security Requirements
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/design/d-security-architecture/">
+                            Security Architecture
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Implementation
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/implementation/i-secure-build/">
+                            Secure Build
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/implementation/i-secure-deployment/">
+                            Secure Deployment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/implementation/i-defect-management/">
+                            Defect Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Verification
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/verification/v-architecture-assessment/">
+                            Architecture Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/verification/v-requirements-driven-testing/">
+                            Requirements Driven Testing
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/verification/v-security-testing/">
+                            Security Testing
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Operations
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/head/core/operations/o-incident-management/">
+                            Incident Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/operations/o-environment-management/">
+                            Environment Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/head/core/operations/o-operational-management/">
+                            Operational Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+              
+            </div>
+          
+        
+      
+    
+      
+    
+      
+    
+    <a class="item" href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.svg" /></a>
+    <a class="item" href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+
+  </div>
+
+  <main>
+    <div class="ui text container">
+
+      <h1 class="ui huge dividing header">
+        Security Architecture
+      </h1>
+
+
+
+      
+      <div class="ui buttons">
+        <a href="https://github.com/OWASP/samm/edit/master/Current%20Releases/head/core/design/d-security-architecture.md" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+        <a href="https://raw.githubusercontent.com/OWASP/samm/master/Current%20Releases/head/core/design/d-security-architecture.md" target="_blank" class="ui red button"><i class="file code icon"></i> Raw</a>
+      </div>
+
+      <div class="ui hidden divider"></div>
+
+      <div class="ui large labels">
+        <div class="ui green label">
+          Business function
+          <div class="detail">Design</div>
+        </div>
+        <div class="ui orange label">
+          Assigned to
+          <div class="detail">bart.dewin@owasp.org</div>
+        </div>
+        
+        <div class="ui label">
+          Progress
+          <div class="detail"><span class="donut">40/100</span> 40%</div>
+        </div>
+        
+      </div>
+      
+
+      
+
+<h1 id="short-description">Short Description</h1>
+
+<p>The security architecture practice focuses on managing architectural risks for the software solution.</p>
+
+<h1 id="long-description">Long Description</h1>
+
+<p>This practice focuses on the security linked to components and technology you deal with during the design of the architecture of your software. Secure Architecture Design looks at the selection and composition of components that form the foundation of your solution, focusing on its security properties. Technology management looks at the security of supporting technologies used during development, deployment and operations, such as development stacks and tooling, deployment tooling, and operating systems and tooling.</p>
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Architecture Design</th>
+<th align="left">B: Technology Management</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Insert consideration of proactive security guidance into the software design process.</td>
+<td align="left">Use basic security principles</td>
+<td align="left">Elicit technologies, frameworks and integrations within the overall solution</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Direct the software design process toward known secure services and secure-by-default designs.</td>
+<td align="left">Establish common design patterns and security solutions</td>
+<td align="left">Standardize technologies and frameworks to be used throughout the different applications</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Formally control the software design process and validate utilization of secure components.</td>
+<td align="left">Create Reference Architectures</td>
+<td align="left">Impose the use of standard technologies on all software development.</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-architecture-design">A: Architecture Design</h1>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="benefit">Benefit</h3>
+
+<p>You get basic security practices right in your software design.</p>
+
+<h3 id="activity">Activity</h3>
+
+<p>During design, technical staff on the project team use a short checklist of security principles. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.</p>
+
+<p>For perimeter interfaces, the design team considers each principle in the context of the overall system and identify features that can be added to bolster security at each such interface. Limit these such that they only take a small amount of extra effort beyond the normal implementation cost of functional requirements. Note anything larger and schedule it for future releases.</p>
+
+<p>Train each project team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.</p>
+
+<h4 id="maturity-questions">Maturity Questions</h4>
+
+<h5 id="q-1">Q 1</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h4 id="quality-indicators">Quality Indicators</h4>
+
+<h4 id="notes">Notes</h4>
+
+<p>Still put focus on perimeter interfaces ?</p>
+
+<p>I don&rsquo;t like the fact that the Practice is called Secure Architecture and the stream almost has the same name.</p>
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="benefit-1">Benefit</h3>
+
+<p>The organisation leverages common security solutions.</p>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>Identify shared infrastructure or services with security functionality. These typically include single-sign-on services, access control or entitlements services, logging and monitoring services or application-level firewalling. Collect and evaluat reusable systems to assemble a list of such resources and categorize them by the security mechanism they fulfill. Consider each resource in terms of why a development or an operations team would want to integrate with it, i.e. the benefits of using the shared resource.</p>
+
+<p>If multiple resources exist in each category, select and standardize on one or more shared service per category. Because future software development will rely on these services, review each thoroughly to ensure understanding of the baseline security posture. For each selected service, create design guidance for development teams to understand how to integrate with the system. Make the guidance available to development or operations teams through training, mentorship, guidelines, and standards.</p>
+
+<p>Establish a set of general design patterns representing sound methods of implementing security functionality. You can research them or purchase them, and it is often even more effective if you customize them so they are more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.</p>
+
+<p>These patterns can originate from specific projects or applications, but make sure you share them between different development and/or operations teams across the organisation for efficient and consistent application of appropriate security solutions.</p>
+
+<p>To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.</p>
+
+<h3 id="maturity-questions-1">Maturity Questions</h3>
+
+<h4 id="q-1-1">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-1">Quality Indicators</h3>
+
+<h4 id="notes-1">Notes</h4>
+
+<p>Combination of the 2 level 2 activities of SAMM1.5</p>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="benefit-2">Benefit</h3>
+
+<p>Software architectures are standardized to minimize security risks.</p>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. Have architects, senior developers and other technical stakeholders participate in design and creation of reference platforms. After creation, teams maintain ongoing support and updates.</p>
+
+<p>Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the life-cycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization.</p>
+
+<p>Monitor weaknesses or gaps in the set of security solutions available in your organisation continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.</p>
+
+<h3 id="maturity-questions-2">Maturity Questions</h3>
+
+<h4 id="q-1-2">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-2">Quality Indicators</h3>
+
+<h4 id="notes-2">Notes</h4>
+
+<h1 id="b-technology-management">B: Technology Management</h1>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="benefit-3">Benefit</h3>
+
+<p>Risky technologies are identified and replaced</p>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>People often take the path of least resistance in developing, deploying or operating a software solution. New technologies are included when they can facilitate or speed up the effort or enable the solution to scale better. These new technologies might, however, introduce new risks to the organisation that you need to manage.</p>
+
+<p>Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the solution architect&rsquo;s knowledge, or study the development and operating environment and artefacts. Then evaluate them for their security quality and raise important issues (LINK TO defect management).</p>
+
+<h3 id="maturity-questions-3">Maturity Questions</h3>
+
+<h4 id="q-1-3">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-3">Quality Indicators</h3>
+
+<ul>
+<li>Most important technologies are elicited</li>
+<li>Technologies are evaluated by the lead developer or architect</li>
+<li>Important technological risks are identified</li>
+<li>Undesired risky technologies in the solution are replaced in accordance with the organization&rsquo;s policy</li>
+</ul>
+
+<h3 id="notes-3">Notes</h3>
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="benefit-4">Benefit</h3>
+
+<p>There is a common agreement on the key technologies to use</p>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Identify commonly used technologies, frameworks and tools in use across software projects in the organisation, whereby you focus on capturing the high-level technologies.</p>
+
+<p>Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organisation.</p>
+
+<p>Senior developers and architects create this list, including input from managers and security auditors. Share this list of recommended components with the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.</p>
+
+<h3 id="maturity-questions-4">Maturity Questions</h3>
+
+<h4 id="q-1-4">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-4">Quality Indicators</h3>
+
+<ul>
+<li>Technologies in use have been identified throughout the software portfolio</li>
+<li>A list of preferred technologies has been defined and approved by lead architects and developers</li>
+<li>The list of preferred technologies has been shared across the development organisation</li>
+<li>The list of preferred technologies is regularly (at least yearly) reviewed and updated</li>
+</ul>
+
+<h3 id="notes-4">Notes</h3>
+
+<p>Note that this used to be level 1 in SAMM 1.5. OK ?</p>
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="benefit-5">Benefit</h3>
+
+<p>Compliance with the list is proactively monitored and violations are managed</p>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks.</p>
+
+<p>Verify several factors with project teams. Identify use of non-recommended technologies to determine if there are gaps in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, implement functionality in the reference platforms as the organization evolves and project teams request it.</p>
+
+<h3 id="maturity-questions-5">Maturity Questions</h3>
+
+<h4 id="q-1-5">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="quality-indicators-5">Quality Indicators</h3>
+
+<ul>
+<li>Applications are regularly monitored for the correct use of the list of preferred frameworks</li>
+<li>Violations against the list are solved in accorandance with the organisational&rsquo;s policy</li>
+<li>The amount of violations on a yearly basis falls within objectives or concrete actions are taken to improve</li>
+</ul>
+
+<h3 id="notes-5">Notes</h3>
+
+<p>Align legacy software to these standards. -&gt; realistic ? Also move to legacy Stream (Operations)</p>
+
+    </div>
+  </main>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sidebar')
+    .sidebar('setting', 'transition', 'push')
+    .sidebar('setting', 'closable' , false)
+    .sidebar('setting', 'dimPage' , false);
+  });
+</script>
+
+
+<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="/js/jquery.peity.min.js" data-no-instant></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.donut').peity('donut');
+  });
+</script>
+</body>
+</html>
+

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Incident Management - OWASP SAMM</title>
+  
+  <meta name="description" content="Short Description Incident Management security practice describes activities carried to detect and respond to security incidents.
+Long Description Once your applications become operational, you’re likely to face security incidents. For this document, we consider a security incident a breach or threat of an imminent breach of at least one asset’s security goals due to malicious or negligent behaviour. Examples of a security incidents might include:
+ successful DoS (Denial of Service) attack against a cloud application application user accessing private data of another one by abusing a security vulnerability attacker modifying the application source code  Sometimes, a security incident is detected only after months or even years when all damage has already been done.">
+  <meta name="author" content="">
+  
+  <link href="/semantic/semantic.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127457120-1');
+  </script>
+</head>
+<body class="single">
+  <div class="headerback">
+    <header class="ui massive text menu">
+      <a class="header item" href="/">
+        OWASP SAMM
+      </a>
+      <div class="right menu">
+        <a class="item" href="/v1-5/downloads/">
+          v1.5
+        </a>
+        <a class="item" href="/v2.0b/introduction/">
+          v2.0 Beta
+        </a>
+      </div>
+    </header>
+  </div>
+  <div id="a50pxspacer"></div>
+
+
+<div class="mainwrapper">
+  <div class="ui inverted vertical menu" id="toc">
+    
+    
+    
+      
+    
+      
+        <h3 class="header item">
+          SAMM 2.0 Beta
+        </h3>
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="item" href="/v2.0b/introduction/">
+              Introduction
+            </a>
+          
+        
+          
+            <a class="item" href="/v2.0b/feedback/">
+              Feedback
+            </a>
+          
+        
+        
+          
+            <div class="item">
+              <h4 class="header">
+                Core Model
+              </h4>
+              
+              
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Governance
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-strategy-metrics/">
+                            Strategy &amp; Metrics
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-policy-compliance/">
+                            Policy &amp; Compliance
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-education-guidance/">
+                            Education &amp; Guidance
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Design
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-threat-assessment/">
+                            Threat Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-requirements/">
+                            Security Requirements
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-architecture/">
+                            Security Architecture
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Implementation
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-build/">
+                            Secure Build
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-deployment/">
+                            Secure Deployment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-defect-management/">
+                            Defect Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Verification
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-architecture-assessment/">
+                            Architecture Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-requirements-driven-testing/">
+                            Requirements Driven Testing
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-security-testing/">
+                            Security Testing
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Operations
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-incident-management/">
+                            Incident Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-environment-management/">
+                            Environment Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-operational-management/">
+                            Operational Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+              
+            </div>
+          
+        
+      
+    
+      
+    
+    <a class="item" href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.svg" /></a>
+    <a class="item" href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+
+  </div>
+
+  <main>
+    <div class="ui text container">
+
+      <h1 class="ui huge dividing header">
+        Incident Management
+      </h1>
+
+
+
+      
+
+      
+
+<h1 id="short-description">Short Description</h1>
+
+<p>Incident Management security practice describes activities carried to detect and respond to security incidents.</p>
+
+<h1 id="long-description">Long Description</h1>
+
+<p>Once your applications become operational, you’re likely to face security incidents. For this document, we consider a security incident a breach or threat of an  imminent breach of at least one asset’s security goals due to malicious or negligent behaviour. Examples of a security incidents might include:</p>
+
+<ul>
+<li>successful DoS (Denial of Service) attack against a cloud application</li>
+<li>application user accessing private data of another one by abusing a security vulnerability</li>
+<li>attacker modifying the application source code</li>
+</ul>
+
+<p>Sometimes, a security incident is detected only after months or even years when all damage has already been done. That&rsquo;s why the first stream called &ldquo;Incident Detection&rdquo; tackles the ability to reliably and timely detect security incidents.</p>
+
+<p>Once you have identified that you&rsquo;re suffering from a security incident, it&rsquo;s essential to act in a well organized way in order to limit the damage as much as possible. Actitivies leading to this goal are described by the second stream called &ldquo;Incident Response&rdquo;.</p>
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Incident Detection</th>
+<th align="left">B: Incident Response</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Best-effort incident detection and handling</td>
+<td align="left">Best-effort incident detection with available log data</td>
+<td align="left">Defined high-level incident response strategy</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Formal incident management process in place</td>
+<td align="left">Automated log evaluation driven by process</td>
+<td align="left">Root Cause Analysis with feedback loop</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Mature incident management</td>
+<td align="left">Reliable timely incident detection</td>
+<td align="left">Proactive incident + emergency exercises</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-incident-detection">A: Incident Detection</h1>
+
+<p>This stream covers the time frame between a security-relevant event taking place and creation of a formal security incident, e.g. by creating a respective ticket and handing over to incident response process. With the increasing maturity, you want to shorten this time span and detect security incidents more reliably and efficiently.</p>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="benefit">Benefit</h3>
+
+<p>Ability to detect the most obvious security incidents within a reasonable timeframe.</p>
+
+<h3 id="activity">Activity</h3>
+
+<p>The available log data (e.g. access logs, application logs, infrastructure logs) are analyzed to detect possible security incidents in accordance with known log data retention periods.</p>
+
+<p>In small setups, you can do this manually with the help of common command line tools. With larger amounts of logs, employ automation techniques - even a simple script looking for suspicious events run periodically as a cron job is a step forward!</p>
+
+<p>In case the logs from different sources are sent to a dedicated log system, it might be a good idea to analyze the logs here and also employ basic log correlation principles.</p>
+
+<p>Even if you don’t have a <sup>24</sup>&frasl;<sub>7</sub> incident detection process, unavailability of the person in charge (vacation, illness) shouldn’t impact the detection speed and quality significantly.</p>
+
+<p>You have a defined and generally known contact point for formal creation of security incidents.</p>
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="benefit-1">Benefit</h3>
+
+<p>Ability to timely detect expected security incidents.</p>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>The incident detection process has a dedicated owner and clear documentation accessible to all process stakeholders, and is periodically checked to make sure it is up to date. You ensure employees responsible for incident detection follow this process (e.g. using training).</p>
+
+<p>The process typically relies on a high degree of automation, collecting and correlating log data from different sources including application logs. You may collect the logs to a central place, if suitable. Explicit attention is periodically paid to integrity of the analyzed data. If you add a new application, you ensure that the process covers it within reasonable period of time.</p>
+
+<p>You detect possible security incidents according to an available checklist. The checklist covers expected attack vectors, and known or expected kill chains. You evaluate it and update it regularly.</p>
+
+<p>If you evaluate an event as a security incident with high level of confidence, the responsible staff is notified immediately, even outside business hours. You  perform further analysis and start the escalation process.</p>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="benefit-2">Benefit</h3>
+
+<p>Ability to timely detect unexpected security incidents.</p>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>The process documentation includes measures for continuous process improvement. You check the continuity of process improvement, e.g. via tracking of changes.</p>
+
+<p>The checklist for suspicious event detection is correlated at least from:</p>
+
+<ul>
+<li>Sources and knowledge bases external to the company (e.g. new vulnerability announcements affecting the used technologies)</li>
+<li>Past security incidents</li>
+<li>Threat model outcomes</li>
+</ul>
+
+<p>You use correlation of logs for incident detection for all reasonable incident scenarios. If the log data for incident detection is not available, you document it  as a defect, triage and handle it according to the resulting priority / SLA.</p>
+
+<p>The quality of the incident detection does not depend on the time or day of the event. If you do not act upon the security event within a defined time, it triggers further notifications according to a defined escalation path. The efficiency is of the incident is also checked by exercises with defined improvement action points.</p>
+
+<h1 id="b-incident-response">B: Incident Response</h1>
+
+<p>Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible. If suitable, you want to identify the root cause and limit the probability of similar incidents happening in the future.</p>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="benefit-3">Benefit</h3>
+
+<p>Ability to efficiently solve most common security incidents.</p>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>The first step is to recognize the incident response competence as such and define an owner responsible for its continuous development. They keep up with current state of incident handling best practices and forensic tooling.</p>
+
+<p>You usually don&rsquo;t go for dedicated incident response personnel on this maturity level, but you define  the participants of the process are defined (for instance, regular admins or developers helping in case of need). There is a know single point of contact for  the team And a conscious decision regarding reachability of the personnel.</p>
+
+<p>When security incidents happen, you document the steps taken. Protect this information from unauthorized access if necessary.</p>
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="benefit-4">Benefit</h3>
+
+<p>Understanding and efficient handling of most security incidents.</p>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Formally establish and document the security incident response process. The documentation includes information like:</p>
+
+<ul>
+<li>Most probable/common scenarios of security incidents and high-level instruction how to handle them. For such scenarios, also use public knowledge about possibly relevant 3rd-party incidents</li>
+<li>Rules for triaging the incident</li>
+<li>Rules for involvement of different stakeholders (including mandatory timeframe to do so, if needed), e.g. senior management, Public Relations, Legal, privacy, Human Resources, External (law enforcement) Authorities, Customers.</li>
+</ul>
+
+<p>Knowledgeable and properly trained staff is available in and outside of business hours with defined time to act. Keep both hardware and software tools up to date and ready for use anytime. Define a war room.</p>
+
+<p>The process includes a policy for carrying out root cause analysis and its expected outcomes.</p>
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="benefit-5">Benefit</h3>
+
+<p>Efficient incident response independent of time, location, or art of the incident.</p>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>Establish a dedicated incident response team, continuously available and also in charge of the continuous process improvement with the help of regular RCAs. For distributed organizations, define and document logistics rules for all relevant locations if sensible.</p>
+
+<p>Document detailed incident response procedures and keep them upd to date. Where sensible, automate procedures. Keep ll resources necessary for these procedures (e.g. separate communicating infrastructure or reliable external location) ready to use. Detect unavailability of these resources in a timely manner.</p>
+
+<p>Carry out incident and emergency exercises are regularly. Use the results for process improvement.</p>
+
+<p>Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement.</p>
+
+    </div>
+  </main>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sidebar')
+    .sidebar('setting', 'transition', 'push')
+    .sidebar('setting', 'closable' , false)
+    .sidebar('setting', 'dimPage' , false);
+  });
+</script>
+
+
+<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="/js/jquery.peity.min.js" data-no-instant></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.donut').peity('donut');
+  });
+</script>
+</body>
+</html>
+

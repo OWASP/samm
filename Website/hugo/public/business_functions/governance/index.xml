@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Governance on OWASP SAMM</title>
+    <link>https://owaspsamm.org/business_functions/governance/</link>
+    <description>Recent content in Governance on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/business_functions/governance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Education &amp; Guidance</title>
+      <link>https://owaspsamm.org/head/core/governance/g-education-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/head/core/governance/g-education-guidance/</guid>
+      <description>Short Description This practice focuses on increasing the knowledge in the organisation regarding secure software.
+Long Description The Education &amp;amp; Guidance (EG) Practice focuses on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization.
+One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness, either through instructor-led sessions or computer-based modules.</description>
+    </item>
+    
+    <item>
+      <title>Education &amp; Guidance</title>
+      <link>https://owaspsamm.org/v2.0b/core/governance/g-education-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/governance/g-education-guidance/</guid>
+      <description>Short Description This practice focuses on increasing the knowledge in the organisation regarding secure software.
+Long Description The Education &amp;amp; Guidance (EG) Practice focuses on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization.
+One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness, either through instructor-led sessions or computer-based modules.</description>
+    </item>
+    
+    <item>
+      <title>Policy &amp; Compliance</title>
+      <link>https://owaspsamm.org/head/core/governance/g-policy-compliance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/head/core/governance/g-policy-compliance/</guid>
+      <description>Short Description This practice drives the adherence to internal and external standards and regulations.
+Long Description The Policy &amp;amp; Compliance (PC) Practice focuses on understanding and meeting external legal and regulatory requirements while driving internal security standards to ensure compliance in a way that’s aligned with the business purpose of the organization.
+A driving theme for improvement within this Practice is describing organization’s standards and 3rd party obligations as application requirements, enabling efficient and automated audits that may be leveraged within the SDLC and continuously demonstrate that all expectations are met.</description>
+    </item>
+    
+    <item>
+      <title>Policy &amp; Compliance</title>
+      <link>https://owaspsamm.org/v2.0b/core/governance/g-policy-compliance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/governance/g-policy-compliance/</guid>
+      <description>Short Description This practice drives the adherence to internal and external standards and regulations.
+Long Description The Policy &amp;amp; Compliance (PC) Practice focuses on understanding and meeting external legal and regulatory requirements while driving internal security standards to ensure compliance in a way that’s aligned with the business purpose of the organization.
+A driving theme for improvement within this Practice is describing organization’s standards and 3rd party obligations as application requirements, enabling efficient and automated audits that may be leveraged within the SDLC and continuously demonstrate that all expectations are met.</description>
+    </item>
+    
+    <item>
+      <title>Strategy &amp; Metrics</title>
+      <link>https://owaspsamm.org/head/core/governance/g-strategy-metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/head/core/governance/g-strategy-metrics/</guid>
+      <description>Short Description This practice forms the basis of your secure software activities by building an overall plan.
+Long Description Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organisation.</description>
+    </item>
+    
+    <item>
+      <title>Strategy &amp; Metrics</title>
+      <link>https://owaspsamm.org/v2.0b/core/governance/g-strategy-metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/governance/g-strategy-metrics/</guid>
+      <description>Short Description This practice forms the basis of your secure software activities by building an overall plan.
+Long Description Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organisation.</description>
+    </item>
+    
+  </channel>
+</rss>

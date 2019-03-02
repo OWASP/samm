@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAMM 2.0 Beta on OWASP SAMM</title>
+    <link>https://owaspsamm.org/v2.0b/</link>
+    <description>Recent content in SAMM 2.0 Beta on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/v2.0b/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://owaspsamm.org/v2.0b/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/introduction/</guid>
+      <description>The mission of OWASP SAMM is to be the prime maturity model for software assurance that provides an effective and measurable way for all types of organizations to analyse and improve their software security posture. OWASP SAMM supports the complete software lifecycle, including development and acquisition, and is technology and process agnostic. It is intentionally built to be evolutive and risk-driven in nature.
+The original model (v1.0) was written by Pravir Chandra and dates back from 2009.</description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>https://owaspsamm.org/v2.0b/feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/feedback/</guid>
+      <description>OWASP SAMM is an open source software assurance model and we highly value feedback and contributions from the community. For the beta draft version of version 2, we&amp;rsquo;re explicitly soliciting feedback on the structure and content of the current state. of the model. Detailed comments on the detailed wording are less relevant at this stage, but can also be provided.
+We would very much like to hear your opinion on considerations like:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://owaspsamm.org/v2.0b/acronym-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/acronym-list/</guid>
+      <description> List of Acronyms and Abbreviations  AA Architecture Assessment (SAMM Practice) ADFS Active Directory Federation Services ASVS OWASP Application Security Verification Standard AV Anti-Virus BOM Bill of Materials CPE Common Platform Enumeration CVE Common Vulnerabilities and Exposures CVSS Common Vulnerability Scoring System CWE Common Weakness Enumeration DAST Dynamic Application Security Testing DDoS Distributed Denial of Service DM Defect Management (SAMM Practice) DOD Definition of Done DOR Definition of Ready DoS Denial of Service EM Environment Management (SAMM Practice) EG Education and Guidance (SAMM Practice) ESB Enterprise Service Bus GDPR General Data Protection Regulation (European Union law) HSM Hardware Security Module IAM Identity and Access Management IAST Interactive Application Security Testing IDE Integrated Development Environment IM Incident Management (SAMM Practice) KPI Key Performance Indicator LDAP Lightweight Directory Access Protocol NIST National Institute of Standards and Technology (US Agency) NVD National Vulnerability Database (US) OM Operational Management (SAMM Practice) OS Operating System OWASP Open Web Application Security Project PC Policy and Compliance (SAMM Practice) QA Quality Assurance RASP Runtime Application Self-Protection RCA Root Cause Analysis RDT Requirements-Driven Testing (SAMM Practice) REST REpresentational State Transfer SA Security Architecture (SAMM Practice) SAMM Software Assurance Maturity Model SAST Static Application Security Testing SB Secure Build (SAMM Practice) SD Secure Deployment (SAMM Practice) SDLC Software Development Life Cycle SLA Service Level Agreement SM Strategy and Metrics (SAMM Practice) SMART Specific, Measurable, Actionable, Relevant, and Time-bound SOAP Simple Object Access Protocol SR Security Requirements (SAMM Practice) SSO Single Sign-On ST Security Testing (SAMM Practice) STRIDE Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege SWIFT Society for Worldwide Interbank Financial Telecommunication TA Threat Assessment (SAMM Practice) TLS Transport Layer Security TPM Trusted Platform Module UAT User Acceptance Test VA Vulnerability Analysis WAF Web Application Firewall ZAP OWASP Zed Attack Proxy    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://owaspsamm.org/v2.0b/glossary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/glossary/</guid>
+      <description> Glossary  Business Function  Practice  Activity Stream  Activity  Maturity Level     </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://owaspsamm.org/v2.0b/sitehome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/sitehome/</guid>
+      <description>The Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization. SAMM helps you:
+ Evaluate an organization’s existing software security practices Build a balanced software security assurance program in well-defined iterations Demonstrate concrete improvements to a security assurance program Define and measure security-related activities throughout an organization  SAMM 1.</description>
+    </item>
+    
+  </channel>
+</rss>

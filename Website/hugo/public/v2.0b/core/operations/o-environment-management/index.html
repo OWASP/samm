@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Environment Management - OWASP SAMM</title>
+  
+  <meta name="description" content="Short Description Environment Management practice describes proactive activities carried out to keep the environment reasonably secure during the application operation.
+Long Description Proactive work on application security is not over once the application becomes operational. New security features and patches are continuously released until the technology stack you&rsquo;re using becomes obsolete.
+Most technology in your application stack is not secure by default. Due to issues like backwards compatibility or ease of setup, you often need to explicitly turn security features on.">
+  <meta name="author" content="">
+  
+  <link href="/semantic/semantic.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127457120-1');
+  </script>
+</head>
+<body class="single">
+  <div class="headerback">
+    <header class="ui massive text menu">
+      <a class="header item" href="/">
+        OWASP SAMM
+      </a>
+      <div class="right menu">
+        <a class="item" href="/v1-5/downloads/">
+          v1.5
+        </a>
+        <a class="item" href="/v2.0b/introduction/">
+          v2.0 Beta
+        </a>
+      </div>
+    </header>
+  </div>
+  <div id="a50pxspacer"></div>
+
+
+<div class="mainwrapper">
+  <div class="ui inverted vertical menu" id="toc">
+    
+    
+    
+      
+    
+      
+        <h3 class="header item">
+          SAMM 2.0 Beta
+        </h3>
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="item" href="/v2.0b/introduction/">
+              Introduction
+            </a>
+          
+        
+          
+            <a class="item" href="/v2.0b/feedback/">
+              Feedback
+            </a>
+          
+        
+        
+          
+            <div class="item">
+              <h4 class="header">
+                Core Model
+              </h4>
+              
+              
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Governance
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-strategy-metrics/">
+                            Strategy &amp; Metrics
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-policy-compliance/">
+                            Policy &amp; Compliance
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/governance/g-education-guidance/">
+                            Education &amp; Guidance
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Design
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-threat-assessment/">
+                            Threat Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-requirements/">
+                            Security Requirements
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/design/d-security-architecture/">
+                            Security Architecture
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Implementation
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-build/">
+                            Secure Build
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-secure-deployment/">
+                            Secure Deployment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/implementation/i-defect-management/">
+                            Defect Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Verification
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-architecture-assessment/">
+                            Architecture Assessment
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-requirements-driven-testing/">
+                            Requirements Driven Testing
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/verification/v-security-testing/">
+                            Security Testing
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <h5 class="header">
+                      Operations
+                    </h5>
+                    <div class="menu">
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-incident-management/">
+                            Incident Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-environment-management/">
+                            Environment Management
+                          </a>
+                        
+                      
+                        
+                          <a class="item" href="/v2.0b/core/operations/o-operational-management/">
+                            Operational Management
+                          </a>
+                        
+                      
+                    </div>
+                  </div>
+                
+              
+            </div>
+          
+        
+      
+    
+      
+    
+    <a class="item" href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.svg" /></a>
+    <a class="item" href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+
+  </div>
+
+  <main>
+    <div class="ui text container">
+
+      <h1 class="ui huge dividing header">
+        Environment Management
+      </h1>
+
+
+
+      
+
+      
+
+<h1 id="short-description">Short Description</h1>
+
+<p>Environment Management practice describes proactive activities carried out to keep the environment reasonably secure during the application operation.</p>
+
+<h1 id="long-description">Long Description</h1>
+
+<p>Proactive work on application security is not over once the application becomes operational. New security features and patches are continuously released until the technology stack you&rsquo;re using becomes obsolete.</p>
+
+<p>Most technology in your application stack is not secure by default. Due to issues like backwards compatibility or ease of setup, you often need to explicitly turn security features on. This topic is handled by the Configuration Hardening stream.</p>
+
+<p>For most of the technologies you&rsquo;re relying on, vulnerabilities are discovered throughout the application lifecycle and new versions fixing those will be released. This is why it is important to keep up with information about new vulnerabilities and react accordingly. The activities leading to this goal are described by the Patching and Updating stream.</p>
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Configuration Hardening</th>
+<th>B: Patching and Updating</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Best-effort patching and hardening</td>
+<td align="left">Prioritized best-effort hardening</td>
+<td>Prioritized best-effort patching</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Formal process with baselines in place</td>
+<td align="left">Hardening baseline and guidelines available</td>
+<td>Formal process covering the full stack</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Conformity with continuously improving process enforced</td>
+<td align="left">Detection and handling of non-conformities</td>
+<td>Consolidated update process with SLA and reporting</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-configuration-hardening">A: Configuration Hardening</h1>
+
+<p>This stream describes activities leading to security-relevant configuration of your whole technology stack, from software-defined infrastructure up to configuring your software dependencies and libraries.</p>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="benefit">Benefit</h3>
+
+<p>Most evident security configuration is carried out.</p>
+
+<h3 id="activity">Activity</h3>
+
+<p>You acknowledge the importance of configuration hardening of third party components your applications are using. You don&rsquo;t have an official process yet. However, at least define the relevant scope for this activity take the first steps. You know and acknowledge the responsibility for hardening of the particular components.</p>
+
+<p>Work with publicly available information sources (open source projects, vendor documentation, blog articles), increasing your know-how from those and implementing at least &ldquo;low hanging fruits&rdquo;.</p>
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="benefit-1">Benefit</h3>
+
+<p>Better efficiency due to established baselines.</p>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>Within the scope relevant for this activity, define hardening baselines for particular components. The affected teams know and acknowledge them. This typically leads to a standard way of deploying the affected components over the organization.</p>
+
+<p>The baselines have an owner responsible for keeping them up to date (e.g. if new best practices or features are available with new versions) and adapting them according to trustworthy sources. Both new and existing systems are part of the hardening process.</p>
+
+<p>In larger environments, derive configuration of all instances from your own master, where there is already common ground work. Consider using automated tools for hardening configuration.</p>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="benefit-2">Benefit</h3>
+
+<p>Profound knowledge about state of hardening measures across the organization.</p>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>Track and evaluate conformity with the hardening baselines. Triage and handle nonconformities as security findings according to rules and SLAs stemming from the defect management practice. Automated measures ensuring self-healing of critical configuration mistakes and alerting relevant stakeholders are in place if sensible.</p>
+
+<p>Verify the validity of the current hardening baselines in the component update process. Incorporate relevant changes in the baselines and in the auditing measures.</p>
+
+<p>Periodically audit the continuous improvement process for the baselines and act upon the resulting findings.</p>
+
+<h1 id="b-patching-and-updating">B: Patching and Updating</h1>
+
+<p>This stream describes activities leading to transparency and lowered risk stemming from relying on vulnerable versions components.</p>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="benefit-3">Benefit</h3>
+
+<p>Mitigated prominent issues in 3rd party code.</p>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>Identify applications and 3rd party application components which need to be updated or patched, including the underlying operating system, application server or 3rd party code library.</p>
+
+<p>Carry out patching activities according to best-effort. However, define the update process at least on a high level (e.g. testing the patches don&rsquo;t break anything). Use opportunities like maintenance windows for best-effort patching.</p>
+
+<p>Share knowledge of the patching process for components. . Teams cooperate if necessary. You can carry out patching anytime in case of need (e.g. exploit for a 3rd party component publicly available).</p>
+
+<p>You can find out the versions of all components in use  to evaluate whether you are affected by a particular public security vulnerability.</p>
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="benefit-4">Benefit</h3>
+
+<p>Reliable handling of 3rd party code issues</p>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Define and document the update process across the full stack. You don&rsquo;t rely on available patches provided by vendors only; you use external sources systematically to gather intelligence about zero day vulnerabilities, and take  appropriate risk mitigation steps.</p>
+
+<p>There is a guidance for prioritization of particular updates, including concerns important to your organization like the criticality of the application, or severity of security issues. Schedule updates (without necessary relevancy to known issues), e.g. using a patch/upgrade calendar of vendors.</p>
+
+<p>If there is a known critical issue while the patch is not available yet, triage and handle this issue (e.g. by finding workarounds, monitoring measures, or even switching off the affected applications).</p>
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="benefit-5">Benefit</h3>
+
+<p>Full visibility into the current patch state over the organization</p>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>You have very good insight (e.g. through a dashboard) of the patching strategy across the organization and full stack. You triage and handle missing updates according to rules and SLAs stemming from the defect management practice. It is guaranteed that patching can take place anytime so that SLAs can be adhered to.</p>
+
+<p>If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable.</p>
+
+    </div>
+  </main>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sidebar')
+    .sidebar('setting', 'transition', 'push')
+    .sidebar('setting', 'closable' , false)
+    .sidebar('setting', 'dimPage' , false);
+  });
+</script>
+
+
+<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="/js/jquery.peity.min.js" data-no-instant></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.donut').peity('donut');
+  });
+</script>
+</body>
+</html>
+

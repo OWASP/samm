@@ -3,7 +3,7 @@
 <div class="homeback">
   <div class="ui container">
     <h1 class="ui title header">
-      Your organization's dynamic software security strategy.
+      Your organization's dynamic software security strategy
     </h1>
     <div class="ui hidden divider"></div>
     <div class="ui grid">
@@ -45,17 +45,46 @@
     <div class="column">
       <i class="huge stopwatch icon"></i>
       <h2 class="header">Measurable</h2>
-      <p>Defined maturity levels accross a range of business practices.</p>
+      <p>Defined maturity levels accross business practices</p>
     </div>
     <div class="column">
       <i class="huge bullhorn icon"></i>
       <h2 class="header">Actionable</h2>
-      <p>Clear pathways for improving maturity levels.</p>
+      <p>Clear pathways for improving maturity levels</p>
     </div>
     <div class="column">
       <i class="huge map signs icon"></i>
       <h2 class="header">Versatile</h2>
-      <p>Technology, process, and organization agnostic.</p>
+      <p>Technology, process, and organization agnostic</p>
+    </div>
+  </div>
+</div>
+
+<div class="ui hidden section divider"></div>
+
+<div class="ui sponsors container">
+  <h1 class="ui header">Our Sponsors</h1>
+  <div class="ui hidden divider"></div>
+  <div class="ui very relaxed stackable grid">
+    <div class="ten wide column">
+      <div class="ui three column middle aligned very relaxed centered stackable grid">
+        {{ range $sponsor := .Site.Data.sponsors }}
+        <div class="column">
+          <a href="{{ $sponsor.url }}"><img class="ui fluid image" src="{{  $sponsor.img | relURL }}" /></a>
+        </div>
+        {{ end }}
+        <div class="sixteen wide centered column">
+          <div class="ui fluid center aligned container">
+            <a class="ui small centered button" href="/sponsors/">See all sponsors...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="six wide column">
+      <h2 class="header">Support OWASP SAMM</h2>
+      <p>Software powers the world, but insecure software threatens safety, trust, and economic growth.</p>
+      <p>Your support powers SAMM and helps us achieve our mission. Email <a href="mailto:info@owaspsamm.org">info@owaspsamm.org</a> to become a supporter.</p>
+      <a class="ui small button" href="/sponsors/"><i class="ui purple info icon"></i> Find out more about sponsorship</a>
     </div>
   </div>
 </div>

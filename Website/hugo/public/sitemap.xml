@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/verification/v-architecture-assessment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/governance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/governance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/operations/o-incident-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/operations/o-incident-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/implementation/i-secure-build/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/implementation/i-secure-build/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/governance/g-strategy-metrics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/governance/g-strategy-metrics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/design/d-threat-assessment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/design/d-threat-assessment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/design/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/design/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/operations/o-environment-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/operations/o-environment-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/feedback/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/feedback/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/governance/g-policy-compliance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/governance/g-policy-compliance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/verification/v-requirements-driven-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/implementation/i-secure-deployment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/implementation/i-secure-deployment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/design/d-security-requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/design/d-security-requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/implementation/i-defect-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/implementation/i-defect-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/governance/g-education-guidance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/governance/g-education-guidance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/implementation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/implementation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/operations/o-operational-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/operations/o-operational-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/design/d-security-architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/design/d-security-architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/verification/v-security-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/verification/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/verification/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/operations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/core/operations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/acronym-list/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/agile-guidance/agilenotes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/answer-options/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/glossary/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/sitehome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/acronym-list/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/glossary/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/sitehome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/verification/v-architecture-assessment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/business_functions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/business_functions/design/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v1-5/downloads/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/business_functions/governance/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/business_functions/implementation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/business_functions/operations/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/verification/v-requirements-driven-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v1-5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/v2.0b/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/head/core/verification/v-security-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://owaspsamm.org/business_functions/verification/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
