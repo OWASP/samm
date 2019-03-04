@@ -2319,7 +2319,7 @@ Since code signing is not appropriate for everything, architects and developers 
 | **Assessment** | ✦Are security notes delivered with each software release? ✦Are security-related alerts and error conditions documented on a per-project basis? | ✦Do projects utilize a change management process that’s well understood? ✦Do project teams deliver an operational security guide with each product release? | ✦Are project releases audited for appropriate operational security information? ✦Is code signing routinely performed on software components using a consistent process? |
 | **Results** | ✦Ad hoc improvements to software security posture through better understanding of correct operations ✦Operators and users aware of their role in ensuring secure deployment ✦Improved communications between software developers and users for security- critical information | ✦Detailed guidance for security-relevant changes delivered with software releases ✦Updated information repository on secure operating procedures per application ✦Alignment of operations expectations among developers, operators, and users. | ✦Organization-wide understanding of expectations for security-relevant documentation ✦Stakeholders better able to make tradeoff decisions based on feedback from deployment and operations ✦Operators and/or users able to independently verify integrity of software releases |
 
-# Lifecycle Security Monitoring: OE1
+# Lifecycle Security Monitoring: SM1
 ### Enable communications between development teams and operators for critical security-relevant data
 
 ## Activities
@@ -2365,7 +2365,7 @@ For each event, actionable advice should be captured to inform users and operato
 ##### RELATED LEVELS
 * None 
 
-# Operational Enhancement: OE2
+# Lifecycle Security Monitoring: SM2
 ### Improve expectations for continuous secure operations through provision of detailed procedures
 
 ## Activities
@@ -2409,7 +2409,7 @@ The operational security guide, after initial creation, should be reviewed by pr
 ##### RELATED LEVELS
 * Environment Hardening - 1
 
-# Operational Enhancement: OE3
+# Lifecycle Security Monitoring: SM3
 ### Mandate communication of security information and validate artifacts for completeness
 
 ## Activities
@@ -2481,7 +2481,7 @@ KiogfCAqKlNUMioqIHwgKipTVDMqKiB8XG58Oi0tLS0tLS0tLS
 Ijp7InN0YXJ0IjoxNDAxNzAsImVuZCI6MTQwMjAzLCJ0ZXh0Ij
 oifCB8ICoqU1QxKiogfCAqKlNUMioqIHwgKipTVDMqKiB8In0s
 InBXUzVzd2RJYTU0T0o0SzkiOnsic3RhcnQiOjE4OTYzOSwiZW
-5kIjoyMDE5NjEsInRleHQiOiIjIE9wZXJhdGlvbmFsIEVuaGFu
+5kIjoyMDE5NzMsInRleHQiOiIjIE9wZXJhdGlvbmFsIEVuaGFu
 Y2VtZW50XG58IHwgKipPRTEqKiB8ICoqT0UyKiogfCAqKk9FMy
 oqIHxcbnw6LS0tLS0tLS0tLS0tLXw6LS3igKYifX0sImNvbW1l
 bnRzIjp7InJqb29Jcng5NzI3bjFTQWwiOnsiZGlzY3Vzc2lvbk
@@ -2504,6 +2504,6 @@ Y3JlYXRlZCI6MTU1MTY4NjM5OTkzMn0sIkM4ekIzcUlMd1FsYV
 Z2d2siOnsiZGlzY3Vzc2lvbklkIjoicFdTNXN3ZElhNTRPSjRL
 OSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gRW
 R1YXJkIiwiY3JlYXRlZCI6MTU1MTY4NjQ4MDI2Mn19LCJoaXN0
-b3J5IjpbLTY4NzI5MDI1OSwtMTQwNjkzNDM4NSw2NjgzMzkxNT
-ldfQ==
+b3J5IjpbMzIwNjQ2NTAsLTE0MDY5MzQzODUsNjY4MzM5MTU5XX
+0=
 -->
