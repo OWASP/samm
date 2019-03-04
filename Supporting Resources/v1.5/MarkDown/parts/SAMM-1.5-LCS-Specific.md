@@ -474,16 +474,16 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 ##### RELATED LEVELS
 * Policy & Compliance - 2 & 3
 
-# Education & Guidance
+# Lifecycle Security Culture
 
-| | **EG1** | **EG2** | **EG3** |
+| | **SC1** | **SC2** | **EG3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software life-cycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.**|
 | **Activities** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines | **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification |
 | **Assessment** | ✦Have developers been given high-level security awareness training? ✦Does each project team understand where to find secure development best-practices and guidance? | ✦Are those involved in the development process given role-specific security training and guidance? ✦Are stakeholders able to pull in security coaches for use on projects? | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? ✦Are developers tested to ensure a baseline skill-set for secure development practices? |
 | **Results** | ✦Increased developer awareness on the most common problems at the code level ✦Maintain software with rudimentary security best-practices in place ✦Set baseline for security know-how among technical staff ✦Enable qualitative security checks for baseline security knowledge | ✦End-to-end awareness of the issues that leads to security vulnerabilities at the product, design, and code levels ✦Build plans to remediate vulnerabilities and design flaws in ongoing projects ✦Enable qualitative security checkpoints at requirements, design, and development stages ✦Deeper understanding of security issues encourages more proactive security planning | ✦Efficient remediation of vulnerabilities in both ongoing and legacy code bases ✦Quickly understand and mitigate against new attacks and threats ✦Measure the amount of security knowledge of the staff and measure against a common standard ✦Establish fair incentives toward security awareness |
 
-# Life & Guidance: EG1
+# Lifecycle Security Culture: SC1
 ### Offer development staff access to resources around the topics of secure programming and deployment
 
 ## Activities
@@ -2003,12 +2003,12 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyIwT2lwamk2dGlKQnBhTDl5Ijp7In
-N0YXJ0Ijo0MTA1MSwiZW5kIjo1MTQ0NCwidGV4dCI6IiMgRWR1
+N0YXJ0Ijo0MTA1NywiZW5kIjo1MTQ2MSwidGV4dCI6IiMgRWR1
 Y2F0aW9uICYgR3VpZGFuY2U6IEVHMVxuIyMjIE9mZmVyIGRldm
 Vsb3BtZW50IHN0YWZmIGFjY2VzcyB0byByZXNvdXJjZXMgYXJv
 4oCmIn19LCJjb21tZW50cyI6eyJyam9vSXJ4OTcyN24xU0FsIj
 p7ImRpc2N1c3Npb25JZCI6IjBPaXBqaTZ0aUpCcGFMOXkiLCJz
 dWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW
 4iLCJjcmVhdGVkIjoxNTUxNjg1ODY3MTc5fX0sImhpc3Rvcnki
-Ols0NzQzNDc4MDgsLTE0MDY5MzQzODUsNjY4MzM5MTU5XX0=
+OlstMzk4MTQyODU1LC0xNDA2OTM0Mzg1LDY2ODMzOTE1OV19
 -->
