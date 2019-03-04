@@ -1087,6 +1087,162 @@ security protections
 * Implementation Review - 3
 * Security Testing - 3
 
+# Lifecycle Security Secure Architecture
+| | **SA1** | **SA2** | **SA3** |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **Objective** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.**|
+| **Activities** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
+| **Assessment** | ✦Are project teams provided with a list of recommended third-party components? ✦Are project teams aware of secure design principles and do they apply them consistently? | ✦Do you advertise shared security services with guidance for project teams? ✦Are project teams provided with prescriptive design patterns based on their application architecture? | ✦Do project teams build software from centrally-controlled platforms and frameworks? ✦Are project teams audited for the use of secure architecture components? |
+| **Results** | ✦Ad hoc prevention of unexpected dependencies and one-off implementation choices ✦Stakeholders aware of increased project risk due to libraries and frameworks chosen ✦Established protocol within development for proactively applying security mechanisms to a design | ✦Detailed mapping of assets to user roles to encourage better compartmentalization in design ✦Reusable design building blocks for provision of security protections and functionality ✦Increased confidence for software projects from use of established design techniques for security | ✦Customized application development platforms that provide built-in security protections ✦Organization-wide expectations for proactive security effort in development ✦Stakeholders better able to make tradeoff decisions based on business need for secure design |
+
+# Secure Architecture: SA1
+### Insert consideration of proactive security guidance into the software design process
+
+## Activities
+##### A. Maintain list of recommended software frameworks
+Across software projects within the organization identify commonly used third-party software libraries and frameworks in use. Generally, this need not be an exhaustive search for dependencies, but rather focus on capturing the high-level components that are most often used.
+
+From the list of components, group them into functional categories based on the core features provided by the third-party component. Also, note the usage prevalence of each component across project teams to weight the reliance upon the third-party code. Using this weighted list as a guide, create a list of components to be advertised across the development organization as recommended components.
+
+Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc.
+
+This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams.
+
+##### B. Explicitly apply security principles to design
+During design, technical staff on the project team should use a short list of guiding security principles as a checklist against detailed system designs. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
+
+In particular for perimeter interfaces, the design team should consider each principle in the context of the overall system and identify features that can be added to bolster security at each such interface. Generally, these should be limited such that they only take a small
+amount of extra effort beyond the normal implementation cost of functional requirements and anything larger should be noted and scheduled for future releases.
+
+While this process should be conducted by each project team after being trained with security awareness, it is helpful to incorporate more security-savvy staff to aid in making design decisions.
+
+##### ASSESSMENT 
+* Are project teams provided with a list of recommended third-party components?
+* Are project teams aware of secure design principles and do they apply them consistently?
+
+##### RESULTS
+* Ad hoc prevention of unexpected dependencies and one-off implementation choices
+* Stakeholders aware of increased project risk due to libraries and frameworks chosen
+* Established protocol within development for proactively applying security mechanisms to a design
+
+##### SUCCESS METRICS
+* >80% of development staff briefed on software framework recommendations in the past year
+* >50% of projects self-reporting application of security principles to design
+
+##### COSTS
+* Buildout, maintenance, and awareness of software framework recommendations
+* Ongoing project overhead from analysis and application of security principles
+
+##### PERSONNEL
+* Architects
+* Developers
+* Security Auditors
+* Managers
+
+##### RELATED LEVELS
+* Education & Guidance - 1
+
+# Secure Architecture: SA2
+### Direct the software design process toward known-secure services and secure-by-default designs
+
+## Activities
+##### A.  Maintain list of recommended software frameworks
+Across software projects within the organization identify commonly used third-party software libraries and frameworks in use. Generally, this need not be an exhaustive search for dependencies, but rather focus on capturing the high-level components that are most often used.
+
+From the list of components, group them into functional categories based on the core features provided by the third-party component. Also, note the usage prevalence of each component across project teams to weight the reliance upon the third-party code. Using this weighted list as a guide, create a list of components to be advertised across the development organization as recommended components.
+
+Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc.
+
+This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams.
+
+##### B. Identify security design patterns from architecture
+Across software projects at an organization, each should be categorized in terms of the generic architecture type. Common categories include client-server applications, embedded systems, desktop applications, web-facing applications, web services platforms, transactional middleware systems, mainframe applications, etc. Depending on your organizations specialty, more detailed categories may need to be developed based upon language, or processor architecture, or even era of deployment.
+
+For the generic software architecture type, a set of general design patterns representing sound methods of implementing security functionality can be derived and applied to the individual designs of an organization’s software projects. These security design patterns represent general definitions of generic design elements they can be researched or purchased, and it is often even more effective if these patterns are customized to be made more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a hardened interface design, separation-of-duties authorization model, a centralized logging pattern, etc.
+
+The process of identification of applicable and appropriate patterns should be carried out by architects, senior developers, and other technical stakeholders during the design phase.
+
+##### ASSESSMENT
+* Do you advertise shared security services with guidance for project teams?
+* Are project teams provided with prescriptive design patterns based on their application architecture?
+
+##### RESULTS
+* Detailed mapping of assets to user roles to encourage better compartmentalization in design
+* Reusable design building blocks for provision of security protections and functionality
+* Increased confidence for software projects from use of established design techniques for security
+
+##### SUCCESS METRICS
+* >80% of projects with updated permission matrix in the past six months
+* >80% of project teams briefed on applicable security patterns in the past six months
+
+##### COSTS
+* Buildout or license of applicable security patterns
+* Ongoing project overhead from maintenance of permission matrix
+
+##### PERSONNEL
+* Architects
+* Developers
+* Managers
+* Business Owners
+* Security Auditors
+
+##### RELATED LEVELS
+* Education & Guidance - 1
+
+# Secure Architecture: SA3
+### Formally control the software design process and validate utilization of secure components
+
+## Activities
+##### A. Establish formal reference architectures and platforms 
+After promoting integration with shared security services and working with security patterns specific to each type of architecture, a collection of code implementing these pieces of functionality should be selected from project teams and used as the basis for a shared code-base. This shared code-base can initially start as a collection of commonly recommended libraries that each project needs to use and it can grow over time into one or more software frameworks representing reference platforms upon which project teams build their software. Examples of reference platforms include frameworks for model view-controller web applications, libraries supporting transactional back-end systems, frameworks for web services platforms, scaffolding for client-server applications, frameworks for middle-ware with pluggable business logic, etc.
+
+Another method of building initial reference platforms is to select a particular project early in the life-cycle and have security-savvy staff work with them to build the security functionality in a generic way so that it could be extracted from the project and utilized elsewhere in the organization.
+
+Regardless of approach to creation, reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. 
+
+Architects, senior developers and other technical stakeholders should participate in design and creation of reference platforms. After creation, a team must maintain ongoing support and updates.
+
+##### B. Validate usage of frameworks, patterns, and platforms
+During routine audits of projects conduct additional analysis of project artifacts to measure usage of recommended frameworks, design patterns, shared security services, and reference platforms. Though conducted during routine audits, the goal of this activity is to collect feedback from project teams as much as to measure their individual proactive
+security effort.
+
+Overall, it is important to verify several factors with project teams. Identify use of non-recommended frameworks to determine if there may be a gap in recommendations versus the organization’s functionality needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, there may be more or different functionality that project teams would like to see implemented in the reference platforms as the organization evolves. This analysis can be conducted by any security-savvy technical staff. 
+
+Metrics collected from each project should be collated for analysis by managers and stakeholders.
+
+##### ASSESSMENT
+* Do project teams build software from centrally-controlled platforms and frameworks?
+* Are project teams audited for the use of secure architecture components?
+
+##### RESULTS
+* Customized application development platforms that provide builtin
+security protections
+* Organization-wide expectations for proactive security effort in development
+* Stakeholders better able to make tradeoff decisions based on business need for secure design
+
+##### SUCCESS METRICS
+* >50% of active projects using reference platforms
+* >80% of projects reporting framework, pattern, and platform usage feedback in the past six months
+* >3.0 Likert Scale on usefulness of guidance/platforms reported by project teams
+
+##### COSTS
+* Buildout or license of reference platform(s)
+* Ongoing maintenance and support of reference platforms
+* Ongoing project overhead from usage validation during audit
+
+##### PERSONNEL
+* Managers
+* Business Owners
+* Architects
+* Developers
+* Security Auditors
+
+##### RELATED LEVELS
+* Policy & Compliance - 2
+* Design Review - 3
+* Implementation Review - 3
+* Security Testing - 3
+
 # Design Review
 | | **DR1** | **DR2** | **DR3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
@@ -2009,14 +2165,21 @@ Vsb3BtZW50IHN0YWZmIGFjY2VzcyB0byByZXNvdXJjZXMgYXJv
 4oCmIn0sIlNXUlgzdTJkclJ3cDcxY1YiOnsic3RhcnQiOjM4Nz
 MwLCJlbmQiOjQxMDkwLCJ0ZXh0IjoiIyBMaWZlY3ljbGUgU2Vj
 dXJpdHkgQ3VsdHVyZVxuXG58IHwgKipTQzEqKiB8ICoqU0MyKi
-ogfCAqKlNDMyoqIHxcbnw6LS0tLS0tLS0tLS0tLeKApiJ9fSwi
-Y29tbWVudHMiOnsicmpvb0lyeDk3MjduMVNBbCI6eyJkaXNjdX
-NzaW9uSWQiOiIwT2lwamk2dGlKQnBhTDl5Iiwic3ViIjoiZ2g6
-MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYX
-RlZCI6MTU1MTY4NTg2NzE3OX0sIm1ZNGNzdlVNdU9WZUhIT1Qi
-OnsiZGlzY3Vzc2lvbklkIjoiU1dSWDN1MmRyUndwNzFjViIsIn
-N1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSsO8cmdl
-biIsImNyZWF0ZWQiOjE1NTE2ODYwMTk3MzZ9fSwiaGlzdG9yeS
-I6Wy04NjEwMTk0NTEsLTE0MDY5MzQzODUsNjY4MzM5MTU5XX0=
-
+ogfCAqKlNDMyoqIHxcbnw6LS0tLS0tLS0tLS0tLeKApiJ9LCJp
+Z05hSnA4QVdoWWlja3VMIjp7InN0YXJ0Ijo4OTgyMSwiZW5kIj
+oxMDM2MDMsInRleHQiOiIjIFNlY3VyZSBBcmNoaXRlY3R1cmVc
+bnwgfCAqKlNBMSoqIHwgKipTQTIqKiB8ICoqU0EzKiogfFxufD
+otLS0tLS0tLS0tLS0tfDotLS0tLS3igKYifX0sImNvbW1lbnRz
+Ijp7InJqb29Jcng5NzI3bjFTQWwiOnsiZGlzY3Vzc2lvbklkIj
+oiME9pcGppNnRpSkJwYUw5eSIsInN1YiI6ImdoOjE2NzA1MDk1
+IiwidGV4dCI6IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NT
+E2ODU4NjcxNzl9LCJtWTRjc3ZVTXVPVmVISE9UIjp7ImRpc2N1
+c3Npb25JZCI6IlNXUlgzdTJkclJ3cDcxY1YiLCJzdWIiOiJnaD
+oxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcmVh
+dGVkIjoxNTUxNjg2MDE5NzM2fSwiRmhkUmF3NmRna2FSM1JpYy
+I6eyJkaXNjdXNzaW9uSWQiOiJpZ05hSnA4QVdoWWlja3VMIiwi
+c3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYWJlYS
+BLYXRqYSIsImNyZWF0ZWQiOjE1NTE2ODYyMjk4OTJ9fSwiaGlz
+dG9yeSI6Wy02MjE4NDY4OTIsLTE0MDY5MzQzODUsNjY4MzM5MT
+U5XX0=
 -->
