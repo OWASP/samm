@@ -476,7 +476,7 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 
 # Lifecycle Security Culture
 
-| | **SC1** | **SC2** | **EG3** |
+| | **SC1** | **SC2** | **SC3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software life-cycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.**|
 | **Activities** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines | **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification |
@@ -528,7 +528,7 @@ for baseline security knowledge
 * Security Requirements - 1 
 * Secure Architecture - 1
 
-# Education & Guidance: EG2
+# Lifecycle Security Culture: SC2
 ### Educate all personnel in the software lifecycle with role-specific guidance on secure development
 
 ## Activities
@@ -585,7 +585,7 @@ Over time, the internal network of coaching resources can be used as points-of-c
 * Secure Architecture - 2
 
 
-# Education & Guidance: EG3
+# Lifecycle Security Culture: SC3
 ### Mandate comprehensive security training and certify personnel for baseline knowledge
 
 
@@ -2003,12 +2003,20 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyIwT2lwamk2dGlKQnBhTDl5Ijp7In
-N0YXJ0Ijo0MTA1NywiZW5kIjo1MTQ2MSwidGV4dCI6IiMgRWR1
+N0YXJ0Ijo0MTA1NywiZW5kIjo1MTQ3MywidGV4dCI6IiMgRWR1
 Y2F0aW9uICYgR3VpZGFuY2U6IEVHMVxuIyMjIE9mZmVyIGRldm
 Vsb3BtZW50IHN0YWZmIGFjY2VzcyB0byByZXNvdXJjZXMgYXJv
-4oCmIn19LCJjb21tZW50cyI6eyJyam9vSXJ4OTcyN24xU0FsIj
-p7ImRpc2N1c3Npb25JZCI6IjBPaXBqaTZ0aUpCcGFMOXkiLCJz
-dWIiOiJnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW
-4iLCJjcmVhdGVkIjoxNTUxNjg1ODY3MTc5fX0sImhpc3Rvcnki
-OlstMzk4MTQyODU1LC0xNDA2OTM0Mzg1LDY2ODMzOTE1OV19
+4oCmIn0sIlNXUlgzdTJkclJ3cDcxY1YiOnsic3RhcnQiOjM4Nz
+MwLCJlbmQiOjQxMDkwLCJ0ZXh0IjoiIyBMaWZlY3ljbGUgU2Vj
+dXJpdHkgQ3VsdHVyZVxuXG58IHwgKipTQzEqKiB8ICoqU0MyKi
+ogfCAqKlNDMyoqIHxcbnw6LS0tLS0tLS0tLS0tLeKApiJ9fSwi
+Y29tbWVudHMiOnsicmpvb0lyeDk3MjduMVNBbCI6eyJkaXNjdX
+NzaW9uSWQiOiIwT2lwamk2dGlKQnBhTDl5Iiwic3ViIjoiZ2g6
+MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xyZ2VuIiwiY3JlYX
+RlZCI6MTU1MTY4NTg2NzE3OX0sIm1ZNGNzdlVNdU9WZUhIT1Qi
+OnsiZGlzY3Vzc2lvbklkIjoiU1dSWDN1MmRyUndwNzFjViIsIn
+N1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gSsO8cmdl
+biIsImNyZWF0ZWQiOjE1NTE2ODYwMTk3MzZ9fSwiaGlzdG9yeS
+I6WzkyMDc3NDI1MSwtMTQwNjkzNDM4NSw2NjgzMzkxNTldfQ==
+
 -->
