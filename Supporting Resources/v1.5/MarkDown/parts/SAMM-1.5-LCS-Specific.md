@@ -1087,15 +1087,15 @@ security protections
 * Implementation Review - 3
 * Security Testing - 3
 
-# Lifecycle Security Secure Architecture
-| | **SA1** | **SA2** | **SA3** |
+# Lifecycle Security Design
+| | **SD1** | **SD2** | **SD3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.**|
 | **Activities** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
 | **Assessment** | ✦Are project teams provided with a list of recommended third-party components? ✦Are project teams aware of secure design principles and do they apply them consistently? | ✦Do you advertise shared security services with guidance for project teams? ✦Are project teams provided with prescriptive design patterns based on their application architecture? | ✦Do project teams build software from centrally-controlled platforms and frameworks? ✦Are project teams audited for the use of secure architecture components? |
 | **Results** | ✦Ad hoc prevention of unexpected dependencies and one-off implementation choices ✦Stakeholders aware of increased project risk due to libraries and frameworks chosen ✦Established protocol within development for proactively applying security mechanisms to a design | ✦Detailed mapping of assets to user roles to encourage better compartmentalization in design ✦Reusable design building blocks for provision of security protections and functionality ✦Increased confidence for software projects from use of established design techniques for security | ✦Customized application development platforms that provide built-in security protections ✦Organization-wide expectations for proactive security effort in development ✦Stakeholders better able to make tradeoff decisions based on business need for secure design |
 
-# Secure Architecture: SA1
+# Lifecycle Security Design: SD1
 ### Insert consideration of proactive security guidance into the software design process
 
 ## Activities
@@ -1142,7 +1142,7 @@ While this process should be conducted by each project team after being trained 
 ##### RELATED LEVELS
 * Education & Guidance - 1
 
-# Secure Architecture: SA2
+# Lifecycle Security Design: SD2
 ### Direct the software design process toward known-secure services and secure-by-default designs
 
 ## Activities
@@ -1189,7 +1189,7 @@ The process of identification of applicable and appropriate patterns should be c
 ##### RELATED LEVELS
 * Education & Guidance - 1
 
-# Secure Architecture: SA3
+# Lifecycle Security Design: SD3
 ### Formally control the software design process and validate utilization of secure components
 
 ## Activities
@@ -1539,6 +1539,165 @@ For legacy systems or inactive projects, an exception process should be created 
 * Architects
 * Developers
 * Security Auditors
+* Business Owners
+* Managers
+
+##### RELATED LEVELS
+* Policy & Compliance - 2
+* Secure Architecture - 3
+
+# Security Testing
+| | **ST1** | **ST2** | **ST3** |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **Objective** | **Establish process to perform basic security tests based on implementation and software requirements.** | **Make security testing during development more complete and efficient through automation.** | **Require application-specific security testing to ensure baseline security before deployment.**|
+| **Activities** | **A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing |
+| **Assessment** | ✦Do projects specify security testing based on defined security requirements? ✦Is penetration testing performed on high-risk projects prior to release? ✦Are stakeholders aware of the security test status prior to release? | ✦Do projects use automation to evaluate security test cases? ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | ✦Are security test cases comprehensively generated for application-specific logic? ✦Does a minimum security baseline exist for security testing? |
+| **Results** | ✦Independent verification of expected security mechanisms surrounding critical business functions ✦High-level due diligence toward security testing ✦Ad-hoc growth of a security test suite for each software project | ✦✦Deeper and more consistent verification of software functionality for security ✦Development teams enabled to self-check and correct problems before release ✦Stakeholders better aware of open vulnerabilities when making risk acceptance decisions | ✦Organization-wide baseline for expected application performance against attacks ✦Customized security test suites to improve accuracy of automated analysis ✦Project teams aware of objective goals for attack resistance SAMM |
+
+# Security Testing: ST1
+### Establish process to perform basic security tests based on implementation and software requirements
+
+## Activities
+##### A. Derive test cases from known security requirements
+From the known security requirements for a project, identify a set of test cases to check the software for correct functionality. Typically, these test cases are derived from security concerns surrounding the functional requirements and business logic of the system, but should also include generic tests for common vulnerabilities based on the implementation language or technology stack.
+
+Often, it is most effective to use the project team’s time to build application-specific test cases and utilize publicly available resources or purchased knowledge bases to select applicable general test cases for security. Although not required, automated security testing tools can also be utilized to cover the general security test cases.
+
+This test case planning should occur during the requirements and/or design phases, but must occur before final testing prior to release. Candidate test cases should be reviewed for applicability, efficacy, and feasibility by relevant development, security, and quality assurance staff.
+
+##### B. Conduct penetration testing on software releases
+Using the set of security test cases identified for each project, penetration testing should be conducted to evaluate the system’s performance against each case. It is common for this to occur during the testing phase prior to release.
+
+Penetration testing cases should include both application-specific tests to check soundness of business logic as well as common vulnerability tests to check the design and implementation. Once specified, security test cases can be executed by security-savvy quality assurance or development staff, but first-time execution of security test cases for a
+project team should be monitored by a security auditor to assist and coach team members.
+
+Prior to release or deployment, stakeholders must review results of security tests and accept the risks indicated by failing security tests at release time. In the latter case, a concrete timeline should be established to address the gaps over time.
+
+##### ASSESSMENT
+* Do projects specify security testing based on defined security requirements?
+* Is penetration testing performed on high risk projects prior to release?
+* Are stakeholders aware of the security test status prior to release?
+
+##### RESULTS
+* Independent verification of expected security mechanisms surrounding
+critical business functions
+* High-level due diligence toward security testing
+* Ad hoc growth of a security test suite for each software project
+
+##### SUCCESS METRICS
+* >50% of projects specifying security test cases in the past 12 months
+* >50% of stakeholders briefed on project status against security tests in the past six months
+
+##### COSTS
+* Buildout or license of security test cases
+* Ongoing project overhead from maintenance and evaluation of security test cases
+
+##### PERSONNEL
+* QA Testers
+* Security Auditor
+* Developers
+* Architects
+* Business Owners
+
+##### RELATED LEVELS
+* Security Requirements - 1
+
+# Security Testing: ST2
+### Make security testing during development more complete and efficient through automation
+
+## Activities
+##### A. Utilize automated security testing tools
+In order to test for security issues, a potentially large number of input cases must be checked against each software interface, which can make effective security testing using manual test case implementation and execution unwieldy. Thus, automated security test tools should be
+used to automatically test software, resulting in more efficient security testing and higher quality results.
+
+Both commercial and open-source products are available and should be reviewed for appropriateness for the organization. Selecting a suitable tool is based on several factors including robustness and accuracy of built-in security test cases, efficacy at testing architecture types important to organization, customization to change or add test cases, quality and usability of findings to the development organization, etc..
+
+Utilize input from security-savvy technical staff as well as development and quality assurance staff in the selection process, and review overall results with stakeholders.
+
+##### B. Integrate security testing into development process
+With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run on a routine basis, e.g. nightly or weekly, and findings should be inspected as they occur.
+
+Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally, used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle, usually during design. With the automatic execution of security test
+cases, projects enter the implementation phase with a number of failing tests for the nonexistent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, thus lowering risk of release delays due to security concerns or forced acceptance of risk in order to meet
+project deadlines.
+
+For each project release, results from automated and manual security tests should be presented to management and business stakeholders for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
+
+##### ASSESSMENT
+* Do projects use automation to evaluate security test cases?
+* Do projects follow a consistent process to evaluate and report on security tests to stakeholders?
+
+##### RESULTS
+* Deeper and more consistent verification of software functionality for security
+* Development teams enabled to self-check and correct problems before release
+* Stakeholders better aware of open vulnerabilities when making
+risk acceptance decisions
+
+##### SUCCESS METRICS
+* >50% of projects with security testing and stakeholder sign-off in the past six months
+* >80% of projects with access to automated security testing results in the past month
+
+##### COSTS
+* Research and selection of automated security testing solution 
+* Initial cost and maintenance of automation integration
+* Ongoing project overhead from automated security testing and mitigation
+
+##### PERSONNEL
+* Developers
+* Architects
+* Managers
+* Security Auditors
+* QA Testers
+
+##### RELATED LEVELS
+* None 
+
+# Security Testing: ST3
+### Require application-specific security testing to ensure baseline security before deployment
+
+## Activities
+##### A. Employ application-specific security testing automation
+Through either customization of security testing tools, enhancements to generic test case execution tools, or buildout of custom test harnesses, project teams should formally iterate through security requirements and build a set of automated checkers to test the security of the implemented business logic.
+
+Additionally, many automated security testing tools can be greatly improved in accuracy and depth of coverage if they are customized to understand more detail about the specific software interfaces in the project under test. Further, organization-specific concerns from
+compliance or technical standards can be codified as a reusable, central test battery to make audit data collection and per-project management visibility simpler.
+
+Project teams should focus on buildout of granular security test cases based on the business functionality of their software, and an organization-level team led by a security auditor should focus on specification of automated tests for compliance and internal
+standards.
+
+##### B. Establish release gates for security testing
+To prevent software from being released with easily found security bugs, a particular point in the software development lifecycle should be identified as a checkpoint where an established set of security test cases must pass in order to make a release from the project. This establishes a baseline for the kinds of security tests all projects are expected to pass.
+
+Since adding too many test cases initially can result in an overhead cost bubble, begin by choosing one or two security issues and include a wide variety of test cases for each with the expectation that no project may pass if any test fails. Over time, this baseline should be improved by selecting additional security issues and adding a variety of corresponding test cases.
+
+Generally, this security testing checkpoint should occur toward the end of the implementation or testing, but must occur before release.
+
+For legacy systems or inactive projects, an exception process should be created to allow those projects to continue operations, but with an explicitly assigned timeframe for mitigation of findings. Exceptions should be limited to no more that 20% of all projects.
+
+##### ASSESSMENT
+* Are security test cases comprehensively generated for application-specific logic?
+* Does a minimum security baseline exist for security testing?
+
+##### RESULTS
+* Organization-wide baseline for expected application performance against attacks
+* Customized security test suites to improve accuracy of automated analysis
+* Project teams aware of objective goals for attack resistance
+
+##### SUCCESS METRICS
+* >50% of projects using security testing customizations
+* >75% of projects passing all security tests in the past six months
+
+##### COSTS
+* Buildout and maintenance of customizations to security
+testing automation
+* Ongoing project overhead from security testing audit process
+* Organization overhead from project delays caused by failed security testing audits
+
+##### PERSONNEL
+* Architects
+* Developers
+* Security Auditors
+* QA Testers
 * Business Owners
 * Managers
 
@@ -2167,7 +2326,7 @@ MwLCJlbmQiOjQxMDkwLCJ0ZXh0IjoiIyBMaWZlY3ljbGUgU2Vj
 dXJpdHkgQ3VsdHVyZVxuXG58IHwgKipTQzEqKiB8ICoqU0MyKi
 ogfCAqKlNDMyoqIHxcbnw6LS0tLS0tLS0tLS0tLeKApiJ9LCJp
 Z05hSnA4QVdoWWlja3VMIjp7InN0YXJ0Ijo4OTgyMSwiZW5kIj
-oxMDM2MDMsInRleHQiOiIjIFNlY3VyZSBBcmNoaXRlY3R1cmVc
+oxMDM2MDgsInRleHQiOiIjIFNlY3VyZSBBcmNoaXRlY3R1cmVc
 bnwgfCAqKlNBMSoqIHwgKipTQTIqKiB8ICoqU0EzKiogfFxufD
 otLS0tLS0tLS0tLS0tfDotLS0tLS3igKYifX0sImNvbW1lbnRz
 Ijp7InJqb29Jcng5NzI3bjFTQWwiOnsiZGlzY3Vzc2lvbklkIj
@@ -2180,6 +2339,6 @@ dGVkIjoxNTUxNjg2MDE5NzM2fSwiRmhkUmF3NmRna2FSM1JpYy
 I6eyJkaXNjdXNzaW9uSWQiOiJpZ05hSnA4QVdoWWlja3VMIiwi
 c3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYWJlYS
 BLYXRqYSIsImNyZWF0ZWQiOjE1NTE2ODYyMjk4OTJ9fSwiaGlz
-dG9yeSI6Wy02MjE4NDY4OTIsLTE0MDY5MzQzODUsNjY4MzM5MT
+dG9yeSI6WzE1NTAxOTk5NDgsLTE0MDY5MzQzODUsNjY4MzM5MT
 U5XX0=
 -->
