@@ -1705,7 +1705,7 @@ testing automation
 * Policy & Compliance - 2
 * Secure Architecture - 3
 
-# Security Testing
+# Lifecycle Security Testing
 | | **ST1** | **ST2** | **ST3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Establish process to perform basic security tests based on implementation and software requirements.** | **Make security testing during development more complete and efficient through automation.** | **Require application-specific security testing to ensure baseline security before deployment.**|
@@ -1713,7 +1713,7 @@ testing automation
 | **Assessment** | ✦Do projects specify security testing based on defined security requirements? ✦Is penetration testing performed on high-risk projects prior to release? ✦Are stakeholders aware of the security test status prior to release? | ✦Do projects use automation to evaluate security test cases? ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | ✦Are security test cases comprehensively generated for application-specific logic? ✦Does a minimum security baseline exist for security testing? |
 | **Results** | ✦Independent verification of expected security mechanisms surrounding critical business functions ✦High-level due diligence toward security testing ✦Ad-hoc growth of a security test suite for each software project | ✦✦Deeper and more consistent verification of software functionality for security ✦Development teams enabled to self-check and correct problems before release ✦Stakeholders better aware of open vulnerabilities when making risk acceptance decisions | ✦Organization-wide baseline for expected application performance against attacks ✦Customized security test suites to improve accuracy of automated analysis ✦Project teams aware of objective goals for attack resistance SAMM |
 
-# Security Testing: ST1
+# Lifecycle Security Testing: ST1
 ### Establish process to perform basic security tests based on implementation and software requirements
 
 ## Activities
@@ -1761,7 +1761,7 @@ critical business functions
 ##### RELATED LEVELS
 * Security Requirements - 1
 
-# Security Testing: ST2
+# Lifecycle Security Testing: ST2
 ### Make security testing during development more complete and efficient through automation
 
 ## Activities
@@ -1811,7 +1811,7 @@ risk acceptance decisions
 ##### RELATED LEVELS
 * None 
 
-# Security Testing: ST3
+# Lifecycle Security Testing: ST3
 ### Require application-specific security testing to ensure baseline security before deployment
 
 ## Activities
@@ -2328,17 +2328,30 @@ ogfCAqKlNDMyoqIHxcbnw6LS0tLS0tLS0tLS0tLeKApiJ9LCJp
 Z05hSnA4QVdoWWlja3VMIjp7InN0YXJ0Ijo4OTgyMSwiZW5kIj
 oxMDM2MDgsInRleHQiOiIjIFNlY3VyZSBBcmNoaXRlY3R1cmVc
 bnwgfCAqKlNBMSoqIHwgKipTQTIqKiB8ICoqU0EzKiogfFxufD
-otLS0tLS0tLS0tLS0tfDotLS0tLS3igKYifX0sImNvbW1lbnRz
-Ijp7InJqb29Jcng5NzI3bjFTQWwiOnsiZGlzY3Vzc2lvbklkIj
-oiME9pcGppNnRpSkJwYUw5eSIsInN1YiI6ImdoOjE2NzA1MDk1
-IiwidGV4dCI6IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOjE1NT
-E2ODU4NjcxNzl9LCJtWTRjc3ZVTXVPVmVISE9UIjp7ImRpc2N1
-c3Npb25JZCI6IlNXUlgzdTJkclJ3cDcxY1YiLCJzdWIiOiJnaD
-oxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcmVh
-dGVkIjoxNTUxNjg2MDE5NzM2fSwiRmhkUmF3NmRna2FSM1JpYy
-I6eyJkaXNjdXNzaW9uSWQiOiJpZ05hSnA4QVdoWWlja3VMIiwi
-c3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYWJlYS
-BLYXRqYSIsImNyZWF0ZWQiOjE1NTE2ODYyMjk4OTJ9fSwiaGlz
-dG9yeSI6WzE1NTAxOTk5NDgsLTE0MDY5MzQzODUsNjY4MzM5MT
-U5XX0=
+otLS0tLS0tLS0tLS0tfDotLS0tLS3igKYifSwiZEU0VXh6RVY4
+MUhnNXpYaSI6eyJzdGFydCI6MTQwMTQxLCJlbmQiOjE1MjQyMC
+widGV4dCI6IiMgU2VjdXJpdHkgVGVzdGluZ1xufCB8ICoqU1Qx
+KiogfCAqKlNUMioqIHwgKipTVDMqKiB8XG58Oi0tLS0tLS0tLS
+0tLS18Oi0tLS0tLS0tLeKApiJ9LCJDUDJRVnltdVp4dFVpUENo
+Ijp7InN0YXJ0IjoxNDAxNzAsImVuZCI6MTQwMjAzLCJ0ZXh0Ij
+oifCB8ICoqU1QxKiogfCAqKlNUMioqIHwgKipTVDMqKiB8In19
+LCJjb21tZW50cyI6eyJyam9vSXJ4OTcyN24xU0FsIjp7ImRpc2
+N1c3Npb25JZCI6IjBPaXBqaTZ0aUpCcGFMOXkiLCJzdWIiOiJn
+aDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcm
+VhdGVkIjoxNTUxNjg1ODY3MTc5fSwibVk0Y3N2VU11T1ZlSEhP
+VCI6eyJkaXNjdXNzaW9uSWQiOiJTV1JYM3UyZHJSd3A3MWNWIi
+wic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xy
+Z2VuIiwiY3JlYXRlZCI6MTU1MTY4NjAxOTczNn0sIkZoZFJhdz
+ZkZ2thUjNSaWMiOnsiZGlzY3Vzc2lvbklkIjoiaWdOYUpwOEFX
+aFlpY2t1TCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6Il
+RPRE8gVGFiZWEgS2F0amEiLCJjcmVhdGVkIjoxNTUxNjg2MjI5
+ODkyfSwiSzZ4WEJleUNwVlF2RzRqeiI6eyJkaXNjdXNzaW9uSW
+QiOiJkRTRVeHpFVjgxSGc1elhpIiwic3ViIjoiZ2g6MTY3MDUw
+OTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZWF0ZWQiOj
+E1NTE2ODYzNDc3NDR9LCI5Mm1wVjhqbFlDSEN1V3JjIjp7ImRp
+c2N1c3Npb25JZCI6IkNQMlFWeW11Wnh0VWlQQ2giLCJzdWIiOi
+JnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIGNoYW5nZSBzaG9y
+dGN1dCIsImNyZWF0ZWQiOjE1NTE2ODYzOTk5MzJ9fSwiaGlzdG
+9yeSI6WzE3MzIwNTIzMTUsLTE0MDY5MzQzODUsNjY4MzM5MTU5
+XX0=
 -->
