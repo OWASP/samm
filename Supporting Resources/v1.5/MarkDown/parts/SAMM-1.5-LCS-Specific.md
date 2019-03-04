@@ -2311,6 +2311,151 @@ Since code signing is not appropriate for everything, architects and developers 
 ##### RELATED LEVELS
 * None 
 
+# Lifecycle Security Monitoring
+| | **SM1** | **SM2** | **SM3** |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **Objective** | **Enable communications between development teams and operators for critical security-relevant data.** | **Enable communications between development teams and operators for critical security-relevant data.** | **Mandate communication of security information and validate artifacts for completeness.**|
+| **Activities** | **A.** Capture critical security information for deployment? **B.** Document procedures for typical application alerts| **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components|
+| **Assessment** | ✦Are security notes delivered with each software release? ✦Are security-related alerts and error conditions documented on a per-project basis? | ✦Do projects utilize a change management process that’s well understood? ✦Do project teams deliver an operational security guide with each product release? | ✦Are project releases audited for appropriate operational security information? ✦Is code signing routinely performed on software components using a consistent process? |
+| **Results** | ✦Ad hoc improvements to software security posture through better understanding of correct operations ✦Operators and users aware of their role in ensuring secure deployment ✦Improved communications between software developers and users for security- critical information | ✦Detailed guidance for security-relevant changes delivered with software releases ✦Updated information repository on secure operating procedures per application ✦Alignment of operations expectations among developers, operators, and users. | ✦Organization-wide understanding of expectations for security-relevant documentation ✦Stakeholders better able to make tradeoff decisions based on feedback from deployment and operations ✦Operators and/or users able to independently verify integrity of software releases |
+
+# Lifecycle Security Monitoring: OE1
+### Enable communications between development teams and operators for critical security-relevant data
+
+## Activities
+##### A. Capture critical security information for deployment
+
+With software-specific knowledge, project teams should identify any security-relevant configuration and operations information and communicate it to users and operators. This enables the actual security posture of software at deployment sites to function in the same way that designers in the project team intended.
+
+This analysis should begin with architects and developers building a list of security features built-in to the software. From that list, information about configuration options and their security impact should be captured as well. For projects that offer several different deployment models, information about the security ramifications of each should be noted to better inform users and operators about the impact of their choices.
+
+Overall, the list should be lightweight and aim to capture the most critical information. Once initially created, it should be reviewed by the project team and business stakeholders for agreement. Additionally, it is effective to review this list with select operators or users
+in order to ensure the information is understandable and actionable. Project teams should review and update this information with every release, but must do so at least every six months.
+
+##### B. Document procedures for typical application alerts
+With specific knowledge of ways in which software behaves, project teams should identify the most important error and alert messages which require user/operator attention. From each identified event, information related to appropriate user/operator actions in response to the event should be captured.
+
+From the potentially large set of events that the software might generate, select the highest priority set based on relevance in terms of the business purpose of the software. This should include any security-related events, but also may include critical errors and alerts related to software health and configuration status.
+
+For each event, actionable advice should be captured to inform users and operators of required next steps and potential root causes of the event. These procedures must be re-viewed by the project team and updated at every major product release, every 6 months, but can be done more frequently, e.g. with each release.
+
+##### ASSESSMENT
+* Are security notes delivered with each software release?
+* Are security-related alerts and error conditions documented on a per-project basis?
+
+##### RESULTS
+* Ad-hoc improvements to software security posture through better understanding of correct operations
+* Operators and users aware of their role in ensuring secure deployment
+* Improved communications between software developers and users for security-critical information
+
+##### SUCCESS METRICS
+* >50% of projects with updated deployment security information in the past six months
+* >50% of projects with operational procedures for events updated in the past six months
+
+##### COSTS
+* Ongoing project overhead from maintenance of deployment security information
+* Ongoing project overhead from maintenance of critical operating procedures
+
+##### PERSONNEL
+* Developers
+* Architects
+* Managers
+* Support/Operators
+
+##### RELATED LEVELS
+* None 
+
+# Operational Enhancement: OE2
+### Improve expectations for continuous secure operations through provision of detailed procedures
+
+## Activities
+##### A. Create per-release change management procedures
+To more formally update users and operators on relevant changes in the software, each release must include change management procedures relevant to upgrade and first-time installation. Overall, the goal is to capture the expected accompanying steps that ensure the deployment will be successful and not incur excessive downtime or degradation of security posture.
+
+To build these procedures during development, the project teams should setup a lightweight internal process for capturing relevant items that would impact deployments. It is effective to have this process in place early in the development cycle so that this information can be retained as soon as it is identified while in the requirements, design, and implementation phases.
+
+Before each release, the project team should review the list as a whole for completeness and feasibility. For some projects, extensive change procedures accompanying a given release may warrant special handling, such as building automated upgrade scripts to prevent errors during deployment.
+
+##### B. Maintain formal operational security guides
+Starting from the information captured on critical software events and the procedures for handling each, project teams should build and maintain formal guides that capture all the security-relevant information that users and operators need to know.
+
+Initially, this guide should be built from the known information about the system, such as security-related configuration options, event handling procedures, installation and upgrade guides, operational environment specifications, security-related assumptions about the deployment environment, etc. Extending this, the formal operational security guide should elaborate on each of these to cover more details such that the majority of the users and operators will be informed for all the questions they might have had. For large or complex systems, this can be challenging, so project teams should work with business stakeholders to determine the appropriate level of documentation. Additionally, project teams should document any recommendations for deployments that would enhance security. 
+
+The operational security guide, after initial creation, should be reviewed by project teams and updated with each release.
+
+##### ASSESSMENT
+* Do projects utilize a change management process that’s well understood?
+* Do project teams deliver an operational security guide with each product release?
+
+##### RESULTS
+* Detailed guidance for security-relevant changes delivered with software releases
+* Updated information repository on secure operating procedures per application
+* Alignment of operations expectations among developers, operators, and users.
+
+##### SUCCESS METRICS
+* >50% of projects with updated change management procedures in the past six months
+* >80% of stakeholders briefed on status of operational security guides in the past six months
+
+##### COSTS
+* Ongoing project overhead from maintenance of change management procedures
+* Ongoing project overhead from maintenance of operational security guides
+
+##### PERSONNEL
+* Developers
+* Architects
+* Managers
+* Support/Operators
+
+##### RELATED LEVELS
+* Environment Hardening - 1
+
+# Operational Enhancement: OE3
+### Mandate communication of security information and validate artifacts for completeness
+
+## Activities
+##### A. Expand audit program for operational information
+When conducting routine project-level audits, expand the review to include inspection of artifacts related to operational enablement for security. Projects should be checked to ensure they have an updated and complete operational security guides as relevant to the specifics
+of the software.
+
+These audits should begin toward the end of the development cycle close to release, but must be completed and passed before a release can be made. For legacy systems or inactive projects, this type of audit should be conducted and a one-time effort should be made to address findings and verify audit compliance, after which additional audits for operational enablement are no longer required.
+
+Audit results must be reviewed with business stakeholders prior to release. An exception process should be created to allow projects failing an audit to continue with a release, but these projects should have a concrete timeline for mitigation of findings. Exceptions should be limited to no more that 20% of all active projects.
+
+##### B. Perform code signing for application components
+Though often used with special-purpose software, code signing allows users and operators to perform integrity checks on software such that they can cryptographically verify the authenticity of a module or release. By signing software modules, the project team enables deployments to operate with a greater degree of assurance against any corruption or modification of the deployed software in its operating environment.
+
+Signing code incurs overhead for management of signing credentials for the organization. An organization must follow safe key management processes to ensure the ongoing confidentiality of the signing keys. When dealing with any cryptographic keys, project stakeholders must
+also consider plans for dealing with common operational problems related to cryptography such as key rotation, key compromise, or key loss.
+
+Since code signing is not appropriate for everything, architects and developers should work with security auditors and business stakeholders to determine which parts of the software should be signed. As projects evolve, this list should be reviewed with each release, especially when adding new modules or making changes to previously signed components.
+
+##### ASSESSMENT
+* Are project releases audited for appropriate operational security information?
+* Is code signing routinely performed on software components using a consistent process?
+
+##### RESULTS
+* Organization-wide understanding of expectations for security-relevant documentation
+* Stakeholders better able to make tradeoff decisions based on feedback from deployment and operations
+* Operators and/or users able to independently verify integrity of software releases
+ 
+##### SUCCESS METRICS
+* >80% of projects with updated operational security guide in the last six months
+* >80% of stakeholders briefed on code signing options and status in the past six months
+
+##### COSTS
+* Ongoing project overhead from audit of operational guides
+* Ongoing organization overhead from management of code signing credentials
+* Ongoing project overhead from identification and signing of code modules
+
+##### PERSONNEL
+* Developers
+* Architects
+* Managers
+* Security Auditors
+
+##### RELATED LEVELS
+* None 
+
 # Sponsors
 We would like to thank the following sponsors who have donated funds to the SAMM project in the past:
 
@@ -2334,24 +2479,31 @@ widGV4dCI6IiMgU2VjdXJpdHkgVGVzdGluZ1xufCB8ICoqU1Qx
 KiogfCAqKlNUMioqIHwgKipTVDMqKiB8XG58Oi0tLS0tLS0tLS
 0tLS18Oi0tLS0tLS0tLeKApiJ9LCJDUDJRVnltdVp4dFVpUENo
 Ijp7InN0YXJ0IjoxNDAxNzAsImVuZCI6MTQwMjAzLCJ0ZXh0Ij
-oifCB8ICoqU1QxKiogfCAqKlNUMioqIHwgKipTVDMqKiB8In19
-LCJjb21tZW50cyI6eyJyam9vSXJ4OTcyN24xU0FsIjp7ImRpc2
-N1c3Npb25JZCI6IjBPaXBqaTZ0aUpCcGFMOXkiLCJzdWIiOiJn
-aDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJjcm
-VhdGVkIjoxNTUxNjg1ODY3MTc5fSwibVk0Y3N2VU11T1ZlSEhP
-VCI6eyJkaXNjdXNzaW9uSWQiOiJTV1JYM3UyZHJSd3A3MWNWIi
-wic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBKw7xy
-Z2VuIiwiY3JlYXRlZCI6MTU1MTY4NjAxOTczNn0sIkZoZFJhdz
-ZkZ2thUjNSaWMiOnsiZGlzY3Vzc2lvbklkIjoiaWdOYUpwOEFX
-aFlpY2t1TCIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6Il
-RPRE8gVGFiZWEgS2F0amEiLCJjcmVhdGVkIjoxNTUxNjg2MjI5
-ODkyfSwiSzZ4WEJleUNwVlF2RzRqeiI6eyJkaXNjdXNzaW9uSW
-QiOiJkRTRVeHpFVjgxSGc1elhpIiwic3ViIjoiZ2g6MTY3MDUw
-OTUiLCJ0ZXh0IjoiVE9ETyBKb2hhbm5lcyIsImNyZWF0ZWQiOj
-E1NTE2ODYzNDc3NDR9LCI5Mm1wVjhqbFlDSEN1V3JjIjp7ImRp
-c2N1c3Npb25JZCI6IkNQMlFWeW11Wnh0VWlQQ2giLCJzdWIiOi
-JnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIGNoYW5nZSBzaG9y
-dGN1dCIsImNyZWF0ZWQiOjE1NTE2ODYzOTk5MzJ9fSwiaGlzdG
-9yeSI6WzE3MzIwNTIzMTUsLTE0MDY5MzQzODUsNjY4MzM5MTU5
-XX0=
+oifCB8ICoqU1QxKiogfCAqKlNUMioqIHwgKipTVDMqKiB8In0s
+InBXUzVzd2RJYTU0T0o0SzkiOnsic3RhcnQiOjE4OTYzOSwiZW
+5kIjoyMDE5NjEsInRleHQiOiIjIE9wZXJhdGlvbmFsIEVuaGFu
+Y2VtZW50XG58IHwgKipPRTEqKiB8ICoqT0UyKiogfCAqKk9FMy
+oqIHxcbnw6LS0tLS0tLS0tLS0tLXw6LS3igKYifX0sImNvbW1l
+bnRzIjp7InJqb29Jcng5NzI3bjFTQWwiOnsiZGlzY3Vzc2lvbk
+lkIjoiME9pcGppNnRpSkJwYUw5eSIsInN1YiI6ImdoOjE2NzA1
+MDk1IiwidGV4dCI6IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOj
+E1NTE2ODU4NjcxNzl9LCJtWTRjc3ZVTXVPVmVISE9UIjp7ImRp
+c2N1c3Npb25JZCI6IlNXUlgzdTJkclJ3cDcxY1YiLCJzdWIiOi
+JnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJj
+cmVhdGVkIjoxNTUxNjg2MDE5NzM2fSwiRmhkUmF3NmRna2FSM1
+JpYyI6eyJkaXNjdXNzaW9uSWQiOiJpZ05hSnA4QVdoWWlja3VM
+Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYW
+JlYSBLYXRqYSIsImNyZWF0ZWQiOjE1NTE2ODYyMjk4OTJ9LCJL
+NnhYQmV5Q3BWUXZHNGp6Ijp7ImRpc2N1c3Npb25JZCI6ImRFNF
+V4ekVWODFIZzV6WGkiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRl
+eHQiOiJUT0RPIEpvaGFubmVzIiwiY3JlYXRlZCI6MTU1MTY4Nj
+M0Nzc0NH0sIjkybXBWOGpsWUNIQ3VXcmMiOnsiZGlzY3Vzc2lv
+bklkIjoiQ1AyUVZ5bXVaeHRVaVBDaCIsInN1YiI6ImdoOjE2Nz
+A1MDk1IiwidGV4dCI6IlRPRE8gY2hhbmdlIHNob3J0Y3V0Iiwi
+Y3JlYXRlZCI6MTU1MTY4NjM5OTkzMn0sIkM4ekIzcUlMd1FsYV
+Z2d2siOnsiZGlzY3Vzc2lvbklkIjoicFdTNXN3ZElhNTRPSjRL
+OSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gRW
+R1YXJkIiwiY3JlYXRlZCI6MTU1MTY4NjQ4MDI2Mn19LCJoaXN0
+b3J5IjpbLTY4NzI5MDI1OSwtMTQwNjkzNDM4NSw2NjgzMzkxNT
+ldfQ==
 -->
