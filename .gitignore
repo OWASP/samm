@@ -1,13 +1,10 @@
-
+# Mac Datei DS_Store
+.DS-Store
 v1.1/SAMM-HOWTO-1.1-MARKDOWN-en_US.md
-v2.0/beta/core/.DS_Store
 v2.0/node_modules/
 v2.0/npm-debug.log
 v2.0/package-lock.json
 Website/node_modules/
 Website/package-lock.json
 Website/npm-debug.log
-v2\.0/\.DS_Store
-v1\.5/MarkDown/\.DS_Store
-Supporting Resources/v1.5/MarkDown/.DS_Store
-Supporting Resources/v1.5/MarkDown/.DS_Store
+
