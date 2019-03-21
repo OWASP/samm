@@ -129,7 +129,8 @@ Construction concerns the processes and activities related to how an organizatio
 
 **Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
 
-**Lifecycle Security Design** add short description here.
+**Lifecycle Security Design** // TODO add short description here.
+
 
 …*more on page 12*
 
@@ -266,7 +267,7 @@ Beginning from simple recommendations about software frameworks and explicit con
 As an organization evolves over time, sophisticated provision of this practice entails organizations building reference platforms to cover the generic types of software they build. These serve as frameworks upon which developers can build custom software with lower risk of vulnerabilities.
 
 ### Lifecycle Security Design
-Add long description here.
+// TODO Add long description here.
 
 
 # Construction
@@ -296,12 +297,13 @@ Add long description here.
 | **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
 
 ### Lifecycle Security Design
+// TODO
 *…more on page XX*
 
 | | SD 1  | SD 2  | SD 3 |
 |:-------------|:------------- |:---------------|:-------------|
-| **Objective:** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known- secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.** |
-| **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
+| **Objective:** | **SD1 Objective** | **SD2 Objective** | **SD3 Objective** |
+| **Activities:** | **A.** SD1 first activity **B.** SD1 second activity | **A.** .SD2 first activity **B.** SD2 second activity | **A.** SD3 first activity **B.** SD3 second activity |
 
 # Verification
 ## Description of Security Practices
@@ -536,15 +538,11 @@ Add long description here.
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SD1**
-|✦ Are project teams provided with a list of recommended third-party components? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
-| ✦ Are project teams aware of secure design principles and do they apply them consistently? | NO | SOME | HALF | MOST |
+| TODO
 | **SD2**
-| ✦Do you advertise shared security services with guidance for project teams? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
-| ✦ Are project teams provided with prescriptive design patterns based on their application architecture? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| TODO
 |**SD3**
-| ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
-| ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
-
+| TODO
 # Verification
 ## Assessment worksheet
 ### Design Review
