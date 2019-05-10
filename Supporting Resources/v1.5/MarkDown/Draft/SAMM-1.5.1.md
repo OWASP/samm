@@ -1879,6 +1879,7 @@ For this, known attacks that are relevant to one or more products should be gath
 In addition, attacks that are only known by your company are to be included, e.g., from previous penetration tests.
 The gathered information can then be used to create attack patterns.
 Experiences from previous penetration tests can also be of great help here.
+
 An attack pattern is an abstract mechanism that describes how an attack works.
 It should begin with a name and include its probability, the exploitability for security, and the severity of the attack.
 Then, it should list the affected domain, the used mechanisms, and link possible attacks that follow the same schema.
@@ -1893,22 +1894,24 @@ For the creation and maintaining of the catalog several meetings are needed.
 * Are identified attack patterns documented?
 
 ##### RESULTS
-* Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested
-* Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions
+* Understanding of possible security risks
+* Better understanding of risk functions that need to be tested
+* Reusable catalog of possible attacks
+* Mapping of security vulnerabilities to safety-relevant functions
 
 ##### SUCCESS METRICS
-* 75% of all projects have compiled a risk analysis
-* 50% of all projects have compiled attack patterns
+* >75% of all projects have compiled a risk analysis
+* >50% of all projects have compiled attack patterns
 
 ##### COSTS
 * Setup and maintenance of project artifacts for risk analysis of attack patterns
 
 ##### PERSONNEL
-* Developer
+* Developers
 * Architects
-* Penetration testers
-* Manager
-* Security auditors
+* Penetration Testers
+* Managers
+* Security Auditors
 
 ##### RELATED LEVELS
 * Education & Guidance -1
@@ -1934,7 +1937,7 @@ After defining the test environment, the penetration tests dependent on security
 Use the BSI guideline for IT-Security penetration tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
 
 Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
-Alternatively, External penetration testers can be tasked for certification.
+Alternatively, external penetration testers can be tasked for certification.
 
 Experience and previous made results should be taken into account during planning of penetration tests.
 
@@ -1949,7 +1952,8 @@ Additionally, public services, which publish security exploits, should be search
 
 ##### ASSESSMENT
 * Are penetration tests planned and executed for all products?
-* How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed?
+* How often are external security reports reviewed?
+* Is special staff trained or are external certified testers employed?
 
 ##### RESULTS
 * Better preparation against emerging security vulnerabilities
@@ -1958,19 +1962,19 @@ Additionally, public services, which publish security exploits, should be search
 * All tests are up-to-date with latest security vulnerabilities
 
 ##### SUCCESS METRICS
-* 90% of all penetration testers are specifically trained
-* 80% of external software and hardware components are from verified vendors
+* >90% of all penetration testers are specifically trained
+* >80% of external software and hardware components are from verified vendors
 
 ##### COSTS
 * Common costs of projects increase due to additional verification
 * Additional training
 
 ##### PERSONNEL
-* Developer
+* Developers
 * Architects
-* Penetration testers
-* Manager
-* Security auditors
+* Penetration Testers
+* Managers
+* Security Auditors
 
 ##### RELATED LEVELS
 * Threat Assessment - 3
@@ -1984,10 +1988,12 @@ Additionally, public services, which publish security exploits, should be search
 ##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
 
 In order to ensure the safety of a product over a longer period of time, it must be repeatedly tested against new threats.
+
 To be able to test old and new products quickly and efficiently against new attacks at any time, a hardware-independent test environment is needed.
-For this, great effort has to be invested in implementing a hardware-independent test interface.
+For this, great effort has to be invested in implementing a hardware-independent test interface. 
 The interface should be compatible with as many products as possible.
 As a result, only the test software needs to be adapted to the respective product.
+
 A further measure includes the expansion of development cycles.
 This means that new development processes have to be created within the company.
 Instead of a strict schedule of planning, development, testing and deployment, these steps should be repeated more often.
@@ -1998,8 +2004,10 @@ Therefore, the planning process is repeated several times instead of only once.
 ##### B. Categorize, acquire and store all relevant hardware and software versions
 
 It should be possible to test newly identified vulnerabilities immediately for all affected products.
+
 This can be difficult and lead to an immense overhead since a product that has been rolled out for some time often has several software and hardware versions.
 However, not being able to test every "relevant" can lead to major problems afterwards.
+
 Therefore, "relevant" software and hardware versions should always be present for testing.
 To make this possible, the affected departments of a company must agree on a standard for "relevant" versions.
 Then, if a new "relevant" hardware or software version is rolled out, it should be stored at least once in the company.
@@ -2007,6 +2015,7 @@ In order to protect against possible losses, you should consider storing a versi
 To do this, a company must create the necessary capacity and infrastructure.
 Therefore, managers, developers, testers, and security experts need to design a plan for the implementation.
 As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i.e., how many adaptations a user needs to make during an update.
+
 To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
 Clear responsibilities have to be defined, so that the test results can be adequately addressed, and security gaps closed for all versions.
 
@@ -2024,8 +2033,8 @@ Clear responsibilities have to be defined, so that the test results can be adequ
 * Guideline on appropriate methods for processing the feedback of penetration tests
 
 ##### SUCCESS METRICS
-* 80% of relevant hardware and software versions are stored
-* 70 % of all tests for a project are tested with a hardware-independent test interface
+* >80% of relevant hardware and software versions are stored
+* >70 % of all tests for a project are tested with a hardware-independent test interface
 
 ##### COSTS
 * Increasing effort through the intermediate storage of hardware and software versions
@@ -2034,9 +2043,9 @@ Clear responsibilities have to be defined, so that the test results can be adequ
 ##### PERSONNEL
 * Developers
 * Architects
-* Penetration tester
-* Manager
-* Security auditor
+* Penetration Testers
+* Managers
+* Security Auditors
 
 ##### RELATED LEVELS
 * Education & Guidance - 2
@@ -2570,9 +2579,9 @@ The mitigation section should also follow the previously elaborated criteria sch
 * Additional training of personnel in version management systems
 
 ##### PERSONNEL
-* Penetration testers
-* Project) managers
-* Security Auditor
+* Penetration Testers
+* Managers
+* Security Auditors
 * Developers
 * Architects
 
@@ -2642,9 +2651,9 @@ If the penetration test case is broken (2), the penetration tester rewrites it s
 * Heightened complexity of build routines due to demanded flexibility of penetration tests
 
 ##### PERSONNEL
-* Penetration Tester
-* Tester
-* Developer
+* Penetration testers
+* Testers
+* Developers
 * (Project) management
 
 ##### RELATED LEVELS
