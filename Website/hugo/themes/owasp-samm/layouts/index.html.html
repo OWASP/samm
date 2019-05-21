@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "content" }}
 
 <div class="homeback">
   <div class="ui container">
@@ -92,29 +92,4 @@
 <div class="ui hidden divider"></div>
 
 
-<div class="footerback">
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-  <footer class="ui container footer">
-    <div class="ui stackable grid">
-      <div class="ui three wide column">
-        <a href="https://www.owasp.org/"><img class="ui fluid image" src="{{ "img/owasp.svg"  | relURL }}" /></a>
-      </div>
-      <div class="ui thirteen wide column">
-        <h3 class="ui header">This is an OWASP Project</h3>
-        <p>OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <a href="https://www.owasp.org/">https://www.owasp.org/</a>.</p>
-      </div>
-    </div>
-    <div class="ui stackable grid">
-      <div class="ui three wide column">
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="{{ "img/by-sa.png"  | relURL }}" /></a>
-      </div>
-      <div class="ui thirteen wide column">
-        <h3 class="ui header">CC BY-SA 4.0</h3>
-        <p>This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
-      </div>
-    </div>
-  </footer>
-</div>
-
-{{ partial "footer.html" . }}
+{{ end }}
