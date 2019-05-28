@@ -173,7 +173,8 @@ Operations entails the processes and activities related to how an organization m
 
 **Operational Enablement** involves identifying and capturing security-relevant information needed by an operator to properly configure, deploy, and run an organization’s software.
 
-**Lifecycle Security Monitoring** TODO add short description here.
+**Lifecycle Security Monitoring** 
+Process and organisation wide structural abilities and skills for finding and dealing with cyber security threats, reakting to them and rolling out updates/degradations to the end user.
 
 *…more on page 16*
 
@@ -421,7 +422,14 @@ Starting from lightweight documentation to capture the most important details fo
 In an advanced form, operational enablement also entails organization-level checks against individual project teams to ensure that information is being captured and shared according to expectations.
 
 ### Lifecycle Security Monitoring
-TODO add long description
+The Lifecycle Security Monitoring (LSM) practice is focused on the overall process and operations which have to be installed in the organisation to guarantee cyber security for products during the whole lifecycle.
+This includes several actions as well as the need of structural facilities in any organisation which is involved in embedded software development.
+
+By starting to improve the knowledge about cybersecurity issues, implementing teams and penetration testing steps in the organisation process an organisation improves its knowhow step by step.
+
+More advanced organisations should structure its knowledge gathered from penetratrion tests and other information sources. This should lead to a complete test of every combination of soft- and hardware out in the field for each new threat situation. The configuration management of potential products therfor should be availible in realtime.
+
+Advanced organisations need a complete security strategy and team. Also they should have a clear deployment strategy and update channel to every of ther products at end user. Also the need of continous watching state of the art, derived evaluation of current threat risks has to be maintained by a central organized cyber security team.
 
 # Operations
 ## Activities Overview
@@ -457,7 +465,7 @@ TODO change activity B of LSM1
 | | LSM1 | LSM2 | LSM3 |
 |:-------------|:------------- |:---------------|:-------------|
 |**Objective** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released hardware and software versions and variants.** | **Minimize negative impacts for customers.**|
- **Activities** | **A.** Maintenance of attack pattern catalogue **B.** Maintenance of attack pattern catalogue| **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Deploy degradations to customer **B.** Deploy updates to customer |
+ **Activities** | Maintenance of attack pattern catalogue | **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Deploy degradations to customer **B.** Deploy updates to customer |
 
 
 # Governance
@@ -703,18 +711,18 @@ TODO add levels & remove automotive-only character
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LSM1**
-| ✦Does your organization gather information about new vulnerability issues? | ??? | ??? | ??? | ??? |
-| ✦Are these issues filtered to dedicated project, used hardware and software stacks? | ??? | ??? | ??? | ??? |
-| ✦Are there project teams after final (serial) release responsible for these issues? | ??? | ??? | ??? | ??? |
+| ✦Does your organization gather information about new vulnerability issues? | NO | SOME | HALF  | MOST |
+| ✦Are these issues filtered to dedicated project, used hardware and software stacks? | NO | SOME | HALF  | MOST|
+| ✦Are there project teams after final (serial) release responsible for these issues? | NO | SOME | HALF  | MOST |
 | **LSM2**
-| ✦Is your penetration test continuously developed further? | ??? | ??? | ??? | ??? |
-| ✦Do you assure, that penetration tests are executed for every released hardware/software combination? | ??? | ??? | ??? | ??? |
-| ✦Does your company collect and archive all results of these penetration tests? | ??? | ??? | ??? | ??? |
+| ✦Is your penetration test continuously developed further? | NO | SOME | HALF  | MOST|
+| ✦Do you assure, that penetration tests are executed for every released hardware/software combination? | NO | SOME | HALF  | MOST |
+| ✦Does your company collect and archive all results of these penetration tests? | NO | SOME | HALF  | MOST |
 | **LSM3**
-| ✦Does your company know how to contact the end users of your ECUs? | ??? | ??? | ??? | ??? |
-| ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? | ??? | ??? | ??? | ??? |
-| ✦Does your project team provide security degradation guidance model? | ??? | ??? | ??? | ??? |
-| ✦Does your company have a process which defines the propagation of security updates to your customers? | ??? | ??? | ??? | ??? |
+| ✦Does your company know how to contact the end users of your ECUs? | NO | SOME | HALF  | MOST|
+| ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? | NO | SOME | HALF  | MOST |
+| ✦Does your project team provide security degradation guidance model? | NO | SOME | HALF  | MOST |
+| ✦Does your company have a process which defines the propagation of security updates to your customers? | NO | SOME | HALF  | MOST |
 
 !['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](images/SecurityPractices.png )
 ![PracticesImage](images/PracticesImage.png )
@@ -3170,10 +3178,10 @@ Since code signing is not appropriate for everything, architects and developers 
 # Lifecycle Security Monitoring
 | | **LSM1** | **LSM2** | **LSM3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
-| **Objective** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released Hardware and Software versions and variants.** | **Minimize negative impacts for customers.**|
-| **Activities** | **A.** Maintenance of attack pattern catalogue **B.** 1.	Maintenance of attack pattern catalogue| **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Deploy degradations to customer **B.** Deploy updates to customer |
-| **Assessment** | ✦Does your organization gather information about new vulnerability issues? ✦Are these issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues?| ✦Is your penetration test continuously developed further? ✦Do you assure, that penetration tests are executed for every released hardware/software Combination? ✦Does your company collect and archive all results of these penetration tests? | ✦Does your company know how to contact the end users of your ECUs? ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? ✦Does your project team provide security degradation guidance model? ✦Does your company have a process which defines the propagation of security updates to your customers?|
-| **Results** | ✦Company has improved security knowledge ✦Up to date overview of potential attack surfaces ✦c.	Always up to date catalogue of attack patterns linked with probably impacts | ✦Detailed matrix which links attack patterns to ECUs ✦Database with references from software/hardware variants of ECU and possible attack patterns ✦Detailed TODO-List / Bug-List for each product/ECU. | ✦Company has knowledge about current security risk of their products ✦Company has process and infrastructure for deploying security information and updates to end user ✦Security is guaranteed because all patches and workarounds are deployed to customers/end users|
+| **Objective** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released hardware and software versions and variants.** | **Minimize negative impacts for customers.**|
+| **Activities** |  Maintenance of attack pattern catalogue| **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Operation of deployment infrastructure **B.** Deploy  degradations/updates to customer |
+| **Assessment** | ✦Does your organization gather information about new vulnerability issues? ✦Are these issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues?| ✦Is your penetration test continuously developed further? ✦Do you assure, that penetration tests are executed for every released hardware/software Combination? ✦Does your company collect and archive all results of these penetration tests? | ✦Does your company know how to contact the end users of your devices? ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? ✦Does your project team provide security degradation guidance model? ✦Does your company have a process which defines the propagation of security updates to your customers?|
+| **Results** | ✦Company has improved security knowledge ✦Up to date overview of potential attack surfaces ✦c.	Always up to date catalogue of attack patterns linked with probably impacts | ✦Detailed matrix which links attack patterns to devices ✦Database with references from software/hardware variants of devices and possible attack patterns ✦Detailed TODO-List/Bug-List for each product/device. | ✦Company has knowledge about current security risk of their products ✦Company has process and infrastructure for deploying security information and updates to end user ✦Security is guaranteed because all patches and workarounds are deployed to customers/end users|
 
 # Lifecycle Security Monitoring: LSM1
 ### Awareness of potential attack patterns
@@ -3186,10 +3194,7 @@ With this responsibility, this division has to monitor multiple appropriate feed
 
 Further potential combined attacks must be investigated, documented and the risks has to be estimated.
 
-All the gathered information has to lead into "attack pattern" which must be stored in a structured database.
-
-##### B. Maintenance of the attack pattern catalogue
-TODO add long description + metrics, costs, personnel, related levels
+All the gathered information has to lead into "attack pattern" which must be stored in a structured database. 
 
 ##### ASSESSMENT
 * Does your organization gather information about new vulnerability issues?
@@ -3202,32 +3207,43 @@ TODO add long description + metrics, costs, personnel, related levels
 * Always up to date catalogue of attack patterns linked with probably impacts
 
 ##### SUCCESS METRICS
-* XXX
+* database for attack patern installed
+* at least one person fulltime monitoring security feeds
+* \>70% of products/derivatives/libraries in central *configuration management* database
+* respond team for after sale security management installed
+
 
 ##### COSTS
-* XXX
+* Ongoing project overhead from need of security engineering
+* Ongoing organization overhead from central security team
+* Ongoing organization overhead from maintaining attack pattern cataloge
 
 ##### PERSONNEL
-* XXX
+* Developers
+* Architects
+* Managers
+* Business Owners 
+* Security Auditor
 
 ##### RELATED LEVELS
-* XXX
+* None 
 
 # Lifecycle Security Monitoring: LSM2
 ### Knowledge about impact of attack patterns to released hardware and software versions and variants
 
 ## Activities
 ##### A. Implement all relevant penetration tests on all relevant hardware and software versions and variants
-At product level the knowledge about attack pattern should be classified. This classification should structure the attack patterns to the ECUs. Thereby only theses ECUs have to be considered which are in the field. ECUs during development for example can be lower prioritize.
+At product level the knowledge about attack pattern should be classified. This classification should structure the attack patterns to the devices. Thereby only theses devices have to be considered which are in the field. Devices during development for example can be lower prioritize.
 
-Nevertheless, all affected versions and variants have to be evaluated. As result a mapping from Attack Pattern to ECU in combination with Software variant must be developed.
-With this knowledge in mind specific penetration tests have to be developed. These penetration tests should be linked to the attack pattern to the "attack pattern-ECU" mapping above.
+Nevertheless, all affected versions and variants have to be evaluated. As result a mapping from attack pattern to device in combination with software variant must be developed. This mapping exceedes the *classic* configuration management because the information should be available more or less in real time. 
+With this knowledge in mind specific penetration tests have to be developed. These penetration tests should be linked to the attack pattern to the "attack pattern-device" mapping above.
 
 Out of this mapping a coverage Report of all potential attack pattern can be created.
-After all, the penetration tests have to be executed for all relevant ECU software/hardware combinations. After reviewing the Results regarding risk, minimizing the impact at customer should be in focus. Therefore, patches or workarounds maybe also degradation strategies have to be developed. Also having security issues in mind, one has to guarantee quality/functionality of the ECU also. The security workaround should also be tested in a ‘classic’ way to be sure that the customer still has his wanted functionality in his car.
+
 
 ##### B. Execute all relevant penetration tests on all relevant hardware and software
-TODO add long description + metrics, costs, personnel, related levels
+
+After all, the penetration tests have to be executed for all relevant software/hardware combinations. After reviewing the results regarding risk, minimizing the impact at customer should be in focus. Therefore, patches or workarounds maybe also degradation strategies have to be developed. Also having security issues in mind, one has to guarantee quality/functionality and avability of the device also. The security workaround should also be tested whith *classic* functional test to be sure that the customer still has his wanted functionality in his car.
 
 ##### ASSESSMENT
 * Is your penetration test continuously developed further?
@@ -3235,41 +3251,51 @@ TODO add long description + metrics, costs, personnel, related levels
 * Does your company collect and archive all results of these penetration tests?
 
 ##### RESULTS
-* Detailed matrix which links attack patterns to ECUs
-* Database with references from software/hardware variants of ECU and possible attack patterns
-* Detailed TODO list / bug list for each product/ECU
+* Detailed matrix which links attack patterns to devices
+* Database with references from software/hardware variants of devices and possible attack patterns
+* Detailed TODO list / bug list for each product/device
 
 ##### SUCCESS METRICS
-* XXX
+* independent penentration test development team with at least one person fulltime
+* company development process contains process steps for penetration tests at least for every release
+* archiving of penetration test results is guaranteed
+* Database contains at least \>70% of released/sold products and their configuration management
 
 ##### COSTS
-* XXX
+* Ongoing project overhead from need of implementing specific security tests
+* Ongoing project overhead from need of executing security tests
+* Ongoing organization overhead from testing all relevant devices and variants
+* Ongoing organization overhead from maintaining attack pattern cataloge
+
 
 ##### PERSONNEL
-* XXX
+* Developers
+* Testers
+* Managers
+* Security Auditor
 
 ##### RELATED LEVELS
-* XXX
+* None 
 
 # Lifecycle Security Monitoring: LSM3
 ### Minimize negative impacts for customers
 
 ## Activities
-##### A. Deploy degradations to customer
-Already when starting a new ECU project, one has to clarify the communication to the end user/customer. This is essential to ensure later updates and or degradations. Therefore, an infrastructure has to be set up. This infrastructure has to be cleared with OEM also. It has to be maintained and ensured that it is "future save". Thus, it has to guarantee later updated can be deployed.
-Secondly the infrastructure is itself a high-risk channel to the ECUs in the field.
-This leads also to many efforts to be made to keep this channel secure and still working.
-Security and reliability have to be in focus.
-After in step 2 (Doing) a security update has been developed or a potential degradation is decided this has to be deployed to the ECUs out in the field. Thereby only affected ECUs should get an update. This can be dependent to Hardware and or Software version and variant. Therefore, usually at OEM side a database with software and hardware Variants have to be maintained and used for the deployment of security updates.
+##### A. Operation of deployment infrastructure
+Already when starting a new embedded software project, one has to clarify the communication to the end user. This is essential to ensure later updates and or degradations. Therefore, an infrastructure has to be set up. If your company is in a supplier role, this infrastructure has to be cleared with your customer who has the contact to the end user also. It has to be maintained and ensured that it is *future save*. Thus, it has to guarantee later updated can be deployed.
+Secondly the infrastructure is itself a high-risk channel to the device in the field.
+This leads also to many efforts to be made to keep this channel secure and also still working.
 
-##### B. Deploy updates to customer
-TODO add long description + metrics, costs, personnel, related levels
+##### B. Deploy degradations/updates to customer
+Security and reliability have to be high prioized.
+After in step 2 (Doing) a security update has been developed or a potential degradation is decided a customized action has to be placed to the end user device.
+This means, the action  has to be deployed to the devices out in the field. Thereby only affected devices should get an update. This can be dependent to hardware and or software version and variant. Therefore, usually at company side, or if in supplier role at customer side, a database with software and hardware variants have to be maintained and used for tailoring and deployment of security updates.
 
 ##### ASSESSMENT
-* Does your company know how to contact the end users of your ECUs?
+* Does your company know how to contact the end users of your devices?
 * Does your company have a process which defines the propagation of security vulnerabilities to your customers?
 * Does your project team provide security degradation guidance model?
-* Does your company have a process which defines the propagation of security updates to your customers?
+* Does your company have a process which defines the propagation of security updates to end users?
 
 ##### RESULTS
 * Company has knowledge about current security risk of their products
@@ -3277,16 +3303,29 @@ TODO add long description + metrics, costs, personnel, related levels
 * Security is guaranteed because all patches and workarounds are deployed to customers/end users
  
 ##### SUCCESS METRICS
-* XXX
+* information channels to end user are all known 
+* exisiting and at lest twice per year updated guideline for developers
+* implemented process for distributing patches/updates/degradation (\>80% automated)
+* \>80% of the developers are skilled regarding security
+* at least twice yearly training of developers
+* at least once per year trainings for operators, mangagers
 
 ##### COSTS
-* XXX
+* Ongoing project overhead from need of for providing degredation models
+* Ongoing organization overhead from maintaining an update/patch process
+* Ongoing organization overhead from maintaining an update channel
+
 
 ##### PERSONNEL
-* XXX
+* Developers
+* Architects
+* Managers
+* Business Owners 
+* Security Auditor
+* Support/Operators
 
 ##### RELATED LEVELS
-* XXX
+* None 
 
 # Sponsors
 We would like to thank the following sponsors who have donated funds to the SAMM project in the past:
