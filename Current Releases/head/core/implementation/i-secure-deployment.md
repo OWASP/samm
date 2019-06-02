@@ -147,7 +147,7 @@ Secrets are dynamically extracted from the digital vault for use in deployment.
 Have an automated process to add credentials and secrets appropriate for the target environment to configuration files  during the deployment process. This way, developers and deployers do not  see or handle those sensitive values.
 
 
-Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a UAT or production environment.
+Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptence test or production environment.
 
 ### Maturity Questions
 #### Q 1
