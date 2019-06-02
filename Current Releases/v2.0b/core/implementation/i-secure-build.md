@@ -47,7 +47,7 @@ Include steps in the build process for signing the generated binaries with an ap
 A fully automated build system allows easy integration of automated security checks at all stages of the build process, and ensures separate but consistent build environments.
 
 ### Activity
-Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The process is reliable and does not require developer intervention, further reducing the likelihood of human error.
+Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The build process is reliable and does not require developer intervention, further reducing the likelihood of human error.
 
 Automation makes it easier to include security checks during the build process. Implement static application security testing (SAST) to run as part of the build process. Refer to guidance in [Verification > Security Testing](../v-security-testing) > A3.
 
