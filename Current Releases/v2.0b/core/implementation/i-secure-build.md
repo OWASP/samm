@@ -33,7 +33,7 @@ Consistent and repeatable builds help developers focus on application-specific i
 ### Activity
 Fully document the complete build process, breaking it down into clear stages for consistent reproduction. Following the build process does not require any additional knowledge about the software - meaning that the documentation is complete and not open to interpretation.
 
-The documentation does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
+The documentation does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, environments, and code repositories . Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
 
 Keep a master copy of the build documentation in one central location accessible by all who require access. Avoid having multiple copies, some of which may become accidentally outdated.
 
@@ -47,11 +47,11 @@ Include steps in the build process for signing the generated binaries with an ap
 A fully automated build system allows easy integration of automated security checks at all stages of the build process, and ensures separate but consistent build environments.
 
 ### Activity
-Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The build process is reliable and does not require developer intervention, further reducing the likelihood of human error.
+Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The process is reliable and does not require developer intervention, further reducing the likelihood of human error.
 
 Automation makes it easier to include security checks during the build process. Implement static application security testing (SAST) to run as part of the build process. Refer to guidance in [Verification > Security Testing](../v-security-testing) > A3.
 
-The use of an automated system to setup the build pipeline increases reliance on the build tools for security, and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+The use of an automated system increases reliance on the build tools for security, and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
 
 The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Refer to [Implementation > Secure Deployment](i-secure-deployment) > B.
 
@@ -70,7 +70,7 @@ The organization sets an appropriate threshold for build failure based on the ap
 
 Put in place  a mechanism to bypass this behaviour when a vulnerability has been accepted or mitigated to stop it from breaking the build. Carefully control and approve it, and log all exceptions with a rationale.
 
-If any of the security tests like SAST are not carried out successfully, the build fails.
+If any of the SAST or any other security tests are not carried out successfully, the build fails.
 
 If technical limitations prevent the organisation from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
 
