@@ -16,3 +16,9 @@ Or speak to us on our [Slack channel](https://owasp.slack.com/messages/C0VF1EJGH
 - Current Releases: maintained versions of OWASP SAMM in a format/structure that is compatible with the static site generator (Hugo)
 - Website: source for the static website and related libraries
 - Supporting Resources: other files, notes and presentations that do not follow the Hugo model
+
+## Custom Development
+* Install hugo or pull a hugo docker image
+* Clone this repo
+* Change directory to _Website/hugo_
+* Execute `hugo server`

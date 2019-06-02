@@ -51,7 +51,7 @@ In small setups, you can do this manually with the help of common command line t
 
 In case the logs from different sources are sent to a dedicated log system, it might be a good idea to analyze the logs here and also employ basic log correlation principles.
 
-Even if you don’t have a 24⁄7 incident detection process, unavailability of the person in charge (vacation, illness) shouldn’t impact the detection speed and quality significantly.
+Even if you don’t have a 24/7 incident detection process, unavailability of the person in charge (vacation, illness) shouldn’t impact the detection speed and quality significantly.
 
 You have a defined and generally known contact point for formal creation of security incidents.
 
@@ -289,7 +289,7 @@ Are ...?
 ### Quality Indicators
 Typically, on this maturity level:
 
-- You perform Root Case Analysis for all security incidents unless there is a specific reason not to do so
+- You perform Root Cause Analysis for all security incidents unless there is a specific reason not to do so
 - You identify and document improvements in the RCAs and you have probably implemented them
 - You have carried out some exercises in the last year.
 - There is a roadmap for process improvement

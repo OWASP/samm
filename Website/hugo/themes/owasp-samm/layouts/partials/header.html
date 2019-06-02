@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,18 +43,9 @@
 </head>
 <body class="{{if eq .Kind `page` }}single{{else}}list{{end}}">
   <div class="headerback">
-    <header class="ui massive text menu">
-      <a class="header item" href="/">
-        OWASP SAMM
-      </a>
-      <div class="right menu">
-        <a class="item" href="/v1-5/downloads/">
-          v1.5
-        </a>
-        <a class="item" href="/v2.0b/introduction/">
-          v2.0 Beta
-        </a>
-      </div>
-    </header>
-  </div>
+
+    {{ block "nav" . }}
+      {{ partial "nav.html" . }}
+    {{ end }}
+
   <div id="a50pxspacer"></div>

@@ -1,9 +1,9 @@
-{{ partial "header.html" . }}
+{{ define "content" }}
 
 <div class="homeback">
   <div class="ui container">
     <h1 class="ui title header">
-      Your organization's dynamic software security strategy.
+      Your organization's dynamic software security strategy
     </h1>
     <div class="ui hidden divider"></div>
     <div class="ui grid">
@@ -45,17 +45,46 @@
     <div class="column">
       <i class="huge stopwatch icon"></i>
       <h2 class="header">Measurable</h2>
-      <p>Defined maturity levels accross a range of business practices.</p>
+      <p>Defined maturity levels accross business practices</p>
     </div>
     <div class="column">
       <i class="huge bullhorn icon"></i>
       <h2 class="header">Actionable</h2>
-      <p>Clear pathways for improving maturity levels.</p>
+      <p>Clear pathways for improving maturity levels</p>
     </div>
     <div class="column">
       <i class="huge map signs icon"></i>
       <h2 class="header">Versatile</h2>
-      <p>Technology, process, and organization agnostic.</p>
+      <p>Technology, process, and organization agnostic</p>
+    </div>
+  </div>
+</div>
+
+<div class="ui hidden section divider"></div>
+
+<div class="ui sponsors container">
+  <h1 class="ui header">Our Sponsors</h1>
+  <div class="ui hidden divider"></div>
+  <div class="ui very relaxed stackable grid">
+    <div class="ten wide column">
+      <div class="ui three column middle aligned very relaxed centered stackable grid">
+        {{ range $sponsor := .Site.Data.sponsors }}
+        <div class="column">
+          <a href="{{ $sponsor.url }}"><img class="ui fluid image" src="{{  $sponsor.img | relURL }}" /></a>
+        </div>
+        {{ end }}
+        <div class="sixteen wide centered column">
+          <div class="ui fluid center aligned container">
+            <a class="ui small centered button" href="/sponsors/">See all sponsors...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="six wide column">
+      <h2 class="header">Support OWASP SAMM</h2>
+      <p>Software powers the world, but insecure software threatens safety, trust, and economic growth.</p>
+      <p>Your support powers SAMM and helps us achieve our mission. Email <a href="mailto:info@owaspsamm.org">info@owaspsamm.org</a> to become a supporter.</p>
+      <a class="ui small button" href="/sponsors/"><i class="ui purple info icon"></i> Find out more about sponsorship</a>
     </div>
   </div>
 </div>
@@ -63,29 +92,4 @@
 <div class="ui hidden divider"></div>
 
 
-<div class="footerback">
-  <div class="ui hidden divider"></div>
-  <div class="ui hidden divider"></div>
-  <footer class="ui container footer">
-    <div class="ui stackable grid">
-      <div class="ui three wide column">
-        <a href="https://www.owasp.org/"><img class="ui fluid image" src="{{ "img/owasp.svg"  | relURL }}" /></a>
-      </div>
-      <div class="ui thirteen wide column">
-        <h3 class="ui header">This is an OWASP Project</h3>
-        <p>OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <a href="https://www.owasp.org/">https://www.owasp.org/</a>.</p>
-      </div>
-    </div>
-    <div class="ui stackable grid">
-      <div class="ui three wide column">
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="{{ "img/by-sa.png"  | relURL }}" /></a>
-      </div>
-      <div class="ui thirteen wide column">
-        <h3 class="ui header">CC BY-SA 4.0</h3>
-        <p>This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
-      </div>
-    </div>
-  </footer>
-</div>
-
-{{ partial "footer.html" . }}
+{{ end }}

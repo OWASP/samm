@@ -98,7 +98,6 @@ The records include the following information about each dependency:
 * Where it is used or referenced
 * Why it is required
 * Version used
-* License
 * Source information (link to repository, author's name, etc.)
 * Open source or proprietary
 * Support and maintenance status of the component
@@ -116,6 +115,8 @@ There is an audit trail of all 3rd party libraries used in development and you k
 ### Activity
 
 Evaluate libraries to establish a whitelist of acceptable code dependencies approved for use within a project, team, or the wider organization.
+
+Add licenses of dependency to the records.
 
 Alternatively, introduce a central repository of approved dependencies that all software must be built from.
 

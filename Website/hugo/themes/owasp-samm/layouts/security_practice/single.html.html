@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "content" }}
 <div class="mainwrapper">
   <div class="ui inverted vertical menu" id="toc">
     {{ $home := .Site.Home }}
@@ -133,4 +132,8 @@
   });
 </script>
 
-{{ partial "footer.html" . }}
+{{ end }}
+
+{{ define "footer" }}
+<!-- empty --> 
+{{ end }}

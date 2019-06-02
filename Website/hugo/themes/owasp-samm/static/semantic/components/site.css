@@ -338,6 +338,9 @@ main {
 .why.container h1.header {
   text-align: center;
 }
+.sponsors.container h1.header {
+  text-align: center;
+}
 .footerback {
   background: #47054d;
   color: #fff;
@@ -380,4 +383,12 @@ body.single main table thead th,
 #toc.menu table thead th {
   font-family: "Open Sans", sans-serif;
   font-weight: 600 !important;
+}
+@media print {
+  .menu {
+    display: none !important;
+  }
+  main {
+    margin: 40px !important;
+  }
 }

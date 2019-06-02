@@ -1,4 +1,5 @@
-{{ partial "header.html" . }}
+{{ define "content" }}
+
 <article class="post post-view">
   <header class="post-header">
     <h1 class="post-title">{{ .Title }}</h1>
@@ -39,4 +40,5 @@
   {{ end }}
   {{ end }}
 </article>
-{{ partial "footer.html" . }}
+
+{{ end }}
