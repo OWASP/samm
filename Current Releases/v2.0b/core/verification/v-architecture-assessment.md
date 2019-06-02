@@ -12,7 +12,7 @@ Validate the security and compliance of the software and supporting infrastructu
 # Long Description
 Validate the security of the software and supporting infrastructure architecture. Identify application and infrastructure architecture components. For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Iterate through the list of security mechanisms and analyze the system for their provision.
 
-Validate the software and supporting infrastructure architecture against known security requirements, compliance goals and best practices. The overall goal is to verify that the system design has addressed each requirement and best practice. Note nny requirements that are not met at the design level as assessment findings.
+Validate the software and supporting infrastructure architecture against known security requirements, compliance goals and best practices. The overall goal is to verify that the system design has addressed each requirement and best practice. Note any requirements that are not met at the design level as assessment findings.
 
 Review the effectiveness of each application and infrastructure component to secure the application. Feed any findings  back into the Security Architecture practice.
 
@@ -91,7 +91,7 @@ This activity assures that the architecture is aligned with the security require
 ### Activity
 Analyze the architecture against known security requirements and best practices. Identify and collect either formally identified or informally known security requirements. Additionally, identify and include any security assumptions on which safe operation of the system relies.
 
-Review each item on the list of known security requirements against the architecture. Elaborate the analysis to show the design-level features that address each security requirement. Perfor separate, detailed analysis iterations on parts of the architecture to simplify capturing this information if the system is large or complex. The overall goal is to verify that each known security requirement has been addressed by the system design. Note any security requirements \not clearly provided at the design level as assessment findings.
+Review each item on the list of known security requirements against the architecture. Elaborate the analysis to show the design-level features that address each security requirement. Perfor separate, detailed analysis iterations on parts of the architecture to simplify capturing this information if the system is large or complex. The overall goal is to verify that each known security requirement has been addressed by the system design. Note any security requirements not clearly provided at the design level as assessment findings.
 
 
 ## Maturity 3 - Feed the architecture review results back into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
