@@ -186,3 +186,12 @@ body.single main, #toc.menu {
     font-weight: 600 !important;
   }
 }
+
+@media print {
+    .menu {
+        display: none !important;
+    }
+    main {
+    	margin: 40px !important;
+    }
+}

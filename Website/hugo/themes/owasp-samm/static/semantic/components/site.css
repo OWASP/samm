@@ -384,3 +384,11 @@ body.single main table thead th,
   font-family: "Open Sans", sans-serif;
   font-weight: 600 !important;
 }
+@media print {
+  .menu {
+    display: none !important;
+  }
+  main {
+    margin: 40px !important;
+  }
+}
