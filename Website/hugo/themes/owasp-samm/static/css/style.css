@@ -27,3 +27,12 @@ footer img.ui.image {
 svg.peity {
   margin-bottom: -3px;
 }
+
+@media print {
+    .menu {
+        display: none !important;
+    }
+    main {
+    	margin: 40px !important;
+    }
+}
