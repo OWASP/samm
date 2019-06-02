@@ -64,7 +64,7 @@ The deployment process is fully or partially automated and can be halted based o
 
 Fully or partially automate deployment to reduce the need for manual changes on production, and to reduce the chances of human error.
 
-Deployments include appropriate automated security checks such as DAST and malware scanning. Notify relevant people of any defects automatically.Stop or reverse the deployment automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. Log the results from these tests centrally and take any necessary actions.
+Deployments include appropriate automated security checks such as DAST and malware scanning. Notify relevant people of any defects automatically. Stop or reverse the deployment automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. Log the results from these tests centrally and take any necessary actions.
 
 Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
 
