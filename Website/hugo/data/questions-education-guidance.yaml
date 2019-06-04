@@ -1,7 +1,7 @@
 - Do you answer questions listed in OWASP SAMM?
     security_practice: Education and Guidance
     stream: a
-	stream_title: Stream Letter A
+    stream_title: Stream Letter A
     maturity: 1
     answers:
         - No
