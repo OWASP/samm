@@ -42,3 +42,33 @@
         - there is evidence that the detection scenarios have been updated from other security practices in the last 6 months
         - the detection process has its own KPIs
         - there are tickets in dev queues with requests for log data improvement
+- A setup for incident handling is defined and known?
+    security_practice: Incident Management
+    stream: b
+    stream_title: Incident Response
+    maturity: 1
+    answers:
+        - No
+        - Yes, for some of the applications
+        - Yes, for at least half of the applications
+        - Yes, for majority of the applications
+    quality_criteria:
+        - a person or role for incident handling is defined
+        - all known security incidents are documented in a consistent way
+        - first KPIs for security incidents are collected
+- A repeatable process for incident handling is in place?
+    security_practice: Incident Management
+    stream: b
+    stream_title: Incident Response
+    maturity: 2
+    answers:
+        - No
+        - Yes, for some of the applications
+        - Yes, for at least half of the applications
+        - Yes, for majority of the applications
+    quality_criteria:
+        - Incident classification is defined
+        - Security playbooks are available for the most common incidents
+        - You perform Root Case Analysis for the most severe security incidents
+        - there is dedicated training for incident response staff
+        - forensic analysis tooling is available
