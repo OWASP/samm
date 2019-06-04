@@ -1,0 +1,24 @@
+- Do you answer questions listed in OWASP SAMM?
+    security_practice: Education & Guidance
+    stream: a
+    maturity: 1
+    answers:
+        - No
+        - Yes, some of the time
+        - Yes, at least half of the time
+        - Yes, the majority of them
+    quality_criteria:
+        - You read the question carefully
+        - You think about the question carefully before you choose your answer
+- Do you answer questions listed in OWASP SAMM?
+    security_practice: Education & Guidance
+    stream: a
+    maturity: 1
+    answers:
+        - No
+        - Yes, some of the time
+        - Yes, at least half of the time
+        - Yes, the majority of them
+    quality_criteria:
+        - You read the question carefully
+        - You think about the question carefully before you choose your answer
