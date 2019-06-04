@@ -1,4 +1,4 @@
-- Do you analyze available log data for possible security incidents on a daily basis?
+- Do you analyze available log data for possible security incidents on a daily basis?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -14,7 +14,7 @@
         - you have identified, evaluated and documented suspicious events
         - the escalation process is documented
         - you have defined how log data integrity is protected
-- Is responsible staff alerted in near real-time if a highly suspicious event occurs? 
+- Is responsible staff alerted in near real-time if a highly suspicious event occurs?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -28,7 +28,7 @@
         - some automated measures for incident detection are employed
         - you have up-to-date documentation for the incident detection process
         - every new system taken to production is integrated into the process
-- Have you improved the incident detection process in the last 6 months?
+- Have you improved the incident detection process in the last 6 months?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -42,7 +42,7 @@
         - there is evidence that the detection scenarios have been updated from other security practices in the last 6 months
         - the detection process has its own KPIs
         - there are tickets in dev queues with requests for log data improvement
-- A setup for incident handling is defined and known?
+- A setup for incident handling is defined and known?:
     security_practice: Incident Management
     stream: b
     stream_title: Incident Response
@@ -56,7 +56,7 @@
         - a person or role for incident handling is defined
         - all known security incidents are documented in a consistent way
         - first KPIs for security incidents are collected
-- A repeatable process for incident handling is in place?
+- A repeatable process for incident handling is in place?:
     security_practice: Incident Management
     stream: b
     stream_title: Incident Response
