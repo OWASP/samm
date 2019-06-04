@@ -39,9 +39,10 @@ The build process is stored centrally and accessible to any tools or people who 
 
 Review any build tools routinely, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool's configuration so that it is aligned with vendor guidelines and industry best practices.
 
-Include steps in the build process for signing the generated binaries with an appropriate certificate.
+Determine a value for each generated artifact that can be later used to verify it's integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
 
 ## Maturity 2
+
 ### Benefit
 A fully automated build system allows easy integration of automated security checks at all stages of the build process, and ensures separate but consistent build environments.
 
@@ -54,7 +55,7 @@ The use of an automated system to setup the build pipeline increases reliance on
 
 The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Refer to [Implementation > Secure Deployment](i-secure-deployment) > B.
 
-Ideally, handle code signing on a separate centralized server which does not expose the certificate to the system executing the build.
+Sign generated artifacts using a certificate that identifies the organization or business unit that built it, such that its integrity and can be verified later.
 
 
 ## Maturity 3
@@ -73,8 +74,9 @@ If any of the security tests like SAST are not carried out successfully, the bui
 
 If technical limitations prevent the organisation from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
 
-Take steps to verify the integrity of the build system, for example through a deterministic method that outputs byte-for-byte reproducible builds. Compare the binary output with that from other equivalent build systems to ensure it hasn't been tampered with.
+Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build.
 
+Where possible,  use a deterministic method that outputs byte-for-byte reproducible artifacts. Compare the binary output with that from other equivalent build systems to ensure it hasn't been tampered with.
 
 # B: Software Dependencies
 
