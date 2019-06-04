@@ -31,16 +31,15 @@ The second stream acknowledges the prevalence of software dependencies in modern
 Consistent and repeatable builds help developers focus on application-specific issues, and make it possible to automate builds in the future. This reduces the likelihood of human error during builds which can lead to security vulnerabilities.
 
 ### Activity
-Fully document the complete build process, breaking it down into clear stages for consistent reproduction. Following the build process does not require any additional knowledge about the software - meaning that the documentation is complete and not open to interpretation.
+Define the build process, breaking it down into a set of clear instuctions to either be followed by a person or an automated tool. The process is complete so that the person or tool can follow it consistently each time and produce the same result. 
 
-The documentation does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
+The process definition does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
 
-Keep a master copy of the build documentation in one central location accessible by all who require access. Avoid having multiple copies, some of which may become accidentally outdated.
+The build process is stored centrally and accessible to any tools or people who might need access. Do not store or distribute multiple copies, some of which may become outdated.
 
-Include all the tools required for the build to succeed in the documentation. Review these tools routinely to ensure that they are actively maintained (supported) and up to date with all security patches. Harden each tool's configuration so they are aligned with vendor or trusted third-party guidelines.
+Review any build tools routinely, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool's configuration so that it is aligned with vendor guidelines and industry best practices.
 
 Include steps in the build process for signing the generated binaries with an appropriate certificate.
-
 
 ## Maturity 2
 ### Benefit
