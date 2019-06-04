@@ -11,7 +11,7 @@ type: security_practice
 This practice forms the basis of your secure software activities by building an overall plan.
 
 # Long Description
-Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organisation.
+Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organization.
 
 A software security program, that selects and prioritizes activities of the rest of the model, serves as the foundation for your efforts. The practice works on building the plan, maintaining and disseminating it.
 
@@ -20,7 +20,7 @@ At the same time, you want to keep track of your security posture and program im
 # Overview
 | | A: Create and Promote | B: Measure and Improve |
 |:---|:---|:---|
-| Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Identify organisation drivers as they relate to the organization's risk tolerance | Define metrics with insight into the effectiveness and efficiency of the Application Security Program |
+| Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Identify organization drivers as they relate to the organization's risk tolerance | Define metrics with insight into the effectiveness and efficiency of the Application Security Program |
 | Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Publish a unified strategy for application security  | Set targets and KPI's for measuring the program effectiveness |
 | Maturity 3 - Align security efforts with the relevant organizational indicators and asset values. | Align the application security program to support the organization's growth | Influence the strategy based on the metrics and organizational needs |
 
@@ -38,10 +38,36 @@ Gathered information provides a baseline for  the organization to develop and pr
 The baseline and individual risk factors should be published and made available to application development teams to ensure a more transparent process of creating application risk profiles and incorporating the organization’s priorities into the program. Additionally, these goals should provide a set of objectives which should be used to ensure all application security program enhancements provide direct support of the organization’s current and future needs.
 
 
+#### Maturity Questions
+##### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+#### Quality Indicators
+
+#### Notes
+<!--
+should also include organisational perspective + link to business priorities and regulatory compliance
+The goal here is to promote the metrics as well as the application security program.
+
+**Summit MN**:
+* identify objectives, not drivers
+* some of the writing is linked to rather to business than to applications -> talk about organization/business risk rather than application risk
+* link betwwen application risk profile (design -> threat assessnent) and this level should be made
+* baseline = minimal set of requirements which all aplications within the organization have to meet
+* It might be better to work with risk drivers rather than threats (is it sensibvle to start rather positively?) - maybe add sth like "depending on your culture" or put it in the implementation guidance
+-->
+
+#### Guidance
 
 ## Maturity 2
 ### Benefit
-Have an aligned plan and roadmap within the organisation.
+Have an aligned plan and roadmap within the organization.
 
 ### Activity
 Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security. The plan covers 1 to 3 years and includes milestones consistent with the organization’s business drivers and risks. It provides tactical and strategic initiatives and follows a roadmap that makes its alignment with business priorities and needs visible.
@@ -50,6 +76,25 @@ In the roadmap reach a balance between changes requiring financial expenditures,
 
 For the program to be successful, the application security team obtains buy-in from the organization’s stakeholders and application development teams. A published plan is available to anyone who is required to support or participate in its implementation.
 
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators
+
+#### Notes
+<!--
+
+**Summit MN:**
+* short description: establish roadmaps AND KPIs
+* 3-5 year strategy is too long, maybe 1-3 years? NK: changed in text.
+-->
 
 ## Maturity 3
 ### Benefit
@@ -62,6 +107,25 @@ In addition to reviewing the business drivers, the organization closely monitors
 
 The organization develops dashboards and measurements for management and teams responsible for software development to monitor the implementation of the roadmap. These dashboards are detailed enough to identify individual projects and initiatives and provide a clear understanding of whether the program is successful and aligned with the organization’s needs.
 
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators
+
+#### Notes
+<!--
+**Summit MN:**
+* maybe consider only focus on metrics
+* develop a set of dashboards -> make sure that metrics support it
+* rephrase level 3, last paragraph focus on challenging the efficiency of the metrics
+-->
 
 # B: Measure and Improve
 
@@ -76,7 +140,7 @@ Define and document metrics to evaluate the effectiveness and efficiency of the 
 * `Result` metrics measure the results of security efforts. Examples include number of unpatched security defects and number of security incidents involving application vulnerabilities.
 * `Environment` metrics measure the environment where security efforts take place. Examples include number of applications or lines of code as a measure of difficulty or complexity.  
 
-Each measure by itself is useful for a specific purpose, but a combination of two or three metrics together helps explain spikes in metrics trends. For example, a spike in a total number of vulnerabilities may be caused by the organization onboarding several new applications that have not been previously exposed to the implemented application security mechanisms. Alternatively, an increase in the environment metrics without a corresponding increase in the effort or result could be an indicator of a mature and efficient security program.
+Each measure by itself is useful for a specific purpose, but a combination of two or three metrics together helps explain spikes in metrics trends. For example, a spike in a total number of vulnerabilities may be caused by the organization on-boarding several new applications that have not been previously exposed to the implemented application security mechanisms. Alternatively, an increase in the environment metrics without a corresponding increase in the effort or result could be an indicator of a mature and efficient security program.
 
 While identifying metrics, it’s always recommended to stick to the metrics that meet several criteria:
 
@@ -87,6 +151,46 @@ While identifying metrics, it’s always recommended to stick to the metrics tha
 
 Document metrics and include descriptions of best and most efficient methods for gathering data, as well as recommended methods for combining individual measures into meaningful metrics. For example, a number of applications and a total number of defects across all applications may not be useful by themselves but, when combined as a number of outstanding high-severity defects per application, they provide a more actionable metric.
 
+
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators
+
+#### Notes
+<!--
+Assets is to be interpreted broader than the software only.
+
+We should make sure that we address metrics from the stand point of:
+- Metrics to measure the maturity of each BF and SP
+- Non-Defect related metrics that measure activities such as training, threat assessments, etc
+- Defect-related such as bugs / issues / etc
+
+We should make sure to reference all other Security Practices and activities within the model, such as Implementation Defect Tracking metrics
+
+**Summit MN:**
+* decrease of number of vulnerabilites is 2nd order metrics, focus on 1st level metrics
+* number of base metrics and deduced metrics -> might be sensible to mention it
+* we can call the metrics from defect tracking as an example
+* "result" is a better word rather than "impact" (just stressing the fact)
+* "most efficient matter for gathering data" -> mention that you can gather data in a manual or automated (preferred) way
+* "Expressed as a unit of measure" -> units should be the ones people care about ("covered lines of code" not a good example)
+* CMMI levels not very recognizeable in the description of all levels (Best effort / Process and alignment / Improving and measuring)
+* we don't mention that one of the metrics is budget spent
+* what are the drivers for definition of a particular metric? Which metrics are useful? Should we measure anything we can or not? Some ground should be laid in the practice description
+* measuring SAMM Maturity as an example as well?
+* discussion on inexpensive vs expensive metrics - cost/benefit? or just cost e.g. in term of hours?
+* Maybe some of the metrics to be put on level 2? bar too high?
+* discussion about coverage? where to start? (probably rather easy)
+* measurement and risk mgmt? Should there be more of it? - no decision
+-->
 
 ## Maturity 2
 ### Benefit
@@ -99,6 +203,19 @@ While several measurements are useful for monitoring the information security pr
 
 Fully document KPIs and distribute them to the teams contributing to the success of the program as well as organization’s leadership. Ideally, include a brief explanation of the information sources for each KPI and the meaning if the numbers are high or low. Include short and long-term goals, and ranges for unacceptable measurements requiring immediate intervention. Share action plans with application security and application development teams to ensure full transparency in understanding of the organization’s objectives and goals.
 
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators
+
+#### Notes
 
 ## Maturity 3
 ### Benefit
@@ -113,3 +230,21 @@ Define guidelines for influencing the Application Security program based on the 
 * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
 
 When defining the overall metrics strategy, keep the end-goal in mind and define what decisions can be made as a result of changes in KPIs and metrics as soon as possible, to help guide development of metrics.
+
+### Maturity Questions
+#### Q 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+
+**Answer Options**
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
+### Quality Indicators
+
+#### Notes
+<!--
+**Summit MN:**
+* level 3 should be about driving and correcting your program - not very visible in the description
+-->
