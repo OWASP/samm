@@ -1,1 +1,44 @@
-
+- Do you analyze available log data for possible security incidents on a daily basis?
+    security_practice: Incident Management
+    stream: a
+    stream_title: Incident Detection
+    maturity: 1
+    answers:
+        - No
+        - Yes, for some of the applications
+        - Yes, for at least half of the applications
+        - Yes, for majority of the applications
+    quality_criteria:
+        - the most probable incident scenarios are defined and published
+        - a person or role for incident detection is defined
+        - you have identified, evaluated and documented suspicious events
+        - the escalation process is documented
+        - you have defined how log data integrity is protected
+- Is responsible staff alerted in near real-time if a highly suspicious event occurs? 
+    security_practice: Incident Management
+    stream: a
+    stream_title: Incident Detection
+    maturity: 2
+    answers:
+        - No
+        - Yes, for some of the applications
+        - Yes, for at least half of the applications
+        - Yes, for majority of the applications
+    quality_criteria:
+        - some automated measures for incident detection are employed
+        - you have up-to-date documentation for the incident detection process
+        - every new system taken to production is integrated into the process
+- Have you improved the incident detection process in the last 6 months?
+    security_practice: Incident Management
+    stream: a
+    stream_title: Incident Detection
+    maturity: 3
+    answers:
+        - No
+        - Yes, for some of the applications
+        - Yes, for at least half of the applications
+        - Yes, for majority of the applications
+    quality_criteria:
+        - there is evidence that the detection scenarios have been updated from other security practices in the last 6 months
+        - the detection process has its own KPIs
+        - there are tickets in dev queues with requests for log data improvement
