@@ -110,7 +110,7 @@ Ability to efficiently solve most common security incidents.
 
 The first step is to recognize the incident response competence as such and define a responsible owner. They keep up with current state of incident handling best practices and forensic tooling.
 
-You usually don't go for dedicated incident response personnel on this maturity level, but you define  the participants of the process are defined (for instance, regular admins or developers helping in case of need). There is a known single point of contact for the team and a conscious decision regarding reachability of the personnel.
+You usually don't go for dedicated incident response personnel on this maturity level, but you define the participants of the process (for instance, regular admins or developers helping in case of need). There is a known single point of contact for the team and a conscious decision regarding reachability of the personnel.
 
 When security incidents happen, you document the steps taken. Protect this information from unauthorized access if necessary.
 
