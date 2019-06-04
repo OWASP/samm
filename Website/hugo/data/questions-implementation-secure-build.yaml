@@ -13,6 +13,18 @@
         - Your build documentation up to date
         - Your build documentation is stored in an accessible location
         - Your build documentation contains no secrets like passwords
+- Do you sign artifacts produced during builds?:
+    security_practice: Implementation
+    stream: A
+    stream_title: Build Process
+    maturity: 1
+    answers:
+        - No - 0%
+        - Yes, for some applications - 25%
+        - Yes, for at least half of the applications - 50%
+        - Yes, for the majority of applications - 100%
+    quality_criteria:
+        - Signing is documented in the build processes
 - Are build processes automated?:
     security_practice: Implementation
     stream: A
@@ -41,3 +53,5 @@
         - You log warnings and failures in a centralized system
         - Build processes prevent deployment to production when security checks fail
         - You select and configure tools to evaluate each application against its security requirements
+ 
+ 
