@@ -8,10 +8,10 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, some of them
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, at least half of them
             weight: 0.5
         - D:
             answer: Yes, the majority of them
@@ -31,13 +31,13 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, some content has been updated
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, at least half of the content
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: Yes, the majority of the content
             weight: 1
     quality_criteria:
             - Employees are required to go through the training during the onboarding process
@@ -53,19 +53,19 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, some content has been updated
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, at least half of the content
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: Yes, the majority of the content
             weight: 1
     quality_criteria:
             - Training includes all topics covered within maturity level 1, and adds more specific tools, techniques, and demonstrations
             - Training is mandatory for all employees and contractors
 
-- Does the training include input from in-house SMEs and collect feedback?:
+- Does the training include input from in-house SMEs and trainees?:
     security_practice: Education & Guidance
     stream: A
     stream_title: Training and Awareness
@@ -97,13 +97,13 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, for some of the trianing
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, at least half of the training
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: Yes, the majority of training
             weight: 1
     quality_criteria:
                 - A Learning Management System (LMS) is used to track training and any certifications
@@ -144,13 +144,13 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, started to implement
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, effective for some of the organization
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: Yes, effective for most of the organization
             weight: 1
     quality_criteria:
                 - The SSCE has a formal charter defining its role in the organization.
@@ -192,13 +192,13 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, started to implement
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, effective for some of the organization
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: Yes, effective for most of the organization
             weight: 1
     quality_criteria:
                 - Organization promotes use of a single portal across different teams and business units
