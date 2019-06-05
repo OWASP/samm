@@ -108,7 +108,7 @@
         - You have a list of reusable security services organised by security mechanism
         - You have reviewed the baseline security posture for each selected service
         - Your designers are trained to integrate each selected service following available guidance
- - XX?: 
+ - Do you base your design on available reference architectures?: 
     security_practice: Security Architecture
     stream: A
     stream_title: Architecture Design
@@ -127,6 +127,6 @@
             answer: Yes, for the majority of the applications
             weight: 1
     quality_criteria:
-        - You have a list of reusable security patterns organised by security mechanism
-        - You have linked each security pattern to a corresponding security service where applicable 
-        - Your designers are familiar with the patterns 
+        - You have a list of approved reference architectures.
+        - You improve the reference architectures continuously based on insights and best practices.
+        - You provide a set of components, libraries, and tools to implement each reference architecture.
