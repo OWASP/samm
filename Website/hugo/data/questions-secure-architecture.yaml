@@ -20,7 +20,7 @@
         - You have at least one checklist
         - You have agreed upon your checklists
         - Your checklists are stored in an accessible location
- - Do you favour the use of standard security services during design?: 
+- Do you favour the use of standard security services during design?: 
     security_practice: Security Architecture
     stream: A
     stream_title: Architecture Design
@@ -42,7 +42,7 @@
         - You have a list of reusable security services organised by security mechanism
         - You have reviewed the baseline security posture for each selected service
         - Your designers are trained to integrate each selected service following available guidance
- - Do you favour the use of standard security patterns during design?:
+- Do you favour the use of standard security patterns during design?:
     security_practice: Security Architecture
     stream: A
     stream_title: Architecture Design
@@ -86,7 +86,7 @@
         - You have at least one checklist
         - You have agreed upon your checklists
         - Your checklists are stored in an accessible location
- - Do you favour the use of standard security services during design?: 
+- Do you favour the use of standard security services during design?: 
     security_practice: Security Architecture
     stream: A
     stream_title: Architecture Design
@@ -108,7 +108,7 @@
         - You have a list of reusable security services organised by security mechanism
         - You have reviewed the baseline security posture for each selected service
         - Your designers are trained to integrate each selected service following available guidance
- - Do you base your design on available reference architectures?: 
+- Do you base your design on available reference architectures?: 
     security_practice: Security Architecture
     stream: A
     stream_title: Architecture Design
