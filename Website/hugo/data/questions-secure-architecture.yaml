@@ -20,7 +20,7 @@
         - You have at least one checklist
         - You have agreed upon your checklists
         - Your checklists are stored in an accessible location
- - Do you identify and promote standard security services with guidance?:
+ - Do you favour the use of standard security services during design? 
     security_practice: Security Architecture
     stream: A
     stream_title: Architecture Design
@@ -30,15 +30,15 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, localized to business areas
+            answer: Yes, for some of the applications.
             weight: 0.25
         - C:
-            answer: Yes, across the organization
+            answer: Yes, for at least half of the applications
             weight: 0.5
         - D:
-            answer: Yes, across the organization and required
+            answer: Yes, for the majority of the applications
             weight: 1
     quality_criteria:
-        - You have at least one checklist
-        - You have agreed upon your checklists
-        - Your checklists are stored in an accessible location
+        - You have a list of reusable security services organised by security mechanism
+        - You have reviewed the baseline security posture for each selected service
+        - Your designers are trained to integrate each selected service following available guidance
