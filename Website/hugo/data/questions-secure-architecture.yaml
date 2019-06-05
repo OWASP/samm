@@ -20,3 +20,25 @@
         - You have at least one checklist
         - You have agreed upon your checklists
         - Your checklists are stored in an accessible location
+ - Do you identify and promote standard security services with guidance?:
+    security_practice: Security Architecture
+    stream: A
+    stream_title: Architecture Design
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, localized to business areas
+            weight: 0.25
+        - C:
+            answer: Yes, across the organization
+            weight: 0.5
+        - D:
+            answer: Yes, across the organization and required
+            weight: 1
+    quality_criteria:
+        - You have at least one checklist
+        - You have agreed upon your checklists
+        - Your checklists are stored in an accessible location
