@@ -2,7 +2,7 @@
 business_functions : Governance
 title : Strategy & Metrics
 assignedto       : Yan Kravchenko (@yanfosec)
-complete         : 40%
+complete         : 50%
 status           : draft        #new, draft, for_review, release_candidate, done
 weight: 1
 type: security_practice
@@ -11,7 +11,7 @@ type: security_practice
 This practice forms the basis of your secure software activities by building an overall plan.
 
 # Long Description
-Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organisation.
+Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organization.
 
 A software security program, that selects and prioritizes activities of the rest of the model, serves as the foundation for your efforts. The practice works on building the plan, maintaining and disseminating it.
 
@@ -20,7 +20,7 @@ At the same time, you want to keep track of your security posture and program im
 # Overview
 | | A: Create and Promote | B: Measure and Improve |
 |:---|:---|:---|
-| Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Identify organisation drivers as they relate to the organization's risk tolerance | Define metrics with insight into the effectiveness and efficiency of the Application Security Program |
+| Maturity 1 - Identify objectives and means of measuring effectiveness of the security program | Identify organization drivers as they relate to the organization's risk tolerance | Define metrics with insight into the effectiveness and efficiency of the Application Security Program |
 | Maturity 2 - Establish a unified strategic roadmap for software security within the organization. | Publish a unified strategy for application security  | Set targets and KPI's for measuring the program effectiveness |
 | Maturity 3 - Align security efforts with the relevant organizational indicators and asset values. | Align the application security program to support the organization's growth | Influence the strategy based on the metrics and organizational needs |
 
@@ -31,7 +31,7 @@ At the same time, you want to keep track of your security posture and program im
 Have a common understanding of an application security baseline.
 
 ### Activity
-Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization. Gathered information includes worst-case scenarios that could impact the organization, as well as opportunities where an optimized software development lifecycle and more secure applications could provide a market-differentiator or create additional opportunities.
+Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization. Gathered information includes worst-case scenarios that could impact the organization, as well as opportunities where an optimized software development life-cycle and more secure applications could provide a market-differentiator or create additional opportunities.
 
 Gathered information provides a baseline for  the organization to develop and promote its application security program. Items in the program are prioritized to address threats and opportunities most important to the organization. The baseline is split into several risk factors and drivers linked directly to the organization’s priorities and used to help build a risk profile of each custom-developed application by documenting how they can impact the organization if they are compromised.
 
@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 <!--
-should also include organisational perspective + link to business priorities and regulatory compliance
+should also include organizational perspective + link to business priorities and regulatory compliance
 The goal here is to promote the metrics as well as the application security program.
 
 **Summit MN**:
@@ -67,7 +67,7 @@ The goal here is to promote the metrics as well as the application security prog
 
 ## Maturity 2
 ### Benefit
-Have an aligned plan and roadmap within the organisation.
+Have an aligned plan and roadmap within the organization.
 
 ### Activity
 Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security. The plan covers 1 to 3 years and includes milestones consistent with the organization’s business drivers and risks. It provides tactical and strategic initiatives and follows a roadmap that makes its alignment with business priorities and needs visible.
@@ -140,7 +140,7 @@ Define and document metrics to evaluate the effectiveness and efficiency of the 
 * `Result` metrics measure the results of security efforts. Examples include number of unpatched security defects and number of security incidents involving application vulnerabilities.
 * `Environment` metrics measure the environment where security efforts take place. Examples include number of applications or lines of code as a measure of difficulty or complexity.  
 
-Each measure by itself is useful for a specific purpose, but a combination of two or three metrics together helps explain spikes in metrics trends. For example, a spike in a total number of vulnerabilities may be caused by the organization onboarding several new applications that have not been previously exposed to the implemented application security mechanisms. Alternatively, an increase in the environment metrics without a corresponding increase in the effort or result could be an indicator of a mature and efficient security program.
+Each measure by itself is useful for a specific purpose, but a combination of two or three metrics together helps explain spikes in metrics trends. For example, a spike in a total number of vulnerabilities may be caused by the organization on-boarding several new applications that have not been previously exposed to the implemented application security mechanisms. Alternatively, an increase in the environment metrics without a corresponding increase in the effort or result could be an indicator of a mature and efficient security program.
 
 While identifying metrics, it’s always recommended to stick to the metrics that meet several criteria:
 
@@ -224,7 +224,7 @@ Your application security program is fundamentally driven by objective measures 
 ### Activity
 Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics. These guidelines  combine the maturity of the application development process and procedures  with different metrics to make the program more efficient. The following examples show a relationship between measurements and ways of evolving and improving application security:
 
-* Focus on maturity of the development lifecycle makes the relative cost per defect lower by applying security proactively.
+* Focus on maturity of the development life-cycle makes the relative cost per defect lower by applying security proactively.
 * Monitoring the balance between effort, result, and environment metrics improves the program’s efficiency and justifies additional automation and other methods for improving the overall application security baselines.
 * Individual Security Practices could provide indicators of success or failure of individual application security initiatives.
 * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
