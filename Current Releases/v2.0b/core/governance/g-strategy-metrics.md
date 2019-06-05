@@ -31,7 +31,7 @@ At the same time, you want to keep track of your security posture and program im
 Have a common understanding of an application security baseline.
 
 ### Activity
-Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization. Gathered information includes worst-case scenarios that could impact the organization, as well as opportunities where an optimized software development lifecycle and more secure applications could provide a market-differentiator or create additional opportunities.
+Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization. Gathered information includes worst-case scenarios that could impact the organization, as well as opportunities where an optimized software development life-cycle and more secure applications could provide a market-differentiator or create additional opportunities.
 
 Gathered information provides a baseline for  the organization to develop and promote its application security program. Items in the program are prioritized to address threats and opportunities most important to the organization. The baseline is split into several risk factors and drivers linked directly to the organization’s priorities and used to help build a risk profile of each custom-developed application by documenting how they can impact the organization if they are compromised.
 
@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Notes
 <!--
-should also include organisational perspective + link to business priorities and regulatory compliance
+should also include organizational perspective + link to business priorities and regulatory compliance
 The goal here is to promote the metrics as well as the application security program.
 
 **Summit MN**:
@@ -224,7 +224,7 @@ Your application security program is fundamentally driven by objective measures 
 ### Activity
 Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics. These guidelines  combine the maturity of the application development process and procedures  with different metrics to make the program more efficient. The following examples show a relationship between measurements and ways of evolving and improving application security:
 
-* Focus on maturity of the development lifecycle makes the relative cost per defect lower by applying security proactively.
+* Focus on maturity of the development life-cycle makes the relative cost per defect lower by applying security proactively.
 * Monitoring the balance between effort, result, and environment metrics improves the program’s efficiency and justifies additional automation and other methods for improving the overall application security baselines.
 * Individual Security Practices could provide indicators of success or failure of individual application security initiatives.
 * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
