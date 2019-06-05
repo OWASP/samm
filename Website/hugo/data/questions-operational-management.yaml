@@ -18,7 +18,6 @@
             weight: 1
     quality_criteria:
         - You have assigned a sensitivity level to each application and data store
-        - You label and handle offline media according to the sensitivity of the data 
 
 - Do you have controls in place to ensure sensitive data are sanitized before propagation to a non-production environment, and verify compliance with those controls?:
     security_practice: Operational Management
@@ -39,10 +38,10 @@
             answer: Yes, most or all of the time
             weight: 1
     quality_criteria:
-        - You have implemented processes for data sanitization
-        - You have implemented processes for verifying data deployed to non-production environments contain no sensitive information 
+        - You have implemented processes for data sanitization, and follow those processes when migrating data from production to non-production
+        - You conduct periodic reviews of non-production environments, to verify no sensitive data have propagated to them
 
-- ?:
+- Do you maintain a data catalog, including their types, sensitivity levels, and processing/storage locations?:
     security_practice: Operational Management
     stream: A
     stream_title: Data Protection
@@ -52,18 +51,68 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, we created it more than five years ago
+            answer: Yes, for some of our data
             weight: 0.2
         - C:
-            answer: Yes, we created it one-to-three years ago
+            answer: Yes, for at least half of our data
             weight: 0.5
         - D:
-            answer: Yes, we created it within the last year
+            answer: Yes, for most or all of our data
             weight: 1
     quality_criteria:
-        - 
+        - Your data catalog is complete, with all required information captured for each data element
+        - You keep your data catalog updated and aligned with changes to data architecture
+        - The data catalog is stored in an accessible location
 
-- ?:
+- Have you established retention requirements for data, and do you destroy backups in a timely manner after the relevant retention period ends?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some of our data
+            weight: 0.2
+        - C:
+            answer: Yes, for at least half of our data
+            weight: 0.5
+        - D:
+            answer: Yes, for most or all of our data
+            weight: 1
+    quality_criteria:
+        - All data have an established retention period
+        - You protect offline media from disclosure and destruction throughout the retention period
+        - You conduct periodic spot checks of backup media, to verify they are not corrupted
+        - You conduct periodic tests of equipment needed to restore data (e.g., tape drives), to verify they are functioning correctly
+        - You destroy and dispose of media, following established procedures, at end-of-life
+
+- Have you established handling requirements for all data elements, based on their sensitivity levels, and are these requirements followed?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some of our data
+            weight: 0.2
+        - C:
+            answer: Yes, for at least half of our data
+            weight: 0.5
+        - D:
+            answer: Yes, for most or all of our data
+            weight: 1
+    quality_criteria:
+        - You have established standards for labeling, handling, and protection of physical media, including printed reports, based on data sensitivity
+        - You provide training on data handling and sanitization guidelines to all staff, preferably as part of onboarding
+        - You inspect off-site data storage facilities, to verify all required security protections (e.g., locks, video surveillance) remain in place and function properly
+
+- Have you implemented automated monitoring, to detect attempted or actual violations of the Data Protection Policy?:
     security_practice: Operational Management
     stream: A
     stream_title: Data Protection
@@ -73,13 +122,55 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, we review it every few years
+            answer: Yes, for some of our data
             weight: 0.2
         - C:
-            answer: Yes, we review it every two years or so
+            answer: Yes, for at least half of our data
             weight: 0.5
         - D:
-            answer: Yes, we review it at least annually
+            answer: Yes, for most or all of our data
+            weight: 1
+    quality_criteria:
+        - You have implemented monitoring on at least the highest-risk exfiltration routes, and follow-up on all alerts
+        
+- Do you audit implementation of, and compliance with, administrative data protection controls?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 3
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, we've done it once
+            weight: 0.2
+        - C:
+            answer: Yes, we do it every few years
+            weight: 0.5
+        - D:
+            answer: Yes, we do it at least annually
+            weight: 1
+    quality_criteria:
+        - 
+
+- Do you review and update the data catalog, and your data protection policies/procedures?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 3
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, we do it when requested
+            weight: 0.2
+        - C:
+            answer: Yes, we do it every few years
+            weight: 0.5
+        - D:
+            answer: Yes, we do it at least annually
             weight: 1
     quality_criteria:
         - 
