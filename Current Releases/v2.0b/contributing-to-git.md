@@ -62,7 +62,7 @@ git checkout -b <branch-name>
 
 The branch name should follow the following naming convention:
 
-`<type>\<initials>-<title>`
+`<type>-<initials>-<title>`
 
 **Change Types**
 
@@ -70,7 +70,7 @@ The branch name should follow the following naming convention:
 * `major` - To be used for all changes that impact the model, but do not impact how the maturity is scored, such as supplemental guidance or enhancements to activity descriptions
 * `scoring` - Changes to the model that impact how the model is scored, such as changes that impact the questionnaire, model structure, or other significant components of SAMM
 
-Therefore, a branch name for a spelling fix might look something like: `minor\yk-spelling-governance`
+Therefore, a branch name for a spelling fix might look something like: `minor-yk-spelling-governance`
 
 ### Step 4 - Make changes
 
