@@ -1,0 +1,151 @@
+- Do you understand and capture the types and sensitivity of data stored and processed by applications?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 1
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.2
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, most or all of the time
+            weight: 1
+    quality_criteria:
+        - You have assigned a sensitivity level to each application and data store
+        - You label and handle offline media according to the sensitivity of the data 
+
+- Do you have controls in place to ensure sensitive data are sanitized before propagation to a non-production environment, and verify compliance with those controls?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 1
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.2
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, most or all of the time
+            weight: 1
+    quality_criteria:
+        - You have implemented processes for data sanitization
+        - You have implemented processes for verifying data deployed to non-production environments contain no sensitive information 
+
+- ?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, we created it more than five years ago
+            weight: 0.2
+        - C:
+            answer: Yes, we created it one-to-three years ago
+            weight: 0.5
+        - D:
+            answer: Yes, we created it within the last year
+            weight: 1
+    quality_criteria:
+        - 
+
+- ?:
+    security_practice: Operational Management
+    stream: A
+    stream_title: Data Protection
+    maturity: 3
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, we review it every few years
+            weight: 0.2
+        - C:
+            answer: Yes, we review it every two years or so
+            weight: 0.5
+        - D:
+            answer: Yes, we review it at least annually
+            weight: 1
+    quality_criteria:
+        - 
+
+- Do you answer questions listed in OWASP SAMM?:
+    security_practice: Operational Management
+    stream: B
+    stream_title: System decomissioning / Legacy management
+    maturity: 1
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.2
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - You read the question carefully
+        - You think about the question carefully before you choose your answer
+
+- Do you answer questions listed in OWASP SAMM?:
+    security_practice: Operational Management
+    stream: B
+    stream_title: System decomissioning / Legacy management
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.2
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - You read the question carefully
+        - You think about the question carefully before you choose your answer
+
+- Do you answer questions listed in OWASP SAMM?:
+    security_practice: Operational Management
+    stream: B
+    stream_title: System decomissioning / Legacy management
+    maturity: 3
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.2
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - You read the question carefully
+        - You think about the question carefully before you choose your answer
