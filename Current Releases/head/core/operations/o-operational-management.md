@@ -16,10 +16,10 @@ The functions covered by this practice include, but are not limited to: system p
 
 # Overview
 
-| | A: Data Protection | B: System decomissioning / Legacy management |
+| | A: Data Protection | B: System decommissioning / Legacy management |
 |:---|:---|:---|
 | Maturity 1 - Foundational Practices | Basic Data Protections in Place | Identification of unused and legacy applications/services |
-| Maturity 2 - Managed, Responsive Processes | Data catalogued and data protection policy established | Decomissioning and legacy migration processes in place |
+| Maturity 2 - Managed, Responsive Processes | Data catalogued and data protection policy established | Decommissioning and legacy migration processes in place |
 | Maturity 3 - Active Monitoring and Response | Data policy breaches detected and acted upon | Proactive reliable handling of legacy applications/services |
 
 ## Practice Notes
@@ -188,7 +188,7 @@ Are the data catalogue and data protection policies/procedures reviewed and upda
 - Watermarks on documents? To help you trace leaks
 
 
-# B: System decomissioning / Legacy management
+# B: System decommissioning / Legacy management
 
 From the perspective of the organization as a consumer of resources, the activities in this stream focus on the identification, management, and tracking of systems, applications, application dependencies, and services that are no longer used, have reached end of life, or are no longer actively developed or supported. Removal of unused systems and services improves manageability of the environment and reduces the organization's attack surface, while affording direct and indirect cost savings (e.g., reduced license count, reduced logging volume, or reduced analyst effort).
 
