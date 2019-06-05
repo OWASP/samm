@@ -66,7 +66,7 @@ The goal of this activity is to thoroughly understand the risk level of all appl
 
 From a risk evaluation perspective, the basic set of questions is not enough to thoroughly evaluate the risk of all applications. Create an extensive and standardized way to evaluate the risk of the application, among others via their impact on information security (confidentiality, integrity and availability of data). Next to security, you also want to evaluate the privacy risk of the application. Understand the data that the application processes and what potential privacy violations are relevant. Finally, study the impact that this application has on other applications within the organisation (e.g., the application might be modifying data that was considered read-only in another context). Evaluate all applications within the organisation, including all existing and legacy ones.
 
-Consider using quantitative schemes to classify application risk. A simple qualitative scheme (such as high/medium/low) is not enougnh to effectively manage and compare applications on an enterprise-wide level.
+Consider using quantitative schemes to classify application risk. A simple qualitative scheme (such as high/medium/low) is not enough to effectively manage and compare applications on an enterprise-wide level.
 
 Based on this input, build a centralized inventory of risk profiles that use the outcome of the risk evaluations to define the profile. This inventory gives all stakeholders an aligned view of the risk level of an application to assign appropriate priority to security-related activities.
 
