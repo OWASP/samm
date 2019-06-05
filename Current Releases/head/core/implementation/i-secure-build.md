@@ -39,7 +39,7 @@ The build process is stored centrally and accessible to any tools or people who 
 
 Review any build tools routinely, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool's configuration so that it is aligned with vendor guidelines and industry best practices.
 
-Determine a value for each generated artifact that can be later used to verify it's integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
+Determine a value for each generated artifact that can be later used to verify its integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
 
 ## Maturity 2
 

@@ -11,7 +11,7 @@ type: security_practice
 This practice focuses on increasing the knowledge in the organization regarding secure software.
 
 # Long Description
-The Education & Guidance (EG) Practice focuses on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization.
+The Education & Guidance (EG) Practice focuses on arming personnel involved in the software life-cycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization.
 
 One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness, either through instructor-led sessions or computer-based modules. As an organization progresses, it builds a broad base of training starting with developers and moving to other roles, culminating with the addition of role-based training to ensure applicability and effectiveness.
 
@@ -22,7 +22,7 @@ In addition to training, this Practice also requires the organization to make a 
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
 | Maturity 1 - Offer staff access to resources around the topics of secure development and deployment. | Provide security awareness training for all personnel involved in software development | Identify a "Security Champion" within each development team |
-| Maturity 2 - Educate all personnel in the software lifecycle with technology and role-specific guidance on secure development. | Offer technology and role-specific guidance, including security nuances of each language and platform | Develop a secure software center of excellence promoting thought leadership among developers and architects |
+| Maturity 2 - Educate all personnel in the software life-cycle with technology and role-specific guidance on secure development. | Offer technology and role-specific guidance, including security nuances of each language and platform | Develop a secure software center of excellence promoting thought leadership among developers and architects |
 | Maturity 3 - Develop in-house training programs facilitated by developers across different teams | Standardized in-house guidance around the organization's secure software development standards. | Build a secure software community including all organization people involved in software security |
 
 # A: Training and Awareness
@@ -79,7 +79,7 @@ Conduct instructor-led or CBT security training specific to the organization’s
 - Product managers train on topics related to SAMM business functions and security practices, with emphasis on security requirements, threat modeling, and defect tracking.
 - Developers train on coding standards and best practices for the technologies they work with to ensure the training directly benefits application security. They have a solid technical understanding of the OWASP Top 10 vulnerabilities, or similar weaknesses relevant to the technologies and frameworks used (e.g. mobile), and the most common remediation strategies for each issue.
 - Testers train on the different testing tools and best practices for technologies used in the organization, and in tools that identify security defects.
-- Security auditors train on the SDLC lifecycle, application security mechanisms used in the organization, and the process for submitting security defects for remediation.
+- Security auditors train on the SDLC life-cycle, application security mechanisms used in the organization, and the process for submitting security defects for remediation.
 - Security Champions train on security topics from various phases of the SDLC. They receive the same training as developers and testers, but also understand threat modeling and secure design, as well as security tools and technologies that can be integrated into the build environment.
 
 Include all training content from the Maturity Level 1 activities of this stream and additional role-specific and technology-specific content. Eliminate unnecessary aspects of the training.
@@ -122,7 +122,7 @@ Are ...?
 Security is an aspect of product quality, addressed throughout development.
 
 ### Activity
-Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training as part of the on-boarding process. Based on the criticality of the application and user’s role, consider restricting access until the on-boarding training has been completed. While the organization may source some modules externally, the program is facilitated and managed in-house and includes content specific to the organization going beyond general security best-practices. The program has a defined curriculum, checks participation, and tests  understanding and competence. The training consists of a combination of industry best practices and organization’s internal standards, including training on specific systems used by the organization.
+Implement a formal training program requiring anyone involved with the software development life-cycle to complete appropriate role and technology-specific training as part of the on-boarding process. Based on the criticality of the application and user’s role, consider restricting access until the on-boarding training has been completed. While the organization may source some modules externally, the program is facilitated and managed in-house and includes content specific to the organization going beyond general security best-practices. The program has a defined curriculum, checks participation, and tests  understanding and competence. The training consists of a combination of industry best practices and organization’s internal standards, including training on specific systems used by the organization.
 
 In addition to issues directly related to security, the organization includes other standards to the program, such as code complexity, code documentation, naming convention, and other process-related disciplines. This training minimizes issues resulting from employees following practices incorporated outside the organization and ensures continuity in the style and competency of the code.
 
@@ -209,7 +209,7 @@ The organization implements a formal secure coding center of excellence, with  a
 
 This ensures all current programming efforts follow industry’s best practices and organization’s development and implementation standards include all critical configuration settings. It helps identify, train, and support “Product Champions”,  responsible for assisting different teams with implementing tools that automate, streamline, or improve various aspects of the SDLC. It identifies development teams with higher maturity levels within their SDLC and the practices and tools that enable these achievements, with the goal of replicating them to other teams.
 
-The group provides subject matter expertise, helping information security teams evaluate tools and solutions to improve application security, ensuring these tools are not only useful but also compatible with the way different teams develop applications. Teams looking to make significant architectural changes to their software consult with this group to avoid adversely impacting the SDLC lifecycle or established security controls.
+The group provides subject matter expertise, helping information security teams evaluate tools and solutions to improve application security, ensuring these tools are not only useful but also compatible with the way different teams develop applications. Teams looking to make significant architectural changes to their software consult with this group to avoid adversely impacting the SDLC life-cycle or established security controls.
 
 ### Maturity Questions
 #### Does the organization have a Secure Software Center of Excellence including a formal charter defining its objectives?
