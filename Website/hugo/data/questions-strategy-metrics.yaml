@@ -32,10 +32,10 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, we created one more than five years ago
+            answer: Yes, we created it more than five years ago
             weight: 0.25
         - C:
-            answer: Yes, we created one one-to-three years ago
+            answer: Yes, we created it one-to-three years ago
             weight: 0.5
         - D:
             answer: Yes, we created it within the last year
