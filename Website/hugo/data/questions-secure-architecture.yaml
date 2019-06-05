@@ -42,3 +42,25 @@
         - You have a list of reusable security services organised by security mechanism
         - You have reviewed the baseline security posture for each selected service
         - Your designers are trained to integrate each selected service following available guidance
+ - Do you favour the use of standard security patterns during design? 
+    security_practice: Security Architecture
+    stream: A
+    stream_title: Architecture Design
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - You have a list of reusable security patterns organised by security mechanism
+        - You have linked each security pattern to a corresponding security service where applicable 
+        - Your designers are familiar with the patterns
