@@ -18,6 +18,7 @@ One major theme for improvement across the Objectives is providing training for 
 In addition to training, this Practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams. Collaboration tools and increased transparency between technologies and tools support this approach to improve the security of the applications.
 
 # Overview
+
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
 | Maturity 1 - Offer staff access to resources around the topics of secure development and deployment. | Provide security awareness training for all personnel involved in software development | Identify a "Security Champion" within each development team |
