@@ -17,7 +17,6 @@ One major theme for improvement across the Objectives is providing training for 
 
 In addition to training, this Practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams. Collaboration tools and increased transparency between technologies and tools support this approach to improve the security of the applications.
 
-
 # Overview
 | | A: Training and Awareness | B: Organization and Culture |
 |:---|:---|:---|
@@ -28,6 +27,7 @@ In addition to training, this Practice also requires the organization to make a 
 # A: Training and Awareness
 
 ## Maturity 1
+
 ### Benefit
 Stakeholders involved in producing software have an appreciation for the difficulty of creating secure software and the value of a secure SDLC.
 ### Activity
