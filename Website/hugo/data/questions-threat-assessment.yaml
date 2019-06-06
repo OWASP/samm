@@ -5,7 +5,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of them
@@ -29,7 +29,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, for some of the applications
@@ -52,7 +52,7 @@
     maturity: 3
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, sporadically
@@ -75,7 +75,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, for some of them
@@ -98,7 +98,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, for some of them
@@ -121,7 +121,7 @@
     maturity: 3
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of the time

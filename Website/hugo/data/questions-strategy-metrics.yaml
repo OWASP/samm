@@ -5,7 +5,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, basic risks
@@ -29,7 +29,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some teams do
@@ -52,7 +52,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, we created it more than three years ago
@@ -77,7 +77,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, review it annually
@@ -100,7 +100,7 @@
     maturity: 3
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, we review it every few years
@@ -124,7 +124,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, but only one metrics category
@@ -147,7 +147,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of them
@@ -169,7 +169,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of them
@@ -193,7 +193,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of them
@@ -217,7 +217,7 @@
     maturity: 3
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of the time
