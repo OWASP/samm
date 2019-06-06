@@ -4,10 +4,18 @@
     stream_title: Incident Detection
     maturity: 1
     answers:
-        - No
-        - Yes, for some of the applications
-        - Yes, for at least half of the applications
-        - Yes, for majority of the applications
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - the most probable incident scenarios are defined and published
         - a person or role for incident detection is defined
@@ -20,10 +28,18 @@
     stream_title: Incident Detection
     maturity: 2
     answers:
-        - No
-        - Yes, for some of the applications
-        - Yes, for at least half of the applications
-        - Yes, for majority of the applications
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - some automated measures for incident detection are employed
         - you have up-to-date documentation for the incident detection process
@@ -34,10 +50,18 @@
     stream_title: Incident Detection
     maturity: 3
     answers:
-        - No
-        - Yes, for some of the applications
-        - Yes, for at least half of the applications
-        - Yes, for majority of the applications
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - there is evidence that the detection scenarios have been updated from other security practices in the last 6 months
         - the detection process has its own KPIs
@@ -48,10 +72,18 @@
     stream_title: Incident Response
     maturity: 1
     answers:
-        - No
-        - Yes, for some of the applications
-        - Yes, for at least half of the applications
-        - Yes, for majority of the applications
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - a person or role for incident handling is defined
         - all known security incidents are documented in a consistent way
@@ -62,10 +94,18 @@
     stream_title: Incident Response
     maturity: 2
     answers:
-        - No
-        - Yes, for some of the applications
-        - Yes, for at least half of the applications
-        - Yes, for majority of the applications
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - Incident classification is defined
         - Security playbooks are available for the most common incidents
