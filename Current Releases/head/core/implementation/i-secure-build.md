@@ -31,7 +31,7 @@ The second stream acknowledges the prevalence of software dependencies in modern
 Consistent and repeatable builds help developers focus on application-specific issues, and make it possible to automate builds in the future. This reduces the likelihood of human error during builds which can lead to security vulnerabilities.
 
 ### Activity
-Define the build process, breaking it down into a set of clear instuctions to either be followed by a person or an automated tool. The process is complete so that the person or tool can follow it consistently each time and produce the same result. 
+Define the build process, breaking it down into a set of clear instuctions to either be followed by a person or an automated tool. The process is complete so that the person or tool can follow it consistently each time and produce the same result.
 
 The process definition does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
 
@@ -40,6 +40,10 @@ The build process is stored centrally and accessible to any tools or people who 
 Review any build tools routinely, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool's configuration so that it is aligned with vendor guidelines and industry best practices.
 
 Determine a value for each generated artifact that can be later used to verify its integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
+
+### Questions
+
+{{< questions "Secure Build" "A" 1 >}}
 
 ## Maturity 2
 
@@ -57,6 +61,9 @@ The automated process may require access to credentials and secrets required to 
 
 Sign generated artifacts using a certificate that identifies the organization or business unit that built it, such that its integrity and can be verified later.
 
+### Questions
+
+{{< questions "Secure Build" "A" 2 >}}
 
 ## Maturity 3
 ### Benefit
@@ -77,6 +84,10 @@ If technical limitations prevent the organisation from breaking the build automa
 Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build.
 
 Where possible,  use a deterministic method that outputs byte-for-byte reproducible artifacts. Compare the binary output with that from other equivalent build systems to ensure it hasn't been tampered with.
+
+### Questions
+
+{{< questions "Secure Build" "A" 3 >}}
 
 # B: Software Dependencies
 
@@ -108,7 +119,9 @@ Check the records, whenever practical, to discover any dependencies with known v
 
 Ensure that providers actively maintain dependencies, and that they deal with security vulnerabilities appropriately. Gain assurance when dealing with open source dependencies, either through agreements with a commercial vendor, or other means, for example, by looking at repository activity, and the developers' responses to security issues raised by the community.
 
+### Questions
 
+{{< questions "Secure Build" "B" 1 >}}
 
 ## Maturity 2
 ### Benefit
@@ -129,11 +142,9 @@ Review dependencies regularly to ensure that:
 
 You may need tools to automate some or all of this process, such as analyzing where the dependency is used, or checking for updates via a package manager. Consider using an automated tool to scan for vulnerable dependencies.
 
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+### Questions
+
+{{< questions "Secure Build" "B" 2 >}}
 
 ### Quality Indicators
   * There is an automatically generated BOM for each software release
@@ -160,15 +171,9 @@ Perform verification tests against dependencies in the same way you do against t
 
 Log results centrally, triage and validate findings appropriately as described in [Implementation > Defect Management](../implementation/i-defect-management). Vulnerable dependencies should be blacklisted and not permitted to be used during builds. Feed findings back to the vendor or open source project, following a set of ethical disclosure guidelines.
 
-### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+### Questions
 
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+{{< questions "Secure Build" "B" 3 >}}
 
 ### Quality Indicators
   * You assess the security of important 3rd party dependencies. The dependencies are either flagged during a risk analysis or threat modelling, or are of high value to business
