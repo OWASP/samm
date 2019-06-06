@@ -1,3 +1,27 @@
+- Has the organization defined a set of risks by which applications could be prioritized?:
+    security_practice: Strategy & Metrics
+    stream: A
+    stream_title: Create and Promote
+    maturity: 1
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, basic risks
+            weight: 0.25
+        - C:
+            answer: Yes, covers most significant risks
+            weight: 0.5
+        - D:
+            answer: Yes, covers risks and opportunities
+            weight: 1
+    quality_criteria:
+        - You have captured the risk appetite of your organization's executive leadership
+        - Risks have been vetted and approved by the organization's leadership
+        - You have identified the principal external and internal drivers for the organization's security requirements
+        - You have identified the principal business and technical threats to your organization's assets and data
+
 - Do application teams understand the core concerns motivating your software security program, and use that understanding to guide their efforts?:
     security_practice: Strategy & Metrics
     stream: A
@@ -17,10 +41,9 @@
             answer: Yes, the majority of the teams do
             weight: 1
     quality_criteria:
-        - You have captured the risk appetite of your organization's executive leadership
-        - You have identified the principal external and internal drivers for the organization's security requirements
-        - You have identified the principal business and technical threats to your organization's assets and data
-        - You present the core concerns in terms relevant to the development teams
+        - Risks have been documented and are available to the development teams
+        - Risk criteria have been presented to developers in context of managing application risks
+        - Development teams have been engaged to review risks and provide feedback 
 
 - Do you have a Strategic Plan for Application Security, reflecting the organization's business priorities and risk appetite?:
     security_practice: Strategy & Metrics
@@ -32,7 +55,7 @@
             answer: No
             weight: 0
         - B:
-            answer: Yes, we created it more than five years ago
+            answer: Yes, we created it more than three years ago
             weight: 0.25
         - C:
             answer: Yes, we created it one-to-three years ago
@@ -41,13 +64,36 @@
             answer: Yes, we created it within the last year
             weight: 1
     quality_criteria:
-        - The plan covers one-to-three years, and includes measurable milestones and a budget
+        - The plan includes measurable milestones and a budget
         - Elements of the plan are consistent with the organization’s business drivers and risks
         - The plan lays out a roadmap for achieveing tactical and strategic initiatives
         - You have obtained buy-in from organizational stakeholders, including development teams
-        - The plan is published and available to anyone required to support or participate in its implementation
+        
 
-- Do you review the Strategic Plan for Application Security regularly, to maintain its applicability and support of the organization’s evolving needs and future growth?:
+- Do you use the Application Security Strategic Plan to make decisions?:
+    security_practice: Strategy & Metrics
+    stream: A
+    stream_title: Create and Promote
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, review it annually
+            weight: 0.25
+        - C:
+            answer: Yes, consult the plan before making significant decisions
+            weight: 0.5
+        - D:
+            answer: Yes, the plan is consulted often and it's aligned with the application security strategy
+            weight: 1
+    quality_criteria:
+        - The plan has been updated in the last 12 months
+        - The plan is published and available to anyone required to support or participate in its implementation
+        - The plan is routinely updated to reflect new risks and strategies
+
+- Do you regularly review and update the Strategic Plan for Application Security?:
     security_practice: Strategy & Metrics
     stream: A
     stream_title: Create and Promote
@@ -67,6 +113,7 @@
             weight: 1
     quality_criteria:
         - You review and update the plan, in response to significant changes in the business environment, the organization, or its risk appetite
+        - Plan update steps include reviewing the plan with all the stakeholders and updating the business drivers and strategies
         - You adjust the plan and roadmap, based on lessons learned from completed roadmap activities
         - You publish metrics and progress information on roadmap activities, available to all stakeholders, including development teams
 
