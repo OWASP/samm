@@ -10,7 +10,7 @@
         - You log missing security controls as defects
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, for some of the applications
@@ -35,7 +35,7 @@
         - You log missing security controls as defects
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, for some of the applications
@@ -58,7 +58,7 @@
         - You log identified shortcomings as defects
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, for some of the applications

@@ -5,7 +5,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of them
@@ -28,7 +28,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some content has been updated
@@ -50,7 +50,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some content has been updated
@@ -72,7 +72,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of the time
@@ -94,7 +94,7 @@
     maturity: 3
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, for some of the trianing
@@ -117,7 +117,7 @@
     maturity: 1
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of the time
@@ -141,7 +141,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, started to implement
@@ -165,7 +165,7 @@
     maturity: 2
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, some of the time
@@ -189,7 +189,7 @@
     maturity: 3
     answers:
         - A:
-            answer: No
+            answer: 'No'
             weight: 0
         - B:
             answer: Yes, started to implement
