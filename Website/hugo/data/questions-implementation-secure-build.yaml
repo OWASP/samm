@@ -1,5 +1,5 @@
 - Do you use repeatable build processes?:
-    security_practice: Implementation
+    security_practice: Secure Build
     stream: A
     stream_title: Build Process
     maturity: 1
@@ -21,7 +21,7 @@
         - Your build documentation up to date
         - Your build documentation is stored in an accessible location
 - Do you sign artifacts produced during builds?:
-    security_practice: Implementation
+    security_practice: Secure Build
     stream: A
     stream_title: Build Process
     maturity: 1
@@ -41,7 +41,7 @@
     quality_criteria:
         - Signing is documented in the build processes
 - Are build processes automated?:
-    security_practice: Implementation
+    security_practice: Secure Build
     stream: A
     stream_title: Build Process
     maturity: 2
@@ -62,7 +62,7 @@
         - Your build tools are hardened as per best practice and vendor guidance
         - You encrypt the secrets required by the build tools and control access based on the principle of least privilege
 - Do you integrate automated security checks in build processes?:
-    security_practice: Implementation
+    security_practice: Secure Build
     stream: A
     stream_title: Build Process
     maturity: 3
