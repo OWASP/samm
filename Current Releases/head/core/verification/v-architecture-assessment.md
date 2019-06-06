@@ -125,8 +125,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 -->
 
 #### SAMM References
-* Link 1
-* Link 2
+* SM-A-1 identify organization’s risk tolerance
+* SR-A-2 identify relevant security requirements
 
 #### OWASP References
 * Link 1
