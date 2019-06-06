@@ -1,14 +1,21 @@
-- The following questions apply to the applications in scope.
 - Do you use repeatable build processes?:
     security_practice: Implementation
     stream: A
     stream_title: Build Process
     maturity: 1
     answers:
-        - No - 0%
-        - Yes, for some applications - 25%
-        - Yes, for at least half of the applications - 50%
-        - Yes, for the majority of applications - 100%
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - You have enough information to recreate the build processes
         - Your build documentation up to date
@@ -19,10 +26,18 @@
     stream_title: Build Process
     maturity: 1
     answers:
-        - No - 0%
-        - Yes, for some applications - 25%
-        - Yes, for at least half of the applications - 50%
-        - Yes, for the majority of applications - 100%
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - Signing is documented in the build processes
 - Are build processes automated?:
@@ -31,10 +46,18 @@
     stream_title: Build Process
     maturity: 2
     answers:
-        - No - 0%
-        - Yes, for some applications - 25%
-        - Yes, for at least half of the applications - 50%
-        - Yes, for the majority of applications - 100%
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - Your build tools are hardened as per best practice and vendor guidance
         - You encrypt the secrets required by the build tools and control access based on the principle of least privilege
@@ -44,10 +67,18 @@
     stream_title: Build Process
     maturity: 3
     answers:
-        - No - 0%
-        - Yes, for some applications - 25%
-        - Yes, for at least half of the applications - 50%
-        - Yes, for the majority of applications - 100%
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
     quality_criteria:
         - You have a maximum accepted severity for vulnerabilties
         - You log warnings and failures in a centralized system
