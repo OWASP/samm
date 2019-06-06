@@ -44,7 +44,6 @@ Developers understand the architecture, interfaces, and how to secure them.
 Identify application and infrastructure architecture components. Create a simplified view of the overall architecture. Do this based on project artifacts such as high-level requirements and design documents, interviews with technical staff, or module-level review of the code base.
 Identify the infrastructure components. These are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
 From the architecture view, analyze each component in terms of accessibility of the interfaces from authorized users, anonymous users, operators, application-specific roles, etc.
-For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Note any breaks in consistency as assessment findings.
 
 #### Maturity Questions
 ##### Q 1
@@ -100,6 +99,8 @@ This activity validates the security mechanisms on the attack surface of the sof
 
 ### Activity
 For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis  on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface.
+
+For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Note any breaks in consistency as assessment findings.
 
 The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling, and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided and note any missing or unclear features as findings. Identify and validate the high-risk design decisions made as part of the architecture.
 Conduct analysis to update the findings based on changes made during the development cycle.
