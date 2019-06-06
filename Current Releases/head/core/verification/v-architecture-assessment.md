@@ -77,9 +77,21 @@ by combining application and supporting architecture, we can introduce an extra 
 threat modeling as a verification activity versus design? (TBD)
 -->
 
+#### SAMM References
+* SR-A-1 identify security objectives
+* TA-B-1 identify the most important threats
+* DM-A-1 log missing security controls as security defects 
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 https://www.owasp.org/index.php/How_to_perform_a_security_architecture_review_at_Level_1 . 
-https://www.owasp.org/index.php/ASVS_V1_Architecture . 
 http://www.guidanceshare.com/wiki/Security_Engineering_Explained_-_Chapter_5_-_Security_Architecture_and_Design_Review
 
 ## Maturity 2 - Validate the architecture security mechanisms
@@ -110,6 +122,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * remove/adapt list of 6 in maturity 2. Perhaps add user/access management. (DONE)
 *  Architecture review should be performed once per release is not CICD friendly. Need to establish what a release is. Or reword. (DONE)
 -->
+
+#### SAMM References
+* Link 1
+* Link 2
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 
 ## Maturity 3 - Review of the architecture components effectiveness
@@ -136,6 +161,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 #### Notes
 -->
+
+#### SAMM References
+* Link 1
+* Link 2
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 
 # B: Architecture Compliance
@@ -170,6 +208,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 #### Notes
 -->
+
+#### SAMM References
+* Link 1
+* Link 2
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 
 ## Maturity 2 - Analyze the architecture against known security requirements and best practices
@@ -195,6 +246,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 #### Notes
 -->
+
+#### SAMM References
+* Link 1
+* Link 2
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 Assures improvement of the security architecture practice, based on feedback from the architecture assessment activities. 
 
