@@ -122,18 +122,21 @@
 
 
 
-
+<script src="{{ "js/semantic.min.js"  | relURL }}" data-no-instant></script>
+<script src="{{ "js/jquery.peity.min.js"  | relURL }}" data-no-instant></script>
 <script type="text/javascript">
   $( document ).ready(function() {
     $('.sidebar')
     .sidebar('setting', 'transition', 'push')
     .sidebar('setting', 'closable' , false)
     .sidebar('setting', 'dimPage' , false);
+    $('.donut').peity('donut');
+    $('.ui.accordion').accordion();
   });
 </script>
 
 {{ end }}
 
 {{ define "footer" }}
-<!-- empty --> 
+<!-- empty -->
 {{ end }}
