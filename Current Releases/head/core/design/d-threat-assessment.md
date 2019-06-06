@@ -117,8 +117,8 @@ Are ...?
 
 ### Notes - Joint session with Threat Modeling Track, 6 June 2019
 * Level 1: Ad hoc threat model(s), free form
-* Level 2: Implement a TM methodology and classification of systems and levels of TM depth / accurate documentation that reflects reality / ownership is within the security/architecture team?
-* Level 3: Threat modeling process is integrated in the SDLC / repeatability / digitization and linkability / libraries (e.g., attack trees / threat libraries) / feedback cycle on threat intelligence (e.g., library vulnerabilities)
+* Level 2: Implement a TM methodology and classification of systems and levels of TM depth / accurate documentation that reflects reality / ownership is still within the security/architecture team?
+* Level 3: Threat modeling process is integrated in the SDLC (and ownership moves to development teams) / repeatability / digitization and linkability / libraries (e.g., attack trees / threat libraries) / feedback cycle on threat intelligence (e.g., library vulnerabilities)
 * Level 3+: Formalization
 
 ## Maturity 1
