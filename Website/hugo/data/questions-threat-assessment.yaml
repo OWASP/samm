@@ -28,7 +28,7 @@
     stream_title: Application Risk Profile
     maturity: 2
     answers:
-         - A:
+        - A:
             answer: No
             weight: 0
         - B:
