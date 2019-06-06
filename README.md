@@ -17,8 +17,13 @@ Or speak to us on our [Slack channel](https://owasp.slack.com/messages/C0VF1EJGH
 - Website: source for the static website and related libraries
 - Supporting Resources: other files, notes and presentations that do not follow the Hugo model
 
+## Contributions
+
+Please see guidance here: [/Current Releases/head/contributing-to-git.md](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/contributing-to-git.md).
+
 ## Custom Development
 * Install hugo or pull a hugo docker image
 * Clone this repo
 * Change directory to _Website/hugo_
 * Execute `hugo server`
+
