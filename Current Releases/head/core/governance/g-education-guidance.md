@@ -39,19 +39,7 @@ Course content should include a range of topics relevant to application security
 Training is mandatory for all employees and contractors involved with software development and includes an auditable sign-off to demonstrate compliance. Consider incorporating innovative ways of delivery (such as gamification) to maximize its effectiveness and combat desensitization.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-  * Developers recognize the most important application security flaws.
-  * Managers understand the importance of security activities.
-  * Testers understand the attacker mindset.
+{{< questions "Education & Guidance" "A" 1 >}}
 
 ### External References
 - [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)
@@ -90,21 +78,7 @@ Ideally, identify a subject-matter expert in each technology to assist with proc
 Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance. Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other information relevant to their work or environments.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-  * Members of the software security excellence center regularly attend software security events and conferences.
-  * Developers understand how the most relevant application security flaws occur and how to prevent them.
-  * Managers require security activities throughout the SDLC
-  * Local Subject Matter Experts contribute content to the training
-  * The Training material is customized to the technologies and frameworks used
+{{< questions "Education & Guidance" "A" 2 >}}
 
 ### External References
 - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
@@ -132,24 +106,7 @@ To facilitate progress monitoring and successful completion of each training mod
 Review issues resulting from employees not following established standards, policies, procedures, or security best practices at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization. Update the training periodically and train employees on any changes and most prevalent security deficiencies.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-  * Members of the organization involved in developing products regularly demonstrate thought leadership on security topics.
-  * Members of the software security excellence center regularly speak at software security events and conferences.
-  * All new recruits follow and are tested on a standardized, mandatory training program.
-  * You regularly review the security curriculum and update it to reflect identified process and security weaknesses.
-  * You routinely test developers for minimum security knowledge.
-  * The curriculum reflects all relevant internal standards, policies, and procedures.
-
+{{< questions "Education & Guidance" "A" 3 >}}
 
 #### Notes
 <!--
@@ -171,25 +128,7 @@ The goals of the position are to increase effectiveness and efficiency of applic
 In addition to assisting Information Security, “Security Champions” provide periodic reviews of all security-related issues for the project team so everyone is aware of the problems and any current and future remediation efforts. These reviews are leveraged to help brainstorm solutions to more complex problems by engaging the entire development team.
 
 ### Maturity Questions
-#### Does the organization have a "Security Champion" assigned to each development team or product?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Do "Security Champions" receive periodic briefings and training to make them more effective in their role?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Education & Guidance" "B" 1 >}}
 
 #### Notes
 <!--
@@ -213,34 +152,7 @@ This ensures all current programming efforts follow industry’s best practices 
 The group provides subject matter expertise, helping information security teams evaluate tools and solutions to improve application security, ensuring these tools are not only useful but also compatible with the way different teams develop applications. Teams looking to make significant architectural changes to their software consult with this group to avoid adversely impacting the SDLC life-cycle or established security controls.
 
 ### Maturity Questions
-#### Does the organization have a Secure Software Center of Excellence including a formal charter defining its objectives?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Does the organization require significant architectural changes and application security tools to be reviewed by the Secure Software Center of Excellence prior to deployment?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Does the Secure Software Center of Excellence publishes software development and SDLC standards?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Education & Guidance" "B" 2 >}}
 
 #### Notes
 
@@ -260,25 +172,7 @@ Form communities around roles and responsibilities and enable developers and eng
 The Secure Software Center of Excellence and Application Security teams review the information portal regularly for insights into the new and upcoming technologies, as well as opportunities to assist the development community with new initiatives, tools, programs, and training resources. Use the portal to disseminate information about new standards, tools, and resources to all developers for the continued improvement of SDLC maturity and application security.
 
 ### Maturity Questions
-#### Is there a centralized portal where developers and application security professionals from different teams and business units are able to communicate and share information?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Is there a knowledge repository allowing searches for organization-specific solutions to common problems and security challenges?
-
-*Answer Options*
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Education & Guidance" "B" 3 >}}
 
 #### Notes
 
