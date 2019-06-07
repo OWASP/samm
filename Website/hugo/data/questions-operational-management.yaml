@@ -329,7 +329,7 @@
         - The organization is not using unsupported applications or dependencies
         - Active customers are not using product versions that are no longer supported
 
-- Do you review and update the asset/component inventory, and the associated end-of-life management process?:
+- Do you review and update the asset/component inventory, and the associated end-of-life management process, to ensure their alignment with current practice?:
     security_practice: Operational Management
     stream: B
     stream_title: System decommissioning / Legacy management
@@ -339,14 +339,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, we do it when requested
+            answer: Yes, for some of our applications
             weight: 0.2
         - C:
-            answer: Yes, we do it every few years
+            answer: Yes, for at least half of our applications
             weight: 0.5
         - D:
-            answer: Yes, we do it at least annually
+            answer: Yes, for most or all of our applications
             weight: 1
     quality_criteria:
         - Your asset/component inventory is reviewed, and reconciled with actuals
         - Your end-of-life management process is reviewed, and reconciled with current practice
+        - Reviews are performed on at least an annual basis
