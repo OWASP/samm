@@ -80,13 +80,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, review it annually
+            answer: Yes, we review it annually
             weight: 0.25
         - C:
-            answer: Yes, consult the plan before making significant decisions
+            answer: Yes, we consult the plan before making significant decisions
             weight: 0.5
         - D:
-            answer: Yes, the plan is consulted often and it's aligned with the application security strategy
+            answer: Yes, we consult the plan often, and it's aligned with our application security strategy
             weight: 1
     quality_criteria:
         - The plan has been updated in the last 12 months
@@ -127,13 +127,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, but only one metrics category
+            answer: Yes, for one metrics category
             weight: 0.25
         - C:
-            answer: Yes, but only two metrics categories
+            answer: Yes, for two metrics categories
             weight: 0.5
         - D:
-            answer: Yes, all three metrics categories
+            answer: Yes, for all three metrics categories
             weight: 1
     quality_criteria:
         - Metrics include measures of Efforts, Results, and the Environment measurement categories
