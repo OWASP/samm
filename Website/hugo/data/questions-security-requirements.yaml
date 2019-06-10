@@ -44,7 +44,7 @@
         - Security requirements are considered during product development.
         - You used an agreed-upon and structured notation.
         - The notation integrates well with how you specify other (functional) requirements.
-- Do you systematicaly gather security requirements?:
+- Do you periodically gather security requirements?:
     security_practice: Security Requirements
     stream: A
     stream_title: Software Requirements
@@ -63,6 +63,7 @@
             answer: Yes, for the majority of the applications
             weight: 1
     quality_criteria:
+        - You use a systematic approach of gathering requiremetns.
         - Your sources include those in the policies and compliance requirements.    
         - You involve experienced or trained people in this activity.
         - Your framework is updated based on new findings.
