@@ -288,9 +288,9 @@ Beginning from simple recommendations about software frameworks and explicit con
 As an organization evolves over time, sophisticated provision of this practice entails organizations building reference platforms to cover the generic types of software they build. These serve as frameworks upon which developers can build custom software with lower risk of vulnerabilities.
 
 ### Lifecycle Security Design
-The Lifecycle Security Design (LSD) method focuses on proactive planning of penetration tests and its test environment on project level. The analysis of security risks and potential attacks during development ensures purposefully testing. A verification of implications on robustness against attacks and reliability is especially important. 
+The Lifecycle Security Design (LCSD) method focuses on proactive planning of penetration tests and its test environment on project level. The analysis of security risks and potential attacks during development ensures purposefully testing. A verification of implications on robustness against attacks and reliability is especially important. 
 
-Furthermore, planning of legal principles for security/safety will be integrated and complemented by evaluations of executed penetration tests, which will lead on to iterative development cycles. While most of tests are completed during roll out, the LSD requires further planning for ongoing tests to test products against new occurring threats. 
+Furthermore, planning of legal principles for security/safety will be integrated and complemented by evaluations of executed penetration tests, which will lead on to iterative development cycles. While most of tests are completed during roll out, the LCSD requires further planning for ongoing tests to test products against new occurring threats. 
 
 Ongoing auditing and testing steadily expands the company's knowledge. Tools for hardware independent testing, which enables partial automation to simplify the process, can be developed due to diligent planning and knowledge acquisition.
 
@@ -323,7 +323,7 @@ Ongoing auditing and testing steadily expands the company's knowledge. Tools for
 ### Lifecycle Security Design
 _…more on page XX_
 
-| | LSD 1  | LSD 2  | LSD 3 |
+| | LCSD 1  | LCSD 2  | LCSD 3 |
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** 
 | **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange. **B.** Categorize, acquire and store all relevant hardware and software versions. |
@@ -581,14 +581,14 @@ TODO copy paste assessment
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-| **LSD1**
+| **LCSD1**
 | ✦ Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
 | ✦ Are identified attack patterns documented? | NO | SOME | HALF | MOST |
-| **LSD2**
+| **LCSD2**
 | ✦ Are penetration tests planned and executed for all products? | NO | SOME | HALF | MOST |
 | ✦ How often are external security reports reviewed? | MONTHLY | WEEKLY | DAILY | HOURLY OR MORE OFTEN |
 | ✦ Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
-|**LSD3**
+|**LCSD3**
 | ✦ Can products be tested hardware independently? | NO | SOME | HALF | MOST |
 | ✦ Can products be updated subsequently after rollout? | NO | SOME | HALF | MOST |
 | ✦ Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
@@ -1856,10 +1856,10 @@ security protections
 
 # Lifecycle Security Design
 
-| | **LSD 1**  | **LSD 2**  | **LSD 3** |
+| | **LCSD 1**  | **LCSD 2**  | **LCSD 3** |
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
-| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
+| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security and safety goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
 | **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll-out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
 | **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all penetration testing procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow-up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the project's lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
@@ -1868,15 +1868,16 @@ security protections
 ### Identify security risks and attack potentialities for individual projects
 
 ## Activities
-##### A. Compile a threat and risk analysis in due consideration of security goals
+##### A. Compile a threat and risk analysis in due consideration of security and safety goals
 Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature.
 A risk function or risk matrix according to EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate whether they meet security requirements.
 Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature.
 Then identify all internal and external components that influence a product's relevant security features.
-Security goals should be drafted in such a way that the elaborated risks will not occur.
+Security and safety goals should be drafted in such a way that the elaborated risks will not occur.
 
 In the second step, define all known attacks on the identified functions---also think about functions that are similar to the identified ones---and carve out attack surfaces.
 Assign a risk level to every found attack by, e.g., considering the frequency of occurrence of such an attack and the severity of resulting harms.
+The Common Vulnerability Scoring System (CVSS)  (https://www.first.org/cvss/calculator/3.0)  calculator can be used to assess the risk level.
 
 During this activity, developers and penetration testers should work together in several meetings. Offer a security training for staff members.
 Different views of external advisors can be helpful, too.
@@ -1944,8 +1945,8 @@ After defining the test environment, the penetration tests dependent on security
 
 Use the BSI guideline for IT-Security penetration tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
 
-Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
 Alternatively, external penetration testers can be tasked for certification.
+Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
 
 Experience and previous made results should be taken into account during planning of penetration tests.
 
@@ -1987,6 +1988,7 @@ Additionally, public services, which publish security exploits, should be search
 ##### RELATED LEVELS
 * Threat Assessment - 3
 * Security Testing - 2
+* Education & Guidance - 2
 
 # Lifecycle Security Design: SD3
 
@@ -1997,14 +1999,14 @@ Additionally, public services, which publish security exploits, should be search
 
 In order to ensure the safety of a product over a longer period of time, it must be repeatedly tested against new threats.
 
-To be able to test old and new products quickly and efficiently against new attacks at any time, a hardware-independent test environment is needed.
-For this, great effort has to be invested in implementing a hardware-independent test interface. 
+To be able to test old and new products quickly and efficiently against newly detected security vulnerabilities at any time, a hardware-independent test environment is needed.
+For this, great effort has to be invested in implementing a hardware-independent test interface.
 The interface should be compatible with as many products as possible.
 As a result, only the test software needs to be adapted to the respective product.
 
 A further measure includes the expansion of development cycles.
 This means that new development processes have to be created within the company.
-Instead of a strict schedule of planning, development, testing and deployment, these steps should be repeated more often.
+Instead of a strict schedule with one phase of planning, development, testing and deployment, these steps should be repeated continuously.
 In this case, the company generally or each project has to find a suitable procedure for itself.
 However, it is important that results from tests are evaluated early on and that the planning and development make changes accordingly.
 Therefore, the planning process is repeated several times instead of only once.
@@ -2065,6 +2067,7 @@ Clear responsibilities have to be defined, so that the test results can be adequ
 * Issue Management - 2
 * Issue Management - 3
 * Operational Enablement - 1
+* Lifecycle Security Monitoring - 1
 
 # Design Review
 | | **DR1** | **DR2** | **DR3** |
