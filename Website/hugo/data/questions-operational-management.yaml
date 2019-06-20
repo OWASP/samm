@@ -1,4 +1,4 @@
-- Do you understand and capture the types and sensitivity of data stored and processed by applications?:
+- Do you protect and handle information according to protection requirements defined for data stored and processed on each application?:
     security_practice: Operational Management
     stream: A
     stream_title: Data Protection
@@ -8,42 +8,19 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, for some of the applications
             weight: 0.2
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, for at least half of the applications
             weight: 0.5
         - D:
-            answer: Yes, most or all of the time
+            answer: Yes, for most or all of the applications
             weight: 1
     quality_criteria:
         - You have identified the data elements processed and stored by each application
         - You have determined the type, and sensitivity level, of each identified data element
-        - You have assigned a sensitivity level to each application, based on the data it processes
-        - You have assigned a sensitivity level to each data store, based on the data stored therein
-
-- Do you have controls in place to ensure sensitive data are sanitized before propagation to a non-production environment, and verify compliance with those controls?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 1
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, some of the time
-            weight: 0.2
-        - C:
-            answer: Yes, at least half of the time
-            weight: 0.5
-        - D:
-            answer: Yes, most or all of the time
-            weight: 1
-    quality_criteria:
-        - You have implemented processes for data sanitization
-        - You enforce data sanitization processes, when migrating data from production to non-production
-        - You conduct periodic reviews of non-production environments, to verify no sensitive data have propagated to them
+        - You have awareness of the fate of processed data
+        - You have basic controls to prevent propagation of unsanitized sensitive data from production environments to lower environments
 
 - Do you maintain a data catalog, including their types, sensitivity levels, and processing/storage locations?:
     security_practice: Operational Management
@@ -64,9 +41,8 @@
             answer: Yes, for most or all of our data
             weight: 1
     quality_criteria:
-        - Your data catalog is complete, with all required information captured for each data element
-        - You keep your data catalog updated and aligned with changes to data architecture
         - The data catalog is stored in an accessible location
+        - You have identified data elements subject to specific regulation
 
 - Have you established retention requirements for data, and do you destroy backups in a timely manner after the relevant retention period ends?:
     security_practice: Operational Management
@@ -87,34 +63,8 @@
             answer: Yes, for most or all of our data
             weight: 1
     quality_criteria:
-        - All data have an established retention period
         - You protect offline media from disclosure and destruction throughout the retention period
         - You conduct periodic spot checks of backup media, to verify they are not corrupted
-        - You conduct periodic tests of equipment needed to restore data (e.g., tape drives), to verify they are functioning correctly
-        - You destroy and dispose of media, following established procedures, at end-of-life
-
-- Do you follow established handling requirements for all data elements, based on their sensitivity levels?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 2
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some of our data
-            weight: 0.2
-        - C:
-            answer: Yes, for at least half of our data
-            weight: 0.5
-        - D:
-            answer: Yes, for most or all of our data
-            weight: 1
-    quality_criteria:
-        - You have established standards for labeling, handling, and protection of physical media, including printed reports, based on data sensitivity
-        - You provide training on data handling and sanitization guidelines to all staff
-        - You inspect off-site data storage facilities, to verify all required security protections (e.g., locks, video surveillance) remain in place and function properly
 
 - Have you implemented automated monitoring, to detect attempted or actual violations of the Data Protection Policy?:
     security_practice: Operational Management
@@ -136,28 +86,9 @@
             weight: 1
     quality_criteria:
         - You have implemented monitoring on at least the highest-risk exfiltration routes, and follow-up on all alerts
+        - You have implemented tools for data loss prevention, access control and tracking, or anomalous behavior detection
+        - You conduct periodic audits about the operation of automated mechanisms, including backups and record deletions
         
-- Do you audit implementation of, and compliance with, administrative data protection controls?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 3
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, we've done it once
-            weight: 0.2
-        - C:
-            answer: Yes, we do it every few years
-            weight: 0.5
-        - D:
-            answer: Yes, we do it at least annually
-            weight: 1
-    quality_criteria:
-        - TBC
-
 - Do you review and update the data catalog, and your data protection policies/procedures?:
     security_practice: Operational Management
     stream: A

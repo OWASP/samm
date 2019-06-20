@@ -1,0 +1,120 @@
+- blablabla1?:
+    security_practice: Environment Management
+    stream: a
+    stream_title: Configuration Hardening
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
+    quality_criteria:
+        - blablabla
+- blablabla2?:
+    security_practice: Environment Management
+    stream: a
+    stream_title: Configuration Hardening
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
+    quality_criteria:
+        - blablabla
+- blablabla3?:
+    security_practice: Environment Management
+    stream: a
+    stream_title: Configuration Hardening
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
+    quality_criteria:
+        - blablabla
+- claclacla1?:
+    security_practice: Environment Management
+    stream: b
+    stream_title: Patching and Updating
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
+    quality_criteria:
+        - blablabla
+- claclacla2?:
+    security_practice: Environment Management
+    stream: b
+    stream_title: Patching and Updating
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
+    quality_criteria:
+        - blablabla
+- claclacla3?:
+    security_practice: Environment Management
+    stream: b
+    stream_title: Patching and Updating
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for the majority of applications
+            weight: 1
+    quality_criteria:
+        - blablabla
