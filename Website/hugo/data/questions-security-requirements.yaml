@@ -1,0 +1,72 @@
+- Do you have a list of security requirements?:
+    security_practice: Security Requirements
+    stream: A
+    stream_title: Software Requirements
+    maturity: 1
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - You derive the security requirements from the functional requirements.
+        - Security requirements only state their objective.
+        - Security requirements are specific, measurable, actionable, relevant and time-bound.
+- Do you have a framework to set security requirements for projects?:
+    security_practice: Security Requirements
+    stream: A
+    stream_title: Software Requirements
+    maturity: 2
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - The framework considers the different types of requirements and sources of requirements.
+        - The framework gives clear guidance on the quality of requirements and formalizes how to describe them.
+        - Security requirements are considered during product development.
+        - You used an agreed-upon and structured notation.
+        - The notation integrates well with how you specify other (functional) requirements.
+- Do you periodically gather security requirements?:
+    security_practice: Security Requirements
+    stream: A
+    stream_title: Software Requirements
+    maturity: 3
+    answers:
+        - A:
+            answer: No
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - You use a systematic approach of gathering requiremetns.
+        - Your sources include those in the policies and compliance requirements.    
+        - You involve experienced or trained people in this activity.
+        - Your framework is updated based on new findings.
+
+
+
