@@ -1,4 +1,4 @@
-- blablabla1?:
+- Do you harden configurations for key components across your whole technology stack?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
@@ -17,8 +17,10 @@
             answer: Yes, for the majority of applications
             weight: 1
     quality_criteria:
-        - blablabla
-- blablabla2?:
+        - You have identified the relevant scope for this activity
+        - You work with public sources to gather recommendations for your configurations
+
+- Do you maintain hardening baselines for your components?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
@@ -28,17 +30,21 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: Yes, for some components
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for the majority of components
             weight: 1
     quality_criteria:
-        - blablabla
-- blablabla3?:
+        - There is an owner for each baseline
+        - The owner is responsible for keeping baselines up to date
+        - Baselines are stored in an accessible location
+        - Employees responsible for configurations are trained in these baselines
+
+- Do you evaluate and track conformity with the hardening baselines?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
@@ -57,8 +63,9 @@
             answer: Yes, for the majority of applications
             weight: 1
     quality_criteria:
-        - blablabla
-- claclacla1?:
+        - Baselines are reviewed and updated at least an annual basis
+
+- Do you identify and patch vulnerable components?:
     security_practice: Environment Management
     stream: b
     stream_title: Patching and Updating
@@ -68,17 +75,19 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: Yes, for some components
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for the majority of components
             weight: 1
     quality_criteria:
-        - blablabla
-- claclacla2?:
+        - You have an up to date list of components with versions
+        - You review public sources regularly for vulnerabilities related to your components
+
+- Do you follow an established process for updating components across your whole technology stack?:
     security_practice: Environment Management
     stream: b
     stream_title: Patching and Updating
@@ -88,17 +97,20 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: Yes, for some components
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for the majority of components
             weight: 1
     quality_criteria:
-        - blablabla
-- claclacla3?:
+        - The process includes vendor information for 3rd party patches 
+        - The process considers external sources to gather information about zero day attacks, and take appropriate risk mitigation steps
+        - The process includes guidance with priorities for updates of components
+
+- Do you regularly evaluates components and review patch level status?:
     security_practice: Environment Management
     stream: b
     stream_title: Patching and Updating
@@ -108,13 +120,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: Yes, for some components
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for the majority of components
             weight: 1
     quality_criteria:
-        - blablabla
+        - The list is updated with components and versions
+        - Missing updates are identify and installed according to existing SLA
+        - The updating process are review based on feedback from the team in charge of updates and new guidelines
