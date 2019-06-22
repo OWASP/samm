@@ -1,4 +1,4 @@
-- Do you analyze periodically available log data for possible security incidents?:
+- Do you analyze log data for possible security incidents periodically?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -14,15 +14,14 @@
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - You have defined a contact point for the creation of security incidents
-        - You have analyzed data in accordance with the log data retention periods
-        - Your have performed this analysis with a frequency aligned with the criticity of your applications
+        - You have a contact point for the creation of security incidents
+        - You analyze data in accordance with the log data retention periods
+        - The frequency of this analysis is aligned with the criticality of your applications
 
-- Do you follow a proces for incident detection?:
-Is responsible staff alerted in near real-time if a highly suspicious event occurs?:
+- Do you follow a process for incident detection?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -38,15 +37,16 @@ Is responsible staff alerted in near real-time if a highly suspicious event occu
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - The process has a dedicated owner and clear documentation accessible to all process stakeholders.
+        - The process has a dedicated owner
+        - There is process documentation stored in an accessible location
         - The process considers and escalation path for further analysis
         - Employees responsible for incident detection are trained in this process
-        - You have defined a checklist with potential attacks to simplify the incident detection
+        - You have a checklist of potential attacks to simplify incident detection
 
-- Do you regularly review and update the incident detection process?:
+- Do you review and update the incident detection process regularly?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -62,13 +62,13 @@ Is responsible staff alerted in near real-time if a highly suspicious event occu
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of applications
             weight: 1
     quality_criteria:
-        - Reviews are performed on at least an annual basis
-        - Checklist with potential attacks is updated with external and internal data
+        - You perform reviews at least annually
+        - You update the checklist of potential attacks with external and internal data
 
-- Do you respond upon incidents detected?:
+- Do you respond upon detected incidents?:
     security_practice: Incident Management
     stream: b
     stream_title: Incident Response
@@ -84,13 +84,13 @@ Is responsible staff alerted in near real-time if a highly suspicious event occu
             answer: Yes, for at least half of the incidents
             weight: 0.5
         - S:
-            answer: Yes, for the majority of incidents
+            answer: Yes, for most of the incidents
             weight: 1
     quality_criteria:
-        - A person or role for incident handling is defined
-        - Security incidents are documented
+        - You have a defined person or role for incident handling
+        - You document security incidents
 
-- A repeatable process for incident handling is in place?:
+- Do you have a repeatable process for incident handling?:
     security_practice: Incident Management
     stream: b
     stream_title: Incident Response
@@ -100,16 +100,16 @@ Is responsible staff alerted in near real-time if a highly suspicious event occu
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some type of incidents
+            answer: Yes, for some types of incidents
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the type of incidents
+            answer: Yes, for at least half of the types of incidents
             weight: 0.5
         - S:
-            answer: Yes, for the majority of type of incidents
+            answer: Yes, for most of the types of incidents
             weight: 1
     quality_criteria:
-        - Incident classification is defined
+        - You have an agreed upon incident classification
         - The process considers Root Case Analysis for high severity incidents
         - Employees responsible for incident response are trained in this process
         - Forensic analysis tooling is available
@@ -133,6 +133,6 @@ Is responsible staff alerted in near real-time if a highly suspicious event occu
             answer: Yes, most of the time
             weight: 1
     quality_criteria:
-        - Root Cause Analysis are performed for all security incidents unless there is a specific reason not to do so
+        - You perform Root Cause Analysis for all security incidents unless there is a specific reason not to do so
         - The team is in charge of reviewing and updating the response process
-        - Reviews are performed on at least an annual basis
+        - You review the response process at least annually
