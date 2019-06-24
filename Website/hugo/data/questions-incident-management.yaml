@@ -1,4 +1,4 @@
-- Do you analyze available log data for possible security incidents on a daily basis?:
+- Do you analyze log data for possible security incidents periodically?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -14,15 +14,14 @@
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - the most probable incident scenarios are defined and published
-        - a person or role for incident detection is defined
-        - you have identified, evaluated and documented suspicious events
-        - the escalation process is documented
-        - you have defined how log data integrity is protected
-- Is responsible staff alerted in near real-time if a highly suspicious event occurs?:
+        - You have a contact point for the creation of security incidents
+        - You analyze data in accordance with the log data retention periods
+        - The frequency of this analysis is aligned with the criticality of your applications
+
+- Do you follow a process for incident detection?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -38,13 +37,16 @@
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - some automated measures for incident detection are employed
-        - you have up-to-date documentation for the incident detection process
-        - every new system taken to production is integrated into the process
-- Have you improved the incident detection process in the last 6 months?:
+        - The process has a dedicated owner
+        - There is process documentation stored in an accessible location
+        - The process considers and escalation path for further analysis
+        - Employees responsible for incident detection are trained in this process
+        - You have a checklist of potential attacks to simplify incident detection
+
+- Do you review and update the incident detection process regularly?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
@@ -60,13 +62,13 @@
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of applications
             weight: 1
     quality_criteria:
-        - there is evidence that the detection scenarios have been updated from other security practices in the last 6 months
-        - the detection process has its own KPIs
-        - there are tickets in dev queues with requests for log data improvement
-- A setup for incident handling is defined and known?:
+        - You perform reviews at least annually
+        - You update the checklist of potential attacks with external and internal data
+
+- Do you respond upon detected incidents?:
     security_practice: Incident Management
     stream: b
     stream_title: Incident Response
@@ -76,19 +78,19 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: Yes, for some of the incidents
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: Yes, for at least half of the incidents
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the incidents
             weight: 1
     quality_criteria:
-        - a person or role for incident handling is defined
-        - all known security incidents are documented in a consistent way
-        - first KPIs for security incidents are collected
-- A repeatable process for incident handling is in place?:
+        - You have a defined person or role for incident handling
+        - You document security incidents
+
+- Do you have a repeatable process for incident handling?:
     security_practice: Incident Management
     stream: b
     stream_title: Incident Response
@@ -98,17 +100,38 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: Yes, for some types of incidents
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: Yes, for at least half of the types of incidents
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the types of incidents
             weight: 1
     quality_criteria:
-        - Incident classification is defined
-        - Security playbooks are available for the most common incidents
-        - You perform Root Case Analysis for the most severe security incidents
-        - there is dedicated training for incident response staff
-        - forensic analysis tooling is available
+        - You have an agreed upon incident classification
+        - The process considers Root Case Analysis for high severity incidents
+        - Employees responsible for incident response are trained in this process
+        - Forensic analysis tooling is available
+
+- Is there a dedicated incident response team available?:
+    security_practice: Incident Management
+    stream: b
+    stream_title: Incident Response
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - S:
+            answer: Yes, most of the time
+            weight: 1
+    quality_criteria:
+        - The team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so
+        - You review and update the response process at least annually

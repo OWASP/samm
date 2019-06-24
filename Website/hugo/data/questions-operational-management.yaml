@@ -1,4 +1,4 @@
-- Do you understand and capture the types and sensitivity of data stored and processed by applications?:
+- Do you protect and handle information according to protection requirements for data stored and processed on each application?:
     security_practice: Operational Management
     stream: A
     stream_title: Data Protection
@@ -8,44 +8,20 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, for some of the applications
             weight: 0.2
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, for at least half of the applications
             weight: 0.5
         - D:
-            answer: Yes, most or all of the time
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
         - You have identified the data elements processed and stored by each application
-        - You have determined the type, and sensitivity level, of each identified data element
-        - You have assigned a sensitivity level to each application, based on the data it processes
-        - You have assigned a sensitivity level to each data store, based on the data stored therein
+        - You have determined the type and sensitivity level of each identified data element
+        - You have controls to prevent propagation of unsanitized sensitive data from production environments to lower environments
 
-- Do you have controls in place to ensure sensitive data are sanitized before propagation to a non-production environment, and verify compliance with those controls?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 1
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, some of the time
-            weight: 0.2
-        - C:
-            answer: Yes, at least half of the time
-            weight: 0.5
-        - D:
-            answer: Yes, most or all of the time
-            weight: 1
-    quality_criteria:
-        - You have implemented processes for data sanitization
-        - You enforce data sanitization processes, when migrating data from production to non-production
-        - You conduct periodic reviews of non-production environments, to verify no sensitive data have propagated to them
-
-- Do you maintain a data catalog, including their types, sensitivity levels, and processing/storage locations?:
+- Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?:
     security_practice: Operational Management
     stream: A
     stream_title: Data Protection
@@ -61,12 +37,11 @@
             answer: Yes, for at least half of our data
             weight: 0.5
         - D:
-            answer: Yes, for most or all of our data
+            answer: Yes, for most of our data
             weight: 1
     quality_criteria:
-        - Your data catalog is complete, with all required information captured for each data element
-        - You keep your data catalog updated and aligned with changes to data architecture
         - The data catalog is stored in an accessible location
+        - You have identified data elements subject to specific regulation
 
 - Have you established retention requirements for data, and do you destroy backups in a timely manner after the relevant retention period ends?:
     security_practice: Operational Management
@@ -84,81 +59,13 @@
             answer: Yes, for at least half of our data
             weight: 0.5
         - D:
-            answer: Yes, for most or all of our data
+            answer: Yes, for most of our data
             weight: 1
     quality_criteria:
-        - All data have an established retention period
         - You protect offline media from disclosure and destruction throughout the retention period
-        - You conduct periodic spot checks of backup media, to verify they are not corrupted
-        - You conduct periodic tests of equipment needed to restore data (e.g., tape drives), to verify they are functioning correctly
-        - You destroy and dispose of media, following established procedures, at end-of-life
+        - You conduct periodic spot checks of backup media to verify they are not corrupted
 
-- Do you follow established handling requirements for all data elements, based on their sensitivity levels?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 2
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some of our data
-            weight: 0.2
-        - C:
-            answer: Yes, for at least half of our data
-            weight: 0.5
-        - D:
-            answer: Yes, for most or all of our data
-            weight: 1
-    quality_criteria:
-        - You have established standards for labeling, handling, and protection of physical media, including printed reports, based on data sensitivity
-        - You provide training on data handling and sanitization guidelines to all staff
-        - You inspect off-site data storage facilities, to verify all required security protections (e.g., locks, video surveillance) remain in place and function properly
-
-- Have you implemented automated monitoring, to detect attempted or actual violations of the Data Protection Policy?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 3
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some of our data
-            weight: 0.2
-        - C:
-            answer: Yes, for at least half of our data
-            weight: 0.5
-        - D:
-            answer: Yes, for most or all of our data
-            weight: 1
-    quality_criteria:
-        - You have implemented monitoring on at least the highest-risk exfiltration routes, and follow-up on all alerts
-        
-- Do you audit implementation of, and compliance with, administrative data protection controls?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 3
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, we've done it once
-            weight: 0.2
-        - C:
-            answer: Yes, we do it every few years
-            weight: 0.5
-        - D:
-            answer: Yes, we do it at least annually
-            weight: 1
-    quality_criteria:
-        - TBC
-
-- Do you review and update the data catalog, and your data protection policies/procedures?:
+- Do you regularly review and update the data catalog and your data protection policies and procedures?:
     security_practice: Operational Management
     stream: A
     stream_title: Data Protection
@@ -177,9 +84,11 @@
             answer: Yes, we do it at least annually
             weight: 1
     quality_criteria:
-        - TBC
+        - You have automated monitoring to detect attempted or actual violations of the Data Protection Policy
+        - You have tools for data loss prevention, access control and tracking, or anomalous behavior detection
+        - You periodically audit the operation of automated mechanisms, including backups and record deletions
 
-- Do you remove unused systems, applications, or services when they are identified?:
+- Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?:
     security_practice: Operational Management
     stream: B
     stream_title: System decommissioning / Legacy management
@@ -189,39 +98,18 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, for some of the applications
             weight: 0.2
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, for at least half of the applications
             weight: 0.5
         - D:
-            answer: Yes, most or all of the time
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - TBC
+        - The organization does not use unsupported applications or dependencies
 
-- Do you remove end-of-life resources (operating system versions, third-party applications/services/libraries) from the environment, before their support period ends?:
-    security_practice: Operational Management
-    stream: B
-    stream_title: System decommissioning / Legacy management
-    maturity: 1
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, some of the time
-            weight: 0.2
-        - C:
-            answer: Yes, at least half of the time
-            weight: 0.5
-        - D:
-            answer: Yes, most or all of the time
-            weight: 1
-    quality_criteria:
-        - TBC
-
-- Do you follow an established process for removing all associated resources, as part of decommissioning unused applications?:
+- Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?:
     security_practice: Operational Management
     stream: B
     stream_title: System decommissioning / Legacy management
@@ -237,55 +125,14 @@
             answer: Yes, at least half of the time
             weight: 0.5
         - D:
-            answer: Yes, most or all of the time
+            answer: Yes, most of the time
             weight: 1
     quality_criteria:
+        - You document the status of support for all released versions of your products, in an accessible location
+        - The process includes replacement or upgrade of third-party applications, or application dependencies, that have reached end of life.
         - Operating environments do not contain orphaned accounts, firewall rules, or other configuration artifacts
 
-- Do you discontinue use of open-source applications/services/libraries that are no longer actively maintained?:
-    security_practice: Operational Management
-    stream: B
-    stream_title: System decommissioning / Legacy management
-    maturity: 2
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, some of the time
-            weight: 0.2
-        - C:
-            answer: Yes, at least half of the time
-            weight: 0.5
-        - D:
-            answer: Yes, most or all of the time
-            weight: 1
-    quality_criteria:
-        - Your operations are not dependent on end-of-life applications or components
-
-- Do you actively manage customer support agreements, in line with end-of-life timelines for your products?:
-    security_practice: Operational Management
-    stream: B
-    stream_title: System decommissioning / Legacy management
-    maturity: 2
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, some of the time
-            weight: 0.2
-        - C:
-            answer: Yes, at least half of the time
-            weight: 0.5
-        - D:
-            answer: Yes, most or all of the time
-            weight: 1
-    quality_criteria:
-        - You clearly document the status of support for all released versions of your products, in an accessible location (e.g., on the organization's Web site)
-        - Customers under active support agreements are not using outdated versions of the organization's products, or migration plans are in place
-
-- Do you track lifecycle state and end-of-life estimates for each software asset and infrastructure component?:
+- Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end-of-life?:
     security_practice: Operational Management
     stream: B
     stream_title: System decommissioning / Legacy management
@@ -295,59 +142,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: Yes, for some of the assets
             weight: 0.2
         - C:
-            answer: Yes, at least half of the time
+            answer: Yes, for at least half of the assets
             weight: 0.5
         - D:
-            answer: Yes, most or all of the time
+            answer: Yes, for most of the assets
             weight: 1
     quality_criteria:
-        - You read the question carefully
-        - You think about the question carefully before you choose your answer
-
-- Do you actively manage customers/user groups, to ensure they are using only actively supported versions of your products?:
-    security_practice: Operational Management
-    stream: B
-    stream_title: System decommissioning / Legacy management
-    maturity: 3
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, some of the time
-            weight: 0.2
-        - C:
-            answer: Yes, at least half of the time
-            weight: 0.5
-        - D:
-            answer: Yes, most or all of the time
-            weight: 1
-    quality_criteria:
-        - The organization is not using unsupported applications or dependencies
-        - Active customers are not using product versions that are no longer supported
-
-- Do you review and update the asset/component inventory, and the associated end-of-life management process, to ensure their alignment with current practice?:
-    security_practice: Operational Management
-    stream: B
-    stream_title: System decommissioning / Legacy management
-    maturity: 3
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some of our applications
-            weight: 0.2
-        - C:
-            answer: Yes, for at least half of our applications
-            weight: 0.5
-        - D:
-            answer: Yes, for most or all of our applications
-            weight: 1
-    quality_criteria:
-        - Your asset/component inventory is reviewed, and reconciled with actuals
-        - Your end-of-life management process is reviewed, and reconciled with current practice
-        - Reviews are performed on at least an annual basis
+        - Your end-of-life management process is agreed upon.
+        - You inform customers and user groups of product timelines to prevent disruption of service or support.
+        - You review the process at least annually
