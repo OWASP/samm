@@ -14,10 +14,10 @@
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - You have identified the relevant scope for this activity
+        - You have identified the scope for this activity
         - You work with public sources to gather recommendations for your configurations
 
 - Do you maintain hardening baselines for your components?:
@@ -36,7 +36,7 @@
             answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of components
+            answer: Yes, for most of the components
             weight: 1
     quality_criteria:
         - There is an owner for each baseline
@@ -60,10 +60,10 @@
             answer: Yes, for at least half of the applications
             weight: 0.5
         - S:
-            answer: Yes, for the majority of applications
+            answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - Baselines are reviewed and updated at least an annual basis
+        - You review and update baselines at least annually
 
 - Do you identify and patch vulnerable components?:
     security_practice: Environment Management
@@ -81,10 +81,10 @@
             answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of components
+            answer: Yes, for most of the components
             weight: 1
     quality_criteria:
-        - You have an up to date list of components with versions
+        - You have an up-to-date list of components with versions
         - You review public sources regularly for vulnerabilities related to your components
 
 - Do you follow an established process for updating components across your whole technology stack?:
@@ -103,14 +103,14 @@
             answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of components
+            answer: Yes, for most of the components
             weight: 1
     quality_criteria:
         - The process includes vendor information for 3rd party patches 
         - The process considers external sources to gather information about zero day attacks, and take appropriate risk mitigation steps
         - The process includes guidance with priorities for updates of components
 
-- Do you regularly evaluates components and review patch level status?:
+- Do you regularly evaluate components and review patch level status?:
     security_practice: Environment Management
     stream: b
     stream_title: Patching and Updating
@@ -126,9 +126,9 @@
             answer: Yes, for at least half of the components
             weight: 0.5
         - S:
-            answer: Yes, for the majority of components
+            answer: Yes, for most of the components
             weight: 1
     quality_criteria:
-        - The list is updated with components and versions
-        - Missing updates are identify and installed according to existing SLA
-        - The updating process are review based on feedback from the team in charge of updates and new guidelines
+        - You update the list with components and versions
+        - You identify and update missing updates according to existing SLA
+        - You review and update the process based on feedback from the people who perform patching

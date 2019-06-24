@@ -133,6 +133,5 @@
             answer: Yes, most of the time
             weight: 1
     quality_criteria:
-        - You perform Root Cause Analysis for all security incidents unless there is a specific reason not to do so
-        - The team is in charge of reviewing and updating the response process
-        - You review the response process at least annually
+        - The team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so
+        - You review and update the response process at least annually
