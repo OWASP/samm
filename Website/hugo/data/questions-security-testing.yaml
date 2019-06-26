@@ -1,5 +1,5 @@
 - Do you scan applications with automated static and dynamic security testing tools?:
-    security_practice: 	Security Testing
+    security_practice: Security Testing
     stream: a
     stream_title: Scalable Baseline
     maturity: 1
@@ -18,7 +18,7 @@
             weight: 1
     quality_criteria:
         - Inputs for security test cases are dynamically generated using automated tools.
-	- The static code analysis solution is chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
+        - The static code analysis solution is chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
 
 - Do you verify business logic via automated security tests created from application security requirements?:
     security_practice: Security Testing
@@ -40,12 +40,12 @@
             weight: 1
     quality_criteria:
         - Tests are specifically customized for software interfaces in the project
-	- Tests and the security requirements they verify are expressed in a structured format, such as DSL.
-	- Tests include organization-specific technical standards and compliance concerns.
+        - Tests and the security requirements they verify are expressed in a structured format, such as DSL.
+        - Tests include organization-specific technical standards and compliance concerns.
 
 
 - Do you integrate automatic evaluation of security test cases into the build and deploy process? :
-    security_practice: 	Security Testing
+    security_practice: Security Testing
     stream: a
     stream_title: Scalable Baseline
     maturity: 3
