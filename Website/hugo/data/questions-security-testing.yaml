@@ -1,0 +1,133 @@
+- Do you scan applications with automated static and dynamic security testing tools?:
+    security_practice: 	Security Testing
+    stream: a
+    stream_title: Scalable Baseline
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Inputs for security test cases are dynamically generated using automated tools.
+		    - The static code analysis solution is chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
+
+- Do you verify business logic via automated security tests created from application security requirements?:
+    security_practice: Security Testing
+    stream: a
+    stream_title: Scalable Baseline
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Tests are specifically customized for software interfaces in the project
+		    - Tests and the security requirements they verify are expressed in a structured format, such as DSL.
+		    - Tests include organization-specific technical standards and compliance concerns.
+
+
+- Do you integrate automatic evaluation of security test cases into the build and deploy process? :
+    security_practice: 	Security Testing
+    stream: a
+    stream_title: Scalable Baseline
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Test results are tracked and formally reviewed by management and business stakeholders throughout the development cycle
+        - Tests results are merged into a central dashboard and fed into defect management.
+
+
+- XXX ?:
+    security_practice: Security Testing
+    stream: b
+    stream_title: Deep Understanding
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - 1
+        - 2
+- XXX ?:
+    security_practice: Security Testing
+    stream: b
+    stream_title: Deep Understanding
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - 1
+        - 2
+
+- XXX ?:
+    security_practice: Security Testing
+    stream: b
+    stream_title: Deep Understanding
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - 1
+        - 2
