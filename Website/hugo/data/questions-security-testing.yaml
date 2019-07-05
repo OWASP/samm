@@ -18,7 +18,7 @@
             weight: 1
     quality_criteria:
         - Inputs for security test cases are dynamically generated using automated tools.
-		- The static code analysis solution is chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
+        - The static code analysis solution is chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
 
 - Do you verify business logic with automated security tests, created from application security requirements?:
     security_practice: Security Testing
