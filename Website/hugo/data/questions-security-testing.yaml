@@ -40,8 +40,8 @@
             weight: 1
     quality_criteria:
         - Tests are specifically customized for software interfaces in the project.
-	- Tests and the security requirements they verify are expressed in a structured format, such as a DSL.
-	- Tests include organization-specific technical standards and compliance concerns.
+        - Tests and the security requirements they verify are expressed in a structured format, such as a DSL.
+        - Tests include organization-specific technical standards and compliance concerns.
 
 
 - Do you integrate automatic evaluation of security test cases into the build and deploy process? :
