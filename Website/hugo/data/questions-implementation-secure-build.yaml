@@ -88,7 +88,7 @@
  - Do you evaluate security risk stemming from used dependencies?:
     security_practice: Secure Build
     stream: B
-    stream_title: Build Process
+    stream_title: Software Dependencies
     maturity: 1
     answers:
         - A:
@@ -111,7 +111,7 @@
 - Is 3rd party dependency risk handled by a formal process?:
     security_practice: Secure Build
     stream: B
-    stream_title: Build Process
+    stream_title: Software Dependencies
     maturity: 2
     answers:
         - A:
@@ -134,7 +134,7 @@
 - Do you prevent build of software if it's affected by vulnerabilities in dependencies?:
     security_practice: Secure Build
     stream: B
-    stream_title: Build Process
+    stream_title: Software Dependencies
     maturity: 3
     answers:
         - A:
@@ -154,7 +154,7 @@
 - Do you analyze 3rd party code in a comparable way to your own code?:
     security_practice: Secure Build
     stream: B
-    stream_title: Build Process
+    stream_title: Software Dependencies
     maturity: 3
     answers:
         - A:
