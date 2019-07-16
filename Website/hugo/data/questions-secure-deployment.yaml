@@ -64,8 +64,8 @@
     quality_criteria:
         - Deployment is prevented or rolled back in case integrity breach is detected
         - Software without a valid signature is not deployed
- 
- - Do you limit access to production secrets according to the need to know principle?:
+
+- Do you limit access to production secrets according to the need to know principle?:
     security_practice: Secure Deployment
     stream: B
     stream_title: Secret Management
@@ -86,7 +86,7 @@
     quality_criteria:
         - You store production secrets protected in a digital vault
         - Developers don't have access to production secrets
-        
+
 - Are production secrets injected into the configuration using an automated process?:
     security_practice: Secure Deployment
     stream: B
