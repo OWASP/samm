@@ -60,8 +60,9 @@
             answer: Yes, the majority of them
             weight: 1
     quality_criteria:
-        - Development teams have a security champion dedicated to reviewing security requirements and outcomes.  
-        -The development lifecycle includes a verification phase that validates the software meets security requirements.
+        - Development teams have a security champion dedicated to reviewing security requirements and outcomes.
+        - The development lifecycle includes a verification phase that validates the software meets security requirements.
+
 - Are audits performed against the security requirements specified by project teams?:
     security_practice: Security Requirements
     stream: a
@@ -170,5 +171,5 @@
             answer: Yes, the majority of them
             weight: 1
     quality_criteria:
-        - The vendor has a secure SDLC that includes secure build, secure deployment, defect management and incident management that align with those used in your organization. 
+        - The vendor has a secure SDLC that includes secure build, secure deployment, defect management and incident management that align with those used in your organization.
         - Compensating controls, such as software composition analysis and independent penetration testing before a major release, are used to verify the solution meets quality and security objectives when standard processes are not available.
