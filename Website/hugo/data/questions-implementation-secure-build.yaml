@@ -85,7 +85,7 @@
         - Build processes prevent deployment to production when security checks fail
         - You select and configure tools to evaluate each application against its security requirements
 
- - Do you evaluate security risk stemming from used dependencies?:
+- Do you evaluate security risk stemming from used dependencies?:
     security_practice: Secure Build
     stream: B
     stream_title: Software Dependencies
