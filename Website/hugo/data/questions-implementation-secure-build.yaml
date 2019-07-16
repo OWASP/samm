@@ -84,7 +84,7 @@
         - You log warnings and failures in a centralized system
         - Build processes prevent deployment to production when security checks fail
         - You select and configure tools to evaluate each application against its security requirements
- 
+
  - Do you evaluate security risk stemming from used dependencies?:
     security_practice: Secure Build
     stream: B
@@ -107,7 +107,7 @@
         - You have current bill of materials (BOM) for every application
         - You can quickly find out which applications are affected by a particular CVE
         - You have provably analyzed and addressed findings from dependencies at least once in the last three months
-        
+
 - Is 3rd party dependency risk handled by a formal process?:
     security_practice: Secure Build
     stream: B
@@ -173,5 +173,3 @@
         - You scan your dependencies using a static analysis tool
         - You report findings back to dependency authors using an established responsible disclosure process
         - Using a new dependency which has not been evaluated for security risk causes failing the build
-        
-   

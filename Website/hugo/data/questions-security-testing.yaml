@@ -19,7 +19,6 @@
     quality_criteria:
         - Inputs for security test cases are dynamically generated using automated tools.
         - The static code analysis solution is chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
-
 - Do you verify business logic with automated security tests, created from application security requirements?:
     security_practice: Security Testing
     stream: a
@@ -42,8 +41,6 @@
         - Tests are specifically customized for software interfaces in the project.
         - Tests and the security requirements they verify are expressed in a structured format, such as a DSL.
         - Tests include organization-specific technical standards and compliance concerns.
-
-
 - Do you integrate automatic evaluation of security test cases into the build and deploy process? :
     security_practice: 	Security Testing
     stream: a
@@ -65,8 +62,6 @@
     quality_criteria:
         - Test results are tracked and formally reviewed by management and business stakeholders throughout the development cycle
         - Tests results are merged into a central dashboard and fed into defect management.
-
-
 - Do you manually review selected high-risk components?:
     security_practice: Security Testing
     stream: b
@@ -87,9 +82,8 @@
             weight: 1
     quality_criteria:
         - Components are ranked according to well-defined criteria
-        - Reviews are conducted by qualified personel following documented guidelines 
+        - Reviews are conducted by qualified personel following documented guidelines
         - findings are addressed in accordance with the organisation's defect management policy
-
 - Do you perform penetration testing at regular intervals?:
     security_practice: Security Testing
     stream: b
@@ -110,10 +104,9 @@
             weight: 1
     quality_criteria:
         - Penetration testing uses application-specific security test cases to evaluate security
-        - Penetration testing 
-        - Stakeholders review review the test results and handle them in accordance with the organisation's risk management 
+        - Penetration testing
+        - Stakeholders review review the test results and handle them in accordance with the organisation's risk management
         - Penetration testing is performed by qualified personel and overseen by the SSG.
-
 - Do projects use automated and manual security testing to evaluate security during development?:
     security_practice: Security Testing
     stream: b
@@ -135,4 +128,4 @@
     quality_criteria:
         - You use results from other security activities to improve integrated security testing during development
         - Security champions and the SSG review test results and incorporate them into security awareness training and security testing playbooks
-        - Stakeholders review review the test results and handle them in accordance with the organisation's risk management 
+        - Stakeholders review review the test results and handle them in accordance with the organisation's risk management
