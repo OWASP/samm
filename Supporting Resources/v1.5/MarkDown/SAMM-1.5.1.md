@@ -127,8 +127,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Education & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
 
-**Lifecycle Security Culture** TODO add short description here.
-
+**Lifecycle Security Culture** Security Culture reduces vulnerabilities by human faults, and it grows up by the human players of the software organization.
 
 …*more on page 10*
 
@@ -230,7 +229,12 @@ In addition to training, this practice also requires pulling security-relevant i
 
 ### Lifecycle Security Culture
 
-TODO Add long description here.
+The Security Culture (SC) focuses on establishing a framework of communication and value work within a software organization.  An open discussion about faults regarding development process and product is initiated. Therefore, a list of organizational deficiencies, human faults and intentional activities is created.
+
+The staff members will have a value set and they will be aware of vulnerabilities. Improvement is possible with accurate tracking of life-long learning activities and with an organization-wide participation in a reward system.
+
+In a sophisticated form, a regular assessment of IT-Security culture and continuous enhancement of IT-Security culture is established. The team learns with retrospective. The team measures regularly its collaboration maturity level.
+.
 
 # Governance
 ## Activities Overview
@@ -265,7 +269,7 @@ TODO Add long description here.
 | | LSC 1  | LSC 2  | LSC 3 |
 :-------------|:------------- |:---------------|:-------------|
 | **Objective:**  | **Establish first elements of a security culture.** | **Refinement of the IT-Security culture.** | **Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture.**                      |
-| **Activities:** | **A.** Establish communication **B.** Creating values diversity     | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
+| **Activities:** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
 
 # Construction
 ## Description of Security Practices
@@ -509,7 +513,7 @@ TODO change activity B of LSM1
 |✦Does each project team understand where to find secure development best-practices and guidance? | NO | SOME | HALF | MOST |
 |**EG2** 
 |✦Are those involved in the development process given role-specific security training and guidance? | NO | SOME | HALF | MOST |
-|✦ Are stakeholders able to pull in security coaches for use on projects? | NO | SOME | HALF | MOST |
+|✦Are stakeholders able to pull in security coaches for use on projects? | NO | SOME | HALF | MOST |
 | **EG3** 
 | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
@@ -521,15 +525,17 @@ TODO copy paste assessment
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LSC1** 
-| ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
-| ✦Does ...? | NO | SOME | HALF | MOST |
+| ✦Does your organization have an open discussion about organizational deficiencies, human faults and intentional activities? | NO | SOME | HALF | MOST |
+| ✦Is diversity used in the organization? | NO | SOME | HALF | MOST |
 |**LSC2** 
-|✦Are ...? | NO | SOME | HALF | MOST |
-|✦Are ...? | NO | SOME | HALF | MOST |
+|✦Is a value development established, e.g. a commitment to IT-Security? | NO | SOME | HALF | MOST |
+|✦Is life-long learning established in the organization? | NO | SOME | HALF | MOST |
+|✦Is a fundamental collaboration visible in the organization? | NO | SOME | HALF | MOST |
+|✦Is a security reward system established? | NO | SOME | HALF | MOST |
 | **LSC3** 
-| ✦...? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
-| ✦ ...? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY 
-|
+|✦Is a regular IT-Security culture benchmarking (assessment) established? | NO | SOME | HALF | MOST |
+|✦Is a value retrospective and reflection on IT-Security culture established? | NO | SOME | HALF | MOST |
+|✦Is a mature collaboration visible in the organization? | NO | SOME | HALF | MOST |
 
 # Construction
 ## Assessment worksheet
@@ -1203,200 +1209,180 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 
 # Lifecycle Security Culture
 
-TODO add assessment, results
-
 | | **LSC1** | **LSC2** | **LSC3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Establish first elements of a security culture.** | **Refinement of the IT-Security culture.** | **Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture.**|
 | **Activities** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
-| **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? ✦placeholder ? | ✦placeholder ✦placeholder | ✦placeholder ✦placeholder |
-| **Results** | ✦placeholder  ✦placeholder  ✦placeholder  ✦placeholder  | ✦placeholder  ✦placeholder  ✦placeholder  | ✦placeholder  ✦placeholder  ✦placeholder  ✦placeholder  |
+| **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? ✦Is diversity used in the organization? | ✦Is a value development established, e.g. a commitment to IT-Security? ✦Is life-long learning established in the organization? ✦•	Is a fundamental collaboration visible in the organization? ✦Is a security reward system established? | ✦Is a regular IT-Security culture benchmarking (assessment) established? ✦•	Is a value retrospective and reflection on IT-Security culture established? ✦Is a mature collaboration visible in the organization? |
+| **Results** | ✦Established fault reporting regarding development process and product  ✦Concrete list of organizational deficiencies, human faults and intentional activities  ✦Diversity in profile of team members and diversity in systems architecture (HW, SW) | ✦Awareness of staff members regarding values  ✦Customized plans for life-long learning ✦Approach for development of collaboration within the organization  ✦Accurate tracking of life-long learning activities  ✦Organization-wide participation in a reward system  | ✦Regular Assessment report of IT-Security culture  ✦Established retrospective process  ✦Regular measurement of team collaboration |
 
 # Lifecycle Security Culture: LSC1
 ### Establish first elements of a security culture
 
 ## Activities
 ##### A. Establish communication
-TODO write description of activity out in full 
 
-Open discussion about organizational personal factors [1, 2] in IT-Security: Organizational deficiencies; Human faults; Intentional activities
+An open discussion about organizational personal factors in IT-Security involves organizational deficiencies, human faults and intentional activities. The Team characteristic can be described as working group or pseudo team. 
 
-Motivation for IT-Security Training and a mindset of security awareness [3]
+There is an individual Artifacts Integration. The Collaboration Characteristic based on Col_MM is e.g. low interdependence, the Collaboration Management based on Col_MM is decisions made randomly, the Collaboration Process based on Col_MM is missing conflict handling, and the Information and Knowledge integration based on Col_MM is randomly knowledge generation.
 
-IT-Security as high-level value [4]
+The penetration test lessons learned in the team are to evaluate transparent in the team penetration testing effectiveness, to review the vulnerabilities with the team, and to make sure in the team your incident response plan covers the uncovered vulnerabilities.
 
-Establish a reward system for IT-Security [4]
-
-Using diversity in the development process regarding [4], e.g. in different opinions in review meetings
-
-Proactive attitude regarding handling vulnerabilities and system hardening [5]
-
-Positive concept of human being [8]
-
-Team characteristic [8]:
-Working group
-Pseudo team
-
-Social Awareness [10]
-Sporadic individual, not organization wide
-
-Individual Artifacts Integration [10]
-
-Create IT-Security values in Schneider’s model [9] using the topics of culture, collaboration, control and competency
-
-Collaboration Characteristic based on Col_MM [11]
-e.g. low interdependence
-
-Collaboration Management based on Col_MM [11]
-e.g. decisions made randomly
-
-Collaboration Process based on Col_MM [11]
-e.g. missing conflict handling
-
-Information and Knowledge integration based on Col_MM [11]
-e.g. randomly knowledge generation
 
 ##### B. Creating values diversity
-TODO write description of activity out in full (see activity A)
 
-TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
+The motivation of the team members helps to grow up a mindset of security awareness. IT-Security is acknowledged as a high-level value. The team uses diversity in the development process regarding, e.g. in different opinions in review meetings. There is a proactive attitude regarding handling vulnerabilities and system hardening. 
+
+A positive concept of human being is settled. Social awareness is sporadic individual, but not organization wide. 
+
+The team creates IT-Security values in Schneider’s model using the topics of culture, collaboration, control and competency. 
+
+The Privacy Perception is described by empowerment of privacy awareness.
+
 
 ##### ASSESSMENT
-* XXX
+* Does your organization have an open discussion about organizational deficiencies, human faults and intentional activities?
+* Is diversity used in the organization?
+
 
 ##### RESULTS
-* XXX 
+* Established fault reporting regarding development process and product
+* Concrete list of organizational deficiencies, human faults and intentional activities
+* Diversity in profile of team members and diversity in systems architecture (HW, SW)
+
 
 ##### SUCCESS METRICS
-* XXX
+* Compliance discovery in past 6 months
+* Collaboration Characteristic based on Col_MM questionnaire
+* IT-Security values in Schneider’s model
+* Compliance checklist completed within the past 6 months
+* Compliance review meeting with stakeholders in past 6 months
+
 
 ##### COSTS
-* XXX 
+* Initial creation and adoption of Col_MM questionnaire
+* Initial creation of IT-Security values in Schneider’s model
+
 
 ##### PERSONNEL
-* XXX 
+* Architects (1 day/yr.)
+*Business Owners (1 day/yr.)
+* Developers (1 day/yr.)
+* Managers (1 day/yr.)
+* Security Auditors (1 day/yr.)
+* QA-Testers (1 day/yr.)
+
 
 ##### RELATED LEVELS
-* XXX
+* Policy & Compliance – 1
 
 # Lifecycle Security Culture: LSC2
 ### Refinement of the IT-Security culture
 
 ## Activities
 ##### A. Giving culture commitment
-TODO write description of activity out in full 
 
-Further value development [6]: Commitment to IT-Security
-1Involvement: Employees take extra effort and voice their concerns regarding Security even when it is not their direct responsibility
-2Personal Responsibility: Employees understand that not only IT/ Information Security department is responsible for Security assurance; thus, they take responsibility for acting IT-Security
-3Impact – my actions matter: Employees understand how their actions and decisions affect the “bigger security picture”: they see the connection between their everyday work and IT-Security
+An advances value development starts with a commitment to IT-Security. It comprises involvement (Employees take extra effort and voice their concerns regarding Security even when it is not their direct responsibility), Personal Responsibility (Employees understand that not only IT/ Information Security department is responsible for Security assurance; thus, they take responsibility for acting IT-Security), and  impact – my actions matter (Employees understand how their actions and decisions affect the “bigger security picture”: they seime the connection between their everyday work and IT-Security).
 
-Team characteristic [8]:
-Potential team
-Real team
+The Social Awareness is organization wide. The White hat attitude as penetration tester can be described as finding vulnerabilities by performing attacks on systems based on a contract.
 
-Social Awareness [10]
-organization wide
+Trust is established, because the team assesses the perceptions of users regarding the safekeeping of private information and their trust in the communications of the organization.
 
-Process Awareness [10]
-
-Explicit Knowledge Sharing [10]
-
-Lifelong Learning [9]
-Establish self-controlled learning based on constructivism-based methods
-
-Collaboration Characteristic based on Col_MM [11]
-e.g. non regular strong interactions
-
-Collaboration Management based on Col_MM [11]
-e.g. decisions made reactive
-
-Collaboration Process based on Col_MM [11]
-e.g. hierarchical conflict interventions
-
-Information and Knowledge integration based on Col_MM [11]
-e.g. individual knowledge generation
 
 ##### B. Acting as a team and lifelong learning
-TODO write description of activity out in full (see activity A)
 
-TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
+A Lifelong Learning process is applied, which establishes self-controlled learning based on constructivism-based methods. The team establishes a reward system for IT-Security. Team characteristic can be categorized as potential team or real team. 
+
+The Collaboration Characteristic based on Col_MM is non regular strong interactions, the Collaboration Management based on Col_MM is decisions made reactive, the Collaboration Process based on Col_MM is hierarchical conflict interventions, and the Information and Knowledge integration based on Col_MM is individual knowledge generation.
+
 
 ##### ASSESSMENT
-* XXX
+* Is a value development established, e.g. a commitment to IT-Security?
+* Is life-long learning established in the organization?
+* Is a fundamental collaboration visible in the organization?
+* Is a security reward system established?
+
 
 ##### RESULTS
-* XXX 
+* Awareness of staff members regarding values
+* Customized plans for life-long learning
+* Approach for development of collaboration within the organization
+* Accurate tracking of life-long learning activities
+* Organization-wide participation in a reward system
+
 
 ##### SUCCESS METRICS
-* XXX
+* \>75% of the staff is involved in the security culture
 
 ##### COSTS
-* XXX 
+* Performing the Col_MM questionnaire evaluation and its analysis
+* Accurate tracking of life-long learning activities
+* Performing an organization-wide participation in an IT-Security reward system
+ 
 
 ##### PERSONNEL
-* XXX 
+* Architects (1 day/yr.)
+* Business Owners (1 day/yr.)
+* Developers (1 day/yr.)
+* Managers (1 day/yr.)
+* Security Auditors (1 day/yr.)
+* QA-Testers (1 day/yr.)
 
 ##### RELATED LEVELS
-* XXX
+* Policy & Compliance – 2
+
 
 # Lifecycle Security Culture: LSC3
 ### Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture
 
 ## Activities
 ##### A. Culture benchmarking
-TODO write description of activity out in full 
 
-IT-Security Culture Benchmarking [7]:
-Extract from information security culture questionnaire
+The organization performs an IT-Security Culture Benchmarking by using a security culture questionnaire. The Team characteristic is categorized as high efficiency team. There is a Tactic Knowledge Sharing with staged communication distribution (depends on domain driven strategies e.g. automotive business).
 
-Trust [7]:
-Assesses the perceptions of users regarding the safekeeping of private information and their trust in the communications of the organization
+The Collaboration Characteristic based on Col_MM is regular strong interactions, the Collaboration Management based on Col_MM is decisions made proactive and collective with consensus, the Collaboration Process based on Col_MM is conflicts solved collectively, and the Information and Knowledge integration based on Col_MM is knowledge sharing in a co-creation manner.
 
-Team characteristic [8]:
-High efficiency team
-
-Collaboration Awareness [10]
-
-Tactic Knowledge Sharing [10]
-
-Value retrospective and reflection [9]:
-Adopt and modify the organization IT-Security values with Schneider‘s model
-
-Collaboration Characteristic based on Col_MM [11]
-e.g. regular strong interactions
-
-Collaboration Management based on Col_MM [11]
-e.g. decisions made proactive and collective with consensus
-
-Collaboration Process based on Col_MM [11]
-e.g. conflicts solved collectively
-
-Information and Knowledge integration based on Col_MM [11]
-e.g.  knowledge sharing in a co-creation manner
 
 ##### B. Culture retrospective and reflection
-TODO write description of activity out in full (see activity A)
 
-TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
+There is a value retrospective and reflection by adopting and modifying the organization IT-Security values with Schneider‘s model.
+The organization has independent penetration tester. The process uses external strategies and auditors for penetration testing. The penetration tester has a consciousness about own bias view.
+
 
 ##### ASSESSMENT
-* XXX
+* Is a regular IT-Security culture benchmarking (assessment) established?
+* Is a value retrospective and reflection on IT-Security culture established?
+* Is a mature collaboration visible in the organization?
+
 
 ##### RESULTS
-* XXX 
+* Regular Assessment report of IT-Security culture
+* Established retrospective process
+* Regular measurement of team collaboration
 
 ##### SUCCESS METRICS
-* XXX
+* All projects have a high maturity level in the Col_MM
+* All projects use IT-Security values in Schneider’s model
+* The organization has a well performed value retrospective and reflection process.
+
 
 ##### COSTS
-* XXX 
+* Performing the Col_MM questionnaire evaluation and its analysis
+* Continuous improvement of IT-Security values in Schneider’s model
+* Performing value retrospective and reflection
+
 
 ##### PERSONNEL
-* XXX 
+* Architects (1 day/yr.)
+* Business Owners (1 day/yr.)
+* Developers (1 day/yr.)
+* Managers (1 day/yr.)
+* Security Auditors (1 day/yr.)
+* QA-Testers (1 day/yr.)
+
 
 ##### RELATED LEVELS
-* XXX
+* Policy & Compliance – 3
 
 # Threat Assessment
 | | **TA1** | **TA2** | **TA3** |
