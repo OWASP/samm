@@ -105,6 +105,8 @@ Environment Hardening 64
 
 Operational Enablement 68
 
+Lifecycle Security Monitoring XX
+
 TODO change number of pages
 
 !['Understanding the Model' Image pages Here](images/UnderstandingModel.png)
