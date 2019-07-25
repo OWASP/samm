@@ -234,7 +234,6 @@ The Security Culture (SC) focuses on establishing a framework of communication a
 The staff members will have a value set and they will be aware of vulnerabilities. Improvement is possible with accurate tracking of life-long learning activities and with an organization-wide participation in a reward system.
 
 In a sophisticated form, a regular assessment of IT-Security culture and continuous enhancement of IT-Security culture is established. The team learns with retrospective. The team measures regularly its collaboration maturity level.
-.
 
 # Governance
 ## Activities Overview
@@ -398,7 +397,7 @@ Furthermore, a detailed documentation for vulnerability mitigation and exploitat
 
 | | LST1 | LST2 | LST3 |
 |:-------------|:------------- |:---------------|:-------------|
-| **Objective:**  | **Establish and execute a complete workflow of active penetration testing.**          | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.**               | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**                  |
+| **Objective:** | **Establish and execute a complete workflow of active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.** |
 | **Activities:** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related penetration testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
 
 
@@ -1312,7 +1311,7 @@ The Collaboration Characteristic based on Col_MM is non regular strong interacti
 
 
 ##### SUCCESS METRICS
-* \>75% of the staff is involved in the security culture
+* >75% of the staff is involved in the security culture
 
 ##### COSTS
 * Performing the Col_MM questionnaire evaluation and its analysis
@@ -3198,7 +3197,7 @@ All the gathered information has to lead into "attack pattern" which must be sto
 ##### SUCCESS METRICS
 * database for attack patern installed
 * at least one person fulltime monitoring security feeds
-* \>70% of products/derivatives/libraries in central *configuration management* database
+* >70% of products/derivatives/libraries in central *configuration management* database
 * respond team for after sale security management installed
 
 
@@ -3248,7 +3247,7 @@ After all, the penetration tests have to be executed for all relevant software/h
 * independent penentration test development team with at least one person fulltime
 * company development process contains process steps for penetration tests at least for every release
 * archiving of penetration test results is guaranteed
-* Database contains at least \>70% of released/sold products and their configuration management
+* Database contains at least >70% of released/sold products and their configuration management
 
 ##### COSTS
 * Ongoing project overhead from need of implementing specific security tests
@@ -3294,8 +3293,8 @@ This means, the action  has to be deployed to the devices out in the field. Ther
 ##### SUCCESS METRICS
 * information channels to end user are all known 
 * exisiting and at lest twice per year updated guideline for developers
-* implemented process for distributing patches/updates/degradation (\>80% automated)
-* \>80% of the developers are skilled regarding security
+* implemented process for distributing patches/updates/degradation (>80% automated)
+* >80% of the developers are skilled regarding security
 * at least twice yearly training of developers
 * at least once per year trainings for operators, mangagers
 
