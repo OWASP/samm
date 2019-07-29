@@ -20,7 +20,7 @@
         - The process includess strategy for handling false positives and accepting risk
         - Defects stem from various sources / activities
         - Deduplication is ensured per location
-        
+
 
 - Do you take action on defects exceeding defined threshold?:
     security_practice: Defect Management
@@ -67,7 +67,7 @@
         - Knowledgeable decision based on input from defect management system is ensured upon deployment
         - The classification of the defects is regularly verified
 
-- Do you use defect information for improving training materials?:
+- Do you share defect information for remediation and improving training materials?:
     security_practice: Defect Management
     stream: b
     stream_title: Metrics and Feedback/Learning
