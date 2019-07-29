@@ -42,28 +42,8 @@
     quality_criteria:
         - The data catalog is stored in an accessible location
         - You have identified data elements subject to specific regulation
-
-- Have you established retention requirements for data, and do you destroy backups in a timely manner after the relevant retention period ends?:
-    security_practice: Operational Management
-    stream: A
-    stream_title: Data Protection
-    maturity: 2
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some of our data
-            weight: 0.2
-        - C:
-            answer: Yes, for at least half of our data
-            weight: 0.5
-        - D:
-            answer: Yes, for most of our data
-            weight: 1
-    quality_criteria:
-        - You protect offline media from disclosure and destruction throughout the retention period
-        - You conduct periodic spot checks of backup media to verify they are not corrupted
+        - You have controls for protecting and preserving data throughout their lifetime
+        - You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends
 
 - Do you regularly review and update the data catalog and your data protection policies and procedures?:
     security_practice: Operational Management
@@ -107,7 +87,8 @@
             answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - The organization does not use unsupported applications or dependencies
+        - You do not use unsupported applications or dependencies
+        - You manage customer/user migration from older versions for each product and customer/user group
 
 - Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?:
     security_practice: Operational Management

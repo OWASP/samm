@@ -86,7 +86,7 @@
             answer: Yes, for most of applications
             weight: 1
     quality_criteria:
-        - Information about defects is made generally available after the fix
+        - Basic information about defects is made available to fix them
         - You have improved your training materials based on the defect information in the last year
 
 - Do you improve your assurance program upon well-defined metrics?:
