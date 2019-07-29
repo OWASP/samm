@@ -1,0 +1,13 @@
+concord:
+  img: /img/concord.png
+  url: https://concordusa.com
+fortify:
+  img: /img/fortify.png
+  url: https://www.microfocus.com/en-us/solutions/application-security
+nccgroup:
+  img: /img/nccgroup.png
+  url: https://www.nccgroup.trust
+splunk:
+  img: /img/splunk.png
+  url: https://www.splunk.com/
+

@@ -1,0 +1,142 @@
+{{ define "content" }}
+<div class="mainwrapper">
+  <div class="ui inverted vertical menu" id="toc">
+    {{ $home := .Site.Home }}
+    {{ $rootsection := .Section }}
+    {{ range $home.Sections.Reverse }}
+      {{ if eq $rootsection .Section }}
+        <h3 class="header item">
+          {{ .Title }}
+        </h3>
+        {{ range sort .Pages "Weight" "asc" }}
+          {{ if .Title }}
+            <a class="item" href="{{ .RelPermalink}}">
+              {{ .Title }}
+            </a>
+          {{ end }}
+        {{ end }}
+        {{ range sort .Sections "Weight" "asc" }}
+          {{ if .Title }}
+            <div class="item">
+              <h4 class="header">
+                {{ .Title }}
+              </h4>
+              {{ if .Pages }}
+                <div class="menu">
+                  {{ range sort .Pages "Weight" "asc" }}
+                    {{ if .Title }}
+                      <a class="item" href="{{ .RelPermalink}}">
+                        {{ .Title }}
+                      </a>
+                    {{ end }}
+                  {{ end }}
+                </div>
+              {{ end }}
+              {{ if .Sections }}
+                {{ range sort .Sections "Weight" "asc" }}
+                  <div class="item">
+                    <h5 class="header">
+                      {{ .Title }}
+                    </h5>
+                    <div class="menu">
+                      {{ range sort .Pages "Weight" "asc" }}
+                        {{ if .Title }}
+                          <a class="item" href="{{ .RelPermalink}}">
+                            {{ .Title }}
+                          </a>
+                        {{ end }}
+                      {{ end }}
+                    </div>
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <a class="item" href="https://www.owasp.org/"><img class="ui fluid image" src="{{ "img/owasp.svg"  | relURL }}" /></a>
+    <a class="item" href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="{{ "img/by-sa.png"  | relURL }}" /></a>
+
+  </div>
+
+  <main>
+    <div class="ui text container">
+
+      <h1 class="ui huge dividing header">
+        {{ .Title }}
+      </h1>
+
+{{/* $home := .Site.Home }}
+<ul>
+{{ template "section-tree-nav" $home }}
+</ul>
+{{ define "section-tree-nav" }}
+{{ range .Sections.Reverse}}
+<li>
+	<li><label>{{ .Title }}</label>
+	<ul>
+		{{ range .Pages }}
+		<li><a href="{{ .RelPermalink}}">{{ . }}</a></li>
+		{{ end }}
+		<ul>
+		{{ template "section-tree-nav" . }}
+		</ul>
+	</ul>
+</li>
+</li>
+{{ end }}
+{{ end */}}
+
+      {{ if eq .Section "head" }}
+      <div class="ui buttons">
+        <a href="{{ $.Site.Params.ghrepo }}edit/master/{{ $.Site.Params.ghcontent }}{{.File.Path}}" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+        <a href="{{ $.Site.Params.ghraw }}master/{{ $.Site.Params.ghcontent }}{{.File.Path}}" target="_blank" class="ui red button"><i class="file code icon"></i> Raw</a>
+      </div>
+
+      <div class="ui hidden divider"></div>
+
+      <div class="ui large labels">
+        <div class="ui green label">
+          Business function
+          <div class="detail">{{ $.Param "business_functions" }}</div>
+        </div>
+        <div class="ui orange label">
+          Assigned to
+          <div class="detail">{{ .Params.assignedto }}</div>
+        </div>
+        {{ if isset .Params "complete" }}
+        <div class="ui label">
+          Progress
+          <div class="detail"><span class="donut">{{ ( .Params.complete | strings.TrimRight "%" ) }}/100</span> {{ ( .Params.complete | strings.TrimRight "%" ) }}%</div>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ .Content }}
+    </div>
+  </main>
+</div>
+
+
+
+
+<script src="{{ "js/semantic.min.js"  | relURL }}" data-no-instant></script>
+<script src="{{ "js/jquery.peity.min.js"  | relURL }}" data-no-instant></script>
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sidebar')
+    .sidebar('setting', 'transition', 'push')
+    .sidebar('setting', 'closable' , false)
+    .sidebar('setting', 'dimPage' , false);
+    $('.donut').peity('donut');
+    $('.ui.accordion').accordion();
+  });
+</script>
+
+{{ end }}
+
+{{ define "footer" }}
+<!-- empty -->
+{{ end }}

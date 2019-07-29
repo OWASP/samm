@@ -1,0 +1,138 @@
+- Are you classifying applications according to business risk based on a simple, but predefined set of questions?:
+    security_practice: Threat Assessment
+    stream: a
+    stream_title: Application Risk Profile
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - The application team should understand the risk classification
+        - The risk classification covers critical aspects of business risks the organization is facing
+        - The organization has an inventory for the applications in scope
+
+
+- Are you using centralized and quantified application risk profiles to evaluate business risk?:
+    security_practice: Threat Assessment
+    stream: a
+    stream_title: Application Risk Profile
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - The application risk profile is in line with the organisational risk standard
+        - The application risk profile must cover impact to security and privacy
+        - The quality of the risk profile is validated using manual and/or automated means
+
+- Do you regularly review and update the risk profiles for your applications?:
+    security_practice: Threat Assessment
+    stream: a
+    stream_title: Application Risk Profile
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, sporadically
+            weight: 0.25
+        - C:
+            answer: Yes, upon change of the application
+            weight: 0.5
+        - D:
+            answer: Yes, at least yearly
+            weight: 1
+    quality_criteria:
+        - The organisational risk standard takes into account historical feedback to improve the evaluation method
+        - Changes in the application or business context trigger a review of the relevant risk profiles
+
+
+- Are you evaluating the technical architecture of your applications for potential threats?:
+    security_practice: Threat Assessment
+    stream: b
+    stream_title: Threat Modeling
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - All application trust boundaries are being reviewed
+        - Threat identification should cover different types of threats
+
+
+- Are you using a standard methodology to evaluate the threats to your applications?:
+    security_practice: Threat Assessment
+    stream: b
+    stream_title: Threat Modeling
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Threat modeling activities should be carried out/supported by people with good understanding of the concept by experience or training
+        - The methodology stipulates the different inputs that are required to perform an in-depth assessment
+        - Threat model deliverables are standardized and centralized across the organisation
+
+- Do you regularly review and update the threat models for your applications?:
+    security_practice: Threat Assessment
+    stream: b
+    stream_title: Threat Modeling
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    Quality_criteria:
+      - The threat model methodology takes into account historical feedback to improve the evaluation method
+        - Changes in the application or business context trigger a review of the relevant threat models
+        - Threat models are analyzed automatically for their quality

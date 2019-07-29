@@ -1,0 +1,175 @@
+- Do project teams specify security requirements during development?:
+    security_practice: Security Requirements
+    stream: a
+    stream_title: Software Requirements
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, sometimes
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, most of the time
+            weight: 1
+    quality_criteria:
+        - Security requirements are derived from functional requirements and customer/organization concerns.
+        - Security requirements are specific, measurable, and reasonable.
+- Are the artifacts of the security requirements gathering process well defined and structured, with prioritization?:
+    security_practice: Security Requirements
+    stream: a
+    stream_title: Software Requirements
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development.
+        - Domain experts are involved in the requirements definition process.
+        - An agreed upon structured notation exists for security requirements.
+- Is there a feedback mechanism available for verifying teams are adhering to specified security requirements?:
+    security_practice: Security Requirements
+    stream: a
+    stream_title: Software Requirements
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Development teams have a security champion dedicated to reviewing security requirements and outcomes.
+        - The development lifecycle includes a verification phase that validates the software meets security requirements.
+
+- Are audits performed against the security requirements specified by project teams?:
+    security_practice: Security Requirements
+    stream: a
+    stream_title: Software Requirements
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Reviews are routinely performed to ensure security requirements have been specified for all functional requirements.
+        - A list of unfulfilled security requirements and their projected implementation date is documented.
+        - Security requirement audits are performed prior to the implementation of code.
+- Is there a security requirements process built upon a standard requirements framework and adapted to the organization?:
+    security_practice: Security Requirements
+    stream: a
+    stream_title: Software Requirements
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - An existing security requirements framework is available for project teams.
+        - The framework is categorized by common requirements as well as standards-based requirements.
+        - The framework gives clear guidance on the quality of requirements and formalizes how to describe them.
+        - The framework is adaptable to specific business requirements.
+        - The security requirements process is reviewed annually for alignment with the security requirements framework.
+- Do stakeholders review vendor agreements for security requirements and methodology?:
+    security_practice: Security Requirements
+    stream: b
+    stream_title: Supplier Security
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - During the creation of third-party agreements, specific security requirements, activities, and processes are considered for inclusion.
+        - A vendor questionnaire is available to assess the strengths and weaknesses of your suppliers.
+- Does the vendor agree to the security responsibilities and quality measures to meet service level agreements as defined by the organization?:
+    security_practice: Security Requirements
+    stream: b
+    stream_title: Supplier Security
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - During the creation of vendor agreements, security requirements are provided to the vendor.
+        - Vendor agreements provide specific guidance on security defect remediation within an agreed upon timeframe.
+        - The organization has a templated agreement of responsibilities and service levels for vendor security processes.
+- Are vendors required to align with standard security controls and software development tools and processes that the organization utilizes?:
+    security_practice: Security Requirements
+    stream: b
+    stream_title: Supplier Security
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - The vendor has a secure SDLC that includes secure build, secure deployment, defect management and incident management that align with those used in your organization.
+        - Compensating controls, such as software composition analysis and independent penetration testing before a major release, are used to verify the solution meets quality and security objectives when standard processes are not available.

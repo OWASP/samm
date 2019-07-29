@@ -21,9 +21,8 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - arjen/hugo-build:
-        version: "0.41"
-        flags: --buildDrafts=true
-        basedir: "v2.0/website"
+        version: "0.53"
+        basedir: "Website/hugo"
 deploy:
   steps:
     - install-packages:
@@ -31,4 +30,4 @@ deploy:
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
         domain: owaspsamm.org
-        basedir: v2.0/website/public
+        basedir: "Website/hugo/public"

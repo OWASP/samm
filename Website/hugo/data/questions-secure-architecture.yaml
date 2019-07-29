@@ -1,0 +1,155 @@
+- Do teams use security principles during design?:
+    security_practice: Security Architecture
+    stream: A
+    stream_title: Architecture Design
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, sometimes
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of the time
+            weight: 1
+    quality_criteria:
+        - You have at least one checklist
+        - You have agreed upon your checklists
+        - Your checklists are stored in an accessible location
+- Do you favour the use of standard security services during design?: 
+    security_practice: Security Architecture
+    stream: A
+    stream_title: Architecture Design
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - You have a list of reusable security services organised by security mechanism
+        - You have reviewed the baseline security posture for each selected service
+        - Your designers are trained to integrate each selected service following available guidance
+- Do you favour the use of standard security patterns during design?:
+    security_practice: Security Architecture
+    stream: A
+    stream_title: Architecture Design
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - You have a list of reusable security patterns organised by security mechanism
+        - You have linked each security pattern to a corresponding security service where applicable 
+        - Your designers are familiar with the patterns
+- Do you base your design on available reference architectures?: 
+    security_practice: Security Architecture
+    stream: A
+    stream_title: Architecture Design
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - You have a list of approved reference architectures.
+        - You improve the reference architectures continuously based on insights and best practices.
+        - You provide a set of components, libraries, and tools to implement each reference architecture.
+- Do you evaluate the security quality of important technologies used?: 
+    security_practice: Security Architecture
+    stream: B
+    stream_title: Technology Management
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - You have a list of the most important technologies used in each application.
+        - You identify and track technological risks
+        - You replace risky technologies in accordance with the organisation's policy
+- Do you have a list of recommended technologies?: 
+    security_practice: Security Architecture
+    stream: B
+    stream_title: Technology Management
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the technologies.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the technologies
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the technologies
+            weight: 1
+    quality_criteria:  
+        - The list is based on technologies used in the software portfolio
+        - Lead architects and developers review and approve the list
+        - The list is shared across the development organisation
+        - The list is regularly (at least yearly) reviewed and updated
+- Do you enforce the use of recommended technologies?: 
+    security_practice: Security Architecture
+    stream: B
+    stream_title: Technology Management
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications.
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+    quality_criteria:
+        - Applications are regularly monitored for the correct use of the list of recommended technologies
+        - Violations against the list are solved in accorandance with the organisational’s policy
+        - The number of violations on a yearly basis falls within objectives or concrete actions are taken to improve

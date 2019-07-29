@@ -1,0 +1,59 @@
+{{ $security_practice := .Get 0 }}
+{{ $stream := .Get 1 }}
+{{ $maturity := .Get 2 }}
+
+{{  range $key, $value := .Site.Data }}
+  {{ if (hasPrefix $key "questions-") }}
+    {{ $.Scratch.Add "questions" $value }}
+  {{ end }}
+{{ end }}
+
+{{ range $key, $value := ( $.Scratch.Get "questions" ) }}
+    {{ range $question, $properties := $value }}
+      {{ if (and (eq $security_practice $properties.security_practice) (or (eq $stream $properties.stream) (eq $stream $properties.stream_title) ) (eq (printf "%v" $maturity) (printf "%v" $properties.maturity) ) ) }}
+        {{ if not (in ($.Scratch.Get "spIndexes") $properties.security_practice ) }}
+          {{ $.Scratch.Add "spIndexes" (slice $properties.security_practice) }}
+        {{ end }}
+        {{ if not (in ($.Scratch.Get ( print $properties.security_practice " Index")) (print $properties.security_practice " Stream " $properties.stream) ) }}
+          {{ $.Scratch.Add (print $properties.security_practice " Index") (slice (print $properties.security_practice " Stream " $properties.stream)) }}
+        {{ end }}
+        {{ $maturity := $properties.maturity }}
+        {{ $mname := print $properties.security_practice " Stream " $properties.stream " Maturity " $maturity }}
+        {{ if not (in ($.Scratch.Get (print $properties.security_practice " Stream " $properties.stream " Index")) $mname ) }}
+          {{ $.Scratch.Add (print $properties.security_practice " Stream " $properties.stream " Index") (slice $mname ) }}
+        {{ end }}
+        {{ $.Scratch.Add (print $mname " Index") (slice $value) }}
+      {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ range $key, $sf := ( $.Scratch.Get "spIndexes" ) }}
+  {{ range $key1, $stream := ( $.Scratch.Get (print $sf " Index") ) }}
+          {{ range $key2, $maturity := ( $.Scratch.Get (print $stream " Index") ) }}
+                <ul>
+                  {{ range $key3, $question := ( $.Scratch.Get (print $maturity " Index") ) }}
+                    <li>
+                    {{ range $actualq, $qproperties := $question }}
+                      <b>{{$actualq}}</b><br/>
+                      Criteria:
+                      <ul>
+                        {{ range $key4,$criteria := $qproperties.quality_criteria }}
+                          <li>{{ $criteria }}</li>
+                        {{ end }}
+                      </ul>
+                      Answer Options:
+                      <ul>
+                        {{ range $key4,$answer := $qproperties.answers }}
+                          <li>
+                            {{ range $key5,$ananswer := $answer }}{{ $ananswer.answer }} - {{ $ananswer.weight }}{{end}}
+                          </li>
+                        {{ end }}
+                      </ul>
+                      <br/>
+                    {{ end }}
+                    </li>
+                  {{ end }}
+                  </ul>
+          {{ end }}
+      {{ end }}
+{{ end }}
