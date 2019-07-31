@@ -20,26 +20,8 @@
         - You have enough information to recreate the build processes
         - Your build documentation up to date
         - Your build documentation is stored in an accessible location
-- Do you sign artifacts produced during builds?:
-    security_practice: Secure Build
-    stream: A
-    stream_title: Build Process
-    maturity: 1
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some applications
-            weight: 0.25
-        - C:
-            answer: Yes, for at least half of the applications
-            weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
-            weight: 1
-    quality_criteria:
-        - Signing is documented in the build processes
+        - Produced artifact checksums are created during build to support later verification
+
 - Are build processes automated?:
     security_practice: Secure Build
     stream: A
@@ -131,6 +113,7 @@
         - Above defined criticality threshold, responsible staff is alerted
         - License changes with possible impact on legal application usage are automatically detected and alerted
         - Usage of unmaintained dependencies is tracked and alerted
+
 - Do you prevent build of software if it's affected by vulnerabilities in dependencies?:
     security_practice: Secure Build
     stream: B
@@ -151,25 +134,7 @@
             weight: 1
     quality_criteria:
         - Your build system is connected to a system for tracking 3rd party dependency risk, causing build to fail unless the vulnerability is evaluated to be a false positive or the risk is explicitely accepted.
-- Do you analyze 3rd party code in a comparable way to your own code?:
-    security_practice: Secure Build
-    stream: B
-    stream_title: Software Dependencies
-    maturity: 3
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some applications
-            weight: 0.25
-        - C:
-            answer: Yes, for at least half of the applications
-            weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
-            weight: 1
-    quality_criteria:
         - You scan your dependencies using a static analysis tool
         - You report findings back to dependency authors using an established responsible disclosure process
         - Using a new dependency which has not been evaluated for security risk causes failing the build
+    

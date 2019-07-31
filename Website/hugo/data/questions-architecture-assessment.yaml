@@ -54,6 +54,7 @@
     maturity: 3
     quality_criteria:
         - You evaluate the preventive, detective and response capabilities of security controls
+        - You evaluate the strategy alignment, appropriate support, and scalability of security controls
         - You evaluate the effectiveness at least yearly
         - You log identified shortcomings as defects
     answers:
@@ -70,7 +71,7 @@
             answer: Yes, for the majority of the applications
             weight: 1
 - Do you review the architecture against compliance requirements?:
-    security_practice: Architecture Assessment	
+    security_practice: Architecture Assessment
     stream: b
     stream_title: Architecture Compliance
     maturity: 1
@@ -93,7 +94,7 @@
         - You record all missing compliance requirements and handle them following organisational risk management
 
 - Do you analyze the architecture against known security requirements and best practices ?:
-    security_practice: Architecture Assessment	
+    security_practice: Architecture Assessment
     stream: b
     stream_title: Architecture Compliance
     maturity: 2
@@ -116,7 +117,7 @@
         - You record all unsatisfied security requirements and handle them following organisational risk management
 
 - Do you feed architecture review results back into the enterprise architecture? :
-    security_practice: Architecture Assessment	
+    security_practice: Architecture Assessment
     stream: b
     stream_title: Architecture Compliance
     maturity: 3
