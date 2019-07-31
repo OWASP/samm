@@ -1225,9 +1225,9 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 
 An open discussion about organizational personal factors in IT-Security involves organizational deficiencies, human faults and intentional activities. The team characteristic can be described as working group or pseudo team. 
 
-There is an individual Artifacts Integration. The collaboration maturity model (Col_MM) (https://doi.org/10.1080/07421222.2015.1095042) assesses organization's team collaboration maturity: The collaboration characteristic based on Col_MM is e.g. low interdependence, the collaboration Management based on Col_MM is decisions made randomly, the collaboration Process based on Col_MM is missing conflict handling, and the Information and Knowledge integration based on Col_MM is randomly knowledge generation.
+There is an individual artifacts integration. The collaboration maturity model (Col_MM) (https://doi.org/10.1080/07421222.2015.1095042) assesses organization's team collaboration maturity: The collaboration characteristic based on Col_MM is, e.g., low interdependence, the collaboration management based on Col_MM is decisions made randomly, the collaboration process based on Col_MM is missing conflict handling, and the information and knowledge integration based on Col_MM is randomly knowledge generation.
 
-The lessons learned form the penetration tests have to be evaluated regarding the effectiveness in order to review the vulnerabilities with the team, and to make sure your incident response plan covers the uncovered vulnerabilities.
+The lessons learned form the penetration tests have to be evaluated regarding the effectiveness in order to review the vulnerabilities with the team and to make sure your incident response plan covers the uncovered vulnerabilities.
 
 ##### B. Creating values diversity
 
@@ -1880,14 +1880,14 @@ security protections
 | **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll-out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
 | **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all penetration testing procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow-up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the project's lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
-# Lifecycle Security Design: SD1
+# Lifecycle Security Design: LCSD1
 
 ### Identify security risks and attack potentialities for individual projects
 
 ## Activities
 ##### A. Compile a risk analysis in due consideration of security and safety goals
 Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature.
-A risk function or risk matrix according to EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate whether they meet security requirements.
+A risk function or risk matrix according to EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that are also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate whether they meet safety requirements, however, security requirements can be validated in a similar manner. In fact, ISO21434, which will be published at the end of 2020, introduces Cybersecurity Assurance Levels (CAL) that are similar to ASIL serve as qualitative assessment of how security is established in the software developing company.
 Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature.
 Then identify all internal and external components that influence a product's relevant security features.
 Security and safety goals should be drafted in such a way that the elaborated risks will not occur.
@@ -1910,9 +1910,9 @@ An attack pattern is an abstract mechanism that describes how an attack works.
 It should begin with a name and include its probability, the exploitability for security, and the severity of the attack.
 Then, it should list the affected domain, the used mechanisms, and link possible attacks that follow the same schema.
 In addition, a short text with a description should be included. The goal, the motivation and the necessary abilities of the attacker should be documented as well.
-Then follows a detailed explanation of the attack. This should include the exploited vulnerability, necessary tools, and the exact steps of the process, dependencies, possible follow-up attacks and indicators and obfuscation.
+Then follows a detailed explanation of the attack. This should include the exploited vulnerability, necessary tools, and the exact steps of the process, dependencies, possible follow-up attacks, indicators and obfuscation.
 In addition, known examples should be provided in the form of code or known attacks and possible defense mechanisms should be proposed (mitigation).
-In the end, if existing, relationships with other known patterns or vulnerabilities can also be listed.
+In the end, existing relationships with other known patterns or vulnerabilities can also be listed.
 For the creation and maintaining of the catalog several meetings are needed.
 
 ##### ASSESSMENT
@@ -1957,7 +1957,7 @@ For the creation and maintaining of the catalog several meetings are needed.
 * Lifecycle Security Design - 2
 * Lifecycle Security Design - 3
 
-# Lifecycle Security Design: SD2
+# Lifecycle Security Design: LCSD2
 
 ### Plan penetration tests in advance and take future attack potentialities into account
 
@@ -2032,9 +2032,9 @@ Additionally, public services, which publish security exploits, should be search
 * Security Testing - 2
 * Education & Guidance - 2
 
-# Lifecycle Security Design: SD3
+# Lifecycle Security Design: LCSD3
 
-### SD3 Facilitate hardware independent and ongoing penetration tests.
+### Facilitate hardware independent and ongoing penetration tests.
 
 ## Activities
 ##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
@@ -2051,25 +2051,25 @@ This means that new development processes have to be created within the company.
 Instead of a strict schedule with one phase of planning, development, testing and deployment, these steps should be repeated continuously.
 In this case, the company generally or each project has to find a suitable procedure for itself.
 However, it is important that results from tests are evaluated early on and that the planning and development make changes accordingly.
-Therefore, the planning process is repeated several times instead of only once.
+Therefore, the planning process has to be repeated several times.
 
-##### B. Categorize, acquire and store all relevant hardware and software versions
+##### B. Categorize, acquire and store all relevant hardware and software versions and variants
 
 It should be possible to test newly identified vulnerabilities immediately for all affected products.
 
 This can be difficult and lead to an immense overhead since a product that has been rolled out for some time often has several software and hardware versions.
-However, not being able to test every "relevant" can lead to major problems afterwards.
+However, not being able to test every "relevant" version or variant can lead to major problems afterwards.
 Therefore, a secure update channel and key management must be designed for every product and a plan for stopping the support after the project is dismissed.
-Additionally, "relevant" software and hardware versions should always be present for testing.
-To make this possible, the affected departments of a company must agree on a standard for "relevant" versions.
-Then, if a new "relevant" hardware or software version is rolled out, it should be stored at least once in the company.
-In order to protect against possible losses, you should consider storing a version several times (redundancies).
+Additionally, "relevant" software and hardware versions and variants should always be present for testing.
+To make this possible, the affected departments of a company must agree on a standard for "relevant" versions and variants.
+Then, if a new "relevant" hardware or software version or variant is rolled out, it should be stored at least once in the company.
+In order to protect against possible losses, you should consider storing every version and variant several times (redundancies).
 To do this, a company must create the necessary capacity and infrastructure.
 Therefore, managers, developers, testers, and security experts need to design a plan for the implementation.
-As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i.e., how many adaptations a user needs to make during an update.
+As a point of reference for relevant versions and variants, the complexity of version and/or variant updates should be taken into consideration, i.e., how many adaptations a user needs to make during an update.
 
 To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
-Clear responsibilities have to be defined, so that the test results can be adequately addressed, and security gaps closed for all versions.
+Clear responsibilities have to be defined, such that the test results can be adequately addressed and security gaps closed for all versions.
 
 ##### ASSESSMENT
 * Can products be tested hardware independently?
@@ -2779,7 +2779,7 @@ Integrate penetration testing results into these release gates in order to estab
 
 Begin to draw an initial baseline (release gate 1) on a limited selection of attack pattern paths that must pass, so that improvement to this baseline is possible. Widen the scope of the baseline with additional attack pattern paths cases (release gate 2-4) for a more robust software release.
 
-Another option to structure release gates could be to assign different release gates to (A) releases and (B) release candidates of software development. Consider this approach if you are working on a highly cyber-security relevant system. Release candidates in software development are not intended to be seen as a finished product, rather you test the release candidates in an additional branch of software development in order to fix (security-related) bugs. Add release gates 1-3 to the earlier stages, gate 4 to the latest stage of the release candidate branch.
+Another option to structure release gates could be to assign different release gates to (A) releases and (B) release candidates of software development. Consider this approach if you are working on a highly cyber-security relevant system. Release candidates in software development are not intended to be seen as a finished product, rather you test the release candidates in an additional branch of software development in order to fix (security-related) bugs. Add release gates 1-3 to the earlier stages and gate 4 to the latest stage of the release candidate branch.
 
 ##### ASSESSMENT
 * Do projects integrate preventive security feedback loops including penetration testing?
