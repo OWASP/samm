@@ -17,6 +17,7 @@
             answer: Yes, the majority of them
             weight: 1
     quality_criteria:
+        - A risk classification should exist and be agreed upon
         - The application team should understand the risk classification
         - The risk classification covers critical aspects of business risks the organization is facing
         - The organization has an inventory for the applications in scope
@@ -44,6 +45,7 @@
         - The application risk profile is in line with the organisational risk standard
         - The application risk profile must cover impact to security and privacy
         - The quality of the risk profile is validated using manual and/or automated means
+        - The application risk profiles are stored in a central inventory
 
 - Do you regularly review and update the risk profiles for your applications?:
     security_practice: Threat Assessment
@@ -65,7 +67,7 @@
             weight: 1
     quality_criteria:
         - The organisational risk standard takes into account historical feedback to improve the evaluation method
-        - Changes in the application or business context trigger a review of the relevant risk profiles
+        - Significant changes in the application or business context trigger a review of the relevant risk profiles
 
 
 - Are you evaluating the technical architecture of your applications for potential threats?:
@@ -87,7 +89,7 @@
             answer: Yes, the majority of them
             weight: 1
     quality_criteria:
-        - All application trust boundaries are being reviewed
+        - Application trust boundaries are being reviewed
         - Threat identification should cover different types of threats
 
 
@@ -112,7 +114,7 @@
     quality_criteria:
         - Threat modeling activities should be carried out/supported by people with good understanding of the concept by experience or training
         - The methodology stipulates the different inputs that are required to perform an in-depth assessment
-        - Threat model deliverables are standardized and centralized across the organisation
+        - Threat model deliverables are standardized and accessible across the organisation
 
 - Do you regularly review and update the threat models for your applications?:
     security_practice: Threat Assessment
@@ -133,6 +135,6 @@
             answer: Yes, the majority of them
             weight: 1
     Quality_criteria:
-      - The threat model methodology takes into account historical feedback to improve the evaluation method
+        - The threat model methodology takes into account historical feedback to improve the evaluation method
         - Changes in the application or business context trigger a review of the relevant threat models
-        - Threat models are analyzed automatically for their quality
+        - Threat models are independently evaluated for their quality

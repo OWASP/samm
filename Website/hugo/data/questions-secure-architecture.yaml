@@ -17,9 +17,9 @@
             answer: Yes, the majority of the time
             weight: 1
     quality_criteria:
-        - You have at least one checklist
-        - You have agreed upon your checklists
-        - Your checklists are stored in an accessible location
+        - You have an agreed upon checklist of security principles
+        - Your checklist(s) are stored in an accessible location
+        - Security principles have been explained to relevant stakeholders
 - Do you favour the use of standard security services during design?: 
     security_practice: Security Architecture
     stream: A
@@ -39,31 +39,9 @@
             answer: Yes, for the majority of the applications
             weight: 1
     quality_criteria:
-        - You have a list of reusable security services organised by security mechanism
+        - You have a documented list of reusable security services, available to relevant stakeholders
         - You have reviewed the baseline security posture for each selected service
         - Your designers are trained to integrate each selected service following available guidance
-- Do you favour the use of standard security patterns during design?:
-    security_practice: Security Architecture
-    stream: A
-    stream_title: Architecture Design
-    maturity: 2
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some of the applications.
-            weight: 0.25
-        - C:
-            answer: Yes, for at least half of the applications
-            weight: 0.5
-        - D:
-            answer: Yes, for the majority of the applications
-            weight: 1
-    quality_criteria:
-        - You have a list of reusable security patterns organised by security mechanism
-        - You have linked each security pattern to a corresponding security service where applicable 
-        - Your designers are familiar with the patterns
 - Do you base your design on available reference architectures?: 
     security_practice: Security Architecture
     stream: A
@@ -83,10 +61,10 @@
             answer: Yes, for the majority of the applications
             weight: 1
     quality_criteria:
-        - You have a list of approved reference architectures.
+        - You have one or more approved reference architectures, documented and available to stakeholders.
         - You improve the reference architectures continuously based on insights and best practices.
         - You provide a set of components, libraries, and tools to implement each reference architecture.
-- Do you evaluate the security quality of important technologies used?: 
+- Do you evaluate the security quality of important technologies used within the development organisation?: 
     security_practice: Security Architecture
     stream: B
     stream_title: Technology Management
@@ -105,10 +83,10 @@
             answer: Yes, for the majority of the applications
             weight: 1
     quality_criteria:
-        - You have a list of the most important technologies used in each application.
+        - You have a list of the most important technologies used in (or in support of) each application.
         - You identify and track technological risks
-        - You replace risky technologies in accordance with the organisation's policy
-- Do you have a list of recommended technologies?: 
+        - You ensure that the risks to these technologies are in line with the organisational baseline
+- Do you have a list of recommended technologies for use in the development organisation?: 
     security_practice: Security Architecture
     stream: B
     stream_title: Technology Management
@@ -118,20 +96,20 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the technologies.
+            answer: Yes, for some of the technology domains
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the technologies
+            answer: Yes, for at least half of the technology domains
             weight: 0.5
         - D:
-            answer: Yes, for the majority of the technologies
+            answer: Yes, for the majority of the technology domains
             weight: 1
     quality_criteria:  
         - The list is based on technologies used in the software portfolio
         - Lead architects and developers review and approve the list
         - The list is shared across the development organisation
         - The list is regularly (at least yearly) reviewed and updated
-- Do you enforce the use of recommended technologies?: 
+- Do you enforce the use of recommended technologies within the development organisation?: 
     security_practice: Security Architecture
     stream: B
     stream_title: Technology Management

@@ -1,4 +1,4 @@
-- Do you test applications for standard security controls?:
+- Do you test applications for the correct functioning of standard security controls?:
     security_practice: 	Requirements Driven Testing
     stream: a
     stream_title: Control Verification
@@ -17,11 +17,10 @@
             answer: Yes, the majority of them
             weight: 1
     quality_criteria:
-        - Security test cases at least verify the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls.
-        - Security test cases execute whenever the application changes its use of the controls.
-        - Security test cases are reviewed at least once a year to include changes in the software technology and vulnerability trends.
+        - Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls.
+        - Security testing executes whenever the application changes its use of the controls.
 
-- Do you test security controls based on application-specific security requirements?:
+- Do you test security controls based on the specific application security requirements?:
     security_practice: Requirements Driven Testing
     stream: a
     stream_title: Control Verification
@@ -65,7 +64,7 @@
         - Tests are consistently written for all identified bugs (possibly exceeding a pre-defined severity threshhold)
         - Security tests are collected in a test suite that is part of the existing unit testing framework
 
-- Do you test applications using fuzzing techniques?:
+- Do you test applications using randomization techniques?:
     security_practice: Requirements Driven Testing
     stream: b
     stream_title: Misuse/Abuse Testing
@@ -86,7 +85,6 @@
     quality_criteria:
         - Testing covers most or all of the application's main input parameters
         - All application crashes are recorded and systematically inspected for security impact 
-        - You use an application-specific dictionary of fuzzing payloads
 
 - Do you create abuse cases from functional requirements and use them to drive security tests?: 
     security_practice: Requirements Driven Testing
@@ -98,16 +96,16 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: Yes, sometimes
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: Yes, at least half of the time
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: Yes, the majority of the time
             weight: 1
     quality_criteria:
-        - All important business functionality has corresponding abuse cases
+        - Important business functionality has corresponding abuse cases
         - You build abuse stories around relevant personas with well-defined motivations and characteristics
         - You capture identified weaknesses as security requirements
 
@@ -121,13 +119,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: Yes, sometimes
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: Yes, at least half of the time
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: Yes, the majority of the time
             weight: 1
     quality_criteria:
         - Stress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)

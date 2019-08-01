@@ -17,11 +17,12 @@
             answer: Yes, for the majority of applications
             weight: 1
     quality_criteria:
-        - You have enough information to recreate the deployment processes
+        - You have enough information to run the deployment processes
         - Your deployment documentation up to date
-        - Your deployment documentation is stored in an accessible location
+        - Your deployment documentation is accessible to relevant stakeholders
         - You ensure that only defined qualified personnel can trigger a deployment
-- Are deployment processes automated?:
+        - You harden the tools that are used within the deployment process
+- Are deployment processes automated and taking into account security?:
     security_practice: Secure Deployment
     stream: A
     stream_title: Deployment Process
@@ -43,7 +44,7 @@
         - Deployment includes automated security testing procedures
         - Responsible staff is alerted with identified vulnerabilities
         - You have logs available for your past deployments for a defined period of time
-- Do you automatically validate integrity of deployed artifacts?:
+- Do you consistently validate the integrity of deployed artifacts?:
     security_practice: Secure Deployment
     stream: A
     stream_title: Deployment Process
@@ -63,9 +64,9 @@
             weight: 1
     quality_criteria:
         - Deployment is prevented or rolled back in case integrity breach is detected
-        - Software without a valid signature is not deployed
+        - Software without a valid integrity check is not deployed
 
-- Do you limit access to production secrets according to the need to know principle?:
+- Do you limit access to application secrets according to the need to know principle?:
     security_practice: Secure Deployment
     stream: B
     stream_title: Secret Management
@@ -84,10 +85,9 @@
             answer: Yes, for the majority of applications
             weight: 1
     quality_criteria:
-        - You store production secrets protected in a digital vault
-        - Developers don't have access to production secrets
+        - You store application secrets protected in a secured location
 
-- Are production secrets injected into the configuration using an automated process?:
+- Do you minimize permanent storage of secrets in application artefacts, for instance by injecting them into the configuration using an automated process?:
     security_practice: Secure Deployment
     stream: B
     stream_title: Secret Management
@@ -106,9 +106,9 @@
             answer: Yes, for the majority of applications
             weight: 1
     quality_criteria:
-        - Under normal circumstances, no humans access production secrets during deployment procedures
-        - Any access to production secrets is logged and alerted
-- Do you regenerate production secrets during deployment?:
+        - Under normal circumstances, no humans access secrets during deployment procedures
+        - Any abnormal access to secrets is logged and alerted
+- Do you regenerate application secrets during deployment?:
     security_practice: Secure Deployment
     stream: B
     stream_title: Secret Management
@@ -127,6 +127,6 @@
             answer: Yes, for the majority of applications
             weight: 1
     quality_criteria:
-        - Secrets are generated using an approved random number generator
+        - Secrets are generated and synchronized using a vetted solution
         - Detection of a secret in a configuration file fails the deployment
-        - If a secret is evaluated to be valid, it is changed in the production system immediately
+ 
