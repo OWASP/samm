@@ -1,0 +1,136 @@
+- Do you track all known security defects in a central location per defined scope?:
+    security_practice: Defect Management
+    stream: a
+    stream_title: Defect Tracking (Flaws/Bugs/Process)
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - The process includess strategy for handling false positives and accepting risk
+        - Defects stem from various sources / activities
+        - Deduplication is ensured per location
+
+
+- Do you take action on defects exceeding defined threshold?:
+    security_practice: Defect Management
+    stream: a
+    stream_title: Defect Tracking (Flaws/Bugs/Process)
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - The defined threshold is documented in an accessible location
+        - Reaching the threshold triggers a timely alert to the relevant stakeholders
+        - You don't deploy applications exceeding the threshold
+
+- Does independent security staff enforce the defined threshold?:
+    security_practice: Defect Management
+    stream: a
+    stream_title: Defect Tracking (Flaws/Bugs/Process)
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of applications
+            weight: 1
+    quality_criteria:
+        - Knowledgeable decision based on input from defect management system is ensured upon deployment
+        - The classification of the defects is regularly verified
+
+- Do you share defect information for remediation and improving training materials?:
+    security_practice: Defect Management
+    stream: b
+    stream_title: Metrics and Feedback/Learning
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of applications
+            weight: 1
+    quality_criteria:
+        - Basic information about defects is made available to fix them
+        - You have improved your training materials based on the defect information in the last year
+
+- Do you improve your assurance program upon well-defined metrics?:
+    security_practice: Defect Management
+    stream: b
+    stream_title: Metrics and Feedback/Learning
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of applications
+            weight: 1
+    quality_criteria:
+        - Metrics for defect classification and categorization is documented and up to date
+        - Executive management regularly receives information about defects has acted upon it in the last year
+        - Defects are mapped to a list of threats
+
+- Do you enrich defect metrics with relevant real time information?:
+    security_practice: Defect Management
+    stream: b
+    stream_title: Metrics and Feedback/Learning
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of applications
+            weight: 1
+    quality_criteria:
+        - Defect metrics are automatically correlated with real-time environment information
+        - Relevant stakeholders get timely update on significant changes in the defect classification
+        - Trends in defect development have been updated in the last year

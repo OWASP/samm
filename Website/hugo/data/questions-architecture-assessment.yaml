@@ -1,0 +1,139 @@
+- Do you review the application architecture for key security objectives and threats on an ad-hoc basis?:
+    security_practice: Architecture Assessment
+    stream: a
+    stream_title: Architecture Validation
+    maturity: 1
+    quality_criteria:
+        - You have an agreed upon model of the overall software architecture
+        - You include components, interfaces, and integrations in the architecture model
+        - You verify the security controls in the software architecture cover the key security objectives and threats
+        - You log missing security controls as defects
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.25
+        - C:
+            answer: Yes, at least for half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+
+
+- Do you thoroughly review your software architecture regularly using an agreed upon methodology?:
+    security_practice: Architecture Assessment
+    stream: a
+    stream_title: Architecture Validation
+    maturity: 2
+    quality_criteria:
+        - Your process and template for reviewing software architectures is aligned with your organization’s risk tolerance
+        - You verify the architecture meets all the defined security requirements
+        - You verify every component is protected by the expected security controls (e.g., authentication, authorization, logging)
+        - You log missing security controls as defects
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+
+- Do you regularly review the effectiveness of the security controls?:
+    security_practice: Architecture Assessment
+    stream: a
+    stream_title: Architecture Validation
+    maturity: 3
+    quality_criteria:
+        - You evaluate the preventive, detective and response capabilities of security controls
+        - You evaluate the strategy alignment, appropriate support, and scalability of security controls
+        - You evaluate the effectiveness at least yearly
+        - You log identified shortcomings as defects
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for the majority of the applications
+            weight: 1
+- Do you review the architecture against compliance requirements?:
+    security_practice: Architecture Assessment
+    stream: b
+    stream_title: Architecture Compliance
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - You indicate which design-level feature(s) address each compliance requirement.
+        - The analysis is conducted by security-savvy staff with input from architects, and other stakeholders.
+        - You record all missing compliance requirements and handle them following organisational risk management
+
+- Do you analyze the architecture against known security requirements and best practices ?:
+    security_practice: Architecture Assessment
+    stream: b
+    stream_title: Architecture Compliance
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - You identify any security assumptions underpinning the safe operation of the system.
+        - You indicate which design-level feature(s) address each security requirement.
+        - You record all unsatisfied security requirements and handle them following organisational risk management
+
+- Do you feed architecture review results back into the enterprise architecture? :
+    security_practice: Architecture Assessment
+    stream: b
+    stream_title: Architecture Compliance
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - You map the security features to security compliance requirements
+        - You identify the cause of gaps in the mapping and handle them following organisational risk management

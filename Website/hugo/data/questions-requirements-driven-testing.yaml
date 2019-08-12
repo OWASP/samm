@@ -1,0 +1,132 @@
+- Do you test applications for the correct functioning of standard security controls?:
+    security_practice: 	Requirements Driven Testing
+    stream: a
+    stream_title: Control Verification
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls.
+        - Security testing executes whenever the application changes its use of the controls.
+
+- Do you test security controls based on the specific application security requirements?:
+    security_practice: Requirements Driven Testing
+    stream: a
+    stream_title: Control Verification
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Tests are tailored to each application and assert expected security functionality.
+        - Test results are captured as a pass or fail condition
+
+- Do you automatically test applications for security regressions?:
+    security_practice: Requirements Driven Testing
+    stream: a
+    stream_title: Control Verification
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Tests are consistently written for all identified bugs (possibly exceeding a pre-defined severity threshhold)
+        - Security tests are collected in a test suite that is part of the existing unit testing framework
+
+- Do you test applications using randomization techniques?:
+    security_practice: Requirements Driven Testing
+    stream: b
+    stream_title: Misuse/Abuse Testing
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Testing covers most or all of the application's main input parameters
+        - All application crashes are recorded and systematically inspected for security impact 
+
+- Do you create abuse cases from functional requirements and use them to drive security tests?: 
+    security_practice: Requirements Driven Testing
+    stream: b
+    stream_title: Misuse/Abuse Testing
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, sometimes
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of the time
+            weight: 1
+    quality_criteria:
+        - Important business functionality has corresponding abuse cases
+        - You build abuse stories around relevant personas with well-defined motivations and characteristics
+        - You capture identified weaknesses as security requirements
+
+- Do you perform denial of service and security stress testing?:
+    security_practice: Requirements Driven Testing
+    stream: b
+    stream_title: Misuse/Abuse Testing
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, sometimes
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of the time
+            weight: 1
+    quality_criteria:
+        - Stress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)
+        - You design tests around relevant personas with well-defined capabilities (knowledge, resources)

@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+body.single main, #toc.menu {
+  table {
+    &:extend(.ui all);
+    &:extend(.ui.table all);
+    &:extend(.ui.celled.table all);
+  }
+}

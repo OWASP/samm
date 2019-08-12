@@ -1,0 +1,14 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@headerFont: 'Comfortaa', sans-serif;
+@headerFontWeight: 700;
+
+@pageFont: 'Open Sans', sans-serif;
+@pageFontWeight: 300;
+@fontSize : 16px;
+
+/* Links */
+@linkColor: #aa2297;
+@linkUnderline: underline;

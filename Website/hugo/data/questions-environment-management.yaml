@@ -1,0 +1,134 @@
+- Do you harden configurations for key components across your whole technology stack?:
+    security_practice: Environment Management
+    stream: a
+    stream_title: Configuration Hardening
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - You have identified the scope for this activity
+        - You work with public sources to gather recommendations for your configurations
+
+- Do you maintain hardening baselines for your components?:
+    security_practice: Environment Management
+    stream: a
+    stream_title: Configuration Hardening
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some components
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the components
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the components
+            weight: 1
+    quality_criteria:
+        - There is an owner for each baseline
+        - The owner is responsible for keeping baselines up to date
+        - Baselines are stored in an accessible location
+        - Employees responsible for configurations are trained in these baselines
+
+- Do you evaluate and track conformity with the hardening baselines?:
+    security_practice: Environment Management
+    stream: a
+    stream_title: Configuration Hardening
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some applications
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - You review and update baselines at least annually
+
+- Do you identify and patch vulnerable components?:
+    security_practice: Environment Management
+    stream: b
+    stream_title: Patching and Updating
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some components
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the components
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the components
+            weight: 1
+    quality_criteria:
+        - You have an up-to-date list of components with versions
+        - You review public sources regularly for vulnerabilities related to your components
+
+- Do you follow an established process for updating components across your whole technology stack?:
+    security_practice: Environment Management
+    stream: b
+    stream_title: Patching and Updating
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some components
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the components
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the components
+            weight: 1
+    quality_criteria:
+        - The process includes vendor information for 3rd party patches 
+        - The process considers external sources to gather information about zero day attacks, and take appropriate risk mitigation steps
+        - The process includes guidance with priorities for updates of components
+
+- Do you regularly evaluate components and review patch level status?:
+    security_practice: Environment Management
+    stream: b
+    stream_title: Patching and Updating
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some components
+            weight: 0.25
+        - C:
+            answer: Yes, for at least half of the components
+            weight: 0.5
+        - S:
+            answer: Yes, for most of the components
+            weight: 1
+    quality_criteria:
+        - You update the list with components and versions
+        - You identify and update missing updates according to existing SLA
+        - You review and update the process based on feedback from the people who perform patching

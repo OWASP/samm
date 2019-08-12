@@ -1,0 +1,30 @@
+{{ define "content" }}
+
+  <div class="ui sponsors container">
+    <div class="ui hidden divider"></div>
+    <h1 class="ui header">Sponsors</h1>
+    <div class="ui hidden divider"></div>
+    <div class="ui very relaxed stackable grid">
+      <div class="eight wide column">
+        <h2 class="ui centered header">Acknowledgements</h2>
+        <div class="ui three column middle aligned very relaxed centered stackable grid">
+          {{ range $sponsor := .Site.Data.sponsors }}
+          <div class="column">
+            <a href="{{ $sponsor.url }}"><img class="ui fluid image" src="{{  $sponsor.img | relURL }}" /></a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="eight wide column">
+        <h2 class="ui centered header">Call for Sponsors</h2>
+        <p>OWASP SAMM and the upcoming SAMM 2.0 release is the open source software security maturity model used to develop secure software for IT, application and software security technologists.</p>
+        <p>We are seeking sponsors to support OWASP SAMM. All proceeds from the sponsorship support the mission of the OWASP Foundation and the further development of SAMM. Supporting the project drives the funding for research grants, SAMM hosting, tools, templates, documents, promotion, and more.</p>
+        <p>By sponsoring SAMM, you not only support an important and flagship OWASP project, you will also get visibility during the next SAMM Summit (part of the <a href="https://open-security-summit.org/">Open Security Summit 2019</a>) and recognition on our website and the next release of SAMM (version 2.0).</p>
+        <p>For more information: check our <a href="https://www.slideshare.net/sdeleersnyder/support-owasp-samm">SAMM Supporter Levels</a> or contact <a href="mailto:info@owaspsamm.org">info@owaspsamm.org</a>.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="ui hidden divider"></div>
+
+{{ end }}

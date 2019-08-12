@@ -1,0 +1,146 @@
+- Do you require employees involved with application development to take SDLC training?:
+    security_practice: Education & Guidance
+    stream: A
+    stream_title: Training and Awareness
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of them
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of them
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+        - Training is repeatable, consistent, and available to anyone involved with software development lifecycle.
+        - Training includes the latest OWASP Top 10 if appropriate.
+        - Training includes multiple concepts such as Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability.
+        - Training requires a sign-off or an acknowledgement from each attendee.
+        - The training been updated in the last 12 months.
+        - Employees are required to go through the training during the onboarding process.
+
+- Has the training been customized for individual roles, such as developers, testers, or security champions?:
+    security_practice: Education & Guidance
+    stream: A
+    stream_title: Training and Awareness
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some content has been updated
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the content
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of the content
+            weight: 1
+    quality_criteria:
+            - Training includes all topics covered within maturity level 1, and adds more specific tools, techniques, and demonstrations
+            - Training is mandatory for all employees and contractors.
+            - The training includes input from in-house SMEs and trainees.
+            - Training includes demonstrations of tools and techniques developed in-house.
+            - Feedback collected post training is used to enhance and make future training more relevant.
+
+- Have you implemented a Learning Management System or equivalent to track employee training / certification processes?:
+    security_practice: Education & Guidance
+    stream: A
+    stream_title: Training and Awareness
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the trianing
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the training
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of training
+            weight: 1
+    quality_criteria:
+                - A Learning Management System (LMS) is used to track training and any certifications
+                - Training is based on internal standards, policies, and procedures instead of general “best-practices”
+                - Training is mandatory, and the certification program or attendance record is used to determine access to development systems and resources.
+
+- Have you identified a “Security Champion” for each development team?:
+    security_practice: Education & Guidance
+    stream: B
+    stream_title: Organization and Culture
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, some of the time
+            weight: 0.25
+        - C:
+            answer: Yes, at least half of the time
+            weight: 0.5
+        - D:
+            answer: Yes, the majority of them
+            weight: 1
+    quality_criteria:
+                - Each development team has a Security Champion assigned to them
+                - Security Champions receive appropriate training to ensure effectiveness
+                - Application Security and Development teams receive periodic briefings from Security Champions on the overall status of security initiatives and fixes
+                - Results of external testing are reviewed by the Security Champion prior to adding to the application backlog
+
+- Does the organization have a Secure Software Center of Excellence (SSCE)?:
+    security_practice: Education & Guidance
+    stream: B
+    stream_title: Organization and Culture
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, started to implement
+            weight: 0.25
+        - C:
+            answer: Yes, effective for some of the organization
+            weight: 0.5
+        - D:
+            answer: Yes, effective for most of the organization
+            weight: 1
+    quality_criteria:
+                - The SSCE has a formal charter defining its role in the organization.
+                - Development teams review all significant architectural changes with SSCE
+                - The SSCE publishes SDLC standards and guidelines related to Application Security
+                - Identified “Product Champions” are responsible for promotion of use and specific security tools.
+
+- Is there a centralized portal where developers and application security professionals from different teams and business units are able to communicate and share information?:
+    security_practice: Education & Guidance
+    stream: B
+    stream_title: Organization and Culture
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, started to implement
+            weight: 0.25
+        - C:
+            answer: Yes, effective for some of the organization
+            weight: 0.5
+        - D:
+            answer: Yes, effective for most of the organization
+            weight: 1
+    quality_criteria:
+                - Organization promotes use of a single portal across different teams and business units
+                - The portal is used for timely information such as notification of security incidents, tool updates, architectural standard changes, and other related announcements
+                - The portal is widely recognized by developers and architects as a centralized repository of the organization-specific application security information
+                - All content should be considered persistent and searchable
+                - The portal provides access to application-specific security metrics
