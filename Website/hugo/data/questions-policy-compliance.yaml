@@ -1,7 +1,7 @@
-- Do you protect and handle information according to protection requirements for data stored and processed on each application?:
-    security_practice: Operational Management
+- Have you developed a common set of policies and standards that are applied throughout your organization?:
+    security_practice: Policy & Compliance
     stream: A
-    stream_title: Data Protection
+    stream_title: Policy and Standards
     maturity: 1
     answers:
         - A:
@@ -17,38 +17,35 @@
             answer: Yes, for most of the applications
             weight: 1
     quality_criteria:
-        - You have identified the data elements processed and stored by each application
-        - You have determined the type and sensitivity level of each identified data element
-        - You have controls to prevent propagation of unsanitized sensitive data from production environments to lower environments
+        - You have adapted existing standards appropriate for the organization’s industry, to account for domain-specific considerations
+        - Your standards are aligned with your policies, and incorporate technology-specific implementation guidance
 
-- Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?:
-    security_practice: Operational Management
+- Do you have clearly, repeatable evaluation methods to test for adherence to policies and standards?:
+    security_practice: Policy & Compliance
     stream: A
-    stream_title: Data Protection
+    stream_title: Policy and Standards
     maturity: 2
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of our data
+            answer: Yes, for some of our policies and standards
             weight: 0.2
         - C:
-            answer: Yes, for at least half of our data
+            answer: Yes, for at least half of our policies and standards
             weight: 0.5
         - D:
-            answer: Yes, for most of our data
+            answer: Yes, for most of our policies and standards
             weight: 1
     quality_criteria:
-        - The data catalog is stored in an accessible location
-        - You have identified data elements subject to specific regulation
-        - You have controls for protecting and preserving data throughout their lifetime
-        - You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends
+        - You have created verification checklists and test scripts (where applicable), aligned with the policy's requirements, and the implementation guidance in the associated standard(s)
+        - You have created versions adapted to each development methodology/technology in use within the organization
 
-- Do you regularly review and update the data catalog and your data protection policies and procedures?:
-    security_practice: Operational Management
+- Do you regularly report on policu and standard compliance, and use that information to guide compliance improvement efforts?:
+    security_practice: Policy & Compliance
     stream: A
-    stream_title: Data Protection
+    stream_title: Policy and Standards
     maturity: 3
     answers:
         - A:
@@ -64,14 +61,14 @@
             answer: Yes, we do it at least annually
             weight: 1
     quality_criteria:
-        - You have automated monitoring to detect attempted or actual violations of the Data Protection Policy
-        - You have tools for data loss prevention, access control and tracking, or anomalous behavior detection
-        - You periodically audit the operation of automated mechanisms, including backups and record deletions
+        - You have procedures (automated, if possible) in place, to regularly generate compliance reports
+        - You have ensured compliance reports are delivered to all relevant stakeholders
+        - Stakeholders use the reported compliance status information to identify areas for improvement
 
 - Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?:
-    security_practice: Operational Management
+    security_practice: Policy & Compliance
     stream: B
-    stream_title: System decommissioning / Legacy management
+    stream_title: Compliance Management
     maturity: 1
     answers:
         - A:
@@ -91,9 +88,9 @@
         - You manage customer/user migration from older versions for each product and customer/user group
 
 - Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?:
-    security_practice: Operational Management
+    security_practice: Policy & Compliance
     stream: B
-    stream_title: System decommissioning / Legacy management
+    stream_title: Compliance Management
     maturity: 2
     answers:
         - A:
@@ -116,7 +113,7 @@
 - Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end-of-life?:
     security_practice: Operational Management
     stream: B
-    stream_title: System decommissioning / Legacy management
+    stream_title: Compliance Management
     maturity: 3
     answers:
         - A:
