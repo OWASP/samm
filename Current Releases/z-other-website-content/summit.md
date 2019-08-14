@@ -4,23 +4,42 @@ type: page
 url: '/summit2019'
 ---
 
-## Collaborate and learn from key players in the Application Security industry
+## SAMM track, an overview and commentary of the event
 
-The Open Security Summit 2019 is focused on the collaboration between Developers and Application Security and organised with the support of OWASP.
-A 5-day summit for attendees to work and collaborate intensively towards a specific Application Security challenge with a focus on actionable outcomes.
-By attending you’ll develop valuable skills, build your professional network, and enhance the profile of our organisation globally.
+The Open Security Summit 2019 focused on the collaboration between Developers and Application Security and was organised with the support of OWASP.
+The 5-day sprint on SAMMv2 enabled attendees to work and collaborate intensively towards specific Application Security challenges with a focus on actionable outcomes.
+In addition to specific Maturity Models sessions, a large number of [OWASP SAMM](https://open-security-summit.org/tracks/owasp-samm/) Working Sessions took place at the Summit. 
 
-During the Summit you will:
+For SAMM, it is a great opportunity to get the team together, be extra productive, and meet SAMM users.
 
-* Meet leading figures from OWASP, security, development, government agencies and vendor companies.
-* Collaborate on action plans in working sessions that tackle some of the hardest security problems we are facing in 2019.
-* Learn new skills at hands-on working sessions.
-* Connect with like-minded individuals who are passionate about AppSec.
+If you weren't able to attend this year, you can still [visit the website](https://open-security-summit.org/) and read up on the summit tracks, participants, and outomes.
 
-The summit takes place from June 3 -7, 2019. The venue is the Woburn Forest Center Parcs, Bedfordshire, UK.
+### SAMM Track - Main focus  
 
-You can find the Summit schedule here: https://open-security-summit.org/schedule/
+The measurement model was at the forefront of this year’s summit discussions. With the goal to release SAMM v2 before the end of the year, the working sessions were used to discuss question format, scoring and quality indicators to address any ambiguity.
 
-And the SAMM team are working together on a 5-day sprint on SAMMv2 which you can read about here: https://open-security-summit.org/tracks/owasp-samm/
 
-To read more and book your place click here: https://open-security-summit.org/tickets/
+### Feedback and contributions
+
+The OSS2019 brought together new members and users from all over the world to attend the SAMM track. As an open source project, we highly value the feedback from our community, and we offer several ways of providing that feedback.
+
+Also, to help users make impactful content contributions to our Git repository, we produced a step-by-step guide.
+
+During OSS2019 we had some sessions focusing on the integration with other tracks taking place in the summit:
+
+* DevSecOps with a focus on DSO MM to SAMM
+* Threat modeling with a discussion around the alignment of maturity levels and SAMM threat assessment practices
+* We started mapping OWASP ASVS to SAMM
+* We also had a session to talk about a guidance document specific to Agile processes
+### What's the plan for the future?
+
+
+Currently, the OWASP SAMM team is working to complete the measurement model questions covering the business functions: Verification, Design, Governance, Implementation, and Operations. 
+
+The idea is to publish them as soon as possible to get user feedback before the last push towards v2.
+
+The next steps will be to update the activity descriptions and goals based on the new questions and discussions at OSS2019.
+
+We are planning a SAMM summit for autumn, when we plan to have SAMM v2 ready for release.
+
+We would also like to thank our outstanding sponsors for their support of OWASP SAMM, and if you want to learn more about OSS2019 you can visit the website.
