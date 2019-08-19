@@ -20,7 +20,7 @@
         - You have adapted existing standards appropriate for the organization’s industry, to account for domain-specific considerations
         - Your standards are aligned with your policies, and incorporate technology-specific implementation guidance
 
-- Do you have clearly, repeatable evaluation methods to test for adherence to policies and standards?:
+- Do you have clearly documented, repeatable evaluation methods to test for adherence to policies and standards?:
     security_practice: Policy & Compliance
     stream: A
     stream_title: Policy and Standards
@@ -65,7 +65,7 @@
         - You have ensured compliance reports are delivered to all relevant stakeholders
         - Stakeholders use the reported compliance status information to identify areas for improvement
 
-- Have you a complete picture of your external compliance obligations?:
+- Do you have a complete picture of your external compliance obligations?:
     security_practice: Policy & Compliance
     stream: B
     stream_title: Compliance Management
