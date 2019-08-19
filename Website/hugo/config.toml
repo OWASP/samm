@@ -36,4 +36,10 @@ theme = "owasp-samm"
     pre = ""
     weight = 30
     url = "/sponsors"
+[[menu.main]]
+    name = "Events"
+    identifier = "events"
+    pre = ""
+    weight = 5
+    url = "/events"
 
