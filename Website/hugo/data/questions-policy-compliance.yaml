@@ -110,7 +110,7 @@
         - You have defined verification procedures, including automated tests (when possible), to verify compliance with compliance-related requirements
 
 - Do you regularly report on adherence to external compliance obligations, and use that information to guide efforts to close compliance gaps?:
-    security_practice: Operational Management
+    security_practice: Policy & Compliance
     stream: B
     stream_title: Compliance Management
     maturity: 3
