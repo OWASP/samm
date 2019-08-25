@@ -27,7 +27,7 @@ build-css:
   steps:
     - install-packages:
         packages: nodejs
-    - bigtruedata/gulp-install@1.0.0:
+    - bigtruedata/gulp-install@1.0.0
     - austenlacy/gulp@0.1.0:
         tasks: build
         verbose: true
