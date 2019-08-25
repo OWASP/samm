@@ -24,12 +24,9 @@ build:
         version: "0.53"
         basedir: "Website/hugo"
 build-css:
+  box: node:latest
   steps:
-    - install-packages:
-        packages: nodejs
-    - script:
-        name: Install NPM
-        code: curl -L https://npmjs.org/install.sh | sh
+    - npm-install
     - maestrohealthcaretechnologies/npm-install@0.1.9:
         options: gulp
     - austenlacy/gulp@0.1.0:
