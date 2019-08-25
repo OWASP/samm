@@ -27,6 +27,9 @@ build-css:
   steps:
     - install-packages:
         packages: nodejs
+    - script:
+        name: Install NPM
+        code: curl -L https://npmjs.org/install.sh | sh
     - maestrohealthcaretechnologies/npm-install@0.1.9:
         options: gulp
     - austenlacy/gulp@0.1.0:
