@@ -34,10 +34,11 @@ build-css:
         code: |
           cd ./Website/semantic/
           npm install gulp
-    - austenlacy/gulp@0.1.0:
-        tasks: build
-        verbose: true
-        gulpfile: ./Website/semantic/gulpfile.js
+          gulp build
+    #- austenlacy/gulp@0.1.0:
+    #    tasks: build
+    #    verbose: true
+    #    gulpfile: ./Website/semantic/gulpfile.js
 deploy:
   steps:
     - install-packages:
