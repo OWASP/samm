@@ -24,13 +24,13 @@ build:
         version: "0.53"
         basedir: "Website/hugo"
 build-css:
-  box: node:latest
+  box: node:11
   steps:
     - npm-install
     #- maestrohealthcaretechnologies/npm-install@0.1.9:
     #    options: -g gulp
     - script:
-        name: Install gulp
+        name: Install and run gulp
         code: |
           cd ./Website/
           npm install -g gulp
