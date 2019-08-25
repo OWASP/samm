@@ -27,8 +27,8 @@ build-css:
   box: node:latest
   steps:
     - npm-install
-    #- maestrohealthcaretechnologies/npm-install@0.1.9:
-    #    options: gulp
+    - maestrohealthcaretechnologies/npm-install@0.1.9:
+        options: -g gulp
     - austenlacy/gulp@0.1.0:
         tasks: build
         verbose: true
