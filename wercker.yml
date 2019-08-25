@@ -27,8 +27,13 @@ build-css:
   box: node:latest
   steps:
     - npm-install
-    - maestrohealthcaretechnologies/npm-install@0.1.9:
-        options: -g gulp
+    #- maestrohealthcaretechnologies/npm-install@0.1.9:
+    #    options: -g gulp
+    - script:
+        name: Install gulp
+        code: |
+          cd ./Website/semantic/
+          npm install gulp
     - austenlacy/gulp@0.1.0:
         tasks: build
         verbose: true
