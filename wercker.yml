@@ -37,10 +37,6 @@ build-css:
           npm install semantic-ui --save
           cd semantic/
           gulp build
-    #- austenlacy/gulp@0.1.0:
-    #    tasks: build
-    #    verbose: true
-    #    gulpfile: ./Website/semantic/gulpfile.js
 deploy:
   steps:
     - install-packages:
