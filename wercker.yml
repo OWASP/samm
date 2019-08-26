@@ -47,6 +47,10 @@ deploy:
         basedir: "Website/hugo/public"
 deploy-uat:
   steps:
+    - script:
+        name: Create index.php to make Heroku think we're a PHP
+        code: |
+          echo "<?php header( 'Location: /index.html' ) ;  ?>" > index.php
     - heroku-deploy:
         key: $HEROKU_KEY
         user: $HEROKU_USER
