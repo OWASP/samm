@@ -50,8 +50,10 @@ deploy-uat:
     - script:
         name: Create index.php to make Heroku think we're a PHP
         code: |
+          cd Website/hugo/public/
           echo "<?php header( 'Location: /index.html' ) ;  ?>" > index.php
     - heroku-deploy:
+        cwd: Website/hugo/public/
         key: $HEROKU_KEY
         user: $HEROKU_USER
         app-name: samm-testing
