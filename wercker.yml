@@ -49,3 +49,9 @@ deploy:
         token: $GIT_TOKEN
         domain: owaspsamm.org
         basedir: "Website/hugo/public"
+deploy-uat:
+  steps:
+    - heroku-deploy:
+        key: a6888dad-b201-4f16-8124-7316eae4112d
+        user: chris@itscooper.co.uk
+        app-name: samm-testing
