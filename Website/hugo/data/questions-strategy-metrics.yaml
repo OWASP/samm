@@ -105,13 +105,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - KPIs are defined after enough information has been gathered to establish realistic objectives

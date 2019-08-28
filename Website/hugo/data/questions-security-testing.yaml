@@ -8,13 +8,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - Inputs for security tests are dynamically generated using automated tools.
@@ -29,13 +29,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - Tests are specifically customized for software interfaces in the project.
@@ -51,13 +51,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - Test results are tracked and reviewed by management and business stakeholders throughout the development cycle
@@ -72,13 +72,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - Criteria exist to help the reviewer to focus on high-risk components
@@ -94,13 +94,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, for the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - Penetration testing uses application-specific security test cases to evaluate security
@@ -117,13 +117,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, sometimes
+            answer: 'Yes, sometimes'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of the time'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of the time'
             weight: 1
     quality_criteria:
         - You use results from other security activities to improve integrated security testing during development

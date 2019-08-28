@@ -8,13 +8,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - A risk classification should exist and be agreed upon
@@ -33,13 +33,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
         - D:
-            answer: Yes, for the majority of the applications
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - The application risk profile is in line with the organisational risk standard
@@ -80,13 +80,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - Application trust boundaries are being reviewed
@@ -103,13 +103,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, the most of them'
             weight: 1
     quality_criteria:
         - Threat modeling activities should be carried out/supported by people with good understanding of the concept by experience or training

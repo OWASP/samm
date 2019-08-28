@@ -8,13 +8,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - The process includess strategy for handling false positives and accepting risk
@@ -32,13 +32,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - The defined threshold is documented in an accessible location
@@ -55,13 +55,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - Knowledgeable decision based on input from defect management system is ensured upon deployment
@@ -77,13 +77,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - Basic information about defects is made available to fix them
@@ -99,13 +99,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - Metrics for defect classification and categorization is documented and up to date
@@ -122,13 +122,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - Defect metrics are automatically correlated with real-time environment information

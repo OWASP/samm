@@ -4,7 +4,7 @@ title : Security Testing
 assignedto       : Seba (seba@owasp.org)
 complete         : 40%
 status           : draft        #new, draft, for_review, release_candidate, done
-business_functions_weight: 3
+weight: 3
 type: security_practice
 ---
 # Short Description

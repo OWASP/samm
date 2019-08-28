@@ -8,13 +8,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the applications
-            weight: 0.2
+            answer: 'Yes, for some applications'
+            weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
         - D:
-            answer: Yes, for most of the applications
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - You have identified the data elements processed and stored by each application
@@ -32,7 +32,7 @@
             weight: 0
         - B:
             answer: Yes, for some of our data
-            weight: 0.2
+            weight: 0.25
         - C:
             answer: Yes, for at least half of our data
             weight: 0.5
@@ -56,7 +56,7 @@
             weight: 0
         - B:
             answer: Yes, we do it when requested
-            weight: 0.2
+            weight: 0.25
         - C:
             answer: Yes, we do it every few years
             weight: 0.5
@@ -78,13 +78,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the applications
-            weight: 0.2
+            answer: 'Yes, for some applications'
+            weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
         - D:
-            answer: Yes, for most of the applications
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - You do not use unsupported applications or dependencies
@@ -101,7 +101,7 @@
             weight: 0
         - B:
             answer: Yes, some of the time
-            weight: 0.2
+            weight: 0.25
         - C:
             answer: Yes, at least half of the time
             weight: 0.5
@@ -124,7 +124,7 @@
             weight: 0
         - B:
             answer: Yes, for some of the assets
-            weight: 0.2
+            weight: 0.25
         - C:
             answer: Yes, for at least half of the assets
             weight: 0.5

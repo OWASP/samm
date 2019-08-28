@@ -8,13 +8,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - You have enough information to recreate the build processes
@@ -32,13 +32,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - Your build tools are hardened as per best practice and vendor guidance
@@ -53,13 +53,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - You have a maximum accepted severity for vulnerabilties
@@ -77,13 +77,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - You have current bill of materials (BOM) for every application
@@ -100,13 +100,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - Dependencies are automatically evaluated for new CVEs
@@ -124,13 +124,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - Your build system is connected to a system for tracking 3rd party dependency risk, causing build to fail unless the vulnerability is evaluated to be a false positive or the risk is explicitely accepted.

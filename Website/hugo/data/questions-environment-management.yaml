@@ -8,13 +8,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - You have identified the scope for this activity
@@ -54,13 +54,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
+        - D:
+            answer: 'Yes, for most of the applications'
             weight: 1
     quality_criteria:
         - You review and update baselines at least annually
