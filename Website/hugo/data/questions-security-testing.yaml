@@ -117,13 +117,13 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: 'Yes, sometimes'
+            answer: 'Yes, some of the time'
             weight: 0.25
         - C:
             answer: 'Yes, at least half of the time'
             weight: 0.5
         - D:
-            answer: 'Yes, the most of the time'
+            answer: 'Yes, most of the time'
             weight: 1
     quality_criteria:
         - You use results from other security activities to improve integrated security testing during development
