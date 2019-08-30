@@ -57,7 +57,7 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, we review it every few years
+            answer: Yes, but review is ad-hoc
             weight: 0.25
         - C:
             answer: Yes, we review it every two years or so
