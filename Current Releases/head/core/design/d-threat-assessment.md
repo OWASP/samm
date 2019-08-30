@@ -39,22 +39,7 @@ Evaluate the risk based on the set of questions and assign a risk level to each 
 
 ### Maturity Questions
 
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-#### Quality Indicators
-
-### Notes
-Elements required for risk:
-- set of questions to evaluate
-- risk levels to represent application risk
-- risk portfolio
+{{< questions "Threat Assessment" "A" 1 >}}
 
 
 ## Maturity 2
@@ -72,16 +57,7 @@ Based on this input, build a centralized inventory of risk profiles that use the
 
 ### Maturity Questions
 
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
+{{< questions "Threat Assessment" "A" 2 >}}
 
 ### Notes
 
@@ -99,16 +75,7 @@ In a mature implementation of this practice, train and continuously update teams
 
 ### Maturity Questions
 
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
+{{< questions "Threat Assessment" "A" 3 >}}
 
 ### Notes
 
@@ -128,7 +95,7 @@ Basic understanding of potential threats to the solution
 ### Activity
 The purpose of Threat Modeling is to pro-actively identify potential issues in the technical design of the application. A careless setup might lead to important attack vectors in an application that can be exploited to target your organization. Experience shows that architectural design can be an important source of security issues, and the consequences can be significant.
 
-The practice of threat modelling includes both eliciting and managing threats. Use known good security practices (or the lack thereof) or a more structured approach such as STRIDE to elicit threats. Threat modelling is often most effective when performed by a group of people, allowing for brainstorming. One of the key challenges in threat modelling is working towards a list of relevant and important threats in an efficient exercise, and avoiding lengthy processes and overly detailed lists of low-relevant threats. Experience helps find a proper balance.
+The practice of threat modeling includes both eliciting and managing threats. Use known good security practices (or the lack thereof) or a more structured approach such as STRIDE to elicit threats. Threat modeling is often most effective when performed by a group of people, allowing for brainstorming. One of the key challenges in threat modeling is working towards a list of relevant and important threats in an efficient exercise, and avoiding lengthy processes and overly detailed lists of low-relevant threats. Experience helps find a proper balance.
 
 Perform threat modeling iteratively to align to more iterative development paradigms. If you add new functionality to an existing application, look only into the newly added functions instead of trying to cover the entire scope.
 
@@ -136,16 +103,7 @@ Execute threat modeling on important projects (LINK: Application Risk Profile) i
 
 ### Maturity Questions
 
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
+{{< questions "Threat Assessment" "B" 1 >}}
 
 ### Notes
 Terminology: do we want to use application, software or solution as the main term ?
@@ -167,16 +125,7 @@ Tools help in identifying potential threats but, in the end, threat modeling req
 
 ### Maturity Questions
 
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
+{{< questions "Threat Assessment" "B" 2 >}}
 
 ### Notes
 Personally I'm not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this. Even after the Minneapolis discussions, I'm still not convinced about the usefulness of this ;-)
@@ -194,16 +143,7 @@ Review the threat categories relevant to your organization. When you identify ne
 
 ### Maturity Questions
 
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
+{{< questions "Threat Assessment" "B" 3 >}}
 
 ### Notes
 I cannot think of good examples of threat categories. Anybody ?

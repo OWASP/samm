@@ -33,7 +33,7 @@ In a sophisticated form, the practice requires formalised, independent defect ma
 All software security defects are recorded centrally.
 
 ### Activity
-Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
+Track and record all security defects in a central location. This location can be team, project, or organization-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
 
 Sources of defects include, but are not limited to, those discovered via:
 
@@ -48,7 +48,7 @@ Sources of defects include, but are not limited to, those discovered via:
 - Bug bounties
 
 Qualify all defects so the records only contain valid and significant issues. Consider manageability. void recording duplicate defects, for example, searching  for similar issues. Merge duplicates and group similar issues,, particularly if you will handle them in the same way.
-The organisation uses these records to make decisions and resolve vulnerabilities. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
+The organization uses these records to make decisions and resolve vulnerabilities. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
 
 
 ## Maturity 2
@@ -60,7 +60,7 @@ Define a threshold for defects that require resolution or mitigation. You do not
 
 This quality gate may also exist at whatever point the issue is detected. For instance, if you detect an issue by static analysis prior to build, the build system might prevent the software from building. However, deployment to production is always the final and mandatory quality gate.
 
-To set a threshold that is right your organisation, take into consideration:
+To set a threshold that is right your organization, take into consideration:
 
 - the threat model
 - the nature of applicable threats (i.e. skill level, motive, level of access, etc)
@@ -105,7 +105,7 @@ Basic information about defects is calculated, shared, and used to make decision
 - The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.
 - The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.
 - The type or category of the defect, which suggests areas where the development team need further training.
-- The severity of the defect, which can help the organisation understand the software's risk exposure.
+- The severity of the defect, which can help the organization understand the software's risk exposure.
 
 Outcomes are fed back to the teams involved. This data is used to make decisions about remediation priority and training requirements.
 
@@ -135,7 +135,7 @@ Tools such as spreadsheets or dedicated vulnerability tracking software are used
 
 Make this data accessible to management, information security people, developers, and engineers to inform their decision-making. For example, provide a central dashboard. Metrics should guide remediation efforts and resource allocation.
 
-Security teams are able to report an accurate picture of the organisation's defect and risk metrics to executive management.
+Security teams are able to report an accurate picture of the organization's defect and risk metrics to executive management.
 
 A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme.
 
@@ -161,4 +161,4 @@ For each defect, up-to-date or real-time data on the availability of exploits an
 
 Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs and dashboarding. Trends are analysed and the results are used to influence the design and implementation of software and the overall security stategy.
 
-Metrics are used to empower the whole organisation. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.
+Metrics are used to empower the whole organization. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.

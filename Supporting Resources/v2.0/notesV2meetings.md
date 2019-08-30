@@ -16,9 +16,9 @@ more security by removing the manual activities
 Build process verifies known defects are not presented and will prevent the build from completing if defects are identified:
 remarks:
 => this provides the hooks for any other security activity
-"centralized" build process? on team or organisation level? control is important here. 
+"centralized" build process? on team or organization level? control is important here. 
 might be included in the level2 activity?
-part of the guidance depending on the type/size of organisation?
+part of the guidance depending on the type/size of organization?
 
 ?security of the build infrastructure (hardening, patching, access control, ...)
 
@@ -137,7 +137,7 @@ L2: standardized approach?
 20180218 - Seba: implemented
 L3: consider impact on the rest of the enterprise? requires sofistication in terms of storing/reviewing architectures 
 include verification against A: Secure Architecture Design ?
-20180218 - Seba: updated to: "Review of the application architecture impact on overall enterprise architecture and against the organisation design principles, design patterns, security solutions and reference architectures"
+20180218 - Seba: updated to: "Review of the application architecture impact on overall enterprise architecture and against the organization design principles, design patterns, security solutions and reference architectures"
 
 B: Supporting Architecture
 need for better understanding/description what this entails
@@ -223,7 +223,7 @@ Education & Guidance:
 stream A = training ; stream B = talking to people
 Maybe restructure into stream A: technical recommendations and stream B: training and communicating
 certification still might make sense
-Format how to train is probably not important (might depend on organisation size)
+Format how to train is probably not important (might depend on organization size)
 
 
 

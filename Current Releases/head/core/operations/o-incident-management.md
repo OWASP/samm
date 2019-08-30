@@ -12,7 +12,7 @@ Incident Management security practice describes activities carried to detect and
 
 # Long Description
 
-Once your applications become operational, you’re likely to face security incidents. For this document, we consider a security incident a breach or threat of an  imminent breach of at least one asset’s security goals due to malicious or negligent behaviour. Examples of a security incidents might include:
+Once your applications become operational, you’re likely to face security incidents. For this document, we consider a security incident a breach or threat of an  imminent breach of at least one asset’s security goals due to malicious or negligent behavior. Examples of a security incidents might include:
 
 - successful DoS (Denial of Service) attack against a cloud application
 - application user accessing private data of another one by abusing a security vulnerability
@@ -20,7 +20,7 @@ Once your applications become operational, you’re likely to face security inci
 
 Sometimes, a security incident is detected only after months or even years when all damage has already been done. That's why the first stream called "Incident Detection" tackles the ability to reliably and timely detect security incidents.
 
-Once you have identified that you're suffering from a security incident, it's essential to act in a well organized way in order to limit the damage as much as possible. Actitivies leading to this goal are described by the second stream called "Incident Response".
+Once you have identified that you're suffering from a security incident, it's essential to act in a well organized way in order to limit the damage as much as possible. Activities leading to this goal are described by the second stream called "Incident Response".
 
 
 # Overview
@@ -56,24 +56,7 @@ Even if you don’t have a 24/7 incident detection process, unavailability of th
 You have a defined and generally known contact point for formal creation of security incidents.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-Typically, on this maturity level you have:
-
-- defined and published the most probable incident scenarios
-- assigned a person or role responsible for incident detection
-- identified and evaluated some suspicious events
-- documented the escalation process
-- put reasonable effort into achieving log integrity
+{{< questions "Incident Management" "A" 1 >}}
 
 <!--
 ### Notes
@@ -99,24 +82,7 @@ You detect possible security incidents according to an available checklist. The 
 If you evaluate an event as a security incident with high level of confidence, the responsible staff is notified immediately, even outside business hours. You  perform further analysis and start the escalation process.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level, you:
-
-- employ some automated measures for incident detection
-- have up-to-date documentation for the incident detection process
-- have documentation for the most probable incident scenarios
-- integrate every new system taken to production into the process
+{{< questions "Incident Management" "A" 2 >}}
 
 <!--
 ### Notes
@@ -149,24 +115,7 @@ The quality of the incident detection does not depend on the time or day of the 
 
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- there is evidence that you have improved the process within the last year
-- you evaluate suspicious events in less than one hour from their  occurrence and  document the result
-- the detection process has its own KPIs
-- there are tickets in dev queues with requests for log data improvement
+{{< questions "Incident Management" "A" 3 >}}
 
 <!--
 ### Notes
@@ -193,23 +142,7 @@ You usually don't go for dedicated incident response personnel on this maturity 
 When security incidents happen, you document the steps taken. Protect this information from unauthorized access if necessary.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- the person responsible for the process is documented and generally known
-- all security incidents are documented in a consistent way
-- first KPIs for security incidents are collected
+{{< questions "Incident Management" "B" 1 >}}
 
 <!--
 ### Notes
@@ -234,24 +167,7 @@ Knowledgeable and properly trained staff is available in and outside of business
 The process includes a policy for carrying out root cause analysis and its expected outcomes.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- You perform Root Case Analysis for the most severe security incidents
-- Security playbooks are available for the most common incidents
-- there is dedicated trainings for incident response staff
-- forensic analysis tooling is available
+{{< questions "Incident Management" "B" 2 >}}
 
 <!--
 ### Notes
@@ -276,25 +192,7 @@ Carry out incident and emergency exercises are regularly. Use the results for pr
 Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-Typically, on this maturity level:
-
-- You perform Root Cause Analysis for all security incidents unless there is a specific reason not to do so
-- You identify and document improvements in the RCAs and you have probably implemented them
-- You have carried out some exercises in the last year.
-- There is a roadmap for process improvement
-- Process metrics are available (e.g. resolution speed, affected customers, ...)
-- In most incidents, you use playbooks to a high degree
+{{< questions "Incident Management" "B" 3 >}}
 
 <!--
 ### Notes

@@ -29,7 +29,7 @@ Project teams should focus on buildout of granular (manual and automated) securi
 
 For each project release, results from automated and manual security tests should be presented to management and business stakeholders for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them. As part of each release the quality of the security tests should be reviewed and improved if necessary.
 
-Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. The knowledge of the created security tests and the results are spread across the development team to improve security knowledge and awareness inside the organisation.
+Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. The knowledge of the created security tests and the results are spread across the development team to improve security knowledge and awareness inside the organization.
 
 <!--
 **Notes**
@@ -156,7 +156,7 @@ Conducting security tests as early as the requirements or design phases can be b
 
 For each project release, results from automated and manual security tests should be presented to management and business stakeholders for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them. As part of each release the quality of the security tests should be reviewed and improved if necessary.
 
-Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. The knowledge of the created security tests and the results are spread across the development team to improve security knowledge and awareness inside the organisation.
+Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. The knowledge of the created security tests and the results are spread across the development team to improve security knowledge and awareness inside the organization.
 
 ### Indicators
 
@@ -175,7 +175,7 @@ Consider and implement security test correlation tools to automate the matching 
 <!--
 #### Notes
 
-*Knowledge is spread across the development team to improve security knowledge inside the organisation*
+*Knowledge is spread across the development team to improve security knowledge inside the organization*
 status: updated activity
 
 *this is a copy of SAMMv1.5 (to be extended with deployment)*
@@ -255,7 +255,7 @@ Using the set of security test cases identified for each project, manual penetra
 
 Penetration testing cases should include both application-specific tests to check soundness of business logic as well as common vulnerability tests to check the design and implementation. Once specified, security test cases can be executed by security-savvy quality assurance or development staff, but first-time execution of security test cases for a project team should be monitored by the central software security group to assist and coach the team security champions.
 
-Prior to release or deployment, stakeholders must review results of security tests and accept the risks indicated by failing security tests at release time. In the latter case, a concrete timeline should be established to address the gaps over time. The knowledge of manual security testing and the results are spread across the development team to improve security knowledge and awareness inside the organisation.
+Prior to release or deployment, stakeholders must review results of security tests and accept the risks indicated by failing security tests at release time. In the latter case, a concrete timeline should be established to address the gaps over time. The knowledge of manual security testing and the results are spread across the development team to improve security knowledge and awareness inside the organization.
 
 ### Indicators
 
@@ -297,7 +297,7 @@ Integrate security testing in parallel to all other development activities, incl
 
 With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run as part of the development process, and findings should be inspected as they occur. Results from other security test activities should feed into adding or improving the integrated security testing as part of development (e.g. if a security penetration test identifies issues with session management, any changes to session management should trigger  explicit security tests before pushing the changes to production).
 
-Results from automated and manual security tests during development should be reviewed by the security champions and the central secure software group and considered to be included as part of the security awareness trainings towards the development teams. Lessons learned should be integrated in overall playbooks to improve security testing as part of the organisation development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
+Results from automated and manual security tests during development should be reviewed by the security champions and the central secure software group and considered to be included as part of the security awareness trainings towards the development teams. Lessons learned should be integrated in overall playbooks to improve security testing as part of the organization development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
 
 ### Indicators
 

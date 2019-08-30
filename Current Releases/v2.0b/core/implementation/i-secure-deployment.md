@@ -57,7 +57,7 @@ The deployment process automatically validates the integrity of its artifacts.
 ### Activity
 The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Sign binaries at build time. This may include binaries developed and built in-house, as well as third-party libraries. Do not deploy binary signatures that cannot be verified, including those with invalid or expired certificates.
 
-If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organisation's wider governance surrounding trusted third-party suppliers.
+If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organization's wider governance surrounding trusted third-party suppliers.
 
 Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, do it manually.
 

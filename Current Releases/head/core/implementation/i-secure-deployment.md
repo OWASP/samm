@@ -38,16 +38,7 @@ Handle access to the production credentials and secrets for the tools and engine
 People with access to production have to go through a minimum level of training or certification to ensure competency in this sensitive environment. Refer to [Governance > Education & Guidance](../governance/g-education-guidance/).
 
 #### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Secure Deployment" "A" 1 >}}
 
 <!--
 #### Notes
@@ -70,18 +61,7 @@ Account for and audit all deployments. Have a system in place to record each dep
 
 ### Maturity Questions
 
-#### Q 1
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Secure Deployment" "A" 2 >}}
 
 ## Maturity 3
 ### Benefits
@@ -90,21 +70,12 @@ The deployment process automatically validates the integrity of its artifacts.
 ### Activity
 The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Sign binaries at build time. This may include binaries developed and built in-house, as well as third-party libraries. Do not deploy binary signatures that cannot be verified, including those with invalid or expired certificates.
 
-If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organisation's wider governance surrounding trusted third-party suppliers.
+If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organization's wider governance surrounding trusted third-party suppliers.
 
 Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, do it manually.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Secure Deployment" "A" 3 >}}
 
 
 # B: Configurations/Secret Management
@@ -123,16 +94,7 @@ Before deployment, store sensitive credentials and secrets for production system
 Encrypt secrets at rest in configuration files during deployment. Manage  keys so the application can access the secrets while running, but an attacker who obtains the configuration files alone cannot decipher them.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Secure Deployment" "B" 1 >}}
 
 <!--
 #### Notes
@@ -147,19 +109,10 @@ Secrets are dynamically extracted from the digital vault for use in deployment.
 Have an automated process to add credentials and secrets appropriate for the target environment to configuration files  during the deployment process. This way, developers and deployers do not  see or handle those sensitive values.
 
 
-Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptence test or production environment.
+Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptance test or production environment.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Secure Deployment" "B" 2 >}}
 
 <!--
 #### Notes
@@ -172,23 +125,14 @@ Protection of secrets in config file
 Secrets are dynamically generated during deployment and a process routinely checks for and mitigates unprotected secrets.
 
 ### Activity
-Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly.
+Where secrets are not predefined or dependants on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly.
 
 Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.
 
 Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them, from  a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Secure Deployment" "B" 3 >}}
 
 <!--
 #### Notes

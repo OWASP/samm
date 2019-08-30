@@ -12,7 +12,7 @@
 4. Add interfaces with Dev/Ops tooling (e.g. Jira, ...)
 5. The activities should be completely aligned on agile & devops type of development and deployments. Waterfall development can fall back on SAMM1.5
 6. SAMM assessments/roadmaps are created on Dev / DevOps team level
-7. Business Unit & organisation level can be aggregated 
+7. Business Unit & organization level can be aggregated 
 8. Each Level should be "certifiable" with a level of assurance: self-assessed, externally interview based or externally evidence based.
 
 1. The roadmap should be simplified:

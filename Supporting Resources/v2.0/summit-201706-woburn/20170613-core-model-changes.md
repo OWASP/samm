@@ -60,7 +60,7 @@ Proposed new maturity levels mixing manual and automated processes:
 
 # Interesting points and general issues brought up during the discussion
   * currently we only measure whether or not we do something, not how well.
-    * In the current model, repeatability is not consistently baked into activities. Some include it, many don't. The new model should remove that and standardize them. After that we can work on how well an activity is carried out in an organisation.
+    * In the current model, repeatability is not consistently baked into activities. Some include it, many don't. The new model should remove that and standardize them. After that we can work on how well an activity is carried out in an organization.
     * there is currently no framework (we know of) which can tell whether a design is secure. The goal is to say, if the SAMM activities are followed and done well, you should have a secure design.
     * the model should aim for activities which apply for every methodology.
       * Per activity, we should have a clarification per development methodology explaining how the activity would be done within that methodology.
@@ -80,7 +80,7 @@ Software architecture in agile.
   * SAMM should explicitly specify that in order to do secure design, there has to be a design phase to start with.
   * in agile development, central security people perform more of the validation or pre-selection tasks.
     * how to handle dev teams incorrectly combining blocks selected by security?
-    * some organisations have architectural teams who must review each functional feature
+    * some organizations have architectural teams who must review each functional feature
 
 ---
 

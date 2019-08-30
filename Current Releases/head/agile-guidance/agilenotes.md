@@ -32,13 +32,13 @@ A maturity model may seem conflicting with the agile manifesto, because Agile ho
 
 ## Topic: Strategy & Metrics
 ### Team autonomy
-In most agile environments, team autonomy is important, which means that it can be a challenge to work on process maturity on an organisation-wide scale. If team-autonomy is important, than a maturity program should embrace that different teams can have different maturities and different ways of working, including security. At the same time it is advisable to let teams learn from each other, so sharing of practices between teams is a best practice for maturity programs.”
+In most agile environments, team autonomy is important, which means that it can be a challenge to work on process maturity on an organization-wide scale. If team-autonomy is important, than a maturity program should embrace that different teams can have different maturities and different ways of working, including security. At the same time it is advisable to let teams learn from each other, so sharing of practices between teams is a best practice for maturity programs.”
 ### Security is a shared responsibility
 In an Agile environment security needs to be built in from the start. There is no time every sprint for the approach of building features without worrying too much about security, then do security testing and then fix the weaknesses. First of all, this would require undirected full testing every time and it would require much rework, leading to a situation where the product owner and development team are fighting it out with the security team. Therefore, security needs to be owned by everyone including the product Owner. This puts security professionals much more in an advisory and supportive role than in a role of a quality gate that has different stakes than the team. By including security in the discussions and in the planning, no room is left to ignore it. 
 
-Pitfall: In some organisations, security is organised in such a way that the ‘security department’ verifies the software and then needs to convince the ‘business’ to fix the issues found. This is typically the case when business value is measured in the number of features and security is seen as a cost center, instead of a necessary quality to prevent damage and protect the business value.
+Pitfall: In some organizations, security is organised in such a way that the ‘security department’ verifies the software and then needs to convince the ‘business’ to fix the issues found. This is typically the case when business value is measured in the number of features and security is seen as a cost center, instead of a necessary quality to prevent damage and protect the business value.
 
-## Topic: Education & Guidance - Organisation & culture
+## Topic: Education & Guidance - organization & culture
 ### Comment from Rob to to Seba
 I’m not sure if it’s a good idea to have the security group ensure that developers are applying best practices. They can help, but it shouldn’t be their responsibility that it happens. This would nurture an us vs them situation where the security group would be the security police. Instead, security should be everybody’s responsibility. My guess is that SAMM agrees to that standpoint, but it is not reflected in the text on the security group. The security group should facilitate a shift left movement enabling the team to apply best practices. 
 
@@ -66,7 +66,7 @@ For functional security requirement (e.g. a login feature) instruction and verif
  -Covered by the technology used (e.g. framework/library providing for example input validation)
  -Needs system-generic or story-specific instruction and verification, using instruction X and tests A, B, C (e.g. automated static scan, automated dynamic test, manual test, code review, or a combination). For story-specific requirements, the situation needs to be described when it is applicable - the so-called trigger. 
 
-Valuable sprint time can be saved by selecting and preparing from the list of all known requirements before development starts. This preparation can be done per team, but it can also be based on an organisation-wide repository of requirements plus instructions and tests. The process can be revisited when necessary (e.g. testing has been extended, new framework choices).
+Valuable sprint time can be saved by selecting and preparing from the list of all known requirements before development starts. This preparation can be done per team, but it can also be based on an organization-wide repository of requirements plus instructions and tests. The process can be revisited when necessary (e.g. testing has been extended, new framework choices).
 
 After selecting and preparing requirements, system-generic requirements become part of the Definition of Done, whereas story-specific requirements need to made available, linked to an overview of triggers, that allow selection of the right requirements depending on the type of work being done in a story. When applicable, the requirements become part of the story Acceptance criteria.
 
@@ -107,7 +107,7 @@ Pitfall: Automation alone will typically not do the trick. Both expert code revi
 
 Pitfall: the classic penetration test pitfall is performing it late, just before a public release.  
 
-## Topic: Education & guidance - organisation and culture
+## Topic: Education & guidance - organization and culture
 ### Security Champion (existing already in SAMM - @@TODO: align)
 A security champion is a member of the development team who proactively helps to create a good security posture within the development team. They act as a point of contact for security related questions and try to remove any impediments preventing the team to be able to develop software securely.
 

@@ -43,7 +43,7 @@ Actions that have been identified are listed below. These have not been grouped 
 * Crowdfunding? Special printed editions?
 * Marketing internship?
 * What other conferences to target to promote/present SAMM?
-  * list/understand target roles and organisations: CISO, lead software development, lead architect
+  * list/understand target roles and organizations: CISO, lead software development, lead architect
   * Create a list E.g. DevSecCon, BrightTalk, security.nl, netsec reddit ,LinkedIn Groups, silver bullet,risky business ...
 * How do we reach our target audience outside of OWASP?
 * Get statistics and insight in who downloads/uses
@@ -57,7 +57,7 @@ Actions that have been identified are listed below. These have not been grouped 
 * Publish book on several channels (leanpub, amazon, …)
 * Merchandise (t-shirts, cups, stickers, …)
 * Friendly adopters, case studies (SAMM champions :-) )
-* reach out and add logos of organisations using SAMM to the website
+* reach out and add logos of organizations using SAMM to the website
 
 
 <!--

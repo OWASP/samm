@@ -79,7 +79,7 @@ Put in place  a mechanism to bypass this behaviour when a vulnerability has been
 
 If any of the security tests like SAST are not carried out successfully, the build fails.
 
-If technical limitations prevent the organisation from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
+If technical limitations prevent the organization from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
 
 Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build.
 
@@ -177,9 +177,9 @@ Log results centrally, triage and validate findings appropriately as described i
 
 ### Quality Indicators
   * You assess the security of important 3rd party dependencies. The dependencies are either flagged during a risk analysis or threat modelling, or are of high value to business
-  * The organisation actively contributes security improvements to important 3rd party dependencies (testing, reports, features)
+  * The organization actively contributes security improvements to important 3rd party dependencies (testing, reports, features)
   * Security is an important factor during 3rd party dependency selection
-  * Important 3rd party dependencies have an assigned owner within the organisation. For sufficiently important dependencies, the owner may also be the dependency’s champion
+  * Important 3rd party dependencies have an assigned owner within the organization. For sufficiently important dependencies, the owner may also be the dependency’s champion
   * You use multiple intelligence feeds to track the security of 3rd party dependencies
   * There is an active policy to minimise the number of different versions of 3rd party dependencies
 

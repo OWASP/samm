@@ -33,7 +33,7 @@ In a sophisticated form, the practice requires formalised, independent defect ma
 All software security defects are recorded centrally.
 
 ### Activity
-Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
+Track and record all security defects in a central location. This location can be team, project, or organization-wide. Give defects meaningful categories, and prioritize them based on the risk they pose.
 
 Sources of defects and violations include, but are not limited to, those discovered via:
 
@@ -48,23 +48,14 @@ Sources of defects and violations include, but are not limited to, those discove
 - Bug bounties
 
 Qualify all defects and license violations so the records only contain valid and significant issues. Consider manageability. Void recording duplicate defects, for example, searching  for similar issues. Merge duplicates and group similar issues, particularly if you will handle them in the same way.
-The organisation uses these records to make decisions and resolve defects and violations. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
+The organization uses these records to make decisions and resolve defects and violations. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to [Verification > Security Testing](../../verification/v-security-testing).
 
 #### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Defect Management" "A" 1 >}}
 
 <!--
 #### Notes
-"Any and all security defects should be recorded and tracked in a central location." - does this matter on level 1? Aggregate this per team/product? Not as an organisation. to be rephrased.  [Done by CC]
+"Any and all security defects should be recorded and tracked in a central location." - does this matter on level 1? Aggregate this per team/product? Not as an organization. to be rephrased.  [Done by CC]
 Should only be "validated or qualified" defects. [Added by CC]
 vulnerability reports and scans should be input for this . [already there. CC]
 security defect management includes vulnerability management [Added by CC]
@@ -83,7 +74,7 @@ Define a threshold for defects that require resolution or mitigation. You do not
 
 This quality gate may also exist at whatever point the issue is detected. For instance, if you detect an issue by static analysis prior to build, the build system might prevent the software from building. However, deployment to production is always the final and mandatory quality gate.
 
-To set a threshold that is right your organisation, take into consideration:
+To set a threshold that is right your organization, take into consideration:
 
 - the threat model
 - the nature of applicable threats (i.e. skill level, motive, level of access, etc)
@@ -102,16 +93,7 @@ Define processes for dealing with false positive defects, or ones with existing 
 Consider defects below the threshold deployed into production environments for resolution or mitigation at a later time.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Defect Management" "A" 2 >}}
 
 <!--
 #### Notes
@@ -131,22 +113,13 @@ An individual or team outside of those responsible for developing and deploying 
 
 Defects that exceed the threshold block or prevent deployment into production, until they are resolved, or fall below the threshold. You can do this automatically in the build and deployment processes, if they are integrated with the defect management system. Alternatively, the deployment process could include a step that requires approval from an information security officer.
 
-Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries).
+Keep a list of known defects, with accurate risk rating and categorizations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries).
 
 This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Review the status of accepted and mitigated risks periodically (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).
 
 ### Maturity Questions
 
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Defect Management" "A" 3 >}}
 
 
 # B: Metrics and Feedback/Learning
@@ -161,23 +134,14 @@ Basic information about defects is calculated, shared, and used to make decision
 - The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.
 - The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.
 - The type or category of the defect, which suggests areas where the development team need further training.
-- The severity of the defect, which can help the organisation understand the software's risk exposure.
+- The severity of the defect, which can help the organization understand the software's risk exposure.
 
 Outcomes are fed back to the teams involved. This data is used to make decisions about remediation priority and training requirements.
 
-Defects are considered within the wider metrics throughout the oragnisation. See [Governance > Strategy & Metrics](../g-strategy-metrics) > B.
+Defects are considered within the wider metrics throughout the oragnization. See [Governance > Strategy & Metrics](../g-strategy-metrics) > B.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Defect Management" "B" 1 >}}
 
 <!--
 #### Notes
@@ -186,7 +150,7 @@ add mean time to fix here?
 
 levels?
 1: provide feedback to the team [done by CC]
-2: learn from it accross teams and provide feedback to the organisations, looking for trends
+2: learn from it accross teams and provide feedback to the organizations, looking for trends
 3: optimized practices and share statictics
 -->
 
@@ -214,22 +178,13 @@ Tools such as spreadsheets or dedicated vulnerability tracking software are used
 
 Make this data accessible to management, information security people, developers, and engineers to inform their decision-making. For example, provide a central dashboard. Metrics should guide remediation efforts and resource allocation.
 
-Security teams are able to report an accurate picture of the organisation's defect and risk metrics to executive management.
+Security teams are able to report an accurate picture of the organization's defect and risk metrics to executive management.
 
-A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme.
+A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall program.
 
 ### Maturity Questions
 
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Defect Management" "B" 2 >}}
 
 <!--
 #### Notes
@@ -259,22 +214,13 @@ Add information to defects, such as:
 
 For each defect, up-to-date or real-time data on the availability of exploits and hacker activity in the wild is used to contribute to risk scores.
 
-Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs and dashboarding. Trends are analysed and the results are used to influence the design and implementation of software and the overall security stategy.
+Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs and dashboards. Trends are analyzed and the results are used to influence the design and implementation of software and the overall security strategy.
 
-Metrics are used to empower the whole organisation. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.
+Metrics are used to empower the whole organization. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.
 
 ### Maturity Questions
 
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Defect Management" "B" 3 >}}
 
 <!--
 #### Notes

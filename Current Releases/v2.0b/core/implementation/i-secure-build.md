@@ -72,7 +72,7 @@ Put in place  a mechanism to bypass this behaviour when a vulnerability has been
 
 If any of the SAST or any other security tests are not carried out successfully, the build fails.
 
-If technical limitations prevent the organisation from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
+If technical limitations prevent the organization from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
 
 Take steps to verify the integrity of the build system, for example through a deterministic method that outputs byte-for-byte reproducible builds. Compare the binary output with that from other equivalent build systems to ensure it hasn't been tampered with.
 

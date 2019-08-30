@@ -45,21 +45,7 @@ You acknowledge the importance of configuration hardening of third party compone
 Work with publicly available information sources (open source projects, vendor documentation, blog articles), increasing your know-how from those and implementing at least "low hanging fruits".
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- you use external public sources during configuration
-- you document carried out configuration
+{{< questions "Environment Management" "A" 1 >}}
 
 <!--
 ### Notes
@@ -86,23 +72,7 @@ The baselines have an owner responsible for keeping them up to date (e.g. if new
 In larger environments, derive configuration of all instances from your own master, where there is already common ground work. Consider using automated tools for hardening configuration.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- You document security baselines for commonly used components
-- You have improved these baselines in the last year
-- You use an own configuration master when beneficial
+{{< questions "Environment Management" "A" 2 >}}
 
 <!--
 ### Notes
@@ -129,23 +99,7 @@ Verify the validity of the current hardening baselines in the component update p
 Periodically audit the continuous improvement process for the baselines and act upon the resulting findings.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- there is a dashboard covering the hardening state of particular components
-- there are security findings documented for nonconformities to the configuration baselines
-- tools for configuration hardening are in place (either acquired or internally developed)
+{{< questions "Environment Management" "A" 3 >}}
 
 <!--
 ### Notes
@@ -175,23 +129,7 @@ Share knowledge of the patching process for components. . Teams cooperate if nec
 You can find out the versions of all components in use  to evaluate whether you are affected by a particular public security vulnerability.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- there is BOM for the used applications
-- you test applications after patching, if relevant
-- you have updated at least customer facing applications in the last year
+{{< questions "Environment Management" "B" 1 >}}
 
 
 <!--
@@ -230,22 +168,7 @@ There is a guidance for prioritization of particular updates, including concerns
 If there is a known critical issue while the patch is not available yet, triage and handle this issue (e.g. by finding workarounds, monitoring measures, or even switching off the affected applications).
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- you follow the update calendar of vendors
-- you have defined and use 3rd party sources for vulnerability intelligence
+{{< questions "Environment Management" "B" 2 >}}
 
 <!--
 ### Notes
@@ -271,24 +194,7 @@ You have very good insight (e.g. through a dashboard) of the patching strategy a
 If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable.
 
 ### Maturity Questions
-#### Q 1
-Are ...?
-
-*Answer Options*
-- No
-- Yes, some of the time
-- Yes, approx. half the time
-- Yes, most or all of the time
-
-
-### Quality Indicators
-
-Typically, on this maturity level:
-
-- a dashboard containing patch state information exists
-- there is an evidence of patching procedures
-- blind spots are identified and acted upon
-- pathing takes place also outside of regular business hours for critical issues
+{{< questions "Environment Management" "B" 3 >}}
 
 <!--
 ### Notes

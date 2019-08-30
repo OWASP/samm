@@ -34,16 +34,7 @@ For perimeter interfaces, the design team considers each principle in the contex
 Train each project team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.
 
 #### Maturity Questions
-##### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-#### Quality Indicators
+{{< questions "Security Architecture" "A" 1 >}}
 
 #### Notes
 Still put focus on perimeter interfaces ?
@@ -53,31 +44,22 @@ I don't like the fact that the Practice is called Secure Architecture and the st
 
 ## Maturity 2
 ### Benefit
-The organisation leverages common security solutions.
+The organization leverages common security solutions.
 
 ### Activity
-Identify shared infrastructure or services with security functionality. These typically include single-sign-on services, access control or entitlements services, logging and monitoring services or application-level firewalling. Collect and evaluat reusable systems to assemble a list of such resources and categorize them by the security mechanism they fulfill. Consider each resource in terms of why a development or an operations team would want to integrate with it, i.e. the benefits of using the shared resource.
+Identify shared infrastructure or services with security functionality. These typically include single-sign-on services, access control or entitlements services, logging and monitoring services or using an application-level firewall. Collect and evaluate reusable systems to assemble a list of such resources and categorize them by the security mechanism they fulfill. Consider each resource in terms of why a development or an operations team would want to integrate with it, i.e. the benefits of using the shared resource.
 
 If multiple resources exist in each category, select and standardize on one or more shared service per category. Because future software development will rely on these services, review each thoroughly to ensure understanding of the baseline security posture. For each selected service, create design guidance for development teams to understand how to integrate with the system. Make the guidance available to development or operations teams through training, mentorship, guidelines, and standards.
 
 Establish a set of general design patterns representing sound methods of implementing security functionality. You can research them or purchase them, and it is often even more effective if you customize them so they are more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
 
-These patterns can originate from specific projects or applications, but make sure you share them between different development and/or operations teams across the organisation for efficient and consistent application of appropriate security solutions.
+These patterns can originate from specific projects or applications, but make sure you share them between different development and/or operations teams across the organization for efficient and consistent application of appropriate security solutions.
 
-To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.
+To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organization, for instance in case of different development stacks (LINK TO: Technology Management). Treat these solutions as actual applications with proper support in case of questions or issues.
 
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Security Architecture" "A" 2 >}}
 
 #### Notes
 Combination of the 2 level 2 activities of SAMM1.5
@@ -87,23 +69,14 @@ Combination of the 2 level 2 activities of SAMM1.5
 Software architectures are standardized to minimize security risks.
 
 ### Activity
-Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organisation and within the community. Have architects, senior developers and other technical stakeholders participate in design and creation of reference platforms. After creation, teams maintain ongoing support and updates.
+Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organization and within the community. Have architects, senior developers and other technical stakeholders participate in design and creation of reference platforms. After creation, teams maintain ongoing support and updates.
 
 Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the life-cycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization.
 
-Monitor weaknesses or gaps in the set of security solutions available in your organisation continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.
+Monitor weaknesses or gaps in the set of security solutions available in your organization continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
+{{< questions "Security Architecture" "A" 3 >}}
 
 #### Notes
 
@@ -116,25 +89,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Risky technologies are identified and replaced
 
 ### Activity
-People often take the path of least resistance in developing, deploying or operating a software solution. New technologies are included when they can facilitate or speed up the effort or enable the solution to scale better. These new technologies might, however, introduce new risks to the organisation that you need to manage.
+People often take the path of least resistance in developing, deploying or operating a software solution. New technologies are included when they can facilitate or speed up the effort or enable the solution to scale better. These new technologies might, however, introduce new risks to the organization that you need to manage.
 
-Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the solution architect's knowledge, or study the development and operating environment and artefacts. Then evaluate them for their security quality and raise important issues (LINK TO defect management).
+Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the solution architect's knowledge, or study the development and operating environment and artifacts. Then evaluate them for their security quality and raise important issues (LINK TO defect management).
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-- Most important technologies are elicited
-- Technologies are evaluated by the lead developer or architect
-- Important technological risks are identified
-- Undesired risky technologies in the solution are replaced in accordance with the organization's policy
+{{< questions "Security Architecture" "B" 1 >}}
 
 ### Notes
 
@@ -144,27 +104,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 There is a common agreement on the key technologies to use
 
 ### Activity
-Identify commonly used technologies, frameworks and tools in use across software projects in the organisation, whereby you focus on capturing the high-level technologies.
+Identify commonly used technologies, frameworks and tools in use across software projects in the organization, whereby you focus on capturing the high-level technologies.
 
-Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organisation.
+Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organization.
 
 Senior developers and architects create this list, including input from managers and security auditors. Share this list of recommended components with the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-- Technologies in use have been identified throughout the software portfolio
-- A list of preferred technologies has been defined and approved by lead architects and developers
-- The list of preferred technologies has been shared across the development organisation
-- The list of preferred technologies is regularly (at least yearly) reviewed and updated
+{{< questions "Security Architecture" "B" 2 >}}
 
 ### Notes
 Note that this used to be level 1 in SAMM 1.5. OK ?
@@ -174,24 +121,12 @@ Note that this used to be level 1 in SAMM 1.5. OK ?
 Compliance with the list is proactively monitored and violations are managed
 
 ### Activity
-For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organisation, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks.
+For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organization, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artifacts (e.g., source code, configuration files or deployment artifacts), or periodically review focusing on the correct use of these frameworks.
 
 Verify several factors with project teams. Identify use of non-recommended technologies to determine if there are gaps in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, implement functionality in the reference platforms as the organization evolves and project teams request it.
 
 ### Maturity Questions
-#### Q 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
-
-**Answer Options**
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
-### Quality Indicators
-- Applications are regularly monitored for the correct use of the list of preferred frameworks
-- Violations against the list are solved in accorandance with the organisational's policy
-- The amount of violations on a yearly basis falls within objectives or concrete actions are taken to improve
+{{< questions "Security Architecture" "B" 3 >}}
 
 
 ### Notes
