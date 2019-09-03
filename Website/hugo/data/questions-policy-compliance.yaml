@@ -127,7 +127,7 @@
         - D:
             answer: Yes, for most of the applications
             weight: 1
-   quality_criteria:
+    quality_criteria:
         - You have established, well-defined compliance metrics
         - You measure and report on applications' compliance metrics following a regular cadence
         - Stakeholders use the reported compliance status information to identify compliance gaps, and prioritize gap remediation efforts 
