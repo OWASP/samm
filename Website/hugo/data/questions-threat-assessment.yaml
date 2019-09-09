@@ -134,7 +134,7 @@
         - D:
             answer: Yes, the majority of them
             weight: 1
-    Quality_criteria:
+    quality_criteria:
         - The threat model methodology takes into account historical feedback to improve the evaluation method
         - Changes in the application or business context trigger a review of the relevant threat models
         - Threat models are independently evaluated for their quality

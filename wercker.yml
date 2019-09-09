@@ -1,4 +1,4 @@
-# This references a standard debian container from the
+# This references a standard debian container from the 
 # Docker Hub https://registry.hub.docker.com/_/debian/
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
@@ -23,6 +23,20 @@ build:
     - arjen/hugo-build:
         version: "0.53"
         basedir: "Website/hugo"
+build-css:
+  box: node:11
+  steps:
+    - npm-install
+    #- maestrohealthcaretechnologies/npm-install@0.1.9:
+    #    options: -g gulp
+    - script:
+        name: Install and run gulp
+        code: |
+          cd ./Website/
+          npm install -g gulp
+          npm install semantic-ui --save
+          cd semantic/
+          gulp build
 deploy:
   steps:
     - install-packages:
@@ -31,3 +45,15 @@ deploy:
         token: $GIT_TOKEN
         domain: owaspsamm.org
         basedir: "Website/hugo/public"
+deploy-uat:
+  steps:
+    - script:
+        name: Create index.php to make Heroku think we're a PHP
+        code: |
+          cd Website/hugo/public/
+          echo "<?php header( 'Location: /index.html' ) ;  ?>" > index.php
+    - heroku-deploy:
+        source_dir: Website/hugo/public/
+        key: $HEROKU_KEY
+        user: $HEROKU_USER
+        app-name: samm-testing
