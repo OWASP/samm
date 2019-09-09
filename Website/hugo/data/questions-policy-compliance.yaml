@@ -1,0 +1,133 @@
+- Have you developed a common set of policies and standards that are applied throughout your organization?:
+    security_practice: Policy & Compliance
+    stream: A
+    stream_title: Policy and Standards
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.2
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - You have adapted existing standards appropriate for the organization’s industry, to account for domain-specific considerations
+        - Your standards are aligned with your policies, and incorporate technology-specific implementation guidance
+
+- Do you have clearly documented, repeatable evaluation methods to test for adherence to policies and standards?:
+    security_practice: Policy & Compliance
+    stream: A
+    stream_title: Policy and Standards
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the policies and standards
+            weight: 0.2
+        - C:
+            answer: Yes, for at least half of the policies and standards
+            weight: 0.5
+        - D:
+            answer: Yes, for most of the policies and standards
+            weight: 1
+    quality_criteria:
+        - You have created verification checklists and test scripts (where applicable), aligned with the policy's requirements, and the implementation guidance in the associated standard(s)
+        - You have created versions adapted to each development methodology/technology in use within the organization
+
+- Do you regularly report on policy and standard compliance, and use that information to guide compliance improvement efforts?:
+    security_practice: Policy & Compliance
+    stream: A
+    stream_title: Policy and Standards
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, we do it when requested
+            weight: 0.2
+        - C:
+            answer: Yes, we do it every few years
+            weight: 0.5
+        - D:
+            answer: Yes, we do it at least annually
+            weight: 1
+    quality_criteria:
+        - You have procedures (automated, if possible) in place, to regularly generate compliance reports
+        - You have ensured compliance reports are delivered to all relevant stakeholders
+        - Stakeholders use the reported compliance status information to identify areas for improvement
+
+- Do you have a complete picture of your external compliance obligations?:
+    security_practice: Policy & Compliance
+    stream: B
+    stream_title: Compliance Management
+    maturity: 1
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.2
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - You have identified all sources of external compliance obligations
+        - You have captured and reconciled compliance obligations from all sources
+
+- Do you have a standard set of security requirements, and verification procedures, addressing the organization's external compliance obligations?:
+    security_practice: Policy & Compliance
+    stream: B
+    stream_title: Compliance Management
+    maturity: 2
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.2
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - You have mapped each external compliance obligation to a well-defined set of application requirements
+        - You have defined verification procedures, including automated tests (when possible), to verify compliance with compliance-related requirements
+
+- Do you regularly report on adherence to external compliance obligations, and use that information to guide efforts to close compliance gaps?:
+    security_practice: Policy & Compliance
+    stream: B
+    stream_title: Compliance Management
+    maturity: 3
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: Yes, for some of the applications
+            weight: 0.2
+        - C:
+            answer: Yes, for at least half of the applications
+            weight: 0.5
+        - D:
+            answer: Yes, for most of the applications
+            weight: 1
+    quality_criteria:
+        - You have established, well-defined compliance metrics
+        - You measure and report on applications' compliance metrics following a regular cadence
+        - Stakeholders use the reported compliance status information to identify compliance gaps, and prioritize gap remediation efforts 
