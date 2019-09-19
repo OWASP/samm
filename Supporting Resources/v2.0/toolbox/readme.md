@@ -7,5 +7,7 @@ The SAMM maturity questions have been updated, together with our toolbox spreads
 
 The SAMM questionnaire has been restructured to reflect the new SAMM2 maturity streams.
 
-Try it our and let us know how it works for you? We welcome your feedback and input!
+Try it out and let us know how it works for you? 
+
+We welcome your [http://owaspsamm.org/head/feedback/ feedback] and input!
 
