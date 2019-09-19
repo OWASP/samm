@@ -5,13 +5,16 @@ r.vanderveer@sig.eu
 Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
 
 **Why SAMM Agile notes?**
+
 The Software Assurance Maturity Model (SAMM) is an open guide to building security into software development. See [SAMM website](https://owaspsamm.org/)
 SAMM is OWASP's flagship project on how to setup and grow a secure development process. It aims to be agnostic of the type of development approach, which is why Agile was not covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modelling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?
 
 **History**
+
 Since April 2019, Rob van der Veer has been working on extending SAMM with such guidance, in collaboration with the SAMM working group, industry peers and clients. These peers notably include Michael Kuipers (Centric) and Eric Nieuwland (ICTU). The Agile notes were developed by studying many organisations  on what works and what doesn't work, by doing interviews and by looking into the many publications on this topic. 
 
 **Deliverable**
+
 Just to imagine what these notes would look like:  in the 2.0 core PDF, these notes could for example be presented in rectangles marked ‘Agile note’ and then contain the note text. That way they are not part of the method-agnostic core text but at the same time they provide information that can easily be found or skipped.
 
 There are three main reasons for these Agile notes:
@@ -50,6 +53,7 @@ While maturing secure software development, at some point there can be a bottlen
 PITFALL #isolatedsecurity: In some organisations, security is unfortunately organized so that the ‘security department’ verifies the software and then needs to convince the ‘business’ to fix the issues found. This is typically the case when business value is measured in the number of features and security is seen as a cost center, instead of a necessary quality to prevent damage and protect the business value. If product demos are a regular practice, it helps to show what has been done for security, next to the ‘business features’. That way stakeholders and developers experience the importance. 
 
 ### Metrics
+
 In Agile, feedback loops are short and verification is frequent. You cannot control what you don’t measure, so in order to put security on the agenda and to improve maturity and quality of results, it is beneficial to measure those aspects. Ideally these measurements are presented in one or a series of dashboards which a central security team together with management can use to drive important decisions. 
 ## Topic: Threat assessment
 
@@ -68,6 +72,7 @@ PITFALL #onlythreatmodel: Threat modelling should not be relied on as the only w
 In an Agile process, some requirements need to be selected and tested for every sprint. In order to make this feasible, we need processes to select and prepare relevant requirements 1) per system and 2) per story. The goal is to make the story-process efficient and provide a minimized set of relevant requirements for each situation, including instructions for developers and test plans.
 
 **1) Per system**
+
 Before development starts, requirements can be selected from the set of standard requirements, which are typically established on an organization level - taking into account industry standards and compliance. This selection process is based on the context of the software (domain, role, risks technology choices, run-time environment) and needs revisiting when this context changes. Risk analysis is a typical part of this process.
 Per non-functional requirement, the following options exist in the selection and preparation:
 - Not applicable in the context
@@ -86,6 +91,7 @@ To summarize: the deliverables of the per system selection and preparation are:
 Each requirement has a short name or number, a description of the risk, instructions for developers, automated tests and instructions for testers/reviewers.
 
 **2) Per story**
+
 Picking specific requirements for a story is done during creation of the story and during backlog refinement, if necessary with the help of a security expert. There are different ways to pick the requirements:
 -using triggers from the pick list: in case requirements are prepared with ‘triggers’ these can be used to determine whether requirements fit the story.
 - Using expertise: security expertise can help to efficiently select the proper requirements for a story.
@@ -97,6 +103,7 @@ Picking specific requirements for a story is done during creation of the story a
 The requirements are put into the acceptance criteria of the story. This informs developers what should be taken into account to plan and perform the work, and adds to the necessary tests.
 
 **Instructions**
+
 Requirements contain rules that the software needs to comply with. These rules are not ideal as instructions for the developers. It helps to have separate instructions in which criteria that are expected to be known are left out, and other criteria are phrased from a developer point of view. The goal is to have a small and manageable set of instructions for the developers to take into account. As a result, some requirements might even have no instructions at all, while they still have tests. This is the case where the organization relies on the developer knowledge on the specific matter.
 
 See the diagram below for an overview of the software development process and the flow of requirements. ![SAMM Agile requirements process](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/SAMMAgileRequirementsProcess.png?raw=true)
