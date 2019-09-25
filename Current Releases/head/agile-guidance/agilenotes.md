@@ -10,6 +10,12 @@ Agile notes explain how SAMM topics specifically work for Agile, in the form of 
 The Software Assurance Maturity Model (SAMM) is an open guide to building security into software development. See [SAMM website](https://owaspsamm.org/)
 SAMM is OWASP's flagship project on how to setup and grow a secure development process. It aims to be agnostic of the type of development approach, which is why Agile was not covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modelling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?
 
+There are three main reasons for these Agile notes:
+
+1. They provide specifics on how the activity is (slightly) different for Agile, on the same detail level as the core model
+2. Additionally they provide more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what to watch out for. Many mistakes are made in practice when doing security, especially in Agile situations.
+3. They prevent some readers from believing SAMM is ‘too much waterfall’. This is mainly a language thing.
+
 **History**
 
 Since April 2019, Rob van der Veer has been working on extending SAMM with such guidance, in collaboration with the SAMM working group, industry peers and clients. These peers notably include Michael Kuipers (Centric) and Eric Nieuwland (ICTU). The Agile notes were developed by studying many organisations  on what works and what doesn't work, by doing interviews and by looking into the many publications on this topic. 
@@ -17,12 +23,6 @@ Since April 2019, Rob van der Veer has been working on extending SAMM with such 
 **Deliverable**
 
 Just to imagine what these notes would look like:  in the 2.0 core PDF, these notes could for example be presented in rectangles marked ‘Agile note’ and then contain the note text. That way they are not part of the method-agnostic core text but at the same time they provide information that can easily be found or skipped.
-
-There are three main reasons for these Agile notes:
-
-1. They provide specifics on how the activity is (slightly) different for Agile, on the same detail level as the core model
-2. Additionally they provide more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what to watch out for. Many mistakes are made in practice when doing security, especially in Agile situations.
-3. They prevent some readers from believing SAMM is ‘too much waterfall’. This is mainly a language thing.
 
 # The SAMM Agile notes 
 ## Topic: General 
@@ -46,7 +46,7 @@ The Agile notes provide insight into how to make this happen.
 ### Does a maturity model conflict with Agile?
 A maturity model may appear to conflict with the Agile manifesto, because Agile holds people over process and working software over documentation. However, Agile does not disqualify process or documentation - it wants to minimize it where possible. To make this happen, a maturity model can provide tremendous help and it supports the Agile way of improving the way you work by learning as you go along.
 
-## Topic: Strategy & Metrics /Education & Guidance - Organization & culture
+## Topics: Strategy & Metrics / Education & Guidance - Organization & culture
 ### Team autonomy
 In most Agile environments, team autonomy is important, which means that it can be a challenge to work on process maturity on an organization-wide scale. If team-autonomy is important, then a maturity program should embrace that different teams can have different maturities and different ways of working, including security. At the same time it is advisable to let teams learn from each other, so sharing of practices between teams is a best practice for maturity programs, as well as transparency on maturity which nurtures gamification.”
 ### Security is a shared responsibility
@@ -102,7 +102,7 @@ Each requirement has a short name or number, a description of the risk, instruct
 
 Picking specific requirements for a story is done during creation of the story and during backlog refinement, if necessary with the help of a security expert. There are different ways to pick the requirements:
 
--using triggers from the pick list: in case requirements are prepared with ‘triggers’ these can be used to determine whether requirements fit the story.
+- Using triggers from the pick list: in case requirements are prepared with ‘triggers’ these can be used to determine whether requirements fit the story.
 - Using expertise: security expertise can help to efficiently select the proper requirements for a story.
 - Using abuse stories (how the system can be attacked): they can help to identify weaknesses and thus link to the right requirements.
 -  If the methods above provide insufficient confidence: use threat modelling.
@@ -145,7 +145,7 @@ Abuse stories are advantageous mostly in the beginning of development. Abuse sto
 
 PITFALL #abusestorygalore: Abuse stories should not be the only method to find security requirements (see “Requirements in stories”). Requirements can also be added by applying triggers, expertise and by using triggers, allowing more direct and efficient selection instead of first having to think about what could go wrong.
 
-## Topic: Security testing & Requirements driven testing
+## Topics: Security testing & Requirements driven testing
 
 ### Agile testing
 In Agile, testing happens more frequently and typically covers the same parts of a system over and over again, which is why it is important to automate testing as much as possible and to limit manual testing based on the changes made. 
