@@ -1,5 +1,6 @@
 # SAMM Agile notes - introduction
 By Rob van der Veer (Software Improvement Group) with the help of many peers and clients.
+
 r.vanderveer@sig.eu
 
 Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
@@ -18,6 +19,7 @@ Since April 2019, Rob van der Veer has been working on extending SAMM with such 
 Just to imagine what these notes would look like:  in the 2.0 core PDF, these notes could for example be presented in rectangles marked ‘Agile note’ and then contain the note text. That way they are not part of the method-agnostic core text but at the same time they provide information that can easily be found or skipped.
 
 There are three main reasons for these Agile notes:
+
 1. They provide specifics on how the activity is (slightly) different for Agile, on the same detail level as the core model
 2. Additionally they provide more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what to watch out for. Many mistakes are made in practice when doing security, especially in Agile situations.
 3. They prevent some readers from believing SAMM is ‘too much waterfall’. This is mainly a language thing.
@@ -28,6 +30,7 @@ There are three main reasons for these Agile notes:
 How to attain quality at speed? Agile delivers software more frequently, which means that quality assurance is a more frequent issue. Traditionally, quality assurance has been a carefully designed single phase in software development. The challenge is to make it less bureaucratic, take less time and still get quality software. To make this feasible, mistakes need to be both prevented (build security in) and fought (find mistakes) with maximum efficiency, so to minimize manual work and the burden on developers:
 
 **Prevent:**
+
 - Use solid technologies/frameworks/components that take care of as much security as possible
 - The remaining requirements are clear and applied situationally as much as possible, so to reduce the number of requirements that need to be dealt with all the time
 - Responsibility and understanding of security principles with all people involved, including the product owner
@@ -35,6 +38,7 @@ How to attain quality at speed? Agile delivers software more frequently, which m
 - Good changeability of code (maintainability) to minimize errors
 
 **Fight:**
+
 - By checks that need to be automated as much as possible 
 - Manual checking will still be required and needs to be performed in a smart incremental and risk-based way, focusing only on changes and their impact.
 
@@ -67,6 +71,7 @@ When applied incrementally, a lightweight version of the four steps can be used,
 Involving the product owner is recommended to get a fast reality check regarding domain context, economical sensibility of the measures, and to nurture the combined sense of security ownership.
 
 PITFALL #onlythreatmodel: Threat modelling should not be relied on as the only way to build security in. It’s typically hard for developers and for QA people to think like attackers and come up with all the things that could go wrong and all the necessary countermeasures. This is why it’s so important to have security requirements readily available to be selected when specific types of work are done (See “Selecting and preparing requirements”). This hardening approach to security (security hygiene, if you will) nicely complements the risk-based approach of threat modelling as another perspective to see how security needs to be built in. The team can let the amount (effort and frequency) of threat modelling depend on how much they trust the other methods of applying security requirements.
+
 ## Topics: Security requirements, Policy&compliance, Security architecture
 ### Selecting and preparing requirements
 In an Agile process, some requirements need to be selected and tested for every sprint. In order to make this feasible, we need processes to select and prepare relevant requirements 1) per system and 2) per story. The goal is to make the story-process efficient and provide a minimized set of relevant requirements for each situation, including instructions for developers and test plans.
@@ -75,14 +80,17 @@ In an Agile process, some requirements need to be selected and tested for every 
 
 Before development starts, requirements can be selected from the set of standard requirements, which are typically established on an organization level - taking into account industry standards and compliance. This selection process is based on the context of the software (domain, role, risks technology choices, run-time environment) and needs revisiting when this context changes. Risk analysis is a typical part of this process.
 Per non-functional requirement, the following options exist in the selection and preparation:
+
 - Not applicable in the context
 - Applicable but risk accepted
 - Covered by the technology used (e.g. framework/library providing for example input validation)
 - Needs system-generic or story-specific instructions X and tests A, B, C (e.g. automated static scan, automated dynamic test, manual test, code review, or a combination). For story-specific requirements, the criteria need to be described when it is applicable - the so-called trigger.
+
 After this selection and preparation, system-generic requirements are referred from the Definition Of Done, whereas story-specific requirements are made available in a pick list, grouped by the triggers, that allow later selection of the right requirements depending on the type of work being done in a story. Picked story-specific requirements become part of a story’s Acceptance criteria in the form of instructions for developers and tests to be performed.
 The prepared and selected requirements can also function as input to a training program.
 
 To summarize: the deliverables of the per system selection and preparation are:
+
 1. A pick list of requirements that need to be applied situationally, per story, based on triggers
 2. A Definition Of Done, with a list of requirements that always need to be applied
 3. A selection of above requirements that need to be included in developer training
@@ -93,6 +101,7 @@ Each requirement has a short name or number, a description of the risk, instruct
 **2) Per story**
 
 Picking specific requirements for a story is done during creation of the story and during backlog refinement, if necessary with the help of a security expert. There are different ways to pick the requirements:
+
 -using triggers from the pick list: in case requirements are prepared with ‘triggers’ these can be used to determine whether requirements fit the story.
 - Using expertise: security expertise can help to efficiently select the proper requirements for a story.
 - Using abuse stories (how the system can be attacked): they can help to identify weaknesses and thus link to the right requirements.
@@ -120,6 +129,7 @@ PITFALL #onlythreatmodelling: Threat modelling should not be relied on as the on
 See also: “Selecting and preparing requirements”.
 Stories need to be equipped with the relevant non-functional requirements, to be put in the acceptance criteria of the story, based on the type of work expected. This informs developers what should be taken into account, it adds to the necessary tests and it provides the information necessary to plan the work.
 Equipping the stories is done during creation of the story and during backlog refinement, if necessary with the help of a security expert if developers have difficulty with this. There are different ways to collect the requirements:
+
 - Using triggers: in case requirements in a pick list are prepared with ‘triggers’, these can be used to identify if requirements fit the story (for example when storing passwords: apply specific hashing) 
 - Using expertise: security expertise can help to efficiently select the proper requirements with a story
 - Using abuse stories (how the system can be attacked): they can help to identify weaknesses and thus link to the right requirements
@@ -134,6 +144,7 @@ An Abuse story (or evil story) is a description from the perspective of an attac
 Abuse stories are advantageous mostly in the beginning of development. Abuse stories can be helpful as explanation of certain security tests, explaining for example to a pentester against what threats a specific requirement needs to be tested.
 
 PITFALL #abusestorygalore: Abuse stories should not be the only method to find security requirements (see “Requirements in stories”). Requirements can also be added by applying triggers, expertise and by using triggers, allowing more direct and efficient selection instead of first having to think about what could go wrong.
+
 ## Topic: Security testing & Requirements driven testing
 
 ### Agile testing
@@ -150,6 +161,7 @@ A best practice in Agile is to have QA competence in the development team - this
 PITFALL #skipmanualtest: Automation alone will typically not do the trick. Both expert code review and manual pentest should be part of any software quality assurance. 
 
 PITFALL #latepentest: the classic penetration test pitfall is performing it late, just before a public release: when rework is the most expensive and time is the shortest.
+
 ## Topic: Education & guidance - organization and culture
 ### Retrospectives
 Security ought to be a standard topic in both refinements and retrospectives. Over time, teams learn which security concerns took much effort/are underestimated. That experience makes planning more precise and predictable. A security specialist (which could be the security champion) can be of tremendous help during these sessions to fill in the details and knowledge gaps. 
