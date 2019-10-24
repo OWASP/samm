@@ -1,0 +1,29 @@
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice:
+  41069df2385749b190f46e8a776e6339
+
+#Unique identifier to refer to this stream
+id: 
+  41069df2385749b190f46e8a776e6339
+
+#Official stream name
+name: 
+  Secret Management
+
+#Stream letter, A or B
+letter:
+  A
+
+#Multi-paragraph explanation of the stream
+description: 
+  Here is the long description for my
+  activity stream.
+
+  I hope it's clear what this stream is doing.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 
+  1

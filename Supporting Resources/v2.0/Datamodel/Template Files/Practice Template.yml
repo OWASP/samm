@@ -1,0 +1,42 @@
+# ===========================================================
+# OWASP SAMM2 Security Practice template/sample
+# ===========================================================
+#Link to the model, using its unique identifier
+function:
+  41069df2385749b190f46e8a776e6339
+
+#Unique identifier (GUID) used to refer to this practice. 
+#Please generate another identifier for your specific practice.
+id:
+  41069df2385749b190f46e8a776e6339
+
+#Official name of this practice
+name:
+  Defect Management
+
+#Abbreviation of this practice
+shortName:
+  DM
+
+#A one sentence description of the security practice
+shortDescription:
+  This practice does this and that.
+
+#A multi-paragraph description of the security practice
+longDescription:
+  Here is the long description for my
+  security practice.
+
+  I hope it's clear what this practice is doing.
+
+#The relative order of this practice in the business function
+order:
+  3
+
+#Who's the "owner" of this practice
+assignee:
+  Chris Cooper 
+
+#Indication of progress to keep track of overall status
+progress:
+  50
