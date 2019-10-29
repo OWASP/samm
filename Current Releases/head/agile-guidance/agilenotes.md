@@ -6,9 +6,14 @@ r.vanderveer@sig.eu
 Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
 
 **Media**
-![Talk at GlobalAppsec Amsterdam 2019](https://www.youtube.com/watch?v=ati80YcVJy8)
-![Slides](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/20190926-AppsecTalk-SAMMagileNotes.pdf?raw=1)
-![This document on the SAMM website](https://owaspsamm.org/head/agile-guidance/agilenotes/)
+
+- [Talk at GlobalAppsec Amsterdam 2019](https://www.youtube.com/watch?v=ati80YcVJy8)
+
+- [Slides](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/20190926-AppsecTalk-SAMMagileNotes.pdf?raw=1)
+
+- [This document on the SAMM website](https://owaspsamm.org/head/agile-guidance/agilenotes/)
+
+
 
 **Why SAMM Agile notes?**
 
