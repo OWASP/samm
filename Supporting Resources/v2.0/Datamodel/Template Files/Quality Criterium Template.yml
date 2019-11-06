@@ -1,0 +1,14 @@
+# ===========================================================
+# OWASP SAMM2 Quality Criterium template/sample
+# ===========================================================
+#Link to the coverage question that this criterium belongs to
+question:
+  41069df2385749b190f46e8a776e6339
+
+#One-sentence description of the criterium
+text: 
+  You have an agreed upon model of the overall software architecture
+
+#Order of this criterium for the question
+order:
+  1

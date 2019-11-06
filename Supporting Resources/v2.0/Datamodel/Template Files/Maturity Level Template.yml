@@ -1,0 +1,16 @@
+# ===================================================
+# OWASP SAMM2 Security Maturity Level template/sample
+# ===================================================
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  41069df2385749b190f46e8a776e6339
+
+#The number of the marurity level
+number:
+  1
+
+#General description of this maturity level
+description:
+  The first maturity level aims at achieving an ad-hoc, best effort implementation of a particular activity within a stream.
+

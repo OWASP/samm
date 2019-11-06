@@ -87,7 +87,7 @@
     quality_criteria:
         - You store application secrets protected in a secured location
 
-- Do you minimize permanent storage of secrets in application artefacts, for instance by injecting them into the configuration using an automated process?:
+- Do you minimize permanent storage of secrets in application artifacts, for instance by injecting them into the configuration using an automated process?:
     security_practice: Secure Deployment
     stream: B
     stream_title: Secret Management

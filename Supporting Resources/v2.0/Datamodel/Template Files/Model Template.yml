@@ -1,0 +1,65 @@
+# ===========================================================
+# OWASP SAMM2 Model template/sample
+# ===========================================================
+#Unique identifier to refer to this modelstream.
+#We will not use GIUDs here, as this can be unique and meaningful at the same time.
+id:
+  SAMM20
+
+#Official version of this model
+version:
+  2.0
+
+#Release date of this model
+date:
+  December 2020
+
+#Multi-paragraph exec summary
+executiveSummary:
+  Here is the long description for my
+  model.
+
+  I hope it's clear what this model is for.
+
+#Multi-paragraph acknowledgements
+acknowledgements:
+  We want to thank ...
+  
+  I hope it's clear what this is for.
+
+#License info
+license:
+  Creative Commons ...
+
+#Link to the logo of the model
+logoURL:
+  "http://.../"
+
+#link to the official website
+websiteURL:
+  "http://.../"
+
+#Names of the project leaders involved
+leaders:
+  - leader1
+  - leader2
+  
+#Names of the contributors
+contributors:
+  - contributor1
+  - contributor2
+
+#Sponsor info
+sponsors:
+  #sponsor1
+  - 
+    level: gold
+    name: myprecioussponsor
+    logoURL: "http://..."
+    websiteURL: "http://.../"
+  #spronsor2
+  - 
+    level: silver
+    name: myalsoprecioussponsor
+    logoURL: "http://..."
+    websiteURL: "http://.../"

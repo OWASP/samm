@@ -1,0 +1,20 @@
+# ===========================================================
+# OWASP SAMM2 Activity Guidance template/sample
+# ===========================================================
+#Link to the activity that this OWASP reference belongs to
+activity:
+  41069df2385749b190f46e8a776e6339
+
+#Tags that can be used to qualify/filter this particular guidance
+tags: 
+  - tag1
+  - tag2
+
+#Multi-line explanation of the guidance
+text:
+  This is what we advise you to do.
+  
+  And this as well.
+  
+  You can include pictures in this explanation if you want to, using MarkDown syntax.
+

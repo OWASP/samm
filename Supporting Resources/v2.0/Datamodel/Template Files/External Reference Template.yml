@@ -1,0 +1,18 @@
+# ===========================================================
+# OWASP SAMM2 External Reference template/sample
+# ===========================================================
+#Link to the activity that this external reference belongs to
+activity:
+  41069df2385749b190f46e8a776e6339
+
+#Name of the external reference
+name: 
+  SafeCode 
+
+#Explanation why this external reference is relevant for the activity
+text:
+  This is why and how.
+
+#Link to the OWASP project
+websiteURL: 
+    "http://.../"
