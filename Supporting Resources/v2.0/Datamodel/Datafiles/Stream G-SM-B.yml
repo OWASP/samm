@@ -1,0 +1,26 @@
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice:
+  32b3bdd85d3a4d53827960004f9d1c7e
+
+#Unique identifier to refer to this stream
+id: 
+  2f1cac3c2e724823b3b48a7e797520b4
+
+#Official stream name
+name: 
+  Measure and Improve
+
+#Stream letter, A or B
+letter:
+  B
+
+#Multi-paragraph explanation of the stream
+description: 
+  Ensure the application security program is measurable.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 
+  2

@@ -1,0 +1,26 @@
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice:
+  32b3bdd85d3a4d53827960004f9d1c7e
+
+#Unique identifier to refer to this stream
+id: 
+  94bb47791e3d462cbf5f71ebb1a1327a
+
+#Official stream name
+name: 
+  Create and Promote
+
+#Stream letter, A or B
+letter:
+  A
+
+#Multi-paragraph explanation of the stream
+description: 
+  Creation and promotion of the Application Security roadmap / strategy.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 
+  1
