@@ -1,0 +1,28 @@
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity:
+  43d347fd280845718f16ccc811e5d942
+
+#Link to the answer set that contains the potential answers for this question  
+answerset:
+  d096060a4d864133afcbdd1397b95827
+
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  efdc34fbb75b405b8107d63d58fa7286
+
+#One-sentence description of the criterium
+text: 
+  Do you influence the Application Security strategy and roadmap based on application security metrics and KPIs?
+
+#Order of this question for the activity (in case there would be multiple)
+order:
+  1
+
+#Qualifying Criterion
+quality:
+  - KPIs are reviewed regularly (at least yearly) for their efficiency and effectiveness
+  - Majority of the changes to the application security strategy are triggered by KPIs and application security metrics

@@ -1,0 +1,28 @@
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity:
+  09f4b814a3444b329a7c9c7f54152ffe
+
+#Link to the answer set that contains the potential answers for this question  
+answerset:
+  e11943dd1978471486d5db4b04e3047d
+
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  54aca12ea18e4073becbdd356cd3b3ef
+
+#One-sentence description of the criterium
+text: 
+  Do you have clearly documented, repeatable evaluation methods to test for adherence to policies and standards?
+
+#Order of this question for the activity (in case there would be multiple)
+order:
+  1
+
+#Qualifying Criterion
+quality:
+  - You have created verification checklists and test scripts (where applicable), aligned with the policy's requirements, and the implementation guidance in the associated standard(s)
+  - You have created versions adapted to each development methodology/technology in use within the organization
