@@ -1,0 +1,29 @@
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity:
+  3afce608ad7c42deb37a04d6b86e5c33
+
+#Link to the answer set that contains the potential answers for this question  
+answerset:
+  f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  f4722a4fdfc44a45be5b5ee8dd7b735f
+
+#One-sentence description of the criterium
+text: 
+  Do you enforce the use of recommended technologies within the development organisation?
+
+#Order of this question for the activity (in case there would be multiple)
+order:
+  1
+
+#Qualifying Criterion
+quality:
+  - Applications are regularly monitored for the correct use of the list of recommended technologies
+  - Violations against the list are solved in accorandance with the organisational’s policy
+  - The number of violations on a yearly basis falls within objectives or concrete actions are taken to improve
