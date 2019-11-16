@@ -5,12 +5,12 @@
 model:
   SAMM20
 
-#Unique identifier (GUID) that can be used to refer to this function
-#Please generate another identifier for your specific function..
+#Unique identifier (GUID) that can be used to refer to this Business Function
+#Please generate another identifier for your specific function.
 id:
   41069df2385749b190f46e8a776e6339
 
-#Official name of the function
+#Official name of the Business Function
 name:
   Implementation
 
@@ -29,7 +29,7 @@ color:
 logo:
   "http://linktomylogo.org/"
   
-#The relative order of the practice in the business function
+#The relative order of the Business Function within the Model
 order: 
   3
 
