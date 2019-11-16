@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  ed5a9c3dd7884c88918a45dc9d231c5d
+  
+#Link to the practice level that this activity belongs to
+level:
+  21a59897dbeb4d7fa4603a0f24362c2b
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  e931a744c2864bef85a3fa75ce7e214f
+
+#The title of this activity
+title:
+  Leverage recurring threat model exercises and automated analysis to ensure risk is effectively managed.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Timely update and qualitative management of application threat
+
+#A one sentence description of the activity
+shortDescription:
+  Improve quality by automated analysis
+
+#A multi-paragraph description of the activity
+longDescription: 
+  In a mature setup of threat modeling, regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications.
+
+  Use automated analysis to evaluate the quality and discover gaps and/or patterns in the threat models. These can improve the threat models.
+
+  Review the threat categories relevant to your organization. When you identify new threat categories, feed this information to the organization to ensure appropriate handling.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

@@ -1,0 +1,65 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  79754453c74b4143b20a57d0efdaab56
+  
+#Link to the practice level that this activity belongs to
+level:
+  a11b78917dec4cfdad983cf6d1d17b61
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  27cdd2a336a44e56a42632c7a78fcf4f
+
+#The title of this activity
+title:
+  Inventory and evaluate security quality of technologies, tools and frameworks used by applications.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Risky technologies are identified and replaced
+
+#A one sentence description of the activity
+shortDescription:
+  Elicit technologies, frameworks and integrations within the overall solution
+
+#A multi-paragraph description of the activity
+longDescription: 
+  People often take the path of least resistance in developing, deploying or operating a software solution. New technologies are included when they can facilitate or speed up the effort or enable the solution to scale better. These new technologies might, however, introduce new risks to the organisation that you need to manage.
+
+  Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the solution architect’s knowledge, or study the development and operating environment and artefacts. Then evaluate them for their security quality and raise important issues (LINK TO defect management).
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
