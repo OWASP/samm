@@ -10,11 +10,11 @@ model:
 id:
   942d679b0c9e41909f8bde728fdb1259
 
-#Official name of the function
+#Official name of the Business Function
 name:
   Operations
 
-#A multi-paragraph description of the function
+#A multi-paragraph description of the Business Function
 description:
   The Operations Business Function encompasses those Activities necessary to ensure confidentiality, integrity, and availability are maintained throughout the operational lifetime of an application and its associated data.
 
@@ -30,7 +30,7 @@ color:
 logo:
   "https://icon-library.net/icon/operations-icon-13.html"
   
-#The relative order of the practice in the business function
+#The relative order of the Business Function within the core model
 order: 
   5
 

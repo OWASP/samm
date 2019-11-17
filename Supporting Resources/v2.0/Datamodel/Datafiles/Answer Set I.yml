@@ -1,5 +1,5 @@
 # ===========================================================
-# OWASP SAMM2 Answer Set template/sample
+# OWASP SAMM2 Answer Set - I
 # ===========================================================
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
@@ -14,17 +14,17 @@ values:
     weight: 1
     order: 0
   - #second level
-    text: 'Yes, for some types of incidents'
+    text: 'Yes, for some incident types'
     value: 0.25
     weight: 1
     order: 1
   - #third level
-    text: 'Yes, for at least half of the types of incidents'
+    text: 'Yes, for at least half of the incident types'
     value: 0.5
     weight: 1
     order: 2
   - #highest level
-    text: 'Yes, for most of the types of incidents'
+    text: 'Yes, for most or all of the incident types'
     value: 1
     weight: 1
     order: 3

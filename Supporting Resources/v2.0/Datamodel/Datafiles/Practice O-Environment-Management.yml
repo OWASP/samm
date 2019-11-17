@@ -1,0 +1,43 @@
+# ===========================================================
+# OWASP SAMM2 Security Practice - Environment Management
+# ===========================================================
+#Link to the model, using its unique identifier
+function:
+  942d679b0c9e41909f8bde728fdb1259
+
+#Unique identifier (GUID) used to refer to this practice. 
+#Please generate another identifier for your specific practice.
+id:
+  53a9cd5c2d3643f3b71e4e9d92b811e2
+
+#Official name of this practice
+name:
+  Environment Management
+
+#Abbreviation of this practice
+shortName:
+  EM
+
+#A one sentence description of the security practice
+shortDescription:
+  The Environment Management practice describes proactive activities carried out to keep the environment reasonably secure during the application operation.
+
+#A multi-paragraph description of the security practice
+longDescription:
+  Proactive work on application security is not over once the application becomes operational. New security features and patches are continuously released until the technology stack you''re using becomes obsolete.
+
+  Most technology in your application stack is not secure by default. Due to issues like backwards compatibility or ease of setup, you often need to explicitly turn security features on. This topic is handled by the Configuration Hardening stream.
+
+  For most of the technologies you''re relying on, vulnerabilities are discovered throughout the application lifecycle and new versions fixing those will be released. This is why it is important to keep up with information about new vulnerabilities and react accordingly. The activities leading to this goal are described by the Patching and Updating stream.
+
+#The relative order of this practice in the business function
+order:
+  2
+
+#Who's the "owner" of this practice
+assignee:
+  Daniel Kefer 
+
+#Indication of progress to keep track of overall status
+progress:
+  80

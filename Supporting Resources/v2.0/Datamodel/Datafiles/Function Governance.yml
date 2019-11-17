@@ -24,9 +24,9 @@ color:
 
 #The logo to be used to render the function
 logo:
-  "http://linktomylogo.org/"
+  "https://icon-library.net/icon/governance-icon-2.html"
   
-#The relative order of the practice in the business function
+#The relative order of the Business Function within the core model
 order: 
   1
 

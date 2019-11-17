@@ -1,0 +1,65 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Incident Response, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  390bec725b8344a289d5386026925947
+  
+#Link to the practice level that this activity belongs to
+level:
+  817dd6acaf85496aa005393e0e6c3e70
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  b082664b8815407d825b82cf23fa88ea
+
+#The title of this activity
+title:
+  Defined high-level incident response strategy
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Ability to efficiently solve most common security incidents
+
+#A one sentence description of the activity
+shortDescription:
+  Identify roles and responsibilities for incident response. 
+
+#A multi-paragraph description of the activity
+longDescription: 
+  The first step is to recognize the incident response competence as such and define a responsible owner. They keep up with current state of incident handling best practices and forensic tooling.
+
+  You don''t mandate dedicated incident response personnel on this maturity level, but you have defined the participants of the process (usually different roles). There is a known single point of contact for the process and a conscious decision regarding reachability of the participants.
+
+  When security incidents happen, you document the steps taken. Protect this information from unauthorized access, as necessary.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
