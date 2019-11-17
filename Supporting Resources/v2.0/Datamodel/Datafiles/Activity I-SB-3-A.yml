@@ -1,0 +1,70 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  8a870a9b26724b4ba0dff177028b474a
+  
+#Link to the practice level that this activity belongs to
+level:
+  02e602c451d548e8a95433a46fe6b9d8
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  281369f491da4d4c84b0729e344e2c93
+
+#The title of this activity
+title:
+  Security defects may trigger the build to stop executing.
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  You can enforce a minimal clear security baseline in production. You can automatically deploy compliant applications.#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: 
+  The build process includes automated security checks which break the build if they fail. Static Application Security Testing (SAST), with an appropriate and custom ruleset, is triggered each time the build process executes. Refer to guidance in Verification > Security Testing > A.
+
+  The organization sets an appropriate threshold for build failure based on the application’s risk appetite. For instance, “High” and “Critical” vulnerabilities, or those with a CVSS score above 7.0. The types of vulnerabilities that the organization consider unacceptable in a build and their typical scores/ratings are considered when setting this threshold. An application with more sensitive functions might have a lower threshold, for instance. Trigger warnings for vulnerabilities below the threshold, and log them to a centralized system to track them and take actions.
+
+  Put in place a mechanism to bypass this behaviour when a vulnerability has been accepted or mitigated to stop it from breaking the build. Carefully control and approve it, and log all exceptions with a rationale.
+
+  If any of the security tests like SAST are not carried out successfully, the build fails.
+
+  If technical limitations prevent the organisation from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
+
+  Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build.
+
+  Where possible, use a deterministic method that outputs byte-for-byte reproducible artifacts. Compare the binary output with that from other equivalent build systems to ensure it hasn’t been tampered with.
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  Link to dependencies TBS
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
