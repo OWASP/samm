@@ -24,7 +24,7 @@ values:
     weight: 1
     order: 2
   - #highest level
-    text: 'Yes, the most of them'
+    text: 'Yes, the majority of them'
     value: 1
     weight: 1
     order: 3
