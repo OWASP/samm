@@ -1,0 +1,28 @@
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity:
+  9951bda24b624cc684a2851f9d56c5d8
+
+#Link to the answer set that contains the potential answers for this question  
+answerset:
+  8c89e8daf71d425abaca53edc01f6afa
+
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  d6b26a63243d4142bd2a8317e2875a03
+
+#One-sentence description of the criterium
+text: 
+  Are the artifacts of the security requirements gathering process well defined and structured, with prioritization?
+
+#Order of this question for the activity (in case there would be multiple)
+order:
+  1
+
+#Qualifying Criterion
+quality:
+  - Tests are tailored to each application and assert expected security functionality.
+  - Test results are captured as a pass or fail condition
