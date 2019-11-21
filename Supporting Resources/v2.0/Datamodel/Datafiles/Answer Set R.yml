@@ -24,7 +24,7 @@ values:
     weight: 1
     order: 2
   - #highest level
-    text: 'Yes, at least yearly'
+    text: 'Yes, at least annually'
     value: 1
     weight: 1
     order: 3
