@@ -1,0 +1,65 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  77ca4b5e7ebc42558109829dffc2b80d
+  
+#Link to the practice level that this activity belongs to
+level:
+  e5b6dc4f907c4986b8ba7923303cd665
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  eba4b86963f44fa59b0b9389a1cfc59b
+
+#The title of this activity
+title:
+  Security mechanisms are validated and confirmed for internal and external interfaces.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  This activity validates the security mechanisms on the attack surface of the software and infrastructure architecture.
+
+#A one sentence description of the activity
+shortDescription:
+  Validate the architecture security mechanisms
+
+#A multi-paragraph description of the activity
+longDescription: 
+  For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface.
+
+  The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling, and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided and note any missing or unclear features as findings. Identify and validate the high-risk design decisions made as part of the architecture. Conduct analysis to update the findings based on changes made during the development cycle.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

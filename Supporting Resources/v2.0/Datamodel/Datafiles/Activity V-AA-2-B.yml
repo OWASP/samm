@@ -1,0 +1,65 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  b7487370a07543cbb02ddb60c055d92f
+  
+#Link to the practice level that this activity belongs to
+level:
+  e5b6dc4f907c4986b8ba7923303cd665
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  62237ae79ab84a6687de2885b1e3d608
+
+#The title of this activity
+title:
+  Verify that each known security requirement has been addressed by the system design and gaps are identified as findings.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  This activity assures that the architecture is aligned with the security requirements and best practices.
+
+#A one sentence description of the activity
+shortDescription:
+  Analyze the architecture against known security requirements and best practices
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Analyze the architecture against known security requirements and best practices. Identify and collect either formally identified or informally known security requirements. Additionally, identify and include any security assumptions on which safe operation of the system relies.
+
+  Review each item on the list of known security requirements against the architecture. Elaborate the analysis to show the design-level features that address each security requirement. Perform separate, detailed analysis iterations on parts of the architecture to simplify capturing this information if the system is large or complex. The overall goal is to verify that each known security requirement has been addressed by the system design. Note any security requirements not clearly provided at the design level as assessment findings.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

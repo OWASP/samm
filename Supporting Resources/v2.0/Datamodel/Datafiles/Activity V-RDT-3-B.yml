@@ -1,0 +1,75 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  27a14a265c864eb790781cd1e2bf843b
+  
+#Link to the practice level that this activity belongs to
+level:
+  f8b6eebc0662477f9286aa4f6068e364
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  d975bb1ce1dd4d61a6039b0a4a05926e
+
+#The title of this activity
+title:
+  Leverage stress and load testing tools to discover weaknesses in design or implementation.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Identifies functionality or resources in the sofware that can be abused to perform denial of service attacks.
+
+#A one sentence description of the activity
+shortDescription:
+  Denial of service and security stress testing
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Applications are particularly susceptible to denial of service attacks. Perform denial of service and security stress testing against them. Perform these tests under controlled circumstances and on application acceptance environments, if possible.
+
+  Load testing tools, such as JMeter can generate web traffic so you can test certain aspects of how your site performs under heavy load. One important test is how many requests per second your application can field. Testing from a single IP address is useful as it will give you an idea of how many requests an attacker will have to generate in order to damage your site. To determine if any resources can be used to create a denial of service, analyze each one to see if there is a way to exhaust it. Focus on what an unauthenticated user can do but, unless you trust all of your users, examine what an authenticated user can do as well.
+
+  Denial of service tests can include tests that check
+    * whether it is possible to cause a denial of service condition by overflowing one or more data structures of the target application. 
+    * that the application properly releases resources (files and/or memory) after their use. 
+    * whether an attacker can lock valid user accounts by repeatedly attempting to log in with a wrong password. 
+    * whether it is possible to exhaust server resources by making it allocate a very large number of objects. 
+    * whether it is possible to allocate big amounts of data into a user session object to make the server exhaust its memory resources. 
+    * whether it is possible to force the application to loop through a code segment that needs high computing resources, to decrease its overall performance
+
+  Stress testing exposes software systems to simulated cyber attacks, revealing potential weaknesses and vulnerabilities in their implementation. Use them to discover these internal weaknesses and vulnerabilities early in the software development life cycle. Correct them prior to deployment for improved software quality. Complement overall denial of service tests with security stress tests to perform actions or create conditions which cause delays, disruptions, or failures of the application under test.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

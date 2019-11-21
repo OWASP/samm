@@ -59,7 +59,7 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the trianing
+            answer: Yes, for some of the training
             weight: 0.25
         - C:
             answer: Yes, at least half of the training

@@ -1,0 +1,45 @@
+# ===========================================================
+# OWASP SAMM2 Security Practice template/sample
+# ===========================================================
+#Link to the function, using its unique identifier
+function:
+  fa340fa1816244d79f369ae82e998368
+
+#Unique identifier (GUID) used to refer to this practice. 
+#Please generate another identifier for your specific practice.
+id:
+  66fb99798fe946e4979a2de98e9d6f8b
+
+#Official name of this practice
+name:
+  Requirements Driven Testing
+
+#Abbreviation of this practice
+shortName:
+  RDT
+
+#A one sentence description of the security practice
+shortDescription:
+  Create and integrate both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).
+
+#A multi-paragraph description of the security practice
+longDescription:
+  Conduct positive and negative security tests to verify that the software operates as expected. At a minimum, this means both testing the correct functioning of the standard software security controls, and fuzzing for vulnerabilities against the main input parameters of the application.
+
+  From the known security requirements, identify and implement a set of security test cases to check the software for correct functionality. Use abuse-case models for an application to identify concrete security tests that directly or indirectly exploit the abuse scenarios. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application.
+
+  Write and automate regression tests for all identified and fixed bugs so these become a test harness preventing the introduction of in later releases. Security unit tests verify at run time that the components function as expected and validate that code changes are properly implemented.
+
+  A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. Consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base. Perform denial of service and security stress testing against the applications. Perform these tests under controlled circumstances and possibly on application acceptance environments.
+
+#The relative order of this practice in the business function
+order:
+  2
+
+#Who's the "owner" of this practice
+assignee:
+  John Ellingsworth
+
+#Indication of progress to keep track of overall status
+progress:
+  50

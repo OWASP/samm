@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  efb5d1f275504173899da345ef5bbe8e
+  
+#Link to the practice level that this activity belongs to
+level:
+  f8b6eebc0662477f9286aa4f6068e364
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  7003146cf1a1450293001754fe74787d
+
+#The title of this activity
+title:
+  Leverage automated unit, static and dynamic code analysis tools to verify security requirements.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Prevents identified (and fixed) bugs to be introduced as part of later releases through regression testing.
+
+#A one sentence description of the activity
+shortDescription:
+  Perform regression testing (with security unit tests)
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Write and automate regression tests for all identified (and fixed) bugs to ensures that these become a test harness preventing similar issues to be introduced as part of later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
+
+  A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as Identity, Authentication & Access Control, Input Validation & Encoding, User and Session Management, Error and Exception Handling, Encryption, and Auditing and Logging. Consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base.
+
+  Adapt unit test frameworks such as Junit, Nunit, and CUnit to verify security test requirements. For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

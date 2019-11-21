@@ -1,0 +1,71 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  17c90203f8354c3594eea22759e375a9
+  
+#Link to the practice level that this activity belongs to
+level:
+  a11b78917dec4cfdad983cf6d1d17b61
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  921ff24f0b9f4df9a5129aa2f8a4a570
+
+#The title of this activity
+title:
+  Use static and dynamic security testing tools to efficiently test code and applications for vulnerabilities.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Detect software vulnerabilities with automated security testing tools.
+
+#A one sentence description of the activity
+shortDescription:
+  Utilize automated security testing tools
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Use automated static and dynamic security test tools for software, resulting in more efficient security testing and higher quality results. Gradually increase the frequency of security tests and extend code coverage.
+
+  Many security vulnerabilities at the code level are complex to understand and require careful inspection for discovery. However, there are many useful source code analysis tools available to automatically analyze code for bugs and vulnerabilities.
+
+  To dynamically test for security issues, you need to check a potentially large number of input cases against each software interface. This can make effective security testing using manual test case implementation and execution unwieldy. Use dynamic security test tools to automatically test software, resulting in more efficient security testing and higher quality results.
+
+  There are both commercial and open-source products available to cover popular programming languages and frameworks. Select an appropriate code analysis solution based on several factors including depth and accuracy of inspection, robustness and accuracy of built-in security test cases, product usability and usage model, expandability and customization features, applicability to the organization’s architecture and technology stacks, quality and usability of findings to the development organization, etc.
+
+  Use input from security-savvy technical staff as well as developers and development managers in the selection process, and review overall results with stakeholders.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
