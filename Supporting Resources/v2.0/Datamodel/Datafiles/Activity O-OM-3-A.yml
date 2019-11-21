@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Data Protection, Level 3
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  9c6bf45a97ae4149a44c4a5d97ea6a40
+  
+#Link to the practice level that this activity belongs to
+level:
+  2a059c7d07c34b9897e49e6295501608
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  cd80066899014962a37af7ab34c83003
+
+#The title of this activity
+title:
+  Data policy breaches detected and acted upon
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Cost savings realized through automation of monitoring and alerts
+
+#A one sentence description of the activity
+shortDescription:
+  Develop automation to detect non-compliance with data protection policy, and audit compliance periodically. Perform regular reviews and updates to data catalog and data protection policy.
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Activities at this maturity level are focused on automating data protection, reducing the organization''s reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
+
+  The organization implements technical controls to enforce compliance with the Data Protection Policy, and active monitoring is in place to detect attempted or actual violations. The organization may use a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
+
+  The organization regularly audits compliance with established administrative controls, and closely monitors performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting the organization to take timely corrective action.
+
+  The organization reviews and updates the data catalog regularly, to maintain its accurate reflection of the data landscape. Regular reviews and updates of processes and procedures maintain their alignment with the organization''s policies and priorities.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339

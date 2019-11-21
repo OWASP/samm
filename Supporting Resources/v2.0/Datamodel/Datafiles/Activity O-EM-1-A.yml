@@ -1,0 +1,63 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Configuration Hardening, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  47bff9a57f0344eeb4b083f1c2b1bb7e
+  
+#Link to the practice level that this activity belongs to
+level:
+  8cb942eff46d41f38e6edc11849744a6
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  786b3d7b39cd49a88090554a275f04a6
+
+#The title of this activity
+title:
+  Prioritized best-effort hardening
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Most evident security configuration is carried out
+
+#A one sentence description of the activity
+shortDescription:
+  Perform best-effort hardening of configurations, based on readily available information.
+
+#A multi-paragraph description of the activity
+longDescription:
+  You acknowledge the importance of configuration hardening of third-party components your applications are using. You don't have an official process yet. However, at least define the relevant scope for this activity take the first steps. You know and acknowledge the responsibility for hardening of the particular components.
+
+  Work with publicly available information sources (e.g., open source projects, vendor documentation, blog articles), increasing your know-how from those and implementing at least "low hanging fruit."
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339

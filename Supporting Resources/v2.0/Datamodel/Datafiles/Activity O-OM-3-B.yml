@@ -1,0 +1,64 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Decom/Legacy, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  a0d2ec4c6daa43369c07644b8745a7bd
+  
+#Link to the practice level that this activity belongs to
+level:
+  2a059c7d07c34b9897e49e6295501608
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  8ab46d242edd413d99a6c1991aef2416
+
+#The title of this activity
+title:
+  Proactive reliable handling of legacy applications/services
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  - Reduced risks, through eliminating unsupported applications and libraries from operating environments
+  - Minimized product support burden
+
+#A one sentence description of the activity
+shortDescription:
+  Proactively manage migration roadmaps, for both unsupported end-of-life dependencies, and legacy versions of delivered software.
+
+#A multi-paragraph description of the activity
+longDescription: 
+  The organization regularly evaluates the lifecycle state and support status of every software asset and underlying infrastructure component, and estimates their end-of-life. The organization follows a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. The organization regularly reviews and updates its process, to reflect lessons learned. 
+
+  The organization has established a product support plan, providing clear timelines for ending support on older product versions. Product versions in active use are limited to only a small number (e.g., N.x.x and N-1.x.x only). The organization establishes and publicizes timelines for discontinuing support on prior versions, and proactively engages with customers and user groups to prevent disruption of service or support.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339

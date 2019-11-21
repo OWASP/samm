@@ -1,0 +1,65 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Patching and Updating, Level 2
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  1a7ad26d9e48411e95a63be79e1b90ea
+  
+#Link to the practice level that this activity belongs to
+level:
+  354292b7198b48bb8c4909e0d7e29f68
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  b7f1d18fbe724a148f039ce036de98ef
+
+#The title of this activity
+title:
+  Formal process covering the full stack
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Reliable handling of third-party code issues
+
+#A one sentence description of the activity
+shortDescription:
+  Perform regularly scheduled patching of system and application components, across the full stack.
+
+#A multi-paragraph description of the activity
+longDescription:
+  Define and document the update process across the full stack. You don't rely on available patches provided by vendors only; you use external sources systematically to gather intelligence about zero day vulnerabilities, and take appropriate risk mitigation steps.
+
+  There is a guidance for prioritization of particular updates, including concerns important to your organization like the criticality of the application, or severity of security issues. Schedule updates (without necessary relevancy to known issues), e.g. using a patch/upgrade calendar of vendors.
+
+  If there is a known critical issue while the patch is not available yet, triage and handle this issue (e.g., by finding workarounds, monitoring measures, or even switching off the affected applications).
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
