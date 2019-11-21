@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Incident Detection, Level 2
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  ff8a6a08dc684f38ab74b9db9584f0a5
+  
+#Link to the practice level that this activity belongs to
+level:
+  439406325e6645519c149da3e05a7d9d
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  5bcb52375a0f4085bb12266c9ecfa84d
+
+#The title of this activity
+title:
+  Automated log evaluation driven by process
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Ability to timely detect expected security incidents
+
+#A one sentence description of the activity
+shortDescription:
+  Follow an established, well-documented process for automated log evaluation.
+
+#A multi-paragraph description of the activity
+longDescription:
+  The incident detection process has a dedicated owner and clear documentation accessible to all process stakeholders, and is periodically checked to make sure it is up to date. You ensure employees responsible for incident detection follow this process (e.g., using training).
+
+  The process typically relies on a high degree of automation, collecting and correlating log data from different sources including application logs. You may collect the logs to a central place, if suitable. Explicit attention is periodically paid to integrity of the analyzed data. If you add a new application, you ensure that the process covers it within reasonable period of time.
+
+  You detect possible security incidents according to an available checklist. The checklist covers expected attack vectors, and known or expected kill chains. You evaluate it and update it regularly.
+
+  If you evaluate an event as a security incident with high level of confidence, the responsible staff is notified immediately, even outside business hours. You perform further analysis and start the escalation process.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339

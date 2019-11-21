@@ -1,0 +1,46 @@
+# ===========================================================
+# OWASP SAMM2 Security Practice - Incident Management
+# ===========================================================
+#Link to the model, using its unique identifier
+function:
+  942d679b0c9e41909f8bde728fdb1259
+
+#Unique identifier (GUID) used to refer to this practice. 
+#Please generate another identifier for your specific practice.
+id:
+  c13aa12c13d04362a3ca3385a8c580ee
+
+#Official name of this practice
+name:
+  Incident Management
+
+#Abbreviation of this practice
+shortName:
+  IM
+
+#A one sentence description of the security practice
+shortDescription:
+  The Incident Management security practice describes activities carried to detect and respond to security incidents.
+
+#A multi-paragraph description of the security practice
+longDescription: |
+  Once your applications become operational, you''re likely to face security incidents. For this document, we consider a security incident a breach or threat of an imminent breach of at least one asset''s security goals due to malicious or negligent behavior. Examples of security incidents might include:
+  - a successful Denial of Service (DoS) attack against a cloud application; 
+  - an application user accessing private data of another, by abusing a security vulnerability; or 
+  - an attacker modifying application source code.
+
+  Sometimes, a security incident is detected only after months, or even years, when damage has already been done. That''s why the first stream called Incident Detection addresses the ability to reliably and timely detect security incidents.
+
+  Once you have identified that you''re suffering from a security incident, it''s essential to act in a well organized way in order to limit the damage as much as possible. Actitivies leading to this goal are described by the second stream called Incident Response.
+
+#The relative order of this practice in the business function
+order:
+  1
+
+#Who's the "owner" of this practice
+assignee:
+  Daniel Kefer 
+
+#Indication of progress to keep track of overall status
+progress:
+  80

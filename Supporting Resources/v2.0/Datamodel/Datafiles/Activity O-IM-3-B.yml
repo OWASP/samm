@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Incident Response, Level 3
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  390bec725b8344a289d5386026925947
+  
+#Link to the practice level that this activity belongs to
+level:
+  6fe1973911bf4e54b018da10a5aa80a1
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  f692ee8f87c1499681490cc1647c0df4
+
+#The title of this activity
+title:
+  Proactive incident and emergency exercises
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Efficient incident response independent of time, location, or art of the incident
+
+#A one sentence description of the activity
+shortDescription:
+  Employ a dedicated, well-trained incident response team. 
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Establish a dedicated incident response team, continuously available and also in charge of the continuous process improvement with the help of regular RCAs. For distributed organizations, define and document logistics rules for all relevant locations if sensible.
+
+  Document detailed incident response procedures and keep them up to date. Where sensible, automate procedures. Keep all resources necessary for these procedures (e.g., separate communicating infrastructure or reliable external location) ready to use. Detect and correct unavailability of these resources in a timely manner.
+
+  Carry out incident and emergency exercises are regularly. Use the results for process improvement.
+
+  Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339

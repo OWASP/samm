@@ -1,10 +1,10 @@
 # ===========================================================
-# OWASP SAMM2 Answer Set template/sample
+# OWASP SAMM2 Answer Set - D
 # ===========================================================
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
 id:
-  9a87d689fe35441aabf1ad4b7048b61e
+  f96770095fab4afbb27949c2242e47c2
 
 #Different answers with their properties. We use 4 levels or answers
 values: 
@@ -14,7 +14,7 @@ values:
     weight: 1
     order: 0
   - #second level
-    text: 'Yes, for some of the trianing'
+    text: 'Yes, for some of the training'
     value: 0.25
     weight: 1
     order: 1
@@ -24,7 +24,7 @@ values:
     weight: 1
     order: 2
   - #highest level
-    text: 'Yes, the majority of training'
+    text: 'Yes, most or all of training'
     value: 1
     weight: 1
     order: 3

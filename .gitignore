@@ -9,3 +9,4 @@ Website/package-lock.json
 Website/npm-debug.log
 .DS_Store
 .vscode/
+.project

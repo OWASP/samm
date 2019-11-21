@@ -1,0 +1,64 @@
+# ===========================================================
+# OWASP SAMM Activity Description - Patching and Updating, Level 3
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  1a7ad26d9e48411e95a63be79e1b90ea
+  
+#Link to the practice level that this activity belongs to
+level:
+  1cb6e197ca8245eca65b0ecbdd784720
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  a573c126b3e345fba9d1d94c8158cf60
+
+#The title of this activity
+title:
+  Consolidated update process with SLA and reporting
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Full visibility into the current patch state over the organization
+
+#A one sentence description of the activity
+shortDescription:
+  Proactively monitor update status and manage missing updates as security defects.
+
+#A multi-paragraph description of the activity
+longDescription:
+  You have very good insight (e.g., through a dashboard) of the patching strategy across the organization and full stack. You triage and handle missing updates according to rules and SLAs stemming from the defect management practice. It is guaranteed that patching can take place anytime so that SLAs can be adhered to.
+
+  If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+#NOTE: There needs to be a dependency on a Defect Management activity here. ***
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339

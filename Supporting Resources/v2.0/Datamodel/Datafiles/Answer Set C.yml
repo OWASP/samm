@@ -1,5 +1,5 @@
 # ===========================================================
-# OWASP SAMM2 Answer Set template/sample
+# OWASP SAMM2 Answer Set - C
 # ===========================================================
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
@@ -24,8 +24,7 @@ values:
     weight: 1
     order: 2
   - #highest level
-    text: 'Yes, the majority of the content'
+    text: 'Yes, most or all of the content'
     value: 1
     weight: 1
     order: 3
-    		
