@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  b7487370a07543cbb02ddb60c055d92f
+  
+#Link to the practice level that this activity belongs to
+level:
+  a3d4045d5c0c4bd4a875784759539f0c
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  3ae763a70854421984dfa70980e1bf68
+
+#The title of this activity
+title:
+  Evaluate new and changing application architecture for coverage against available compliance requirements.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Assures that the compliance requirements of the architecture are met.
+
+#A one sentence description of the activity
+shortDescription:
+  Ad-hoc review of the architecture against compliance requirements
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Review the architecture against compliance requirements ad hoc. Identify and collect either formally identified or informally known compliance requirements.
+
+  Review each item on the list of known compliance requirements against the architecture. Elaborate the analysis to show the design-level features that address each compliance requirement. The overall goal is to verify that each known compliance requirement has been addressed by the system design. Note any compliance requirements that are not clearly provided at the design level as assessment findings.
+
+  Security-savvy technical conduct this analysis staff with input from architects, developers, managers, and business owners as needed. Update it during the design phase when there are changes in compliance requirements or high-level system design.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

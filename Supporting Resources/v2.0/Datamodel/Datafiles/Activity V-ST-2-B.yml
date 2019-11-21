@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  8a64c7b0b35a458ea436260d5e414dfa
+  
+#Link to the practice level that this activity belongs to
+level:
+  41c8e63716c34f1eaf09b8cad70cfbaf
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  346ed576f0a94147ba2b8148abc3c73a
+
+#The title of this activity
+title:
+  Establish a manual penetration testing process for evaluating system security and remediating findings in a timely manner.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Tests the robustness of the software by mimicking an attacker that tries to penetrate it.
+
+#A one sentence description of the activity
+shortDescription:
+  Conduct manual penetration testing
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Using the set of security test cases identified for each project, conduct manual penetration testing to evaluate the system’s performance against each case. Generally, this happens during the testing phase prior to release and includes both static and dynamic manual penetration testing.
+
+  Penetration testing cases include both application-specific tests to check soundness of business logic and common vulnerability tests to check the design and implementation. Once specified, security-savvy quality assurance or development staff can execute security test cases. The central software security group monitors first-time execution of security test cases for a project team to assist and coach the team security champions.
+
+  Prior to release or deployment, stakeholders review results of security tests and accept the risks indicated by failing security tests at release time. Establish a concrete timeline to address the gaps over time. Spread the knowledge of manual security testing and the results across the development team to improve security knowledge and awareness inside the organisation.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

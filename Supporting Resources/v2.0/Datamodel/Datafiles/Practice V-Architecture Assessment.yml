@@ -1,0 +1,45 @@
+# ===========================================================
+# OWASP SAMM2 Security Practice template/sample
+# ===========================================================
+#Link to the function, using its unique identifier
+function:
+  fa340fa1816244d79f369ae82e998368
+
+#Unique identifier (GUID) used to refer to this practice. 
+#Please generate another identifier for your specific practice.
+id:
+  53f2da68c37a4ced8d5e767298fba589
+
+#Official name of this practice
+name:
+  Architecture Assessment
+
+#Abbreviation of this practice
+shortName:
+  AA
+
+#A one sentence description of the security practice
+shortDescription:
+  Validate the security and compliance of the software and supporting infrastructure architecture.
+
+#A multi-paragraph description of the security practice
+longDescription:
+  Validate the security of the software and supporting infrastructure architecture. Identify application and infrastructure architecture components. For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Iterate through the list of security mechanisms and analyze the system for their provision.
+
+  Validate the software and supporting infrastructure architecture against known security requirements, compliance goals and best practices. The overall goal is to verify that the system design has addressed each requirement and best practice. Note any requirements that are not met at the design level as assessment findings.
+
+  Review the effectiveness of each application and infrastructure component to secure the application. Feed any findings back into the Security Architecture practice.
+
+  Security-savvy staff conduct this analysis with assistance from the project team for application-specific knowledge. Perform this analysis upon major architecture changes, usually toward the end of a design phase.
+
+#The relative order of this practice in the business function
+order:
+  1
+
+#Who's the "owner" of this practice
+assignee:
+  John Ellingsworth
+
+#Indication of progress to keep track of overall status
+progress:
+  50

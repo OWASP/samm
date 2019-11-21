@@ -1,0 +1,30 @@
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity:
+  346ed576f0a94147ba2b8148abc3c73a
+
+#Link to the answer set that contains the potential answers for this question  
+answerset:
+  8c89e8daf71d425abaca53edc01f6afa
+
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  9a2af155ba424edfb321aa7592a09ed5
+
+#One-sentence description of the criterium
+text: 
+  Do you perform penetration testing for your applications at regular intervals?
+
+#Order of this question for the activity (in case there would be multiple)
+order:
+  1
+
+#Qualifying Criterion
+quality:
+  - Penetration testing uses application-specific security test cases to evaluate security
+  - Penetration testing looks for both technical and logical issues in the application
+  - Stakeholders review the test results and handle them in accordance with the organisation's risk management
+  - Penetration testing is performed by qualified personel.

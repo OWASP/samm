@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  27a14a265c864eb790781cd1e2bf843b
+  
+#Link to the practice level that this activity belongs to
+level:
+  1a55b2c4666f4336a3f5c12c5bb4a1e9
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  fd4d1ac720374b13a25ab1381045b731
+
+#The title of this activity
+title:
+  Develop abuse test cases based on business rules to misuse or exploit weaknesses in controls.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Detect business logic flaws or vulnerabilities thay allow functionality in the software to be abused.
+
+#A one sentence description of the activity
+shortDescription:
+  Create and test abuse cases and business logic flaw test
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Misuse and abuse cases describe unintended and malicious use scenarios of the application, describing how an attacker could do this. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application. Use abuse-case models for an application to serve as fuel for identification of concrete security tests that directly or indirectly exploit the abuse scenarios.
+
+  Abuse of functionality, sometimes referred to as a “business logic attack”, depends on the design and implementation for application functions and features. As you add functionality to applications, think about how it can be manipulated to circumvent the business process, or abused to perform a function not intended by the developer. An example is using a password reset flow to enumerate accounts. As part of business logic testing, identify the business rules that are important for the application and turn them into experiments to verify whether the application properly enforces the business rule. For example, on a stock trading application, is the attacker allowed to start a trade at the beginning of the day and lock in a price, hold the transaction open until the end of the day, then complete the sale if the stock price has risen or cancel out if the price dropped?
+
+  While there are tools for testing and verifying that business processes are functioning correctly in valid situations, these tools are incapable of detecting logical vulnerabilities. For example, tools have no means of detecting if a user is able to circumvent the business process flow through editing parameters, predicting resource names, or escalating privileges to access restricted resources. There’s also no mechanism to help human testers suspect this.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  17c90203f8354c3594eea22759e375a9
+  
+#Link to the practice level that this activity belongs to
+level:
+  41c8e63716c34f1eaf09b8cad70cfbaf
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  fb6f258a2e424ee9a919341758222a7a
+
+#The title of this activity
+title:
+  Develop customized security test cases and test harnesses based on business rules and logic.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Improves the efficiency and effectiveness of security testing automation by custumizing them towards the software.
+
+#A one sentence description of the activity
+shortDescription:
+  Employ application-specific security testing automation
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Project teams and their security and tool champions review security requirements and build a set of automated checkers to test the security of the implemented business logic. They do this through either customization of static and dynamic security testing tools, enhancements to generic test case execution tools, or buildout of custom test harnesses.
+
+  Customize automated security testing tools to the specific software interfaces in the project under test for improved accuracy and depth of coverage. Codify organization-specific concerns from compliance or technical standards as a reusable, central test battery to make audit data collection and per-project management visibility simpler.
+
+  Project teams focus on buildout of granular security test cases based on the business functionality of their software. A central software security group focuses on specification of automated tests for compliance and internal standards.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

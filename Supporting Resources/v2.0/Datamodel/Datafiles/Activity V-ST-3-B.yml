@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  8a64c7b0b35a458ea436260d5e414dfa
+  
+#Link to the practice level that this activity belongs to
+level:
+  9d1e469966124c0fa80d1bc2fc223a0a
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  a395d69917b947b28d5995738d716283
+
+#The title of this activity
+title:
+  Establish a continuous verification process that is scalable, repeatable and risk based to improve the overall security posture of the application.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Identify security issues earlier in the development process by testing security early and often.
+
+#A one sentence description of the activity
+shortDescription:
+  Integrate security testing into development process
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Integrate security testing in parallel to all other development activities, including requirement analysis, software design and construction.
+
+  With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run as part of the development process, and findings should be inspected as they occur. Feed results from other security test activities into adding or improving the integrated security testing as part of development. For example, if a security penetration test identifies issues with session management, any changes to session management should trigger explicit security tests before pushing the changes to production.
+
+  Security champions and the central secure software group review results from automated and manual security tests during development including these results as part of the security awareness trainings towards the development teams. Integrate lessons learned in overall playbooks to improve security testing as part of the organisation development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  Difficult to say, but let's give it a try.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Tester
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
