@@ -61,7 +61,7 @@ notes:
   My second thought goes here.
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
+relatedActivities: 
   - 41069df2385749b190f46e8a776e6339
   - 41069df2385749b190f46e8a776e6339
   - 41069df2385749b190f46e8a776e6339

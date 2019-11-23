@@ -16,15 +16,15 @@ id:
 
 #The title of this activity
 title:
-  Quantitiate risk profiles are created for applications across the organization.
+  Quantitiate risk profiles are created for most or all applications across the organization.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Solid understanding of the risk level of an application
+  Solid understanding of the risk level of the organizational application portfolio.
 
 #A one sentence description of the activity
 shortDescription:
-  Understand the risk for all applications in the organization
+  Understand the risk for all applications in the organization by centralizing the risk profile inventory for stakeholders.
 
 #A multi-paragraph description of the activity
 longDescription: 
@@ -38,32 +38,19 @@ longDescription:
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - c6da6525773644d0a18b3a927caf6dd2
