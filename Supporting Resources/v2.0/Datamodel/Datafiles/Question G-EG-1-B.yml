@@ -7,7 +7,7 @@ activity:
 
 #Link to the answer set that contains the potential answers for this question  
 answerset:
-  d096060a4d864133afcbdd1397b95827
+  f77bd45a28c8493dbba6e53b2eafa20f
 
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Have you identified a "Security Champion" for each development team?
+  Have you identified a "Security Champion" for each development team? 
 
 #Order of this question for the activity (in case there would be multiple)
 order:
