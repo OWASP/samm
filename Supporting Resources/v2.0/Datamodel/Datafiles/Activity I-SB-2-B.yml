@@ -27,19 +27,16 @@ shortDescription:
   TBS
 
 #A multi-paragraph description of the activity
-longDescription:
+longDescription: |
   Evaluate dependencies to establish a whitelist of acceptable code dependencies approved for use within a project, team, or the wider organization.
 
   Alternatively, introduce a central repository of approved dependencies that all software must be built from.
 
-  Review dependencies regularly to ensure that:
-
+  Review dependencies regularly to ensure that: 
+  
   * they remain correctly licensed
-
   * no known and significant vulnerabilities are present
-
   * there is support and active maintenance for the dependency
-
   * there is a good business reason to include the dependency
 
   You may need tools to automate some or all of this process, such as analyzing where the dependency is used, or checking for updates via a package manager. Consider using an automated tool to scan for vulnerable dependencies.
