@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Have you implemented a Learning Management System or equivalent to track employee training / certification processes?
+  Have you implemented a Learning Management System or equivalent to track employee training and certification processes?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,6 +24,6 @@ order:
 
 #Qualifying Criterion
 quality:
-  - A Learning Management System (LMS) is used to track training and any certifications
-  - Training is based on internal standards, policies, and procedures instead of general ""best-practices""
-  - Training is mandatory, and the certification program or attendance record is used to determine access to development systems and resources.
+  - A Learning Management System (LMS) is used to track trainings and certifications
+  - Training is based on internal standards, policies, and procedures
+  - You use certification programs or attendance records to determine access to development systems and resources
