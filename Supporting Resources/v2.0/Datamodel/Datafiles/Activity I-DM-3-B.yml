@@ -27,23 +27,16 @@ shortDescription:
   TBS
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Add information to defects, such as:
 
   * Category
-
   * CVE / CWE
-
   * Software component
-
   * Business unit
-
   * Exploitability
-
   * Impact
-
   * Risk
-
   * CVSS
 
   For each defect, up-to-date or real-time data on the availability of exploits and hacker activity in the wild is used to contribute to risk scores.
