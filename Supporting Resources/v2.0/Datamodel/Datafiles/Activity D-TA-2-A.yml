@@ -16,18 +16,18 @@ id:
 
 #The title of this activity
 title:
-  Quantitiate risk profiles are created for applications across the organization.
+  Quantitiate risk profiles are created for most or all applications across the organization.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Solid understanding of the risk level of an application
+  Solid understanding of the risk level of the organizational application portfolio.
 
 #A one sentence description of the activity
 shortDescription:
-  Understand the risk for all applications in the organization
+  Understand the risk for all applications in the organization by centralizing the risk profile inventory for stakeholders.
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   The goal of this activity is to thoroughly understand the risk level of all applications within the organization, to focus the effort of your software assurance activities where it really matters.
 
   From a risk evaluation perspective, the basic set of questions is not enough to thoroughly evaluate the risk of all applications. Create an extensive and standardized way to evaluate the risk of the application, among others via their impact on information security (confidentiality, integrity and availability of data). Next to security, you also want to evaluate the privacy risk of the application. Understand the data that the application processes and what potential privacy violations are relevant. Finally, study the impact that this application has on other applications within the organization (e.g., the application might be modifying data that was considered read-only in another context). Evaluate all applications within the organization, including all existing and legacy ones.
@@ -38,32 +38,18 @@ longDescription:
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
