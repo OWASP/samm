@@ -27,17 +27,13 @@ shortDescription:
   TBS
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include:
 
   * The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.
-  
   * The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.
-  
   * The type or category of the defect, which suggests areas where the development team need further training.
-  
   * The severity of the defect, which can help the organisation understand the software’s risk exposure.
-  
   * Outcomes are fed back to the teams involved. This data is used to make decisions about remediation priority and training requirements.
 
   Defects are considered within the wider metrics throughout the oragnisation. See Governance > Strategy & Metrics > B.
