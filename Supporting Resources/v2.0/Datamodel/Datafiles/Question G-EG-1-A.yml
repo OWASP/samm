@@ -24,9 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Training is repeatable, consistent, and available to anyone involved with software development lifecycle.
-  - Training includes the latest OWASP Top 10 if appropriate.
-  - Training includes multiple concepts such as Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability.
-  - Training requires a sign-off or an acknowledgement from each attendee.
-  - The training been updated in the last 12 months.
-  - Employees are required to go through the training during the onboarding process.
+  - Training is repeatable, consistent, and available to anyone involved with software development lifecycle
+  - Training includes the latest OWASP Top 10 if appropriate
+  - Training includes concepts such as Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability
+  - Training requires a sign-off or an acknowledgement from attendees
+  - You have updated the training in the last 12 months
+  - Training is required during employees' onboarding process
