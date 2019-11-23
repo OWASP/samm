@@ -1,0 +1,66 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  9ec70d6f7ddb4cb6b37928f9994c6049
+  
+#Link to the practice level that this activity belongs to
+level:
+  3e89d1fa6cba4516a3ec446faaab5b84
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  1f3a9306778f4539a437d9f19232cda7
+
+#The title of this activity
+title:
+  Integration of security verification in deployment (e.g. binary static code analysis / AV scan).
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  The deployment process is fully or partially automated and can be halted based on the results of integrated security verification tests.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Fully or partially automate deployment to reduce the need for manual changes on production, and to reduce the chances of human error.
+
+  Deployments include appropriate automated security checks such as DAST and malware scanning. Notify relevant people of any defects automatically. Stop or reverse the deployment automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. Log the results from these tests centrally and take any necessary actions.
+
+  Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

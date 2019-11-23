@@ -1,0 +1,68 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  a5b57fc5fa0441b7b23f599b506c5752
+  
+#Link to the practice level that this activity belongs to
+level:
+  5a25ae9bc9134d6387128ea925c81845
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  d955a7b3fbfc4b6aa5b327af9e01c377
+
+#The title of this activity
+title:
+  Measure and enforce compliance with the SLA.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Quality gates are enforced by a security officer following formal processes.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: 
+  An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) is responsible for managing known defects and enforcing the defined threshold.
+
+  Defects that exceed the threshold block or prevent deployment into production, until they are resolved, or fall below the threshold. You can do this automatically in the build and deployment processes, if they are integrated with the defect management system. Alternatively, the deployment process could include a step that requires approval from an information security officer.
+
+  Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries).
+
+  This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Review the status of accepted and mitigated risks periodically (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
