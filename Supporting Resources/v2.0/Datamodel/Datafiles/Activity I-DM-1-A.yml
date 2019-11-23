@@ -27,27 +27,19 @@ shortDescription:
   TBS
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
 
   Sources of defects and violations include, but are not limited to, those discovered via:
 
   * Threat assessments
-
   * Developers during self or peer code review
-  
   * Static analysis
-  
   * Dynamic analysis
-  
   * Vulnerability scans
-  
   * Penetration testing
-  
   * Malware scans
-  
   * Public/private vulnerability disclosures (e.g. for 3rd party libraries)
-  
   * Bug bounties
 
   Qualify all defects and license violations so the records only contain valid and significant issues. Consider manageability. Void recording duplicate defects, for example, searching for similar issues. Merge duplicates and group similar issues, particularly if you will handle them in the same way. The organisation uses these records to make decisions and resolve defects and violations. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to Verification > Security Testing.
