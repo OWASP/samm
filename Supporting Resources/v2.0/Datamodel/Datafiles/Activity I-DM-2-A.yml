@@ -27,7 +27,7 @@ shortDescription:
   TBS
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Define a threshold for defects that require resolution or mitigation. You do not deploy software into production when this threshold is exceeded, until the relevant defects are fixed, or fall below the threshold.
 
   This quality gate may also exist at whatever point the issue is detected. For instance, if you detect an issue by static analysis prior to build, the build system might prevent the software from building. However, deployment to production is always the final and mandatory quality gate.
@@ -35,13 +35,9 @@ longDescription:
   To set a threshold that is right your organisation, take into consideration:
 
   - the threat model
-
   - the nature of applicable threats (i.e. skill level, motive, level of access, etc)
-
   - how difficult it would be to find and exploit the issue
-  
   - potential impact to confidentiality, integrity, availability
-  
   - potential impact to the business
 
   Use a well established risk rating methodology consistently across your defect management solution.
