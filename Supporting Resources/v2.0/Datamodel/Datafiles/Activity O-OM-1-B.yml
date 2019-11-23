@@ -19,7 +19,7 @@ title:
   Identification of unused and legacy applications/services
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
+benefit: |
   - Reduced operating costs for unused applications, when discovered
   - Limited reductions in support costs for legacy product versions
 
