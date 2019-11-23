@@ -27,27 +27,18 @@ shortDescription:
   TBS
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Calculate and share more advanced metrics. These can include:
 
   * Formal risk ratings that consider likelihood and impact.
-
   * Number of open vulnerabilities above a defined threshold in terms of severity or risk.
-
   * Risk per software component / product / project / business unit.
-
   * Amount of accepted risk.
-
   * Time to detect vulnerabilities.
-
   * Time to resolve vulnerabilities.
-
   * Window of exposure where vulnerabilities are detected on live systems.
-
   * Coverage of software components by verification tests.
-
   * Number of regressions / reopened vulnerabilities.
-
   * The risk metric takes into account the criticality of the asset and the resulting business impact. Defects are mapped to threats to better understand their risk to the organization. See Design > Threat Assessment > B.
 
   Tools such as spreadsheets or dedicated vulnerability tracking software are used to calculate metrics automatically. This makes collecting and acting on metrics a managable exercise.
