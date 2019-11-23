@@ -24,7 +24,7 @@ order:
 
 #Qualifying Criterion
 quality:
-  - The SSCE has a formal charter defining its role in the organization.
-  - Development teams review all significant architectural changes with SSCE
+  - The SSCE has a charter defining its role in the organization
+  - Development teams review all significant architectural changes with the SSCE
   - The SSCE publishes SDLC standards and guidelines related to Application Security
-  - Identified ""Product Champions"" are responsible for promotion of use and specific security tools.
+  - Product Champions are responsible for promoting the use of specific security tools
