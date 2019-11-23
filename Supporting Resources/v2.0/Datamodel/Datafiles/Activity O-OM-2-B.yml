@@ -19,7 +19,7 @@ title:
   Decomissioning and legacy migration processes in place
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
+benefit: |
   - Reduced attack surface, through elimination of unused configuration in operating environments
   - Elimination of risks associated with end-of-life software
 
