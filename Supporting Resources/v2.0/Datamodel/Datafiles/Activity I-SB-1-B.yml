@@ -27,15 +27,12 @@ shortDescription:
   TBS
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). In building these records, consider the various locations where dependencies might be specified:
 
-  - configuration files
-  
+  - configuration files 
   - the project's directory on disk
-  
   - package management tool
-  
   - code (e.g. via an IDE that supports listing dependencies)
 
   Consider that the different dependencies and aspects of the application may consume entirely different dependencies. For example, if the software package is a web app, cover both the server-side application code and client-side scripts.
@@ -43,17 +40,11 @@ longDescription:
   The records include the following information about each dependency:
 
   * Where it is used or referenced
-
   * Why it is required
-
   * Version used
-
   * License
-
   * Source information (link to repository, author's name, etc.)
-
   * Open source or proprietary
-  
   * Support and maintenance status of the dependency
 
   Check the records, whenever practical, to discover any dependencies with known vulnerabilities and update or replace them accordingly.
