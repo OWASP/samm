@@ -18,7 +18,7 @@ letter:
   B
 
 #Multi-paragraph explanation of the stream
-description: 
+description: |
   Deep Understanding is focused on perform manual penetration security testing of high-risk components and complex attack vectors with a goal of automated integration into security testing into development process
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
