@@ -3,8 +3,6 @@ title: Mapping 1.5 to 2.0
 weight: 4
 type: security_practice
 ---
-# Moving from 1.5 to 2.0
-
 ## Overview
 
 For those organizations using 1.0 or 1.5 versions of SAMM it's important to take the time to understand how the framework has evolved.  Organizations that implemented security initiatives and are looking for SAMM scores to validate effectiveness will need to take these changes into consideration since in most cases expectations for maturity level 3 have been significantly increased in favor of automation and better alignment with development teams.
