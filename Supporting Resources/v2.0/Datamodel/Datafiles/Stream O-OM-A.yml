@@ -1,5 +1,5 @@
 # ===========================================================
-# OWASP SAMM2 Activity Stream - Operational Management, Stream A
+# OWASP SAMM2 Activity Stream - Data Protection
 # ===========================================================
 #Link to the security practice that this stream belongs to
 practice:
@@ -18,8 +18,10 @@ letter:
   A
 
 #Multi-paragraph explanation of the stream
-description: 
-  The activities in this stream focus on ensuring the organization properly protects data in all aspects of their creation, handling, storage, and processing. As an organization''s maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected.
+description: |
+  The activities in this stream focus on ensuring the organization properly protects data in all aspects of their creation, handling, storage, and processing. 
+  
+  As the organization's maturity in this practice grows, the data managed are better understood, more precisely classified, and more effectively protected.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 
