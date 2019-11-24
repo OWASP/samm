@@ -26,5 +26,5 @@ order:
 quality:
   - There is an owner for each baseline
   - The owner is responsible for keeping baselines up to date
-  - Baselines are stored in an accessible location
-  - Employees responsible for configurations are trained in these baselines
+  - You store baselines in an accessible location
+  - Employees responsible for configurations train in these baselines
