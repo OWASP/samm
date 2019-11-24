@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Do you harden configurations for key components across your whole technology stack?
+  Do you harden configurations for key components across your technology stack?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
