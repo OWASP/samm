@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you improve your assurance program upon well-defined metrics?
+  Do you improve your security assurance program upon standardized metrics?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -26,7 +26,7 @@ order:
 quality:
   - Metrics for defect classification and categorization is documented and up to date
   - Executive management regularly receives information about defects has acted upon it in the last year
-  - Defects are mapped to a list of threats
+  - You regularly share technical details about security defects among teams
 
 
 
