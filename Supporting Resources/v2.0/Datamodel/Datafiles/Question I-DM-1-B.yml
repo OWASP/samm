@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you share defect information for remediation and improving training materials?
+  Do you use basic metrics about recorded security defects to carry out quick win improvement activities?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Basic information about defects is made available to fix them
-  - You have improved your training materials based on the defect information in the last year
+  - You have analyzed your recorded metrics at least once in the last year
+  - At least basic information about this initiative is recorded and available
+  - You have identified and carried out at least one quick win activity based on the data
 
 
 
