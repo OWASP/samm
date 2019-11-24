@@ -24,7 +24,7 @@ benefit:
 
 #A one sentence description of the activity
 shortDescription:
-  Inject secrets dynamically during deployment process from hardened storages.
+  Inject secrets dynamically during deployment process from hardened storages and audit all human access to them. 
 
 #A multi-paragraph description of the activity
 longDescription: 
