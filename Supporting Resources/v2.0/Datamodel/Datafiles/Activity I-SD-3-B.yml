@@ -20,19 +20,19 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Secrets are dynamically generated during deployment and a process routinely checks for and mitigates unprotected secrets.
+  Risk of leaking production secrets is mitigated by removing all manual interactions and regular regeneration.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Regenerate secrets dynamically during every deployment using well-hardened process wherever possible. 
 
 #A multi-paragraph description of the activity
 longDescription: 
-  Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly.
+  Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly. Alert any manual access to secrets in the production environment. 
 
   Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.
 
-  Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them, from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
+  Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
 
 #The output of this particular activity
 results:
@@ -50,17 +50,13 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Administrator
+  - Security Engineer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 

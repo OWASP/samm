@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you take action on defects exceeding defined threshold?
+  Do you maintain an overview about the state of security defects across the whole organization?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,6 +24,6 @@ order:
 
 #Qualifying Criterion
 quality:
-  - The defined threshold is documented in an accessible location
-  - Reaching the threshold triggers a timely alert to the relevant stakeholders
-  - You don't deploy applications exceeding the threshold
+  - A common single severity scheme is applied to all defects across the organization
+  - The scheme includes SLAs for fixing particular severity classes
+  - Compliance to SLAs is regularly reported

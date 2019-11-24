@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you use repeatable build processes?
+  Is your full build process formally described?
 
 #Order of this question for the activity (in case there would be multiple)
 order:

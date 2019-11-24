@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you limit access to application secrets according to the need to know principle?
+  Do you limit access to application secrets according to the least privilege principle?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,4 +24,6 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You store application secrets protected in a secured location
+  - You store production secrets protected in a secured location
+  - Developers do not have access to production secrets
+  - Production secrets are not available in non-prodcution environments

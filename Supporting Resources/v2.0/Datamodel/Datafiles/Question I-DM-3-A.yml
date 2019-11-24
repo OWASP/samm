@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Does independent security staff enforce the defined threshold?
+  Are SLAs for fixing security defects enforced?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,5 +24,5 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Knowledgeable decision based on input from defect management system is ensured upon deployment
-  - The classification of the defects is regularly verified 
+  - SLA breaches are automatically alerted and respective defects are transfered to the risk management process
+  - Relevant tooling (e.g. monitoring, build, deployment) is integrated with the defect management system

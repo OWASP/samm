@@ -20,21 +20,20 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Quality gates are enforced by a security officer following formal processes.
+  Security defects are either resolved within a predefined time or compensating controls are introduced. 
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Enforce the predefined SLAs and integrate your defect management system with other relevant tooling. 
 
 #A multi-paragraph description of the activity
-longDescription: 
-  An individual or team outside of those responsible for developing and deploying the software (e.g. an information security officer) is responsible for managing known defects and enforcing the defined threshold.
+longDescription: |
+  Implement an automated alerting on security defects if the fix time breaches the defined SLAs. Ensure that these defects are automatically transfered in the risk management process and rated by a consistent quantitative methodology. Evaluate how particular defect influence / amplify each other not only on the level of separate teams, but on the level of the whole organization. Use the knowledge of the full kill chain to prioritize, introduce and track compensating controls mitigating the respective business risks. 
 
-  Defects that exceed the threshold block or prevent deployment into production, until they are resolved, or fall below the threshold. You can do this automatically in the build and deployment processes, if they are integrated with the defect management system. Alternatively, the deployment process could include a step that requires approval from an information security officer.
-
-  Keep a list of known defects, with accurate risk rating and categorisations over time (e.g. in-line with new research and changing opinions within the industry, and improving capabilities of some adversaries).
-
-  This includes managing lists of defects that have been accepted, mitigated, or marked as a false positives. Review the status of accepted and mitigated risks periodically (e.g. to identify a defect that now poses a greater risk because a mitigating control has been changed or removed).
+  Integrate your defect management system with the automated tooling introduced by other practices, e.g.:
+  
+  * Build and Deployment: Fail the build / deployment process if security defects above certain severity affect the final artifact, unless someone explicitely signs off the exception. 
+  * Monitoring: If possible, ensure that abuse of the security defect in production environment is recognized and alerted. 
 
 #The output of this particular activity
 results:
@@ -52,17 +51,19 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Administrator
+  - Security Engineer
+  - Security Officer
+  - Product Owner
+  - Manager
+
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 11dd0c95f8914b6cb850a27f0557a9dd #O-IM-3-A
+  - 281369f491da4d4c84b0729e344e2c93 #I-SB-3-A
+  - 05a3e75c6c654ae58a115cbf4295662b #I-SD-3-A

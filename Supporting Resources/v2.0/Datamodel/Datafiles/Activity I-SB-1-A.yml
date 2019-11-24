@@ -20,23 +20,19 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Consistent and repeatable builds help developers focus on application-specific issues, and make it possible to automate builds in the future. This reduces the likelihood of human error during builds which can lead to security vulnerabilities.
+  Builds become consistent and repeatable, decreasing the risk of human errors leading to security issues.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Create a formal definition of the build process so that it becomes consistent and repeatable.
 
 #A multi-paragraph description of the activity
 longDescription: 
-  Define the build process, breaking it down into a set of clear instuctions to either be followed by a person or an automated tool. The process is complete so that the person or tool can follow it consistently each time and produce the same result.
+  Define the build process, breaking it down into a set of clear instructions to either be followed by a person or an automated tool. The build process definition desribes the whole process end-to-end so that the person or tool can follow it consistently each time and produce the same result. The definition is stored centrally and accessible to any tools or people. Do not store or distribute multiple copies, some of which may become outdated.
 
-  The process definition does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault.
-
-  The build process is stored centrally and accessible to any tools or people who might need access. Do not store or distribute multiple copies, some of which may become outdated.
+  The process definition does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault. Determine a value for each generated artifact that can be later used to verify its integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
 
   Review any build tools routinely, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool’s configuration so that it is aligned with vendor guidelines and industry best practices.
-
-  Determine a value for each generated artifact that can be later used to verify its integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
 
 #The output of this particular activity
 results:
@@ -54,17 +50,14 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Developer
+  - Security Engineer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivites: 
+  - 786b3d7b39cd49a88090554a275f04a6 # O-EM-1-A
+  - 0721d5bd5d67479991b5b52f33dcd7b1 # O-EM-1-B

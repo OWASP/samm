@@ -20,19 +20,19 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  The deployment process automatically validates the integrity of its artifacts.
+  The deployment process automatically validates the integrity of all software artifacts.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Automatically verify integrity of all deployed software, indenendently on whether it's internally or externally developed.
 
 #A multi-paragraph description of the activity
-longDescription: 
-  The deployment process automatically verifies the integrity of the binaries by checking their signatures against trusted certificates. Sign binaries at build time. This may include binaries developed and built in-house, as well as third-party libraries. Do not deploy binary signatures that cannot be verified, including those with invalid or expired certificates.
+longDescription: |
+  Take advantage of binaries being signed at the build time and include automatic verification of the integrity of software being deployed by checking their signatures against trusted certificates. This may include binaries developed and built in-house, as well as third-party artifacts. Do not deploy artifacts if their signatures cannot be verified, including those with invalid or expired certificates.
 
   If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organisation’s wider governance surrounding trusted third-party suppliers.
 
-  Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, do it manually.
+  Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, go for this option.
 
 #The output of this particular activity
 results:
@@ -50,17 +50,13 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Security Engineer
+  - Administrator
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 281369f491da4d4c84b0729e344e2c93 #I-SB-3-A
