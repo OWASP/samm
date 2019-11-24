@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Do you harden configurations for key components across your whole technology stack?
+  Do you harden configurations for key components of your technology stacks?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,5 +24,5 @@ order:
 
 #Qualifying Criteria
 quality:
-  - You have identified the scope for this activity
-  - You work with public sources to gather recommendations for your configurations
+  - You have identified the key components in each technology stack used
+  - You have an established configuration standard for each key component

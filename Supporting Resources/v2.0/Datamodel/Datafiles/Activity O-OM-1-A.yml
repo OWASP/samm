@@ -27,37 +27,25 @@ shortDescription:
   Implement basic data protection practices
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   The organization understands the types and sensitivity of data stored and processed by applications, and maintains awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. The organization protects and handles all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed.
 
   The organization implements basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, the organization can focus data protection policies and activities on production.
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
-#References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
+#References to other activities that are related to this one
+relatedActivities: 
