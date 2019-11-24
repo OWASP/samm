@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Are build processes automated?
+  Is the build process fully automated?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,5 +24,6 @@ order:
 
 #Qualifying Criterion
 quality:
+  - The build process itself doesn't require any human interaction
   - Your build tools are hardened as per best practice and vendor guidance
   - You encrypt the secrets required by the build tools and control access based on the principle of least privilege

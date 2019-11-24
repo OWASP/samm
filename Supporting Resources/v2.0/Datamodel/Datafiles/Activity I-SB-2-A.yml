@@ -20,22 +20,21 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  A fully automated build system allows easy integration of automated security checks at all stages of the build process, and ensures separate but consistent build environments.
+  An automated build process significantly mitigates the risk of human errors and decreases operational costs.
+
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Automate your build pipeline, secure the used tooling. Add security checks in the build pipeline.
 
 #A multi-paragraph description of the activity
 longDescription: 
-  Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The build process is reliable and does not require developer intervention, further reducing the likelihood of human error.
+  Automate the build process so that builds can be executed consistently anytime. The build process shouldn't typically require any intervention, further reducing the likelihood of human error.
 
-  Automation makes it easier to include security checks during the build process. Implement static application security testing (SAST) to run as part of the build process. Refer to guidance in Verification > Security Testing > A3.
+  The use of an automated system increases reliance on security of the build tooling and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
 
-  The use of an automated system to setup the build pipeline increases reliance on the build tools for security, and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+  The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Sign generated artifacts using a certificate that identifies the organization or business unit that built it, such that its integrity and can be verified later.
 
-  The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Refer to Implementation > Secure Deployment > B.
-
-  Sign generated artifacts using a certificate that identifies the organization or business unit that built it, such that its integrity and can be verified later.
+  Automation also simplifies including security checks to the build process. Implement static application security testing (SAST) to run as part of the build.
 
 #The output of this particular activity
 results:
@@ -53,17 +52,14 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Developer
+  - Security Engineer
 
 #Internal notes that might help the author
 notes: 
-  Link to dependencies TBS
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 4f6a06796d0840debcc775ea1af65679 #V-ST-3-A
+  - 77a5f467ffe140e2a2839bb522e82c4e #I-SD-1-B

@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you track all known security defects in a central location per defined scope?
+  Do you track all known security defects in defined locations?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,6 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - The process includess strategy for handling false positives and accepting risk
-  - Defects stem from various sources / activities
-  - Deduplication is ensured per location
+  - You can easily get an overview of all security defects impacting one application anytime
+  - You have at least a rudimentary classification scheme in place
+  - The process includes strategy for handling false positives and duplicate entries
+  - The defect management system covers defects from various sources / activities
+
