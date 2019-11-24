@@ -12,11 +12,11 @@ id:
 
 #Official name of this practice
 name:
-  Requirements Driven Testing
+  Requirements Testing
 
 #Abbreviation of this practice
 shortName:
-  RDT
+  RT
 
 #A one sentence description of the security practice
 shortDescription:
