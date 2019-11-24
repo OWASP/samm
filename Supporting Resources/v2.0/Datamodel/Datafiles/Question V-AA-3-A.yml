@@ -24,7 +24,7 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You evaluate the preventive, detective and response capabilities of security controls
+  - You evaluate the preventive, detective, and response capabilities of security controls
   - You evaluate the strategy alignment, appropriate support, and scalability of security controls
   - You evaluate the effectiveness at least yearly
   - You log identified shortcomings as defects
