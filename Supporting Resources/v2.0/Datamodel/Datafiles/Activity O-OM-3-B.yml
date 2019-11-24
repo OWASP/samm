@@ -19,7 +19,7 @@ title:
   Proactive reliable handling of legacy applications/services
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
+benefit: |
   - Reduced risks, through eliminating unsupported applications and libraries from operating environments
   - Minimized product support burden
 

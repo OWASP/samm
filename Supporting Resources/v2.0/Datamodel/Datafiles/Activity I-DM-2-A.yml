@@ -1,0 +1,82 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  a5b57fc5fa0441b7b23f599b506c5752
+  
+#Link to the practice level that this activity belongs to
+level:
+  b55c7a41eba747678a65651f5ccacaf2
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  2bf0e192a904444b8a2f38c33256e80a
+
+#The title of this activity
+title:
+  Assign SLA based on security rating of the defect.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Minimal defect quality gates are enforced throughout the SDLC.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Define a threshold for defects that require resolution or mitigation. You do not deploy software into production when this threshold is exceeded, until the relevant defects are fixed, or fall below the threshold.
+
+  This quality gate may also exist at whatever point the issue is detected. For instance, if you detect an issue by static analysis prior to build, the build system might prevent the software from building. However, deployment to production is always the final and mandatory quality gate.
+
+  To set a threshold that is right your organisation, take into consideration:
+
+  - the threat model
+  - the nature of applicable threats (i.e. skill level, motive, level of access, etc)
+  - how difficult it would be to find and exploit the issue
+  - potential impact to confidentiality, integrity, availability
+  - potential impact to the business
+
+  Use a well established risk rating methodology consistently across your defect management solution.
+
+  The people responsible for application security and key stakeholders reach an agreement regarding an appropriate threshold.
+
+  You notify relevant people if a defect exceeds the defined threshold, and take action to resolve or mitigate the issue before deploying the software into a production environment. A satisfactory mitigation is one that reduces the risk below the threshold.
+
+  Define processes for dealing with false positive defects, or ones with existing compensating controls. In other words, some defects identified as exceeding the threshold should not prevent the software from being deployed. This might be because they have been misreported, or because you have not considered existing mitigations. Record such defects for accountability purposes.
+
+  Consider defects below the threshold deployed into production environments for resolution or mitigation at a later time.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

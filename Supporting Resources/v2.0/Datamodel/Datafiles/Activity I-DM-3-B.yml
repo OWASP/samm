@@ -1,0 +1,77 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  55bf5184ff7d4b76a444e52a28c803d9
+  
+#Link to the practice level that this activity belongs to
+level:
+  5a25ae9bc9134d6387128ea925c81845
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  f2a309b82fbc46cfb2f11c9cde20dc0a
+
+#The title of this activity
+title:
+  Use trend analysis to influence changes in the Design and Implementation phase across multiple projects.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Defect metrics are enriched with real time information and correlated to detect trends and influence the overall security strategy.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Add information to defects, such as:
+
+  * Category
+  * CVE / CWE
+  * Software component
+  * Business unit
+  * Exploitability
+  * Impact
+  * Risk
+  * CVSS
+
+  For each defect, up-to-date or real-time data on the availability of exploits and hacker activity in the wild is used to contribute to risk scores.
+
+  Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs and dashboarding. Trends are analysed and the results are used to influence the design and implementation of software and the overall security stategy.
+
+  Metrics are used to empower the whole organisation. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

@@ -10,6 +10,9 @@ id:
 number:
   1
 
+type:
+    MaturityLevel
+
 #General description of this maturity level
 description:
   The first maturity level aims at achieving an ad-hoc, best effort implementation of a particular activity within a stream.
