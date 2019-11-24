@@ -52,3 +52,7 @@ notes:
 # *** NOTE: This one needs a dependency on one of the Defect Management Activities ***
 #References to other activities that are related to this one
 relatedActivities: 
+
+
+#Type Classification of the Document
+type: Activity

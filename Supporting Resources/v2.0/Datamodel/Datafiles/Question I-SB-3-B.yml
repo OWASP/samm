@@ -29,3 +29,7 @@ quality:
   - You report findings back to dependency authors using an established responsible disclosure process
   - Using a new dependency not been evaluated for security risk causes failing the build
 
+
+
+#Type Classification of the Document
+type: Question

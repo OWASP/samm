@@ -26,3 +26,6 @@ order:
 quality:
   - Tests are tailored to each application and assert expected security functionality.
   - Test results are captured as a pass or fail condition
+
+#Type Classification of the Document
+type: Question

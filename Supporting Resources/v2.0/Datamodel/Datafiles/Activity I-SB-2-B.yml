@@ -67,3 +67,6 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivites: 
   - 93dff7be5f954f8d87d24f4261002508 #I-DM-1-A
+
+#Type Classification of the Document
+type: Activity

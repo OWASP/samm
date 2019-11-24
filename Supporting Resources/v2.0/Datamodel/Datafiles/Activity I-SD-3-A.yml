@@ -60,3 +60,6 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities: 
   - 281369f491da4d4c84b0729e344e2c93 #I-SB-3-A
+
+#Type Classification of the Document
+type: Activity

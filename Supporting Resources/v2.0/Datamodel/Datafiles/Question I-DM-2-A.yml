@@ -27,3 +27,7 @@ quality:
   - A common single severity scheme is applied to all defects across the organization
   - The scheme includes SLAs for fixing particular severity classes
   - Compliance to SLAs is regularly reported
+
+
+#Type Classification of the Document
+type: Question

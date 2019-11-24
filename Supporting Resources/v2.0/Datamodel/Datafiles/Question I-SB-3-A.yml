@@ -28,3 +28,6 @@ quality:
   - You have a maximum accepted severity for vulnerabilties
   - You log warnings and failures in a centralized system
   - You regularly (at least once a year) select and configure tools to evaluate each application against its security requirements
+
+#Type Classification of the Document
+type: Question

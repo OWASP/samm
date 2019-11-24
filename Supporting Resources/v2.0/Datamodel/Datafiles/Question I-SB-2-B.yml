@@ -30,3 +30,7 @@ quality:
   - Usage of unmaintained dependencies is tracked and alerted
   - Not needed dependencies are reliably detected and removed from the software
 
+
+
+#Type Classification of the Document
+type: Question

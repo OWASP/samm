@@ -27,3 +27,6 @@ quality:
   - You store production secrets protected in a secured location
   - Developers do not have access to production secrets
   - Production secrets are not available in non-prodcution environments
+
+#Type Classification of the Document
+type: Question

@@ -17,3 +17,6 @@ id:
 #Objective of this particular practice level
 objective:
   All defects are tracked within each project.
+
+#Type Classification of the Document
+type: PracticeLevel

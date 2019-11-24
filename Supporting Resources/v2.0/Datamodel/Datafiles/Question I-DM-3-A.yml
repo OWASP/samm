@@ -26,3 +26,7 @@ order:
 quality:
   - SLA breaches are automatically alerted and respective defects are transfered to the risk management process
   - Relevant tooling (e.g. monitoring, build, deployment) is integrated with the defect management system
+
+
+#Type Classification of the Document
+type: Question

@@ -27,3 +27,7 @@ quality:
   - Deployment is prevented or rolled back in case integrity breach is detected
   - The verification is done against signatures created during the build time
   - If checking of signatures is not possible (e.g. externally build software), compensating measures are introduced
+
+
+#Type Classification of the Document
+type: Question

@@ -17,3 +17,6 @@ id:
 #Objective of this particular practice level
 objective:
   Defect tracking used to influence the deployment process.
+
+#Type Classification of the Document
+type: PracticeLevel

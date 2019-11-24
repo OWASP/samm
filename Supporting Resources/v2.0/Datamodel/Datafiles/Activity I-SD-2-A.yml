@@ -60,3 +60,6 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivites: 
   - fb6f258a2e424ee9a919341758222a7a #V-ST-2-A
+
+#Type Classification of the Document
+type: Activity

@@ -61,3 +61,6 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities: 
   - 84dcbc954d954d95b1fb37e032f05402 #O-EM-2-A
+
+#Type Classification of the Document
+type: Activity

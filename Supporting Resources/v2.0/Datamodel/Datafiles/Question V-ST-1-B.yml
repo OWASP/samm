@@ -27,3 +27,6 @@ quality:
   - Criteria exist to help the reviewer to focus on high-risk components
   - Reviews are conducted by qualified personel following documented guidelines
   - Findings are addressed in accordance with the organisation's defect management policy
+
+#Type Classification of the Document
+type: Question

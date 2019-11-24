@@ -50,3 +50,6 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities: 
   - e17d573510904f65a1fe6040b56ad0b1
+
+#Type Classification of the Document
+type: Activity

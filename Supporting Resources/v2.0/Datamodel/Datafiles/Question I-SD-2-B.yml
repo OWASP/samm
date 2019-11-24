@@ -26,3 +26,6 @@ order:
 quality:
   - Under normal circumstances, no humans access secrets during deployment procedures
   - Any abnormal access to secrets is logged and alerted
+
+#Type Classification of the Document
+type: Question

@@ -27,3 +27,6 @@ quality:
   - Secrets are generated and synchronized using a vetted solution
   - Detection of a secret in a configuration file fails the deployment
   - Any manual access to the generated secrets triggers an alert
+
+#Type Classification of the Document
+type: Question
