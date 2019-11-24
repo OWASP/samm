@@ -18,7 +18,7 @@ letter:
   A
 
 #Multi-paragraph explanation of the stream
-description: 
+description: |
   Control Verification validates that security controls and requirements are met through testing derived from requirements and prevents future bugs to be introduced as part of later releases through regression testing.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)

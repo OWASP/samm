@@ -27,7 +27,7 @@ shortDescription:
   Integrate automated security testing into the build and deploy process
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Projects within the organization routinely run automated security tests and review results during development. Configure security testing tools to automatically run as part of the build and deploy process to make this scalable with low overhead. Inspect findings as they occur.
 
   Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle, usually during design. With the automatic execution of security test cases, projects enter the implementation phase with a number of failing tests for the non-existent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, lowering risk of release delays due to security concerns or forced acceptance of risk to meet project deadlines.
@@ -38,32 +38,18 @@ longDescription:
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
 #References to other activities that are prerequesites to implement this one.
 dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
