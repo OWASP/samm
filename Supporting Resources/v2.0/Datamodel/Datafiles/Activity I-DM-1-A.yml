@@ -1,0 +1,76 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  a5b57fc5fa0441b7b23f599b506c5752
+  
+#Link to the practice level that this activity belongs to
+level:
+  97a46a074fe849a1af2c2d2d3dd09ba5
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  93dff7be5f954f8d87d24f4261002508
+
+#The title of this activity
+title:
+  Track all defects.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  All software security defects are recorded centrally.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
+
+  Sources of defects and violations include, but are not limited to, those discovered via:
+
+  * Threat assessments
+  * Developers during self or peer code review
+  * Static analysis
+  * Dynamic analysis
+  * Vulnerability scans
+  * Penetration testing
+  * Malware scans
+  * Public/private vulnerability disclosures (e.g. for 3rd party libraries)
+  * Bug bounties
+
+  Qualify all defects and license violations so the records only contain valid and significant issues. Consider manageability. Void recording duplicate defects, for example, searching for similar issues. Merge duplicates and group similar issues, particularly if you will handle them in the same way. The organisation uses these records to make decisions and resolve defects and violations. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to Verification > Security Testing.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

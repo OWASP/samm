@@ -1,0 +1,31 @@
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity:
+  857a43e335ba467598eca99d48ea0076
+
+#Link to the answer set that contains the potential answers for this question  
+answerset:
+  f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  ef798e60155d453186364c94a8f8935d
+
+#One-sentence description of the criterium
+text: 
+  Is 3rd party dependency risk handled by a formal process?
+
+#Order of this question for the activity (in case there would be multiple)
+order:
+  1
+
+#Qualifying Criterion
+quality:
+  - Dependencies are automatically evaluated for new CVEs
+  - Above defined criticality threshold, responsible staff is alerted
+  - License changes with possible impact on legal application usage are automatically detected and alerted
+  - Usage of unmaintained dependencies is tracked and alerted
+

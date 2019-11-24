@@ -1,0 +1,64 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  2f7b501627954c6cb03342196b2065a7
+  
+#Link to the practice level that this activity belongs to
+level:
+  02e602c451d548e8a95433a46fe6b9d8
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  d09a731835304ea8aeb4c21565e45c4b
+
+#The title of this activity
+title:
+  Components and dependencies are independently scanned for vulnerabilities.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  The application’s security level is more indicative of its real security, by consistently assessing its 3rd party dependencies.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription:
+  Perform verification tests against dependencies in the same way you do against the target application. Refer to Verification > Security Testing. Depending on the build process maturity level, the discovery of significant issues might cause the build to fail.
+
+  Log results centrally, triage and validate findings appropriately as described in Implementation > Defect Management. Vulnerable dependencies should be blacklisted and not permitted to be used during builds. Feed findings back to the vendor or open source project, following a set of ethical disclosure guidelines.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

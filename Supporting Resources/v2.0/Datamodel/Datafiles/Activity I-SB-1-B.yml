@@ -1,0 +1,83 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  2f7b501627954c6cb03342196b2065a7
+  
+#Link to the practice level that this activity belongs to
+level:
+  b29ab542cc674901a19cf5f3c0c4be18
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  bed0489cae4e4401b1d44d56ad36c109
+
+#The title of this activity
+title:
+  All application dependencies are identified and documented.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  You know which production components are at risk from a known vulnerable 3rd party dependencies. Dependencies include 3rd party software dependencies and operating system dependencies. 3rd party dependencies often inculde more dependencies (called transitive dependencies).
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). In building these records, consider the various locations where dependencies might be specified:
+
+  - configuration files 
+  - the project's directory on disk
+  - package management tool
+  - code (e.g. via an IDE that supports listing dependencies)
+
+  Consider that the different dependencies and aspects of the application may consume entirely different dependencies. For example, if the software package is a web app, cover both the server-side application code and client-side scripts.
+
+  The records include the following information about each dependency:
+
+  * Where it is used or referenced
+  * Why it is required
+  * Version used
+  * License
+  * Source information (link to repository, author's name, etc.)
+  * Open source or proprietary
+  * Support and maintenance status of the dependency
+
+  Check the records, whenever practical, to discover any dependencies with known vulnerabilities and update or replace them accordingly.
+
+  Ensure that providers actively maintain dependencies, and that they deal with security vulnerabilities appropriately. Gain assurance when dealing with open source dependencies, either through agreements with a commercial vendor, or other means, for example, by looking at repository activity, and the developers' responses to security issues raised by the community.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

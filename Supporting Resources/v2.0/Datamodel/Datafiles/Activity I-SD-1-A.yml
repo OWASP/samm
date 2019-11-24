@@ -1,0 +1,67 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  9ec70d6f7ddb4cb6b37928f9994c6049
+  
+#Link to the practice level that this activity belongs to
+level:
+  5015427608de428cba3c324772fb4191
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  994bcac2bb7c4cc59a0faa365a0b58a0
+
+#The title of this activity
+title:
+  Deployment is automated or done by someone other than the developer.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Only qualified personnel, different from developers can deploy to production environments.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Deploy applications via automated processes, or manually by people other than the developers. Developers do not have access to production environments.
+
+  Choose any tools used during deployment carefully and harden them appropriately. If these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow.
+
+  Handle access to the production credentials and secrets for the tools and engineer conducting the deployment with care - e.g. according to the principle of least privilege, and encrypted at rest with keys held in a trusted platform module (TPM) or hardware security module (HSM).
+
+  People with access to production have to go through a minimum level of training or certification to ensure competency in this sensitive environment. Refer to Governance > Education & Guidance.
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

@@ -1,0 +1,30 @@
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity:
+  f2a309b82fbc46cfb2f11c9cde20dc0a
+
+#Link to the answer set that contains the potential answers for this question  
+answerset:
+  f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level. 
+#Please generate another identifier for your specific maturity level.
+id:
+  0247b5b573b843609fdff791a1cc7c1b
+
+#One-sentence description of the criterium
+text: 
+  Do you enrich defect metrics with relevant real time information?
+
+#Order of this question for the activity (in case there would be multiple)
+order:
+  1
+
+#Qualifying Criterion
+quality:
+  - Defect metrics are automatically correlated with real-time environment information
+  - Relevant stakeholders get timely update on significant changes in the defect classification
+  - Trends in defect development have been updated in the last year
+

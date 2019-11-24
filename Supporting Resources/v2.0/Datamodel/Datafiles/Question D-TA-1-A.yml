@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Are you classifying applications according to business risk based on a simple, but predefined set of questions?
+  Do you classify applications according to business risk based on a simple and predefined set of questions?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,7 +24,7 @@ order:
 
 #Qualifying Criterion
 quality:
-  - A risk classification should exist and be agreed upon
-  - The application team should understand the risk classification
+  - An aggreed-upon risk classification exists
+  - The application team understands the risk classification
   - The risk classification covers critical aspects of business risks the organization is facing
   - The organization has an inventory for the applications in scope

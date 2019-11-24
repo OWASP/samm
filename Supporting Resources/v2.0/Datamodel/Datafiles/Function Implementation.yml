@@ -1,0 +1,33 @@
+# ===========================================================
+# OWASP SAMM2 Business Function template/sample
+# ===========================================================
+#Link to the model, using its unique identifier
+model:
+  SAMM20
+
+#Unique identifier (GUID) that can be used to refer to this function
+#Please generate another identifier for your specific function..
+id:
+  8aa8154b83434e73b3ca8c0e9b654417
+
+#Official name of the function
+name:
+  Implementation
+
+#A multi-paragraph description of the function
+description:
+  Activities within the Implementation function have the most impact on the daily life of developers. The joint goal is to ship reliably working software with minimum defects. 
+
+  The Implementation function consists of practices called "Secure Build", "Secure Deployment" and "Defect Management".  
+
+#The color to be used to render the function and its subelements, in Hex RGB
+color:
+  #228B22
+
+#The logo to be used to render the function
+logo:
+  "http://linktomylogo.org/"
+  
+#The relative order of the practice in the business function
+order: 
+  3

@@ -1,0 +1,81 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  55bf5184ff7d4b76a444e52a28c803d9
+  
+#Link to the practice level that this activity belongs to
+level:
+  b55c7a41eba747678a65651f5ccacaf2
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  15d73a64818c43019504c8d938ca2434
+
+#The title of this activity
+title:
+  Calculate more advanced metrics that include new issue velocity, remediation speed metrics, and trends.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  Advanced defect metrics are calculated and shared and used to taylor the assurance program.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Calculate and share more advanced metrics. These can include:
+
+  * Formal risk ratings that consider likelihood and impact.
+  * Number of open vulnerabilities above a defined threshold in terms of severity or risk.
+  * Risk per software component / product / project / business unit.
+  * Amount of accepted risk.
+  * Time to detect vulnerabilities.
+  * Time to resolve vulnerabilities.
+  * Window of exposure where vulnerabilities are detected on live systems.
+  * Coverage of software components by verification tests.
+  * Number of regressions / reopened vulnerabilities.
+  * The risk metric takes into account the criticality of the asset and the resulting business impact. Defects are mapped to threats to better understand their risk to the organization. See Design > Threat Assessment > B.
+
+  Tools such as spreadsheets or dedicated vulnerability tracking software are used to calculate metrics automatically. This makes collecting and acting on metrics a managable exercise.
+
+  Make this data accessible to management, information security people, developers, and engineers to inform their decision-making. For example, provide a central dashboard. Metrics should guide remediation efforts and resource allocation.
+
+  Security teams are able to report an accurate picture of the organisation’s defect and risk metrics to executive management.
+
+  A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

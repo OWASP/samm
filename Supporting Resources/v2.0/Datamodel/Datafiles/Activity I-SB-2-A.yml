@@ -1,0 +1,69 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  8a870a9b26724b4ba0dff177028b474a
+  
+#Link to the practice level that this activity belongs to
+level:
+  46f16450b23d4c29a5cf19b056c2636e
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  bcc960e835aa4ad58a9d39a272cbf6f1
+
+#The title of this activity
+title:
+  The build process is fully automated and does not require intervention by the developer.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  A fully automated build system allows easy integration of automated security checks at all stages of the build process, and ensures separate but consistent build environments.
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: 
+  Implement the build process as an automated system, so that builds can be executed repeatedly and consistently. The build process is reliable and does not require developer intervention, further reducing the likelihood of human error.
+
+  Automation makes it easier to include security checks during the build process. Implement static application security testing (SAST) to run as part of the build process. Refer to guidance in Verification > Security Testing > A3.
+
+  The use of an automated system to setup the build pipeline increases reliance on the build tools for security, and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+
+  The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Refer to Implementation > Secure Deployment > B.
+
+  Sign generated artifacts using a certificate that identifies the organization or business unit that built it, such that its integrity and can be verified later.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  Link to dependencies TBS
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339

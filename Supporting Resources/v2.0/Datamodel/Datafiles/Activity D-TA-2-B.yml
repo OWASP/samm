@@ -16,7 +16,7 @@ id:
 
 #The title of this activity
 title:
-  Threat modeling processes are defined and evaluated periodically for adoption andn effectiveness.
+  Threat modeling processes are defined and evaluated periodically for adoption and effectiveness.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
@@ -24,10 +24,10 @@ benefit:
 
 #A one sentence description of the activity
 shortDescription:
-  Standardized threat modeling
+  Standardize threat modeling activities, tools, and processes in order to scale across the organization.
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Establish a standard approach to perform structured threat modeling to increase the quality and efficiency of threat modeling within your organization, and ensure that the invested effort is useful and well spent. Structured threat modeling takes into account the different actors, assets and flows to identify an extensive list of potential threats to the application. It defines the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to identify threats, and the formalisms to describe or annotate the threats. You can add mitigating controls to threat models to guide designers in dealing with particular threats.
 
   As an organization, define what triggers the execution of threat modeling. For example a change in architecture, or a deployment of an application in a new environment. At the same time, think about ways to support scaling of threat modeling throughout the organization.
@@ -38,32 +38,19 @@ longDescription:
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+

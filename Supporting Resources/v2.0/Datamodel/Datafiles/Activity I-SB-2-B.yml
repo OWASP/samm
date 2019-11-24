@@ -1,0 +1,73 @@
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream:
+  2f7b501627954c6cb03342196b2065a7
+  
+#Link to the practice level that this activity belongs to
+level:
+  46f16450b23d4c29a5cf19b056c2636e
+  
+#Unique identifier (GUID) used to refer to this activity. 
+#Please generate another identifier for your specific activity.
+id:
+  857a43e335ba467598eca99d48ea0076
+
+#The title of this activity
+title:
+  All components and dependencies are periodically reviewed for known security vulnerabilities and licensing issues.
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: 
+  There is an audit trail of all 3rd party dependencies used in development and you know and track their security status at any given time.
+
+#A one sentence description of the activity
+shortDescription:
+  TBS
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Evaluate dependencies to establish a whitelist of acceptable code dependencies approved for use within a project, team, or the wider organization.
+
+  Alternatively, introduce a central repository of approved dependencies that all software must be built from.
+
+  Review dependencies regularly to ensure that: 
+  
+  * they remain correctly licensed
+  * no known and significant vulnerabilities are present
+  * there is support and active maintenance for the dependency
+  * there is a good business reason to include the dependency
+
+  You may need tools to automate some or all of this process, such as analyzing where the dependency is used, or checking for updates via a package manager. Consider using an automated tool to scan for vulnerable dependencies.
+
+#The output of this particular activity
+results:
+  - result1
+  - result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+
+#A description of the costs required to implement the activity  
+costs:
+  TBS.
+  
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - TBS1
+  - TBS2
+
+#Internal notes that might help the author
+notes: 
+  My first thought goes here.
+  
+  My second thought goes here.
+
+#References to other activities that are prerequesites to implement this one.
+dependencies: 
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
+  - 41069df2385749b190f46e8a776e6339
