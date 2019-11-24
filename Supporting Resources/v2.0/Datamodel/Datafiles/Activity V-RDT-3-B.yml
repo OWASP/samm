@@ -23,11 +23,11 @@ benefit:
   Identifies functionality or resources in the sofware that can be abused to perform denial of service attacks.
 
 #A one sentence description of the activity
-shortDescription:
+shortDescription: 
   Denial of service and security stress testing
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Applications are particularly susceptible to denial of service attacks. Perform denial of service and security stress testing against them. Perform these tests under controlled circumstances and on application acceptance environments, if possible.
 
   Load testing tools, such as JMeter can generate web traffic so you can test certain aspects of how your site performs under heavy load. One important test is how many requests per second your application can field. Testing from a single IP address is useful as it will give you an idea of how many requests an attacker will have to generate in order to damage your site. To determine if any resources can be used to create a denial of service, analyze each one to see if there is a way to exhaust it. Focus on what an unauthenticated user can do but, unless you trust all of your users, examine what an authenticated user can do as well.
@@ -44,32 +44,18 @@ longDescription:
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
 #References to other activities that are prerequesites to implement this one.
 dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
