@@ -24,9 +24,9 @@ shortDescription:
 
 #A multi-paragraph description of the security practice
 longDescription: |
-  The Threat Assessment (TA) practice focuses on accurately identifying and understanding potential attacks upon an organization's software to better understand the risks and facilitate risk management. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
-
-  Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Application Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.
+  The Threat Assessment (TA) practice is centered on identification and understanding the project-level risks based on the functionality of the software being developed and characteristics of the runtime environment. From details about threats and likely attacks against each project, the organization as a whole operates more effectively through better decisions about prioritization of initiatives for security. Additionally, decisions for risk acceptance are more informed, therefore better aligned to the business.
+  
+  By starting with simple threat models and building application risk profiles, an organization improves over time. Ultimately, a sophisticated organization would maintain this information in a way that is tightly coupled to the compensating factors and pass-through risks from external entities. This provides greater breadth of understanding for potential downstream impacts from security issues while keeping a close watch on the organization’s current performance against known threats.
 
 #The relative order of this practice in the business function
 order:
