@@ -27,3 +27,6 @@ quality:
   - You have a documented list of reusable security services, available to relevant stakeholders
   - You have reviewed the baseline security posture for each selected service
   - Your designers are trained to integrate each selected service following available guidance
+
+#Type Classification of the Document
+type: Question

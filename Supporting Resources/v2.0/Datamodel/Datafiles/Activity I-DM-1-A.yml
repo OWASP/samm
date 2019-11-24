@@ -20,29 +20,24 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  All software security defects are recorded centrally.
+  You have an overview of all known security defects impacting particular applications.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Introduce a structured tracking of security defects and make knowledgeable decisions based on this information.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Track and record all security defects in a central location. This location can be team, project, or organisation-wide. Give defects meaningful categories, and prioritise them based on the risk they pose.
-
-  Sources of defects and violations include, but are not limited to, those discovered via:
+  Introduce a common definition / understanding of a security defect and define the most common ways of identifying these. These typically include, but are not limited to: 
 
   * Threat assessments
-  * Developers during self or peer code review
-  * Static analysis
-  * Dynamic analysis
-  * Vulnerability scans
-  * Penetration testing
-  * Malware scans
-  * Public/private vulnerability disclosures (e.g. for 3rd party libraries)
-  * Bug bounties
+  * Penetration tests
+  * Output from static and dynamic analysis scanning tools
+  * Responsible disclosure processes or bug bounties
 
-  Qualify all defects and license violations so the records only contain valid and significant issues. Consider manageability. Void recording duplicate defects, for example, searching for similar issues. Merge duplicates and group similar issues, particularly if you will handle them in the same way. The organisation uses these records to make decisions and resolve defects and violations. Update the records when issues are resolved, tracking vulnerabilities over time. Employ security testing to ensure fixes are effective. Refer to Verification > Security Testing.
+  Foster a culture of transparency and avoid blaming any teams for introducing security defects. Record and track all security defects in a defined location. This location doesn't necessarily have to centralized for the whole organization, however ensure that you're able to get an overview of all defects affecting a particular application at any single point in time. Define and apply access rules for the tracked security defects to mitigate the risk of leakage and abuse of this information. 
+
+  Introduce at least rudimentary qualitative classificiation of security defects so that you are able to prioritize fixing efforts accordingly. Strive for limiting duplication of information and presence of false positives to increase the trustworthiness of the process.
 
 #The output of this particular activity
 results:
@@ -60,17 +55,18 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Security Engineer
+  - Security Officer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 921ff24f0b9f4df9a5129aa2f8a4a570 #V-ST-1-A
+  - b3b20a75740c4880a21ad9aa0c1298c7 #V-ST-1-B
+
+
+#Type Classification of the Document
+type: Activity

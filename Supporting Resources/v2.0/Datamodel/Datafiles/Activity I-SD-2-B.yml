@@ -20,17 +20,19 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Secrets are dynamically extracted from the digital vault for use in deployment.
+  Risk of leaking production secrets is mitigated by removing any manual interactions during deployment.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Inject secrets dynamically during deployment process from hardened storages.
 
 #A multi-paragraph description of the activity
 longDescription: 
   Have an automated process to add credentials and secrets appropriate for the target environment to configuration files during the deployment process. This way, developers and deployers do not see or handle those sensitive values.
 
   Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptence test or production environment.
+
+  Ensure that all access to secrets (both reading and writing) is audited and logged in a central infracture. 
 
 #The output of this particular activity
 results:
@@ -48,17 +50,17 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Administrator
+  - Developer
+  - Security Engineer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 84dcbc954d954d95b1fb37e032f05402 #O-EM-2-A
+
+#Type Classification of the Document
+type: Activity

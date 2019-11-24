@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you minimize permanent storage of secrets in application artifacts, for instance by injecting them into the configuration using an automated process?
+  Do you inject production secrets into configuration files dynamically?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -26,3 +26,6 @@ order:
 quality:
   - Under normal circumstances, no humans access secrets during deployment procedures
   - Any abnormal access to secrets is logged and alerted
+
+#Type Classification of the Document
+type: Question

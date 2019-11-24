@@ -28,3 +28,6 @@ quality:
   - You include components, interfaces, and integrations in the architecture model
   - You verify the security controls in the software architecture cover the key security objectives and threats
   - You log missing security controls as defects
+
+#Type Classification of the Document
+type: Question

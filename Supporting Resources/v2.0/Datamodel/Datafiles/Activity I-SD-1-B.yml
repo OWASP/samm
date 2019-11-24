@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Production secrets are adequately protected in a digital vault, inaccessible to developers.
+  Risk of leaking production secrets is reduced by introduction of basic access control measures.
 
 #A one sentence description of the activity
 shortDescription:
@@ -52,17 +52,17 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Developer
+  - Administrator
+  - Security Engineer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivites: 
+  - 994bcac2bb7c4cc59a0faa365a0b58a0 #I-SD-1-A
+
+#Type Classification of the Document
+type: Activity

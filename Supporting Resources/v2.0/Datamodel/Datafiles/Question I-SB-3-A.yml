@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you integrate automated security checks in build processes?
+  Are automated security checks enforced in your build processes?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,7 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
+  - Build fails if the application doesn't meet predefined security baseline
   - You have a maximum accepted severity for vulnerabilties
   - You log warnings and failures in a centralized system
-  - Build processes prevent deployment to production when security checks fail
-  - You select and configure tools to evaluate each application against its security requirements
+  - You regularly (at least once a year) select and configure tools to evaluate each application against its security requirements
+
+#Type Classification of the Document
+type: Question

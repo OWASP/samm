@@ -27,3 +27,6 @@ quality:
   - Security requirements are derived from functional requirements and customer/organization concerns.
   - Security requirements are specific, measurable, and reasonable.
   - Security requirements are in line with the organisational baseline.
+
+#Type Classification of the Document
+type: Question

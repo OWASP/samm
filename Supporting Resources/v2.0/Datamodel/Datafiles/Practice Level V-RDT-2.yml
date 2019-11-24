@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Perform implementation review to discover application-specific risks against the security requirements.
+
+
+#Type Classification of the Document
+type: PracticeLevel

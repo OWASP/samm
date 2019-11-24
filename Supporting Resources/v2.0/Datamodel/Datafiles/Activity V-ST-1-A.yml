@@ -55,3 +55,7 @@ notes:
 
 #References to other activities that are prerequesites to implement this one.
 dependencies: 
+
+
+#Type Classification of the Document
+type: Activity
