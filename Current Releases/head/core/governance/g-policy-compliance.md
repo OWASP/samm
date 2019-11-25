@@ -49,7 +49,7 @@ For standards, incorporate requirements set forth by policies, and focus on tech
 
 {{< questions "Policy & Compliance" "A" 1 >}}
 
-#### Notes
+##### Notes
 
 None
 
@@ -72,7 +72,7 @@ Test scripts help reinforce application security requirements through clear expe
 
 {{< questions "Policy & Compliance" "A" 2 >}}
 
-#### Notes
+##### Notes
 
 None
 
@@ -93,7 +93,7 @@ Encourage non-compliant teams to review available resources such as security req
 
 {{< questions "Policy & Compliance" "A" 3 >}}
 
-#### Notes
+##### Notes
 
 None
 
@@ -118,7 +118,7 @@ Since many compliance standards are focused around security best-practices, many
 
 {{< questions "Policy & Compliance" "B" 1 >}}
 
-### Notes
+#### Notes
 
 None
 
@@ -139,7 +139,7 @@ Requirements include enough information for developers to understand functional 
 
 {{< questions "Policy & Compliance" "B" 2 >}}
 
-### Notes
+#### Notes
 
 None
 
@@ -162,6 +162,6 @@ Review compliance gaps requiring significant expenses or development with the su
 
 {{< questions "Policy & Compliance" "B" 3 >}}
 
-### Notes
+#### Notes
 
 None

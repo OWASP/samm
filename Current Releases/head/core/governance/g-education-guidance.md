@@ -49,7 +49,7 @@ Training is mandatory for all employees and contractors involved with software d
 
 {{< questions "Education & Guidance" "A" 1 >}}
 
-#### Notes
+##### Notes
 
 None
 
@@ -80,7 +80,7 @@ Training is mandatory for all employees and contractors involved with software d
 
 {{< questions "Education & Guidance" "A" 2 >}}
 
-#### Notes
+##### Notes
 
 None
 
@@ -105,7 +105,7 @@ Review issues resulting from employees not following established standards, poli
 
 {{< questions "Education & Guidance" "A" 3 >}}
 
-#### Notes
+##### Notes
 
 None
 
@@ -130,7 +130,7 @@ In addition to assisting Information Security, “Security Champions” provide 
 
 {{< questions "Education & Guidance" "B" 1 >}}
 
-### Notes
+#### Notes
 
 None
 
@@ -153,7 +153,7 @@ The group provides subject matter expertise, helping information security teams 
 
 {{< questions "Education & Guidance" "B" 2 >}}
 
-### Notes
+#### Notes
 
 None
 
@@ -176,6 +176,6 @@ The Secure Software Center of Excellence and Application Security teams review t
 
 {{< questions "Education & Guidance" "B" 3 >}}
 
-### Notes
+#### Notes
 
 None
