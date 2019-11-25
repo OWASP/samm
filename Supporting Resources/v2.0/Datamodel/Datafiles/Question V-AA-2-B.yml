@@ -27,3 +27,6 @@ quality:
   - Threat modeling activities should be carried out/supported by people with good understanding of the concept by experience or training
   - The methodology stipulates the different inputs that are required to perform an in-depth assessment
   - Threat model deliverables are standardized and accessible across the organisation
+
+#Type Classification of the Document
+type: Question

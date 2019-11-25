@@ -16,23 +16,23 @@ id:
 
 #The title of this activity
 title:
-  Integration of security verification in deployment (e.g. binary static code analysis / AV scan).
+  Integration of security verification in deployment.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  The deployment process is fully or partially automated and can be halted based on the results of integrated security verification tests.
+  The deployment process is fully repeatable, software with obvious security issues doesn't get deployed to production. 
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Automate the deployment process over all stages and introduce sensible security verification tests. 
 
 #A multi-paragraph description of the activity
-longDescription: 
-  Fully or partially automate deployment to reduce the need for manual changes on production, and to reduce the chances of human error.
+longDescription: |
+  Automate deployment process to various stages, so that no manual configuration steps are needed and the risk of isolated human errors is eliminated. Ensure and verify (e.g. using hash values) that the development is consistent over all stages. 
 
-  Deployments include appropriate automated security checks such as DAST and malware scanning. Notify relevant people of any defects automatically. Stop or reverse the deployment automatically, or as part of a manual approval workflow, if the defect exceeds a certain threshold of severity or risk. Log the results from these tests centrally and take any necessary actions.
+  Integrate automated security checks in your deployment process, e.g. using Dynamic Analysis Security Testing (DAST) and vulnerability scanning tools. Log the results from these tests centrally and take any necessary actions. Ensure that in case any defects are detected, relevant personnel is notified automaticaly. In case any issues exceeding predefined criticality are identified, stop or reverse the deployment  either automatically, or introduce a separate manual approval workflow so that this decision is recorded, containing an explanation for the exception. 
 
-  Account for and audit all deployments. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
+  Account for and audit all deployments to all stages. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
 
 #The output of this particular activity
 results:
@@ -50,17 +50,16 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Administrator
+  - Security Engineer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivites: 
+  - fb6f258a2e424ee9a919341758222a7a #V-ST-2-A
+
+#Type Classification of the Document
+type: Activity

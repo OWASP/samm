@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Increase granularity of security requirements derived from business logic and known risks.
+
+
+#Type Classification of the Document
+type: PracticeLevel

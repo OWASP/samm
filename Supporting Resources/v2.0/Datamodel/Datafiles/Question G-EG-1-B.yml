@@ -28,3 +28,6 @@ quality:
   - Security Champions receive appropriate training
   - Application Security and Development teams receive periodic briefings from Security Champions on the overall status of security initiatives and fixes
   - The Security Champion reviews the results of external testing before adding to the application backlog
+  
+#Type Classification of the Document
+type: Question

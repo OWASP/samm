@@ -26,3 +26,6 @@ order:
 quality:
   - Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls.
   - Security testing executes whenever the application changes its use of the controls.
+
+#Type Classification of the Document
+type: Question
