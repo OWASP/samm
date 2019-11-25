@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Has the training been customized for individual roles, such as developers, testers, or security champions?
+  Is training customized for individual roles such as developers, testers, or security champions?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,11 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Training includes all topics covered within maturity level 1, and adds more specific tools, techniques, and demonstrations
-  - Training is mandatory for all employees and contractors.
-  - The training includes input from in-house SMEs and trainees.
-  - Training includes demonstrations of tools and techniques developed in-house.
-  - Feedback collected post training is used to enhance and make future training more relevant.
+  - Training includes all topics from maturity level 1, and adds more specific tools, techniques, and demonstrations
+  - Training is mandatory for all employees and contractors
+  - Training includes input from in-house SMEs and trainees
+  - Training includes demonstrations of tools and techniques developed in-house
+  - You use feedback to enhance and make future training more relevant
+
+#Type Classification of the Document
+type: Question

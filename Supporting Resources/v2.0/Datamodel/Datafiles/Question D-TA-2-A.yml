@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Are you using centralized and quantified application risk profiles to evaluate business risk?
+  Do you use centralized and quantified application risk profiles to evaluate business risk?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,7 +24,11 @@ order:
 
 #Qualifying Criterion
 quality:
-  - The application risk profile is in line with the organisational risk standard
-  - The application risk profile must cover impact to security and privacy
-  - The quality of the risk profile is validated using manual and/or automated means
+  - The application risk profile is in line with the organizational risk standard
+  - The application risk profile covers impact to security and privacy
+  - You validate the quality of the risk profile manually and/or automatically
   - The application risk profiles are stored in a central inventory
+
+
+#Type Classification of the Document
+type: Question

@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Opportunistically find basic vulnerabilities and other security issues.
+
+
+#Type Classification of the Document
+type: PracticeLevel

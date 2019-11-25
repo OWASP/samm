@@ -23,7 +23,7 @@ shortDescription:
   Validate the security and compliance of the software and supporting infrastructure architecture.
 
 #A multi-paragraph description of the security practice
-longDescription:
+longDescription: |
   Validate the security of the software and supporting infrastructure architecture. Identify application and infrastructure architecture components. For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Iterate through the list of security mechanisms and analyze the system for their provision.
 
   Validate the software and supporting infrastructure architecture against known security requirements, compliance goals and best practices. The overall goal is to verify that the system design has addressed each requirement and best practice. Note any requirements that are not met at the design level as assessment findings.
@@ -38,8 +38,12 @@ order:
 
 #Who's the "owner" of this practice
 assignee:
-  John Ellingsworth
+  Nessim Kisserli
 
 #Indication of progress to keep track of overall status
 progress:
   50
+
+
+#Type Classification of the Document
+type: Practice

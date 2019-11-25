@@ -7,7 +7,7 @@ stream:
   
 #Link to the practice level that this activity belongs to
 level:
-  38f3a2f7633c42b98eb160f36a2c0a7b
+  e8de5ea176cc455bba89f0e2d1ea1f16
   
 #Unique identifier (GUID) used to refer to this activity. 
 #Please generate another identifier for your specific activity.
@@ -40,7 +40,7 @@ longDescription: |
   
   Ideally, identify a subject-matter expert in each technology to assist with procuring or developing the training content and updating it regularly. The training consists of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop. Include results of the previous penetration as examples of vulnerabilities and implemented remediation strategies. Ask a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
   
-  Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance. Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other information relevant to their work or environments.
+  Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other information relevant to their work or environments.
 
 #The output of this particular activity
 results:
@@ -61,3 +61,7 @@ notes:
 
 #References to other activities that may be related to this one
 relatedActivities: 
+
+
+#Type Classification of the Document
+type: Activity

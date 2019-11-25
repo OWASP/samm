@@ -20,17 +20,19 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  The application’s security level is more indicative of its real security, by consistently assessing its 3rd party dependencies.
+  Security issues in used dependencies are handled comparably to those in your own code. 
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Analyze used dependencies for security issues in a comparable way to your own code.
 
 #A multi-paragraph description of the activity
-longDescription:
-  Perform verification tests against dependencies in the same way you do against the target application. Refer to Verification > Security Testing. Depending on the build process maturity level, the discovery of significant issues might cause the build to fail.
+longDescription: |
+  Maintain a whitelist of approved dependencies and versions, and ensure that the build process fails upon a presence of dependency not being on the list. Include a sign-off process for handling exceptions to this rule if sensible. 
 
-  Log results centrally, triage and validate findings appropriately as described in Implementation > Defect Management. Vulnerable dependencies should be blacklisted and not permitted to be used during builds. Feed findings back to the vendor or open source project, following a set of ethical disclosure guidelines.
+  Perform security verification activites against dependencies on the whitelist in a comparable way to the target applications themselves (esp. using SAST and analyzing transitive dependencies). Ensure that these checks also aim to identify possible backdoors or easter eggs in the dependencies. Establish vulnerability disclosure processes with the dependency authors including SLAs for fixing issues. In case enforcing SLAs is not realistic (e.g. with open source vulnerabilities), ensure that the most probable cases are expected and you are able to implement compensating measures in a timely manner. Implement regression tests for the fixes to identified issues.
+
+  Track all identified issues and their state using your defect tracking system. Integrate your build pipeline with this system to enable failing the build whenever the included dependencies contain issues above a defined criticality level. 
 
 #The output of this particular activity
 results:
@@ -48,17 +50,20 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Security Engineer
+  - Architect
+  - Developer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 2bf0e192a904444b8a2f38c33256e80a #I-DM-2-A
+  - 15d73a64818c43019504c8d938ca2434 #I-DM-2-B
+  - fb6f258a2e424ee9a919341758222a7a #V-ST-2-A
+  - 346ed576f0a94147ba2b8148abc3c73a #V-ST-2-B
+
+#Type Classification of the Document
+type: Activity

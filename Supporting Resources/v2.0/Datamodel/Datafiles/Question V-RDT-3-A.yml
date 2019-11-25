@@ -26,3 +26,6 @@ order:
 quality:
   - Tests are consistently written for all identified bugs (possibly exceeding a pre-defined severity threshhold)
   - Security tests are collected in a test suite that is part of the existing unit testing framework
+
+#Type Classification of the Document
+type: Question

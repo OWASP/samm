@@ -24,5 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - The organisational risk standard takes into account historical feedback to improve the evaluation method
+  - The organizational risk standard considers historical feedback to improve the evaluation method
   - Significant changes in the application or business context trigger a review of the relevant risk profiles
+
+
+#Type Classification of the Document
+type: Question

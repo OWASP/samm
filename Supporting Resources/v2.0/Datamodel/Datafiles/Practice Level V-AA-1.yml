@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Review the architecture to ensure baseline mitigations are in place for known risks.
+
+
+#Type Classification of the Document
+type: PracticeLevel

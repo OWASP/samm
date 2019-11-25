@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Embed security testing as part of the development and deployment processes.
+
+
+#Type Classification of the Document
+type: PracticeLevel
