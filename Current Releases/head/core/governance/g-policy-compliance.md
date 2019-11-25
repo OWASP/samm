@@ -2,7 +2,7 @@
 business_functions : Governance
 title : Policy & Compliance
 assignedto       : Yan Kravchenko
-complete          : 90
+complete          : 90%
 weight: 2
 type: security_practice
 ---

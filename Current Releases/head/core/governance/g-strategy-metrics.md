@@ -2,7 +2,7 @@
 business_functions : Governance
 title : Strategy & Metrics
 assignedto       : Yan Kravchenko
-complete          : 90
+complete          : 90%
 weight: 1
 type: security_practice
 ---

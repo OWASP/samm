@@ -2,7 +2,7 @@
 business_functions : Governance
 title : Education & Guidance
 assignedto       : Yan Kravchenko
-complete          : 90
+complete          : 90%
 weight: 3
 type: security_practice
 ---
