@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Mandate security requirements process for all software projects and third-party dependencies.
+
+
+#Type Classification of the Document
+type: PracticeLevel

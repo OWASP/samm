@@ -16,3 +16,6 @@ text:
 #Link to the OWASP project
 websiteURL: 
     "http://.../"
+
+#Type Classification of the Document
+type: ExternalReference

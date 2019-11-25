@@ -27,3 +27,6 @@ quality:
   - The threat model methodology takes into account historical feedback to improve the evaluation method
   - Changes in the application or business context trigger a review of the relevant threat models
   - Threat models are independently evaluated for their quality
+
+#Type Classification of the Document
+type: Question

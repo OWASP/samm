@@ -26,3 +26,6 @@ order:
 quality:
   - KPIs are reviewed regularly (at least yearly) for their efficiency and effectiveness
   - Majority of the changes to the application security strategy are triggered by KPIs and application security metrics
+
+#Type Classification of the Document
+type: Question
