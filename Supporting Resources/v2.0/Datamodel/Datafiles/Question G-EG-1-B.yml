@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Have you identified a "Security Champion" for each development team? 
+  Have you identified a Security Champion for each development team? 
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,7 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Each development team has a Security Champion assigned to them
-  - Security Champions receive appropriate training to ensure effectiveness
+  - Each development team has an assigned Security Champion
+  - Security Champions receive appropriate training
   - Application Security and Development teams receive periodic briefings from Security Champions on the overall status of security initiatives and fixes
-  - Results of external testing are reviewed by the Security Champion prior to adding to the application backlog
+  - The Security Champion reviews the results of external testing before adding to the application backlog
+  
+#Type Classification of the Document
+type: Question

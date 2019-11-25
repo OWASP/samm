@@ -26,3 +26,6 @@ order:
 quality:
   - You have created verification checklists and test scripts (where applicable), aligned with the policy's requirements, and the implementation guidance in the associated standard(s)
   - You have created versions adapted to each development methodology/technology in use within the organization
+
+#Type Classification of the Document
+type: Question

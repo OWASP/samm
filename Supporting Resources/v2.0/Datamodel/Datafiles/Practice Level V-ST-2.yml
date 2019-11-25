@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Make security testing during development more complete and efficient through automation complemented with regular manual security penetration tests.
+
+
+#Type Classification of the Document
+type: PracticeLevel

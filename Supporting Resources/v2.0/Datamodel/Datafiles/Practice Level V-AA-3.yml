@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Review the architecture effectiveness and feedback results to improve the security architecture.
+
+
+#Type Classification of the Document
+type: PracticeLevel

@@ -17,3 +17,6 @@ id:
 #Objective of this particular practice level
 objective:
   Deployment processes include security verification milestones.
+
+#Type Classification of the Document
+type: PracticeLevel

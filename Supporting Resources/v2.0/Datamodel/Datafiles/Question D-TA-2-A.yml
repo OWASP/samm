@@ -28,3 +28,7 @@ quality:
   - The application risk profile covers impact to security and privacy
   - You validate the quality of the risk profile manually and/or automatically
   - The application risk profiles are stored in a central inventory
+
+
+#Type Classification of the Document
+type: Question
