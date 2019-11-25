@@ -16,48 +16,42 @@ id:
 
 #The title of this activity
 title:
-  Prioritized best-effort hardening
+  Ad hoc, best-effort hardening
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Most evident security configuration is carried out
+  Reduced attack surface, for key elements of technology stacks
 
 #A one sentence description of the activity
 shortDescription:
   Perform best-effort hardening of configurations, based on readily available information.
 
 #A multi-paragraph description of the activity
-longDescription:
-  You acknowledge the importance of configuration hardening of third-party components your applications are using. You don't have an official process yet. However, at least define the relevant scope for this activity take the first steps. You know and acknowledge the responsibility for hardening of the particular components.
+longDescription: |
+  The organization acknowledges the importance of securing the technology stacks being used, and applies secure configuration to stack elements based on readily available guidance (e.g., open source projects, vendor documentation, blog articles). Teams develop configuration guidance for their applications, based on trial-and-error and information gathered by team members, and share their learnings across the organization. 
 
-  Work with publicly available information sources (e.g., open source projects, vendor documentation, blog articles), increasing your know-how from those and implementing at least "low hanging fruit."
+  The organization identifies key elements of common technology stacks, and establishes configuration standards for those. These are developed on an _ad hoc_ basis, based on teams' experiences of "what works."
+  
+  At this level of maturity, there is not yet a formal process for managing configuration baselines. Configurations may not be applied consistently across applications and deployments, and monitoring of conformance is likely absent.
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
-#References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
+#References to other activities that are related to this one
+relatedActivities: 
+
+
+#Type Classification of the Document
+type: Activity

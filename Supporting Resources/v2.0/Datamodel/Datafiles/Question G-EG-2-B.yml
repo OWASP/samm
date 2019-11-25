@@ -28,3 +28,6 @@ quality:
   - Development teams review all significant architectural changes with the SSCE
   - The SSCE publishes SDLC standards and guidelines related to Application Security
   - Product Champions are responsible for promoting the use of specific security tools
+
+#Type Classification of the Document
+type: Question

@@ -17,3 +17,6 @@ id:
 #Objective of this particular practice level
 objective:
   Defect tracking across multiple components is used to help reduce the number of new defects.
+
+#Type Classification of the Document
+type: PracticeLevel

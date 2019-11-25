@@ -28,3 +28,6 @@ quality:
   - Penetration testing looks for both technical and logical issues in the application
   - Stakeholders review the test results and handle them in accordance with the organisation's risk management
   - Penetration testing is performed by qualified personel.
+
+#Type Classification of the Document
+type: Question

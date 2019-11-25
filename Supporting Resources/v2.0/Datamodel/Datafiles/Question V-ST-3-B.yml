@@ -27,3 +27,6 @@ quality:
   - You use results from other security activities to improve integrated security testing during development
   - You review test results and incorporate them into security awareness training and security testing playbooks
   - Stakeholders review the test results and handle them in accordance with the organisation's risk management
+
+#Type Classification of the Document
+type: Question

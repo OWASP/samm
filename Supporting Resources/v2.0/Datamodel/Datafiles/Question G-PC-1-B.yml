@@ -26,3 +26,6 @@ order:
 quality:
   - You have identified all sources of external compliance obligations
   - You have captured and reconciled compliance obligations from all sources
+
+#Type Classification of the Document
+type: Question

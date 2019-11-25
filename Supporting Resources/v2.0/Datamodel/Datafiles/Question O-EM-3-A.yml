@@ -25,3 +25,7 @@ order:
 #Qualifying Criteria
 quality:
   - You review and update baselines at least annually
+
+
+#Type Classification of the Document
+type: Question

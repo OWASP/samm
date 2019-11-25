@@ -28,3 +28,6 @@ values:
     value: 1
     weight: 1
     order: 3
+
+#Type Classification of the Document
+type: AnswerSet
