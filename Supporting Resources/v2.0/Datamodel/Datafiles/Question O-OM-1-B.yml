@@ -3,7 +3,7 @@
 # ===========================================================
 #Link to the activity that this question helps measure
 activity:
-  c16a12399dc94cc889d7e9e66e0ae2a0
+  1a398709b9d3407dbf9db7eeff6e916c
 
 #This question uses Answer Set A  
 answerset:
@@ -12,11 +12,11 @@ answerset:
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
 id:
-  41b0c2ab37774000b2b81077605bbd93
+  b50d81aba3734cb59d618fd74bc5c99e
 
 #Text of the question presented to the user
 text: 
-  Do you protect and handle information according to protection requirements for data stored and processed on each application?
+  Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,6 +24,9 @@ order:
 
 #Qualifying Criteria
 quality:
-  - You have identified the data elements processed and stored by each application
-  - You have determined the type and sensitivity level of each identified data element
-  - You have controls to prevent propagation of unsanitized sensitive data from production environments to lower environments
+  - You do not use unsupported applications or dependencies
+  - You manage customer/user migration from older versions for each product and customer/user group
+
+
+#Type Classification of the Document
+type: Question

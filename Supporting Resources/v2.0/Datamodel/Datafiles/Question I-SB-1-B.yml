@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you evaluate security risk stemming from used dependencies?
+  Do you have solid knowledge about dependencies you're relying on?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,6 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You have current bill of materials (BOM) for every application
+  - You have a current bill of materials (BOM) for every application
   - You can quickly find out which applications are affected by a particular CVE
   - You have provably analyzed and addressed findings from dependencies at least once in the last three months
+
+
+#Type Classification of the Document
+type: Question

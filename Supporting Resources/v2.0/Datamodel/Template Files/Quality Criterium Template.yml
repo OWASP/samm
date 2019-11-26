@@ -12,3 +12,6 @@ text:
 #Order of this criterium for the question
 order:
   1
+
+#Type Classification of the Document
+type: QualityCriterium

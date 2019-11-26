@@ -23,7 +23,7 @@ shortDescription:
   The development team detects and fixes basic security issues through automation, allowing manual testing to focus on more complex attack vectors.
 
 #A multi-paragraph description of the security practice
-longDescription:
+longDescription: |
   With manual and automated security tests, projects within the organization routinely run security tests and review results during development and deployment. They detect and fix basic security issues through scalable automation, where manual security testing focuses on more complex attack vectors with deeper understanding of the software.
 
   Project teams focus on buildout of granular (manual and automated) security test cases based on the business functionality of their software. A central software security group focuses on specification of automated tests for compliance and internal standards.
@@ -38,8 +38,12 @@ order:
 
 #Who's the "owner" of this practice
 assignee:
-  John Ellingsworth
+  Nessim Kisserli
 
 #Indication of progress to keep track of overall status
 progress:
   50
+
+
+#Type Classification of the Document
+type: Practice

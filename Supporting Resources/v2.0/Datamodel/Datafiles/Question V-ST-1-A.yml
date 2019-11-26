@@ -26,3 +26,6 @@ order:
 quality:
   - Inputs for security tests are dynamically generated using automated tools.
   - The security testing tools are chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
+
+#Type Classification of the Document
+type: Question

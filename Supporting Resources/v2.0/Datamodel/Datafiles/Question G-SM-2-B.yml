@@ -28,3 +28,6 @@ quality:
   - KPIs have been developed with the buy-in from the leadership and teams responsible for application security
   - KPIs are documented and available to the application teams, and include actionable tresholds requiring immediate attention in the event KPIs reach levels considered unacceptable
   - Success of the application security program is clearly visible based on defined KPIs
+
+#Type Classification of the Document
+type: Question
