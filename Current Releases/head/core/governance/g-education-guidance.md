@@ -44,14 +44,16 @@ Course content should include a range of topics relevant to application security
 
 Training is mandatory for all employees and contractors involved with software development and includes an auditable sign-off to demonstrate compliance. Consider incorporating innovative ways of delivery (such as gamification) to maximize its effectiveness and combat desensitization.
 
+**References**
+- [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)	
+- [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
+- [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)	
+- [OWASP Application Security Curriculum](https://www.owasp.org/index.php/OWASP_Application_Security_Curriculum)
+
 
 #### Maturity Questions
 
 {{< questions "Education & Guidance" "A" 1 >}}
-
-##### Notes
-
-None
 
 ## Maturity 2
 
@@ -73,16 +75,19 @@ Include all training content from the Maturity Level 1 activities of this stream
 
 Ideally, identify a subject-matter expert in each technology to assist with procuring or developing the training content and updating it regularly. The training consists of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop. Include results of the previous penetration as examples of vulnerabilities and implemented remediation strategies. Ask a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
 
-Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other information relevant to their work or environments.
+Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other 
+information relevant to their work or environments.
+
+**References**
+- [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
+- [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)	
+- [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)	
+- [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
 
 
 ### Maturity Questions
 
 {{< questions "Education & Guidance" "A" 2 >}}
-
-##### Notes
-
-None
 
 ## Maturity 3
 
@@ -105,10 +110,6 @@ Review issues resulting from employees not following established standards, poli
 
 {{< questions "Education & Guidance" "A" 3 >}}
 
-##### Notes
-
-None
-
 # B: Organization and Culture
 
 ## Maturity 1
@@ -130,10 +131,6 @@ In addition to assisting Information Security, “Security Champions” provide 
 
 {{< questions "Education & Guidance" "B" 1 >}}
 
-#### Notes
-
-None
-
 ## Maturity 2
 
 ### Benefit
@@ -152,10 +149,6 @@ The group provides subject matter expertise, helping information security teams 
 ### Maturity Questions
 
 {{< questions "Education & Guidance" "B" 2 >}}
-
-#### Notes
-
-None
 
 ## Maturity 3
 
@@ -176,6 +169,3 @@ The Secure Software Center of Excellence and Application Security teams review t
 
 {{< questions "Education & Guidance" "B" 3 >}}
 
-#### Notes
-
-None

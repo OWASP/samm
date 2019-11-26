@@ -49,10 +49,6 @@ For standards, incorporate requirements set forth by policies, and focus on tech
 
 {{< questions "Policy & Compliance" "A" 1 >}}
 
-##### Notes
-
-None
-
 ## Maturity 2
 
 ### Benefit
@@ -72,10 +68,6 @@ Test scripts help reinforce application security requirements through clear expe
 
 {{< questions "Policy & Compliance" "A" 2 >}}
 
-##### Notes
-
-None
-
 ## Maturity 3
 
 ### Benefit
@@ -92,10 +84,6 @@ Encourage non-compliant teams to review available resources such as security req
 ### Maturity Questions
 
 {{< questions "Policy & Compliance" "A" 3 >}}
-
-##### Notes
-
-None
 
 # B: Compliance Management
 
@@ -118,10 +106,6 @@ Since many compliance standards are focused around security best-practices, many
 
 {{< questions "Policy & Compliance" "B" 1 >}}
 
-#### Notes
-
-None
-
 ## Maturity 2
 
 ### Benefit
@@ -138,10 +122,6 @@ Requirements include enough information for developers to understand functional 
 ### Maturity Questions
 
 {{< questions "Policy & Compliance" "B" 2 >}}
-
-#### Notes
-
-None
 
 ## Maturity 3
 
@@ -162,6 +142,3 @@ Review compliance gaps requiring significant expenses or development with the su
 
 {{< questions "Policy & Compliance" "B" 3 >}}
 
-#### Notes
-
-None
