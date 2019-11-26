@@ -55,6 +55,10 @@ Training is mandatory for all employees and contractors involved with software d
 
 {{< questions "Education & Guidance" "A" 1 >}}
 
+#### Notes
+
+
+
 ## Maturity 2
 
 ### Benefit
@@ -89,6 +93,10 @@ information relevant to their work or environments.
 
 {{< questions "Education & Guidance" "A" 2 >}}
 
+#### Notes
+
+
+
 ## Maturity 3
 
 ### Benefit
@@ -109,6 +117,10 @@ Review issues resulting from employees not following established standards, poli
 ### Maturity Questions
 
 {{< questions "Education & Guidance" "A" 3 >}}
+
+#### Notes
+
+
 
 # B: Organization and Culture
 
@@ -131,6 +143,10 @@ In addition to assisting Information Security, “Security Champions” provide 
 
 {{< questions "Education & Guidance" "B" 1 >}}
 
+#### Notes
+
+
+
 ## Maturity 2
 
 ### Benefit
@@ -150,6 +166,10 @@ The group provides subject matter expertise, helping information security teams 
 
 {{< questions "Education & Guidance" "B" 2 >}}
 
+#### Notes
+
+
+
 ## Maturity 3
 
 ### Benefit
@@ -168,4 +188,6 @@ The Secure Software Center of Excellence and Application Security teams review t
 ### Maturity Questions
 
 {{< questions "Education & Guidance" "B" 3 >}}
+
+#### Notes
 

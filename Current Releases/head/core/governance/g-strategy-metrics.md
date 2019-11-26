@@ -49,6 +49,10 @@ The baseline and individual risk factors should be published and made available 
 
 {{< questions "Strategy & Metrics" "A" 1 >}}
 
+#### Notes
+
+
+
 ## Maturity 2
 
 ### Benefit
@@ -68,6 +72,10 @@ For the program to be successful, the application security team obtains buy-in f
 
 {{< questions "Strategy & Metrics" "A" 2 >}}
 
+#### Notes
+
+
+
 ## Maturity 3
 
 ### Benefit
@@ -86,6 +94,10 @@ The organization develops dashboards and measurements for management and teams r
 ### Maturity Questions
 
 {{< questions "Strategy & Metrics" "A" 3 >}}
+
+#### Notes
+
+
 
 # B: Measure and Improve
 
@@ -119,6 +131,10 @@ Document metrics and include descriptions of best and most efficient methods for
 
 {{< questions "Strategy & Metrics" "B" 1 >}}
 
+#### Notes
+
+
+
 ## Maturity 2
 
 ### Benefit
@@ -137,6 +153,10 @@ Fully document KPIs and distribute them to the teams contributing to the success
 ### Maturity Questions
 
 {{< questions "Strategy & Metrics" "B" 2 >}}
+
+#### Notes
+
+
 
 ## Maturity 3
 
@@ -159,4 +179,6 @@ When defining the overall metrics strategy, keep the end-goal in mind and define
 ### Maturity Questions
 
 {{< questions "Strategy & Metrics" "B" 3 >}}
+
+#### Notes
 
