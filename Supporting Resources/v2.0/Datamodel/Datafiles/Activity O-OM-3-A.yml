@@ -24,7 +24,7 @@ benefit:
 
 #A one sentence description of the activity
 shortDescription:
-  Develop automation to detect non-compliance with data protection policy, and audit compliance periodically. Perform regular reviews and updates to data catalog and data protection policy.
+  Automate detection of policy non-compliance, and audit compliance periodically. Regularly review and update to data catalog and data protection policy.
 
 #A multi-paragraph description of the activity
 longDescription: |

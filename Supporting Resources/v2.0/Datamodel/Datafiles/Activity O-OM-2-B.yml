@@ -25,7 +25,7 @@ benefit: |
 
 #A one sentence description of the activity
 shortDescription:
-  Develop repeatable processes for decomissioning unused systems and services, and for migrating away from legacy third-party dependencies. Manage legacy migration roadmaps for customers.
+  Develop repeatable decomissioning processes for unused systems/services, and for migration from legacy dependencies. Manage legacy migration roadmaps for customers.
 
 #A multi-paragraph description of the activity
 longDescription: |

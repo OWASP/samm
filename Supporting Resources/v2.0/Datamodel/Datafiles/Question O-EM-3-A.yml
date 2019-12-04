@@ -5,9 +5,9 @@
 activity:
   3156ab7b516e4550893427face9f86bc
 
-#This question uses Answer Set A  
+#This question uses Answer Set G
 answerset:
-  f77bd45a28c8493dbba6e53b2eafa20f
+  612bf4ec249f4e9d86f9e36dbf511821
 
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Do you evaluate and track conformity with the hardening baselines?
+  Do you monitor conformity with hardening baselines?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,10 @@ order:
 
 #Qualifying Criteria
 quality:
-  - You review and update baselines at least annually
-
+  - Conformity checks are performed regularly (e.g., weekly, monthly), preferably using automation
+  - Conformity check results are readily available (e.g., generated reports, Web-based dashboards)
+  - You follow an established corrective action process to address reported non-conformities
+  - You review each baseline at least annually, and update it when required
 
 #Type Classification of the Document
 type: Question

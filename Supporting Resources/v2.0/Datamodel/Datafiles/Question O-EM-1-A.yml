@@ -5,9 +5,9 @@
 activity:
   786b3d7b39cd49a88090554a275f04a6
 
-#This question uses Answer Set A  
+#This question uses Answer Set T
 answerset:
-  f77bd45a28c8493dbba6e53b2eafa20f
+  991164a3daba483fb22289f8e831eed1
 
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
@@ -26,7 +26,6 @@ order:
 quality:
   - You have identified the key components in each technology stack used
   - You have an established configuration standard for each key component
-
 
 #Type Classification of the Document
 type: Question
