@@ -28,13 +28,13 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Activities at this maturity level are focused on automating data protection, reducing the organization's reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
+  Activities at this maturity level are focused on automating data protection, reducing your reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
 
-  The organization implements technical controls to enforce compliance with the Data Protection Policy, and active monitoring is in place to detect attempted or actual violations. The organization may use a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
+  Implement technical controls to enforce compliance with your Data Protection Policy, and put monitoring in place to detect attempted or actual violations. You may use a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
 
-  The organization regularly audits compliance with established administrative controls, and closely monitors performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting the organization to take timely corrective action.
+  Regularly audit compliance with established administrative controls, and closely monitor performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting you to take timely corrective action.
 
-  The organization reviews and updates the data catalog regularly, to maintain its accurate reflection of the data landscape. Regular reviews and updates of processes and procedures maintain their alignment with the organization's policies and priorities.
+  Reviews and update the data catalog regularly, to maintain its accurate reflection of your data landscape. Regular reviews and updates of processes and procedures maintain their alignment with your policies and priorities.
 
 #The output of this particular activity
 results:
@@ -53,7 +53,6 @@ notes:
 
 #References to other activities that are related to this one
 relatedActivities: 
-
 
 #Type Classification of the Document
 type: Activity

@@ -29,9 +29,9 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Identification of unused applications occurs on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When unused applications are identified, findings are processed for further action. If a formal process for decommissioning unused applications has been established, that process is used.
+  Identify unused applications on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When you identify unused applications, process those findings for further action. If you have established a formal process for decommissioning unused applications, ensure teams are aware of and use it.
 
-  The organization manages customer/user migration from older versions of its products individually for each product and customer/user group. When a product version is no longer in use by any customer/user group, support can be discontinued. However, a large number of product versions may remain in active use across the customer/user base, requiring significant developer effort to back-port product fixes.
+  Manage customer/user migration from older versions of your products for each product and customer/user group. When a product version is no longer in use by any customer/user group, discontinue support for that version. However, at this level of maturity you may have a large number of product versions in active use across the customer/user base, requiring significant developer effort to back-port product fixes.
 
 #The output of this particular activity
 results:

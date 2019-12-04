@@ -29,16 +29,11 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  As part of decommissioning a system, application, or service, the organization follows an established process for removing all relevant accounts, firewall rules, data, etc. from the operational environment. By removing these unused elements from configuration files, the organization improves the maintainability of its infrastructure-as-code resources.
+  As part of decommissioning a system, application, or service, follow an established process for removing all relevant accounts, firewall rules, data, etc. from the operational environment. By removing these unused elements from configuration files, you improve the maintainability of infrastructure-as-code resources.
 
-  The organization follows a consistent process for timely replacement or upgrade of third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), that have reached end of life.
+  Follow a consistent process for timely replacement or upgrade of third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), that have reached end of life.
 
-  The organization engages with customers and user groups for its products at or approaching end of life, to migrate them to supported versions in a timely manner.
-
-#The output of this particular activity
-results:
-  - result1
-  - result2
+  Engage with customers and user groups for your products at or approaching end of life, to migrate them to supported versions in a timely manner.
 
 #The output of this particular activity
 results:
@@ -57,7 +52,6 @@ notes:
 
 #References to other activities that are related to this one
 relatedActivities: 
-
 
 #Type Classification of the Document
 type: Activity

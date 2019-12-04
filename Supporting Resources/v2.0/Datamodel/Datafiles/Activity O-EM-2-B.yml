@@ -16,23 +16,24 @@ id:
 
 #The title of this activity
 title:
-  Formal process covering the full stack
+  Formal patch management process covering the full stack
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Reliable handling of third-party code issues
+benefit: | 
+  - Consistent application of component patches
+  - Risk-based prioritization of patching efforts
 
 #A one sentence description of the activity
 shortDescription:
-  Perform regularly scheduled patching of system and application components, across the full stack.
+  Perform regular patching of system and application components, across the full stack. Ensure timely delivery of patches to customers.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Define and document the update process across the full stack. You don't rely on available patches provided by vendors only; you use external sources systematically to gather intelligence about zero day vulnerabilities, and take appropriate risk mitigation steps.
+  Develop, and follow, a well-defined process for managing patches to application components, across the full technology stacks in use. Ensure processes include regular schedules for applying vendor updates, aligned with vendor update calendars (e.g., Microsoft Patch Tuesday). For software developed by the organization, new releases are delivered to customers and organization-managed solutions on a regular basis (e.g., monthly), whether new features are being delivered or not.
 
-  There is a guidance for prioritization of particular updates, including concerns important to your organization like the criticality of the application, or severity of security issues. Schedule updates (without necessary relevancy to known issues), e.g. using a patch/upgrade calendar of vendors.
+  Create guidance for prioritizing component patching, reflecting your risk tolerance and management objectives. Consider operational factors (e.g., criticality of the application, severity of the vulnerabilities addressed) in determining priorities for testing and applying patches.
 
-  If there is a known critical issue while the patch is not available yet, triage and handle this issue (e.g., by finding workarounds, monitoring measures, or even switching off the affected applications).
+  In the event receive a notification for a critical vulnerability in a component, while no patch is yet available, triage and handle the situation as a risk management issue (e.g., implement compensating controls, obtain customer risk acceptance, or disable affected applications/features).
 
 #The output of this particular activity
 results:
