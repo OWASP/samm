@@ -20,34 +20,28 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Advanced defect metrics are calculated and shared and used to taylor the assurance program.
+  You scale the learning effect throughout the whole organization based on unified defect management metrics.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Collect standardized defect management metrics and use these also for prioritization of centrally driven initiatives.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Calculate and share more advanced metrics. These can include:
+  Define, collect and calculate unified metrics across the whole organization. These might include:
 
-  * Formal risk ratings that consider likelihood and impact.
-  * Number of open vulnerabilities above a defined threshold in terms of severity or risk.
-  * Risk per software component / product / project / business unit.
+  * Total amount of verification activites and identified defects. 
+  * Types and severities of identified defects.
+  * Time to detect and time to resolve defects.
+  * Windows of exposure of defects being present on live systems. 
+  * Number of regressions / reopened vulnerabilities. 
+  * Coverage of verification activities for particular software components. 
   * Amount of accepted risk.
-  * Time to detect vulnerabilities.
-  * Time to resolve vulnerabilities.
-  * Window of exposure where vulnerabilities are detected on live systems.
-  * Coverage of software components by verification tests.
-  * Number of regressions / reopened vulnerabilities.
-  * The risk metric takes into account the criticality of the asset and the resulting business impact. Defects are mapped to threats to better understand their risk to the organization. See Design > Threat Assessment > B.
+  * Ratio of security incidents caused due to unknown or undocumented security defects.
 
-  Tools such as spreadsheets or dedicated vulnerability tracking software are used to calculate metrics automatically. This makes collecting and acting on metrics a managable exercise.
+  Automate a regular (e.g. monthly) report for suitable audience. This would typically reach audience like managers and security officer and engineers. Use the information in the report as an input for your security strategy, e.g. improving trainings or security verification activities. 
 
-  Make this data accessible to management, information security people, developers, and engineers to inform their decision-making. For example, provide a central dashboard. Metrics should guide remediation efforts and resource allocation.
-
-  Security teams are able to report an accurate picture of the organisation’s defect and risk metrics to executive management.
-
-  A reliable baseline is established over time for the metrics being collected. Once this baseline is in place, reasonable goals can be set to measure the effectiveness of the overall programme.
+  Share the most prominent or interesting technical details about security defects including the fixing strategy to other teams once these defects are fixed, e.g. in a regular knowledge sharing meeting. This will help scale the learning effect from defects to the whole organization and limit their occurence in the future. 
 
 #The output of this particular activity
 results:
@@ -65,20 +59,20 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Security Officer
+  - Security Champion
+  - Manager
+
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 2bf0e192a904444b8a2f38c33256e80a #I-DM-2-A
+  - c1aef0137df1400cbdd3c660b609b7b2 #G-SM-2-B
+  - 05073fb130c74143a12a6ba74a44c580 #G-EG-2-A
 
 
 #Type Classification of the Document

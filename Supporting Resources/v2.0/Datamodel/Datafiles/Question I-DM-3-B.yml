@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you enrich defect metrics with relevant real time information?
+  Do you regularly evaluate the effectiveness of your security metrics, so that it's valuable input for your security strategy?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,9 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Defect metrics are automatically correlated with real-time environment information
-  - Relevant stakeholders get timely update on significant changes in the defect classification
-  - Trends in defect development have been updated in the last year
+  - You have analyzed the effectivenss of the security metrics at least once in the last year
+  - Where possible, the correctness of the data is automatically verified
+  - The metrics is aggregated with other sources like threat intelligence or incident management
+  - You derived at least one strategic activity from the metrics in the last year. 
 
 
 

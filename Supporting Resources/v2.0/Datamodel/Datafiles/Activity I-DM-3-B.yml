@@ -20,30 +20,24 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Defect metrics are enriched with real time information and correlated to detect trends and influence the overall security strategy.
+  Collection and evaluation of security metrics is effective and helps drive your security strategy.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Contiously improve your security defect management metrics and correlate it with other sources. 
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Add information to defects, such as:
+  Regularly (at least once per year) revisit the defect management metrics you're collecting and compare the effort needed to collect and track these to the expected outcomes. Make knowledgeable decision about removing metrics which consistently don't bring the expected value. Wherever possible, include and automate verification activities for the quality of the collected data and ensure sustainable improvement if any differences are detected.
 
-  * Category
-  * CVE / CWE
-  * Software component
-  * Business unit
-  * Exploitability
-  * Impact
-  * Risk
-  * CVSS
+  Aggregate the data with your threat intelligence and incident management metrics and use the results as input for other initiatives over the whole organization, such as: 
+  - Planning security trainings for various personnel
+  - Improvement of security verification activities for both internally and externally develeoped collected
+  - Supply chain management, e.g. carrying out security audits of partner organizations
+  - Monitoring of attacks against your infrastructure and applications
+  - Investing in security infrastructure or compensating controls
+  - Staffing your security team and setting up the security budget
 
-  For each defect, up-to-date or real-time data on the availability of exploits and hacker activity in the wild is used to contribute to risk scores.
-
-  Different metrics and fields are combined to look for trends. Trends across various timespans are identified through graphs and dashboarding. Trends are analysed and the results are used to influence the design and implementation of software and the overall security stategy.
-
-  Metrics are used to empower the whole organisation. People and teams all receive the correct information that is relevant to their role(s). Tasks are assigned appropriately and sometimes automatically.
 
 #The output of this particular activity
 results:
@@ -61,20 +55,19 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Security Officer
+  - Security Engineer
+  - Manager
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 5bcb52375a0f4085bb12266c9ecfa84d #O-IM-2-A
+  - 4f6a06796d0840debcc775ea1af65679 #V-ST-3-A
+  - a395d69917b947b28d5995738d716283 #V-ST-3-B
 
 
 #Type Classification of the Document
