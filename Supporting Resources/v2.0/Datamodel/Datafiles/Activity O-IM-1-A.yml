@@ -16,7 +16,7 @@ id:
 
 #The title of this activity
 title:
-  Best-effort incident detection with available log data
+  Best-effort incident detection using available log data
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
@@ -28,15 +28,15 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Available log data (e.g., access logs, application logs, infrastructure logs) are analyzed to detect possible security incidents in accordance with known log data retention periods.
+  Analyze available log data (e.g., access logs, application logs, infrastructure logs), to detect possible security incidents in accordance with known log data retention periods.
 
-  In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques--even a cron job running simple script, looking for suspicious events, is a step forward! 
+  In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques as you're able. Even a `cron` job, running a simple script to look for suspicious events, is a step forward! 
 
   If logs from different sources are sent to a dedicated log aggregation system, it might be a good idea to analyze the logs there and employ basic log correlation principles.
 
-  Even if you don't have a 24/7 incident detection process, unavailability of the responsible person (e.g., due to vacation or illness) shouldn't impact the detection speed and quality significantly.
+  Even if you don't have a 24/7 incident detection process, ensure that unavailability of the responsible person (e.g., due to vacation or illness) doesn't significantly impact detection speed or quality.
 
-  You have a defined and generally known contact point for formal creation of security incidents.
+  Establish and publicize points-of-contact for formal creation of security incidents.
 
 #The output of this particular activity
 results:
@@ -55,7 +55,6 @@ notes:
 
 #References to other activities that are related to this one
 relatedActivities: 
-
 
 #Type Classification of the Document
 type: Activity

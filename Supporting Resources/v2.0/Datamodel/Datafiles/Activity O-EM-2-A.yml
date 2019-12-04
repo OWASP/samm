@@ -29,13 +29,11 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  The organization has establshed configuration hardening baselines for all components in each technology stack used. Configuration guides are developed, to assist with consistent application of the hardening baselines. Configuration baselines are applied to all new systems, and to existing systems when practicable.
+  Establsh configuration hardening baselines for all components in each technology stack used. To assist with consistent application of the hardening baselines, develop configuration guides for the components. Require product teams to apply configuration baselines to all new systems, and to existing systems when practicable.
   
-  Changes to hardening baselines and configuration guides are managed, and each is assigned an owner. Owners have ongoing responsibility to keep them up-to-date, based on evolving best practices or changes to the relevant components (e.g., version updates, new features).  
+  Place hardening baselines and configuration guides under change management, and assign an owner to each. Owners have ongoing responsibility to keep them up-to-date, based on evolving best practices or changes to the relevant components (e.g., version updates, new features).  
   
-  In larger environments, configurations of instances are derived from a locally maintained master, with relevant configuration baselines applied. 
-  
-  At this maturity level, the organization likely employs automated tools for hardening configurations.
+  In larger environments, derive configurations of instances from a locally maintained master, with relevant configuration baselines applied. Employ automated tools for hardening configurations.
 
 #The output of this particular activity
 results:
@@ -54,7 +52,6 @@ notes:
 
 #References to other activities that are related to this one
 relatedActivities: 
-
 
 #Type Classification of the Document
 type: Activity

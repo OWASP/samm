@@ -16,11 +16,12 @@ id:
 
 #The title of this activity
 title:
-  Detection and handling of non-conformities
+  Active configuration monitoring and corrective action process
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Profound knowledge about state of hardening measures across the organization
+benefit: |
+  - Full visibility of component configurations 
+  - Ability to detect and correct out-of-conformance conditions
 
 #A one sentence description of the activity
 shortDescription:
@@ -28,11 +29,15 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Track and evaluate conformity with the hardening baselines. Triage and handle nonconformities as security findings according to rules and SLAs stemming from the defect management practice. Automated measures ensuring self-healing of critical configuration mistakes and alerting relevant stakeholders are in place if sensible.
+  Actively monitor the security configurations of deployed technology stacks, performing regular checks against established baselines. Ensure results of configuration checks are readily available, through published reports and dashboards. 
+  
+  When you detect non-conforming configurations, treat each occurrence as a security finding, and manage corrective actions within your established Defect Management practice. 
+  
+  Further gains may be realized using automated measures, such as "self-healing" configurations and security information and event management (SIEM) alerts.
 
-  Verify the validity of the current hardening baselines in the component update process. Incorporate relevant changes in the baselines and in the auditing measures.
+  As part of the process for updating components (e.g., new releases, vendor patches), review corresponding baselines and configuration guides, updating them as needed to maintain their relevance and accuracy. Review other baselines and configuration guides at least annually.
 
-  Periodically audit the continuous improvement process for the baselines and act upon the resulting findings.
+  Periodically review your baseline management process, incorporating feedback and lessons learned from teams applying and maintaining configuration baselines and configuration guides.
 
 #The output of this particular activity
 results:
@@ -49,10 +54,10 @@ personnel:
 #Internal notes that might help the author
 notes: 
 
-# *** NOTE: This one needs a dependency on one of the Defect Management Activities ***
 #References to other activities that are related to this one
 relatedActivities: 
-
+  - 93dff7be5f954f8d87d24f4261002508 # Activity I-DM-1-A - Track all defects
+  - 2bf0e192a904444b8a2f38c33256e80a # Activity I-DM-2-A - Assign SLA based on security rating
 
 #Type Classification of the Document
 type: Activity

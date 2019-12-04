@@ -28,14 +28,13 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: | 
-  Formally establish and document the security incident response process. The documentation includes information like:
-  - Most probable/common scenarios of security incidents and high-level instructions for handling them. For such scenarios, also use public knowledge about possibly relevant third-party incidents
-  - Rules for triaging each incident
+  Establish and document the formal security incident response process. Ensure documentation includes information like:
+  - Most probable/common scenarios of security incidents and high-level instructions for handling them. For such scenarios, also use public knowledge about possibly relevant third-party incidents.
+  - Rules for triaging each incident.
   - Rules for involvement of different stakeholders (including mandatory timeframe to do so, if needed), including senior management, Public Relations, Legal, privacy, Human Resources, external (law enforcement) authorities, and customers.
+  - The process for performing root-cause analysis, and documenting its results.
 
-  Knowledgeable and properly trained staff is available in and outside of business hours with defined time to act. Keep both hardware and software tools up to date and ready for use anytime. Define a war room.
-
-  The process includes a policy for carrying out root cause analysis and its expected outcomes.
+  Ensure a knowledgeable and properly trained incident response team is available, both during and outside of business hours, with clearly understood timelines for action. Keep hardware and software tools up to date and ready for use anytime. Define a war room.
 
 #The output of this particular activity
 results:
@@ -54,7 +53,6 @@ notes:
 
 #References to other activities that are related to this one
 relatedActivities: 
-
 
 #Type Classification of the Document
 type: Activity
