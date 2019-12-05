@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Do you follow an established process for updating components across your technology stack?
+  Do you follow an established process for updating components of your technology stacks?
 
 #Order of this question for the activity (in case there would be multiple)
 order:

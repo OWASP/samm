@@ -25,9 +25,9 @@ order:
 #Qualifying Criteria
 quality:
   - The process has a dedicated owner
-  - There is process documentation stored in an accessible location
+  - You store process documentation in an accessible location
   - The process considers an escalation path for further analysis
-  - Employees responsible for incident detection are trained in this process
+  - You train employees responsible for incident detection in this process
   - You have a checklist of potential attacks to simplify incident detection
 
 #Type Classification of the Document

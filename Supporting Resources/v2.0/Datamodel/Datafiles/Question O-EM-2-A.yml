@@ -24,7 +24,7 @@ order:
 
 #Qualifying Criteria
 quality:
-  - There is an owner for each baseline
+  - You have assigned an owner for each baseline
   - The owner keeps their assigned baselines up to date
   - You store baselines in an accessible location
   - You train employees responsible for configurations in these baselines
