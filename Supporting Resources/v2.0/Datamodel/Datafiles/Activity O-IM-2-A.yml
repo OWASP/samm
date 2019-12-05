@@ -16,15 +16,15 @@ id:
 
 #The title of this activity
 title:
-  Automated log evaluation driven by process
+  Defined incident detection process
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Ability to timely detect expected security incidents
+  Timely and consistent detection of expected security incidents
 
 #A one sentence description of the activity
 shortDescription:
-  Follow an established, well-documented process for automated log evaluation.
+  Follow an established, well-documented process for incident detection, with emphasis on automated log evaluation.
 
 #A multi-paragraph description of the activity
 longDescription:

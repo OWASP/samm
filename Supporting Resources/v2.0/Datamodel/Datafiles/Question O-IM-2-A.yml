@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Do you follow a process for incident detection?
+  Do you follow a documented process for incident detection?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -26,10 +26,9 @@ order:
 quality:
   - The process has a dedicated owner
   - There is process documentation stored in an accessible location
-  - The process considers and escalation path for further analysis
+  - The process considers an escalation path for further analysis
   - Employees responsible for incident detection are trained in this process
   - You have a checklist of potential attacks to simplify incident detection
-
 
 #Type Classification of the Document
 type: Question
