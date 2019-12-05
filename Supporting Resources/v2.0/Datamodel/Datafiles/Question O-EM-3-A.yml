@@ -24,9 +24,9 @@ order:
 
 #Qualifying Criteria
 quality:
-  - Conformity checks are performed regularly (e.g., weekly, monthly), preferably using automation
-  - Conformity check results are readily available (e.g., generated reports, Web-based dashboards)
-  - You follow an established corrective action process to address reported non-conformities
+  - You perform conformity checks regularly, preferably using automation
+  - You store conformity check results in an accessible location
+  - You follow an established process to address reported non-conformities
   - You review each baseline at least annually, and update it when required
 
 #Type Classification of the Document
