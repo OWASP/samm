@@ -26,3 +26,6 @@ order:
 quality:
   - Application trust boundaries are being reviewed
   - Threat identification should cover different types of threats
+
+#Type Classification of the Document
+type: Question

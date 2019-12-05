@@ -27,7 +27,7 @@ shortDescription:
   Perform regression testing (with security unit tests)
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Write and automate regression tests for all identified (and fixed) bugs to ensures that these become a test harness preventing similar issues to be introduced as part of later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
 
   A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as Identity, Authentication & Access Control, Input Validation & Encoding, User and Session Management, Error and Exception Handling, Encryption, and Auditing and Logging. Consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base.
@@ -36,32 +36,22 @@ longDescription:
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
 #References to other activities that are prerequesites to implement this one.
 dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+
+
+#Type Classification of the Document
+type: Activity

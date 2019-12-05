@@ -29,3 +29,6 @@ quality:
   - Your deployment documentation is accessible to relevant stakeholders
   - You ensure that only defined qualified personnel can trigger a deployment
   - You harden the tools that are used within the deployment process
+
+#Type Classification of the Document
+type: Question

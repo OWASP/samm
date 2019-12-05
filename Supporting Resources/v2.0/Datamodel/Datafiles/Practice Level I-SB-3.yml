@@ -17,3 +17,6 @@ id:
 #Objective of this particular practice level
 objective:
   Build process helps prevent known defects from entering the production environment.
+
+#Type Classification of the Document
+type: PracticeLevel

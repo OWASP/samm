@@ -27,3 +27,6 @@ quality:
   - You have one or more approved reference architectures, documented and available to stakeholders.
   - You improve the reference architectures continuously based on insights and best practices.
   - You provide a set of components, libraries, and tools to implement each reference architecture.
+
+#Type Classification of the Document
+type: Question
