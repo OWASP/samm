@@ -18,9 +18,13 @@ letter:
   A
 
 #Multi-paragraph explanation of the stream
-description: 
+description: |
   Scalable Baseline is focused on the use of application-specific automated testing tools that integrate security validation into the build and deploy process
   
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 
   1
+
+
+#Type Classification of the Document
+type: Stream

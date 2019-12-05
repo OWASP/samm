@@ -26,3 +26,6 @@ order:
 quality:
   - Test results are tracked and reviewed by management and business stakeholders throughout the development cycle
   - Tests results are merged into a central dashboard and fed into defect management.
+
+#Type Classification of the Document
+type: Question

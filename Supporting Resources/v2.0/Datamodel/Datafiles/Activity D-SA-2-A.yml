@@ -32,7 +32,7 @@ longDescription: |
 
   If multiple resources exist in each category, select and standardize on one or more shared service per category. Because future software development will rely on these services, review each thoroughly to ensure understanding of the baseline security posture. For each selected service, create design guidance for product teams to understand how to integrate with the system. Make the guidance available through training, mentorship, guidelines, and standards.
 
-  Establish a set of general design patterns representing sound methods of implementing security functionality. You can research them or purchase them, and it is often more effective if you customize them so they are more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
+  Establish a set of best practices representing sound methods of implementing security functionality. You can research them or purchase them, and it is often more effective if you customize them so they are more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
 
   These patterns can originate from specific projects or applications, but make sure you share them between different teams across the organisation for efficient and consistent application of appropriate security solutions.
 
@@ -55,3 +55,7 @@ notes:
 
 #References to other activities that are prerequesites to implement this one.
 relatedActivities: 
+
+
+#Type Classification of the Document
+type: Activity

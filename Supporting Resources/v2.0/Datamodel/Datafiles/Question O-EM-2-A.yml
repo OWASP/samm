@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Do you maintain hardening baselines for your components?
+  Do you have hardening baselines for your components?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -25,6 +25,9 @@ order:
 #Qualifying Criteria
 quality:
   - There is an owner for each baseline
-  - The owner is responsible for keeping baselines up to date
+  - The owner keeps their assigned baselines up to date
   - You store baselines in an accessible location
-  - Employees responsible for configurations train in these baselines
+  - You train employees responsible for configurations in these baselines
+
+#Type Classification of the Document
+type: Question

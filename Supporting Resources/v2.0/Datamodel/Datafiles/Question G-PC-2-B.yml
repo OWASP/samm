@@ -26,3 +26,6 @@ order:
 quality:
   - You have mapped each external compliance obligation to a well-defined set of application requirements
   - You have defined verification procedures, including automated tests (when possible), to verify compliance with compliance-related requirements
+
+#Type Classification of the Document
+type: Question

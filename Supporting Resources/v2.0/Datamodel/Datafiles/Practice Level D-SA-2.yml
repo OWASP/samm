@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Direct the software design process toward known secure services and secure-by-default designs.
+
+
+#Type Classification of the Document
+type: PracticeLevel

@@ -17,3 +17,6 @@ id:
 #Objective of this particular practice level
 objective:
   Deployment process is fully automated and incorporates automated verification of all critical milestones.
+
+#Type Classification of the Document
+type: PracticeLevel

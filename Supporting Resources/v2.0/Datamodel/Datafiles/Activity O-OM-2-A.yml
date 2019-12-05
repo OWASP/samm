@@ -29,38 +29,29 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  At this maturity level, Data Protection activities focus on actively managing the organization's stewardship of data. Technical and administrative controls established as part of this activity serve to protect the confidentiality of sensitive data, and the integrity and availability of all data in the organization's care, from its initial creation/receipt through the destruction of backups at the end of their retention period.
+  At this maturity level, Data Protection activities focus on actively managing your stewardship of data. Establish technical and administrative controls to protect the confidentiality of sensitive data, and the integrity and availability of all data in your care, from its initial creation/receipt through the destruction of backups at the end of their retention period.
 
-  The organization identifies the data stored, processed, and transmitted by applications, and captures information regarding their types, sensitivity (classification) levels, and storage location(s) in the organization's data catalog. The organization clearly identifies records or data elements subject to specific regulation. Establishing a single source of truth regarding the data the organization works with, supports finer-grained selection of controls for their protection. The collection of this information enhances the accuracy, timeliness, and efficiency of the organization's responses to data-related queries (e.g., from auditors, incident response teams, or customers), and supports threat modeling and compliance activities.
+  Identify the data stored, processed, and transmitted by applications, and capture information regarding their types, sensitivity (classification) levels, and storage location(s) in your data catalog. Clearly identify records or data elements subject to specific regulation. Establishing a single source of truth regarding the data you work with supports finer-grained selection of controls for their protection. Collecting this information enhances the accuracy, timeliness, and efficiency of your responses to data-related queries (e.g., from auditors, incident response teams, or customers), and supports threat modeling and compliance activities.
 
-  Based on the organization's Data Protection Policy, the organization establishes processes and procedures for protecting and preserving data throughout their lifetime, whether at rest, being processed, or in transit. Particular attention is given to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Organization processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
+  Based on your Data Protection Policy, establish processes and procedures for protecting and preserving data throughout their lifetime, whether at rest, while being processed, or in transit. Pay particular attention to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Your processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
-#References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
+#References to other activities that are related to this one
+relatedActivities: 
+
+#Type Classification of the Document
+type: Activity

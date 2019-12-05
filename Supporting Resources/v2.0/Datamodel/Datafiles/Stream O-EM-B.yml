@@ -1,5 +1,5 @@
 # ===========================================================
-# OWASP SAMM2 Activity Stream - Environment Management, Stream A
+# OWASP SAMM2 Activity Stream - Patching and Updating
 # ===========================================================
 #Link to the security practice that this stream belongs to
 practice:
@@ -18,9 +18,14 @@ letter:
   B
 
 #Multi-paragraph explanation of the stream
-description: 
-  This stream describes activities leading to transparency and lowered risk stemming from relying on vulnerable versions components.
+description: |
+  The activities in this stream focus on the organization's handling of patches and updates for all elements of the technology stack. For software developed by the organization, these activities are concerned with delivering patches and updates to customers, as well as applying them to organization-managed solutions (e.g., software as a service). For third-party elements, these activities are concerned with the organization's timely application of updates and patches received. 
+  
+  As the organization's maturity in this practice grows, the management of patches and updates becomes more consistent and proactive. Awareness of risks introduced by vulnerabilities in third-party components increases, and the organization is better able to prioritize associated risk reduction efforts.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 
   2
+
+#Type Classification of the Document
+type: Stream
