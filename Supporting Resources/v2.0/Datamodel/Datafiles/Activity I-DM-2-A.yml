@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  You have overview about security defects affecting applications throughout the whole organization. 
+  You have overview of security defects with severity rating affecting applications throughout the entire organization and you define when to act upon them.
 
 #A one sentence description of the activity
 shortDescription:
@@ -28,9 +28,9 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Introduce and apply a well defined rating methodology for your security defects consistently across the whole organization, based on the probability and expected impact of the security defect being exploited. This will allow you to identify applications which need higher attention and investments for fixing defects. In case you don't store the information about security defects centrally, ensure that you're still able to easily pull the information from all sources and get a solid overview about "hot spots" needing your attention.
+  Introduce and apply a well defined rating methodology for your security defects consistently across the whole organization, based on the probability and expected impact of the defect being exploited. This will allow you to identify applications which need higher attention and investments. In case you don't store the information about security defects centrally, ensure that you're still able to easily pull the information from all sources and get an overview about "hot spots" needing your attention.
 
-  Introduce SLAs for timely fixing of security defects according to their criticality rating and centraly monitor and regularly report SLA breaches. Define a process for cases where it's not feasible or economical to fix a defect within the time defined by the SLAs. This should at least ensure that all relevant stakeholders have a solid understanding of the imposed risk. If suitable, employ compensating controls for these cases.
+  Introduce SLAs for timely fixing of security defects according to their criticality rating and centrally monitor and regularly report on SLA breaches. Define a process for cases where it's not feasible or economical to fix a defect within the time defined by the SLAs. This should at least ensure that all relevant stakeholders have a solid understanding of the imposed risk. If suitable, employ compensating controls for these cases.
   
   Even if you don't have any formal SLAs for fixing low severity defects, ensure that responsible teams still get a regular overview about issues affecting their applications and understand how particular issues affect or amplify each other. 
 

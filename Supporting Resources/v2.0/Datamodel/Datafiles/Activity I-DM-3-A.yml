@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Security defects are either resolved within a predefined time or compensating controls are introduced. 
+  Security defects are resolved (or mitigated) within a predefined time. 
 
 #A one sentence description of the activity
 shortDescription:
@@ -28,7 +28,7 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement an automated alerting on security defects if the fix time breaches the defined SLAs. Ensure that these defects are automatically transfered in the risk management process and rated by a consistent quantitative methodology. Evaluate how particular defect influence / amplify each other not only on the level of separate teams, but on the level of the whole organization. Use the knowledge of the full kill chain to prioritize, introduce and track compensating controls mitigating the respective business risks. 
+  Implement an automated alerting on security defects if the fix time breaches the defined SLAs. Ensure that these defects are automatically transfered into the risk management process and rated by a consistent quantitative methodology. Evaluate how particular defects influence / amplify each other not only on the level of separate teams, but on the level of the whole organization. Use the knowledge of the full kill chain to prioritize, introduce and track compensating controls mitigating the respective business risks. 
 
   Integrate your defect management system with the automated tooling introduced by other practices, e.g.:
   
