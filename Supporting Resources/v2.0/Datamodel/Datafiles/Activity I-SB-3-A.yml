@@ -32,7 +32,6 @@ longDescription:
   If technical limitations prevent the organisation from breaking the build automatically, ensure the same effect via other measures, such as a clear policy and regular audit. 
 
   Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build. Where possible, use a deterministic method that outputs byte-for-byte reproducible artifacts. 
-  #Compare the binary output with that from other equivalent build systems to ensure it hasn’t been tampered with.
 
 #The output of this particular activity
 results:

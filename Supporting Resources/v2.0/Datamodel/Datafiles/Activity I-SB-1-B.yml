@@ -28,8 +28,7 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). Consider that different components of the application may consume entirely different dependencies. For example, if the software package is a web application, cover both the server-side application code and client-side scripts. In building these records, consider the various locations where dependencies might be specified such as 
- configuration files, the project's directory on disk, a package management tool or the actual code (e.g. via an IDE that supports listing dependencies).
+  Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). Consider that different components of the application may consume entirely different dependencies. For example, if the software package is a web application, cover both the server-side application code and client-side scripts. In building these records, consider the various locations where dependencies might be specified such as configuration files, the project's directory on disk, a package management tool or the actual code (e.g. via an IDE that supports listing dependencies).
 
   Gather the following information about each dependency:
 
@@ -40,7 +39,6 @@ longDescription: |
   * Support and maintenance status of the dependency
 
   Check the records to discover any dependencies with known vulnerabilities and update or replace them accordingly.
-  #Evaluate whether providers actively maintain dependencies, and if they deal with security vulnerabilities appropriately. Gain assurance when dealing with open source dependencies, either through agreements with a commercial vendor, or other means, for example, by looking at repository activity, and the developers' responses to security issues raised by the community.
 
 #The output of this particular activity
 results:

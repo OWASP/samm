@@ -24,7 +24,7 @@ benefit:
 
 #A one sentence description of the activity
 shortDescription:
-  Automate your build pipeline and secure the used tooling. Consider adding security checks in the build pipeline.
+  Automate your build pipeline and secure the used tooling. Add security checks in the build pipeline.
 
 #A multi-paragraph description of the activity
 longDescription: 
@@ -34,9 +34,7 @@ longDescription:
 
   The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Sign generated artifacts using a certificate that identifies the organization or business unit that built it, such that its integrity and can be verified later.
 
-  Finally, add relevant secuirty testing tools in the automated build pipeline to further leverage the automated pipeline for security.
-  #Implement static application security testing (SAST) to run as part of the build.
-
+  Finally, add appropriate automated security checks (e.g. using SAST tools) in the pipeline to leverage the automation for security benefit.
 
 #The output of this particular activity
 results:
