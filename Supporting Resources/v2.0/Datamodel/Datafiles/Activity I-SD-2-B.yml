@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Risk of leaking production secrets is mitigated by removing any manual interactions during deployment.
+  Risk of leaking production secrets is reduced by removing them from source code files.
 
 #A one sentence description of the activity
 shortDescription:
@@ -28,11 +28,11 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: 
-  Have an automated process to add credentials and secrets appropriate for the target environment to configuration files during the deployment process. This way, developers and deployers do not see or handle those sensitive values.
+  Have an automated process to add credentials and secrets to configuration files during the deployment process. This way, developers and deployers do not see or handle those sensitive values.
 
-  Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptence test or production environment.
+  Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.   Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
 
-  Ensure that all access to secrets (both reading and writing) is audited and logged in a central infracture. 
+  Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt all secrets at rest and in transit. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptance test or production environment.
 
 #The output of this particular activity
 results:
