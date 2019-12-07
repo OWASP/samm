@@ -28,11 +28,13 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: 
-  Define the build process, breaking it down into a set of clear instructions to either be followed by a person or an automated tool. The build process definition desribes the whole process end-to-end so that the person or tool can follow it consistently each time and produce the same result. The definition is stored centrally and accessible to any tools or people. Do not store or distribute multiple copies, some of which may become outdated.
+  Define the build process, breaking it down into a set of clear instructions to either be followed by a person or an automated tool. The build process definition describes the whole process end-to-end so that the person or tool can follow it consistently each time and produce the same result. The definition is stored centrally and accessible to any tools or people. Avoid storing multiple copies as they may become unaligned and outdated.
 
-  The process definition does not include any secrets (specifically considering those needed during the build process). Use individual credentials that authenticate, authorize, and account to access build tools, and code repositories. Include shared secrets only where you cannot avoid it, managing them with care, preferably via an encrypted password vault. Determine a value for each generated artifact that can be later used to verify its integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
+  The process definition does not include any secrets (specifically considering those needed during the build process). 
 
-  Review any build tools routinely, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool’s configuration so that it is aligned with vendor guidelines and industry best practices.
+  Determine a value for each generated artifact that can be later used to verify its integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
+
+  Ensure that build tools are routinely patched and properly hardened.
 
 #The output of this particular activity
 results:
