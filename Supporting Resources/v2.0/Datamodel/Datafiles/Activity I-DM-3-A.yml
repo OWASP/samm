@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Security defects are resolved (or mitigated) within a predefined time. 
+  Security defects are resolved or mitigated (possibly with compensating controls) within a predefined time.
 
 #A one sentence description of the activity
 shortDescription:
