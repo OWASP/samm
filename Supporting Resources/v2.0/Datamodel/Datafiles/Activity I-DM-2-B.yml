@@ -39,7 +39,7 @@ longDescription: |
   * Amount of accepted risk.
   * Ratio of security incidents caused due to unknown or undocumented security defects.
 
-  Automate a regular (e.g. monthly) report for suitable audience. This would typically reach audience like managers and security officer and engineers. Use the information in the report as an input for your security strategy, e.g. improving trainings or security verification activities. 
+  Generate a regular (e.g. monthly) report for a suitable audience. This would typically reach audience like managers and security officer and engineers. Use the information in the report as an input for your security strategy, e.g. improving trainings or security verification activities. 
 
   Share the most prominent or interesting technical details about security defects including the fixing strategy to other teams once these defects are fixed, e.g. in a regular knowledge sharing meeting. This will help scale the learning effect from defects to the whole organization and limit their occurence in the future. 
 
