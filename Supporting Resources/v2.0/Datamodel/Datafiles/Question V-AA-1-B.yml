@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Are you evaluating the technical architecture of your applications for potential threats?
+  Do you evaluate the technical architecture of your applications for potential threats?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Application trust boundaries are being reviewed
-  - Threat identification should cover different types of threats
+  - You review application trust boundaries
+  - Threat identification covers different types of threats
 
 #Type Classification of the Document
 type: Question
