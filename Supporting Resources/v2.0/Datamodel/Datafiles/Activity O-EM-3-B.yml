@@ -16,49 +16,45 @@ id:
 
 #The title of this activity
 title:
-  Consolidated update process with SLA and reporting
+  Consolidated, proactive patch management with SLA and reporting
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Full visibility into the current patch state over the organization
+benefit: | 
+  - Full visibility into current patch states across the organization
+  - Reduced dwell time for vulnerable component versions
 
 #A one sentence description of the activity
 shortDescription:
-  Proactively monitor update status and manage missing updates as security defects.
+  Actively monitor update status and manage missing patches as security defects. Proactively obtain vulnerability and update information for components.   
 
 #A multi-paragraph description of the activity
-longDescription:
-  You have very good insight (e.g., through a dashboard) of the patching strategy across the organization and full stack. You triage and handle missing updates according to rules and SLAs stemming from the defect management practice. It is guaranteed that patching can take place anytime so that SLAs can be adhered to.
+longDescription: |
+  Develop and use management dashboards/reports to track compliance with patching processes and SLAs, across the portfolio. Ensure dependency management and application packaging processes can support applying component-level patches at any time, to meet required SLAs.   
+  
+  Treat missed updates as security-related product defects, and manage their triage and correction in accordance with your established Defect Management practice. 
 
-  If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable.
-
+  Don't rely on routine notifications from component vendors to learn about vulnerabilities and associated patches. Monitor a variety of external threat intelligence sources, to learn about zero day vulnerabilities; handle those affecting your applications as risk management issues.
+  
 #The output of this particular activity
 results:
-  - result1
-  - result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
 
 #A description of the costs required to implement the activity  
 costs:
-  Difficult to say, but let's give it a try.
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Tester
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
 
-#References to other activities that are prerequesites to implement this one.
-#NOTE: There needs to be a dependency on a Defect Management activity here. ***
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
+#References to other activities that are related to this one
+relatedActivities: 
+  - 93dff7be5f954f8d87d24f4261002508 # Activity I-DM-1-A - Track all defects
+  - 2bf0e192a904444b8a2f38c33256e80a # Activity I-DM-2-A - Assign SLA based on security rating
+  - 0082a76b1a3744d9ab0443bd2168e13d # Activity G-SM-1-B - Define security metrics
+
+#Type Classification of the Document
+type: Activity

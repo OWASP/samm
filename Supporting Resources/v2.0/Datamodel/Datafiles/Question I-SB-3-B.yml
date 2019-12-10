@@ -27,5 +27,9 @@ quality:
   - Your build system is connected to a system for tracking 3rd party dependency risk, causing build to fail unless the vulnerability is evaluated to be a false positive or the risk is explicitely accepted.
   - You scan your dependencies using a static analysis tool
   - You report findings back to dependency authors using an established responsible disclosure process
-  - Using a new dependency which has not been evaluated for security risk causes failing the build
+  - Using a new dependency not been evaluated for security risk causes the build to fail
 
+
+
+#Type Classification of the Document
+type: Question

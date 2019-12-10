@@ -63,3 +63,6 @@ sponsors:
     name: myalsoprecioussponsor
     logoURL: "http://..."
     websiteURL: "http://.../"
+
+#Type Classification of the Document
+type: Model

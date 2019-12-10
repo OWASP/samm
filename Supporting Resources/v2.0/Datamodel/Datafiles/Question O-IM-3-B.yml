@@ -26,3 +26,7 @@ order:
 quality:
   - The team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so
   - You review and update the response process at least annually
+
+
+#Type Classification of the Document
+type: Question

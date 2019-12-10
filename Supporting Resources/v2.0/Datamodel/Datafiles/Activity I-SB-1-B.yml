@@ -20,36 +20,25 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  You know which production components are at risk from a known vulnerable 3rd party dependencies. Dependencies include 3rd party software dependencies and operating system dependencies. 3rd party dependencies often inculde more dependencies (called transitive dependencies).
+  You can react to publicly disclosed vulnerabilities using knowledge about dependencies you are relying on.
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Create recoreds with Bill of Materials of your applications and opportunistically analyze these.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). In building these records, consider the various locations where dependencies might be specified:
+  Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). Consider that different components of the application may consume entirely different dependencies. For example, if the software package is a web application, cover both the server-side application code and client-side scripts. In building these records, consider the various locations where dependencies might be specified such as configuration files, the project's directory on disk, a package management tool or the actual code (e.g. via an IDE that supports listing dependencies).
 
-  - configuration files 
-  - the project's directory on disk
-  - package management tool
-  - code (e.g. via an IDE that supports listing dependencies)
-
-  Consider that the different dependencies and aspects of the application may consume entirely different dependencies. For example, if the software package is a web app, cover both the server-side application code and client-side scripts.
-
-  The records include the following information about each dependency:
+  Gather the following information about each dependency:
 
   * Where it is used or referenced
-  * Why it is required
   * Version used
   * License
   * Source information (link to repository, author's name, etc.)
-  * Open source or proprietary
   * Support and maintenance status of the dependency
 
-  Check the records, whenever practical, to discover any dependencies with known vulnerabilities and update or replace them accordingly.
-
-  Ensure that providers actively maintain dependencies, and that they deal with security vulnerabilities appropriately. Gain assurance when dealing with open source dependencies, either through agreements with a commercial vendor, or other means, for example, by looking at repository activity, and the developers' responses to security issues raised by the community.
+  Check the records to discover any dependencies with known vulnerabilities and update or replace them accordingly.
 
 #The output of this particular activity
 results:
@@ -67,17 +56,17 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Security Engineer
+  - Developer
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivites: 
+  - 
+
+
+#Type Classification of the Document
+type: Activity

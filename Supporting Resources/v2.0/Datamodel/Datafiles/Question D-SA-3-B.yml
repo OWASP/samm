@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you enforce the use of recommended technologies within the development organisation?
+  Do you enforce the use of recommended technologies within the organization?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,6 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Applications are regularly monitored for the correct use of the list of recommended technologies
-  - Violations against the list are solved in accorandance with the organisational’s policy
-  - The number of violations on a yearly basis falls within objectives or concrete actions are taken to improve
+  - You monitor applications regularly for the correct use of the recommended technologies
+  - You solve violations against the list accoranding to organizational policies
+  - You take action if the number of violations falls outside the yearly objectives
+
+#Type Classification of the Document
+type: Question

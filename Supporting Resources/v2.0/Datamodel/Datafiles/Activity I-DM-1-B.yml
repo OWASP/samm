@@ -20,23 +20,22 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Basic information about defects is shared and used for remediation and training decisions.
+  You take advantage of basic metrics from your defect management process to identify quick win activities. 
 
 #A one sentence description of the activity
 shortDescription:
-  TBS
+  Regularly go over previously recorded security defects and derive quick wins from basic metrics. 
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Basic information about defects is calculated, shared, and used to make decisions about remediation. Basic information might include:
+  Once per defined period of time (typically at least once per year), go over your both resolved and still open recorded security defects in every team and extract basic metrics from the available data. These might include:
 
-  * The total number of defects. Tracking this over time shows the effectiveness of resolution efforts.
-  * The software components the defect resides in, which is indicative of where attention is most required, and where security flaws are most likely to appear in the future.
+  * The total number of defects versus total number of verification activities. This could give you an idea whether you're looking for defects with an adequate intensity and quality.
+  * The software components the defects reside in. This is indicative of where attention might be most required, and where security flaws might be more likely to appear in the future again.
   * The type or category of the defect, which suggests areas where the development team need further training.
-  * The severity of the defect, which can help the organisation understand the software’s risk exposure.
-  * Outcomes are fed back to the teams involved. This data is used to make decisions about remediation priority and training requirements.
+  * The severity of the defect, which can help the team understand the software’s risk exposure.
 
-  Defects are considered within the wider metrics throughout the oragnisation. See Governance > Strategy & Metrics > B.
+  Identify and carry out sensible quick win activities which you can derive from the newly acquired knowledge. These might include things like a knowledge sharing session about one particular vulnerability type or carrying out / automating a security scan. 
 
 #The output of this particular activity
 results:
@@ -54,17 +53,17 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Developer
+  - Security Champion
 
 #Internal notes that might help the author
 notes: 
-  My first thought goes here.
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivities: 
+  - 93dff7be5f954f8d87d24f4261002508 #I-DM-1-A
+
+
+#Type Classification of the Document
+type: Activity

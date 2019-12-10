@@ -25,5 +25,8 @@ order:
 #Qualifying Criterion
 quality:
   - You have an agreed upon checklist of security principles
-  - Your checklist(s) are stored in an accessible location
-  - Security principles have been explained to relevant stakeholders
+  - You store your checklist in an accessible location
+  - Relevant stakeholders understand security principles
+
+#Type Classification of the Document
+type: Question

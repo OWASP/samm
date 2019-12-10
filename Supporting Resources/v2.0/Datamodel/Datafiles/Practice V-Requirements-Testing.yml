@@ -23,7 +23,7 @@ shortDescription:
   Create and integrate both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).
 
 #A multi-paragraph description of the security practice
-longDescription:
+longDescription: |
   Conduct positive and negative security tests to verify that the software operates as expected. At a minimum, this means both testing the correct functioning of the standard software security controls, and fuzzing for vulnerabilities against the main input parameters of the application.
 
   From the known security requirements, identify and implement a set of security test cases to check the software for correct functionality. Use abuse-case models for an application to identify concrete security tests that directly or indirectly exploit the abuse scenarios. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application.
@@ -38,8 +38,12 @@ order:
 
 #Who's the "owner" of this practice
 assignee:
-  John Ellingsworth
+  Nessim Kisserli
 
 #Indication of progress to keep track of overall status
 progress:
   50
+
+
+#Type Classification of the Document
+type: Practice

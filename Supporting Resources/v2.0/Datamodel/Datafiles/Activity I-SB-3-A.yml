@@ -17,27 +17,22 @@ id:
 #The title of this activity
 title:
   Security defects may trigger the build to stop executing.
+
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  You can enforce a minimal clear security baseline in production. You can automatically deploy compliant applications.#A one sentence description of the activity
+  It is ensured that only software complying to a defined security baseline gets built. 
+
 shortDescription:
-  TBS
+  Define mandatory security checks in the build process and ensure that building non-compliant artifacts fails. 
 
 #A multi-paragraph description of the activity
 longDescription: 
-  The build process includes automated security checks which break the build if they fail. Static Application Security Testing (SAST), with an appropriate and custom ruleset, is triggered each time the build process executes. Refer to guidance in Verification > Security Testing > A.
+  Define security checks suitable to be carried out during the build process, as well as minimum criteria for passing the build - these might differ according to the risk profiles of various applications. Include the respective security checks in the build and enforce breaking the build process in case the predefined criteria are not met. Trigger warnings for issues below the threshold and log these to a centralized system to track them and take actions. If sensible, implement an exception mechanism to bypass this behaviour if the risk of a particular vulnerability has been accepted or mitigated. However, ensure these cases are explicitely approved first and log their occurence together with a rationale.
 
-  The organization sets an appropriate threshold for build failure based on the application’s risk appetite. For instance, “High” and “Critical” vulnerabilities, or those with a CVSS score above 7.0. The types of vulnerabilities that the organization consider unacceptable in a build and their typical scores/ratings are considered when setting this threshold. An application with more sensitive functions might have a lower threshold, for instance. Trigger warnings for vulnerabilities below the threshold, and log them to a centralized system to track them and take actions.
+  If technical limitations prevent the organisation from breaking the build automatically, ensure the same effect via other measures, such as a clear policy and regular audit. 
 
-  Put in place a mechanism to bypass this behaviour when a vulnerability has been accepted or mitigated to stop it from breaking the build. Carefully control and approve it, and log all exceptions with a rationale.
+  Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build. Where possible, use a deterministic method that outputs byte-for-byte reproducible artifacts. 
 
-  If any of the security tests like SAST are not carried out successfully, the build fails.
-
-  If technical limitations prevent the organisation from breaking the build automatically, achieve the same effect via other means, such as a clear policy for the developer not to deploy or execute a build with defects meeting certain criteria.
-
-  Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build.
-
-  Where possible, use a deterministic method that outputs byte-for-byte reproducible artifacts. Compare the binary output with that from other equivalent build systems to ensure it hasn’t been tampered with.
 #The output of this particular activity
 results:
   - result1
@@ -54,17 +49,18 @@ costs:
   
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - TBS1
-  - TBS2
+  - Developer
+  - Security Engineer
 
 #Internal notes that might help the author
 notes: 
-  Link to dependencies TBS
-  
-  My second thought goes here.
+  None
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
-  - 41069df2385749b190f46e8a776e6339
+relatedActivites: 
+  - 921ff24f0b9f4df9a5129aa2f8a4a570 #V-ST-1-A
+  - fb6f258a2e424ee9a919341758222a7a #V-ST-2-A
+  - 4f6a06796d0840debcc775ea1af65679 #V-ST-3-A
+
+#Type Classification of the Document
+type: Activity

@@ -17,3 +17,6 @@ id:
 #Objective of this particular practice level
 objective:
   Build process is optimized and fully integrated into the workflow.
+
+#Type Classification of the Document
+type: PracticeLevel

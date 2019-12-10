@@ -40,3 +40,6 @@ assignee:
 #Indication of progress to keep track of overall status
 progress:
   50
+
+#Type Classification of the Document
+type: Practice

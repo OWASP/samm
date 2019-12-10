@@ -16,11 +16,11 @@ id:
 
 #The title of this activity
 title:
-  Use short checklists of security principles
+  Ensure approve software is aligned with organizational needs. 
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Compliance with the list is proactively monitored and violations are managed
+  Compliance with the list of known software is proactively monitored and violations are managed.
 
 #A one sentence description of the activity
 shortDescription:
@@ -49,3 +49,7 @@ notes:
 
 #References to other activities that are prerequesites to implement this one.
 relatedActivities: 
+
+
+#Type Classification of the Document
+type: Activity

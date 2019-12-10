@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Consider security explicitly during the software requirements process.
+
+
+#Type Classification of the Document
+type: PracticeLevel

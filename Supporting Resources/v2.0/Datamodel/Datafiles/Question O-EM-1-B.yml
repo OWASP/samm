@@ -24,5 +24,8 @@ order:
 
 #Qualifying Criteria
 quality:
-  - You have an up-to-date list of components with versions
-  - You review public sources regularly for vulnerabilities related to your components
+  - You have an up-to-date list of components, including version information
+  - You regularly review public sources for vulnerabilities related to your components
+
+#Type Classification of the Document
+type: Question

@@ -14,3 +14,7 @@ number:
 description:
   The first maturity level aims at achieving an ad-hoc, best effort implementation of a particular activity within a stream.
 
+
+
+#Type Classification of the Document
+type: MaturityLevel

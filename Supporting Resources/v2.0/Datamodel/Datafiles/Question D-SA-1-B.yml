@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you evaluate the security quality of important technologies used within the development organisation?
+  Do you evaluate the security quality of important technologies used for development?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,6 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You have a list of the most important technologies used in (or in support of) each application.
+  - You have a list of the most important technologies used in or in support of each application
   - You identify and track technological risks
-  - You ensure that the risks to these technologies are in line with the organisational baseline
+  - You ensure the risks to these technologies are in line with the organizational baseline
+
+#Type Classification of the Document
+type: Question

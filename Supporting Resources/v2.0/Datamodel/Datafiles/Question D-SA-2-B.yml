@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you have a list of recommended technologies for use in the development organisation?
+  Do you have a list of recommended technologies for the organization?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -26,5 +26,8 @@ order:
 quality:
   - The list is based on technologies used in the software portfolio
   - Lead architects and developers review and approve the list
-  - The list is shared across the development organisation
-  - The list is regularly (at least yearly) reviewed and updated
+  - You share the list across the organization
+  - You review and update the list at least yearly
+
+#Type Classification of the Document
+type: Question

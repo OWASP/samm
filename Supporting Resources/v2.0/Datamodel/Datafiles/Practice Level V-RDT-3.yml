@@ -17,3 +17,7 @@ id:
 #Objective of this particular practice level
 objective:
   Maintain the application security level after bug fixes, changes or during maintenance.
+
+
+#Type Classification of the Document
+type: PracticeLevel

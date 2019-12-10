@@ -28,3 +28,6 @@ quality:
   - Domain experts are involved in the requirements definition process.
   - An agreed upon structured notation exists for security requirements.
   - Development teams have a security champion dedicated to reviewing security requirements and outcomes.
+
+#Type Classification of the Document
+type: Question
