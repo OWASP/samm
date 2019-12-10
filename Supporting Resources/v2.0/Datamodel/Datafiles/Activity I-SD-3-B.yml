@@ -16,11 +16,11 @@ id:
 
 #The title of this activity
 title:
-  Favor run-time exposure to secrets and improve lifecycle management.
+  Favor run-time mechanisms to work with secrets and improve lifecycle management.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Risk of leaking production secrets is reduced by limiting access only during run-time and by regenerating regularly.
+  Risk of leaking production secrets is reduced by limiting their use to run-time only and by regenerating regularly.
 
 #A one sentence description of the activity
 shortDescription:
@@ -30,7 +30,7 @@ shortDescription:
 longDescription: 
   Whereever possible, rely on run-time techniques to manage access to the secrets required to execute the application. This is typically achieved by means of a vaulting solution with an quary interface that can be used by the application based on a bootstrapping secret.
   
-  Implement proper lifecycle management for production secrets, and force the generation of new secrets as much as possible, and for every application instance. 
+  Implement appropriate lifecycle management for production secrets, and force the generation of new secrets as much as possible, and for every application instance. 
 
   Ensure that all access to secrets (both reading and writing) is audited and logged in a central infrastructure. 
 
