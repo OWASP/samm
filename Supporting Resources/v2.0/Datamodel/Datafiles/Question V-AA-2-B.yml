@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Are you using a standard methodology to evaluate the threats to your applications?
+  Do you use a standard methodology to evaluate the threats to your applications?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,9 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Threat modeling activities should be carried out/supported by people with good understanding of the concept by experience or training
-  - The methodology stipulates the different inputs that are required to perform an in-depth assessment
-  - Threat model deliverables are standardized and accessible across the organisation
+  - Trained or experienced people lead threat modeling activities
+  - The methodology stipulates the different inputs required to perform an in-depth assessment
+  - Threat model deliverables are standardized and accessible across the organization
 
 #Type Classification of the Document
 type: Question
