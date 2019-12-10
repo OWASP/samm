@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you favour the use of standard security services during design?
+  Do you use security services during design?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
