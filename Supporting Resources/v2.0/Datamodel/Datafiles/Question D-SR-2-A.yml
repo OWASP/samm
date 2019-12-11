@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Are the artifacts of the security requirements gathering process well defined and structured, with prioritization?
+  Do you define, structure, and include prioritization in the artifacts of the security requirements gathering process?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,10 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development.
-  - Domain experts are involved in the requirements definition process.
-  - An agreed upon structured notation exists for security requirements.
-  - Development teams have a security champion dedicated to reviewing security requirements and outcomes.
+  - Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development
+  - Domain experts are involved in the requirements definition process
+  - You have an agreed upon structured notation for security requirements
+  - Development teams have a security champion dedicated to reviewing security requirements and outcomes
 
 #Type Classification of the Document
 type: Question
