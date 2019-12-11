@@ -24,8 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - During the creation of third-party agreements, specific security requirements, activities, and processes are considered for inclusion.
-  - A vendor questionnaire is available and used to assess the strengths and weaknesses of your suppliers.
+  - You consider including specific security requirements, activities, and processes when creating third-party agreements
+  - A vendor questionnaire is available and used to assess the strengths and weaknesses of your suppliers
 
 #Type Classification of the Document
 type: Question
