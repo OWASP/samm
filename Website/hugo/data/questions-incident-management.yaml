@@ -3,42 +3,30 @@
     stream: a
     stream_title: Incident Detection
     maturity: 1
+    quality_criteria:
+        - You have a contact point for the creation of security incidents
+        - You analyze data in accordance with the log data retention periods
+        - The frequency of this analysis is aligned with the criticality of your applications
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
-    quality_criteria:
-        - You have a contact point for the creation of security incidents
-        - You analyze data in accordance with the log data retention periods
-        - The frequency of this analysis is aligned with the criticality of your applications
 
 - Do you follow a process for incident detection?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
     maturity: 2
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: Yes, for some applications
-            weight: 0.25
-        - C:
-            answer: Yes, for at least half of the applications
-            weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
-            weight: 1
     quality_criteria:
         - The process has a dedicated owner
         - There is process documentation stored in an accessible location
@@ -46,27 +34,42 @@
         - Employees responsible for incident detection are trained in this process
         - You have a checklist of potential attacks to simplify incident detection
 
-- Do you review and update the incident detection process regularly?:
-    security_practice: Incident Management
-    stream: a
-    stream_title: Incident Detection
-    maturity: 3
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
+
+- Do you review and update the incident detection process regularly?:
+    security_practice: Incident Management
+    stream: a
+    stream_title: Incident Detection
+    maturity: 3
     quality_criteria:
         - You perform reviews at least annually
         - You update the checklist of potential attacks with external and internal data
+
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: 'Yes, for some applications'
+            weight: 0.25
+        - C:
+            answer: 'Yes, for at least half of the applications'
+            weight: 0.5
+        - D:
+            answer: 'Yes, for most or all of the applications'
+            weight: 1
 
 - Do you respond upon detected incidents?:
     security_practice: Incident Management
@@ -78,14 +81,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the incidents
+            answer: 'Yes, for some of the incidents'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the incidents
+            answer: 'Yes, for at least half of the incidents'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the incidents
+        - D:
+            answer: 'Yes, for most or all of the incidents'
             weight: 1
+
     quality_criteria:
         - You have a defined person or role for incident handling
         - You document security incidents
@@ -100,14 +104,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some types of incidents
+            answer: 'Yes, for some incident types'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the types of incidents
+            answer: 'Yes, for at least half of the incident types'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the types of incidents
+        - D:
+            answer: 'Yes, for most or all of the incident types'
             weight: 1
+
     quality_criteria:
         - You have an agreed upon incident classification
         - The process considers Root Case Analysis for high severity incidents
@@ -124,14 +129,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: 'Yes, some of the time'
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: 'Yes, at least half of the time'
             weight: 0.5
-        - S:
-            answer: Yes, most of the time
+        - D:
+            answer: 'Yes, most or all of the time'
             weight: 1
+
     quality_criteria:
         - The team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so
         - You review and update the response process at least annually

@@ -8,20 +8,20 @@
         - You include components, interfaces, and integrations in the architecture model
         - You verify the security controls in the software architecture cover the key security objectives and threats
         - You log missing security controls as defects
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, at least for half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
         - D:
-            answer: Yes, for the majority of the applications
+            answer: 'Yes, for most or all of the applications'
             weight: 1
-
 
 - Do you thoroughly review your software architecture regularly using an agreed upon methodology?:
     security_practice: Architecture Assessment
@@ -33,18 +33,19 @@
         - You verify the architecture meets all the defined security requirements
         - You verify every component is protected by the expected security controls (e.g., authentication, authorization, logging)
         - You log missing security controls as defects
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
         - D:
-            answer: Yes, for the majority of the applications
+            answer: 'Yes, for most or all of the applications'
             weight: 1
 
 - Do you regularly review the effectiveness of the security controls?:
@@ -57,20 +58,22 @@
         - You evaluate the strategy alignment, appropriate support, and scalability of security controls
         - You evaluate the effectiveness at least yearly
         - You log identified shortcomings as defects
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some of the applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
         - D:
-            answer: Yes, for the majority of the applications
+            answer: 'Yes, for most or all of the applications'
             weight: 1
-- Do you review the architecture against compliance requirements?:
+
+- Are you evaluating the technical architecture of your applications for potential threats?:
     security_practice: Architecture Assessment
     stream: b
     stream_title: Architecture Compliance
@@ -80,20 +83,20 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, most or all of them'
             weight: 1
-    quality_criteria:
-        - You indicate which design-level feature(s) address each compliance requirement.
-        - The analysis is conducted by security-savvy staff with input from architects, and other stakeholders.
-        - You record all missing compliance requirements and handle them following organisational risk management
 
-- Do you analyze the architecture against known security requirements and best practices ?:
+    quality_criteria:
+        - Application trust boundaries are being reviewed
+        - Threat identification should cover different types of threats
+
+- Are you using a standard methodology to evaluate the threats to your applications?:
     security_practice: Architecture Assessment
     stream: b
     stream_title: Architecture Compliance
@@ -103,20 +106,21 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, most or all of them'
             weight: 1
-    quality_criteria:
-        - You identify any security assumptions underpinning the safe operation of the system.
-        - You indicate which design-level feature(s) address each security requirement.
-        - You record all unsatisfied security requirements and handle them following organisational risk management
 
-- Do you feed architecture review results back into the enterprise architecture? :
+    quality_criteria:
+        - Threat modeling activities should be carried out/supported by people with good understanding of the concept by experience or training
+        - The methodology stipulates the different inputs that are required to perform an in-depth assessment
+        - Threat model deliverables are standardized and accessible across the organisation
+
+- Do you regularly review and update the threat models for your applications?:
     security_practice: Architecture Assessment
     stream: b
     stream_title: Architecture Compliance
@@ -126,14 +130,16 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, most or all of them'
             weight: 1
+
     quality_criteria:
-        - You map the security features to security compliance requirements
-        - You identify the cause of gaps in the mapping and handle them following organisational risk management
+        - The threat model methodology takes into account historical feedback to improve the evaluation method
+        - Changes in the application or business context trigger a review of the relevant threat models
+        - Threat models are independently evaluated for their quality
