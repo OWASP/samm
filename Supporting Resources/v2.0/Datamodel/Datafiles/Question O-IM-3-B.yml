@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Is there a dedicated incident response team available?
+  Do you have a dedicated incident response team?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
