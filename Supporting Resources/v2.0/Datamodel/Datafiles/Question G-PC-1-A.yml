@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Have you developed a common set of policies and standards that are applied throughout your organization?
+  Do you have and apply a common set of policies and standards throughout your organization?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You have adapted existing standards appropriate for the organization’s industry, to account for domain-specific considerations
-  - Your standards are aligned with your policies, and incorporate technology-specific implementation guidance
+  - You have adapted existing standards appropriate for the organization’s industry to account for domain-specific considerations
+  - Your standards are aligned with your policies and incorporate technology-specific implementation guidance
 
 #Type Classification of the Document
 type: Question
