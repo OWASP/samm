@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Have the organization's policies been published as test scripts or run-books for easy interpretation by development teams?
+  Do you publish the organization's policies as test scripts or run-books for easy interpretation by development teams?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You have created verification checklists and test scripts (where applicable), aligned with the policy's requirements, and the implementation guidance in the associated standard(s)
-  - You have created versions adapted to each development methodology/technology in use within the organization
+  - You create verification checklists and test scripts where applicable, aligned with the policy's requirements and the implementation guidance in the associated standards
+  - You create versions adapted to each development methodology and technology the organization uses
 
 #Type Classification of the Document
 type: Question
