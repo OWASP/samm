@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Are you using a set of metrics to measure the effectiveness and efficiency of the application security program across applications?
+  Do you use a set of metrics to measure the effectiveness and efficiency of the application security program across applications?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,10 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Each metric is documented and includes a description of the sources, measurement coverage, and an understanding on how the metric can be used to describe or explain application security trends
-  - Metrics include measures of Efforts, Results, and the Environment measurement categories
-  - Majority of the metrics are frequently measured, easy or inexpensive to gather, and are expressed as a cardinal number or a percentage
-  - Metrics are published and are accessible by application security and development teams
+  - You document each metric, including a description of the sources, measurement coverage, and guidance on how to use it to explain application security trends
+  - Metrics include measures of efforts, results, and the environment measurement categories
+  - Most of the metrics are frequently measured, easy or inexpensive to gather, and expressed as a cardinal number or a percentage
+  - Application security and development teams publish metrics
 
 #Type Classification of the Document
 type: Question
