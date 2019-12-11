@@ -28,9 +28,9 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: 
-  Whereever possible, rely on run-time techniques to manage access to the secrets required to execute the application. This is typically achieved by means of a vaulting solution with an quary interface that can be used by the application based on a bootstrapping secret.
+  Whereever possible, rely on on-demand solutions to manage access to the secrets required to execute the application. This is typically achieved by means of a vaulting solution with an query interface that can be used by the application based on a bootstrapping secret.
   
-  Implement appropriate lifecycle management for production secrets, and force the generation of new secrets as much as possible, and for every application instance. 
+  Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance. 
 
   Ensure that all access to secrets (both reading and writing) is audited and logged in a central infrastructure. 
 
