@@ -3,35 +3,32 @@
     stream: a
     stream_title: Defect Tracking (Flaws/Bugs/Process)
     maturity: 1
+
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: 'Yes, for some applications'
+            weight: 0.25
+        - C:
+            answer: 'Yes, for at least half of the applications'
+            weight: 0.5
+        - D:
+            answer: 'Yes, for most or all of the applications'
+            weight: 1
+
     quality_criteria:
         - You can easily get an overview of all security defects impacting one application anytime
         - You have at least a rudimentary classification scheme in place
         - The process includes strategy for handling false positives and duplicate entries
         - The defect management system covers defects from various sources / activities
 
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: 'Yes, for some applications'
-            weight: 0.25
-        - C:
-            answer: 'Yes, for at least half of the applications'
-            weight: 0.5
-        - D:
-            answer: 'Yes, for most or all of the applications'
-            weight: 1
-
 - Do you maintain an overview about the state of security defects across the whole organization?:
     security_practice: Defect Management
     stream: a
     stream_title: Defect Tracking (Flaws/Bugs/Process)
     maturity: 2
-    quality_criteria:
-        - A common single severity scheme is applied to all defects across the organization
-        - The scheme includes SLAs for fixing particular severity classes
-        - Compliance to SLAs is regularly reported
 
     answers:
         - A:
@@ -46,15 +43,17 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - A common single severity scheme is applied to all defects across the organization
+        - The scheme includes SLAs for fixing particular severity classes
+        - Compliance to SLAs is regularly reported
 
 - Are SLAs for fixing security defects enforced?:
     security_practice: Defect Management
     stream: a
     stream_title: Defect Tracking (Flaws/Bugs/Process)
     maturity: 3
-    quality_criteria:
-        - SLA breaches are automatically alerted and respective defects are transfered to the risk management process
-        - Relevant tooling (e.g. monitoring, build, deployment) is integrated with the defect management system
 
     answers:
         - A:
@@ -69,6 +68,10 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - SLA breaches are automatically alerted and respective defects are transfered to the risk management process
+        - Relevant tooling (e.g. monitoring, build, deployment) is integrated with the defect management system
 
 - Do you use basic metrics about recorded security defects to carry out quick win improvement activities?:
     security_practice: Defect Management

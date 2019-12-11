@@ -3,10 +3,6 @@
     stream: a
     stream_title: Architecture Design
     maturity: 1
-    quality_criteria:
-        - You have an agreed upon checklist of security principles
-        - Your checklist(s) are stored in an accessible location
-        - Security principles have been explained to relevant stakeholders
 
     answers:
         - A:
@@ -22,15 +18,16 @@
             answer: 'Yes, most or all of the time'
             weight: 1
 
+    quality_criteria:
+        - You have an agreed upon checklist of security principles
+        - Your checklist(s) are stored in an accessible location
+        - Security principles have been explained to relevant stakeholders
+
 - Do you favour the use of standard security services during design?:
     security_practice: Security Architecture
     stream: a
     stream_title: Architecture Design
     maturity: 2
-    quality_criteria:
-        - You have a documented list of reusable security services, available to relevant stakeholders
-        - You have reviewed the baseline security posture for each selected service
-        - Your designers are trained to integrate each selected service following available guidance
 
     answers:
         - A:
@@ -45,16 +42,17 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - You have a documented list of reusable security services, available to relevant stakeholders
+        - You have reviewed the baseline security posture for each selected service
+        - Your designers are trained to integrate each selected service following available guidance
 
 - Do you base your design on available reference architectures?:
     security_practice: Security Architecture
     stream: a
     stream_title: Architecture Design
     maturity: 3
-    quality_criteria:
-        - You have one or more approved reference architectures, documented and available to stakeholders.
-        - You improve the reference architectures continuously based on insights and best practices.
-        - You provide a set of components, libraries, and tools to implement each reference architecture.
 
     answers:
         - A:
@@ -69,6 +67,11 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - You have one or more approved reference architectures, documented and available to stakeholders.
+        - You improve the reference architectures continuously based on insights and best practices.
+        - You provide a set of components, libraries, and tools to implement each reference architecture.
 
 - Do you evaluate the security quality of important technologies used within the development organisation?:
     security_practice: Security Architecture

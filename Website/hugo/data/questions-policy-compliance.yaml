@@ -3,9 +3,6 @@
     stream: a
     stream_title: Policy & Standards
     maturity: 1
-    quality_criteria:
-        - You have adapted existing standards appropriate for the organization’s industry, to account for domain-specific considerations
-        - Your standards are aligned with your policies, and incorporate technology-specific implementation guidance
 
     answers:
         - A:
@@ -21,14 +18,15 @@
             answer: 'Yes, for most or all of the applications'
             weight: 1
 
+    quality_criteria:
+        - You have adapted existing standards appropriate for the organization’s industry, to account for domain-specific considerations
+        - Your standards are aligned with your policies, and incorporate technology-specific implementation guidance
+
 - Have the organization's policies been published as test scripts or run-books for easy interpretation by development teams?:
     security_practice: Policy & Compliance
     stream: a
     stream_title: Policy & Standards
     maturity: 2
-    quality_criteria:
-        - You have created verification checklists and test scripts (where applicable), aligned with the policy's requirements, and the implementation guidance in the associated standard(s)
-        - You have created versions adapted to each development methodology/technology in use within the organization
 
     answers:
         - A:
@@ -43,16 +41,16 @@
         - D:
             answer: 'Yes, most or all of the content'
             weight: 1
+    
+    quality_criteria:
+        - You have created verification checklists and test scripts (where applicable), aligned with the policy's requirements, and the implementation guidance in the associated standard(s)
+        - You have created versions adapted to each development methodology/technology in use within the organization
 
 - Do you regularly report on policy and standard compliance, and use that information to guide compliance improvement efforts?:
     security_practice: Policy & Compliance
     stream: a
     stream_title: Policy & Standards
     maturity: 3
-    quality_criteria:
-        - You have procedures (automated, if possible) in place, to regularly generate compliance reports
-        - You have ensured compliance reports are delivered to all relevant stakeholders
-        - Stakeholders use the reported compliance status information to identify areas for improvement
 
     answers:
         - A:
@@ -67,6 +65,11 @@
         - D:
             answer: 'Yes, we review it at least annually'
             weight: 1
+    
+    quality_criteria:
+        - You have procedures (automated, if possible) in place, to regularly generate compliance reports
+        - You have ensured compliance reports are delivered to all relevant stakeholders
+        - Stakeholders use the reported compliance status information to identify areas for improvement
 
 - Do you have a complete picture of your external compliance obligations?:
     security_practice: Policy & Compliance

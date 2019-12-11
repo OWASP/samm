@@ -3,12 +3,6 @@
     stream: a
     stream_title: Training and Awareness
     maturity: 1
-    quality_criteria:
-        - Training is repeatable, consistent, and available to anyone involved with software development lifecycle
-        - Training includes the latest OWASP Top 10 if appropriate and includes concepts such as Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability
-        - Training requires a sign-off or an acknowledgement from attendees
-        - You have updated the training in the last 12 months
-        - Training is required during employees' onboarding process
 
     answers:
         - A:
@@ -24,17 +18,18 @@
             answer: 'Yes, most or all of them'
             weight: 1
 
+    quality_criteria:
+        - Training is repeatable, consistent, and available to anyone involved with software development lifecycle
+        - Training includes the latest OWASP Top 10 if appropriate and includes concepts such as Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability
+        - Training requires a sign-off or an acknowledgement from attendees
+        - You have updated the training in the last 12 months
+        - Training is required during employees' onboarding process
+
 - Is training customized for individual roles such as developers, testers, or security champions?:
     security_practice: Education & Guidance
     stream: a
     stream_title: Training and Awareness
     maturity: 2
-    quality_criteria:
-        - Training includes all topics from maturity level 1, and adds more specific tools, techniques, and demonstrations
-        - Training is mandatory for all employees and contractors
-        - Training includes input from in-house SMEs and trainees
-        - Training includes demonstrations of tools and techniques developed in-house
-        - You use feedback to enhance and make future training more relevant
 
     answers:
         - A:
@@ -49,16 +44,19 @@
         - D:
             answer: 'Yes, most or all of the content'
             weight: 1
+    
+    quality_criteria:
+        - Training includes all topics from maturity level 1, and adds more specific tools, techniques, and demonstrations
+        - Training is mandatory for all employees and contractors
+        - Training includes input from in-house SMEs and trainees
+        - Training includes demonstrations of tools and techniques developed in-house
+        - You use feedback to enhance and make future training more relevant
 
 - Have you implemented a Learning Management System or equivalent to track employee training and certification processes?:
     security_practice: Education & Guidance
     stream: a
     stream_title: Training and Awareness
     maturity: 3
-    quality_criteria:
-        - A Learning Management System (LMS) is used to track trainings and certifications
-        - Training is based on internal standards, policies, and procedures
-        - You use certification programs or attendance records to determine access to development systems and resources
 
     answers:
         - A:
@@ -73,6 +71,11 @@
         - D:
             answer: 'Yes, most or all of training'
             weight: 1
+    
+    quality_criteria:
+        - A Learning Management System (LMS) is used to track trainings and certifications
+        - Training is based on internal standards, policies, and procedures
+        - You use certification programs or attendance records to determine access to development systems and resources
 
 - Have you identified a Security Champion for each development team?:
     security_practice: Education & Guidance

@@ -3,10 +3,6 @@
     stream: a
     stream_title: Data Protection
     maturity: 1
-    quality_criteria:
-        - You have identified the data elements processed and stored by each application
-        - You have determined the type and sensitivity level of each identified data element
-        - You have controls to prevent propagation of unsanitized sensitive data from production environments to lower environments
 
     answers:
         - A:
@@ -22,16 +18,16 @@
             answer: 'Yes, for most or all of the applications'
             weight: 1
 
+    quality_criteria:
+        - You have identified the data elements processed and stored by each application
+        - You have determined the type and sensitivity level of each identified data element
+        - You have controls to prevent propagation of unsanitized sensitive data from production environments to lower environments
+
 - Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?:
     security_practice: Operational Management
     stream: a
     stream_title: Data Protection
     maturity: 2
-    quality_criteria:
-        - The data catalog is stored in an accessible location
-        - You have identified data elements subject to specific regulation
-        - You have controls for protecting and preserving data throughout their lifetime
-        - You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends
 
     answers:
         - A:
@@ -46,16 +42,18 @@
         - D:
             answer: 'Yes, for most or all of our data'
             weight: 1
+    
+    quality_criteria:
+        - The data catalog is stored in an accessible location
+        - You have identified data elements subject to specific regulation
+        - You have controls for protecting and preserving data throughout their lifetime
+        - You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends
 
 - Do you regularly review and update the data catalog and your data protection policies and procedures?:
     security_practice: Operational Management
     stream: a
     stream_title: Data Protection
     maturity: 3
-    quality_criteria:
-        - You have automated monitoring to detect attempted or actual violations of the Data Protection Policy
-        - You have tools for data loss prevention, access control and tracking, or anomalous behavior detection
-        - You periodically audit the operation of automated mechanisms, including backups and record deletions
 
     answers:
         - A:
@@ -70,6 +68,11 @@
         - D:
             answer: 'Yes, we do it at least annually'
             weight: 1
+    
+    quality_criteria:
+        - You have automated monitoring to detect attempted or actual violations of the Data Protection Policy
+        - You have tools for data loss prevention, access control and tracking, or anomalous behavior detection
+        - You periodically audit the operation of automated mechanisms, including backups and record deletions
 
 - Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?:
     security_practice: Operational Management

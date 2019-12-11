@@ -3,9 +3,6 @@
     stream: a
     stream_title: Scalable Baseline
     maturity: 1
-    quality_criteria:
-        - Inputs for security tests are dynamically generated using automated tools.
-        - The security testing tools are chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
 
     answers:
         - A:
@@ -20,16 +17,16 @@
         - D:
             answer: 'Yes, most or all of them'
             weight: 1
+
+    quality_criteria:
+        - Inputs for security tests are dynamically generated using automated tools.
+        - The security testing tools are chosen to fit the organization's architecture and technology stack, and balances depth and accuracy of inspection with usability of findings to the organization.
 
 - Do you verify business logic with automated security tests, created from application security requirements?:
     security_practice: Security Testing
     stream: a
     stream_title: Scalable Baseline
     maturity: 2
-    quality_criteria:
-        - Tests are specifically customized for software interfaces in the project.
-        - Tests and the security requirements they verify are expressed in a structured format, such as a DSL.
-        - Tests include organization-specific technical standards and compliance concerns.
 
     answers:
         - A:
@@ -44,15 +41,17 @@
         - D:
             answer: 'Yes, most or all of them'
             weight: 1
+    
+    quality_criteria:
+        - Tests are specifically customized for software interfaces in the project.
+        - Tests and the security requirements they verify are expressed in a structured format, such as a DSL.
+        - Tests include organization-specific technical standards and compliance concerns.
 
 - Do you integrate automated security testing into the build and deploy process?:
     security_practice: Security Testing
     stream: a
     stream_title: Scalable Baseline
     maturity: 3
-    quality_criteria:
-        - Test results are tracked and reviewed by management and business stakeholders throughout the development cycle
-        - Tests results are merged into a central dashboard and fed into defect management.
 
     answers:
         - A:
@@ -67,6 +66,10 @@
         - D:
             answer: 'Yes, most or all of them'
             weight: 1
+    
+    quality_criteria:
+        - Test results are tracked and reviewed by management and business stakeholders throughout the development cycle
+        - Tests results are merged into a central dashboard and fed into defect management.
 
 - Do you manually review the security quality of selected high-risk components?:
     security_practice: Security Testing

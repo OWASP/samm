@@ -3,35 +3,32 @@
     stream: a
     stream_title: Build Process
     maturity: 1
+
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: 'Yes, for some applications'
+            weight: 0.25
+        - C:
+            answer: 'Yes, for at least half of the applications'
+            weight: 0.5
+        - D:
+            answer: 'Yes, for most or all of the applications'
+            weight: 1
+
     quality_criteria:
         - You have enough information to recreate the build processes
         - Your build documentation up to date
         - Your build documentation is stored in an accessible location
         - Produced artifact checksums are created during build to support later verification
 
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: 'Yes, for some applications'
-            weight: 0.25
-        - C:
-            answer: 'Yes, for at least half of the applications'
-            weight: 0.5
-        - D:
-            answer: 'Yes, for most or all of the applications'
-            weight: 1
-
 - Is the build process fully automated?:
     security_practice: Secure Build
     stream: a
     stream_title: Build Process
     maturity: 2
-    quality_criteria:
-        - The build process itself doesn't require any human interaction
-        - Your build tools are hardened as per best practice and vendor guidance
-        - You encrypt the secrets required by the build tools and control access based on the principle of least privilege
 
     answers:
         - A:
@@ -46,17 +43,17 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - The build process itself doesn't require any human interaction
+        - Your build tools are hardened as per best practice and vendor guidance
+        - You encrypt the secrets required by the build tools and control access based on the principle of least privilege
 
 - Are automated security checks enforced in your build processes?:
     security_practice: Secure Build
     stream: a
     stream_title: Build Process
     maturity: 3
-    quality_criteria:
-        - Build fails if the application doesn't meet predefined security baseline
-        - You have a maximum accepted severity for vulnerabilties
-        - You log warnings and failures in a centralized system
-        - You regularly (at least once a year) select and configure tools to evaluate each application against its security requirements
 
     answers:
         - A:
@@ -71,6 +68,12 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - Build fails if the application doesn't meet predefined security baseline
+        - You have a maximum accepted severity for vulnerabilties
+        - You log warnings and failures in a centralized system
+        - You regularly (at least once a year) select and configure tools to evaluate each application against its security requirements
 
 - Do you have solid knowledge about dependencies you're relying on?:
     security_practice: Secure Build

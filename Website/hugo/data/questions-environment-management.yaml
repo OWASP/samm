@@ -3,9 +3,6 @@
     stream: a
     stream_title: Configuration Hardening
     maturity: 1
-    quality_criteria:
-        - You have identified the key components in each technology stack used
-        - You have an established configuration standard for each key component
 
     answers:
         - A:
@@ -21,16 +18,15 @@
             answer: 'Yes, for most or all of the applications'
             weight: 1
 
+    quality_criteria:
+        - You have identified the key components in each technology stack used
+        - You have an established configuration standard for each key component
+
 - Do you have hardening baselines for your components?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
     maturity: 2
-    quality_criteria:
-        - There is an owner for each baseline
-        - The owner keeps their assigned baselines up to date
-        - Baselines are stored in an accessible location
-        - Employees responsible for configurations are trained in applying these baselines
 
     answers:
         - A:
@@ -45,14 +41,18 @@
         - D:
             answer: 'Yes, for most or all of the components'
             weight: 1
+    
+    quality_criteria:
+        - There is an owner for each baseline
+        - The owner keeps their assigned baselines up to date
+        - Baselines are stored in an accessible location
+        - Employees responsible for configurations are trained in applying these baselines
 
 - Do you evaluate and track conformity with the hardening baselines?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
     maturity: 3
-    quality_criteria:
-        - You review and update baselines at least annually
 
     answers:
         - A:
@@ -67,6 +67,9 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - You review and update baselines at least annually
 
 - Do you identify and patch vulnerable components?:
     security_practice: Environment Management

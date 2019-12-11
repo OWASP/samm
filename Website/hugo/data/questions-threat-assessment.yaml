@@ -3,11 +3,6 @@
     stream: a
     stream_title: Application Risk Profile
     maturity: 1
-    quality_criteria:
-        - An aggreed-upon risk classification exists
-        - The application team understands the risk classification
-        - The risk classification covers critical aspects of business risks the organization is facing
-        - The organization has an inventory for the applications in scope
 
     answers:
         - A:
@@ -23,16 +18,17 @@
             answer: 'Yes, most or all of them'
             weight: 1
 
+    quality_criteria:
+        - An aggreed-upon risk classification exists
+        - The application team understands the risk classification
+        - The risk classification covers critical aspects of business risks the organization is facing
+        - The organization has an inventory for the applications in scope
+
 - Do you use centralized and quantified application risk profiles to evaluate business risk?:
     security_practice: Threat Assessment
     stream: a
     stream_title: Application Risk Profile
     maturity: 2
-    quality_criteria:
-        - The application risk profile is in line with the organizational risk standard
-        - The application risk profile covers impact to security and privacy
-        - You validate the quality of the risk profile manually and/or automatically
-        - The application risk profiles are stored in a central inventory
 
     answers:
         - A:
@@ -47,15 +43,18 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - The application risk profile is in line with the organizational risk standard
+        - The application risk profile covers impact to security and privacy
+        - You validate the quality of the risk profile manually and/or automatically
+        - The application risk profiles are stored in a central inventory
 
 - Do you regularly review and update the risk profiles for your applications?:
     security_practice: Threat Assessment
     stream: a
     stream_title: Application Risk Profile
     maturity: 3
-    quality_criteria:
-        - The organizational risk standard considers historical feedback to improve the evaluation method
-        - Significant changes in the application or business context trigger a review of the relevant risk profiles
 
     answers:
         - A:
@@ -70,6 +69,10 @@
         - D:
             answer: 'Yes, at least annually'
             weight: 1
+    
+    quality_criteria:
+        - The organizational risk standard considers historical feedback to improve the evaluation method
+        - Significant changes in the application or business context trigger a review of the relevant risk profiles
 
 - Do you evaluate the technical architecture of your applications for potential threats?:
     security_practice: Threat Assessment

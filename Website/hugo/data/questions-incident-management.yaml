@@ -3,10 +3,6 @@
     stream: a
     stream_title: Incident Detection
     maturity: 1
-    quality_criteria:
-        - You have a contact point for the creation of security incidents
-        - You analyze data in accordance with the log data retention periods
-        - The frequency of this analysis is aligned with the criticality of your applications
 
     answers:
         - A:
@@ -22,11 +18,31 @@
             answer: 'Yes, for most or all of the applications'
             weight: 1
 
+    quality_criteria:
+        - You have a contact point for the creation of security incidents
+        - You analyze data in accordance with the log data retention periods
+        - The frequency of this analysis is aligned with the criticality of your applications
+
 - Do you follow a process for incident detection?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
     maturity: 2
+
+    answers:
+        - A:
+            answer: 'No'
+            weight: 0
+        - B:
+            answer: 'Yes, for some applications'
+            weight: 0.25
+        - C:
+            answer: 'Yes, for at least half of the applications'
+            weight: 0.5
+        - D:
+            answer: 'Yes, for most or all of the applications'
+            weight: 1
+    
     quality_criteria:
         - The process has a dedicated owner
         - There is process documentation stored in an accessible location
@@ -34,28 +50,11 @@
         - Employees responsible for incident detection are trained in this process
         - You have a checklist of potential attacks to simplify incident detection
 
-    answers:
-        - A:
-            answer: 'No'
-            weight: 0
-        - B:
-            answer: 'Yes, for some applications'
-            weight: 0.25
-        - C:
-            answer: 'Yes, for at least half of the applications'
-            weight: 0.5
-        - D:
-            answer: 'Yes, for most or all of the applications'
-            weight: 1
-
 - Do you review and update the incident detection process regularly?:
     security_practice: Incident Management
     stream: a
     stream_title: Incident Detection
     maturity: 3
-    quality_criteria:
-        - You perform reviews at least annually
-        - You update the checklist of potential attacks with external and internal data
 
     answers:
         - A:
@@ -70,6 +69,10 @@
         - D:
             answer: 'Yes, for most or all of the applications'
             weight: 1
+    
+    quality_criteria:
+        - You perform reviews at least annually
+        - You update the checklist of potential attacks with external and internal data
 
 - Do you respond upon detected incidents?:
     security_practice: Incident Management

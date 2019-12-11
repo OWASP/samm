@@ -3,11 +3,6 @@
     stream: a
     stream_title: Create and Promote
     maturity: 1
-    quality_criteria:
-        - You have captured the risk appetite of your organization's executive leadership
-        - Risks have been vetted and approved by the organization's leadership
-        - You have identified the principal business and technical threats to your organization's assets and data
-        - Risks have been documented and are accessible to relevant stakeholders
 
     answers:
         - A:
@@ -23,17 +18,17 @@
             answer: 'Yes, covers risks and opportunities'
             weight: 1
 
+    quality_criteria:
+        - You have captured the risk appetite of your organization's executive leadership
+        - Risks have been vetted and approved by the organization's leadership
+        - You have identified the principal business and technical threats to your organization's assets and data
+        - Risks have been documented and are accessible to relevant stakeholders
+
 - Do you have a strategic plan for application security that is used to make decisions?:
     security_practice: Strategy & Metrics
     stream: a
     stream_title: Create and Promote
     maturity: 2
-    quality_criteria:
-        - The plan reflects the organization's business priorities and risk appetite
-        - The plan includes measurable milestones and a budget
-        - Elements of the plan are consistent with the organization‚Äôs business drivers and risks
-        - The plan lays out a roadmap for achieving strategic and tactical initiatives
-        - You have obtained buy-in from organizational stakeholders, including development teams
 
     answers:
         - A:
@@ -48,17 +43,19 @@
         - D:
             answer: 'Yes, we consult the plan often, and it's aligned with our application security strategy'
             weight: 1
+    
+    quality_criteria:
+        - The plan reflects the organization's business priorities and risk appetite
+        - The plan includes measurable milestones and a budget
+        - Elements of the plan are consistent with the organization‚Äôs business drivers and risks
+        - The plan lays out a roadmap for achieving strategic and tactical initiatives
+        - You have obtained buy-in from organizational stakeholders, including development teams
 
 - Do you regularly review and update the Strategic Plan for Application Security?:
     security_practice: Strategy & Metrics
     stream: a
     stream_title: Create and Promote
     maturity: 3
-    quality_criteria:
-        - You review and update the plan, in response to significant changes in the business environment, the organization, or its risk appetite
-        - Plan update steps include reviewing the plan with all the stakeholders and updating the business drivers and strategies
-        - You adjust the plan and roadmap, based on lessons learned from completed roadmap activities
-        - You publish progress information on roadmap activities, available to all stakeholders, including development teams
 
     answers:
         - A:
@@ -73,6 +70,12 @@
         - D:
             answer: 'Yes, we review it at least annually'
             weight: 1
+    
+    quality_criteria:
+        - You review and update the plan, in response to significant changes in the business environment, the organization, or its risk appetite
+        - Plan update steps include reviewing the plan with all the stakeholders and updating the business drivers and strategies
+        - You adjust the plan and roadmap, based on lessons learned from completed roadmap activities
+        - You publish progress information on roadmap activities, available to all stakeholders, including development teams
 
 - Are you using a set of metrics to measure the effectiveness and efficiency of the application security program across applications?:
     security_practice: Strategy & Metrics
