@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you have a strategic plan for application security that is used to make decisions?
+  Do you have a strategic plan for application security and use it to make decisions?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -26,9 +26,9 @@ order:
 quality:
   - The plan reflects the organization's business priorities and risk appetite
   - The plan includes measurable milestones and a budget
-  - Elements of the plan are consistent with the organization‚Äôs business drivers and risks
-  - The plan lays out a roadmap for achieving strategic and tactical initiatives
-  - You have obtained buy-in from organizational stakeholders, including development teams
+  - The plan is consistent with the organization's business drivers and risks
+  - The plan lays out a roadmap for strategic and tactical initiatives
+  - You have buy-in from stakeholders, including development teams
 
 #Type Classification of the Document
 type: Question
