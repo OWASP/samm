@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you regularly report on adherence to external compliance obligations, and use that information to guide efforts to close compliance gaps?
+  Do you regularly report on adherence to external compliance obligations and use that information to guide efforts to close compliance gaps?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -25,8 +25,8 @@ order:
 #Qualifying Criterion
 quality:
   - You have established, well-defined compliance metrics
-  - You measure and report on applications' compliance metrics following a regular cadence
-  - Stakeholders use the reported compliance status information to identify compliance gaps, and prioritize gap remediation efforts
+  - You measure and report on applications' compliance metrics regularly
+  - Stakeholders use the reported compliance status information to identify compliance gaps and prioritize gap remediation efforts
 
 #Type Classification of the Document
 type: Question
