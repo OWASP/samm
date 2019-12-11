@@ -41,13 +41,13 @@
             answer: 'Yes, we consult the plan before making significant decisions'
             weight: 0.5
         - D:
-            answer: 'Yes, we consult the plan often, and it's aligned with our application security strategy'
+            answer: 'Yes, we consult the plan often, and it is aligned with our application security strategy'
             weight: 1
     
     quality_criteria:
         - The plan reflects the organization's business priorities and risk appetite
         - The plan includes measurable milestones and a budget
-        - Elements of the plan are consistent with the organization‚Äôs business drivers and risks
+        - Elements of the plan are consistent with the organization's business drivers and risks
         - The plan lays out a roadmap for achieving strategic and tactical initiatives
         - You have obtained buy-in from organizational stakeholders, including development teams
 
