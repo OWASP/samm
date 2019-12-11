@@ -24,9 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - KPIs are defined after enough information has been gathered to establish realistic objectives
-  - KPIs have been developed with the buy-in from the leadership and teams responsible for application security
-  - KPIs are documented and available to the application teams, and include actionable tresholds requiring immediate attention in the event KPIs reach levels considered unacceptable
+  - You defined KPIs after gathering enough information to establish realistic objectives
+  - You developed KPIs with the buy-in from the leadership and teams responsible for application security
+  - KPIs are available to the application teams and include acceptability thresholds and guidance in case teams need to take action
   - Success of the application security program is clearly visible based on defined KPIs
 
 #Type Classification of the Document
