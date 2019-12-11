@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Has the organization defined a set of risks by which applications could be prioritized?
+  Do you prioritize applications based on a granular set of risks?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,10 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You have captured the risk appetite of your organization's executive leadership
-  - Risks have been vetted and approved by the organization's leadership
-  - You have identified the principal business and technical threats to your organization's assets and data
-  - Risks have been documented and are accessible to relevant stakeholders
+  - You capture the risk appetite of your organization's executive leadership
+  - The organization's leadership vet and approve the set of risks
+  - You identify the main business and technical threats to your assets and data
+  - You document risks and store them in an accessible location
 
 #Type Classification of the Document
 type: Question
