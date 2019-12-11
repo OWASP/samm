@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Is a standard requirements framework used to streamline the elicitation of security requirements?
+  Do you use a standard requirements framework to streamline the elicitation of security requirements?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,10 +24,10 @@ order:
 
 #Qualifying Criterion
 quality:
-  - An existing security requirements framework is available for project teams.
-  - The framework is categorized by common requirements as well as standards-based requirements.
-  - The framework gives clear guidance on the quality of requirements and formalizes how to describe them.
-  - The framework is adaptable to specific business requirements.
+  - A security requirements framework is available for project teams
+  - The framework is categorized by common requirements and standards-based requirements
+  - The framework gives clear guidance on the quality of requirements and how to describe them
+  - The framework is adaptable to specific business requirements
 
 #Type Classification of the Document
 type: Question
