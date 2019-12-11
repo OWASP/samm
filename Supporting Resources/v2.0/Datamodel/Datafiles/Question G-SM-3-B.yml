@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you influence the Application Security strategy and roadmap based on application security metrics and KPIs?
+  Do you update the Application Security strategy and roadmap based on application security metrics and KPIs?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - KPIs are reviewed regularly (at least yearly) for their efficiency and effectiveness
-  - Majority of the changes to the application security strategy are triggered by KPIs and application security metrics
+  - You review KPIs at least yearly for their efficiency and effectiveness
+  - KPIs and application security metrics trigger most of the changes to the application security strategy
 
 #Type Classification of the Document
 type: Question

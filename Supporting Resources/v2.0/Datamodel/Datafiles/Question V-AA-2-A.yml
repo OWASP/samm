@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you thoroughly review your software architecture regularly using an agreed upon methodology?
+  Do you review your software architecture regularly using an agreed upon methodology?
 
 #Order of this question for the activity (in case there would be multiple)
 order:

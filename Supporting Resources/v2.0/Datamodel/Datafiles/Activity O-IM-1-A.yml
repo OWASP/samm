@@ -30,24 +30,24 @@ shortDescription:
 longDescription: |
   Analyze available log data (e.g., access logs, application logs, infrastructure logs), to detect possible security incidents in accordance with known log data retention periods.
 
-  In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques as you're able. Even a `cron` job, running a simple script to look for suspicious events, is a step forward! 
+  In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques. Even a `cron` job, running a simple script to look for suspicious events, is a step forward! 
 
-  If logs from different sources are sent to a dedicated log aggregation system, it might be a good idea to analyze the logs there and employ basic log correlation principles.
+  If you send logs from different sources to a dedicated log aggregation system, analyze the logs there and employ basic log correlation principles.
 
   Even if you don't have a 24/7 incident detection process, ensure that unavailability of the responsible person (e.g., due to vacation or illness) doesn't significantly impact detection speed or quality.
 
-  Establish and publicize points-of-contact for formal creation of security incidents.
+  Establish and share points of contact for formal creation of security incidents.
 
 #The output of this particular activity
 results:
 
-#The different metrics that can be used to measure the success of the activity
+#The different metrics used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs of implementing the activity  
 costs:
   
-#The (standard) roles involved in the implementation of this activity
+#The roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author

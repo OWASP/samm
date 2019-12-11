@@ -35,7 +35,7 @@ longDescription: |
   * The type or category of the defect, which suggests areas where the development team need further training.
   * The severity of the defect, which can help the team understand the software’s risk exposure.
 
-  Identify and carry out sensible quick win activities which you can derive from the newly acquired knowledge. These might inlcude things like a knowledge sharing session about one particular vulnerability type or carrying out / automating a security scan. 
+  Identify and carry out sensible quick win activities which you can derive from the newly acquired knowledge. These might include things like a knowledge sharing session about one particular vulnerability type or carrying out / automating a security scan. 
 
 #The output of this particular activity
 results:

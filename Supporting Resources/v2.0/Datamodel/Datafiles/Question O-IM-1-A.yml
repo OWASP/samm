@@ -16,7 +16,7 @@ id:
 
 #Text of the question presented to the user
 text: 
-  Do you analyze log data for possible security incidents periodically?
+  Do you analyze log data for security incidents periodically?
 
 #Order of this question for the activity (in case there would be multiple)
 order:

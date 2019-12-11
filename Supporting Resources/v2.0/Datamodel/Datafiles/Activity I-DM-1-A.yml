@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  You have an overview of all known security defects impacting particular applications.
+  You have a view on all known security defects impacting particular applications.
 
 #A one sentence description of the activity
 shortDescription:
@@ -35,7 +35,7 @@ longDescription: |
   * Output from static and dynamic analysis scanning tools
   * Responsible disclosure processes or bug bounties
 
-  Foster a culture of transparency and avoid blaming any teams for introducing security defects. Record and track all security defects in a defined location. This location doesn't necessarily have to centralized for the whole organization, however ensure that you're able to get an overview of all defects affecting a particular application at any single point in time. Define and apply access rules for the tracked security defects to mitigate the risk of leakage and abuse of this information. 
+  Foster a culture of transparency and avoid blaming any teams for introducing or identifying security defects. Record and track all security defects in a defined location. This location doesn't necessarily have to centralized for the whole organization, however ensure that you're able to get an overview of all defects affecting a particular application at any single point in time. Define and apply access rules for the tracked security defects to mitigate the risk of leakage and abuse of this information. 
 
   Introduce at least rudimentary qualitative classificiation of security defects so that you are able to prioritize fixing efforts accordingly. Strive for limiting duplication of information and presence of false positives to increase the trustworthiness of the process.
 

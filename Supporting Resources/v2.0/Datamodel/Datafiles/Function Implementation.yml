@@ -16,9 +16,11 @@ name:
 
 #A multi-paragraph description of the function
 description:
-  Activities within the Implementation function have the most impact on the daily life of developers. The joint goal is to ship reliably working software with minimum defects. 
+  Implementation is focused on the processes and activities related to how an organization builds, deploys and manages software components.  This includes automation, security quality gates, code signing, secrets management, defect management, and seperation of duties.
 
   The Implementation function consists of practices called "Secure Build", "Secure Deployment" and "Defect Management".  
+
+  Activities within the Implementation function have the most impact on the daily life of developers. The joint goal is to ship reliably working software with minimum defects. 
 
 #The color to be used to render the function and its subelements, in Hex RGB
 color:

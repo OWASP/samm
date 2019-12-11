@@ -24,17 +24,18 @@ benefit:
 
 #A one sentence description of the activity
 shortDescription:
-  Establish a formal incident response process, and ensure staff are properly trained in performing their roles. 
+  Establish a formal incident response process and ensure staff are properly trained in performing their roles. 
 
 #A multi-paragraph description of the activity
 longDescription: | 
-  Establish and document the formal security incident response process. Ensure documentation includes information like:
-  - Most probable/common scenarios of security incidents and high-level instructions for handling them. For such scenarios, also use public knowledge about possibly relevant third-party incidents.
-  - Rules for triaging each incident.
-  - Rules for involvement of different stakeholders (including mandatory timeframe to do so, if needed), including senior management, Public Relations, Legal, privacy, Human Resources, external (law enforcement) authorities, and customers.
-  - The process for performing root-cause analysis, and documenting its results.
+  Establish and document the formal security incident response process. Ensure documentation includes information like&#58;
 
-  Ensure a knowledgeable and properly trained incident response team is available, both during and outside of business hours, with clearly understood timelines for action. Keep hardware and software tools up to date and ready for use anytime. Define a war room.
+    * most probable/common scenarios of security incidents and high-level instructions for handling them; for such scenarios, also use public knowledge about possibly relevant third-party incidents
+    * rules for triaging each incident
+    * rules for involvement of different stakeholders including senior management, Public Relations, Legal, privacy, Human Resources, external (law enforcement) authorities, and customers; specify mandatory timeframe to do so, if needed
+    * the process for performing root-cause analysis and documentation of its results
+
+  Ensure a knowledgeable and properly trained incident response team is available both during and outside of business hours. Define timelines for action and a war room. Keep hardware and software tools up to date and ready for use anytime.
 
 #The output of this particular activity
 results:
