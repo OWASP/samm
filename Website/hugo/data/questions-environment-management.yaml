@@ -1,67 +1,73 @@
-- Do you harden configurations for key components across your whole technology stack?:
+- Do you harden configurations for key components of your technology stacks?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
     maturity: 1
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
-    quality_criteria:
-        - You have identified the scope for this activity
-        - You work with public sources to gather recommendations for your configurations
 
-- Do you maintain hardening baselines for your components?:
+    quality_criteria:
+        - You have identified the key components in each technology stack used
+        - You have an established configuration standard for each key component
+
+- Do you have hardening baselines for your components?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
     maturity: 2
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some components
+            answer: 'Yes, for some components'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the components
+            answer: 'Yes, for at least half of the components'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the components
+        - D:
+            answer: 'Yes, for most or all of the components'
             weight: 1
+    
     quality_criteria:
         - There is an owner for each baseline
-        - The owner is responsible for keeping baselines up to date
+        - The owner keeps their assigned baselines up to date
         - Baselines are stored in an accessible location
-        - Employees responsible for configurations are trained in these baselines
+        - Employees responsible for configurations are trained in applying these baselines
 
 - Do you evaluate and track conformity with the hardening baselines?:
     security_practice: Environment Management
     stream: a
     stream_title: Configuration Hardening
     maturity: 3
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
+    
     quality_criteria:
         - You review and update baselines at least annually
 
@@ -75,14 +81,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some components
+            answer: 'Yes, for some components'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the components
+            answer: 'Yes, for at least half of the components'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the components
+        - D:
+            answer: 'Yes, for most or all of the components'
             weight: 1
+
     quality_criteria:
         - You have an up-to-date list of components with versions
         - You review public sources regularly for vulnerabilities related to your components
@@ -97,16 +104,17 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some components
+            answer: 'Yes, for some components'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the components
+            answer: 'Yes, for at least half of the components'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the components
+        - D:
+            answer: 'Yes, for most or all of the components'
             weight: 1
+
     quality_criteria:
-        - The process includes vendor information for 3rd party patches 
+        - The process includes vendor information for third-party patches
         - The process considers external sources to gather information about zero day attacks, and take appropriate risk mitigation steps
         - The process includes guidance with priorities for updates of components
 
@@ -120,14 +128,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some components
+            answer: 'Yes, for some components'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the components
+            answer: 'Yes, for at least half of the components'
             weight: 0.5
-        - S:
-            answer: Yes, for most of the components
+        - D:
+            answer: 'Yes, for most or all of the components'
             weight: 1
+
     quality_criteria:
         - You update the list with components and versions
         - You identify and update missing updates according to existing SLA
