@@ -1,3 +1,8 @@
+---
+title: List of Acronyms and Abbreviations
+weight: 10
+type: security_practice
+---
 # List of Acronyms and Abbreviations
 
 <dl>
@@ -107,8 +112,8 @@
     <dt>RCA</dt>
     <dd>Root Cause Analysis</dd>
 
-    <dt>RDT</dt>
-    <dd>Requirements-Driven Testing (SAMM Practice)</dd>
+    <dt>RT</dt>
+    <dd>Requirements-driven Testing (SAMM Practice)</dd>
 
     <dt>REST</dt>
     <dd>REpresentational State Transfer</dd>

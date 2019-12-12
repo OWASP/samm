@@ -25,10 +25,9 @@ order:
 #Qualifying Criteria
 quality:
   - The data catalog is stored in an accessible location
-  - You identify data elements subject to specific regulation
+  - You have identify data elements subject to specific regulation
   - You have controls for protecting and preserving data throughout its lifetime
   - You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends
-
 
 #Type Classification of the Document
 type: Question
