@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Detect security bugs that would have often been missed by human eyes.
+  Detect security bugs that would have been missed by human eyes.
 
 #A one sentence description of the activity
 shortDescription:
@@ -30,11 +30,9 @@ shortDescription:
 longDescription: |
   During security tests, cover at least a minimum fuzzing for vulnerabilities against the main input parameters of the application.
 
-  Perform fuzzing, sending massive amounts of random data, to the test subject in an attempt to make it crash. Fuzz testing or Fuzzing is a Black Box software testing technique, which consists of finding implementation bugs using automated malformed or semi-malformed data injection.
+  Perform fuzzing, sending random or malformed data to the test subject in an attempt to make it crash. Fuzz testing or Fuzzing is a Black Box software testing technique, which consists of finding implementation bugs using automated malformed or semi-malformed data injection.
 
-  The great advantage of fuzz testing is that the test design is extremely simple, and free of preconceptions about system behavior. The random approach allows this method to find bugs that human eyes would often miss. Plus, when the tested system is totally closed (say, a SIP phone), fuzzing is one of the only means of reviewing its quality.
-
-  Consider the use of automated fuzzing tools and build an application specific dictionary of fuzzing payloads like fault injection patterns, predictable resource locations, and regexes for matching server responses (you can start with open source dictionaries like FuzzDB*)
+  The advantage of fuzz testing is the simplicity of the test design, and its lack of preconceptions about system behavior. The stochastic approach results in bugs that human eyes or structured testing would often miss. It is also one of the few means of assessing the quality of a closed system (such as a SIP phone). The simplicity of fuzzing a target is offset by the difficulty in accurately detecting and triaging crashes. Favour existing fuzzing tools and frameworks to leverage their supporting tooling.
 
 #The output of this particular activity
 results:
