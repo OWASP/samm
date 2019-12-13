@@ -28,15 +28,15 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Use automated static and dynamic security test tools for software, resulting in more efficient security testing and higher quality results. Gradually increase the frequency of security tests and extend code coverage.
+  Use automated static and dynamic security test tools for software, resulting in more efficient security testing and higher quality results. Progressively increase the frequency of security tests and extend code coverage.
 
-  Many security vulnerabilities at the code level are complex to understand and require careful inspection for discovery. However, there are many useful source code analysis tools available to automatically analyze code for bugs and vulnerabilities.
+  Application security testing can be performed statically, by inspecting an application's source code without running it, or dynamically by simply observing the application's behaviour. The former approach is often referred to as Static Application Security Testing (SAST), the latter as Dynamic Application Security Testing (DAST). A hybrid approach, known as Interactive Application Security Testing (IAST), combines advantages of both approaches by dynamically testing automatically instrumented applications, allowing it to accurately monitor's the application's internal state in response to external input.
 
-  To dynamically test for security issues, you need to check a potentially large number of input cases against each software interface. This can make effective security testing using manual test case implementation and execution unwieldy. Use dynamic security test tools to automatically test software, resulting in more efficient security testing and higher quality results.
+  Many security vulnerabilties are very hard to detect without carefully inspecting the source code. While this is ideally performed by expert or peer review, it is a slow and expensive task. Although noisier and frequently less accurate than experts, automated SAST tools are cheaper, much faster, and more consitent than humans. A number of commercial and free tools are able to efficiently detect bugs and vulnerabilities in large code bases.
+   
+  Dynamic testing does not require application source code. It needs a large source of test data however and generating it manually is prohibitive. Many tools exist which automatically generate suitable test data, leading to more efficient security testing and higher quality results. 
 
-  There are both commercial and open-source products available to cover popular programming languages and frameworks. Select an appropriate code analysis solution based on several factors including depth and accuracy of inspection, robustness and accuracy of built-in security test cases, product usability and usage model, expandability and customization features, applicability to the organization’s architecture and technology stacks, quality and usability of findings to the development organization, etc.
-
-  Use input from security-savvy technical staff as well as developers and development managers in the selection process, and review overall results with stakeholders.
+  Select appropriate tools based on several factors, including depth and accuracy of inspection, robustness and accuracy of security test cases, integration with other tools, usage model, etc. When selecting tools, use input from security-savvy technical staff as well as developers and development managers and review overall results with stakeholders.
 
 #The output of this particular activity
 results:
