@@ -43,6 +43,12 @@ type: security_practice
     <dt>DDoS</dt>
     <dd>Distributed Denial of Service</dd>
 
+    <dt>DevOps</dt>
+    <dd>Integrated Development and Operations/dd>
+
+    <dt>DevSecOps</dt>
+    <dd>Integrated Development, Security, and Operations/dd>
+
     <dt>DM</dt>
     <dd>Defect Management (SAMM Practice)</dd>
 
@@ -216,6 +222,9 @@ type: security_practice
 
     <dt>VA</dt>
     <dd>Vulnerability Analysis</dd>
+
+    <dt>VCS</dt>
+    <dd>Version Control System</dd>
 
     <dt>WAF</dt>
     <dd>Web Application Firewall</dd>
