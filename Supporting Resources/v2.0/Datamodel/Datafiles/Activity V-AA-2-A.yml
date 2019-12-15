@@ -16,11 +16,11 @@ id:
 
 #The title of this activity
 title:
-  Security mechanisms are validated and confirmed for internal and external interfaces.
+  Security mechanisms are validated in a structured manner and confirmed for internal and external interfaces following a formalized method.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  This activity validates the security mechanisms on the attack surface of the software and infrastructure architecture.
+  This activity validates the security mechanisms on the attack surface of the software and infrastructure architecture using formalized method and structured validation.
 
 #A one sentence description of the activity
 shortDescription:
@@ -28,7 +28,9 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface. 
+  To ensure consistency of evaluation, all architectural verifications must be similarly structured and leverage a shared, formalized methodology. The security and architecture group can build upon common architectural focus areas and review guidelines from a number of industry standard bodies, such as NIST or CIS, to codify and publish a standardized internal review methodology. Where possible, automatic verification and enforcement of established architectural governance rules should be integrated into the development pipeline to detect deviations or regressions as early as possible.
+
+  For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface and do so in a structured manner. 
 
   The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling, and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided. Review the documented threats and key security objectives, and note any missing or unclear features as findings. Identify and validate the high-risk design decisions made as part of the architecture. Conduct analysis to update the findings based on changes made during the development cycle.
 
