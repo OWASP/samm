@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you regenerate application secrets during deployment?
+  Do you use run-time techniques to maximally control access to application secrets?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -25,8 +25,8 @@ order:
 #Qualifying Criterion
 quality:
   - Secrets are generated and synchronized using a vetted solution
+  - Secrets are different between different application instances
   - Detection of a secret in a configuration file fails the deployment
-  - Any manual access to the generated secrets triggers an alert
 
 #Type Classification of the Document
 type: Question

@@ -28,6 +28,7 @@ quality:
   - Your build documentation up to date
   - Your build documentation is stored in an accessible location
   - Produced artifact checksums are created during build to support later verification
+  - You harden the tools that are used within the build process
 
 #Type Classification of the Document
 type: Question

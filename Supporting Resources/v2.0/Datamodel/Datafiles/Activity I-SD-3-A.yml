@@ -16,7 +16,7 @@ id:
 
 #The title of this activity
 title:
-  Integrity of the code is verified prior to deployment.
+  Integrity of the deployables is verified prior to deployment.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 

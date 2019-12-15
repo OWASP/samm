@@ -16,23 +16,24 @@ id:
 
 #The title of this activity
 title:
-  Files and repositories are checked periodically for secrets that should be protected.
+  Favor run-time mechanisms to work with secrets and improve lifecycle management.
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Risk of leaking production secrets is mitigated by removing all manual interactions and regular regeneration.
+  Risk of leaking production secrets is reduced by limiting their use to run-time only and by regenerating regularly.
 
 #A one sentence description of the activity
 shortDescription:
-  Regenerate secrets dynamically during every deployment using well-hardened process wherever possible. 
+  Use run-time solutions to minimize access to application secrets. Properly manage the secret lifecycle.
 
 #A multi-paragraph description of the activity
 longDescription: 
-  Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly. Alert any manual access to secrets in the production environment. 
+  Whereever possible, rely on on-demand solutions to manage access to the secrets required to execute the application. This is typically achieved by means of a vaulting solution with an query interface that can be used by the application based on a bootstrapping secret.
+  
+  Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance. 
 
-  Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.
+  Ensure that all access to secrets (both reading and writing) is audited and logged in a central infrastructure. 
 
-  Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
 
 #The output of this particular activity
 results:
