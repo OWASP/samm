@@ -45,7 +45,6 @@ Course content should include a range of topics relevant to application security
 Training is mandatory for all employees and contractors involved with software development and includes an auditable sign-off to demonstrate compliance. Consider incorporating innovative ways of delivery (such as gamification) to maximize its effectiveness and combat desensitization.
 
 **References**
-
 - [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)	
 - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
 - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)	
@@ -84,7 +83,6 @@ Training is mandatory for all employees and contractors involved with software d
 information relevant to their work or environments.
 
 **References**
-
 - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
 - [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)	
 - [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)	

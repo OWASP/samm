@@ -24,8 +24,9 @@ order:
 
 #Qualifying Criterion
 quality:
-  - The vendor has a secure SDLC that includes secure build, secure deployment, defect management and incident management that align with those used in your organization.
-  - Compensating controls, such as software composition analysis and independent penetration testing before a major release, are used to verify the solution meets quality and security objectives when standard processes are not available.
+  - The vendor has a secure SDLC that includes secure build, secure deployment, defect management, and incident management that align with those used in your organization
+  - You verify the solution meets quality and security objectives before every major release
+  - When standard verification processes are not available, you use compensating controls such as software composition analysis and independent penetration testing
 
 #Type Classification of the Document
 type: Question

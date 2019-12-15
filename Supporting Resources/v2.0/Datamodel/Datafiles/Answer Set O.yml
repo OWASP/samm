@@ -24,7 +24,7 @@ values:
     weight: 1
     order: 2
   - #highest level
-    text: 'Yes, we consult the plan often, and it''s aligned with our application security strategy'
+    text: 'Yes, we consult the plan often, and it is aligned with our application security strategy'
     value: 1
     weight: 1
     order: 3

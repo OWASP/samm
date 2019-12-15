@@ -1,70 +1,76 @@
 - Has the organization defined a set of risks by which applications could be prioritized?:
     security_practice: Strategy & Metrics
-    stream: A
+    stream: a
     stream_title: Create and Promote
     maturity: 1
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, basic risks
+            answer: 'Yes, basic risks'
             weight: 0.25
         - C:
-            answer: Yes, covers most significant risks
+            answer: 'Yes, covers most significant risks'
             weight: 0.5
         - D:
-            answer: Yes, covers risks and opportunities
+            answer: 'Yes, covers risks and opportunities'
             weight: 1
+
     quality_criteria:
         - You have captured the risk appetite of your organization's executive leadership
         - Risks have been vetted and approved by the organization's leadership
         - You have identified the principal business and technical threats to your organization's assets and data
         - Risks have been documented and are accessible to relevant stakeholders
-        
+
 - Do you have a strategic plan for application security that is used to make decisions?:
     security_practice: Strategy & Metrics
-    stream: A
+    stream: a
     stream_title: Create and Promote
     maturity: 2
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, we review it annually
+            answer: 'Yes, we review it annually'
             weight: 0.25
         - C:
-            answer: Yes, we consult the plan before making significant decisions
+            answer: 'Yes, we consult the plan before making significant decisions'
             weight: 0.5
         - D:
-            answer: Yes, we consult the plan often, and it's aligned with our application security strategy
+            answer: 'Yes, we consult the plan often, and it is aligned with our application security strategy'
             weight: 1
+    
     quality_criteria:
         - The plan reflects the organization's business priorities and risk appetite
         - The plan includes measurable milestones and a budget
-        - Elements of the plan are consistent with the organization’s business drivers and risks
+        - Elements of the plan are consistent with the organization's business drivers and risks
         - The plan lays out a roadmap for achieving strategic and tactical initiatives
         - You have obtained buy-in from organizational stakeholders, including development teams
-        
+
 - Do you regularly review and update the Strategic Plan for Application Security?:
     security_practice: Strategy & Metrics
-    stream: A
+    stream: a
     stream_title: Create and Promote
     maturity: 3
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, we review it every few years
+            answer: 'Yes, but review is ad-hoc'
             weight: 0.25
         - C:
-            answer: Yes, we review it every two years or so
+            answer: 'Yes, we review it every two years or so'
             weight: 0.5
         - D:
-            answer: Yes, we review it at least annually
+            answer: 'Yes, we review it at least annually'
             weight: 1
+    
     quality_criteria:
         - You review and update the plan, in response to significant changes in the business environment, the organization, or its risk appetite
         - Plan update steps include reviewing the plan with all the stakeholders and updating the business drivers and strategies
@@ -73,7 +79,7 @@
 
 - Are you using a set of metrics to measure the effectiveness and efficiency of the application security program across applications?:
     security_practice: Strategy & Metrics
-    stream: B
+    stream: b
     stream_title: Measure and Improve
     maturity: 1
     answers:
@@ -81,23 +87,24 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for one metrics category
+            answer: 'Yes, for one metrics category'
             weight: 0.25
         - C:
-            answer: Yes, for two metrics categories
+            answer: 'Yes, for two metrics categories'
             weight: 0.5
         - D:
-            answer: Yes, for all three metrics categories
+            answer: 'Yes, for all three metrics categories'
             weight: 1
+
     quality_criteria:
         - Each metric is documented and includes a description of the sources, measurement coverage, and an understanding on how the metric can be used to describe or explain application security trends
         - Metrics include measures of Efforts, Results, and the Environment measurement categories
-        - Majority of the metrics are frequently measured, easy or inexpensive to gather, and are expressed as a cardinal number or a percentage 
-        - Metrics are published and are accessible by application security and development teams       
+        - Majority of the metrics are frequently measured, easy or inexpensive to gather, and are expressed as a cardinal number or a percentage
+        - Metrics are published and are accessible by application security and development teams
 
 - Did you define Key Perfomance Indicators (KPI) from available application security metrics?:
     security_practice: Strategy & Metrics
-    stream: B
+    stream: b
     stream_title: Measure and Improve
     maturity: 2
     answers:
@@ -105,24 +112,24 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of them
+            answer: 'Yes, some of them'
             weight: 0.25
         - C:
-            answer: Yes, at least half of them
+            answer: 'Yes, at least half of them'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, most or all of them'
             weight: 1
+
     quality_criteria:
         - KPIs are defined after enough information has been gathered to establish realistic objectives
         - KPIs have been developed with the buy-in from the leadership and teams responsible for application security
         - KPIs are documented and available to the application teams, and include actionable tresholds requiring immediate attention in the event KPIs reach levels considered unacceptable
         - Success of the application security program is clearly visible based on defined KPIs
 
-
 - Do you influence the Application Security strategy and roadmap based on application security metrics and KPIs?:
     security_practice: Strategy & Metrics
-    stream: B
+    stream: b
     stream_title: Measure and Improve
     maturity: 3
     answers:
@@ -130,15 +137,15 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, some of the time
+            answer: 'Yes, some of the time'
             weight: 0.25
         - C:
-            answer: Yes, at least half of the time
+            answer: 'Yes, at least half of the time'
             weight: 0.5
         - D:
-            answer: Yes, the majority of them
+            answer: 'Yes, most or all of the time'
             weight: 1
+
     quality_criteria:
         - KPIs are reviewed regularly (at least yearly) for their efficiency and effectiveness
         - Majority of the changes to the application security strategy are triggered by KPIs and application security metrics
-        

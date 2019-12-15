@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you have a standard set of security requirements, and verification procedures, addressing the organization's external compliance obligations?
+  Do you have a standard set of security requirements and verification procedures addressing the organization's external compliance obligations?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,8 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - You have mapped each external compliance obligation to a well-defined set of application requirements
-  - You have defined verification procedures, including automated tests (when possible), to verify compliance with compliance-related requirements
+  - You map each external compliance obligation to a well-defined set of application requirements
+  - You define verification procedures, including automated tests, to verify compliance with compliance-related requirements
 
 #Type Classification of the Document
 type: Question

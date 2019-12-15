@@ -1,74 +1,84 @@
 - Do you use repeatable deployment processes?:
     security_practice: Secure Deployment
-    stream: A
+    stream: a
     stream_title: Deployment Process
     maturity: 1
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
+
     quality_criteria:
         - You have enough information to run the deployment processes
         - Your deployment documentation up to date
         - Your deployment documentation is accessible to relevant stakeholders
         - You ensure that only defined qualified personnel can trigger a deployment
         - You harden the tools that are used within the deployment process
-- Are deployment processes automated and taking into account security?:
+
+- Are deployment processes automated and employing security checks?:
     security_practice: Secure Deployment
-    stream: A
+    stream: a
     stream_title: Deployment Process
     maturity: 2
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
+    
     quality_criteria:
+        - Deployment processes are automated on all stages
         - Deployment includes automated security testing procedures
         - Responsible staff is alerted with identified vulnerabilities
         - You have logs available for your past deployments for a defined period of time
+
 - Do you consistently validate the integrity of deployed artifacts?:
     security_practice: Secure Deployment
-    stream: A
+    stream: a
     stream_title: Deployment Process
     maturity: 3
+
     answers:
         - A:
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
+    
     quality_criteria:
         - Deployment is prevented or rolled back in case integrity breach is detected
-        - Software without a valid integrity check is not deployed
+        - The verification is done against signatures created during the build time
+        - If checking of signatures is not possible (e.g. externally build software), compensating measures are introduced
 
-- Do you limit access to application secrets according to the need to know principle?:
+- Do you limit access to application secrets according to the least privilege principle?:
     security_practice: Secure Deployment
-    stream: B
+    stream: b
     stream_title: Secret Management
     maturity: 1
     answers:
@@ -76,20 +86,23 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
-    quality_criteria:
-        - You store application secrets protected in a secured location
 
-- Do you minimize permanent storage of secrets in application artifacts, for instance by injecting them into the configuration using an automated process?:
+    quality_criteria:
+        - You store production secrets protected in a secured location
+        - Developers do not have access to production secrets
+        - Production secrets are not available in non-prodcution environments
+
+- Do you inject production secrets into configuration files dynamically?:
     security_practice: Secure Deployment
-    stream: B
+    stream: b
     stream_title: Secret Management
     maturity: 2
     answers:
@@ -97,20 +110,22 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
+
     quality_criteria:
         - Under normal circumstances, no humans access secrets during deployment procedures
         - Any abnormal access to secrets is logged and alerted
+
 - Do you regenerate application secrets during deployment?:
     security_practice: Secure Deployment
-    stream: B
+    stream: b
     stream_title: Secret Management
     maturity: 3
     answers:
@@ -118,15 +133,16 @@
             answer: 'No'
             weight: 0
         - B:
-            answer: Yes, for some applications
+            answer: 'Yes, for some applications'
             weight: 0.25
         - C:
-            answer: Yes, for at least half of the applications
+            answer: 'Yes, for at least half of the applications'
             weight: 0.5
-        - S:
-            answer: Yes, for the majority of applications
+        - D:
+            answer: 'Yes, for most or all of the applications'
             weight: 1
+
     quality_criteria:
         - Secrets are generated and synchronized using a vetted solution
         - Detection of a secret in a configuration file fails the deployment
- 
+        - Any manual access to the generated secrets triggers an alert

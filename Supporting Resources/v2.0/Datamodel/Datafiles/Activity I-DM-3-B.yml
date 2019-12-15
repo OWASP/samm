@@ -16,7 +16,7 @@ id:
 
 #The title of this activity
 title:
-  Use trend analysis to influence changes in the Design and Implementation phase across multiple projects.
+  Use trend analysis to introduce proactive improvements across multiple projects
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
@@ -24,19 +24,20 @@ benefit:
 
 #A one sentence description of the activity
 shortDescription:
-  Contiously improve your security defect management metrics and correlate it with other sources. 
+  Continuously improve your security defect management metrics and correlate it with other sources. 
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Regularly (at least once per year) revisit the defect management metrics you're collecting and compare the effort needed to collect and track these to the expected outcomes. Make knowledgeable decision about removing metrics which consistently don't bring the expected value. Wherever possible, include and automate verification activities for the quality of the collected data and ensure sustainable improvement if any differences are detected.
+  Regularly (at least once per year) revisit the defect management metrics you're collecting and compare the effort needed to collect and track these to the expected outcomes. Make knowledgeable decision about removing metrics which don't deliver the overall expected value. Wherever possible, include and automate verification activities for the quality of the collected data and ensure sustainable improvement if any differences are detected.
 
   Aggregate the data with your threat intelligence and incident management metrics and use the results as input for other initiatives over the whole organization, such as: 
-  - Planning security trainings for various personnel
-  - Improvement of security verification activities for both internally and externally develeoped collected
-  - Supply chain management, e.g. carrying out security audits of partner organizations
-  - Monitoring of attacks against your infrastructure and applications
-  - Investing in security infrastructure or compensating controls
-  - Staffing your security team and setting up the security budget
+
+  * Planning security trainings for various personnel
+  * Improvement of security verification activities for both internally and externally develeoped collected
+  * Supply chain management, e.g. carrying out security audits of partner organizations
+  * Monitoring of attacks against your infrastructure and applications
+  * Investing in security infrastructure or compensating controls
+  * Staffing your security team and setting up the security budget
 
 
 #The output of this particular activity

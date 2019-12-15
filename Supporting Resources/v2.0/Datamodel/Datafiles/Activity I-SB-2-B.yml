@@ -28,9 +28,10 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Evaluate used dependencies and establish a whitelist of acceptable ones approved for use within a project, team, or the wider organization according to a defined set of criteria. If possible, introduce a central repository of approved dependencies that all software must be built from. 
+  Evaluate used dependencies and establish a list of acceptable ones approved for use within a project, team, or the wider organization according to a defined set of criteria. 
+  Introduce a central repository of dependencies that all software can be built from. 
 
-  Review used dependencies regularly to ensure at least that: 
+  Review used dependencies regularly to ensure that: 
   
   * they remain correctly licensed
   * no known and significant vulnerabilities impacting your applications are present
@@ -38,7 +39,7 @@ longDescription: |
   * you are using a current version
   * there is a valid reason to include the dependency
 
-  React timely and appropriately to non-conformities by handling these as defects if sensible. You will most probably need tools to automate some or all of this process, such as analyzing where the dependency is used, or checking whether a newer version is available via a package manager. Consider also using an automated tool to scan for vulnerable dependencies and assign identified issues to the respective development teams. 
+  React timely and appropriately to non-conformities by handling these as defects. Consider using an automated tool to scan for vulnerable dependencies and assign the identified issues to the respective development teams. 
 
 #The output of this particular activity
 results:
