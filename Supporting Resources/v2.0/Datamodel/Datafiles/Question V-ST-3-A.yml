@@ -14,7 +14,7 @@ answerset:
 id:
   009a8fafe5dd41889947a6b2c6769bbe
 
-#One-sentence description of the criterium
+#One-sentence description of the criterion
 text: 
   Do you integrate automated security testing into the build and deploy process?
 
@@ -25,7 +25,7 @@ order:
 #Qualifying Criterion
 quality:
   - Test results are tracked and reviewed by management and business stakeholders throughout the development cycle
-  - Tests results are merged into a central dashboard and fed into defect management.
+  - Test results are merged into a central dashboard and fed into defect management.
 
 #Type Classification of the Document
 type: Question

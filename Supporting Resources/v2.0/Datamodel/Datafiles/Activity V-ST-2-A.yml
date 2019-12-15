@@ -20,7 +20,7 @@ title:
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
-  Improves the efficiency and effectiveness of security testing automation by custumizing them towards the software.
+  Improves the efficiency and effectiveness of security testing automation by customizing them towards the software.
 
 #A one sentence description of the activity
 shortDescription:
@@ -28,11 +28,11 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Project teams and their security and tool champions review security requirements and build a set of automated checkers to test the security of the implemented business logic. They do this through either customization of static and dynamic security testing tools, enhancements to generic test case execution tools, or buildout of custom test harnesses.
+  Project teams and their security and tool champions review security requirements and build a set of automated checkers to test the security of the implemented business logic. They do this through either customization of static and dynamic security testing tools, enhancements to generic test case execution tools, or by extending custom test harnesses.
 
   Customize automated security testing tools to the specific software interfaces in the project under test for improved accuracy and depth of coverage. Codify organization-specific concerns from compliance or technical standards as a reusable, central test battery to make audit data collection and per-project management visibility simpler.
 
-  Project teams focus on buildout of granular security test cases based on the business functionality of their software. A central software security group focuses on specification of automated tests for compliance and internal standards.
+  Project teams focus on improving the number, granularity, and quality of security test cases based on the business functionality of their software. A central software security group focuses on specification of automated tests for compliance and internal standards.
 
 #The output of this particular activity
 results:
@@ -49,7 +49,7 @@ personnel:
 #Internal notes that might help the author
 notes: 
 
-#References to other activities that are prerequesites to implement this one.
+#References to other activities that are prerequisites to implement this one.
 dependencies: 
 
 
