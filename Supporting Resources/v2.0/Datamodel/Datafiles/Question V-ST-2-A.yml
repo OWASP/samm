@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you verify business logic with automated security tests, created from application security requirements?
+  Do you automatically verify business logic with custom-created security tests?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -25,7 +25,7 @@ order:
 #Qualifying Criterion
 quality:
   - Tests are specifically customized for software interfaces in the project.
-  - Tests and the security requirements they verify are expressed in a structured format, such as a DSL.
+  - Tests are expressed in a structured format, such as a DSL.
   - Tests include organization-specific technical standards and compliance concerns.
 
 #Type Classification of the Document
