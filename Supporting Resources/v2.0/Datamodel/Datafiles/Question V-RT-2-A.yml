@@ -26,6 +26,7 @@ order:
 quality:
   - Tests are tailored to each application and assert expected security functionality.
   - Test results are captured as a pass or fail condition
+  - Tests leverage a standardized framework or DSL
 
 #Type Classification of the Document
 type: Question

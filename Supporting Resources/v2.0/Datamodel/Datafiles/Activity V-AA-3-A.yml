@@ -16,7 +16,7 @@ id:
 
 #The title of this activity
 title:
-  Review and eveluate security mechanisms for scalability, strategic alignment and support capabilities and log findings. 
+  Review and eveluate security mechanisms for scalability, strategic alignment and support capabilities. 
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: 
@@ -30,7 +30,7 @@ shortDescription:
 longDescription: |
   Review the effectiveness of the architecture components. Are the architecture security mechanisms well implemented? For each of the application and infrastructure components, review their effectiveness to secure the application.
 
-  Evaluate effectiveness for the security mechanisms provided by the components in terms of identification, protection, detection, response, and recovery of security or privacy issues. Review their effectiveness in terms of strategy alignment, appropriate support, and scalability. Feed any findings back into the Security Architecture practice.
+  Evaluate the effectiveness of the security mechanisms provided by the components in terms of identification, protection, detection, response, and recovery of security or privacy issues. Review their effectiveness in terms of strategy alignment, appropriate support, and scalability. Feed any findings back into the Security Architecture practice.
 
 #The output of this particular activity
 results:

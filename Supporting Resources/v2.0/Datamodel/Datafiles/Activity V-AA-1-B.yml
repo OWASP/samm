@@ -28,7 +28,7 @@ shortDescription:
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Review the architecture against compliance requirements ad hoc. Identify and collect either formally identified or informally known compliance requirements.
+  Review the architecture against compliance requirements ad hoc. Identify and collect either formally identified or informally known compliance requirements. Consider both internal policy requirements, and external regulatory ones. 
 
   Review each item on the list of known compliance requirements against the architecture. Elaborate the analysis to show the design-level features that address each compliance requirement. The overall goal is to verify that each known compliance requirement has been addressed by the system design. Note any compliance requirements that are not clearly provided at the design level as assessment findings.
 

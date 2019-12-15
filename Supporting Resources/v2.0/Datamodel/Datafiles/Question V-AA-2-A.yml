@@ -26,8 +26,9 @@ order:
 quality:
   - Your process and template for reviewing software architectures is aligned with your organization’s risk tolerance
   - You verify the architecture meets all the defined security requirements
-  - You verify every component is protected by the expected security controls (e.g., authentication, authorization, logging)
-  - You log missing security controls as defects
+  - You document the context of all design decisions which impact security
+  - You verify every component is protected by the expected security mechanisms (e.g., authentication, authorization, logging)
+  - You log missing security mechanisms as defects
 
 #Type Classification of the Document
 type: Question
