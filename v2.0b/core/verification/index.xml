@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verification on OWASP SAMM</title>
+    <link>https://owaspsamm.org/v2.0b/core/verification/</link>
+    <description>Recent content in Verification on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/v2.0b/core/verification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Architecture Assessment</title>
+      <link>https://owaspsamm.org/v2.0b/core/verification/v-architecture-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/verification/v-architecture-assessment/</guid>
+      <description>Short Description Validate the security and compliance of the software and supporting infrastructure architecture.
+Long Description Validate the security of the software and supporting infrastructure architecture. Identify application and infrastructure architecture components. For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Iterate through the list of security mechanisms and analyze the system for their provision.
+Validate the software and supporting infrastructure architecture against known security requirements, compliance goals and best practices.</description>
+    </item>
+    
+    <item>
+      <title>Requirements Driven Testing</title>
+      <link>https://owaspsamm.org/v2.0b/core/verification/v-requirements-driven-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/verification/v-requirements-driven-testing/</guid>
+      <description>Short Description Create and integrate both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).
+Long Description Conduct positive and negative security tests to verify that the software operates as expected. At a minimum, this means both testing the correct functioning of the standard software security controls, and fuzzing for vulnerabilities against the main input parameters of the application.
+From the known security requirements, identify and implement a set of security test cases to check the software for correct functionality.</description>
+    </item>
+    
+    <item>
+      <title>Security Testing</title>
+      <link>https://owaspsamm.org/v2.0b/core/verification/v-security-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v2.0b/core/verification/v-security-testing/</guid>
+      <description>Short Description The development team detects and fixes basic security issues through automation, allowing manual testing to focus on more complex attack vectors.
+Long Description With manual and automated security tests, projects within the organization routinely run security tests and review results during development and deployment. They detect and fix basic security issues through scalable automation, where manual security testing focuses on more complex attack vectors with deeper understanding of the software.</description>
+    </item>
+    
+  </channel>
+</rss>

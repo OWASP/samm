@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title> - OWASP SAMM</title>
+  
+  <meta name="description" content="SAMM Agile notes - introduction By Rob van der Veer (Software Improvement Group) with the help of many peers and clients.
+r.vanderveer@sig.eu
+Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
+Media
+ Talk at GlobalAppsec Amsterdam 2019
+ Slides
+ This document on the SAMM website
+  Why SAMM Agile notes?">
+  <meta name="author" content="">
+  
+  <link href="/semantic/semantic.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,600,600i,800,800i" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" data-no-instant></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127457120-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127457120-1');
+  </script>
+</head>
+<body class="single">
+  <div class="headerback">
+
+    
+
+    <header class="ui massive text menu">
+      <a class="header item" href="/">
+        OWASP SAMM
+      </a>
+      <div class="right menu">
+        
+        <a class="item" href="/summit2019">Open Security Summit 2019</a>
+        
+        <a class="item" href="/events">Events</a>
+        
+        <a class="item" href="/v1-5/downloads/">v1.5</a>
+        
+        <a class="item" href="/v2.0b/introduction/">v2.0 Beta</a>
+        
+        <a class="item" href="/sponsors">Sponsors</a>
+        
+      </div>
+    </header>
+  </div>
+
+  
+
+  <div id="a50pxspacer"></div>
+
+
+
+
+
+<article class="post post-view">
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+    <p class="post-meta">0001.1.1</p>
+  </header>
+  <div class="post-content">
+
+<h1 id="samm-agile-notes-introduction">SAMM Agile notes - introduction</h1>
+
+<p>By Rob van der Veer (Software Improvement Group) with the help of many peers and clients.</p>
+
+<p>r.vanderveer@sig.eu</p>
+
+<p>Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.</p>
+
+<p><strong>Media</strong></p>
+
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=ati80YcVJy8">Talk at GlobalAppsec Amsterdam 2019</a></p></li>
+
+<li><p><a href="https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/20190926-AppsecTalk-SAMMagileNotes.pdf?raw=1">Slides</a></p></li>
+
+<li><p><a href="https://owaspsamm.org/head/agile-guidance/agilenotes/">This document on the SAMM website</a></p></li>
+</ul>
+
+<p><strong>Why SAMM Agile notes?</strong></p>
+
+<p>The Software Assurance Maturity Model (SAMM) is an open guide to building security into software development. See <a href="https://owaspsamm.org/">SAMM website</a>
+SAMM is OWASP&rsquo;s flagship project on how to setup and grow a secure development process. It aims to be agnostic of the type of development approach, which is why Agile was not covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modelling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?</p>
+
+<p>There are three main reasons for these Agile notes:</p>
+
+<ol>
+<li>They provide specifics on how the activity is (slightly) different for Agile, on the same detail level as the core model</li>
+<li>Additionally they provide more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what to watch out for. Many mistakes are made in practice when doing security, especially in Agile situations.</li>
+<li>They prevent some readers from believing SAMM is ‘too much waterfall’. This is mainly a language thing.</li>
+</ol>
+
+<p><strong>History</strong></p>
+
+<p>Since April 2018, Rob van der Veer has been working on extending SAMM with such guidance, in collaboration with the SAMM working group, industry peers and clients. These peers notably include Michael Kuipers (Centric) and Eric Nieuwland (ICTU). The Agile notes were developed by studying many organisations  on what works and what doesn&rsquo;t work, by doing interviews and by looking into the many publications on this topic.</p>
+
+<p><strong>Deliverable</strong></p>
+
+<p>Just to imagine what these notes would look like:  in the 2.0 core PDF, these notes could for example be presented in rectangles marked ‘Agile note’ and then contain the note text. That way they are not part of the method-agnostic core text but at the same time they provide information that can easily be found or skipped.</p>
+
+<h1 id="the-samm-agile-notes">The SAMM Agile notes</h1>
+
+<h2 id="topic-general">Topic: General</h2>
+
+<h3 id="quality-at-speed">Quality at speed:</h3>
+
+<p>How to attain quality at speed? Agile delivers software more frequently, which means that quality assurance is a more frequent issue. Traditionally, quality assurance has been a carefully designed single phase in software development. The challenge is to make it less bureaucratic, take less time and still get quality software. To make this feasible, mistakes need to be both prevented (build security in) and fought (find mistakes) with maximum efficiency, so to minimize manual work and the burden on developers:</p>
+
+<p><strong>Prevent:</strong></p>
+
+<ul>
+<li>Use solid technologies/frameworks/components that take care of as much security as possible</li>
+<li>The remaining requirements are clear and applied situationally as much as possible, so to reduce the number of requirements that need to be dealt with all the time</li>
+<li>Responsibility and understanding of security principles with all people involved, including the product owner</li>
+<li>Feasible and therefore situational instructions for developers. No stacks of books but clear short lists, selecting requirements based on the specific task at hand</li>
+<li>Good changeability of code (maintainability) to minimize errors</li>
+</ul>
+
+<p><strong>Fight:</strong></p>
+
+<ul>
+<li>By checks that need to be automated as much as possible</li>
+<li>Manual checking will still be required and needs to be performed in a smart incremental and risk-based way, focusing only on changes and their impact.</li>
+</ul>
+
+<p>The Agile notes provide insight into how to make this happen.</p>
+
+<h3 id="does-a-maturity-model-conflict-with-agile">Does a maturity model conflict with Agile?</h3>
+
+<p>A maturity model may appear to conflict with the Agile manifesto, because Agile holds people over process and working software over documentation. However, Agile does not disqualify process or documentation - it wants to minimize it where possible. To make this happen, a maturity model can provide tremendous help and it supports the Agile way of improving the way you work by learning as you go along.</p>
+
+<h2 id="topics-strategy-metrics-education-guidance-organization-culture">Topics: Strategy &amp; Metrics / Education &amp; Guidance - Organization &amp; culture</h2>
+
+<h3 id="team-autonomy">Team autonomy</h3>
+
+<p>In most Agile environments, team autonomy is important, which means that it can be a challenge to work on process maturity on an organization-wide scale. If team-autonomy is important, then a maturity program should embrace that different teams can have different maturities and different ways of working, including security. At the same time it is advisable to let teams learn from each other, so sharing of practices between teams is a best practice for maturity programs, as well as transparency on maturity which nurtures gamification.”</p>
+
+<h3 id="security-is-a-shared-responsibility">Security is a shared responsibility</h3>
+
+<p>In an Agile environment security needs to be built in from the start. There is no time every sprint for the approach of building features without worrying too much about security, then do security testing and then fix the weaknesses. First of all, this would require undirected full testing every time and it would require much rework, leading to a situation where the product owner and development team are fighting it out with the security team. Therefore, security needs to be owned by everyone including the product owner. This puts security professionals much more in an advisory and supportive role than in a role of a quality gate that has different stakes than the team. By including security in the discussions and in the planning, there’s no room left to ignore it.</p>
+
+<p>While maturing secure software development, at some point there can be a bottleneck dependency on security expertise, which is why it’s important to strive for team autonomy and promote team members learning from security experts. This way, together with streamlining the process and automation, security becomes scalable.</p>
+
+<p>PITFALL #isolatedsecurity: In some organisations, security is unfortunately organized so that the ‘security department’ verifies the software and then needs to convince the ‘business’ to fix the issues found. This is typically the case when business value is measured in the number of features and security is seen as a cost center, instead of a necessary quality to prevent damage and protect the business value. If product demos are a regular practice, it helps to show what has been done for security, next to the ‘business features’. That way stakeholders and developers experience the importance.</p>
+
+<h3 id="metrics">Metrics</h3>
+
+<p>In Agile, feedback loops are short and verification is frequent. You cannot control what you don’t measure, so in order to put security on the agenda and to improve maturity and quality of results, it is beneficial to measure those aspects. Ideally these measurements are presented in one or a series of dashboards which a central security team together with management can use to drive important decisions.</p>
+
+<h2 id="topic-threat-assessment">Topic: Threat assessment</h2>
+
+<h3 id="incremental-threat-modelling">Incremental threat modelling</h3>
+
+<p>Even though the Agile manifesto states “working software is more important than comprehensive documentation”, the concept of a threat model should not be dismissed. First of all, a threat model provides a shared mental model of possible attacks in a development team which decreases the probability of security mistakes. Second of all, a threat model can be helpful in selecting the right requirements: system-generic and story-specific (see “Requirements in stories” and “Selecting and preparing requirements”).</p>
+
+<p>The entire threat modelling process doesn’t have to be done all over again every time. It can be done incrementally as the software evolves, by assessing for every new story whether it introduces a new component, process, dataflow or trust boundary. If it does, it can be helpful to extend the existing threat model and identify the new threats and their countermeasures (in the form of functional security stories or requirements for the new story). If the threat model is an important method for the team to build security in, then the system threat model should occasionally be completely reworked, as mistakes tend to build up, incremental change after incremental change.</p>
+
+<p>When applied incrementally, a lightweight version of the four steps can be used, based on the main questions: what are we doing, what can go wrong, what are we doing to defend against threats, and validation of previous steps.</p>
+
+<p>Involving the product owner is recommended to get a fast reality check regarding domain context, economical sensibility of the measures, and to nurture the combined sense of security ownership.</p>
+
+<p>PITFALL #onlythreatmodel: Threat modelling should not be relied on as the only way to build security in. It’s typically hard for developers and for QA people to think like attackers and come up with all the things that could go wrong and all the necessary countermeasures. This is why it’s so important to have security requirements readily available to be selected when specific types of work are done (See “Selecting and preparing requirements”). This hardening approach to security (security hygiene, if you will) nicely complements the risk-based approach of threat modelling as another perspective to see how security needs to be built in. The team can let the amount (effort and frequency) of threat modelling depend on how much they trust the other methods of applying security requirements.</p>
+
+<h2 id="topics-security-requirements-policy-compliance-security-architecture">Topics: Security requirements, Policy&amp;compliance, Security architecture</h2>
+
+<h3 id="selecting-and-preparing-requirements">Selecting and preparing requirements</h3>
+
+<p>In an Agile process, some requirements need to be selected and tested for every sprint. In order to make this feasible, we need processes to select and prepare relevant requirements 1) per system and 2) per story. The goal is to make the story-process efficient and provide a minimized set of relevant requirements for each situation, including instructions for developers and test plans.</p>
+
+<p><strong>1) Per system</strong></p>
+
+<p>Before development starts, requirements can be selected from the set of standard requirements, which are typically established on an organization level - taking into account industry standards and compliance. This selection process is based on the context of the software (domain, role, risks technology choices, run-time environment) and needs revisiting when this context changes. Risk analysis is a typical part of this process.
+Per non-functional requirement, the following options exist in the selection and preparation:</p>
+
+<ul>
+<li>Not applicable in the context</li>
+<li>Applicable but risk accepted</li>
+<li>Covered by the technology used (e.g. framework/library providing for example input validation)</li>
+<li>Needs system-generic or story-specific instructions X and tests A, B, C (e.g. automated static scan, automated dynamic test, manual test, code review, or a combination). For story-specific requirements, the criteria need to be described when it is applicable - the so-called trigger.</li>
+</ul>
+
+<p>After this selection and preparation, system-generic requirements are referred from the Definition Of Done, whereas story-specific requirements are made available in a pick list, grouped by the triggers, that allow later selection of the right requirements depending on the type of work being done in a story. Picked story-specific requirements become part of a story’s Acceptance criteria in the form of instructions for developers and tests to be performed.
+The prepared and selected requirements can also function as input to a training program.</p>
+
+<p>To summarize: the deliverables of the per system selection and preparation are:</p>
+
+<ol>
+<li>A pick list of requirements that need to be applied situationally, per story, based on triggers</li>
+<li>A Definition Of Done, with a list of requirements that always need to be applied</li>
+<li>A selection of above requirements that need to be included in developer training</li>
+<li>A list of requirements that were deemed not applicable or acceptable risks (which can be based on balancing security with effort or compromises in usability/performance etc.)</li>
+</ol>
+
+<p>Each requirement has a short name or number, a description of the risk, instructions for developers, automated tests and instructions for testers/reviewers.</p>
+
+<p><strong>2) Per story</strong></p>
+
+<p>Picking specific requirements for a story is done during creation of the story and during backlog refinement, if necessary with the help of a security expert. There are different ways to pick the requirements:</p>
+
+<ul>
+<li>Using triggers from the pick list: in case requirements are prepared with ‘triggers’ these can be used to determine whether requirements fit the story.</li>
+<li>Using expertise: security expertise can help to efficiently select the proper requirements for a story.</li>
+<li>Using abuse stories (how the system can be attacked): they can help to identify weaknesses and thus link to the right requirements.</li>
+<li>If the methods above provide insufficient confidence: use threat modelling.</li>
+</ul>
+
+<p><strong>Triggers</strong> are, in other words, descriptions of functionality or architecture that need specific sets of requirements. For example: “user forms” (for requirements on validating user input), “session” (for requirements on tokens, time-out etc), or “storing passwords” (for requirements on hashing).</p>
+
+<p>The requirements are put into the acceptance criteria of the story. This informs developers what should be taken into account to plan and perform the work, and adds to the necessary tests.</p>
+
+<p><strong>Instructions</strong></p>
+
+<p>Requirements contain rules that the software needs to comply with. These rules are not ideal as instructions for the developers. It helps to have separate instructions in which criteria that are expected to be known are left out, and other criteria are phrased from a developer point of view. The goal is to have a small and manageable set of instructions for the developers to take into account. As a result, some requirements might even have no instructions at all, while they still have tests. This is the case where the organization relies on the developer knowledge on the specific matter.</p>
+
+<p>See the diagram below for an overview of the software development process and the flow of requirements. <img src="https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/SAMMAgileRequirementsProcess.png?raw=true" alt="SAMM Agile requirements process" /></p>
+
+<p>PITFALL #requirementoverload: Having too many requirements can be too much to ask for developers to constantly be aware of, and can be too much effort to test every time. The goal is therefore to cover as many requirements as possible by the technology/architecture used and aim to have as much requirements as possible depend on the type of work in a story.</p>
+
+<p>PITFALL #forgettheframework: Frameworks and libraries can cover part of the security requirements and therefore it should not be forgotten to ensure that these frameworks and libraries are being used. Often, developers can easily work their way around existing facilities, whether on purpose or by neglect. In other words: the proper application of frameworks and libraries should be either technically enforced or part of specific or generic test procedures.</p>
+
+<p>PITFALL #abuseCOS: In case a team works with the “conditions of satisfaction” these should not be used for security requirements because these are typically about functional behavior. Furthermore, story-specific requirements should not be in the Definition Of Done either - because these are user story independent.</p>
+
+<p>PITFALL #onlythreatmodelling: Threat modelling should not be relied on as the only way to build security in. It’s typically hard for developers and testers to think like attackers and come up with all the things that could go wrong and all the necessary counter measures. This is why it’s so important to have security requirements readily available to be selected when specific types of work are done. This hardening approach to security (security hygiene, if you will) nicely complements the risk-based approach of threat modelling as another perspective to see how security needs to be built in. The team can let the amount (effort and frequency) of threat modelling depend on how much they trust the other methods of applying security requirements.</p>
+
+<h3 id="requirements-in-stories">Requirements in stories</h3>
+
+<p>See also: “Selecting and preparing requirements”.
+Stories need to be equipped with the relevant non-functional requirements, to be put in the acceptance criteria of the story, based on the type of work expected. This informs developers what should be taken into account, it adds to the necessary tests and it provides the information necessary to plan the work.
+Equipping the stories is done during creation of the story and during backlog refinement, if necessary with the help of a security expert if developers have difficulty with this. There are different ways to collect the requirements:</p>
+
+<ul>
+<li>Using triggers: in case requirements in a pick list are prepared with ‘triggers’, these can be used to identify if requirements fit the story (for example when storing passwords: apply specific hashing)</li>
+<li>Using expertise: security expertise can help to efficiently select the proper requirements with a story</li>
+<li>Using abuse stories (how the system can be attacked): they can help to identify weaknesses and thus link to the right requirements</li>
+<li>Using threat modelling exercises (see “Incremental threat modelling)</li>
+</ul>
+
+<p>PITFALL #skipsecurityrequirements: The key to Agile security is to apply the right requirements at the right time. If stories don’t mention security requirements, it is much easier to forget them, also because no time was planned for them.</p>
+
+<p>PITFALL #pickduringplanning: Picking requirements should be done during either creation of the story or backlog refinements. Doing this during sprint planning is not recommended because all the time will be needed to plan.</p>
+
+<h3 id="abuse-stories">Abuse Stories</h3>
+
+<p>An Abuse story (or evil story) is a description from the perspective of an attacker (as supposed to a user), how a system is abused through a security weakness: “As an attacker…”. It is normally not added on a sprint backlog because it does not describe specific development work that can be planned. The purpose of an abuse story is to help the team think about what could go wrong so they can specify the work/the requirements needed in user stories. The form of the abuse story is helpful because developers are familiar with user stories.
+Abuse stories are advantageous mostly in the beginning of development. Abuse stories can be helpful as explanation of certain security tests, explaining for example to a pentester against what threats a specific requirement needs to be tested.</p>
+
+<p>PITFALL #abusestorygalore: Abuse stories should not be the only method to find security requirements (see “Requirements in stories”). Requirements can also be added by applying triggers, expertise and by using triggers, allowing more direct and efficient selection instead of first having to think about what could go wrong.</p>
+
+<h2 id="topics-security-testing-requirements-driven-testing">Topics: Security testing &amp; Requirements driven testing</h2>
+
+<h3 id="agile-testing">Agile testing</h3>
+
+<p>In Agile, testing happens more frequently and typically covers the same parts of a system over and over again, which is why it is important to automate testing as much as possible and to limit manual testing based on the changes made.</p>
+
+<p>Security test automation can be done by programming tests on unit and integration level, and by deploying test tools. Important test tool categories are dependency check tools (SCA), dynamic application security test tools (DAST), static analysis tools (SAST). The output of SAST and dependency tools typically contain many false positives that need to be manually checked.</p>
+
+<p>Not all testing can be automated. For example, SAST tools are limited to certain categories of issues in code. The necessary time-consuming manual testing can be minimized by basing it on the expected effects of the changes. For code review this means that review needs to focus on changed and added code only and therefore requires a structured approach and administration. For manual pentesting this means that the testing should focus on the behavior that is likely to be affected by the changes made.  Because the behavioral effect of changes is hard to predict, mistakes may be made in limiting the pentest, which is why it is recommended to do a complete penetration test when the risk of such a mistake is deemed high.</p>
+
+<p>The need for change-based selection of tests shows that especially for Agile it is important to have a modular system, in which modules can be tested separately and there is limited propagation of changes. In an Agile environment there typically is not a budget for in depth expert manual review and testing after every sprint. This means that in release planning it should be taken into account when such manual work is expected to be necessary, so it can be prepared and planned.</p>
+
+<p>A best practice in Agile is to have QA competence in the development team - this needs to include security testing competence.</p>
+
+<p>PITFALL #skipmanualtest: Automation alone will typically not do the trick. Both expert code review and manual pentest should be part of any software quality assurance.</p>
+
+<p>PITFALL #latepentest: the classic penetration test pitfall is performing it late, just before a public release: when rework is the most expensive and time is the shortest.</p>
+
+<h2 id="topic-education-guidance-organization-and-culture">Topic: Education &amp; guidance - organization and culture</h2>
+
+<h3 id="retrospectives">Retrospectives</h3>
+
+<p>Security ought to be a standard topic in both refinements and retrospectives. Over time, teams learn which security concerns took much effort/are underestimated. That experience makes planning more precise and predictable. A security specialist (which could be the security champion) can be of tremendous help during these sessions to fill in the details and knowledge gaps.</p>
+
+<h3 id="security-champions">Security Champions</h3>
+
+<p>A security champion is a liaison between developers in a team and information security. They act as a point of contact for security related questions and try to remove any impediments preventing the team to be able to develop software securely. Because of continuous collaboration in Agile, this role is very important.</p>
+
+<p>PITFALL #relyonthechampion: care should be taken to ensure that security is not delegated as a responsibility to a single developer. The champion can be responsible to help where possible, but that should not relieve the team of security concerns.</p>
+
+<p>PITFALL #silentchampion: regarding selecting the right champion: the ability and the mandate of the champion to communicate and learn should be more important aspects than technical knowledge.</p>
+</div>
+  <footer class="post-footer">
+    
+  </footer>
+  
+  
+  
+  
+</article>
+
+
+
+
+
+<div class="footerback">
+  <div class="ui hidden divider"></div>
+  <div class="ui container footer">
+</div>
+
+
+  <div class="ui hidden divider"></div>
+  <footer class="ui container footer">
+    <div class="ui stackable grid">
+      <div class="ui three wide column center aligned">
+        <i class="huge inbox icon"></i>
+      </div>
+      <div class="ui thirteen wide column">
+        <div class="content">
+          <h3 class="ui header">Get SAMM project news in your e-mail. Subscribe <a href="https://eepurl.com/gl9fb9">here</a></h3>
+        </div>
+      </div>
+    </div>
+    <div class="ui stackable grid">
+      <div class="ui three wide column">
+        <a href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.svg" /></a>
+      </div>
+      <div class="ui thirteen wide column">
+        <h3 class="ui header">This is an OWASP Project</h3>
+        <p>OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <a href="https://www.owasp.org/">https://www.owasp.org/</a>.</p>
+      </div>
+    </div>
+    <div class="ui stackable grid">
+      <div class="ui three wide column">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+      </div>
+      <div class="ui thirteen wide column">
+        <h3 class="ui header">CC BY-SA 4.0</h3>
+        <p>This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="/js/semantic.min.js" data-no-instant></script>
+<script src="/js/jquery.peity.min.js" data-no-instant></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.donut').peity('donut');
+    $('.ui.accordion').accordion();
+  });
+</script>
+
+
+
+
+</body>
+</html>

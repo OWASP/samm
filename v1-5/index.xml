@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAMM 1.5 on OWASP SAMM</title>
+    <link>https://owaspsamm.org/v1-5/</link>
+    <description>Recent content in SAMM 1.5 on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/v1-5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Downloads</title>
+      <link>https://owaspsamm.org/v1-5/downloads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/v1-5/downloads/</guid>
+      <description>  Core Model    How-To Guide    Quick Start Guide     See also:
+ SAMM 1.5 Assessment Toolbox SAMM 1.5 Assessment Toolbox Example SAMM Project Wiki Page  </description>
+    </item>
+    
+  </channel>
+</rss>
