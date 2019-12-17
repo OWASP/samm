@@ -9,8 +9,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
+    - uses: actions/checkout@v2
     - name: Checkout submodules
-      uses: actions/checkout@v2
       shell: bash
       run: |
         auth_header="$(git config --local --get http.https://github.com/.extraheader)"
