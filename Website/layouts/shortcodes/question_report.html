@@ -1,0 +1,80 @@
+{{  range $key, $value := .Site.Data.question }}
+    {{ $.Scratch.Add "questions" $value }}
+{{ end }}
+
+{{ $.Scratch.Set "activityCount" 0 }}
+
+{{ range $key, $value := ( $.Scratch.Get "questions" ) }}
+    {{ range $question, $properties := $value }}
+      {{ if not (in ($.Scratch.Get "spIndexes") $properties.security_practice ) }}
+        {{ $.Scratch.Add "spIndexes" (slice $properties.security_practice) }}
+      {{ end }}
+      {{ if not (in ($.Scratch.Get ( print $properties.security_practice " Index")) (print $properties.security_practice " Stream " $properties.stream) ) }}
+        {{ $.Scratch.Add (print $properties.security_practice " Index") (slice (print $properties.security_practice " Stream " $properties.stream)) }}
+      {{ end }}
+      {{ $maturity := $properties.maturity }}
+      {{ $mname := print $properties.security_practice " Stream " $properties.stream " Maturity " $maturity }}
+      {{ if not (in ($.Scratch.Get (print $properties.security_practice " Stream " $properties.stream " Index")) $mname ) }}
+        {{ $.Scratch.Add (print $properties.security_practice " Stream " $properties.stream " Index") (slice $mname ) }}
+        {{ $.Scratch.Set "activityCount" (add ( $.Scratch.Get "activityCount") 1) }}
+      {{ end }}
+      {{ $.Scratch.Add (print $mname " Index") (slice $value) }}
+    {{ end }}
+{{ end }}
+
+<p>There are a total of <b>{{ len ( $.Scratch.Get "questions" ) }}</b> questions so far! <i class="ui thumbs up icon"></i> Covering <b>{{ $.Scratch.Get "activityCount" }}</b>/90 activities!</p>
+
+<div class="ui styled accordion">
+{{ range $key, $sf := ( $.Scratch.Get "spIndexes" ) }}
+  <div class="title">
+    <i class="dropdown icon"></i>
+    {{ $sf }}
+  </div>
+  <div class="content">
+  {{ range $key1, $stream := ( $.Scratch.Get (print $sf " Index") ) }}
+    <div class="accordion transition hidden">
+      <div class="title">
+          <i class="dropdown icon"></i>
+          {{ $stream }}
+      </div>
+      <div class="content">
+          {{ range $key2, $maturity := ( $.Scratch.Get (print $stream " Index") ) }}
+              <div class="accordion transition hidden">
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    {{ $maturity }}
+                </div>
+                <div class="content">
+                  <ul>
+                  {{ range $key3, $question := ( $.Scratch.Get (print $maturity " Index") ) }}
+                    <li>
+                    {{ range $actualq, $qproperties := $question }}
+                      <b>{{$actualq}}</b><br/>
+                      Criteria:
+                      <ul>
+                        {{ range $key4,$criteria := $qproperties.quality_criteria }}
+                          <li>{{ $criteria }}</li>
+                        {{ end }}
+                      </ul>
+                      Answer Options:
+                      <ul>
+                        {{ range $key4,$answer := $qproperties.answers }}
+                          <li>
+                            {{ range $key5,$ananswer := $answer }}{{ $ananswer.answer }} - {{ $ananswer.weight }}{{end}}
+                          </li>
+                        {{ end }}
+                      </ul>
+                      <br/>
+                    {{ end }}
+                    </li>
+                  {{ end }}
+                  </ul>
+                </div>
+              </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+  </div>
+{{ end }}
+</div>
