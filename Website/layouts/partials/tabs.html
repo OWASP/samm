@@ -1,0 +1,46 @@
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openMaturityLevel(event, '1')" id="defaultOpen">Maturity level 1</button>
+    <button class="tablinks" onclick="openMaturityLevel(event, '2')">Maturity level 2</button>
+    <button class="tablinks" onclick="openMaturityLevel(event, '3')">Maturity level 3</button>
+</div>
+  
+    <!-- Tab content -->
+    {{ $maturitylevels := .Params.maturity_levels }}
+  {{ range $maturitylevels }}
+    <div id="{{ .level }}" class="tabcontent">
+        <h2>{{ .title }}</h2>
+    
+        <h3>Benefit</h3>
+        <p>{{ .benefit | markdownify }}</p>
+
+        <h3>Activity</h3>
+        <p>{{ .activity | markdownify }}</p>
+
+        <h3>Question</h3>
+        <p>{{ .question }}</p>
+
+        <h3>Quality criteria</h3>
+        <table class="table">
+          <tbody>
+              {{ range .quality_criteria }}
+                <tr>
+                  <td>{{ . }}</td>
+                </tr>
+              {{ end }}
+          </tbody>
+        </table>
+        <h3>
+          Answers
+        </h3>
+        <table class="table">
+            <tbody>
+              {{ range .answers }}
+                <tr>
+                  <td>{{ . }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+    </div>
+    {{ end }}
