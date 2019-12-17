@@ -24,11 +24,11 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --gc --minify -v --cleanDestinationDir -s Website -d ./public
+      run: hugo --gc --minify -v --cleanDestinationDir -s Website -d public
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./public
+        PUBLISH_DIR: ./Website/public
