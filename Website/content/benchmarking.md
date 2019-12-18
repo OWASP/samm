@@ -34,6 +34,7 @@ We plan to support both known and pseudo-anonymous contributions. The preference
 
 ### Contribution Process
 There are a few ways that data can be contributed:
+
 1.	Email a CSV/Excel/Doc file with the dataset(s) to <brian.glas@owasp.org>
 2.	Upload a CSV/Excel/Txt file to a “contribution page” (future update)
 3.  Complete the web based form (future update)
