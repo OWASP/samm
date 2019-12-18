@@ -18,7 +18,8 @@
                 </p>
                 
                 <!-- /.owl-carousel -->
-                <ul class="owl-carousel customers" data-itemsnumber="4">
+                <ul class="owl-carousel customers owl-theme" data-itemsnumber="4">
+                  <div class="owl-wrapper-outer">
                     {{ range .Site.Data.clients }}
                     <li class="item" title="{{ .name }}">
                         {{ if .url }}
@@ -30,6 +31,7 @@
                         {{ end }}
                     </li>
                     {{ end }}
+                    </div>
                 </ul>
                 <!-- /.owl-carousel -->
 

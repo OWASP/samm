@@ -21,9 +21,6 @@ SAMM was defined with flexibility in mind so that small, medium, and large organ
 
 SAMM does not insist that all organizations achieve the maximum maturity level in every category. Each organization can determine the target maturity level for each Security Practice that is the best fit and adapt the templates provided for their specific needs.
 
-{{< responsive-image-small  "/img/pages/undraw_Security_on_ff2u.png" "illustration about security">}}
-
-
 ## OWASP SAMM structure
 
 The structure and setup of the SAMM model support
