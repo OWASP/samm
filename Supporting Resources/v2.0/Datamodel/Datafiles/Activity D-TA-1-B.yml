@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  ed5a9c3dd7884c88918a45dc9d231c5d
-  
+stream: ed5a9c3dd7884c88918a45dc9d231c5d
+
 #Link to the practice level that this activity belongs to
-level:
-  a3d4045d5c0c4bd4a875784759539f0c
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: a3d4045d5c0c4bd4a875784759539f0c
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  1ceadbb5a0024e2599821e7ce756f3a4
+id: 1ceadbb5a0024e2599821e7ce756f3a4
 
 #The title of this activity
-title:
-  Perform basic threat modeling to understand risks in application design.
+title: Perform basic threat modeling to understand risks in application design.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Basic understanding of potential threats to the solution.
+benefit: Basic understanding of potential threats to the solution.
 
 #A one sentence description of the activity
-shortDescription:
-  Perform best-effort, risk-based threat modeling using brainstorming and existing diagrams to efficiently list important threats.
+shortDescription: Perform best-effort, risk-based threat modeling using brainstorming
+  and existing diagrams to efficiently list important threats.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -42,18 +38,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

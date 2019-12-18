@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  2919e1f19aec4f018da94a3e8733f37d
-  
+stream: 2919e1f19aec4f018da94a3e8733f37d
+
 #Link to the practice level that this activity belongs to
-level:
-  437d447b3f11427592e938dbde53c7da
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 437d447b3f11427592e938dbde53c7da
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  852c76292e8a41de92205b31cb3f4e49
+id: 852c76292e8a41de92205b31cb3f4e49
 
 #The title of this activity
-title:
-  Identify 3rd-Party Requirements
+title: Identify 3rd-Party Requirements
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Have a common understanding of external compliance requirements.
+benefit: Have a common understanding of external compliance requirements.
 
 #A one sentence description of the activity
-shortDescription:
-  Identify 3rd-party compliance drivers and requirements and map to existing policies and standards.
+shortDescription: Identify 3rd-party compliance drivers and requirements and map to
+  existing policies and standards.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,21 +36,14 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity

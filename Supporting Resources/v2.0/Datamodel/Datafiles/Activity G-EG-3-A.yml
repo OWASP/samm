@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  7344f4b153314dd8965361d23772aef1
-  
+stream: 7344f4b153314dd8965361d23772aef1
+
 #Link to the practice level that this activity belongs to
-level:
-  e3cf1d3c27b74262b9f842f27ca86333
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: e3cf1d3c27b74262b9f842f27ca86333
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  a061ed8a5b1c4899bc95d9b1a10a469d
+id: a061ed8a5b1c4899bc95d9b1a10a469d
 
 #The title of this activity
-title:
-  Standardize In-House Application Security Guidance
+title: Standardize In-House Application Security Guidance
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Security is an aspect of product quality, addressed throughout development.
+benefit: Security is an aspect of product quality, addressed throughout development.
 
 #A one sentence description of the activity
-shortDescription:
-  Standardized in-house guidance around the organization’s secure software development standards.
+shortDescription: Standardized in-house guidance around the organization’s secure
+  software development standards.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -42,20 +38,13 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  8c1dcd10821f4f2baed52fdc83d93cf6
-  
+stream: 8c1dcd10821f4f2baed52fdc83d93cf6
+
 #Link to the practice level that this activity belongs to
-level:
-  1a55b2c4666f4336a3f5c12c5bb4a1e9
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 1a55b2c4666f4336a3f5c12c5bb4a1e9
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  5d5e3d9beab9498ca1ce66d3a53a81c6
+id: 5d5e3d9beab9498ca1ce66d3a53a81c6
 
 #The title of this activity
-title:
-  Develop specific security expectations for software suppliers.
+title: Develop specific security expectations for software suppliers.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  You structurally assign responsibilities for software security activities.
+benefit: You structurally assign responsibilities for software security activities.
 
 #A one sentence description of the activity
-shortDescription:
-  Build security into supplier agreements in order to ensure compliance with organizational requirements.
+shortDescription: Build security into supplier agreements in order to ensure compliance
+  with organizational requirements.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -38,18 +34,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

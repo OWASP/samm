@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  77ca4b5e7ebc42558109829dffc2b80d
-  
+stream: 77ca4b5e7ebc42558109829dffc2b80d
+
 #Link to the practice level that this activity belongs to
-level:
-  83ea8aaab3384b41b785107613ee4d86
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 83ea8aaab3384b41b785107613ee4d86
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  9d0433c5133c4a4c9c16ae84abe9a235
+id: 9d0433c5133c4a4c9c16ae84abe9a235
 
 #The title of this activity
-title:
-  Review and eveluate security mechanisms for scalability, strategic alignment and support capabilities. 
+title: Review and eveluate security mechanisms for scalability, strategic alignment
+  and support capabilities.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Assurance on the effectiveness of the architecture security mechanisms in terms of strategy alignment, appropriate support, and scalability.
+benefit: Assurance on the effectiveness of the architecture security mechanisms in
+  terms of strategy alignment, appropriate support, and scalability.
 
 #A one sentence description of the activity
-shortDescription:
-  Review of the architecture components effectiveness
+shortDescription: Review of the architecture components effectiveness
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -38,18 +35,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-
-
+dependencies:
 #Type Classification of the Document
 type: Activity
