@@ -15,7 +15,7 @@ name:
   Operations
 
 #A multi-paragraph description of the Business Function
-description:
+description: |
   The Operations Business Function encompasses those Activities necessary to ensure confidentiality, integrity, and availability are maintained throughout the operational lifetime of an application and its associated data.
 
   Given their focus on security of the application in operation, these Activities and considerations are essential to keeping software secure, and must be addressed when assessing organizational maturity.
