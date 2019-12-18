@@ -34,13 +34,6 @@ longDescription: |
 
   Training is mandatory for all employees and contractors involved with software development and includes an auditable sign-off to demonstrate compliance. Consider incorporating innovative ways of delivery (such as gamification) to maximize its effectiveness and combat desensitization.
   
-  **References**
-
-  - [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)	
-  - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
-  - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)	
-  - [OWASP Application Security Curriculum](https://www.owasp.org/index.php/OWASP_Application_Security_Curriculum)
-
 #The output of this particular activity
 results:
 
@@ -56,6 +49,12 @@ personnel:
 
 #Internal notes that might help the author
 notes: 
+  **References**
+
+  - [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)	
+  - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
+  - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)	
+  - [OWASP Application Security Curriculum](https://www.owasp.org/index.php/OWASP_Application_Security_Curriculum)
 
 
 #References to other activities that may be related to this one

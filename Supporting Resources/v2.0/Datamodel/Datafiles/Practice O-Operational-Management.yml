@@ -20,7 +20,7 @@ shortName:
 
 #A one sentence description of the security practice
 shortDescription:
-  The Operational Management practice focuses on operational support activities required to maintain security throughout the product lifecycle.
+  This practice focuses on operational support activities required to maintain security throughout the product lifecycle.
 
 #A multi-paragraph description of the security practice
 longDescription: |
