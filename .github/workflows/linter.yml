@@ -1,0 +1,12 @@
+name: Yaml Lint
+on: [push]
+jobs:
+  lintAllTheThings:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: yaml-lint
+      uses: ibiqlik/action-yamllint@master
+      with:
+        file_or_dir: "Supporting Resources/v2.0/Datamodel/Datafiles"
+        config_file: .yamllint.yml
