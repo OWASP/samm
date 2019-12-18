@@ -8,5 +8,5 @@ jobs:
     - name: yaml-lint
       uses: ibiqlik/action-yamllint@master
       with:
-        file_or_dir: "Supporting\ Resources/v2.0/Datamodel/Datafiles/*.yml"
+        file_or_dir: "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
         config_file: .yamllint
