@@ -1,7 +1,7 @@
 name: Yaml Lint
 on: [push]
 jobs:
-  lintModelv2.0:
+  lintModelv20:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
