@@ -1,30 +1,25 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  27a14a265c864eb790781cd1e2bf843b
-  
+stream: 27a14a265c864eb790781cd1e2bf843b
+
 #Link to the practice level that this activity belongs to
-level:
-  df5a0be1889a4b06835193892803dde5
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: df5a0be1889a4b06835193892803dde5
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  81ef5625583646bf8bc3fad53e4eff55
+id: 81ef5625583646bf8bc3fad53e4eff55
 
 #The title of this activity
-title:
-  Perform fuzz testing during security testing using automated tools.
+title: Perform fuzz testing during security testing using automated tools.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Detect security bugs that would have been missed by human eyes.
+benefit: Detect security bugs that would have been missed by human eyes.
 
 #A one sentence description of the activity
-shortDescription:
-  Perform security fuzzing testing
+shortDescription: Perform security fuzzing testing
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,18 +35,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-
-
+dependencies:
 #Type Classification of the Document
 type: Activity

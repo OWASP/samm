@@ -1,26 +1,23 @@
+---
 # ===========================================================
 # OWASP SAMM2 Security Practice template/sample
 # ===========================================================
 #Link to the model, using its unique identifier
-function:
-  102ad02df5dc4a8eb3837ef4ca2c1af4
+function: 102ad02df5dc4a8eb3837ef4ca2c1af4
 
-#Unique identifier (GUID) used to refer to this practice. 
+#Unique identifier (GUID) used to refer to this practice.
 #Please generate another identifier for your specific practice.
-id:
-  483a0a1b78264cafbc470ce72d557332
+id: 483a0a1b78264cafbc470ce72d557332
 
 #Official name of this practice
-name:
-  Education & Guidance
+name: Education & Guidance
 
 #Abbreviation of this practice
-shortName:
-  EG
+shortName: EG
 
 #A one sentence description of the security practice
-shortDescription:
-  This practice focuses on increasing the knowledge in the organization regarding secure software.
+shortDescription: This practice focuses on increasing the knowledge in the organization
+  regarding secure software.
 
 #A multi-paragraph description of the security practice
 longDescription: |
@@ -31,16 +28,13 @@ longDescription: |
   In addition to training, this practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams. Collaboration tools and increased transparency between technologies and tools support this approach to improve the security of the applications.
 
 #The relative order of this practice in the business function
-order:
-  3
+order: 3
 
 #Who's the "owner" of this practice
-assignee:
-  Yan Kravchenko 
+assignee: Yan Kravchenko
 
 #Indication of progress to keep track of overall status
-progress:
-  90
+progress: 90
 
 #Type Classification of the Document
 type: Practice

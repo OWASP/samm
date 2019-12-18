@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  efb5d1f275504173899da345ef5bbe8e
-  
+stream: efb5d1f275504173899da345ef5bbe8e
+
 #Link to the practice level that this activity belongs to
-level:
-  812abdd0a2b54366a497919f8463911a
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 812abdd0a2b54366a497919f8463911a
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  7003146cf1a1450293001754fe74787d
+id: 7003146cf1a1450293001754fe74787d
 
 #The title of this activity
-title:
-  Leverage automated unit, static and dynamic code analysis tools to verify security requirements.
+title: Leverage automated unit, static and dynamic code analysis tools to verify security
+  requirements.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Prevents identified (and fixed) bugs being introduced as part of later releases through regression testing.
+benefit: Prevents identified (and fixed) bugs being introduced as part of later releases
+  through regression testing.
 
 #A one sentence description of the activity
-shortDescription:
-  Perform regression testing (with security unit tests)
+shortDescription: Perform regression testing (with security unit tests)
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,18 +37,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-
-
+dependencies:
 #Type Classification of the Document
 type: Activity

@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  0e2c4c5620e24d7d8e979020ca414182
-  
+stream: 0e2c4c5620e24d7d8e979020ca414182
+
 #Link to the practice level that this activity belongs to
-level:
-  e8de5ea176cc455bba89f0e2d1ea1f16
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: e8de5ea176cc455bba89f0e2d1ea1f16
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  d61764610f8741de894c1751f5c041ae
+id: d61764610f8741de894c1751f5c041ae
 
 #The title of this activity
-title:
-  Implement Centers of Excellence
+title: Implement Centers of Excellence
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Have a central team of software security experts to drive and support your software assurance program.
+benefit: Have a central team of software security experts to drive and support your
+  software assurance program.
 
 #A one sentence description of the activity
-shortDescription:
-  Develop a secure software center of excellence promoting thought leadership among developers and architects.
+shortDescription: Develop a secure software center of excellence promoting thought
+  leadership among developers and architects.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,20 +37,13 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

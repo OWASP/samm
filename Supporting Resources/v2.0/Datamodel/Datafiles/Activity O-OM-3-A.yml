@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description - Data Protection, Level 3
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  9c6bf45a97ae4149a44c4a5d97ea6a40
-  
+stream: 9c6bf45a97ae4149a44c4a5d97ea6a40
+
 #Link to the practice level that this activity belongs to
-level:
-  2a059c7d07c34b9897e49e6295501608
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 2a059c7d07c34b9897e49e6295501608
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  cd80066899014962a37af7ab34c83003
+id: cd80066899014962a37af7ab34c83003
 
 #The title of this activity
-title:
-  Data policy breaches detected and acted upon
+title: Data policy breaches detected and acted upon
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Cost savings realized through automation of monitoring and alerts
+benefit: Cost savings realized through automation of monitoring and alerts
 
 #A one sentence description of the activity
-shortDescription:
-  Automate detection of policy non-compliance, and audit compliance periodically. Regularly review and update to data catalog and data protection policy.
+shortDescription: Automate detection of policy non-compliance, and audit compliance
+  periodically. Regularly review and update to data catalog and data protection policy.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -42,17 +38,16 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are related to this one
-relatedActivities: 
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity

@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  0e2c4c5620e24d7d8e979020ca414182
-  
+stream: 0e2c4c5620e24d7d8e979020ca414182
+
 #Link to the practice level that this activity belongs to
-level:
-  e3cf1d3c27b74262b9f842f27ca86333
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: e3cf1d3c27b74262b9f842f27ca86333
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  a3720e84d6a24a8ba235c25ce6afc5c7
+id: a3720e84d6a24a8ba235c25ce6afc5c7
 
 #The title of this activity
-title:
-  Develop an In-House Application Security Community
+title: Develop an In-House Application Security Community
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Software security is a shared and active responsibility among all employees.
+benefit: Software security is a shared and active responsibility among all employees.
 
 #A one sentence description of the activity
-shortDescription:
-  Build a secure software community including all organization people involved in software security.
+shortDescription: Build a secure software community including all organization people
+  involved in software security.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,21 +36,14 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity
