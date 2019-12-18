@@ -43,13 +43,6 @@ longDescription: |
   Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other 
   information relevant to their work or environments.
 
-  **References**
-
-  - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
-  - [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)	
-  - [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)	
-  - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
-
 #The output of this particular activity
 results:
 
@@ -65,6 +58,12 @@ personnel:
 
 #Internal notes that might help the author
 notes: 
+  **References**
+
+  - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
+  - [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)	
+  - [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)	
+  - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
 
 
 #References to other activities that may be related to this one

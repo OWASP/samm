@@ -20,7 +20,7 @@ shortName:
 
 #A one sentence description of the security practice
 shortDescription:
-  The Environment Management practice describes proactive activities carried out to improve and maintain the security of the environments in which the organization's applications operate.
+  This practice describes proactive activities carried out to improve and maintain the security of the environments in which the organization's applications operate.
 
 #A multi-paragraph description of the security practice
 longDescription: |
