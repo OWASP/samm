@@ -1,7 +1,7 @@
 {{ if isset .Site.Params "carousel" }}
 {{ if .Site.Params.carousel.enable }}
 {{ if gt (len .Site.Data.carousel) 0 }}
-<section>
+<section class="no-mb">
     <div class="home-carousel">
         <div class="dark-mask"></div>
         <div class="container">
