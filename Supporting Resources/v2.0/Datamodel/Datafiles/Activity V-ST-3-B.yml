@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  8a64c7b0b35a458ea436260d5e414dfa
-  
+stream: 8a64c7b0b35a458ea436260d5e414dfa
+
 #Link to the practice level that this activity belongs to
-level:
-  eac3184f8e2343b8b29047d023376da5
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: eac3184f8e2343b8b29047d023376da5
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  a395d69917b947b28d5995738d716283
+id: a395d69917b947b28d5995738d716283
 
 #The title of this activity
-title:
-  Establish a continuous verification process that is scalable, repeatable and risk based to improve the overall security posture of the application.
+title: Establish a continuous verification process that is scalable, repeatable and
+  risk based to improve the overall security posture of the application.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Identify security issues earlier in the development process by testing security early and often.
+benefit: Identify security issues earlier in the development process by testing security
+  early and often.
 
 #A one sentence description of the activity
-shortDescription:
-  Integrate security testing into development process
+shortDescription: Integrate security testing into development process
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -43,18 +40,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-
-
+dependencies:
 #Type Classification of the Document
 type: Activity

@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  c404aa4f711e4f4e9e71faea22f7fb5c
-  
+stream: c404aa4f711e4f4e9e71faea22f7fb5c
+
 #Link to the practice level that this activity belongs to
-level:
-  437d447b3f11427592e938dbde53c7da
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 437d447b3f11427592e938dbde53c7da
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  6e7a618abd564df5bb784ca54893bbee
+id: 6e7a618abd564df5bb784ca54893bbee
 
 #The title of this activity
-title:
-  Define security policies and standards
+title: Define security policies and standards
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Have a common set of policies and standards within your organization.
+benefit: Have a common set of policies and standards within your organization.
 
 #A one sentence description of the activity
-shortDescription:
-  Determine a security baseline representing organization’s policies and standards.
+shortDescription: Determine a security baseline representing organization’s policies
+  and standards.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,21 +36,14 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity

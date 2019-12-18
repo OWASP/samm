@@ -1,33 +1,30 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  9a5f26d77f204467bdda7ffa09109d73
-  
+stream: 9a5f26d77f204467bdda7ffa09109d73
+
 #Link to the practice level that this activity belongs to
-level:
-  5015427608de428cba3c324772fb4191
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 5015427608de428cba3c324772fb4191
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  77a5f467ffe140e2a2839bb522e82c4e
+id: 77a5f467ffe140e2a2839bb522e82c4e
 
 #The title of this activity
-title:
-  Production secrets are encrypted and not handled by developers.
+title: Production secrets are encrypted and not handled by developers.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Risk of leaking production secrets is reduced by introduction of basic protection measures.
+benefit: Risk of leaking production secrets is reduced by
+  introduction of basic protection measures.
 
 #A one sentence description of the activity
-shortDescription:
-  Introduce basic protection measures to limit access to your production secrets.
+shortDescription: Introduce basic protection measures to limit access
+  to your production secrets.
 
 #A multi-paragraph description of the activity
-longDescription: 
+longDescription: |
   Version and protect configuration files just like source code. Developers should not have access to secrets or credentials for production environments. Have a mechanism in place for the production environment to securely add production secrets to configuration files and adequately protect them. This can for instance be achieved by encrypting the production secrets contained in the configuration files.
 
   Do not use production secrets in configuration files for development or testing environments, as such environments may have a significantly lower security posture. Similarly, do not keep secrets in configuration files stored in code repositories.
@@ -38,31 +35,29 @@ longDescription:
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
+- result1
+- result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+- metric1
+- metric2
 
-#A description of the costs required to implement the activity  
-costs:
-  TBS.
-  
+#A description of the costs required to implement the activity
+costs: TBS.
+
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
-  - Administrator
-  - Security Engineer
+- Developer
+- Administrator
+- Security Engineer
 
 #Internal notes that might help the author
-notes: 
-  None
+notes: None
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivites: 
-  - 994bcac2bb7c4cc59a0faa365a0b58a0 #I-SD-1-A
+relatedActivites:
+- 994bcac2bb7c4cc59a0faa365a0b58a0   #I-SD-1-A
 
 #Type Classification of the Document
 type: Activity

@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  102fdab651834273abd67a3ec27aab05
-  
+stream: 102fdab651834273abd67a3ec27aab05
+
 #Link to the practice level that this activity belongs to
-level:
-  eac3184f8e2343b8b29047d023376da5
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: eac3184f8e2343b8b29047d023376da5
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  4f6a06796d0840debcc775ea1af65679
+id: 4f6a06796d0840debcc775ea1af65679
 
 #The title of this activity
-title:
-  Leverage automated security tests in the software delivery pipeline to detect security issues early and provide visibility and awareness in the organization. 
+title: Leverage automated security tests in the software delivery pipeline to detect
+  security issues early and provide visibility and awareness in the organization.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Allows to detect software vulnerabilities at the speed of build and deployment by integrating test tools as part of this process.
+benefit: Allows to detect software vulnerabilities at the speed of build and deployment
+  by integrating test tools as part of this process.
 
 #A one sentence description of the activity
-shortDescription:
-  Integrate automated security testing into the build and deploy process
+shortDescription: Integrate automated security testing into the build and deploy process
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -42,18 +39,17 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-  - e17d573510904f65a1fe6040b56ad0b1 # Practice I-Defect-Management
+dependencies:
+- e17d573510904f65a1fe6040b56ad0b1   # Practice I-Defect-Management
 
 #Type Classification of the Document
 type: Activity

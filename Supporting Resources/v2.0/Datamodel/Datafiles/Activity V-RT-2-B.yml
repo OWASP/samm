@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  27a14a265c864eb790781cd1e2bf843b
-  
+stream: 27a14a265c864eb790781cd1e2bf843b
+
 #Link to the practice level that this activity belongs to
-level:
-  3e6e9a2b696e48018830b44fa96f98b5
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 3e6e9a2b696e48018830b44fa96f98b5
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  fd4d1ac720374b13a25ab1381045b731
+id: fd4d1ac720374b13a25ab1381045b731
 
 #The title of this activity
-title:
-  Develop abuse test cases based on business rules to misuse or exploit weaknesses in controls.
+title: Develop abuse test cases based on business rules to misuse or exploit weaknesses
+  in controls.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Detect business logic flaws or vulnerabilities thay allow functionality in the software to be abused.
+benefit: Detect business logic flaws or vulnerabilities thay allow functionality in
+  the software to be abused.
 
 #A one sentence description of the activity
-shortDescription:
-  Create and test abuse cases and business logic flaw test
+shortDescription: Create and test abuse cases and business logic flaw test
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -38,18 +35,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-
-
+dependencies:
 #Type Classification of the Document
 type: Activity

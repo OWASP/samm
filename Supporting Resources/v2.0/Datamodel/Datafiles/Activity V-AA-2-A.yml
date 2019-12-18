@@ -1,36 +1,34 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  77ca4b5e7ebc42558109829dffc2b80d
-  
+stream: 77ca4b5e7ebc42558109829dffc2b80d
+
 #Link to the practice level that this activity belongs to
-level:
-  67fcd33f84364ef68fb88aba77de1a63
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 67fcd33f84364ef68fb88aba77de1a63
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  eba4b86963f44fa59b0b9389a1cfc59b
+id: eba4b86963f44fa59b0b9389a1cfc59b
 
 #The title of this activity
-title:
-  Security mechanisms are validated in a structured manner and confirmed for internal and external interfaces following a formalized method.
+title: Security mechanisms are validated in a structured manner and confirmed for
+  internal and external interfaces following a formalized method.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  This activity validates the security mechanisms on the attack surface of the software and infrastructure architecture using formalized method and structured validation.
+benefit: This activity validates the security mechanisms on the attack surface of
+  the software and infrastructure architecture using formalized method and structured
+  validation.
 
 #A one sentence description of the activity
-shortDescription:
-  Validate the architecture security mechanisms
+shortDescription: Validate the architecture security mechanisms
 
 #A multi-paragraph description of the activity
 longDescription: |
   To ensure consistency of evaluation, all architectural verifications must be similarly structured and leverage a shared, formalized methodology. The security and architecture group can build upon common architectural focus areas and review guidelines from a number of industry standard bodies, such as NIST or CIS, to codify and publish a standardized internal review methodology. Where possible, automatic verification and enforcement of established architectural governance rules should be integrated into the development pipeline to detect deviations or regressions as early as possible.
 
-  For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface and do so in a structured manner. 
+  For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface and do so in a structured manner.
 
   The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling, and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided. Review the documented threats and key security objectives, and note any missing or unclear features as findings. Identify and validate the high-risk design decisions made as part of the architecture. Conduct analysis to update the findings based on changes made during the development cycle.
 
@@ -40,18 +38,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-dependencies: 
-
-
+dependencies:
 #Type Classification of the Document
 type: Activity

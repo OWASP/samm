@@ -1,30 +1,25 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  7fb68bc660774b9080963c17761529a2
-  
+stream: 7fb68bc660774b9080963c17761529a2
+
 #Link to the practice level that this activity belongs to
-level:
-  f8b6eebc0662477f9286aa4f6068e364
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: f8b6eebc0662477f9286aa4f6068e364
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  ce13df2e0dfb455588bf75135f1a718e
+id: ce13df2e0dfb455588bf75135f1a718e
 
 #The title of this activity
-title:
-  Provide a security reqiurements framework to project teams.
+title: Provide a security reqiurements framework to project teams.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  You have a set of reusable security requirements to improve the overall quality.
+benefit: You have a set of reusable security requirements to improve the overall quality.
 
 #A one sentence description of the activity
-shortDescription:
-  Build a requirements framework for product teams to utilize.
+shortDescription: Build a requirements framework for product teams to utilize.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,18 +35,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

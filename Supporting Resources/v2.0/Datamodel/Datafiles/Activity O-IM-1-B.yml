@@ -1,30 +1,25 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description - Incident Response, Level 1
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  390bec725b8344a289d5386026925947
-  
+stream: 390bec725b8344a289d5386026925947
+
 #Link to the practice level that this activity belongs to
-level:
-  817dd6acaf85496aa005393e0e6c3e70
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 817dd6acaf85496aa005393e0e6c3e70
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  b082664b8815407d825b82cf23fa88ea
+id: b082664b8815407d825b82cf23fa88ea
 
 #The title of this activity
-title:
-  Defined high-level incident response strategy
+title: Defined high-level incident response strategy
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Ability to efficiently solve most common security incidents
+benefit: Ability to efficiently solve most common security incidents
 
 #A one sentence description of the activity
-shortDescription:
-  Identify roles and responsibilities for incident response. 
+shortDescription: Identify roles and responsibilities for incident response.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,17 +35,16 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are related to this one
-relatedActivities: 
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity
