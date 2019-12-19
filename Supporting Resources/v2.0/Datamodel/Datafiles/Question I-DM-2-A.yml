@@ -13,16 +13,16 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 5b333ff2dd474381b0af595ff13dcdcf
 
 #One-sentence description of the criterium
-text: Do you maintain an overview about the state of security defects across the whole
-  organization?
+text: Do you keep an overview of the state of security defects across the organization?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- A common single severity scheme is applied to all defects across the organization
+- A single severity scheme is applied to all defects across the organization
 - The scheme includes SLAs for fixing particular severity classes
-- Compliance to SLAs is regularly reported
+- You regularly report compliance to SLAs
+
 #Type Classification of the Document
 type: Question
