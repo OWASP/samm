@@ -1,7 +1,7 @@
 SAMM (Software Assurance Maturity Model )
 ========
 
-[![wercker status](https://app.wercker.com/status/0ca0315897dfeb4e612355049a38bf62/s/master "wercker status")](https://app.wercker.com/project/byKey/0ca0315897dfeb4e612355049a38bf62)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FOWASP%2Fsamm%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/OWASP/samm/goto?ref=master)
 
 Welcome to the OWASP SAMM github repository.
 
