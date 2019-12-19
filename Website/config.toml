@@ -120,7 +120,9 @@ paginate = 10
     about_us = "<p>This is an OWASP Project.</br>OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security.</p>"
     about_us_img = "/img/owasp_logo_1c_w_notext.png"
     about_us_url = "https://owasp.org"
-    copyright = ""
+    copyright = "OWASP SAMM is published under the"
+    copyright_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+    copyright_url_text = "CC BY-SA 4.0 license"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
