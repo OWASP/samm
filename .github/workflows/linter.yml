@@ -1,5 +1,11 @@
+---
+
 name: Yaml Lint
-on: [push]
+on:
+  push:
+    paths:
+      - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+
 jobs:
   lintModelv20:
     runs-on: ubuntu-latest
