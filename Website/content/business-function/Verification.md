@@ -4,11 +4,11 @@ url: /model/verification/
 description: Verification business function
 
 practice_1: Architecture Assessment
-practice_1_url: architecture=assessment
+practice_1_url: architecture-assessment
 practice_2: Requirements Testing
-practice_2_url: requirements=testing
+practice_2_url: requirements-driven-testing
 practice_3: Security Testing
-practice_3_url: security=testing
+practice_3_url: security-testing
 
 keywords: ["Business function"]
 ---

@@ -1,13 +1,13 @@
 ---
 title: Misuse/Abuse Testing
 type: stream
-url: model/verification/requirements-testing/stream-b/
+url: model/verification/requirements-driven-testing/stream-b/
 business_function: Verification
 business_function_url: verification
-practice: Requirements Testing
+practice: Requirements-driven Testing
 stream: B
-description: Verification / Requirements Testing
-keywords: ["Business function", "Practice", "Verification", "Requirements Testing"]
+description: Verification / Requirements-driven Testing
+keywords: ["Business function", "Practice", "Verification", "Requirements-driven Testing"]
 
 maturity_levels:
     level1:

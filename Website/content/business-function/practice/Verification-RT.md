@@ -1,9 +1,9 @@
 ---
-title: Requirements Testing
-url: /model/verification/requirements-testing/
+title: Requirements-driven Testing
+url: /model/verification/requirements-driven-testing/
 business_function: "Verification"
 business_function_url: "verification"
-keywords: ["Business function", "Practice", "Requirements Testing"]
+keywords: ["Business function", "Practice", "Requirements-driven Testing"]
 type: practice
 
 practice_maturity_1_description: Opportunistically find basic vulnerabilities and other security issues.
