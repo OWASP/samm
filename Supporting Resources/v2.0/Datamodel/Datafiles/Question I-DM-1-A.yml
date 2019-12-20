@@ -13,7 +13,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 7f92b3f940cb4229a6079016269d76c6
 
 #One-sentence description of the criterium
-text: Do you track all known security defects in defined locations?
+text: Do you track all known security defects in accessible locations?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
@@ -21,10 +21,9 @@ order: 1
 #Qualifying Criterion
 quality:
 - You can easily get an overview of all security defects impacting one application
-  anytime
 - You have at least a rudimentary classification scheme in place
-- The process includes strategy for handling false positives and duplicate entries
-- The defect management system covers defects from various sources / activities
+- The process includes a strategy for handling false positives and duplicate entries
+- The defect management system covers defects from various sources and activities
 
 #Type Classification of the Document
 type: Question
