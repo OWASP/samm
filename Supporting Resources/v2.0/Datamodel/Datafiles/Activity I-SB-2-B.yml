@@ -29,7 +29,7 @@ longDescription: |
   Evaluate used dependencies and establish a list of acceptable ones approved for use within a project, team, or the wider organization according to a defined set of criteria.
   Introduce a central repository of dependencies that all software can be built from.
 
-  Review used dependencies regularly to ensure that:
+  Review used dependencies regularly to ensure that&#58;
 
   * they remain correctly licensed
   * no known and significant vulnerabilities impacting your applications are present
