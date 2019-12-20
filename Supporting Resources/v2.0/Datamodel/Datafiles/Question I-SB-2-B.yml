@@ -20,12 +20,11 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- You maintain a list of approved dependencies which meet predefined criteria
-- Dependencies are automatically evaluated for new CVEs and responsible staff is alerted
-- License changes with possible impact on legal application usage are automatically
-  detected and alerted
-- Usage of unmaintained dependencies is tracked and alerted
-- Not needed dependencies are reliably detected and removed from the software
+- You keep a list of approved dependencies that meet predefined criteria
+- You automatically evaluate dependencies for new CVEs and alert responsible staff
+- You automatically detect and alert to license changes with possible impact on legal application usage
+- You track and alert to usage of unmaintained dependencies
+- You reliably detect and remove unnecessary dependencies from the software
 
 #Type Classification of the Document
 type: Question
