@@ -22,7 +22,7 @@ order: 1
 quality:
 - Management and business stakeholders track and review test results throughout
   the development cycle
-- You merge test results into a central dashboard feed them into defect management
+- You merge test results into a central dashboard and feed them into defect management
 
 #Type Classification of the Document
 type: Question
