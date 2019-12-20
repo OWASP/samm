@@ -20,7 +20,7 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- You consistently write testsfor all identified bugs (possibly exceeding a pre-defined
+- You consistently write tests for all identified bugs (possibly exceeding a pre-defined
   severity threshhold)
 - You collect security tests in a test suite that is part of the existing unit testing
   framework
