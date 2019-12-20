@@ -21,7 +21,7 @@ order: 1
 #Qualifying Criterion
 quality:
 - Under normal circumstances, no humans access secrets during deployment procedures
-- Any abnormal access to secrets is logged and alerted
+- You log and alert to any abnormal access to secrets
 
 #Type Classification of the Document
 type: Question
