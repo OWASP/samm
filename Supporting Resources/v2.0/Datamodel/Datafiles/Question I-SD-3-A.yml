@@ -20,9 +20,9 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Deployment is prevented or rolled back in case integrity breach is detected
+- You prevent or roll back deployment if you detect an integrity breach
 - The verification is done against signatures created during the build time
-- If checking of signatures is not possible (e.g. externally build software), compensating
-  measures are introduced
+- If checking of signatures is not possible (e.g. externally build software), you introduce
+  compensating measures
 #Type Classification of the Document
 type: Question
