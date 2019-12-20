@@ -1,9 +1,13 @@
+---
+
 name: github pages
 
 on:
   push:
+    paths:
+      - 'Website'
     branches:
-    - master
+      - master
 
 jobs:
   build-deploy:
