@@ -5,7 +5,7 @@ name: github pages
 on:
   push:
     paths:
-      - 'Website'
+      - 'Website/**'
     branches:
       - master
 
