@@ -20,9 +20,9 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Tests are specifically customized for software interfaces in the project.
-- Tests are expressed in a structured format, such as a DSL.
-- Tests include organization-specific technical standards and compliance concerns.
+- You specifically customize tests for software interfaces in the project
+- You express tests in a structured format, such as a DSL
+- Tests include organization-specific technical standards and compliance concerns
 
 #Type Classification of the Document
 type: Question
