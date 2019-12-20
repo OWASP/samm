@@ -20,7 +20,7 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- You dinamically generate inputs for security tests using automated tools
+- You dynamically generate inputs for security tests using automated tools
 - You choose the security testing tools to fit the organization's architecture and
   technology stack, and balance depth and accuracy of inspection with usability of
   findings to the organization
