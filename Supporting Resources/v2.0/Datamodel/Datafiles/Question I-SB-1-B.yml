@@ -22,7 +22,6 @@ order: 1
 quality:
 - You have a current bill of materials (BOM) for every application
 - You can quickly find out which applications are affected by a particular CVE
-- You have provably analyzed and addressed findings from dependencies at least once
-  in the last three months
+- You have analyzed, addressed, and documented findings from dependencies at least once in the last three months
 #Type Classification of the Document
 type: Question
