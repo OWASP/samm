@@ -13,20 +13,21 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Basic understanding of potential threats to the solution.
+            Identification of architectural design flaws in the solution.
         activity: |
-            The purpose of Threat Modeling is to pro-actively identify potential issues in the technical design of the application. A careless setup might lead to important attack vectors in an application that can be exploited to target your organization. Experience shows that architectural design can be an important source of security issues, and the consequences can be significant.
+            Threat modeling is a structured activity for identifying, evaluating, and managing system threats, architectural design flaws, and recommended security mitigations. It is typically done as part of the design phase or as part of a security assessment.
 
-            The practice of threat modeling includes both eliciting and managing threats. Use known good security practices (or the lack thereof) or a more structured approach such as STRIDE to elicit threats. Threat modeling is often most effective when performed by a group of people, allowing for brainstorming. One of the key challenges in threat modeling is working towards a list of relevant and important threats in an efficient exercise, and avoiding lengthy processes and overly detailed lists of low-relevant threats. Experience helps find a proper balance.
+            Threat modeling is a team exercise, including product owners, architects, security champions, and security testers. At this maturity level, expose teams and stakeholders to threat modeling to increase security awareness and to create a shared vision on the security of the system.
 
-            Perform threat modeling iteratively to align to more iterative development paradigms. If you add new functionality to an existing application, look only into the newly added functions instead of trying to cover the entire scope.
+            At maturity level 1, you perform threat modeling ad-hoc for high-risk applications and use simple threat checklists, such as STRIDE. Avoid lengthy workshops and overly detailed lists of low-relevant threats. Perform threat modeling iteratively to align to more iterative development paradigms. If you add new functionality to an existing application, look only into the newly added functions instead of trying to cover the entire scope. A good starting point is the existing diagrams that you annotate during discussion workshops. Always make sure to persist the outcome of a threat modeling discussion for later use.
 
-            Execute threat modeling on important projects in a best effort mode to identify the most important threats to the application. Existing network diagrams you can annotate during discussion workshops are a good starting point.
+            Your most important tool to start threat modeling is a whiteboard, smartboard, or a piece of paper. Aim for security awareness, a simple process, and actionable outcomes that you agree upon with your team.
 
-        question: Do you evaluate the technical architecture of your applications for potential threats?
+        question: Do you identify and manage architectural design flaws with threat modeling?
         quality_criteria:
-            - You review application trust boundaries
-            - Threat identification covers different types of threats
+            - You perform threat modeling for high-risk applications
+            - You use simple threat checklists, such as STRIDE
+            - You persist the outcome of a threat model for later use
 
         answers:
             - "No"
@@ -37,21 +38,22 @@ maturity_levels:
     level2:
         level: 2
         benefit: |
-            Improved elicitation and management of threats to the solution.
+            Scaleble threat modeling aligned to your organization risks.
         activity: |
-            Establish a standard approach to perform structured threat modeling to increase the quality and efficiency of threat modeling within your organization, and ensure that the invested effort is useful and well spent. Structured threat modeling takes into account the different actors, assets and flows to identify an extensive list of potential threats to the application. It defines the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to identify threats, and the formalisms to describe or annotate the threats. You can add mitigating controls to threat models to guide designers in dealing with particular threats.
+            Use a standardized threat modeling methodology for your organization and align this on your application risk levels. Think about ways to support the scaling of threat modeling throughout the organization.
 
-            As an organization, define what triggers the execution of threat modeling. For example a change in architecture, or a deployment of an application in a new environment. At the same time, think about ways to support scaling of threat modeling throughout the organization.
+            Train your architects, security champions, and other stakeholders on how to do practical threat modeling.  Threat modeling requires understanding, clear playbooks and templates, organization-specific examples, and experience, which is hard to automate.
 
-            Feed the output of threat modeling to the defect management process for adequate follow-up. Adopt a weighting system to measure and compare the importance of the different threats.
+            Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts. Your threat model diagram allows a detailed understanding of the environment and the mechanics of the application. You discover threats to your application with checklists, such as STRIDE or more organization-specific threats. For identified design flaws (ranked according to risk for your organization), you add mitigating controls to support stakeholders in dealing with particular threats. Define what triggers updating a threat model, for example, a technology change or deployment of an application in a new environment.
 
-            Consider using a tool to manage the treat models of the different applications. Train people to focus on important threats, as one of the challenges in threat modeling is a potential overload of trivial threats. Tools help in identifying potential threats but, in the end, threat modeling requires human intelligence that cannot be easily automated.
+            Feed the output of threat modeling to the defect management process for adequate follow-up. Capture the threat modeling artifacts with tools that are used by your application teams.
 
-        question: Do you use a standard methodology to evaluate the threats to your applications?
+        question: Do you use a standard methodology, aligned on your application risk levels?
         quality_criteria:
-            - People with training or experience in threat modeling lead threat modeling activities
-            - The methodology states the different inputs required to perform an in-depth assessment
-            - Threat model deliverables are standardized and accessible across the organization
+            - You train your architects, security champions, and other stakeholders on how to do practical threat modeling
+            - Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts
+            - Changes in the application or business context trigger a review of the relevant threat models
+            - You capture the threat modeling artifacts with tools that are used by your application teams
 
         answers:
             - "No"
@@ -62,19 +64,19 @@ maturity_levels:
     level3:
         level: 3
         benefit: |
-            The timely update and qualitative management of application threats is optimized.
+            The timely update and qualitative management of application risks is optimized.
         activity: |
-            In a mature setup of threat modeling, regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications.
+            Threat modeling is integrated into your SDLC and has become part of the developer security culture.  Reusable risk patterns, comprising of related threat libraries, design flaws, and security mitigations, are created and improved, based on the organization's threat models. You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications.
 
-            Use automated analysis to evaluate the quality and discover gaps and/or patterns in the threat models. These can improve the threat models.
+            You optimize your threat modeling methodology. You capture lessons learned from threat models and use these to improve your threat modeling methodology.  You review the threat categories relevant to your organization and update your methodology appropriately. From time to time, you evaluate the quality of your threat models independently.
 
-            Review the threat categories relevant to your organization. When you identify new threat categories, feed this information to the organization to ensure appropriate handling.
+            You automate parts of your threat modeling process with threat modeling tools. You integrate your threat modeling tools with other security tools, such as security verification tools and risk tracking tools. You consider "threat modeling as code" practices to integrate threat modeling artifacts with application code.
 
-        question: Do you regularly review and update the threat models for your applications?
+        question: Do you regularly review and update the threat modeling methodology for your applications?
         quality_criteria:
-            - The threat model methodology considers historical feedback to improve the evaluation method
-            - Changes in the application or business context trigger a review of the relevant threat models
-            - You evaluate the quality of threat models independently
+            - The threat model methodology considers historical feedback for improvement
+            - You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications
+            - You automate parts of your threat modeling process with threat modeling tools
 
         answers:
             - "No"

@@ -13,4 +13,5 @@ practice_3_url: security-architecture
 keywords: ["Business function"]
 ---
 
-Description of the business function.
+Design concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include requirements gathering, high-level architecture specification and detailed design.
+

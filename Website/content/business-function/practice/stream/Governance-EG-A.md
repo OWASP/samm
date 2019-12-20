@@ -15,17 +15,11 @@ maturity_levels:
         benefit: |
             Stakeholders involved in producing software have an appreciation for the difficulty of creating secure software and the value of a secure SDLC.
         activity: |
-            Conduct security awareness training for all roles currently involved in the management, development, testing, or auditing of the software. The goal is to increase the awareness of application security threats and risks, security best practices, and secure software design principles. Develop training internally or procure it externally. Ideally, deliver training in person so participants can have discussions as a team, but Computer Based Training (CBT) is also an option.
+            Conduct security awareness training for all roles currently involved in the management, development, testing, or auditing of the software. The goal is to increase the awareness of application security threats and risks, security best practices, and secure software design principles. Develop training internally or procure it externally. Ideally, deliver training in person so participants can have discussions as a team, but Computer-Based Training (CBT) is also an option.
 
             Course content should include a range of topics relevant to application security and privacy, while remaining accessible to a non-technical audience. Suitable concepts are secure design principles including Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability. Additionally, the training should include references to any organization-wide standards, policies, and procedures defined to improve application security. The OWASP Top 10 vulnerabilities should be covered at a high level.
 
             Training is mandatory for all employees and contractors involved with software development and includes an auditable sign-off to demonstrate compliance. Consider incorporating innovative ways of delivery (such as gamification) to maximize its effectiveness and combat desensitization.
-
-            **References**
-            - [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)	
-            - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
-            - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)	
-            - [OWASP Application Security Curriculum](https://www.owasp.org/index.php/OWASP_Application_Security_Curriculum)
 
         question: Do you require employees involved with application development to take SDLC training?
         quality_criteria:
@@ -58,14 +52,8 @@ maturity_levels:
 
             Ideally, identify a subject-matter expert in each technology to assist with procuring or developing the training content and updating it regularly. The training consists of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop. Include results of the previous penetration as examples of vulnerabilities and implemented remediation strategies. Ask a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
 
-            Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other 
+            Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other
             information relevant to their work or environments.
-
-            **References**
-            - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)	
-            - [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)	
-            - [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)	
-            - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
 
         question: Is training customized for individual roles such as developers, testers, or security champions?
         quality_criteria:

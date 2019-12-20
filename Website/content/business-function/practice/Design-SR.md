@@ -23,4 +23,14 @@ stream_b_maturity_2_activity: Build security into supplier agreements in order t
 stream_b_maturity_3_activity: Ensure proper security coverage for external suppliers by providing clear objectives.
 ---
 
-This practice focuses on security requirements that are important in the context of secure software. A first type deals with typical software-related requirements, to specify objectives and expectations to protect the service and data at the core of the application. A second type deals with requirements that are relative to supplier organisations that are part of the development context of the application, in particular for outsourced development. It is important to streamline the expectations in terms of secure development because outsourced development can have significant impact on the security of the application. The security of 3rd party (technical) libraries is part of the software supply chaing stream (LINK Secure Build), so it is not included in this practice.
+This practice focuses on security requirements that are important
+in the context of secure software. A first type deals with typical software-related
+requirements, to specify objectives and expectations to protect the service and
+data at the core of the application. A second type deals with requirements that
+are relative to supplier organisations that are part of the development context
+of the application, in particular for outsourced development. It is important to
+streamline the expectations in terms of secure development because outsourced development
+can have significant impact on the security of the application. The security of
+3rd party (technical) libraries is part of the software supply chaing stream (LINK
+Secure Build), so it is not included in this practice.
+

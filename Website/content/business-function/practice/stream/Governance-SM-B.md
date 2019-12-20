@@ -1,7 +1,7 @@
 ---
 title: Measure and Improve
 type: stream
-url: model/governance/strategy-&-metrics/stream-b/
+url: model/governance/strategy-and-metrics/stream-b/
 business_function: Governance
 business_function_url: governance
 practice: Strategy & Metrics
@@ -19,7 +19,7 @@ maturity_levels:
 
             * `Effort` metrics measure the effort spent on security. For example training hours, time spent performing code reviews, and number of applications scanned for vulnerabilities.
             * `Result` metrics measure the results of security efforts. Examples include number of unpatched security defects and number of security incidents involving application vulnerabilities.
-            * `Environment` metrics measure the environment where security efforts take place. Examples include number of applications or lines of code as a measure of difficulty or complexity.  
+            * `Environment` metrics measure the environment where security efforts take place. Examples include number of applications or lines of code as a measure of difficulty or complexity.
 
             Each measure by itself is useful for a specific purpose, but a combination of two or three metrics together helps explain spikes in metrics trends. For example, a spike in a total number of vulnerabilities may be caused by the organization on-boarding several new applications that have not been previously exposed to the implemented application security mechanisms. Alternatively, an increase in the environment metrics without a corresponding increase in the effort or result could be an indicator of a mature and efficient security program.
 

@@ -17,12 +17,12 @@ maturity_levels:
         activity: |
             Conduct security tests to verify that the standard software security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service. Security test cases at least include testing for authentication, access control, input validation, encoding, and escaping data and encryption controls. The test objective is to validate that the security controls are implemented with few or no vulnerabilities.
 
-            The security testing tests for software security controls that are relevant for the software under test. Perform control verification security tests manually or with tools each time the application changes its use of the controls. Software control verification is mandatory for all software that is part of the SAMM program. Review the tests regularly to include changes in the software technology and vulnerability trends.
+            The security testing validates the relevant software security controls. Perform control-verification security tests manually or with tools, each time the application changes its use of the controls. Techniques such as feature toggles and A/B testing can be used to progressively expose features to broader audiences as they are sufficiently validated. Software control verification is mandatory for all software that is part of the SAMM program. Review the tests regularly to include changes in the software technology and vulnerability trends.
 
         question: Do you test applications for the correct functioning of standard security controls?
         quality_criteria:
-            - Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls.
-            - Security testing executes whenever the application changes its use of the controls.
+            - Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls
+            - Security testing executes whenever the application changes its use of the controls
 
         answers:
             - "No"
@@ -43,8 +43,9 @@ maturity_levels:
 
         question: Are the artifacts of the security requirements gathering process well defined and structured, with prioritization?
         quality_criteria:
-            - Tests are tailored to each application and assert expected security functionality.
-            - Test results are captured as a pass or fail condition
+            - You tailor tests to each application and assert expected security functionality
+            - You capture test results as a pass or fail condition
+            - Tests use a standardized framework or DSL
 
         answers:
             - "No"
@@ -55,18 +56,18 @@ maturity_levels:
     level3:
         level: 3
         benefit: |
-            Prevents identified (and fixed) bugs to be introduced as part of later releases through regression testing.
+            Prevents identified (and fixed) bugs being introduced as part of later releases through regression testing.
         activity: |
-            Write and automate regression tests for all identified (and fixed) bugs to ensures that these become a test harness preventing similar issues to be introduced as part of later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
+            Write and automate regression tests for all identified (and fixed) bugs to ensure that these become a test harness preventing similar issues being introduced during later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
 
-            A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as Identity, Authentication & Access Control, Input Validation & Encoding, User and Session Management, Error and Exception Handling, Encryption, and Auditing and Logging. Consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base.
+            A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as Identity, Authentication & Access Control, Input Validation & Encoding, User and Session Management, Error and Exception Handling, Encryption, and Auditing and Logging. Verify the correct execution of the security tests as early as possible. If feasible for example, consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base. Alternatively, consider their passing a requirement for validating a build.
 
-            Adapt unit test frameworks such as Junit, Nunit, and CUnit to verify security test requirements. For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.
+            For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.
 
         question: Do you automatically test applications for security regressions?
         quality_criteria:
-            - Tests are consistently written for all identified bugs (possibly exceeding a pre-defined severity threshhold)
-            - Security tests are collected in a test suite that is part of the existing unit testing framework
+            - You consistently write tests for all identified bugs (possibly exceeding a pre-defined severity threshhold)
+            - You collect security tests in a test suite that is part of the existing unit testing framework
 
         answers:
             - "No"

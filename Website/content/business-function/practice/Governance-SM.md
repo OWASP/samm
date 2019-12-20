@@ -23,7 +23,7 @@ stream_b_maturity_2_activity: Set targets and KPI’s for measuring the program 
 stream_b_maturity_3_activity: Influence the strategy based on the metrics and organizational needs.
 ---
 
-Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of this security practice is to build an efficient and effective plan for realizing your software security objectives within your organization.
+Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counter-productive. The goal of the Strategy & Metrics (SM) security practice is to build an efficient and effective plan for realizing your software security objectives within your organization.
 
 A software security program, that selects and prioritizes activities of the rest of the model, serves as the foundation for your efforts. The practice works on building the plan, maintaining and disseminating it.
 
