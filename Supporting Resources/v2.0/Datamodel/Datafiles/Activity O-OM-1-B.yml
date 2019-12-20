@@ -1,22 +1,19 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description - Decom/Legacy, Level 1
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  a0d2ec4c6daa43369c07644b8745a7bd
-  
+stream: a0d2ec4c6daa43369c07644b8745a7bd
+
 #Link to the practice level that this activity belongs to
-level:
-  d0a99f3db27e48aa9b2d6b58a9040f49
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: d0a99f3db27e48aa9b2d6b58a9040f49
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  1a398709b9d3407dbf9db7eeff6e916c
+id: 1a398709b9d3407dbf9db7eeff6e916c
 
 #The title of this activity
-title:
-  Identification of unused and legacy applications/services
+title: Identification of unused and legacy applications/services
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: |
@@ -24,8 +21,8 @@ benefit: |
   - Limited reductions in support costs for legacy product versions
 
 #A one sentence description of the activity
-shortDescription:
-  Decomission unused applications and services as identified. Manage customer upgrades/migrations individually. 
+shortDescription: Decomission unused applications and services as identified. Manage
+  customer upgrades/migrations individually.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -39,18 +36,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are related to this one
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

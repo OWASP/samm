@@ -1,26 +1,22 @@
+---
 # ===========================================================
 # OWASP SAMM2 Security Practice template/sample
 # ===========================================================
 #Link to the function, using its unique identifier
-function:
-  fa340fa1816244d79f369ae82e998368
+function: fa340fa1816244d79f369ae82e998368
 
-#Unique identifier (GUID) used to refer to this practice. 
+#Unique identifier (GUID) used to refer to this practice.
 #Please generate another identifier for your specific practice.
-id:
-  53f2da68c37a4ced8d5e767298fba589
+id: 53f2da68c37a4ced8d5e767298fba589
 
 #Official name of this practice
-name:
-  Architecture Assessment
+name: Architecture Assessment
 
 #Abbreviation of this practice
-shortName:
-  AA
+shortName: AA
 
 #A one sentence description of the security practice
-shortDescription:
-  Validate the security and compliance of the software and supporting infrastructure architecture.
+shortDescription: This practice focuses on validating the security and compliance of the software and supporting infrastructure architecture.
 
 #A multi-paragraph description of the security practice
 longDescription: |
@@ -33,17 +29,12 @@ longDescription: |
   Security-savvy staff conduct this analysis with assistance from the project team for application-specific knowledge. Perform this analysis upon major architecture changes, usually toward the end of a design phase.
 
 #The relative order of this practice in the business function
-order:
-  1
+order: 1
 
 #Who's the "owner" of this practice
-assignee:
-  Nessim Kisserli
+assignee: Nessim Kisserli
 
 #Indication of progress to keep track of overall status
-progress:
-  50
-
-
+progress: 50
 #Type Classification of the Document
 type: Practice

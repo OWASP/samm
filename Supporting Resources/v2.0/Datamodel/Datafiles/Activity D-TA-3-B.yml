@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  ed5a9c3dd7884c88918a45dc9d231c5d
+
+stream: ed5a9c3dd7884c88918a45dc9d231c5d
 
 #Link to the practice level that this activity belongs to
-level:
-  21a59897dbeb4d7fa4603a0f24362c2b
+level: 21a59897dbeb4d7fa4603a0f24362c2b
 
 #Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  e931a744c2864bef85a3fa75ce7e214f
+id: e931a744c2864bef85a3fa75ce7e214f
 
 #The title of this activity
-title:
-  Leverage recurring threat model exercises and automated analysis to ensure risk is effectively managed.
+title: Leverage recurring threat model exercises and automated analysis to ensure
+  risk is effectively managed.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit:
-  The timely update and qualitative management of application risks is optimized.
+benefit: The timely update and qualitative management of application risks is optimized.
 
 #A one sentence description of the activity
-shortDescription:
-  Continuously optimization and automation of your threat modeling methodology.
+shortDescription: Continuously optimization and automation of your threat modeling methodology.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -51,7 +48,6 @@ notes:
 
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
-
 
 #Type Classification of the Document
 type: Activity

@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  2f1cac3c2e724823b3b48a7e797520b4
-  
+stream: 2f1cac3c2e724823b3b48a7e797520b4
+
 #Link to the practice level that this activity belongs to
-level:
-  561e85a7fb114b1d976acce95d0b41ee
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 561e85a7fb114b1d976acce95d0b41ee
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  c1aef0137df1400cbdd3c660b609b7b2
+id: c1aef0137df1400cbdd3c660b609b7b2
 
 #The title of this activity
-title:
-  Set Target KPIs
+title: Set Target KPIs
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  A set of concrete objectives has been established to guide your improvement efforts.
+benefit: A set of concrete objectives has been established to guide your improvement
+  efforts.
 
 #A one sentence description of the activity
-shortDescription:
-  Set targets and KPI’s for measuring the program effectiveness.
+shortDescription: Set targets and KPI’s for measuring the program effectiveness.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,21 +36,14 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity

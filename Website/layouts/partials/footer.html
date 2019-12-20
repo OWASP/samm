@@ -1,0 +1,56 @@
+<footer id="footer">
+    <div class="container">
+
+        {{ if isset .Site.Params "about_us" }}
+        <div class="col-md-8 col-sm-6">
+            <h4>{{ i18n "aboutUs" }}</h4>
+
+            <p>{{ .Site.Params.about_us | markdownify }}</p>
+            <div class="social">
+              {{ range .Site.Menus.topbar.ByWeight }}
+              <a href="{{ .URL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
+              {{ end }}
+            </div>
+        <hr class="hidden-md hidden-lg hidden-sm">
+        </div>
+            
+        <!-- /.col-md-4 -->
+        {{ end }}
+
+        <div class="col-md-4 col-sm-6">
+          <a href="{{ .Site.Params.about_us_url }}" target="_blank">
+            <img src="{{ .Site.Params.about_us_img }}" class="img-responsive" alt="{{ .Title }}">
+          </a>
+        </div>
+        <!-- /.col-md-4 -->
+
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            {{ if isset .Site.Params "copyright" }}
+            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>&nbsp;
+            <a href="{{ .Site.Params.copyright_url }}">{{ .Site.Params.copyright_url_text }}</a>
+            {{ end }}
+            <p class="pull-right">
+              {{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
+
+              {{ i18n "portedBy" }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->
