@@ -20,9 +20,9 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Criteria exist to help the reviewer to focus on high-risk components
-- Reviews are conducted by qualified personnel following documented guidelines
-- Findings are addressed in accordance with the organisation's defect management policy
+- Criteria exist to help the reviewer focus on high-risk components
+- Qualified personnel conduct reviews following documented guidelines
+- You address findings in accordance with the organization's defect management policy
 
 #Type Classification of the Document
 type: Question
