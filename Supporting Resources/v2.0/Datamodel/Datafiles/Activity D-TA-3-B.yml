@@ -3,6 +3,7 @@
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
+
 stream: ed5a9c3dd7884c88918a45dc9d231c5d
 
 #Link to the practice level that this activity belongs to
@@ -17,20 +18,19 @@ title: Leverage recurring threat model exercises and automated analysis to ensur
   risk is effectively managed.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: The timely update and qualitative management of application threats is optimized.
+benefit: The timely update and qualitative management of application risks is optimized.
 
 #A one sentence description of the activity
-shortDescription: Continuously improve quality through regular reviews and automated
-  analysis of threat models.
+shortDescription: Continuously optimization and automation of your threat modeling methodology.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  In a mature setup of threat modeling, regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications.
+   Threat modeling is integrated into your SDLC and has become part of the developer security culture.  Reusable risk patterns, comprising of related threat libraries, design flaws, and security mitigations, are created and improved, based on the organization's threat models. You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications.
 
-  Use automated analysis to evaluate the quality and discover gaps and/or patterns in the threat models. These can improve the threat models.
+  You optimize your threat modeling methodology. You capture lessons learned from threat models and use these to improve your threat modeling methodology.  You review the threat categories relevant to your organization and update your methodology appropriately. From time to time, you evaluate the quality of your threat models independently.
 
-  Review the threat categories relevant to your organization. When you identify new threat categories, feed this information to the organization to ensure appropriate handling.
-
+  You automate parts of your threat modeling process with threat modeling tools. You integrate your threat modeling tools with other security tools, such as security verification tools and risk tracking tools. You consider "threat modeling as code" practices to integrate threat modeling artifacts with application code.
+  
 #The output of this particular activity
 results:
 
@@ -39,6 +39,7 @@ metrics:
 
 #A description of the costs required to implement the activity
 costs:
+
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
@@ -47,5 +48,6 @@ notes:
 
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
+
 #Type Classification of the Document
 type: Activity
