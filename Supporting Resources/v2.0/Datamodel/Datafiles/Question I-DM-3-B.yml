@@ -13,20 +13,18 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 0247b5b573b843609fdff791a1cc7c1b
 
 #One-sentence description of the criterium
-text: Do you regularly evaluate the effectiveness of your security metrics, so that
-  it's valuable input for your security strategy?
+text: Do you regularly evaluate the effectiveness of your security metrics so that
+  its input is valuable for your security strategy?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- You have analyzed the effectivenss of the security metrics at least once in the
-  last year
-- Where possible, the correctness of the data is automatically verified
-- The metrics is aggregated with other sources like threat intelligence or incident
-  management
-- You derived at least one strategic activity from the metrics in the last year.
+- You have analyzed the effectivenss of the security metrics at least once in the last year
+- Where possible, you verify the correctness of the data automatically
+- The metrics is aggregated with other sources like threat intelligence or incident management
+- You derived at least one strategic activity from the metrics in the last year
 
 #Type Classification of the Document
 type: Question
