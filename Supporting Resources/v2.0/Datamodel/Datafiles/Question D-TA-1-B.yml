@@ -21,9 +21,9 @@ order: 1
 
 #Qualifying Criterion
 quality:
-  -  You perform threat modeling for high-risk applications
-  -  You use simple threat checklists, such as STRIDE
-  -  You persist the outcome of a threat model for later use
+  - You perform threat modeling for high-risk applications
+  - You use simple threat checklists, such as STRIDE
+  - You persist the outcome of a threat model for later use
 
 #Type Classification of the Document
 type: Question
