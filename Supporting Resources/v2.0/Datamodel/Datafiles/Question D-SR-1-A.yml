@@ -20,10 +20,9 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Security requirements are derived from functional requirements and customer/organization
-  concerns.
-- Security requirements are specific, measurable, and reasonable.
-- Security requirements are in line with the organisational baseline.
+- Teams derive security requirements from functional requirements and customer or organization concerns
+- Security requirements are specific, measurable, and reasonable
+- Security requirements are in line with the organizational baseline
 
 #Type Classification of the Document
 type: Question
