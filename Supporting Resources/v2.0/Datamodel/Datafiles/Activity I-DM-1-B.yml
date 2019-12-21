@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  55bf5184ff7d4b76a444e52a28c803d9
-  
+stream: 55bf5184ff7d4b76a444e52a28c803d9
+
 #Link to the practice level that this activity belongs to
-level:
-  97a46a074fe849a1af2c2d2d3dd09ba5
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 97a46a074fe849a1af2c2d2d3dd09ba5
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  d1cb54f1ddd3432480513df320fc0ff8
+id: d1cb54f1ddd3432480513df320fc0ff8
 
 #The title of this activity
-title:
-  Calculate and share basic metrics, such as total counts.
+title: Calculate and share basic metrics, such as total counts.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  You take advantage of basic metrics from your defect management process to identify quick win activities. 
+benefit: You take advantage of basic metrics from your defect management process to
+  identify quick win activities.
 
 #A one sentence description of the activity
-shortDescription:
-  Regularly go over previously recorded security defects and derive quick wins from basic metrics. 
+shortDescription: Regularly go over previously recorded security defects and derive
+  quick wins from basic metrics.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -35,35 +32,31 @@ longDescription: |
   * The type or category of the defect, which suggests areas where the development team need further training.
   * The severity of the defect, which can help the team understand the software’s risk exposure.
 
-  Identify and carry out sensible quick win activities which you can derive from the newly acquired knowledge. These might include things like a knowledge sharing session about one particular vulnerability type or carrying out / automating a security scan. 
+  Identify and carry out sensible quick win activities which you can derive from the newly acquired knowledge. These might include things like a knowledge sharing session about one particular vulnerability type or carrying out / automating a security scan.
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
+- result1
+- result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+- metric1
+- metric2
 
-#A description of the costs required to implement the activity  
-costs:
-  TBS.
-  
+#A description of the costs required to implement the activity
+costs: TBS.
+
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
-  - Security Champion
+- Developer
+- Security Champion
 
 #Internal notes that might help the author
-notes: 
-  None
+notes: None
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-  - 93dff7be5f954f8d87d24f4261002508 #I-DM-1-A
-
-
+relatedActivities:
+- 93dff7be5f954f8d87d24f4261002508   #I-DM-1-A
 #Type Classification of the Document
 type: Activity

@@ -1,22 +1,19 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description - Data Protection, Level 2
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  9c6bf45a97ae4149a44c4a5d97ea6a40
-  
+stream: 9c6bf45a97ae4149a44c4a5d97ea6a40
+
 #Link to the practice level that this activity belongs to
-level:
-  76f8a2e68065467ba9bd2b5ac625490b
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 76f8a2e68065467ba9bd2b5ac625490b
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  82a962e3dcc44b1086760de517aaa3c1
+id: 82a962e3dcc44b1086760de517aaa3c1
 
 #The title of this activity
-title:
-  Data cataloged and data protection policy established
+title: Data cataloged and data protection policy established
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: |
@@ -24,8 +21,7 @@ benefit: |
   - Improved confidentiality, integrity, and availability of data backups
 
 #A one sentence description of the activity
-shortDescription:
-  Develop data catalog and establish data protection policy.
+shortDescription: Develop data catalog and establish data protection policy.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -41,17 +37,16 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are related to this one
-relatedActivities: 
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity

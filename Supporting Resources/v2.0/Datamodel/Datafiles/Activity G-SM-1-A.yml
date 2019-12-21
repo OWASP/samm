@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  94bb47791e3d462cbf5f71ebb1a1327a
-  
+stream: 94bb47791e3d462cbf5f71ebb1a1327a
+
 #Link to the practice level that this activity belongs to
-level:
-  4e54705272fa4f1f9977b1f9011f585d
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 4e54705272fa4f1f9977b1f9011f585d
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  ef0b56870b734b13868697017a9b605e
+id: ef0b56870b734b13868697017a9b605e
 
 #The title of this activity
-title:
-  Identify Organization's Drivers
+title: Identify Organization's Drivers
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Have a common understanding of an application security baseline.
+benefit: Have a common understanding of an application security baseline.
 
 #A one sentence description of the activity
-shortDescription:
-  Identify organization drivers as they relate to the organization’s risk tolerance.
+shortDescription: Identify organization drivers as they relate to the organization’s
+  risk tolerance.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,21 +36,14 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 
 #Type Classification of the Document
 type: Activity

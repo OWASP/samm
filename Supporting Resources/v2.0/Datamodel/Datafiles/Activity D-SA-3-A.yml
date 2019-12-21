@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  253b012094cf4e0988e08fd22609227d
-  
+stream: 253b012094cf4e0988e08fd22609227d
+
 #Link to the practice level that this activity belongs to
-level:
-  9d1e469966124c0fa80d1bc2fc223a0a
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 9d1e469966124c0fa80d1bc2fc223a0a
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  aa962032982a4d53bd34cd8771558df1
+id: aa962032982a4d53bd34cd8771558df1
 
 #The title of this activity
-title:
-  Create and maintain reference architectures 
+title: Create and maintain reference architectures
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Software architectures are standardized to minimize security risks.
+benefit: Software architectures are standardized to minimize security risks.
 
 #A one sentence description of the activity
-shortDescription:
-  Reference architectures are utilized and continuously evaluated for adoption and appropriateness.
+shortDescription: Reference architectures are utilized and continuously evaluated
+  for adoption and appropriateness.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,18 +36,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

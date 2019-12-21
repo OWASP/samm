@@ -1,0 +1,5 @@
+weight: 2
+name: "SAMM assessment"
+url: "/assessment"
+icon: "fas fa-chart-line"
+description: "Analyze your security posture using our maturity measurement tool."
