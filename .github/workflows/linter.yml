@@ -1,0 +1,18 @@
+---
+
+name: Yaml Lint
+on:
+  push:
+    paths:
+      - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+
+jobs:
+  lintModelv20:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: yaml-lint
+      uses: ibiqlik/action-yamllint@master
+      with:
+        file_or_dir: "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+        config_file: .yamllint
