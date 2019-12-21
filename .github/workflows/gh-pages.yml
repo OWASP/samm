@@ -1,0 +1,38 @@
+---
+
+name: github pages
+
+on:
+  push:
+    paths:
+      - 'Website/**'
+    branches:
+      - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Checkout submodules
+      shell: bash
+      run: |
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.3.0
+      with:
+        hugo-version: '0.59.1'
+        extended: true
+
+    - name: Build
+      run: hugo --gc --minify -v --cleanDestinationDir -s Website -d public
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./Website/public

@@ -1,0 +1,8 @@
+- id: contactForm
+  translation: "Drop us a line"
+- id: contactSend
+  translation: "Send message"
+- id: readMore
+  translation: "Read more"
+- id: continueReading
+  translation: "Continue reading"

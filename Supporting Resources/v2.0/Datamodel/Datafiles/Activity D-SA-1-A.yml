@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  253b012094cf4e0988e08fd22609227d
-  
+stream: 253b012094cf4e0988e08fd22609227d
+
 #Link to the practice level that this activity belongs to
-level:
-  a11b78917dec4cfdad983cf6d1d17b61
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: a11b78917dec4cfdad983cf6d1d17b61
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  27bb61f3c6344359b021caeaef5ab07e
+id: 27bb61f3c6344359b021caeaef5ab07e
 
 #The title of this activity
-title:
-  Use short checklists of security principles
+title: Use short checklists of security principles
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  You get basic security practices right in your software design.
+benefit: You get basic security practices right in your software design.
 
 #A one sentence description of the activity
-shortDescription:
-  Teams are trained on the use of basic security principles during design 
+shortDescription: Teams are trained on the use of basic security principles during
+  design
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,18 +36,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

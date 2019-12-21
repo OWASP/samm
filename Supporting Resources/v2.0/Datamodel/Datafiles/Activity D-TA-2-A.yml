@@ -1,30 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  17c90203f8354c3594eea22759e375a9
-  
+stream: 17c90203f8354c3594eea22759e375a9
+
 #Link to the practice level that this activity belongs to
-level:
-  e5b6dc4f907c4986b8ba7923303cd665
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: e5b6dc4f907c4986b8ba7923303cd665
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  529d528265c94447954a57f5be425f54
+id: 529d528265c94447954a57f5be425f54
 
 #The title of this activity
-title:
-  Quantitiate risk profiles are created for most or all applications across the organization.
+title: Quantitiate risk profiles are created for most or all applications across the
+  organization.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Solid understanding of the risk level of the organizational application portfolio.
+benefit: Solid understanding of the risk level of the organizational application portfolio.
 
 #A one sentence description of the activity
-shortDescription:
-  Understand the risk for all applications in the organization by centralizing the risk profile inventory for stakeholders.
+shortDescription: Understand the risk for all applications in the organization by
+  centralizing the risk profile inventory for stakeholders.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -42,18 +39,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

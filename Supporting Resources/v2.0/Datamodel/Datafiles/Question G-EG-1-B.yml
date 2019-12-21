@@ -1,33 +1,31 @@
+---
 # ===========================================================
 # OWASP SAMM2 Coverage Question template/sample
 # ===========================================================
 #Link to the activity that this question helps measure
-activity:
-  ebd3782abc4343509981c52192904a42
+activity: ebd3782abc4343509981c52192904a42
 
-#Link to the answer set that contains the potential answers for this question  
-answerset:
-  f77bd45a28c8493dbba6e53b2eafa20f
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
 
-#Unique identifier (GUID) used to refer to this maturity level. 
+#Unique identifier (GUID) used to refer to this maturity level.
 #Please generate another identifier for your specific maturity level.
-id:
-  21a9b65765a844e0b27a074f2b4306a1
+id: 21a9b65765a844e0b27a074f2b4306a1
 
 #One-sentence description of the criterium
-text: 
-  Have you identified a Security Champion for each development team? 
+text: Have you identified a Security Champion for each development team?
 
 #Order of this question for the activity (in case there would be multiple)
-order:
-  1
+order: 1
 
 #Qualifying Criterion
 quality:
-  - Each development team has an assigned Security Champion
-  - Security Champions receive appropriate training
-  - Application Security and Development teams receive periodic briefings from Security Champions on the overall status of security initiatives and fixes
-  - The Security Champion reviews the results of external testing before adding to the application backlog
-  
+- Each development team has an assigned Security Champion
+- Security Champions receive appropriate training
+- Application Security and Development teams receive periodic briefings from Security
+  Champions on the overall status of security initiatives and fixes
+- The Security Champion reviews the results of external testing before adding to the
+  application backlog
+
 #Type Classification of the Document
 type: Question

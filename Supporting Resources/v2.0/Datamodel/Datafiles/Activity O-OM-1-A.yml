@@ -1,30 +1,25 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description - Data Protection, Level 1
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  9c6bf45a97ae4149a44c4a5d97ea6a40
-  
+stream: 9c6bf45a97ae4149a44c4a5d97ea6a40
+
 #Link to the practice level that this activity belongs to
-level:
-  d0a99f3db27e48aa9b2d6b58a9040f49
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: d0a99f3db27e48aa9b2d6b58a9040f49
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  c16a12399dc94cc889d7e9e66e0ae2a0
+id: c16a12399dc94cc889d7e9e66e0ae2a0
 
 #The title of this activity
-title:
-  Basic data protections in place
+title: Basic data protections in place
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Sensitive data are protected from accidental disclosure
+benefit: Sensitive data are protected from accidental disclosure
 
 #A one sentence description of the activity
-shortDescription:
-  Implement basic data protection practices
+shortDescription: Implement basic data protection practices
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -38,18 +33,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are related to this one
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

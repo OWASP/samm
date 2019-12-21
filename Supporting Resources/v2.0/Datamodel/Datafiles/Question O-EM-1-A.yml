@@ -1,31 +1,27 @@
+---
 # ===========================================================
 # OWASP SAMM2 Coverage Question
 # ===========================================================
 #Link to the activity that this question helps measure
-activity:
-  786b3d7b39cd49a88090554a275f04a6
+activity: 786b3d7b39cd49a88090554a275f04a6
 
 #This question uses Answer Set T
-answerset:
-  991164a3daba483fb22289f8e831eed1
+answerset: 991164a3daba483fb22289f8e831eed1
 
-#Unique identifier (GUID) used to refer to this maturity level. 
+#Unique identifier (GUID) used to refer to this maturity level.
 #Please generate another identifier for your specific maturity level.
-id:
-  1e005e11997f4929a12fdb939599e77e
+id: 1e005e11997f4929a12fdb939599e77e
 
 #Text of the question presented to the user
-text: 
-  Do you harden configurations for key components of your technology stacks?
+text: Do you harden configurations for key components of your technology stacks?
 
 #Order of this question for the activity (in case there would be multiple)
-order:
-  1
+order: 1
 
 #Qualifying Criteria
 quality:
-  - You have identified the key components in each technology stack used
-  - You have an established configuration standard for each key component
+- You have identified the key components in each technology stack used
+- You have an established configuration standard for each key component
 
 #Type Classification of the Document
 type: Question

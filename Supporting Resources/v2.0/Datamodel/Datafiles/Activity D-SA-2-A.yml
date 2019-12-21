@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  253b012094cf4e0988e08fd22609227d
-  
+stream: 253b012094cf4e0988e08fd22609227d
+
 #Link to the practice level that this activity belongs to
-level:
-  41c8e63716c34f1eaf09b8cad70cfbaf
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 41c8e63716c34f1eaf09b8cad70cfbaf
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  9b6a86278ba14a9098d3d60a9a78d6c5
+id: 9b6a86278ba14a9098d3d60a9a78d6c5
 
 #The title of this activity
-title:
-  Evaluate common services and design patterns to establish baseline security postures and processes for adoption.
+title: Evaluate common services and design patterns to establish baseline security
+  postures and processes for adoption.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  The organisation leverages common security solutions.
+benefit: The organisation leverages common security solutions.
 
 #A one sentence description of the activity
-shortDescription:
-  Establish common design patterns and security solutions for adoption.
+shortDescription: Establish common design patterns and security solutions for adoption.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -44,18 +40,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity
