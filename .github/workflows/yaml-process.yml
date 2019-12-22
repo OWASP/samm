@@ -1,0 +1,72 @@
+name: Stage Web
+
+on:
+  push:
+    paths:
+      - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+    branches:
+      - "!master"
+
+jobs:
+  generate-markdown:
+    runs-on: ubuntu-18.04
+    needs: lintModelv20
+    steps:
+      - uses: actions/checkout@v2
+      - run: mkdir output
+
+      - name: "Process datafiles"
+        uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.3.5
+        with: 
+          args: "-d Supporting\ Resources/v2.0/Datamodel/Datafiles -o output"
+
+      - name: "Upload artifacts"
+        uses: actions/upload-artifact@v1
+        with:
+          name: markdown
+          path: output/markdown
+
+  build:
+    runs-on: ubuntu-18.04
+    needs: generate-markdown
+    steps:
+    - uses: actions/checkout@v2
+    - name: Checkout submodules
+      shell: bash
+      run: |
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.3.0
+      with:
+        hugo-version: '0.59.1'
+        extended: true
+
+    - uses: actions/download-artifact@v1
+      name: Download markdown-files
+      with:
+        name: markdown
+
+    - name: "Process artifacts"
+      run: |
+        cd markdown
+        mkdir -p business-function/practice/stream
+        mv Design.md Governance.md Implementation.md Operations.md Verification.md business-function
+        mv *-??-?.md business-function/practice/stream
+        mv *.md business-function/practice
+        cp -pr business-function Website/content
+
+    - name: Build
+      run: hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
+
+# This one needs to be defined
+#    - name: Deploy
+#      uses: peaceiris/actions-gh-pages@v2.5.0
+#      env:
+#        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+#        PUBLISH_BRANCH: gh-pages-staging
+#        PUBLISH_DIR: ./Website/public
+
+
