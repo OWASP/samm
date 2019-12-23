@@ -45,7 +45,7 @@ maturity_levels:
             You have an overview about the state of publicly known issues of your applications' dependencies.
         activity: |
             Evaluate used dependencies and establish a list of acceptable ones approved for use within a project, team, or the wider organization according to a defined set of criteria.
-Introduce a central repository of dependencies that all software can be built from.
+            Introduce a central repository of dependencies that all software can be built from.
 
             Review used dependencies regularly to ensure that&#58;
 
