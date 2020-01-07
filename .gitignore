@@ -10,3 +10,6 @@ Website/public/
 .DS_Store
 .vscode/
 .project
+
+# Local Netlify folder
+.netlify
