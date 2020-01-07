@@ -1,34 +1,24 @@
 ---
 
-name: github pages
+name: Production deploy
 
 on:
   push:
     paths:
+      - 'Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml'
       - 'Website/**'
     branches:
       - master
 
 jobs:
-  build-deploy:
+  deploy-gh:
     runs-on: ubuntu-18.04
+    needs: build
     steps:
-    - uses: actions/checkout@v2
-    - name: Checkout submodules
-      shell: bash
-      run: |
-        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-        git submodule sync --recursive
-        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.3.0
-      with:
-        hugo-version: '0.59.1'
-        extended: true
-
-    - name: Build
-      run: hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
+      - uses: actions/download-artifact@v1
+        name: Download website files
+        with:
+          name: webpage
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
