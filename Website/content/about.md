@@ -37,5 +37,5 @@ The structure and setup of the SAMM model support
 * [Frequently Asked Questions](/faq)
 * [Mapping versions 1.5 to 2.0](/mapping-versions)
 * [Version 1.5](/v1-5)
-* [Acronyms and Abrbreviations](/acronyms-and-abbreviations)
+* [Acronyms and Abbreviations](/acronyms-and-abbreviations)
 
