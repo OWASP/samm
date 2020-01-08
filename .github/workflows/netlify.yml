@@ -21,10 +21,8 @@ jobs:
           name: webpage
 
       - name: "Deploy to Netlify"
-        run: echo "Deploying to Netlify"
         # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
         if: github.event_name == 'pull_request' && github.base_ref == 'master'
-
         uses: netlify/actions/cli@master
         with:
           args: deploy --dir $PUBLISH_DIR --auth $NETLIFY_AUTH_TOKEN --site $NETLIFY_SITE_ID
