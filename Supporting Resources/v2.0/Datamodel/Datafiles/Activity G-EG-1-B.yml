@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  0e2c4c5620e24d7d8e979020ca414182
-  
+stream: 0e2c4c5620e24d7d8e979020ca414182
+
 #Link to the practice level that this activity belongs to
-level:
-  38f3a2f7633c42b98eb160f36a2c0a7b
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 38f3a2f7633c42b98eb160f36a2c0a7b
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  ebd3782abc4343509981c52192904a42
+id: ebd3782abc4343509981c52192904a42
 
 #The title of this activity
-title:
-  Identify Security Champions
+title: Identify Security Champions
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  Have a lightweight embedding of software security throughout your organization through security champions.
+benefit: Have a lightweight embedding of software security throughout your organization
+  through security champions.
 
 #A one sentence description of the activity
-shortDescription:
-  Identify a “Security Champion” within each development team.
+shortDescription: Identify a “Security Champion” within each development team.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,20 +36,13 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
-
-
 #Internal notes that might help the author
-notes: 
-
-
+notes:
 #References to other activities that may be related to this one
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

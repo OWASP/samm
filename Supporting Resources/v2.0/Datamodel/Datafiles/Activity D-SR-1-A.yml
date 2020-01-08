@@ -1,30 +1,26 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  7fb68bc660774b9080963c17761529a2
-  
+stream: 7fb68bc660774b9080963c17761529a2
+
 #Link to the practice level that this activity belongs to
-level:
-  3d035b6df77f4ee69577c9b4c9d64891
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: 3d035b6df77f4ee69577c9b4c9d64891
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  91086153b98b46928e36dd031b27bdc2
+id: 91086153b98b46928e36dd031b27bdc2
 
 #The title of this activity
-title:
-  Apply context-specific security requirements to the application.
+title: Apply context-specific security requirements to the application.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  You have an understanding of key security requirements.
+benefit: You have an understanding of key security requirements.
 
 #A one sentence description of the activity
-shortDescription:
-  High-level application security objectives are mapped to functional requirements.
+shortDescription: High-level application security objectives are mapped to functional
+  requirements.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,18 +36,15 @@ results:
 #The different metrics that can be used to measure the success of the activity
 metrics:
 
-#A description of the costs required to implement the activity  
+#A description of the costs required to implement the activity
 costs:
-  
 #The (standard) roles involved in the implementation of this activity
 personnel:
 
 #Internal notes that might help the author
-notes: 
+notes:
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivities: 
-
-
+relatedActivities:
 #Type Classification of the Document
 type: Activity

@@ -1,36 +1,33 @@
+---
 # ===========================================================
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
-stream:
-  2f7b501627954c6cb03342196b2065a7
-  
+stream: 2f7b501627954c6cb03342196b2065a7
+
 #Link to the practice level that this activity belongs to
-level:
-  b29ab542cc674901a19cf5f3c0c4be18
-  
-#Unique identifier (GUID) used to refer to this activity. 
+level: b29ab542cc674901a19cf5f3c0c4be18
+
+#Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
-id:
-  bed0489cae4e4401b1d44d56ad36c109
+id: bed0489cae4e4401b1d44d56ad36c109
 
 #The title of this activity
-title:
-  All application dependencies are identified and documented.
+title: All application dependencies are identified and documented.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: 
-  You can react to publicly disclosed vulnerabilities using knowledge about dependencies you are relying on.
+benefit: You can react to publicly disclosed vulnerabilities using knowledge about
+  dependencies you are relying on.
 
 #A one sentence description of the activity
-shortDescription:
-  Create recoreds with Bill of Materials of your applications and opportunistically analyze these.
+shortDescription: Create recoreds with Bill of Materials of your applications and
+  opportunistically analyze these.
 
 #A multi-paragraph description of the activity
 longDescription: |
   Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). Consider that different components of the application may consume entirely different dependencies. For example, if the software package is a web application, cover both the server-side application code and client-side scripts. In building these records, consider the various locations where dependencies might be specified such as configuration files, the project's directory on disk, a package management tool or the actual code (e.g. via an IDE that supports listing dependencies).
 
-  Gather the following information about each dependency:
+  Gather the following information about each dependency&#58;
 
   * Where it is used or referenced
   * Version used
@@ -42,31 +39,27 @@ longDescription: |
 
 #The output of this particular activity
 results:
-  - result1
-  - result2
+- result1
+- result2
 
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+- metric1
+- metric2
 
-#A description of the costs required to implement the activity  
-costs:
-  TBS.
-  
+#A description of the costs required to implement the activity
+costs: TBS.
+
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Engineer
-  - Developer
+- Security Engineer
+- Developer
 
 #Internal notes that might help the author
-notes: 
-  None
+notes: None
 
 #References to other activities that are prerequesites to implement this one.
-relatedActivites: 
-  - 
-
-
+relatedActivites:
+-
 #Type Classification of the Document
 type: Activity

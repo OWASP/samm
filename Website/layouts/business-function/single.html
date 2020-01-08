@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 samm-page-content">
+
+                        <h3>
+                            <a href="/model/">Model</a> | {{ .Params.title }}
+                        </h3>
+                            
+                        <h2>
+                            Security Practices
+                        </h2>
+
+                        <table class="table table-bordered">
+                            <tbody>
+                              <tr>
+                              <td><a href="{{ .Params.url }}{{ .Params.practice_1_url }}">{{ .Params.practice_1 }}</a></td>
+                              <td><a href="{{ .Params.url }}{{ .Params.practice_2_url }}">{{ .Params.practice_2 }}</a></td>
+                              <td><a href="{{ .Params.url }}{{ .Params.practice_3_url }}">{{ .Params.practice_3 }}</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                          <div>
+                            {{ .Content }}
+                          </div>
+
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

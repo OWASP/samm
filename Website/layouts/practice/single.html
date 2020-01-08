@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 samm-page-content">
+
+                        <h3>
+                            <a href="/model/">Model</a> | <a href="/model/{{ .Params.business_function_url }}">{{ .Params.business_function }}</a> | {{ .Params.title }}
+                        </h3>
+
+                        <div>
+                          {{ .Content }}
+                        </div>
+
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th><b>Maturity level</b></th>
+                              <th></th>
+                              <th>
+                                Stream A</br>
+                                <a href="{{ .Params.url }}stream-a">{{ .Params.stream_a }}</a>
+                              </th>
+                              <th>
+                                  Stream B</br>
+                                  <a href="{{ .Params.url }}stream-b">{{ .Params.stream_b }}</a>
+                                </th>
+                              </tr>
+                          </thead>
+                            
+                          <tbody>
+                            <tr>
+                              <td><b>1</b></td>
+                              <td>{{ .Params.practice_maturity_1_description }}</td>
+                              <td>{{ .Params.stream_a_maturity_1_activity }}</td>
+                              <td>{{ .Params.stream_b_maturity_1_activity }}</td>
+                            </tr>
+                            
+                            <tr>
+                              <td><b>2</b></td>
+                              <td>{{ .Params.practice_maturity_2_description }}</td>
+                              <td>{{ .Params.stream_a_maturity_2_activity }}</td>
+                              <td>{{ .Params.stream_b_maturity_2_activity }}</td>
+                            </tr>
+                            
+                            <tr>
+                              <td><b>3</b></td>
+                              <td>{{ .Params.practice_maturity_3_description }}</td>
+                              <td>{{ .Params.stream_a_maturity_3_activity }}</td>
+                              <td>{{ .Params.stream_b_maturity_3_activity }}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

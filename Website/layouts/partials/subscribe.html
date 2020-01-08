@@ -1,0 +1,19 @@
+{{ if isset .Site.Params "subscribe" }}
+{{ if .Site.Params.subscribe.enable }}
+<section class="bar background-image-fixed-3 no-mb color-white text-center">
+    <div class="dark-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="icon icon-lg"><i class="{{ .Site.Params.subscribe.icon }}"></i>
+                </div>
+                <h3 class="text-uppercase">{{ .Site.Params.subscribe.title }}</h3>
+                <p class="lead">{{ .Site.Params.subscribe.subtitle }}</p>
+                <a href="{{ .Site.Params.subscribe.link_url }}" target="_blank" class="subscribe-link">{{ .Site.Params.subscribe.link_text }}</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

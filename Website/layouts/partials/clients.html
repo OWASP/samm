@@ -1,0 +1,46 @@
+{{ if isset .Site.Params "clients" }}
+{{ if .Site.Params.clients.enable }}
+{{ if gt (len .Site.Data.clients) 0 }}
+<section class="bar background-gray no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.clients.title }}</h2>
+                </div>
+
+                <p class="lead text-center">
+                  {{ .Site.Params.clients.subtitle }}
+                  {{ if .Site.Params.clients.subtitle2 }}
+                  </br>
+                    {{ .Site.Params.clients.subtitle2 }}
+                  {{ end }}
+                </p>
+                
+                <!-- /.owl-carousel -->
+                <ul class="owl-carousel customers" data-itemsnumber="4">
+                    {{ range .Site.Data.clients }}
+                    <li class="item" title="{{ .name }}">
+                        {{ if .url }}
+                          <a href="{{ .url }}" target="_blank">
+                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          </a>
+                        {{ else }}
+                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                </ul>
+                <!-- /.owl-carousel -->
+
+                <p class="text-center">
+                  <a href="{{ .Site.Params.clients.link_url }}" class="btn btn-template-transparent-main btn-lg">{{ .Site.Params.clients.link_text }}</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
