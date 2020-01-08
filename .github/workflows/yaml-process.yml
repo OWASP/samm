@@ -11,6 +11,8 @@ jobs:
     needs: lintModelv20
     steps:
       - uses: actions/checkout@v2
+
+      - name: "Create output dir"
         run: mkdir output
 
       - name: "Process datafiles"
