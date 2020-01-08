@@ -72,7 +72,7 @@ jobs:
       - name: Build
         run: |
           find markdown
-          cp -r markdown/business-function Website/content/
+          cp -r markdown/* Website/content/business-function 
           hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
 
       - name: "Upload hugo artifacts"
