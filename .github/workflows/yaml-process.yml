@@ -6,6 +6,16 @@ on:
       - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
 
 jobs:
+  lintModelv20:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: yaml-lint
+      uses: ibiqlik/action-yamllint@master
+      with:
+        file_or_dir: "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+        config_file: .yamllint
+
   generate-markdown:
     runs-on: ubuntu-18.04
     needs: lintModelv20
