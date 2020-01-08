@@ -26,7 +26,7 @@ jobs:
         run: mkdir output
 
       - name: "Process datafiles"
-        uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.3.5
+        uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.3.6
         with:
           args: "-d Supporting\ Resources/v2.0/Datamodel/Datafiles -o output"
 
