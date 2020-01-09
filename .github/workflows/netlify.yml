@@ -3,6 +3,13 @@
 name: Staging deploy
 
 on:
+  push:
+    paths:
+      - 'Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml'
+      - 'Website/**'
+    branches:
+      - '!master'
+
   pull_request:
     paths:
       - 'Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml'
