@@ -61,7 +61,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.3.0
         with:
-          hugo-version: '0.59.1'
+          hugo-version: '0.62.2'
           extended: true
 
       - uses: actions/download-artifact@v1
@@ -69,9 +69,16 @@ jobs:
         with:
           name: markdown
 
-      - name: Build
+      - name: Production build
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: |
-          find markdown
+          cp -r markdown/* Website/content/business-function 
+          hugo --gc --minify -v --cleanDestinationDir --environment production -s Website -d public
+
+      - name: Staging build
+        # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
+        if: github.event_name == 'pull_request' && github.base_ref == 'master'
+        run: |
           cp -r markdown/* Website/content/business-function 
           hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
 
