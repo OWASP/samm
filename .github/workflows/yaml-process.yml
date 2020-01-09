@@ -77,7 +77,7 @@ jobs:
 
       - name: Staging build
         # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
-        if: github.event_name == 'pull_request' && github.base_ref == 'master'
+        if: github.event_name != 'push'
         run: |
           cp -r markdown/* Website/content/business-function 
           hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public

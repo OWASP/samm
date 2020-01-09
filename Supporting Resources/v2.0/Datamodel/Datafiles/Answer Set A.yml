@@ -8,7 +8,7 @@ id: f77bd45a28c8493dbba6e53b2eafa20f
 
 # Different answers with their properties. We use 4 levels or answers
 values:
-    #lowest level
+    # lowest level
 - text: No
   value: 0
   weight: 1
