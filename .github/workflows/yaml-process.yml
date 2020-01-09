@@ -3,6 +3,7 @@ name: Generate Web Markdown
 on:
   push:
     paths:
+      - ".github/workflows/*.yml"
       - "Website/**"
       - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
 
