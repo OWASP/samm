@@ -8,35 +8,35 @@ Throughout the core model and supporting documentation, we address the responsib
 
 ## The Organization
 
-Within the model, we use the term 'organization' generically, to mean the entire organization a portion of it, as determined by the scope you have selected for your SAMM assessment. For example, if your assessment's scope is limited to the 'Widgets' line of business, then all references to "the organization" should be read as "the Widgets line of business."
+Within the model, we use the term 'organization' generically, to mean your entire enterprise, or a portion of it, as determined by the scope you have selected for your SAMM assessment. For example, if your assessment's scope is limited to the 'Widgets' line of business, then all references to "the organization" should be read as "the Widgets line of business."
 
-An additional consideration is relevant, when you perform an assessment at a scope smaller than the entire enterprise. If the 'organization' that's in scope for the assessment relies on groups outside that scope for all or part of a SAMM activity (e.g., a corporate Education team manages all security awareness training), include the contributions from those groups when assessing your organization's maturity. 
+An additional consideration is relevant, when you perform an assessment at a scope smaller than the entire enterprise. If the 'organization' that's in scope for the assessment relies on groups outside that scope for all or part of a SAMM activity (e.g., a corporate Education Team manages all security awareness training), you should include the contributions from those groups when assessing your organization's maturity. 
 
-## Stakeholders
+## Stakeholder
 
-
+In the context of the model, 'stakeholder' refers to any party that can affect or be affected by your organization's actions, with regard to the applications within your assessment scope. Stakeholders in application development frequently include, but are not limited to: business owners, product owners, managers, developers, testers, infrastructure teams, regulatory agencies, standards organizations, certification assessors, and third-party suppliers.
 
 ## Teams
 
 ### Administration Team
 
-
+The Administration Team includes all individuals and job functions assigned responsibility for managing the collection of systems, networks, and other resources on which the applications within your assessment scope depend. In some cases, the Administration Team will be external to the 'organization' as defined by your assessment scope, and perform these job functions as a service to your organization. In others, the Administration Team may be the same as the Product Team, with members assigned various administration functions as part of their "full stack" responsibilities.   
 
 ### Product Team
 
-
+The Product Team includes all individuals and job functions assigned responsibilities in support of developing and delivering software applications within the assessment scope.
 
 ## Individual Roles
 
 ### Administrator
 
-
+As used within the model, 'administrator' refers to the individual or job function assigned responsibility for managing one or more specific systems, networks, or other resources on which at least one application within your assessment scope depends. Administrators include all individuals handling these responsibilities, whether dedicated to such roles full-time or assigned them as part of "full stack" development.
 
 ### Analyst
 
-The Analyst role is primarily focused on collecting, reviewing and documenting security and application architectures, evaluating threats and security risks, and consulting with architects, developers, business partners to gather information and data, perform analysis, and remediate identified security issues.  The Analyst is expected to be fully aware of the organization’s security goals as established by its stated policies, procedures and guidelines, and to actively work towards upholding these goals.
+The Analyst role is primarily focused on collecting, reviewing, and documenting security and application architectures, evaluating threats and security risks, and consulting with architects, developers, and business partners to gather information and data, perform analysis, and remediate identified security issues. The Analyst is expected to be fully aware of the organization’s security goals as established by its stated policies, procedures and guidelines, and to actively work towards upholding these goals.
 
-The Analyst will often work with key stakeholders across a multitude of business units, such as development teams, IT, and operations to enhance the security of the business enterprise. Interaction with various management teams is to be expected of this role, to communicate identified security issues and the impact to the organization.  It is also important that the Analyst contributes to the security enhancement of the Software Development Life Cycle (SDLC) and the Vulnerability and Threat Management Program.
+The Analyst will often work with key stakeholders across multiple business units to enhance the security of the business enterprise. Interaction with management teams is to be expected of this role, to communicate identified security issues and the impact to the organization.  It is also important that the Analyst contributes to the security enhancement of the Software Development Lifecycle (SDLC) and the Vulnerability and Threat Management Program.
 
 ### Application Security Professional
 
