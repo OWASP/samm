@@ -38,7 +38,7 @@ jobs:
           BASE=output/markdown
           cp "$BASE"/{Design.md,Governance.md,Implementation.md,Operations.md,Verification.md} business-function
           cp "$BASE"/*-??-?.md business-function/practice/stream
-          cp "$BASE"/*.md business-function/practice
+          cp "$BASE"/*-??.md business-function/practice
 
       - name: "Upload artifacts"
         uses: actions/upload-artifact@v1
