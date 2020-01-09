@@ -62,7 +62,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.3.0
         with:
-          hugo-version: '0.62.2'
+          hugo-version: '0.59.1'
           extended: true
 
       - uses: actions/download-artifact@v1
