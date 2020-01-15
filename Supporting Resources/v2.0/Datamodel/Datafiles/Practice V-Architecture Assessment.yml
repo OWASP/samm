@@ -20,7 +20,7 @@ shortDescription: This practice focuses on validating the security and complianc
 
 #A multi-paragraph description of the security practice
 longDescription: |
-  The Architecture Assessment (AA) practice focuses on validating the effectiveness of security mechanisms within application and infrastructure architectures on the one hand, and verifying that the architecture is aligned with security requirements and best practices and addresses known compliance requirements on the other hand. 
+  The Architecture Assessment (AA) practice focuses on validating the effectiveness of security mechanisms within application and infrastructure architectures on the one hand, and verifying that the architecture is aligned with security requirements and best practices and addresses known compliance requirements on the other hand.
 
   In its more advanced form, it formalizes the security architecture review process, and continuously evaluates the effectiveness of the architecture's security controls and verifies their strategic alignment. Possible improvements are identified and fed back to the Security Architecture practice.
 
