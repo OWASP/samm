@@ -23,6 +23,10 @@ As an open source project, we highly value the feedback from our community, eith
   February 20: "Bootstrap and Improve Your SDLC with OWASP SAMM" ([1-day training](https://www.owasp.org/index.php/OWASP_NZ_Day_2020-Training-Bootstrap_and_Improve_Your_SDLC_with_OWASP_SAMM) by John Ellingsworth)  
   February 21: "OWASP SAMM2: Your Dynamic Software Security Journey" ([Presentation](https://www.owasp.org/index.php/OWASP_New_Zealand_Day_2020#tab=Conference_-_21_February) by John Ellingsworth)
 
+* **May 5-6, 2020**  
+    Secure360, Minneapolis, MN 
+    May 5: "Assessing Application Security with OWASP SAMM 2.0" ([Presentation](https://secure360.org/session/yan-kravchenko-assessing-application-security-with-owasp-samm-2-0/?conference=11809&date=20200505) by Yan Kravchenko)
+
 ## From our archive
 
 * **November 2019**  
