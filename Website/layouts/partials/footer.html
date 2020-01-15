@@ -39,8 +39,13 @@ _________________________________________________________ -->
     <div class="container">
         <div class="col-md-12">
             {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>&nbsp;
+            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}
             <a href="{{ .Site.Params.copyright_url }}">{{ .Site.Params.copyright_url_text }}</a>
+              {{ if isset .Site.Params "privacy_policy" }}
+              {{ .Site.Params.privacy_policy | safeHTML }}
+              <a href="{{ .Site.Params.privacy_policy_url }}">{{ .Site.Params.privacy_policy_url_text }}</a>
+              {{ end }}
+            </p>
             {{ end }}
             <p class="pull-right">
               {{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
