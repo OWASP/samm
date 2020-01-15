@@ -13,18 +13,21 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Risk of leaking production secrets is reduced by introduction of basic access control measures.
+            Risk of leaking production secrets is reduced by introduction of basic protection measures.
         activity: |
-            Version and protect configuration files just like source code. Developers do not have access to secrets or credentials for production environments. Someone responsible for the production environment adds production secrets to configuration files during the deployment process.
-            Do not keep production secrets in configuration files for development or testing environments, as such environments may have a significantly lower security posture. Do not keep secrets in configuration files stored in code repositories.
-            Before deployment, store sensitive credentials and secrets for production systems with encryption-at-rest and appropriate key management. Consider using a purpose-built tool/vault for this data. Handle key management carefully so only personnel with responsibility for production deployments are able to access this data (the principle of least privilege).
-            Encrypt secrets at rest in configuration files during deployment. Manage keys so the application can access the secrets while running, but an attacker who obtains the configuration files alone cannot decipher them.
+            Version and protect configuration files just like source code. Developers should not have access to secrets or credentials for production environments. Have a mechanism in place for the production environment to securely add production secrets to configuration files and adequately protect them. This can for instance be achieved by encrypting the production secrets contained in the configuration files.
+
+            Do not use production secrets in configuration files for development or testing environments, as such environments may have a significantly lower security posture. Similarly, do not keep secrets in configuration files stored in code repositories.
+
+            Store sensitive credentials and secrets for production systems with encryption-at-rest at all times. Consider using a purpose-built tool/vault for this. Handle key management carefully so only personnel with responsibility for production deployments are able to access this data (the principle of least privilege).
+
+#Encrypt secrets at rest in configuration files during deployment. Manage keys so the application can access the secrets while running, but an attacker who obtains the configuration files alone cannot.
 
         question: Do you limit access to application secrets according to the least privilege principle?
         quality_criteria:
             - You store production secrets protected in a secured location
             - Developers do not have access to production secrets
-            - Production secrets are not available in non-prodcution environments
+            - Production secrets are not available in non-production environments
 
         answers:
             - "No"
@@ -35,16 +38,18 @@ maturity_levels:
     level2:
         level: 2
         benefit: |
-            Risk of leaking production secrets is mitigated by removing any manual interactions during deployment.
+            Risk of leaking production secrets is reduced by removing them from source code files.
         activity: |
-            Have an automated process to add credentials and secrets appropriate for the target environment to configuration files during the deployment process. This way, developers and deployers do not see or handle those sensitive values.
-            Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt secrets at rest and during transport. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptence test or production environment.
-            Ensure that all access to secrets (both reading and writing) is audited and logged in a central infracture.
+            Have an automated process to add credentials and secrets to configuration files during the deployment process to respective stages. This way, developers and deployers do not see or handle those sensitive values.
+
+            Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.   Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
+
+            Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt all secrets at rest and in transit. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptance test or production environment.
 
         question: Do you inject production secrets into configuration files dynamically?
         quality_criteria:
             - Under normal circumstances, no humans access secrets during deployment procedures
-            - Any abnormal access to secrets is logged and alerted
+            - You log and alert to any abnormal access to secrets
 
         answers:
             - "No"
@@ -55,17 +60,19 @@ maturity_levels:
     level3:
         level: 3
         benefit: |
-            Risk of leaking production secrets is mitigated by removing all manual interactions and regular regeneration.
+            Risk of leaking production secrets is reduced by limiting their use to run-time only and by regenerating regularly.
         activity: |
-            Where secrets are not predefined or dependant on another system, generate them during the deployment process. Follow appropriate best practices such as using a cryptographically secure pseudorandom number generator if you generate this value randomly. Alert any manual access to secrets in the production environment.
-            Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.
-            Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
+            Whereever possible, rely on on-demand solutions to manage access to the secrets required to execute the application. This is typically achieved by means of a vaulting solution with an query interface that can be used by the application based on a bootstrapping secret.
 
-        question: Do you regenerate application secrets during deployment?
+            Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance.
+
+            Ensure that all access to secrets (both reading and writing) is audited and logged in a central infrastructure.
+
+        question: Do you use run-time techniques to maximally control access to application secrets?
         quality_criteria:
-            - Secrets are generated and synchronized using a vetted solution
-            - Detection of a secret in a configuration file fails the deployment
-            - Any manual access to the generated secrets triggers an alert
+            - You generate and synchronize secrets using a vetted solution
+            - Secrets are different between different application instances
+            - Detection of a secret in a configuration file makes the deployment fail
 
         answers:
             - "No"

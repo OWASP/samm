@@ -24,11 +24,12 @@ stream_b_maturity_3_activity: Employ a dedicated, well-trained incident response
 ---
 
 Once your organization has applications in operation, you're likely to face security incidents. In this model, we define a security incident as a breach, or the threat of an imminent breach, of at least one asset's security goals, whether due to malicious or negligent behavior. Examples of security incidents might include:
-- a successful Denial of Service (DoS) attack against a cloud application; 
-- an application user accessing private data of another, by abusing a security vulnerability; or 
+- a successful Denial of Service (DoS) attack against a cloud application;
+- an application user accessing private data of another, by abusing a security vulnerability; or
 - an attacker modifying application source code.
+The Incident Management (IM) practice focuses on dealing with these in your organization.
 
 Historically, many security incidents have been detected months, or even years, after the initial breach. During the "dwell time" before an incident is detected, significant damage can occur, increasing the difficulty of recovery. Our first Activity Stream, Incident Detection, focuses on decreasing that dwell time.
 
-Once you have identified that you're suffering from a security incident, it's essential to respond in a disciplined, thorough manner to limit the damage, and return to normal operations as efficiently as possible. 
+Once you have identified that you're suffering from a security incident, it's essential to respond in a disciplined, thorough manner to limit the damage, and return to normal operations as efficiently as possible.
 

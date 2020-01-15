@@ -14,3 +14,4 @@ keywords: ["Business function"]
 ---
 
 Verification is focused on the processes and activities related to how an organization checks, and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
+

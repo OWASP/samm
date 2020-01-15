@@ -41,12 +41,12 @@ maturity_levels:
 
             Once you have implemented this for a few suppliers, work towards a standard agreement for suppliers that forms the basis of your negotiations. You can deviate from this standard agreement on a case by case basis, but it will help you to ensure you do not overlook important topics.
 
-        question: Does the vendor meet the security responsibilities and quality measures to be in line with service level agreements as defined by the organization?
+        question: Do vendors meet the security responsibilities and quality measures of service level agreements defined by the organization?
         quality_criteria:
-            - During the creation of vendor agreements, security requirements are discussed with the vendor.
-            - Vendor agreements provide specific guidance on security defect remediation within an agreed upon timeframe.
-            - The organization has a templated agreement of responsibilities and service levels for key vendor security processes.
-            - Key performance indicators are measured.
+            - You discuss security requirements with the vendor when creating vendor agreements
+            - Vendor agreements provide specific guidance on security defect remediation within an agreed upon timeframe
+            - The organization has a templated agreement of responsibilities and service levels for key vendor security processes
+            - You measure key performance indicators
 
         answers:
             - "No"

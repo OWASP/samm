@@ -13,16 +13,15 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 6b5eac7b9e2f49e2a2cda600ef70ad99
 
 #One-sentence description of the criterium
-text: Are SLAs for fixing security defects enforced?
+text: Do you enforce SLAs for fixing security defects?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- SLA breaches are automatically alerted and respective defects are transfered to
-  the risk management process
-- Relevant tooling (e.g. monitoring, build, deployment) is integrated with the defect
-  management system
+- You automatically alert of SLA breaches and transfer respective defects to the risk management process
+- You integrate relevant tooling (e.g. monitoring, build, deployment) with the defect management system
+
 #Type Classification of the Document
 type: Question

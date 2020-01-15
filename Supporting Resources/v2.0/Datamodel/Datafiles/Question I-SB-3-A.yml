@@ -13,18 +13,17 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: ee775955bf7f48d294c75f6384232f48
 
 #One-sentence description of the criterium
-text: Are automated security checks enforced in your build processes?
+text: Do you enforce automated security checks in your build processes?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- Build fails if the application doesn't meet predefined security baseline
+- Builds fail if the application doesn't meet a predefined security baseline
 - You have a maximum accepted severity for vulnerabilties
 - You log warnings and failures in a centralized system
-- You regularly (at least once a year) select and configure tools to evaluate each
-  application against its security requirements
+- You select and configure tools to evaluate each application against its security requirements at least once a year
 
 #Type Classification of the Document
 type: Question

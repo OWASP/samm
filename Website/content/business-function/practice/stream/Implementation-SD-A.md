@@ -13,12 +13,17 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            The risk of human errors done during deployment and leading to security issues is significantly mitigated.
+            The risk of human errors during deployment leading to security issues is significantly reduced.
         activity: |
-            Define the deployment process over all stages, breaking it down into a set of clear instructions to either be followed by a person or an automated tooling. The deployment process definition should desribe the whole process end-to-end so that it can be consistently followed each time and produce the same result. The definition is stored centrally and accessible to all relevant personnel. Do not store or distribute multiple copies, some of which may become outdated.
-            Deploy applications to production either using an automated process, or manually by personnel other than the developers. Ensure that developers do not need direct access to production environment for application deployment.
-            Choose any tools used during deployment carefully and harden them appropriately, including ensuring defined availability requirements (possibly leading e.g. to a redundant setup). Given that most of these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow, and configure access rules to these tools according to the least privilege principle.
-            Have personnel with access to production environment go through at least a minimum level of training or certification to ensure their competency in this sensitive environment.
+            Define the deployment process over all stages, breaking it down into a set of clear instructions to either be followed by a person or an automated tooling. The deployment process definition should describe the whole process end-to-end so that it can be consistently followed each time to produce the same result. The definition is stored centrally and accessible to all relevant personnel. Do not store or distribute multiple copies, some of which may become outdated.
+
+            Deploy applications to production either using an automated process, or manually by personnel other than the developers. Ensure that developers do not need direct access to the production environment for application deployment.
+
+            Choose any tools used during deployment carefully and harden them appropriately, including ensuring defined availability requirements (possibly leading to a redundant setup). Given that most of these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow, and configure access rules to these tools according to the least privilege principle.
+
+            Review any deployment tools, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool’s configuration so that it is aligned with vendor guidelines and industry best practices. Given that most of these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow, and configure access rules to these tools according to the least privilege principle.
+
+            Have personnel with access to the production environment go through at least a minimum level of training or certification to ensure their competency in this matter.
 
         question: Do you use repeatable deployment processes?
         quality_criteria:
@@ -39,9 +44,9 @@ maturity_levels:
         benefit: |
             The deployment process is fully repeatable, software with obvious security issues doesn't get deployed to production.
         activity: |
-            Automate deployment process to various stages, so that no manual configuration steps are needed and the risk of isolated human errors is eliminated. Ensure and verify (e.g. using hash values) that the development is consistent over all stages. 
+            Automate the deployment process to cover various stages, so that no manual configuration steps are needed and the risk of isolated human errors is eliminated. Ensure and verify that the deployment is consistent over all stages.
 
-            Integrate automated security checks in your deployment process, e.g. using Dynamic Analysis Security Testing (DAST) and vulnerability scanning tools. Log the results from these tests centrally and take any necessary actions. Ensure that in case any defects are detected, relevant personnel is notified automaticaly. In case any issues exceeding predefined criticality are identified, stop or reverse the deployment  either automatically, or introduce a separate manual approval workflow so that this decision is recorded, containing an explanation for the exception. 
+            Integrate automated security checks in your deployment process, e.g. using Dynamic Analysis Security Testing (DAST) and vulnerability scanning tools. Also, verify the integrity of the deployed artefacts where this makes sense. Log the results from these tests centrally and take any necessary actions. Ensure that in case any defects are detected, relevant personnel is notified automaticaly. In case any issues exceeding predefined criticality are identified, stop or reverse the deployment  either automatically, or introduce a separate manual approval workflow so that this decision is recorded, containing an explanation for the exception.
 
             Account for and audit all deployments to all stages. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
 
@@ -49,7 +54,7 @@ maturity_levels:
         quality_criteria:
             - Deployment processes are automated on all stages
             - Deployment includes automated security testing procedures
-            - Responsible staff is alerted with identified vulnerabilities
+            - You alert responsible staff to identified vulnerabilities
             - You have logs available for your past deployments for a defined period of time
 
         answers:
@@ -71,9 +76,9 @@ maturity_levels:
 
         question: Do you consistently validate the integrity of deployed artifacts?
         quality_criteria:
-            - Deployment is prevented or rolled back in case integrity breach is detected
+            - You prevent or roll back deployment if you detect an integrity breach
             - The verification is done against signatures created during the build time
-            - If checking of signatures is not possible (e.g. externally build software), compensating measures are introduced
+            - If checking of signatures is not possible (e.g. externally build software), you introduce compensating measures
 
         answers:
             - "No"

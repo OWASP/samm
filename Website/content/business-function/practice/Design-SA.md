@@ -23,4 +23,5 @@ stream_b_maturity_2_activity: Standardize technologies and frameworks to be used
 stream_b_maturity_3_activity: Impose the use of standard technologies on all software development.
 ---
 
-This practice focuses on the security linked to components and technology you deal with during the design of the architecture of your software. Secure Architecture Design looks at the selection and composition of components that form the foundation of your solution, focusing on its security properties. Technology management looks at the security of supporting technologies used during development, deployment and operations, such as development stacks and tooling, deployment tooling, and operating systems and tooling.
+The Security Architecture (SA) practice focuses on the security linked to components and technology you deal with during the design of the architecture of your software. Secure Architecture Design looks at the selection and composition of components that form the foundation of your solution, focusing on its security properties. Technology management looks at the security of supporting technologies used during development, deployment and operations, such as development stacks and tooling, deployment tooling, and operating systems and tooling.
+

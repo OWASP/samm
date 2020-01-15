@@ -21,8 +21,8 @@ maturity_levels:
 
         question: Do you protect and handle information according to protection requirements for data stored and processed on each application?
         quality_criteria:
-            - You identify the data elements processed and stored by each application
-            - You determine the type and sensitivity level of each identified data element
+            - You know the data elements processed and stored by each application
+            - You know the type and sensitivity level of each identified data element
             - You have controls to prevent propagation of unsanitized sensitive data from production to lower environments
 
         answers:
@@ -42,12 +42,12 @@ maturity_levels:
 
             Identify the data stored, processed, and transmitted by applications, and capture information regarding their types, sensitivity (classification) levels, and storage location(s) in your data catalog. Clearly identify records or data elements subject to specific regulation. Establishing a single source of truth regarding the data you work with supports finer-grained selection of controls for their protection. Collecting this information enhances the accuracy, timeliness, and efficiency of your responses to data-related queries (e.g., from auditors, incident response teams, or customers), and supports threat modeling and compliance activities.
 
-            Based on your Data Protection Policy, establish processes and procedures for protecting and preserving data throughout their lifetime, whether at rest, while being processed, or in transit. Pay particular attention to the handling and protection of sensitive data outside the active processing system, including, but not limited to":" storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Your processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
+            Based on your Data Protection Policy, establish processes and procedures for protecting and preserving data throughout their lifetime, whether at rest, while being processed, or in transit. Pay particular attention to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Your processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
 
         question: Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?
         quality_criteria:
             - The data catalog is stored in an accessible location
-            - You identify data elements subject to specific regulation
+            - You know which data elements are subject to specific regulation
             - You have controls for protecting and preserving data throughout its lifetime
             - You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends
 

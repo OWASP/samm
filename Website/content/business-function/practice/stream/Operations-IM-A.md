@@ -17,7 +17,7 @@ maturity_levels:
         activity: |
             Analyze available log data (e.g., access logs, application logs, infrastructure logs), to detect possible security incidents in accordance with known log data retention periods.
 
-            In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques. Even a `cron` job, running a simple script to look for suspicious events, is a step forward! 
+            In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques. Even a `cron` job, running a simple script to look for suspicious events, is a step forward!
 
             If you send logs from different sources to a dedicated log aggregation system, analyze the logs there and employ basic log correlation principles.
 
@@ -43,8 +43,11 @@ maturity_levels:
             Timely and consistent detection of expected security incidents
         activity: |
             Establish a dedicated owner for the incident detection process, make clear documentation accessible to all process stakeholders, and ensure it is regularly reviewed and updated as necessary. Ensure employees responsible for incident detection follow this process (e.g., using training).
+
             The process typically relies on a high degree of automation, collecting and correlating log data from different sources, including application logs. You may aggregate logs in a central place, if suitable. Periodically verify the integrity of analyzed data. If you add a new application, ensure the process covers it within a reasonable period of time.
+
             Detect possible security incidents using an available checklist. The checklist should cover expected attack vectors and known or expected kill chains. Evaluate and update it regularly.
+
             When you determine an event is a security incident (with sufficiently high confidence), notify responsible staff immediately, even outside business hours. Perform further analysis, as appropriate, and start the escalation process.
 
         question: Do you follow a documented process for incident detection?
@@ -68,7 +71,7 @@ maturity_levels:
         activity: |
             Ensure process documentation includes measures for continuous process improvement. Check the continuity of process improvement (e.g., via tracking of changes).
 
-            Ensure the checklist for suspicious event detection is correlated at least from":"
+            Ensure the checklist for suspicious event detection is correlated at least from:
             - Sources and knowledge bases external to the company (e.g., new vulnerability announcements affecting the used technologies)
             - Past security incidents
             - Threat model outcomes

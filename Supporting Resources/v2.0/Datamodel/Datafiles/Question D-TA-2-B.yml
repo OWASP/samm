@@ -13,15 +13,17 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 42cfabd13db34fd0b35e92af917eb1b8
 
 #One-sentence description of the criterium
-text: Do you use a standard methodology to evaluate the threats to your applications?
+text: Do you use a standard methodology, aligned on your application risk levels?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- People with training or experience in threat modeling lead threat modeling activities
-- The methodology states the different inputs required to perform an in-depth assessment
-- Threat model deliverables are standardized and accessible across the organization
+  - You train your architects, security champions, and other stakeholders on how to do practical threat modeling
+  - Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts
+  - Changes in the application or business context trigger a review of the relevant threat models
+  - You capture the threat modeling artifacts with tools that are used by your application teams
+
 #Type Classification of the Document
 type: Question

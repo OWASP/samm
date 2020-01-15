@@ -21,9 +21,9 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Tests are tailored to each application and assert expected security functionality.
-- Test results are captured as a pass or fail condition
-- Tests leverage a standardized framework or DSL
+- You tailor tests to each application and assert expected security functionality
+- You capture test results as a pass or fail condition
+- Tests use a standardized framework or DSL
 
 #Type Classification of the Document
 type: Question
