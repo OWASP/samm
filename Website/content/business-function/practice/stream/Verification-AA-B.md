@@ -15,7 +15,7 @@ maturity_levels:
         benefit: |
             Assures that the compliance requirements of the architecture are met.
         activity: |
-            Review the architecture against compliance requirements ad hoc. Identify and collect either formally identified or informally known compliance requirements.
+            Review the architecture against compliance requirements ad hoc. Identify and collect either formally identified or informally known compliance requirements. Consider both internal policy requirements, and external regulatory ones.
 
             Review each item on the list of known compliance requirements against the architecture. Elaborate the analysis to show the design-level features that address each compliance requirement. The overall goal is to verify that each known compliance requirement has been addressed by the system design. Note any compliance requirements that are not clearly provided at the design level as assessment findings.
 
@@ -37,7 +37,7 @@ maturity_levels:
         benefit: |
             This activity assures that the architecture is aligned with the security requirements and best practices.
         activity: |
-            Analyze the architecture against known security requirements and best practices. Identify and collect either formally identified or informally known security requirements. Additionally, identify and include any security assumptions on which safe operation of the system relies.
+            Following a standardized assessment methodology, analyze the architecture against known security requirements and best practices. Identify and collect either formally identified or informally known security requirements. Additionally, identify and include any security assumptions on which safe operation of the system relies.
 
             Review each item on the list of known security requirements against the architecture. Elaborate the analysis to show the design-level features that address each security requirement. Perform separate, detailed analysis iterations on parts of the architecture to simplify capturing this information if the system is large or complex. The overall goal is to verify that each known security requirement has been addressed by the system design. Note any security requirements not clearly provided at the design level as assessment findings.
 

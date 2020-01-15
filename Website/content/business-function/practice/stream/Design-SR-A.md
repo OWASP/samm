@@ -23,9 +23,9 @@ maturity_levels:
 
         question: Do project teams specify security requirements during development?
         quality_criteria:
-            - Security requirements are derived from functional requirements and customer/organization concerns.
-            - Security requirements are specific, measurable, and reasonable.
-            - Security requirements are in line with the organisational baseline.
+            - Teams derive security requirements from functional requirements and customer or organization concerns
+            - Security requirements are specific, measurable, and reasonable
+            - Security requirements are in line with the organizational baseline
 
         answers:
             - "No"
@@ -44,12 +44,12 @@ maturity_levels:
 
             When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. For example, annotate requirements with priorities, or influence the handling of requirements to enforce sufficient security appetite (while balancing against other non-functional requirements).
 
-        question: Are the artifacts of the security requirements gathering process well defined and structured, with prioritization?
+        question: Do you define, structure, and include prioritization in the artifacts of the security requirements gathering process?
         quality_criteria:
-            - Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development.
-            - Domain experts are involved in the requirements definition process.
-            - An agreed upon structured notation exists for security requirements.
-            - Development teams have a security champion dedicated to reviewing security requirements and outcomes.
+            - Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development
+            - Domain experts are involved in the requirements definition process
+            - You have an agreed upon structured notation for security requirements
+            - Development teams have a security champion dedicated to reviewing security requirements and outcomes
 
         answers:
             - "No"

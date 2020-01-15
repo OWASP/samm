@@ -3,6 +3,7 @@
 # OWASP SAMM Activity Description
 # ===========================================================
 #Link to the stream that this activity belongs to
+
 stream: ed5a9c3dd7884c88918a45dc9d231c5d
 
 #Link to the practice level that this activity belongs to
@@ -13,25 +14,24 @@ level: e5b6dc4f907c4986b8ba7923303cd665
 id: 649b693315234a94928e42f3e308deac
 
 #The title of this activity
-title: Threat modeling processes are defined and evaluated periodically for adoption
-  and effectiveness.
+
+title: Threat modeling is standardized accross the organization.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Improved elicitation and management of threats to the solution.
+benefit: Scaleble threat modeling aligned to your organization risks.
 
 #A one sentence description of the activity
-shortDescription: Standardize threat modeling activities, tools, and processes in
-  order to scale across the organization.
+shortDescription: Standardize threat modeling training, processes, and tools to scale across the organization.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Establish a standard approach to perform structured threat modeling to increase the quality and efficiency of threat modeling within your organization, and ensure that the invested effort is useful and well spent. Structured threat modeling takes into account the different actors, assets and flows to identify an extensive list of potential threats to the application. It defines the inputs required to start the activity (e.g., a technical architecture overview and a data flow diagram), the different steps to identify threats, and the formalisms to describe or annotate the threats. You can add mitigating controls to threat models to guide designers in dealing with particular threats.
+  Use a standardized threat modeling methodology for your organization and align this on your application risk levels. Think about ways to support the scaling of threat modeling throughout the organization.
 
-  As an organization, define what triggers the execution of threat modeling. For example a change in architecture, or a deployment of an application in a new environment. At the same time, think about ways to support scaling of threat modeling throughout the organization.
+  Train your architects, security champions, and other stakeholders on how to do practical threat modeling.  Threat modeling requires understanding, clear playbooks and templates, organization-specific examples, and experience, which is hard to automate.
 
-  Feed the output of threat modeling to the defect management process for adequate follow-up. Adopt a weighting system to measure and compare the importance of the different threats.
+  Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts. Your threat model diagram allows a detailed understanding of the environment and the mechanics of the application. You discover threats to your application with checklists, such as STRIDE or more organization-specific threats. For identified design flaws (ranked according to risk for your organization), you add mitigating controls to support stakeholders in dealing with particular threats. Define what triggers updating a threat model, for example, a technology change or deployment of an application in a new environment.
 
-  Consider using a tool to manage the treat models of the different applications. Train people to focus on important threats, as one of the challenges in threat modeling is a potential overload of trivial threats. Tools help in identifying potential threats but, in the end, threat modeling requires human intelligence that cannot be easily automated.
+  Feed the output of threat modeling to the defect management process for adequate follow-up. Capture the threat modeling artifacts with tools that are used by your application teams.
 
 #The output of this particular activity
 results:
@@ -41,6 +41,7 @@ metrics:
 
 #A description of the costs required to implement the activity
 costs:
+
 #The (standard) roles involved in the implementation of this activity
 personnel:
 

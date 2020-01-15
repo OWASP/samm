@@ -20,9 +20,9 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Secrets are generated and synchronized using a vetted solution
+- You generate and synchronize secrets using a vetted solution
 - Secrets are different between different application instances
-- Detection of a secret in a configuration file fails the deployment
+- Detection of a secret in a configuration file makes the deployment fail
 
 #Type Classification of the Document
 type: Question
