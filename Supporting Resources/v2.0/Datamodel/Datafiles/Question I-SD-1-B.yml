@@ -13,8 +13,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 37c6a5618a6344b386eb872619cfe53f
 
 #One-sentence description of the criterium
-text: Do you limit access to application secrets according to the least privilege
-  principle?
+text: Do you limit access to application secrets according to the least privilege principle?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
