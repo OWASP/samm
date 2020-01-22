@@ -13,7 +13,7 @@ level: 76f8a2e68065467ba9bd2b5ac625490b
 id: 60d7a0a61dd142d5a87009bc5b93df56
 
 #The title of this activity
-title: Decomissioning and legacy migration processes in place
+title: Decommissioning and legacy migration processes in place
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: |
@@ -21,7 +21,7 @@ benefit: |
   - Elimination of risks associated with end-of-life software
 
 #A one sentence description of the activity
-shortDescription: Develop repeatable decomissioning processes for unused systems/services,
+shortDescription: Develop repeatable decommissioning processes for unused systems/services,
   and for migration from legacy dependencies. Manage legacy migration roadmaps for
   customers.
 
