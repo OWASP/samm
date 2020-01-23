@@ -19,7 +19,7 @@ SAMM is a prescriptive model, an open framework which is simple to use, fully de
 
 SAMM was defined with flexibility in mind so that small, medium, and large organizations using any style of development can customize and adopt it. It provides a means of knowing where your organization is on its journey towards software assurance and understanding what is recommended to move to the next level of maturity. 
 
-SAMM does not insist that all organizations achieve the maximum maturity level in every category. Each organization can determine the target maturity level for each Security Practice that is the best fit and adapt the templates provided for their specific needs.
+SAMM does not insist that all organizations achieve the maximum maturity level in every category. Each organization can determine the target maturity level for each Security Practice that is the best fit and adapt the available templates for their specific needs.
 
 ## OWASP SAMM structure
 
