@@ -16,18 +16,16 @@ id: 4729b4bd6dca4d58a68cb854ad4409a6
 title: Secrets are dynamically included during the deployment process.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Risk of leaking production secrets is reduced by removing them from source
-  code files.
+benefit: Risk of leaking production secrets is reduced by removing them from source code files.
 
 #A one sentence description of the activity
-shortDescription: Inject secrets dynamically during deployment process from hardened
-  storages and audit all human access to them.
+shortDescription: Inject secrets dynamically during deployment process from hardened storages and audit all human access to them.
 
 #A multi-paragraph description of the activity
 longDescription: |
   Have an automated process to add credentials and secrets to configuration files during the deployment process to respective stages. This way, developers and deployers do not see or handle those sensitive values.
 
-  Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings, for instance. In systems such as code repositories, where there is a history, include the versions in the checks.   Mark potential secrets you discover as sensitive values, and either remove them or render them non-sensitive. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
+  Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings. In systems such as code repositories, where there is a history, include the versions in the checks. Mark potential secrets you discover as sensitive values, and remove them where appropriate. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
 
   Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt all secrets at rest and in transit. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptance test or production environment.
 

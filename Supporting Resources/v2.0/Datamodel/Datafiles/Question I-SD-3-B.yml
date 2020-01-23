@@ -13,7 +13,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 50af7a14ddf2408fb4576e3972cf13e3
 
 #One-sentence description of the criterium
-text: Do you use run-time techniques to maximally control access to application secrets?
+text: Do you practice proper lifecycle management for application secrets?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
@@ -22,7 +22,7 @@ order: 1
 quality:
 - You generate and synchronize secrets using a vetted solution
 - Secrets are different between different application instances
-- Detection of a secret in a configuration file makes the deployment fail
+- Secrets are regularly updated
 
 #Type Classification of the Document
 type: Question

@@ -16,20 +16,16 @@ id: fed0d75c064c4a979a5b7b98adfdedbf
 title: Favor run-time mechanisms to work with secrets and improve lifecycle management.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Risk of leaking production secrets is reduced by limiting their use to run-time
-  only and by regenerating regularly.
+benefit: Risk of leaked production secrets is reduced by improving their lifecycle.
 
 #A one sentence description of the activity
-shortDescription: Use run-time solutions to minimize access to application secrets.
-  Properly manage the secret lifecycle.
+shortDescription: Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Whereever possible, rely on on-demand solutions to manage access to the secrets required to execute the application. This is typically achieved by means of a vaulting solution with an query interface that can be used by the application based on a bootstrapping secret.
+  Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance. The use of secrets per application instance ensures that unexpected application behavior can be traced back and properly analysed. Tools can help in automatically and seemlessly updating the secrets in all relevant places upon change.
 
-  Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance.
-
-  Ensure that all access to secrets (both reading and writing) is audited and logged in a central infrastructure.
+  Ensure that all access to secrets (both reading and writing) is logged in a central infrastructure. Review these logs regularly to identify unexpected behavior and perform proper analysis to understand why this happened. Feed issues and root causes into the defect management practice to make sure that the organisation will resolve any unacceptable situations.
 #The output of this particular activity
 results:
 - result1
