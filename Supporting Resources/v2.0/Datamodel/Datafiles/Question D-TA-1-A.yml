@@ -21,7 +21,7 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- An aggreed-upon risk classification exists
+- An agreed-upon risk classification exists
 - The application team understands the risk classification
 - The risk classification covers critical aspects of business risks the organization
   is facing
