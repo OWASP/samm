@@ -17,7 +17,7 @@ title: Leverage stress and load testing tools to discover weaknesses in design o
   implementation.
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identifies functionality or resources in the sofware that can be abused to
+benefit: Identifies functionality or resources in the software that can be abused to
   perform denial of service attacks.
 
 #A one sentence description of the activity
