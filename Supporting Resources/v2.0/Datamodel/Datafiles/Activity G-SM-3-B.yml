@@ -26,7 +26,7 @@ shortDescription: Influence the strategy based on the metrics and organizational
 longDescription: |
   Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics. These guidelines  combine the maturity of the application development process and procedures  with different metrics to make the program more efficient. The following examples show a relationship between measurements and ways of evolving and improving application security
 
-  * Focus on maturity of the development life-cycle makes the relative cost per defect lower by applying security proactively.
+  * Focus on maturity of the development lifecycle makes the relative cost per defect lower by applying security proactively.
   * Monitoring the balance between effort, result, and environment metrics improves the program’s efficiency and justifies additional automation and other methods for improving the overall application security baselines.
   * Individual Security Practices could provide indicators of success or failure of individual application security initiatives.
   * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
