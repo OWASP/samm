@@ -13,23 +13,23 @@ level: 6291462e1894467d807b913ef7da4beb
 id: fb6f258a2e424ee9a919341758222a7a
 
 #The title of this activity
-title: Develop customized security test cases and test harnesses based on business
-  rules and logic.
+title: Customize automated tools for your applications and technology stacks
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Improves the efficiency and effectiveness of security testing automation
-  by customizing them towards the software.
+benefit: Improves the efficiency and effectiveness of security testing automation by customizing tools for applications and technology stacks
 
 #A one sentence description of the activity
 shortDescription: Employ application-specific security testing automation
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Project teams and their security and tool champions review security requirements and build a set of automated checkers to test the security of the implemented business logic. They do this through either customization of static and dynamic security testing tools, enhancements to generic test case execution tools, or by extending custom test harnesses.
+  Increase the effectiveness of automated security testing tools by tuning and customizing them for your particular technology stacks and applications. Automated security testing tools have 2 important characteristics: Their false positive rate, i.e. the non-existent bugs and vulnerabilities they incorrectly report; their false negative rate, i.e. actual bugs and vulnerabilities which they fail to detect. As you mature in your use of automated testing tools, you strive to minimize their false positive and false negative rates. This maximizes the time development teams spend reviewing and addressing real security issues in their applications, and reduces the friction typically associated with using untuned automated security analysis tools.
 
-  Customize automated security testing tools to the specific software interfaces in the project under test for improved accuracy and depth of coverage. Codify organization-specific concerns from compliance or technical standards as a reusable, central test battery to make audit data collection and per-project management visibility simpler.
+  Start by disabling tool support for technologies and frameworks you do not use and target specific versions where possible. This will increase execution speed and reduce the number spurious results reported. Rely on security tool champions or shared security teams to pilot the tools in coordination with a select group of motivated development teams. This will identify likely false positive findings to ignore or remove from the tools' output. Identify specific security issues and anti-patterns and favor the best tool for detecting them. 
 
-  Project teams focus on improving the number, granularity, and quality of security test cases based on the business functionality of their software. A central software security group focuses on specification of automated tests for compliance and internal standards.
+  Leverage available tool features to take application-specific and organisational coding styles, as well as technical or behavioral standards into account. Many automated static analysis tools allow users to write their own rules or customize default analysis rules to the specific software interfaces in the project under test for improved accuracy and depth of coverage. For example, potentially dangerous input (aka tainted) can be marked as safe after it flows through a designated custom sanitization method.
+  
+  Strategically, it is better to reliably detect a limited subset of security issues via automated tooling, and incrementally extend coverage than attempting to detect all known issues immediately. Once the tools have been sufficiently tuned, they can be made available to a more development teams. It is important to continuously monitor their perceived efficacy among development teams. In more advanced forms, machine learning techniques can be adopted to identify and automatically filter out likely false positives at scale.
 
 #The output of this particular activity
 results:

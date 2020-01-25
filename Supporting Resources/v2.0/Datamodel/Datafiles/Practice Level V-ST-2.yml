@@ -13,7 +13,7 @@ maturitylevel: 47dd82af343e4695a0385418af4398d1
 id: 6291462e1894467d807b913ef7da4beb
 
 #Objective of this particular practice level
-objective: Make security testing during development more complete and efficient through
-  automation complemented with regular manual security penetration tests.
+objective: Make security testing during development more complete and efficient through automation complemented with regular manual security penetration tests.
+
 #Type Classification of the Document
 type: PracticeLevel
