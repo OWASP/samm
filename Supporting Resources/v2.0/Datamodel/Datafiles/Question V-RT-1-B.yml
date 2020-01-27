@@ -13,7 +13,7 @@ answerset: d096060a4d864133afcbdd1397b95827
 id: 749893a53df24c32bc887b6d5f7b3f7b
 
 #One-sentence description of the criterium
-text: Do you test applications using randomization techniques?
+text: Do you test applications using randomization or fuzzing techniques?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1

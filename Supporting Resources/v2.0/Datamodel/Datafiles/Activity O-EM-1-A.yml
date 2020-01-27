@@ -26,7 +26,7 @@ shortDescription: Perform best-effort hardening of configurations, based on read
 longDescription: |
   Understanding the importance of securing the technology stacks you're using, apply secure configuration to stack elements, based on readily available guidance (e.g., open source projects, vendor documentation, blog articles). When your teams develop configuration guidance for their applications, based on trial-and-error and information gathered by team members, encourage them to share their learnings across the organization.
 
-  Identify key elements of common technology stacks, and establish configuration standards for those, based on teams' experiences of "what works."
+  Identify key elements of common technology stacks, and establish configuration standards for those, based on teams' experiences of "what works".
 
   At this level of maturity, you don't yet have a formal process for managing configuration baselines. Configurations may not be applied consistently across applications and deployments, and monitoring of conformance is likely absent.
 

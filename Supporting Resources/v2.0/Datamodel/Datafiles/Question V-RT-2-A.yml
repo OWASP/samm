@@ -13,8 +13,7 @@ answerset: 8c89e8daf71d425abaca53edc01f6afa
 id: d6b26a63243d4142bd2a8317e2875a03
 
 #One-sentence description of the criterium
-text: Are the artifacts of the security requirements gathering process well defined
-  and structured, with prioritization?
+text: Do you consistently write and execute test scripts to verify the functionality of security requirements?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1

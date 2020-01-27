@@ -13,7 +13,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: c5f66e97db174d8c9dc2d82fbad9d4e3
 
 #One-sentence description of the criterium
-text: Do you inject production secrets into configuration files dynamically?
+text: Do you inject production secrets into configuration files during deployment?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1

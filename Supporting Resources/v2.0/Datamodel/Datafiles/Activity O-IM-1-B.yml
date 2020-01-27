@@ -25,7 +25,7 @@ shortDescription: Identify roles and responsibilities for incident response.
 longDescription: |
   The first step is to recognize the incident response competence as such, and define a responsible owner. Provide them the time and resources they need to keep up with current state of incident handling best practices and forensic tooling.
 
-  At this level of maturity, you may not have established a dedicated incident response team, but you have defined the participants of the process (usually different roles). Assign a single point of contact for the process, known to all relevant stakeholders. Ensure that point of contact knows how to reach each participant, and define on-call responsibilities for those who have them.
+  At this level of maturity, you may not have established a dedicated incident response team, but you have defined the participants of the process (usually different roles). Assign a single point of contact for the process, known to all relevant stakeholders. Ensure that the point of contact knows how to reach each participant, and define on-call responsibilities for those who have them.
 
   When security incidents happen, document all actions taken. Protect this information from unauthorized access.
 

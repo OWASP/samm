@@ -14,7 +14,7 @@ name: Verification
 
 #A multi-paragraph description of the function
 description: |
-  Verification is focused on the processes and activities related to how an organization checks, and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
+  Verification is focused on the processes and activities related to how an organization checks and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
 
 #The color to be used to render the function and its subelements, in Hex RGB
 color:

@@ -13,7 +13,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 3f1a3a84c85f4e339bcc5c9ecca5c73a
 
 #One-sentence description of the criterium
-text: Do you use security services during design?
+text: Do you use shared security services during design?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
