@@ -15,7 +15,7 @@ name: Organization and Culture
 letter: B
 
 #Multi-paragraph explanation of the stream
-description: Support for software security within the organizational culture is an important success factor of an SDLC project. 
+description: Support for software security within the organizational culture is an important success factor of an SDLC project.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 2
