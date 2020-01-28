@@ -16,7 +16,7 @@ letter: B
 
 #Multi-paragraph explanation of the stream
 description: |
-  Deep Understanding is focused on performing manual security testing of high-risk components, using complex attack vectors with the goal of making advanced security testing an integral part of the development process
+  Deep understanding is focused on performing manual security testing of high-risk components, using complex attack vectors with the goal of making advanced security testing an integral part of the development process. The goal of this stream is to favor testing depth (testing rigour) over testing width (the portfolio of applications).
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 2
