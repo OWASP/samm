@@ -5,6 +5,7 @@ url: model/design/security-requirements/stream-a/
 business_function: Design
 business_function_url: design
 practice: Security Requirements
+practice_url: security-requirements
 stream: A
 description: Design / Security Requirements
 keywords: ["Business function", "Practice", "Design", "Security Requirements"]

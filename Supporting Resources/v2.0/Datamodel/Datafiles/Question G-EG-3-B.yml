@@ -21,14 +21,14 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Organization promotes use of a single portal across different teams and business
+- The organization promotes use of a single portal across different teams and business
   units
 - The portal is used for timely information such as notification of security incidents,
   tool updates, architectural standard changes, and other related announcements
 - The portal is widely recognized by developers and architects as a centralized repository
   of the organization-specific application security information
-- All content should be considered persistent and searchable
-- The portal provides access to application-specific security metrics.
+- All content is considered persistent and searchable
+- The portal provides access to application-specific security metrics
 
 #Type Classification of the Document
 type: Question
