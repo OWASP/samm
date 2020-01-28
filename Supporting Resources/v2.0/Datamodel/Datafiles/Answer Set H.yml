@@ -14,7 +14,7 @@ values:
   weight: 1
   order: 0
     #second level
-- text: Yes, for some of the incidents
+- text: Yes, for some incidents
   value: 0.25
   weight: 1
   order: 1
