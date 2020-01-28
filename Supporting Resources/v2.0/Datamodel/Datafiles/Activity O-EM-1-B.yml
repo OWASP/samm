@@ -13,7 +13,7 @@ level: 8cb942eff46d41f38e6edc11849744a6
 id: 0721d5bd5d67479991b5b52f33dcd7b1
 
 #The title of this activity
-title: Prioritized best-effort patching
+title: Practice best-effort patching
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Mitigation of well-known issues in third-party components
