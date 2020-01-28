@@ -16,7 +16,8 @@ letter: B
 
 #Multi-paragraph explanation of the stream
 description: |
-  Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible. If suitable, you want to identify the root cause and limit the probability of similar incidents happening in the future. The activities in this stream focus on the organization's ability to respond appropriately and effectively to reported security incidents. As the organization's maturity in this practice grows, effectiveness and timeliness of incident response improve.
+  Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible. The activities in this stream focus on the organization's ability to respond appropriately and effectively to reported security incidents. 
+
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 2
 
