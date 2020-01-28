@@ -19,7 +19,7 @@ values:
   weight: 1
   order: 1
     #third level
-- text: Yes, we review it at regular times  
+- text: Yes, we review it at regular times
   value: 0.5
   weight: 1
   order: 2
