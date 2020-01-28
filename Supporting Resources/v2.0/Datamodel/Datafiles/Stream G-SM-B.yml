@@ -15,7 +15,7 @@ name: Measure and Improve
 letter: B
 
 #Multi-paragraph explanation of the stream
-description: Ensure the application security program is measurable.
+description: The validity and relevance of the application security roadmap, and its improvement, are driven by actual measurements of performance within the organization.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 2
