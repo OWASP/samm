@@ -20,6 +20,7 @@ order: 1
 
 #Qualifying Criterion
 quality:
+- Source code files no longer contain active application secrets
 - Under normal circumstances, no humans access secrets during deployment procedures
 - You log and alert to any abnormal access to secrets
 

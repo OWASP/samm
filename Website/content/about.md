@@ -5,7 +5,7 @@ keywords = ["about","what is","questions"]
 +++
 
 ## What is OWASP SAMM?
-SAMM stands for Software Assurance Security Model.
+SAMM stands for Software Assurance Maturity Model.
 
 Our mission is to provide an effective and measurable way for all types of organizations to analyze and improve their software security posture. We want to raise awareness and educate organizations on how to design, develop, and deploy secure software through our self-assessment model. SAMM supports the complete software lifecycle and is technology and process agnostic. We built SAMM to be evolutive and risk-driven in nature, as there is no single recipe that works for all organizations. 
 
@@ -15,11 +15,11 @@ The OWASP SAMM community is powered by security knowledgeable volunteers from bu
 
 ## The OWASP SAMM Model
 
-SAMM is a prescriptive model, an open framework which is simple to use, fully defined, and measurable. The solution details are easy enough to follow even for non-security personnel. It helps organizations analyze their current software security practices, build a security program in defined iterations, show progressive improvements in secure practices, define, and measure security-related activities.
+SAMM is a prescriptive model, an open framework which is simple to use, fully defined, and measurable. The solution details are easy enough to follow even for non-security personnel. It helps organizations analyze their current software security practices, build a security program in defined iterations, show progressive improvements in secure practices, and define and measure security-related activities.
 
 SAMM was defined with flexibility in mind so that small, medium, and large organizations using any style of development can customize and adopt it. It provides a means of knowing where your organization is on its journey towards software assurance and understanding what is recommended to move to the next level of maturity. 
 
-SAMM does not insist that all organizations achieve the maximum maturity level in every category. Each organization can determine the target maturity level for each Security Practice that is the best fit and adapt the templates provided for their specific needs.
+SAMM does not insist that all organizations achieve the maximum maturity level in every category. Each organization can determine the target maturity level for each Security Practice that is the best fit and adapt the available templates for their specific needs.
 
 ## OWASP SAMM structure
 

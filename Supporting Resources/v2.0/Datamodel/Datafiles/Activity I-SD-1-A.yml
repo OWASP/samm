@@ -29,9 +29,7 @@ longDescription: |
 
   Deploy applications to production either using an automated process, or manually by personnel other than the developers. Ensure that developers do not need direct access to the production environment for application deployment.
 
-  Choose any tools used during deployment carefully and harden them appropriately, including ensuring defined availability requirements (possibly leading to a redundant setup). Given that most of these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow, and configure access rules to these tools according to the least privilege principle.
-
-  Review any deployment tools, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool’s configuration so that it is aligned with vendor guidelines and industry best practices. Given that most of these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow, and configure access rules to these tools according to the least privilege principle.
+  Review any deployment tools, ensuring that they are actively maintained by vendors and up to date with security patches. Harden each tool’s configuration so that it is aligned with vendor guidelines and industry best practices. Given that most of these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow, and configure access rules to these tools according to the least privilege principle.
 
   Have personnel with access to the production environment go through at least a minimum level of training or certification to ensure their competency in this matter.
 
