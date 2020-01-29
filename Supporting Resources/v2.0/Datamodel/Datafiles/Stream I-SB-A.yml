@@ -15,7 +15,7 @@ name: Build Process
 letter: A
 
 #Multi-paragraph explanation of the stream
-description: A consistent build process ensures that software to be deployed is predictable and directly linked to the source code. Furthermore, a software build process can be leveraged for various security activities.
+description: A consistent build process ensures the software you are deploying is predictable and directly linked to the source code. Furthermore, you can take advantage of the software build process for various security activities.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 1
