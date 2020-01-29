@@ -16,7 +16,7 @@ letter: B
 
 #Multi-paragraph explanation of the stream
 description: |
-  Misuse/Abuse Testing leverages fuzzing, misuse/abuse cases, and identification of functionality or resources in the software that can be abused in order to identify the weaknesses of controls in features to attack an application.
+  Misuse/Abuse Testing leverages fuzzing, misuse/abuse cases, and the identification of any functionality or resources in the software that can be abused in order to identify weaknesses in features to attack an application.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 2
