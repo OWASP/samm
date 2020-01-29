@@ -16,7 +16,7 @@ letter: A
 
 #Multi-paragraph explanation of the stream
 description: |
-  Architecture validation confirms the security posture of the software and supporting infrastructure architecture by identifying and checking application and infrastructure architecture components.
+  Architecture validation confirms the security posture of the software and supporting infrastructure architecture by identifying and checking their components.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 1
