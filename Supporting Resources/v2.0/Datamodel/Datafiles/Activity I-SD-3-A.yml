@@ -13,7 +13,7 @@ level: fc5eb251c6ee4f3db04eb01b62d380ba
 id: 05a3e75c6c654ae58a115cbf4295662b
 
 #The title of this activity
-title: Integrity of the deployables is verified prior to deployment.
+title: Verify the integrity of deployment artifacts
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: The deployment process automatically validates the integrity of all software

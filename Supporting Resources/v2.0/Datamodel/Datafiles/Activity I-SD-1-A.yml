@@ -13,7 +13,7 @@ level: 5015427608de428cba3c324772fb4191
 id: 994bcac2bb7c4cc59a0faa365a0b58a0
 
 #The title of this activity
-title: Deployment is automated or done by someone other than the developer.
+title: Use a repeatable deployment process
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: The risk of human errors during deployment leading to security issues is

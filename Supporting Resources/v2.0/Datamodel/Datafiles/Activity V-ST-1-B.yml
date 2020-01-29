@@ -13,7 +13,7 @@ level: d6cefe3e63d149299fb088010c24778b
 id: b3b20a75740c4880a21ad9aa0c1298c7
 
 #The title of this activity
-title: High risk areas of the application are manually tested.
+title: Test high risk application components manually
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Detect vulnerabilities that cannot be found with tools.

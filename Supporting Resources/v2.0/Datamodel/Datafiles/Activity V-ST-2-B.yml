@@ -13,8 +13,7 @@ level: 6291462e1894467d807b913ef7da4beb
 id: 346ed576f0a94147ba2b8148abc3c73a
 
 #The title of this activity
-title: Establish a manual penetration testing process for evaluating system security
-  and remediating findings in a timely manner.
+title: Establish a penetration testing process
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Tests the robustness of the software by mimicking malicious users attacking

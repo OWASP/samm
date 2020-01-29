@@ -13,7 +13,7 @@ level: b55c7a41eba747678a65651f5ccacaf2
 id: 2bf0e192a904444b8a2f38c33256e80a
 
 #The title of this activity
-title: Assign SLA based on security rating of the defect.
+title: Rate and track security defects
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: You have overview of security defects with severity rating affecting applications

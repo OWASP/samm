@@ -13,8 +13,7 @@ level: 83ea8aaab3384b41b785107613ee4d86
 id: 9d0433c5133c4a4c9c16ae84abe9a235
 
 #The title of this activity
-title: Review and evaluate security mechanisms for scalability, strategic alignment
-  and support capabilities.
+title: Verify the effectiveness of security components
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Assurance on the effectiveness of the architecture security mechanisms in terms of strategy alignment, appropriate support, and scalability.

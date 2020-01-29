@@ -13,8 +13,7 @@ level: 67fcd33f84364ef68fb88aba77de1a63
 id: eba4b86963f44fa59b0b9389a1cfc59b
 
 #The title of this activity
-title: Security mechanisms are validated in a structured manner and confirmed for
-  internal and external interfaces following a formalized method.
+title: Verify the application architecture for security objectives methodically
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: This activity validates the security mechanisms on the attack surface of

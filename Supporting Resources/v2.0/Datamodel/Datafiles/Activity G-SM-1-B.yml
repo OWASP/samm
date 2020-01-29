@@ -13,7 +13,7 @@ level: 4e54705272fa4f1f9977b1f9011f585d
 id: 0082a76b1a3744d9ab0443bd2168e13d
 
 #The title of this activity
-title: Define Security Metrics
+title: Define basic security metrics
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Have a set of base metrics to provide insight into software security.
