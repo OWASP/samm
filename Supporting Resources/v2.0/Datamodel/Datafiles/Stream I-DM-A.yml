@@ -15,7 +15,7 @@ name: Defect Tracking
 letter: A
 
 #Multi-paragraph explanation of the stream
-description: Defect tracking manages the collection and follow-up of all potential issues in a given software, from architectural flaws, over coding issues to run-time vulnerabilities.
+description: Defect tracking manages the collection and follow-up of all potential issues in a piece of software, from architectural flaws to coding issues and run-time vulnerabilities.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 1
