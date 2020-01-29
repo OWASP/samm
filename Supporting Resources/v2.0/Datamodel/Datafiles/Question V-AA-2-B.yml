@@ -13,17 +13,18 @@ answerset: 8c89e8daf71d425abaca53edc01f6afa
 id: 2784c6272d174dcf932b188a69a8917d
 
 #One-sentence description of the criterium
-text: Do you use a standard methodology to evaluate the threats to your applications?
+text: Do you regularly evaluate the threats to your architecture?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- Trained or experienced people lead threat modeling activities
-- The methodology stipulates the different inputs required to perform an in-depth
-  assessment
-- Threat model deliverables are standardized and accessible across the organization
+- You systematically review each threat identified in the Threat Assessment
+- Trained or experienced people lead review exercise
+- You identify mitigating design-level features for each identified threat
+- You log unhandled threats as defects
+
 
 #Type Classification of the Document
 type: Question
