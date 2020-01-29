@@ -26,11 +26,9 @@ shortDescription: Validate the architecture security mechanisms
 
 #A multi-paragraph description of the activity
 longDescription: |
-  To ensure consistency of evaluation, all architectural verifications must be similarly structured and leverage a shared, formalized methodology. The security and architecture group can build upon common architectural focus areas and review guidelines from a number of industry standard bodies, such as NIST or CIS, to codify and publish a standardized internal review methodology. Where possible, automatic verification and enforcement of established architectural governance rules should be integrated into the development pipeline to detect deviations or regressions as early as possible.
+  Verify that the system design addresses each formally identified or informally known compliance requirement. For each interface in the application, formally iterate through the list of security and compliance requirements and analyze the architecture for their provision. Elaborate the analysis to show the design-level features that address each requirement. Consider both internal policy requirements and external regulatory ones.
 
-  For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface and do so in a structured manner.
-
-  The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling, and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided. Review the documented threats and key security objectives, and note any missing or unclear features as findings. Identify and validate the high-risk design decisions made as part of the architecture. Conduct analysis to update the findings based on changes made during the development cycle.
+  Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface and do so in a structured manner. Also identify and validate the high-risk design decisions made as part of the architecture. Finally, update the findings based on changes made during the development cycle, and note any compliance requirements that are not clearly provided at the design level as assessment findings.
 
 #The output of this particular activity
 results:

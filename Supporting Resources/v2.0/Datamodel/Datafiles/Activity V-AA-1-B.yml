@@ -13,22 +13,21 @@ level: 39bc5d271fae4ea8ba53db7de7b2712c
 id: 3ae763a70854421984dfa70980e1bf68
 
 #The title of this activity
-title: Evaluate new and changing application architecture for coverage against available
-  compliance requirements.
+title: Evaluate new and changing application architecture for mitigation of typical security threats
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assures that the compliance requirements of the architecture are met.
+benefit: Assures that the architecture protects against typical security threats.
 
 #A one sentence description of the activity
-shortDescription: Ad-hoc review of the architecture against compliance requirements
+shortDescription: Ad-hoc review of the architecture for unmitigated security threats.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Review the architecture against compliance requirements ad hoc. Identify and collect either formally identified or informally known compliance requirements. Consider both internal policy requirements, and external regulatory ones.
+  Review the architecture for typical security threats. Security-savvy technical staff conduct this analysis with input from architects, developers, managers, and business owners as needed, to ensure the architecture addresses all standard threats which development teams lacking specialised security expertise may have overlooked.
 
-  Review each item on the list of known compliance requirements against the architecture. Elaborate the analysis to show the design-level features that address each compliance requirement. The overall goal is to verify that each known compliance requirement has been addressed by the system design. Note any compliance requirements that are not clearly provided at the design level as assessment findings.
+  Review each interface for adequate authorization and handling of credentials, and consider the confidentiality and integrity of data, in transit over communication channels and at rest in datastores. Partition the system users into anonymous, identified, authenticated, and privileged groups. Examine component stewardship by considering who provisions and maintains them, and what tracing, logging and audit facilities exist. When reviewing components, consider their relationships; How could an attacker leverage a compromised component to gain access to other parts of the system. Consider also how the system supports the detection, mitigation, or prevention of such attacks.
 
-  Security-savvy technical conduct this analysis staff with input from architects, developers, managers, and business owners as needed. Update it during the design phase when there are changes in compliance requirements or high-level system design.
+  Update the analysis during the design phase when there are changes in compliance requirements or high-level system design.
 
 #The output of this particular activity
 results:
