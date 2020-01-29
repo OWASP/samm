@@ -29,7 +29,7 @@ longDescription: |
   Reference architectures encapsulate common patterns, principles and reusable best practices which teams can leverage to build more interoperable components, aligned to the business's value streams and supporting functions. As a starting point for building secure components, it is important they reflect security best practices. Review all partially or fully unmitigated threats against system architectures, and examine whether supporting reference architectures could be improved to better protect against them.
 
   Formalize a process to use recurring architecture findings as a trigger to identify the causes of gaps in the security assessment and deal with them. Feed findings back to the Design phase by creating, or updating relevant reference architectures, existing security solutions, or organisation design principles and patterns.
-  
+
 #The output of this particular activity
 results:
 
