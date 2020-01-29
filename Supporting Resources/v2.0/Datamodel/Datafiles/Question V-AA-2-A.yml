@@ -13,19 +13,16 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: b133d28653bc47a8a8574d1c60ec34f0
 
 #One-sentence description of the criterium
-text: Do you review your software architecture regularly using an agreed upon methodology?
+text: Do you regularly review the security mechanisms of your architecture?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- Your process and template for reviewing software architectures is aligned with your
-  organization’s risk tolerance
-- You verify the architecture meets all the defined security requirements
-- You document the context of all design decisions which impact security
-- You verify every component is protected by the expected security mechanisms (e.g.,
-  authentication, authorization, logging)
+- You review compliance with internal and external requirements
+- You systematically review each interface in the system
+- You use a formalized review method and structured validation
 - You log missing security mechanisms as defects
 
 #Type Classification of the Document
