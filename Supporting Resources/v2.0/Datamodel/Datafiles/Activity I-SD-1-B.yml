@@ -13,7 +13,7 @@ level: 5015427608de428cba3c324772fb4191
 id: 77a5f467ffe140e2a2839bb522e82c4e
 
 #The title of this activity
-title: Production secrets are encrypted and not handled by developers.
+title: Protect application secrets in configuration and code
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Risk of leaking production secrets is reduced by introduction of basic protection measures.

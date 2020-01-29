@@ -13,7 +13,7 @@ level: 97a46a074fe849a1af2c2d2d3dd09ba5
 id: 93dff7be5f954f8d87d24f4261002508
 
 #The title of this activity
-title: Track all defects.
+title: Track security defects centrally
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: You have a view on all known security defects impacting particular applications.

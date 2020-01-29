@@ -13,7 +13,7 @@ level: 02e602c451d548e8a95433a46fe6b9d8
 id: d09a731835304ea8aeb4c21565e45c4b
 
 #The title of this activity
-title: Components and dependencies are independently scanned for vulnerabilities.
+title: Test application dependencies
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Security issues in used dependencies are handled comparably to those in your

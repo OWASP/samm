@@ -13,8 +13,7 @@ level: 3e6e9a2b696e48018830b44fa96f98b5
 id: 9951bda24b624cc684a2851f9d56c5d8
 
 #The title of this activity
-title: Specific security requirements are turned into positive test cases and verified
-  during product development.
+title: Define and run security test cases from requirements
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Assures that security requirements are met by creating and performing tests

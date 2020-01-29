@@ -13,8 +13,7 @@ level: eac3184f8e2343b8b29047d023376da5
 id: a395d69917b947b28d5995738d716283
 
 #The title of this activity
-title: Establish a continuous verification process that is scalable, repeatable and
-  risk based to improve the overall security posture of the application.
+title: Establish continuous, scalable security verification
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Identify security issues earlier in the development process by testing security

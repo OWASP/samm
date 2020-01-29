@@ -13,7 +13,7 @@ level: 02e602c451d548e8a95433a46fe6b9d8
 id: 281369f491da4d4c84b0729e344e2c93
 
 #The title of this activity
-title: Security defects may trigger the build to stop executing.
+title: Enforce a security baseline during build
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: It is ensured that only software complying to a defined security baseline

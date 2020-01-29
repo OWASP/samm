@@ -13,8 +13,7 @@ level: eac3184f8e2343b8b29047d023376da5
 id: 4f6a06796d0840debcc775ea1af65679
 
 #The title of this activity
-title: Leverage automated security tests in the software delivery pipeline to detect
-  security issues early and provide visibility and awareness in the organization.
+title: Integrate security testing tools in the delivery pipeline
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Allows to detect software vulnerabilities at the speed of build and deployment

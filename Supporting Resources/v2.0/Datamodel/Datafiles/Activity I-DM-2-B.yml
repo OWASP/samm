@@ -13,8 +13,7 @@ level: b55c7a41eba747678a65651f5ccacaf2
 id: 15d73a64818c43019504c8d938ca2434
 
 #The title of this activity
-title: Calculate more advanced metrics that include new issue velocity, remediation
-  speed metrics, and trends.
+title: Define advanced defect metrics
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: You scale the learning effect throughout the whole organization based on
