@@ -1290,7 +1290,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .customers {
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .customers .item {
   list-style-type: none;
@@ -3751,4 +3751,29 @@ a.list-group-item.active > .badge,
   float: right;
   margin: 10px;
   width: 200px;
+}
+
+.flex-container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container img {
+  display: inline-block;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  /* Firefox 10+, Firefox on Android */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.flex-container img:hover {
+  max-width: auto;
+  filter: none;
+  -webkit-filter: none;
 }
