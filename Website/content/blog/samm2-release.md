@@ -32,12 +32,13 @@ Activities are now ordered in logical flows throughout each of the 15 security p
 
 The new model supports maturity measurements both from coverage and quality perspectives. We added new quality criteria for all the activities. There is an updated scoring SAMM toolbox designed to help assessors and organizations with their software assurance assessments and roadmaps.
 
-We have a single source using [GitHub](https://github.com/OWASP/samm) and we can automatically generate PDF documents, the website, the toolbox, and applications. All the model content has been converted to YAML files, allowing tools or other SAMM consumers to automatically use the model. You can always the latest version of SAMM on our website, in the [Model section](/model/). The full release notes are available at (INSERT LINK).
+We have a single source using [GitHub](https://github.com/OWASP/samm) and we can automatically generate PDF documents, the website, the toolbox, and applications. All the model content has been converted to YAML files, allowing tools or other SAMM consumers to automatically use the model. You can always the latest version of SAMM on our website, in the [Model section](/model/). The full release notes for version 2 are available [here](/release-notes-v2/).
 
-As always, feedback is welcome in the usual channels
-- the [SAMM Github repository](https://github.com/OWASP/samm/issues)
-- our [#project-samm](https://owasp.slack.com/messages/C0VF1EJGH) Slack channel  
-- our email address [info@owaspsamm.org](mailto:info@owaspsamm.org)
+As always, feedback is welcome in the usual channels:
+
+* the [SAMM Github repository](https://github.com/OWASP/samm/issues)
+* our [#project-samm](https://owasp.slack.com/messages/C0VF1EJGH) Slack channel  
+* our email address [info@owaspsamm.org](mailto:info@owaspsamm.org)
 
 Seba Deleersnyder and Bart De Win, SAMM Project co-leaders, commented: “This is a really important release for the project team. We are grateful for the team, our SAMM community, and the help of our sponsors, With all of them, after three years, we now have an effective and measurable way for all types of organizations to analyze and improve their software security posture”.
 
@@ -67,4 +68,5 @@ The OWASP SAMM community is powered by security knowledgeable volunteers from bu
 
 ##### Contact
 The SAMM Project Team: [info@owaspsamm.org](mailto:info@owaspsamm.org)  
-Sebastien Deleersnyder, team leader: [seba@owasp.org](mailto:seba@owasp.org) | +32 478 504 1178
+Sebastien Deleersnyder, project leader: [seba@owasp.org](mailto:seba@owasp.org) | +32 478 504 117
+Bart De Win, project leader: [bart.dewin@owasp.org](mailto:bart.dewin@owasp.org) | +32 479 467 957
