@@ -13,8 +13,10 @@ Don't hesitate to [contact us](mailto:info@owaspsamm.org).
 ---
 [![Concord](../img/clients/concord_medium.png)](http://www.concordusa.com)
 [![Fortify](../img/clients/fortify_medium.png)](http://www.microfocus.com/en-us/solutions/application-security)
-[![NCC group](../img/clients/nccgroup_medium.png)](https://www.nccgroup.trust/)
+[![NCC group](../img/clients/nccgroup_medium.png)](https://www.nccgroup.trust/)  
+[![PWC](../img/clients/pwc_medium.png)](https://www.pwc.com/)
 [![Splunk](../img/clients/splunk_medium.png)](https://www.splunk.com/)
+[![Toreon](../img/clients/toreon_medium.png)](https://www.toreon.com/)
 
 ---
 
