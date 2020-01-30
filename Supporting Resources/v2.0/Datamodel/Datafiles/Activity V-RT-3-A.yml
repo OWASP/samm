@@ -16,8 +16,7 @@ id: 7003146cf1a1450293001754fe74787d
 title: Automate security requirements testing
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Prevents identified (and fixed) bugs being introduced as part of later releases
-  through regression testing.
+benefit: Timely and reliable detection of violations to security requirements
 
 #A one sentence description of the activity
 shortDescription: Perform regression testing (with security unit tests)

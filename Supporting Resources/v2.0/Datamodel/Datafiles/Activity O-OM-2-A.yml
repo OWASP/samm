@@ -16,9 +16,7 @@ id: 82a962e3dcc44b1086760de517aaa3c1
 title: Establish a data catalog
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Increased understanding of the organization's data landscape
-  - Improved confidentiality, integrity, and availability of data backups
+benefit: Standardized handling of different classes of sensitive data
 
 #A one sentence description of the activity
 shortDescription: Develop data catalog and establish data protection policy.

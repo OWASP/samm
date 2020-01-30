@@ -16,7 +16,7 @@ id: 0f611af10f974da497e7f3defe0c4f12
 title: Assess application architecture
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Developers understand the architecture, interfaces, and how to secure them.
+benefit: Understanding of high-level architecture and sensible security measures
 
 #A one sentence description of the activity
 shortDescription: Identify application and infrastructure architecture components

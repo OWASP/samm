@@ -16,8 +16,7 @@ id: a395d69917b947b28d5995738d716283
 title: Establish continuous, scalable security verification
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identify security issues earlier in the development process by testing security
-  early and often.
+benefit: Identification of manually identifiable security issues in earliest possible stages
 
 #A one sentence description of the activity
 shortDescription: Integrate security testing into development process

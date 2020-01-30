@@ -16,8 +16,7 @@ id: 1f3a9306778f4539a437d9f19232cda7
 title: Automate deployment and integrate security checks
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: The deployment process is fully repeatable, software with obvious security
-  issues doesn't get deployed to production.
+benefit: Efficient deployment process with integrated security tools
 
 #A one sentence description of the activity
 shortDescription: Automate the deployment process over all stages and introduce sensible

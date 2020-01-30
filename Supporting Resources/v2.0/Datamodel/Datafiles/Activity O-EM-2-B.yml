@@ -16,9 +16,7 @@ id: b7f1d18fbe724a148f039ce036de98ef
 title: Formalize patch management
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Consistent application of component patches
-  - Risk-based prioritization of patching efforts
+benefit: Consistent and proactive patching of technology stack components
 
 #A one sentence description of the activity
 shortDescription: Perform regular patching of system and application components, across

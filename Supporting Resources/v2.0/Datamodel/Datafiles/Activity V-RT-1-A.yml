@@ -16,7 +16,7 @@ id: 99989f86dabc4a7a87fbe6a274c99ca3
 title: Test the effectiveness of security controls
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Verifies that the standard software security controls operate as expected.
+benefit: Verified effectiveness of your standard security controls
 
 #A one sentence description of the activity
 shortDescription: Test for software security controls

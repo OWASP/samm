@@ -16,8 +16,7 @@ id: 4f6a06796d0840debcc775ea1af65679
 title: Integrate security testing tools in the delivery pipeline
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Allows to detect software vulnerabilities at the speed of build and deployment
-  by integrating test tools as part of this process.
+benefit: Identification of automatically identifiable vulnerabilities in earliest possible stages
 
 #A one sentence description of the activity
 shortDescription: Integrate automated security testing into the build and deploy process

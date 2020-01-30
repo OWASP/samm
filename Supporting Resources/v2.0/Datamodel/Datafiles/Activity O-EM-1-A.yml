@@ -16,7 +16,7 @@ id: 786b3d7b39cd49a88090554a275f04a6
 title: Use best-effort hardening
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Reduced attack surface, for key elements of technology stacks
+benefit: Hardened basic configuration settings of your components
 
 #A one sentence description of the activity
 shortDescription: Perform best-effort hardening of configurations, based on readily

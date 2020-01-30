@@ -16,7 +16,7 @@ id: 0082a76b1a3744d9ab0443bd2168e13d
 title: Define basic security metrics
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Have a set of base metrics to provide insight into software security.
+benefit: Basic insights into your AppSec program's effectiveness and efficiency
 
 #A one sentence description of the activity
 shortDescription: Define metrics with insight into the effectiveness and efficiency

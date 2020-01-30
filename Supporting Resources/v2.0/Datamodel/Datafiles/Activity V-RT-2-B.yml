@@ -16,8 +16,7 @@ id: fd4d1ac720374b13a25ab1381045b731
 title: Define and run security abuse cases from requirements
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detect business logic flaws or vulnerabilities thay allow functionality in
-  the software to be abused.
+benefit: Detection of application business logic flaws
 
 #A one sentence description of the activity
 shortDescription: Create and test abuse cases and business logic flaw test

@@ -16,7 +16,7 @@ id: 2b01696356ed4652accf093f6c6a47ee
 title: Perform vendor assessments
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: You understand the security practices of your software suppliers.
+benefit: Transparency of security practices of your software suppliers
 
 #A one sentence description of the activity
 shortDescription: Evaluate the supplier based on organizational security requirements.

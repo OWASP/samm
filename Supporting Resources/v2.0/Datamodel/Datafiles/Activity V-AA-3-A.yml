@@ -16,7 +16,7 @@ id: 9d0433c5133c4a4c9c16ae84abe9a235
 title: Verify the effectiveness of security components
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assurance on the effectiveness of the architecture security mechanisms in terms of strategy alignment, appropriate support, and scalability.
+benefit: Assurance of effectivness of architecture controls
 
 #A one sentence description of the activity
 shortDescription: Review of the architecture components effectiveness

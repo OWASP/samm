@@ -16,7 +16,7 @@ id: c6da6525773644d0a18b3a927caf6dd2
 title: Perform application risk assessments
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to classify applications according to risk.
+benefit: Ability to classify applications according to risk
 
 #A one sentence description of the activity
 shortDescription: A basic assessment of the application risk is performed to understand

@@ -16,9 +16,7 @@ id: eba4b86963f44fa59b0b9389a1cfc59b
 title: Verify the application architecture for security objectives methodically
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: This activity validates the security mechanisms on the attack surface of
-  the software and infrastructure architecture using formalized method and structured
-  validation.
+benefit: Consistent architecture review process across your organization
 
 #A one sentence description of the activity
 shortDescription: Validate the architecture security mechanisms

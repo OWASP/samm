@@ -16,9 +16,7 @@ id: a573c126b3e345fba9d1d94c8158cf60
 title: Enforce timely patch management
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Full visibility into current patch states across the organization
-  - Reduced dwell time for vulnerable component versions
+benefit: Clear view on component patch state to avoid non-conformities
 
 #A one sentence description of the activity
 shortDescription: Actively monitor update status and manage missing patches as security

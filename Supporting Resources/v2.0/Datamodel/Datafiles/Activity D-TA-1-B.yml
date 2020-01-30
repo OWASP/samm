@@ -19,7 +19,7 @@ title: Perform basic threat modeling
 
 #Describe the benefit that is achieved by implementing this activity
 
-benefit: Identification of architectural design flaws in the solution.
+benefit: Identification of architectural design flaws in your applications
 
 #A one sentence description of the activity
 shortDescription: Perform best-effort, risk-based threat modeling using brainstorming and existing diagrams with simple threat checklists.

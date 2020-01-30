@@ -16,7 +16,7 @@ id: 3ae763a70854421984dfa70980e1bf68
 title: Verify architecture compliance against basic requirements
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assures that the compliance requirements of the architecture are met.
+benefit: Clear state of compliance for your high-level architecture
 
 #A one sentence description of the activity
 shortDescription: Ad-hoc review of the architecture against compliance requirements
