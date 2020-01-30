@@ -13,7 +13,7 @@ level: 67fcd33f84364ef68fb88aba77de1a63
 id: 62237ae79ab84a6687de2885b1e3d608
 
 #The title of this activity
-title: Verify that each threat identified during Threat Assessment activities is mitigated by the architecture
+title: Structurally verify the architecture for identified threats
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: You verify that all identified threats to the application are adequately handled.
@@ -23,11 +23,11 @@ shortDescription: Analyze the architecture for known threats.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Systematically review each threat identified during the Threat Assessment activities and examine how the architecture mitigates them. Use a standardised, documented process for analyzing system architectures and the flow of data within them. This is typically linked to the threat model used (e.g. STRIDE) in order to identify the relevant security objectives which address each type of threat. For each threat, identify the design-level features of the architecture which counter it and assess their effectiveness in doing so.
+  Systematically review each threat identified during the Threat Assessment activities and examine how the architecture mitigates them. Use a standardised process for analyzing system architectures and the flow of data within them. This is typically linked to the threat model used (e.g. STRIDE) in order to identify the relevant security objectives which address each type of threat. For each threat, identify the design-level features of the architecture which counter it and assess their effectiveness in doing so.
 
   Where available, review architectural decision records to understand the architectural constraints and tradeoffs made during design. Take their impact into consideration along with any security assumptions on which the safe operation of the system relies and re-evaluate them.
 
-  Enrich your previously created threat model such that each threat and its estimated impact are mapped to the corresponding implemented counter measure. Produce a mapping document, or dashboard in a specialized tool, to make the information available and visible to the relevant stakeholders.
+  Enrich your previously created threat model such that each threat and its estimated impact are linked to the corresponding counter measure. Produce a mapping document, or dashboard in a specialized tool, to make the information available and visible to the relevant stakeholders.
 
 #The output of this particular activity
 results:
