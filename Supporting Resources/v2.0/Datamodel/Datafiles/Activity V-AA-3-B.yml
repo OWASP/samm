@@ -21,13 +21,13 @@ benefit: Formalized security architecture review processes ensure alignment with
 
 #A one sentence description of the activity
 shortDescription: Feed the architecture review results back into the enterprise architecture,
-  organisation design principles & patterns, security solutions and reference architectures.
+  organization design principles & patterns, security solutions and reference architectures.
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Feed the architecture review results back into the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
+  Feed the architecture review results back into the enterprise architecture, organization design principles & patterns, security solutions and reference architectures.
 
-  Map security features to the security and compliance requirements in a traceability matrix. Identify the cause of gaps in the security assessment and deal with them. Consider recurring architecture findings as input for the security architecture practice to update the enterprise architecture, organisation design principles & patterns, security solutions and reference architectures.
+  Map security features to the security and compliance requirements in a traceability matrix. Identify the cause of gaps in the security assessment and deal with them. Consider recurring architecture findings as input for the security architecture practice to update the enterprise architecture, organization design principles & patterns, security solutions and reference architectures.
 
 #The output of this particular activity
 results:

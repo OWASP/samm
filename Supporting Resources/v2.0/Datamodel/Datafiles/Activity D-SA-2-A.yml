@@ -16,7 +16,7 @@ id: 9b6a86278ba14a9098d3d60a9a78d6c5
 title: Provide preferred security solutions
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: The organisation leverages common security solutions.
+benefit: The organization leverages common security solutions.
 
 #A one sentence description of the activity
 shortDescription: Establish common design patterns and security solutions for adoption.
@@ -29,9 +29,9 @@ longDescription: |
 
   Establish a set of best practices representing sound methods of implementing security functionality. You can research them or purchase them, and it is often more effective if you customize them so they are more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
 
-  These patterns can originate from specific projects or applications, but make sure you share them between different teams across the organisation for efficient and consistent application of appropriate security solutions.
+  These patterns can originate from specific projects or applications, but make sure you share them between different teams across the organization for efficient and consistent application of appropriate security solutions.
 
-  To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organisation, for instance in case of different development stacks. Treat these solutions as actual applications with proper support in case of questions or issues.
+  To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organization, for instance in case of different development stacks. Treat these solutions as actual applications with proper support in case of questions or issues.
 
 #The output of this particular activity
 results:
