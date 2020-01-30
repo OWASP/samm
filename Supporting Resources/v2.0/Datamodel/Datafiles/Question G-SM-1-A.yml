@@ -13,7 +13,7 @@ answerset: f678b7a00f2441148087d48f8e0a6ad1
 id: 64f49a28334e4a40a04e534225a941d2
 
 #One-sentence description of the criterium
-text: Do you prioritize applications based on a granular set of risks?
+text: Do you understand the enterprise-wide risk appetite for your applications ?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
