@@ -13,7 +13,7 @@ level: 83ea8aaab3384b41b785107613ee4d86
 id: a11da5bb4d3c475d9e9c53b104032e65
 
 #The title of this activity
-title: Verify the adherence to reference architectures
+title: Feed review results back to improve reference architectures
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Continuous improvement of enterprise architecture based on architecture reviews
@@ -24,9 +24,7 @@ shortDescription: Feed the architecture review results back into the enterprise 
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Feed the architecture review results back into the enterprise architecture, organization design principles & patterns, security solutions and reference architectures.
-
-  Map security features to the security and compliance requirements in a traceability matrix. Identify the cause of gaps in the security assessment and deal with them. Consider recurring architecture findings as input for the security architecture practice to update the enterprise architecture, organization design principles & patterns, security solutions and reference architectures.
+  As an organization, you can further improve your software security posture by understanding which threats remain unaddressed in the software architectures and adapting your tactics to prevent this. Formalize a process to use recurring architecture findings as a trigger to identify the causes of gaps in the security assessment and deal with them. Feed findings back to the Design phase by creating, or updating relevant reference architectures, existing security solutions, or organisation design principles and patterns.
 
 #The output of this particular activity
 results:

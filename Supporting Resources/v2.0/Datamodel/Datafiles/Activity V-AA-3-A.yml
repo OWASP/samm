@@ -19,13 +19,13 @@ title: Verify the effectiveness of security components
 benefit: Assurance of effectivness of architecture controls
 
 #A one sentence description of the activity
-shortDescription: Review of the architecture components effectiveness
+shortDescription: Review of the architecture components' effectiveness
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Review the effectiveness of the architecture components. Are the architecture security mechanisms well implemented? For each of the application and infrastructure components, review their effectiveness to secure the application.
+  Review the effectiveness of the architecture components and their provided security mechanisms in terms of alignment with the overall strategy of the organization, and scrutinize the degree of availability, scalability and enterprise-readiness of the chosen security solutions. While tactical choices for a particular application can make sense in specific contexts, it is important to keep an eye on the bigger picture and ensure future readiness of the designed solution.
 
-  Evaluate the effectiveness of the security mechanisms provided by the components in terms of identification, protection, detection, response, and recovery of security or privacy issues. Review their effectiveness in terms of strategy alignment, appropriate support, and scalability. Feed any findings back into the Security Architecture practice.
+  Feed any findings back into defect management to trigger further improvements to the architecture.
 
 #The output of this particular activity
 results:

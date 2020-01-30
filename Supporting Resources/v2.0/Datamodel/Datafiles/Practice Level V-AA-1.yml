@@ -13,7 +13,6 @@ maturitylevel: 0a1dc80f84964f2fa776c5d8e932353a
 id: 39bc5d271fae4ea8ba53db7de7b2712c
 
 #Objective of this particular practice level
-objective: Review the architecture to ensure baseline mitigations are in place for
-  known risks.
+objective: Review the architecture to ensure baseline mitigations are in place for typical risks.
 #Type Classification of the Document
 type: PracticeLevel
