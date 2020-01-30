@@ -13,7 +13,7 @@ level: e3cf1d3c27b74262b9f842f27ca86333
 id: a061ed8a5b1c4899bc95d9b1a10a469d
 
 #The title of this activity
-title: Standardize In-House Application Security Guidance
+title: Standardize security guidance
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Security is an aspect of product quality, addressed throughout development.
@@ -24,7 +24,7 @@ shortDescription: Standardized in-house guidance around the organization’s sec
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement a formal training program requiring anyone involved with the software development life-cycle to complete appropriate role and technology-specific training as part of the on-boarding process. Based on the criticality of the application and user’s role, consider restricting access until the on-boarding training has been completed. While the organization may source some modules externally, the program is facilitated and managed in-house and includes content specific to the organization going beyond general security best-practices. The program has a defined curriculum, checks participation, and tests understanding and competence. The training consists of a combination of industry best practices and organization’s internal standards, including training on specific systems used by the organization.
+  Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training as part of the onboarding process. Based on the criticality of the application and user’s role, consider restricting access until the onboarding training has been completed. While the organization may source some modules externally, the program is facilitated and managed in-house and includes content specific to the organization going beyond general security best practices. The program has a defined curriculum, checks participation, and tests understanding and competence. The training consists of a combination of industry best practices and organization’s internal standards, including training on specific systems used by the organization.
 
   In addition to issues directly related to security, the organization includes other standards to the program, such as code complexity, code documentation, naming convention, and other process-related disciplines. This training minimizes issues resulting from employees following practices incorporated outside the organization and ensures continuity in the style and competency of the code.
 

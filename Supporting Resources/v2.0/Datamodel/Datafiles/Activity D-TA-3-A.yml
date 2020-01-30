@@ -13,8 +13,7 @@ level: 21a59897dbeb4d7fa4603a0f24362c2b
 id: 2f63f92c414546b58d035ece110d479f
 
 #The title of this activity
-title: Software teams continuously evaluate application risk profile and update based
-  upon evolving business decisions.
+title: Periodic review of risk profiles
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Timely update of the application classification in case of changes.

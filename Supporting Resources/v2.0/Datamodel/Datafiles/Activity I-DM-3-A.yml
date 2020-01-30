@@ -13,7 +13,7 @@ level: 5a25ae9bc9134d6387128ea925c81845
 id: d955a7b3fbfc4b6aa5b327af9e01c377
 
 #The title of this activity
-title: Measure and enforce compliance with the SLA.
+title: Enforce an SLA for defect management
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Security defects are resolved or mitigated (possibly with compensating controls)

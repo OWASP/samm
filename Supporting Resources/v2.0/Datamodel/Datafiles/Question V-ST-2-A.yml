@@ -13,16 +13,16 @@ answerset: 8c89e8daf71d425abaca53edc01f6afa
 id: c013b6f9d973425cb63f21f4f8b84c30
 
 #One-sentence description of the criterium
-text: Do you automatically verify business logic with custom-created security tests?
+text: Do you customize the automated security tools to your applications and technology stacks?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- You specifically customize tests for software interfaces in the project
-- You express tests in a structured format, such as a DSL
-- Tests include organization-specific technical standards and compliance concerns
+- You tune and select tool features which match your application or technology stack
+- You minimize false positives by silencing or automatically filter irrelevant warnings or low probability findings
+- You minimize false negatives by leverage tool extensions or DSLs to customize tools for your application or organizational standards
 
 #Type Classification of the Document
 type: Question

@@ -13,7 +13,7 @@ level: df5a0be1889a4b06835193892803dde5
 id: 81ef5625583646bf8bc3fad53e4eff55
 
 #The title of this activity
-title: Perform fuzz testing during security testing using automated tools.
+title: Perform fuzz testing
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Detect security bugs that would have been missed by human eyes.

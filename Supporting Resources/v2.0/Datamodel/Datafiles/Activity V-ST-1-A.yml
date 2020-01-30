@@ -13,8 +13,7 @@ level: d6cefe3e63d149299fb088010c24778b
 id: 921ff24f0b9f4df9a5129aa2f8a4a570
 
 #The title of this activity
-title: Use static and dynamic security testing tools to efficiently test code and
-  applications for vulnerabilities.
+title: Perform automated security testing
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Detect software vulnerabilities with automated security testing tools.

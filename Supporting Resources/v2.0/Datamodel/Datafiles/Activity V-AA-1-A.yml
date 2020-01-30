@@ -13,8 +13,7 @@ level: 39bc5d271fae4ea8ba53db7de7b2712c
 id: 0f611af10f974da497e7f3defe0c4f12
 
 #The title of this activity
-title: Develop high-level application and infrastructure architecture views and assess
-  for security-related functionality
+title: Assess application architecture
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Developers understand the architecture, interfaces, and how to secure them.

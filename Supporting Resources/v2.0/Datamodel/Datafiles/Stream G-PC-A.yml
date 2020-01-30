@@ -15,8 +15,7 @@ name: Policy & Standards
 letter: A
 
 #Multi-paragraph explanation of the stream
-description: Ensure policies and standards are maintained and provided in a way as
-  to support integration into the SDLC.
+description: This stream focuses on maintaining policies and standards and providing them to support integration into the SDLC.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 1

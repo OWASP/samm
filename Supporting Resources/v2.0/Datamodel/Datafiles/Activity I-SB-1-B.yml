@@ -13,7 +13,7 @@ level: b29ab542cc674901a19cf5f3c0c4be18
 id: bed0489cae4e4401b1d44d56ad36c109
 
 #The title of this activity
-title: All application dependencies are identified and documented.
+title: Identify application dependencies
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: You can react to publicly disclosed vulnerabilities using knowledge about
