@@ -25,7 +25,7 @@ shortDescription: Review of the architecture components' effectiveness
 longDescription: |
   Review the effectiveness of the architecture components and their provided security mechanisms in terms of alignment with the overall strategy of the organization, and scrutinize the degree of availability, scalability and enterprise-readiness of the chosen security solutions. While tactical choices for a particular application can make sense in specific contexts, it is important to keep an eye on the bigger picture and ensure future readiness of the designed solution.
 
-  Feed any findings back into the Security Architecture practice to act as a catalyst for improvements to the shared security services and reference architectures.
+  Feed any findings back into defect management to trigger further improvements to the architecture.
 
 #The output of this particular activity
 results:
