@@ -13,8 +13,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: 2da7acf355814b75ab971fec36048f11
 
 #One-sentence description of the criterium
-text: Do you review the application architecture for key security objectives and threats
-  on an ad-hoc basis?
+text: Do you review the application architecture for key security objectives on an ad-hoc basis?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
@@ -23,8 +22,7 @@ order: 1
 quality:
 - You have an agreed upon model of the overall software architecture
 - You include components, interfaces, and integrations in the architecture model
-- You verify the security mechanisms in the software architecture cover the key security
-  objectives and threats
+- You verify the correct provision of general security mechanisms
 - You log missing security controls as defects
 
 #Type Classification of the Document
