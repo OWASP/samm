@@ -13,7 +13,7 @@ answerset: e5a12ab46e4645a9ab22aa5a1ebe562f
 id: dbb83b0d5b504db6a170710df4df347f
 
 #Text of the question presented to the user
-text: Do you have a repeatable process for incident handling?
+text: Do you use a repeatable process for incident handling?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1

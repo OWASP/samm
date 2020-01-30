@@ -14,7 +14,7 @@ id: 0247b5b573b843609fdff791a1cc7c1b
 
 #One-sentence description of the criterium
 text: Do you regularly evaluate the effectiveness of your security metrics so that
-  its input is valuable for your security strategy?
+  its input helps drive your security strategy?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
