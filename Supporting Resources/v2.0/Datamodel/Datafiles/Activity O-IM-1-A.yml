@@ -16,7 +16,7 @@ id: b8dfd23d66224ac88d3ce41cf83ed15e
 title: Use best-effort incident detection
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to detect the most obvious security incidents within a reasonable timeframe
+benefit: Ability to detect the most obvious security incidents
 
 #A one sentence description of the activity
 shortDescription: Use available log data to perform best-effort detection of possible security incidents.

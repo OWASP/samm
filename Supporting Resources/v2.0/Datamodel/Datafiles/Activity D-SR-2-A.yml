@@ -16,8 +16,7 @@ id: 1cc77725cb2349f394477838668f6184
 title: Standardize and integrate security requirements
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Relevant security requirements gathered in a structured format provide a
-  prioritized, detailed understanding of attack scenarios against business logic.
+benefit: Alignment of security requirements with other types of requirements
 
 #A one sentence description of the activity
 shortDescription: Structured security requirements are available and utilized by developer

@@ -16,8 +16,7 @@ id: 346ed576f0a94147ba2b8148abc3c73a
 title: Establish a penetration testing process
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Tests the robustness of the software by mimicking malicious users attacking
-  it.
+benefit: Understanding of application resilience from black-box perspective
 
 #A one sentence description of the activity
 shortDescription: Conduct manual penetration testing

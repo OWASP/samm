@@ -16,7 +16,7 @@ id: a061ed8a5b1c4899bc95d9b1a10a469d
 title: Standardize security guidance
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Security is an aspect of product quality, addressed throughout development.
+benefit: Adequate security knowledge of all employees ensured prior to working on critical tasks
 
 #A one sentence description of the activity
 shortDescription: Standardized in-house guidance around the organization’s secure

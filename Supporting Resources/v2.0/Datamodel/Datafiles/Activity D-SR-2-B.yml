@@ -16,7 +16,7 @@ id: 5d5e3d9beab9498ca1ce66d3a53a81c6
 title: Discuss security responsabilities with suppliers
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: You structurally assign responsibilities for software security activities.
+benefit: Clearly defined security responsibilities of your software suppliers
 
 #A one sentence description of the activity
 shortDescription: Build security into supplier agreements in order to ensure compliance

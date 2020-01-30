@@ -16,8 +16,7 @@ id: 15d73a64818c43019504c8d938ca2434
 title: Define advanced defect metrics
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: You scale the learning effect throughout the whole organization based on
-  unified defect management metrics.
+benefit: Improved learning from security defects in your organization
 
 #A one sentence description of the activity
 shortDescription: Collect standardized defect management metrics and use these also

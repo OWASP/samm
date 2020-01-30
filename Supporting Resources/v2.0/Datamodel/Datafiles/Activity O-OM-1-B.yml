@@ -16,9 +16,7 @@ id: 1a398709b9d3407dbf9db7eeff6e916c
 title: Identify unused applications
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Reduced operating costs for unused applications, when discovered
-  - Limited reductions in support costs for legacy product versions
+benefit: Identification of unused of software assets or components
 
 #A one sentence description of the activity
 shortDescription: Decomission unused applications and services as identified. Manage

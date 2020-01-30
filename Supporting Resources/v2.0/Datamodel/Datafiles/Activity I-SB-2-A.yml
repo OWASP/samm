@@ -16,8 +16,7 @@ id: bcc960e835aa4ad58a9d39a272cbf6f1
 title: Automate the build process
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: An automated build process significantly mitigates the risk of human errors
-  and decreases operational costs.
+benefit: Efficient build process with integrated security tools
 
 #A one sentence description of the activity
 shortDescription: Automate your build pipeline and secure the used tooling. Add security

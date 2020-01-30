@@ -16,7 +16,7 @@ id: fed0d75c064c4a979a5b7b98adfdedbf
 title: Enforce lifecycle management of application secrets
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Risk of leaked production secrets is reduced by improving their lifecycle.
+benefit: Minimized possibility and timely detection of production secret abuse
 
 #A one sentence description of the activity
 shortDescription: Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use.

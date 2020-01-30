@@ -16,8 +16,7 @@ id: 62237ae79ab84a6687de2885b1e3d608
 title: Structurally verify the application architecture for compliance requirements
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: This activity assures that the architecture is aligned with the security
-  requirements and best practices.
+benefit: Architecture alignment with known security requirements
 
 #A one sentence description of the activity
 shortDescription: Analyze the architecture against known security requirements and

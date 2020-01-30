@@ -16,7 +16,7 @@ id: 9b6a86278ba14a9098d3d60a9a78d6c5
 title: Provide preferred security solutions
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: The organisation leverages common security solutions.
+benefit: Reusable security services available for product teams
 
 #A one sentence description of the activity
 shortDescription: Establish common design patterns and security solutions for adoption.

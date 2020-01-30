@@ -16,9 +16,7 @@ id: 84dcbc954d954d95b1fb37e032f05402
 title: Establish hardening baselines
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Reduced attack surface, across all technology stacks
-  - Increased efficiency in deployment and configuration of components
+benefit: Consistent hardening of technology stack components in your organization
 
 #A one sentence description of the activity
 shortDescription: Perform consistent hardening of configurations, following established

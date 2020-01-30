@@ -16,7 +16,7 @@ id: 27cdd2a336a44e56a42632c7a78fcf4f
 title: Identify tools and technologies
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Security risk and technical debt in use are identified and replaced.
+benefit: Transparency of technologies that introduce security risk
 
 #A one sentence description of the activity
 shortDescription: Elicit technologies, frameworks and integrations within the overall

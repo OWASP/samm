@@ -16,7 +16,7 @@ id: f692ee8f87c1499681490cc1647c0df4
 title: Establish an incident response team
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient incident response independent of time, location, or art of the incident
+benefit: Efficient incident response independent of time, location, or type of incident
 
 #A one sentence description of the activity
 shortDescription: Employ a dedicated, well-trained incident response team.

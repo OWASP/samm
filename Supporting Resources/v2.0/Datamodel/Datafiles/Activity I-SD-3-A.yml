@@ -16,8 +16,7 @@ id: 05a3e75c6c654ae58a115cbf4295662b
 title: Verify the integrity of deployment artifacts
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: The deployment process automatically validates the integrity of all software
-  artifacts.
+benefit: Assured integrity of artifacts being deployed to production
 
 #A one sentence description of the activity
 shortDescription: Automatically verify integrity of all deployed software, indenendently

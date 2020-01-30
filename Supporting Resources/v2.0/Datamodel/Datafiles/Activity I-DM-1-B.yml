@@ -16,8 +16,7 @@ id: d1cb54f1ddd3432480513df320fc0ff8
 title: Define basic defect metrics
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: You take advantage of basic metrics from your defect management process to
-  identify quick win activities.
+benefit: Identification of quick wins derived from available defect information
 
 #A one sentence description of the activity
 shortDescription: Regularly go over previously recorded security defects and derive

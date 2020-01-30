@@ -16,8 +16,7 @@ id: bed0489cae4e4401b1d44d56ad36c109
 title: Identify application dependencies
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: You can react to publicly disclosed vulnerabilities using knowledge about
-  dependencies you are relying on.
+benefit: Available information on known security issues in dependencies
 
 #A one sentence description of the activity
 shortDescription: Create recoreds with Bill of Materials of your applications and

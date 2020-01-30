@@ -16,9 +16,7 @@ id: 60d7a0a61dd142d5a87009bc5b93df56
 title: Formalize decommissioning process
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Reduced attack surface, through elimination of unused configuration in operating environments
-  - Elimination of risks associated with end-of-life software
+benefit: Standardized decommisioning process decreasing the risk of forgetting components
 
 #A one sentence description of the activity
 shortDescription: Develop repeatable decommissioning processes for unused systems/services,
