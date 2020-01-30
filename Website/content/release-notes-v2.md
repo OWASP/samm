@@ -35,8 +35,7 @@ List of changes:
 * The main publication channel is now the [OWASP SAMM website](https://owaspsamm.org/), not a monolithic document. This allows for iterative improvements, faster publication and online interactions with the model.
 
 Updated SAMM structure:
-![SAMMv2 Overview](../img/v_2_0/samm_v2.png =980x)
-
+{{< responsive-image  "../img/v_2_0/samm_v2.png" "SAMMv2 Overview">}}
 
 
 
