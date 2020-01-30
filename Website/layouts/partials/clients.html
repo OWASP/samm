@@ -16,11 +16,9 @@
                     {{ .Site.Params.clients.subtitle2 }}
                   {{ end }}
                 </p>
-                
-                <!-- /.owl-carousel -->
-                <ul class="owl-carousel customers" data-itemsnumber="3">
+
+                <div class="flex-container">
                     {{ range .Site.Data.clients }}
-                    <li class="item" title="{{ .name }}">
                         {{ if .url }}
                           <a href="{{ .url }}" target="_blank">
                             <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
@@ -28,27 +26,8 @@
                         {{ else }}
                           <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
                         {{ end }}
-                    </li>
                     {{ end }}
-                </ul>
-                <!-- /.owl-carousel -->
-
-                <!-- /.owl-carousel -->
-                <ul class="owl-carousel customers" data-itemsnumber="3">
-                    {{ range .Site.Data.sponsors }}
-                    <li class="item" title="{{ .name }}">
-                        {{ if .url }}
-                          <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
-                          </a>
-                        {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
-                        {{ end }}
-                    </li>
-                    {{ end }}
-                </ul>
-                <!-- /.owl-carousel -->
-
+                </div>
 
                 <p class="text-center">
                   <a href="{{ .Site.Params.clients.link_url }}" class="btn btn-template-transparent-main btn-lg">{{ .Site.Params.clients.link_text }}</a>
