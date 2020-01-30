@@ -13,7 +13,7 @@ level: b29ab542cc674901a19cf5f3c0c4be18
 id: bf536a9305134a769adbd414652054ee
 
 #The title of this activity
-title: The build process is defined and consistent.
+title: Define a consistent build process
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Builds become consistent and repeatable, decreasing the risk of human errors

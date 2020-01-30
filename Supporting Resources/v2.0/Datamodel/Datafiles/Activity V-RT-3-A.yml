@@ -13,8 +13,7 @@ level: 812abdd0a2b54366a497919f8463911a
 id: 7003146cf1a1450293001754fe74787d
 
 #The title of this activity
-title: Leverage automated unit, static and dynamic code analysis tools to verify security
-  requirements.
+title: Automate security requirements testing
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Prevents identified (and fixed) bugs being introduced as part of later releases

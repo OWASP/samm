@@ -13,8 +13,7 @@ level: 46f16450b23d4c29a5cf19b056c2636e
 id: bcc960e835aa4ad58a9d39a272cbf6f1
 
 #The title of this activity
-title: The build process is fully automated and does not require intervention by the
-  developer.
+title: Automate the build process
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: An automated build process significantly mitigates the risk of human errors

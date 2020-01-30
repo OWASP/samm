@@ -13,7 +13,7 @@ level: d0a99f3db27e48aa9b2d6b58a9040f49
 id: 1a398709b9d3407dbf9db7eeff6e916c
 
 #The title of this activity
-title: Identification of unused and legacy applications/services
+title: Identify unused applications
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: |

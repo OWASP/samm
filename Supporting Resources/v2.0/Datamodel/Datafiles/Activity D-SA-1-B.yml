@@ -13,8 +13,7 @@ level: a11b78917dec4cfdad983cf6d1d17b61
 id: 27cdd2a336a44e56a42632c7a78fcf4f
 
 #The title of this activity
-title: Inventory and evaluate the security quality of technologies, tools and frameworks
-  used by applications.
+title: Identify tools and technologies
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Security risk and technical debt in use are identified and replaced.

@@ -13,7 +13,7 @@ level: 3e89d1fa6cba4516a3ec446faaab5b84
 id: 4729b4bd6dca4d58a68cb854ad4409a6
 
 #The title of this activity
-title: Secrets are dynamically included during the deployment process.
+title: Include application secrets during deployment
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Risk of leaking production secrets is reduced by removing them from source code files.

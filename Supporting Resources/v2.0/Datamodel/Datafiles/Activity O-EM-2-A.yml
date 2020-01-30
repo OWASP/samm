@@ -13,7 +13,7 @@ level: 354292b7198b48bb8c4909e0d7e29f68
 id: 84dcbc954d954d95b1fb37e032f05402
 
 #The title of this activity
-title: Consistent hardening using documented baselines
+title: Establish hardening baselines
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: |

@@ -13,7 +13,7 @@ level: 3e89d1fa6cba4516a3ec446faaab5b84
 id: 1f3a9306778f4539a437d9f19232cda7
 
 #The title of this activity
-title: Integration of security verification in deployment.
+title: Automate deployment and integrate security checks
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: The deployment process is fully repeatable, software with obvious security

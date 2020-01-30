@@ -7,14 +7,14 @@ keywords = ["benchmarking","what is","questions"]
 ## SAMM Benchmarking
 
 ### Goals
-OWASP SAMM (Software Assurance Maturity Model) Benchmarking is a sub-project within OWASP SAMM to facilitate information and data collaboration between organizations with the goal to help answer the critical questions "How am I doing?" and "What might be working for other similar organizations". 
+OWASP SAMM (Software Assurance Maturity Model) Benchmarking is a sub-project within OWASP SAMM to facilitate information and data collaboration between organizations with the goal to help answer the critical questions "How am I doing?" and "What might be working for other similar organizations".
 
-The goal of this project is to collect the most comprehensive dataset related to organizational maturity of application or software security programs. Allowing OWASP SAMM to enable comparative analysis for the SAMM practioners and other future research as well. This data should come from both self-assessing organizations and consultancies that perform third party assessments. 
+The goal of this project is to collect the most comprehensive dataset related to organizational maturity of application or software security programs. Allowing OWASP SAMM to enable comparative analysis for the SAMM practioners and other future research as well. This data should come from both self-assessing organizations and consultancies that perform third party assessments.
 
 We will accept data from SAMM v1.5 and SAMM v2.x and beyond. There will be support for partial comparisons between SAMM v1.5 and SAMM v2.x, but as the model will undergo breaking changes for v2.0 it will not be a full comparison between the versions. We plan to support multiple submissions from the same organization over time so that progress can be shown on the dashboard.
 
-### Analysis Infrastructure 
-The plan is to leverage the OWASP Azure Cloud Infrastructure to collect, analyze, and store the data contributed. There will be a minimal number of administrators that have access to manage the raw data. Dashboards and comparative analysis will be performed with data that is aggregated and/or separated from the submitting organization (additional details in the Process section). 
+### Analysis Infrastructure
+The plan is to leverage the OWASP Azure Cloud Infrastructure to collect, analyze, and store the data contributed. There will be a minimal number of administrators that have access to manage the raw data. Dashboards and comparative analysis will be performed with data that is aggregated and/or separated from the submitting organization (additional details in the Process section).
 
 
 ### Contributions
@@ -44,13 +44,13 @@ You can start contributing today via Process #1. We plan to have the other metho
 
 
 ### Data Structure
-The following data elements are (R)equired or optional:
+The following data elements are required - marked with (required) - or optional:
 
-* (R)Contributor Name (org or anon)
+* Contributor Name (org or anon) - (required)
 * Contributor Contact Email
-* (R)Date assessment conducted (MM/YYYY)
-* (R)Type of Assessent (Self or 3rd Party)
-* (R)Answers to the SAMM Assessment Questions 
+* Date assessment conducted (MM/YYYY) - (required)
+* Type of Assessent (Self or 3rd Party) - (required)
+* Answers to the SAMM Assessment Questions - (required)
 * Geographic Region (Global, North America, EU, Asia, other)
 * Primary Industry (Multiple, Financial, Industrial, Software, ??)
 * Approximate number of developers (1-100, 101-1000, 1001-10000, 10000+)
@@ -64,8 +64,3 @@ The following data elements are (R)equired or optional:
 ### Updates
 We will be updating this page and the process as the project progresses.
 If you have any questions, please send an email to <brian.glas@owasp.org>.
-
-
-
-
-

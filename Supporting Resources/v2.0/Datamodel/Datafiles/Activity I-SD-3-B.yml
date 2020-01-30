@@ -13,7 +13,7 @@ level: fc5eb251c6ee4f3db04eb01b62d380ba
 id: fed0d75c064c4a979a5b7b98adfdedbf
 
 #The title of this activity
-title: Favor run-time mechanisms to work with secrets and improve lifecycle management.
+title: Enforce lifecycle management of application secrets
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Risk of leaked production secrets is reduced by improving their lifecycle.

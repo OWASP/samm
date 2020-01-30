@@ -13,8 +13,7 @@ level: 3e6e9a2b696e48018830b44fa96f98b5
 id: fd4d1ac720374b13a25ab1381045b731
 
 #The title of this activity
-title: Develop abuse test cases based on business rules to misuse or exploit weaknesses
-  in controls.
+title: Define and run security abuse cases from requirements
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Detect business logic flaws or vulnerabilities thay allow functionality in

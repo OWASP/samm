@@ -13,8 +13,7 @@ level: 67fcd33f84364ef68fb88aba77de1a63
 id: 62237ae79ab84a6687de2885b1e3d608
 
 #The title of this activity
-title: Verify that each known security requirement has been addressed by the system
-  design and gaps are identified as findings.
+title: Structurally verify the application architecture for compliance requirements
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: This activity assures that the architecture is aligned with the security

@@ -13,7 +13,7 @@ level: 8cb942eff46d41f38e6edc11849744a6
 id: 786b3d7b39cd49a88090554a275f04a6
 
 #The title of this activity
-title: Ad hoc, best-effort hardening
+title: Use best-effort hardening
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Reduced attack surface, for key elements of technology stacks

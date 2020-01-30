@@ -13,8 +13,7 @@ level: 46f16450b23d4c29a5cf19b056c2636e
 id: 857a43e335ba467598eca99d48ea0076
 
 #The title of this activity
-title: All components and dependencies are periodically reviewed for known security
-  vulnerabilities and licensing issues.
+title: Review application dependencies for security
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: You have an overview about the state of publicly known issues of your applications'

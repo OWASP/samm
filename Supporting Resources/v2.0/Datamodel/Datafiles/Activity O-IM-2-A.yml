@@ -13,7 +13,7 @@ level: 439406325e6645519c149da3e05a7d9d
 id: 5bcb52375a0f4085bb12266c9ecfa84d
 
 #The title of this activity
-title: Defined incident detection process
+title: Define an incident detection process
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Timely and consistent detection of expected security incidents

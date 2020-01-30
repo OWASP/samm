@@ -15,7 +15,7 @@ name: Architecture Design
 letter: A
 
 #Multi-paragraph explanation of the stream
-description: Use basic security principles
+description: The design of a software architecture can significantly impact the security posture of a software and the use of good security practices will improve the overall design.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 1
