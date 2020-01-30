@@ -16,7 +16,7 @@ id: 857a43e335ba467598eca99d48ea0076
 title: Review application dependencies for security
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Full transparency on known security issues in dependencies
+benefit: Full transparency of known security issues in dependencies
 
 #A one sentence description of the activity
 shortDescription: Evaluate used dependencies and ensure timely reaction to situations
