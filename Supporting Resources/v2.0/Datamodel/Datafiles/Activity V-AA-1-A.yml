@@ -13,20 +13,19 @@ level: 39bc5d271fae4ea8ba53db7de7b2712c
 id: 0f611af10f974da497e7f3defe0c4f12
 
 #The title of this activity
-title: Develop high-level application and infrastructure architecture views and assess
-  for security-related functionality
+title: Assess application architecture
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Developers understand the architecture, interfaces, and how to secure them.
 
 #A one sentence description of the activity
-shortDescription: Identify application and infrastructure architecture components
+shortDescription: Identify application and infrastructure architecture components and review for basic security provisioning
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Create a simplified view of the overall architecture and examine it for the correct provision of general security mechanisms and high-level requirements such as authentication, user access management, input validation, output encoding, error handling, logging. Where relevant also consider the mechanisms of cryptography or privacy. Do this based on project artifacts such as high-level requirements and design documents, or interviews with business owners and technical staff. Also consider the infrastructure components. These are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
+  Create a view of the overall architecture and examine it for the correct provision of general security mechanisms such as authentication, authorization, user and rights management, secure communication, data protection, key management and log management. Also consider the support for privacy. Do this based on project artifacts such as architecture or design documents, or interviews with business owners and technical staff. Also consider the infrastructure components - these are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
 
-  Note any security-related functionality in the architecture and review its correct provision. Do this in an ad-hoc manner, from the point of view of authorized users, anonymous users, operators, and any application-specific roles.
+  Note any security-related functionality in the architecture and review its correct provision. Do this in an ad-hoc manner, from the point of view of anonymous users, authorized users, and specific application roles.
 
 #The output of this particular activity
 results:
