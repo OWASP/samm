@@ -16,7 +16,7 @@ id: 2bf0e192a904444b8a2f38c33256e80a
 title: Rate and track security defects
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Consistent classification of security defects with clear expecations of their handling
+benefit: Consistent classification of security defects with clear expectations of their handling
 
 #A one sentence description of the activity
 shortDescription: Rate all security defects over the whole organization consistently
