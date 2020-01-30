@@ -26,7 +26,7 @@ shortDescription: Perform regular patching of system and application components,
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop, and follow, a well-defined process for managing patches to application components, across the different technology stacks in use. Ensure processes include regular schedules for applying vendor updates, aligned with vendor update calendars (e.g., Microsoft Patch Tuesday). For software developed by the organization, new releases are delivered to customers and organization-managed solutions on a regular basis (e.g., monthly), whether new features are being delivered or not.
+  Develop and follow a well-defined process for managing patches to application components across the technology stacks in use. Ensure processes include regular schedules for applying vendor updates, aligned with vendor update calendars (e.g., Microsoft Patch Tuesday). For software developed by the organization, deliver releases to customers and organization-managed solutions on a regular basis (e.g., monthly), regardless of whether you are including new features.
 
   Create guidance for prioritizing component patching, reflecting your risk tolerance and management objectives. Consider operational factors (e.g., criticality of the application, severity of the vulnerabilities addressed) in determining priorities for testing and applying patches.
 
