@@ -67,6 +67,7 @@ The Open Web Application Security Project (OWASP) is a nonprofit organization wo
 The OWASP SAMM community is powered by security knowledgeable volunteers from businesses and educational organizations. The global community works to create freely-available articles, methodologies, documentation, tools, and technologies.
 
 ##### Contact
-The SAMM Project Team: [info@owaspsamm.org](mailto:info@owaspsamm.org)  
-Sebastien Deleersnyder, project leader: [seba@owasp.org](mailto:seba@owasp.org) | +32 478 504 117
-Bart De Win, project leader: [bart.dewin@owasp.org](mailto:bart.dewin@owasp.org) | +32 479 467 957
+
+* The SAMM Project Team: [info@owaspsamm.org](mailto:info@owaspsamm.org)  
+* Sebastien Deleersnyder, project leader: [seba@owasp.org](mailto:seba@owasp.org) | +32 478 504 117
+* Bart De Win, project leader: [bart.dewin@owasp.org](mailto:bart.dewin@owasp.org) | +32 479 467 957
