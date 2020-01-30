@@ -23,6 +23,9 @@ The SAMM model is development paradigm agnostic. It supports waterfall, iterativ
 
 The 3 maturity levels remain as they are. Level 1 is initial implementation; level 2, structured realization; and level 3, optimized operation.
 
+This is the updated SAMM version 2 model:
+{{< responsive-image  "../img/v_2_0/samm_v2.png" "SAMMv2 Overview">}}
+
 List of changes:
 
 * Activities are now presented in logical flows throughout each of the now 15 security practices, divided into two streams, which aligns and links the activities in the practice over the different maturity levels.
@@ -34,8 +37,7 @@ List of changes:
 * A single source using GitHub will automatically generate PDF documents, the website, the toolbox and applications. All the model content has been converted to YAML files, allowing tools or other SAMM consumers to automatically use the model.
 * The main publication channel is now the [OWASP SAMM website](https://owaspsamm.org/), not a monolithic document. This allows for iterative improvements, faster publication and online interactions with the model.
 
-Updated SAMM structure:
-{{< responsive-image  "../img/v_2_0/samm_v2.png" "SAMMv2 Overview">}}
+
 
 
 
