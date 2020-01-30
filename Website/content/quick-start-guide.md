@@ -3,7 +3,7 @@
 
 ## About OWASP SAMM
 
-**OWASP SAMM (Software Assurance Maturity Model)** is the OWASP framework to help organizations assess, formulate, and implement a strategy for software security, that can be integrated into their existing **Software Development Lifecycle ( SDLC)**. OWASP SAMM is fit for most contexts?whether your organization is mainly developing, outsourcing, or acquiring software, or whether you are using a waterfall, an agile or devops method?the same model can be applied. This quick start guide walks you through the core steps to execute your OWASP SAMM-based secure software practice.
+**OWASP SAMM (Software Assurance Maturity Model)** is the OWASP framework to help organizations assess, formulate, and implement a strategy for software security, that can be integrated into their existing **Software Development Lifecycle (SDLC)**. OWASP SAMM is fit for most contexts, whether your organization is mainly developing, outsourcing, or acquiring software, or whether you are using a waterfall, an agile or devops method, the same model can be applied. This quick start guide walks you through the core steps to execute your OWASP SAMM-based secure software practice.
 
 
 ## Background

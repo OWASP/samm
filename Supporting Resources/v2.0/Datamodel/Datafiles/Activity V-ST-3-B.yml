@@ -30,7 +30,7 @@ longDescription: |
 
   Proactively improve the security testing effort integrated into the development process by adequately propagating the results of other security test activities. For example, if a security penetration test identifies issues with session management, any changes to session management should trigger explicit security tests before pushing the changes to production.
 
-  Security champions and the central secure software group continuously review results from automated and manual security tests during development, including these results as part of the security awareness trainings for the development teams. Integrate lessons learned in overall playbooks to improve security testing as part of the organisation development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
+  Security champions and the central secure software group continuously review results from automated and manual security tests during development, including these results as part of the security awareness trainings for the development teams. Integrate lessons learned in overall playbooks to improve security testing as part of the organization development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
 
 #The output of this particular activity
 results:

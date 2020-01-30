@@ -6,7 +6,7 @@
 activity: ebd3782abc4343509981c52192904a42
 
 #Link to the answer set that contains the potential answers for this question
-answerset: f77bd45a28c8493dbba6e53b2eafa20f
+answerset: a0d515d66004425e8039cf4197fce271
 
 #Unique identifier (GUID) used to refer to this maturity level.
 #Please generate another identifier for your specific maturity level.
@@ -20,7 +20,6 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- Each development team has an assigned Security Champion
 - Security Champions receive appropriate training
 - Application Security and Development teams receive periodic briefings from Security
   Champions on the overall status of security initiatives and fixes
