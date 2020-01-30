@@ -20,10 +20,10 @@ order: 1
 
 #Qualifying Criterion
 quality:
-- You assess your architectures in a standardized, documented manner.
+- You assess your architectures in a standardized, documented manner
 - You use recurring findings to trigger a review of reference architectures
 - You independently review the quality of the architecture assessments on an ad-hoc basis
-- You use reference architecture updates to trigger reviews of relevant shared solutions, in a risk-based manner.
+- You use reference architecture updates to trigger reviews of relevant shared solutions, in a risk-based manner
 
 #Type Classification of the Document
 type: Question
