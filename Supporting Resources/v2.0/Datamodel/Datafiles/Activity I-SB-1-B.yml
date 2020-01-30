@@ -19,7 +19,7 @@ title: Identify application dependencies
 benefit: Available information on known security issues in dependencies
 
 #A one sentence description of the activity
-shortDescription: Create recoreds with Bill of Materials of your applications and
+shortDescription: Create records with Bill of Materials of your applications and
   opportunistically analyze these.
 
 #A multi-paragraph description of the activity
