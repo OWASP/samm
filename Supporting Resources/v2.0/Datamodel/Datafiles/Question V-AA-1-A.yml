@@ -22,7 +22,7 @@ order: 1
 quality:
 - You have an agreed upon model of the overall software architecture
 - You include components, interfaces, and integrations in the architecture model
-- You verify the correct provision of general security mechanisms.
+- You verify the correct provision of general security mechanisms
 - You log missing security controls as defects
 
 #Type Classification of the Document
