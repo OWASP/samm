@@ -14,7 +14,7 @@ values:
   weight: 1
   order: 0
     #second level
-- text: Yes, it general risks
+- text: Yes, it covers general risks
   value: 0.25
   weight: 1
   order: 1
