@@ -16,7 +16,7 @@ id: 62237ae79ab84a6687de2885b1e3d608
 title: Structurally verify the architecture for identified threats
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: You verify that all identified threats to the application are adequately handled.
+benefit: All identified threats to the application are adequately handled.
 
 #A one sentence description of the activity
 shortDescription: Analyze the architecture for known threats.

@@ -16,8 +16,7 @@ id: d09a731835304ea8aeb4c21565e45c4b
 title: Test application dependencies
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Security issues in used dependencies are handled comparably to those in your
-  own code.
+benefit: Handling of security issues in dependencies comparable to those in your own code
 
 #A one sentence description of the activity
 shortDescription: Analyze used dependencies for security issues in a comparable way

@@ -16,7 +16,7 @@ id: 4729b4bd6dca4d58a68cb854ad4409a6
 title: Include application secrets during deployment
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Risk of leaking production secrets is reduced by removing them from source code files.
+benefit: Detection of potential leakage of production secrets
 
 #A one sentence description of the activity
 shortDescription: Inject secrets dynamically during deployment process from hardened storages and audit all human access to them.

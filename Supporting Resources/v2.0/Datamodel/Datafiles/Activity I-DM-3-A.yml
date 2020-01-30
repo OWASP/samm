@@ -16,8 +16,7 @@ id: d955a7b3fbfc4b6aa5b327af9e01c377
 title: Enforce an SLA for defect management
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Security defects are resolved or mitigated (possibly with compensating controls)
-  within a predefined time.
+benefit: Assurance that security defects are handled within predefined SLAs
 
 #A one sentence description of the activity
 shortDescription: Enforce the predefined SLAs and integrate your defect management

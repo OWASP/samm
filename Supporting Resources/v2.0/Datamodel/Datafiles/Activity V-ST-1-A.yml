@@ -16,7 +16,7 @@ id: 921ff24f0b9f4df9a5129aa2f8a4a570
 title: Perform automated security testing
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detect software vulnerabilities with automated security testing tools.
+benefit: Detection of common easy-to-find vulnerabilities
 
 #A one sentence description of the activity
 shortDescription: Utilize automated security testing tools

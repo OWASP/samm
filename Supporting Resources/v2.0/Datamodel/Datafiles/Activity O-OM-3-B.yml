@@ -16,9 +16,7 @@ id: 8ab46d242edd413d99a6c1991aef2416
 title: Review application lifecycle state regularly
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Reduced risks, through eliminating unsupported applications and libraries from operating environments
-  - Minimized product support burden
+benefit: Full visibility into lifecycle of all software assets
 
 #A one sentence description of the activity
 shortDescription: Proactively manage migration roadmaps, for both unsupported end-of-life

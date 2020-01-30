@@ -16,9 +16,7 @@ id: 3156ab7b516e4550893427face9f86bc
 title: Perform continuous configuration monitoring
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: |
-  - Full visibility of component configurations
-  - Ability to detect and correct out-of-conformance conditions
+benefit: Clear view on component configurations to avoid non-conformities
 
 #A one sentence description of the activity
 shortDescription: Actively monitor configurations for non-conformance to baselines,

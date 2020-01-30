@@ -16,8 +16,7 @@ id: bf536a9305134a769adbd414652054ee
 title: Define a consistent build process
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Builds become consistent and repeatable, decreasing the risk of human errors
-  leading to security issues.
+benefit: Limited risk of human error during build process minimizing security issues
 
 #A one sentence description of the activity
 shortDescription: Create a formal definition of the build process so that it becomes

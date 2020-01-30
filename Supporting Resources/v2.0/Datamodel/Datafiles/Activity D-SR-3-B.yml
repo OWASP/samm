@@ -16,7 +16,7 @@ id: a9f56795ac84426c9e45f9471e82a8d7
 title: Align security methodology with suppliers
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: You align software development practices to limit security risks.
+benefit: Alignment of software development practices with suppliers to limit security risks
 
 #A one sentence description of the activity
 shortDescription: Ensure proper security coverage for external suppliers by providing

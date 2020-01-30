@@ -16,8 +16,7 @@ id: 09f4b814a3444b329a7c9c7f54152ffe
 title: Develop test procedures
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Have clearly defined evaluation methods to test for adherence to policies
-  and standards.
+benefit: Common understanding of how to reach compliance with security policies for product teams
 
 #A one sentence description of the activity
 shortDescription: Develop security requirements applicable to all applications.

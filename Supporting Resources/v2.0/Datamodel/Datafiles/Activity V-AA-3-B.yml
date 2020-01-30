@@ -16,8 +16,7 @@ id: a11da5bb4d3c475d9e9c53b104032e65
 title: Feed review results back to improve reference architectures
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Formalized security architecture review processes ensure alignment with enterprise
-  reference architectures.
+benefit: Continuous improvement of enterprise architecture based on architecture reviews
 
 #A one sentence description of the activity
 shortDescription: Feed the architecture review results back into the enterprise architecture,

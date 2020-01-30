@@ -16,8 +16,7 @@ id: d975bb1ce1dd4d61a6039b0a4a05926e
 title: Perform security stress testing
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identifies functionality or resources in the software that can be abused to
-  perform denial of service attacks.
+benefit: Transparency of resilience against denial of service attacks
 
 #A one sentence description of the activity
 shortDescription: Denial of service and security stress testing

@@ -16,8 +16,7 @@ id: 9951bda24b624cc684a2851f9d56c5d8
 title: Define and run security test cases from requirements
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assures that security requirements are met by creating and performing tests
-  derived from the requirements.
+benefit: Integration of security requirements into test scenarios
 
 #A one sentence description of the activity
 shortDescription: Derive test cases from known security requirements

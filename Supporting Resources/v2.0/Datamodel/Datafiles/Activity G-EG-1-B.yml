@@ -16,8 +16,7 @@ id: ebd3782abc4343509981c52192904a42
 title: Identify security champions
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Have a lightweight embedding of software security throughout your organization
-  through security champions.
+benefit: Basic embedding of security in the development organization
 
 #A one sentence description of the activity
 shortDescription: Identify a “Security Champion” within each development team.

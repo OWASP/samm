@@ -16,7 +16,7 @@ id: 11dd0c95f8914b6cb850a27f0557a9dd
 title: Improve the incident detection process
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to timely detect unexpected security incidents
+benefit: Ability to timely detect security incidents
 
 #A one sentence description of the activity
 shortDescription: Use a proactively managed process for detection of incidents.

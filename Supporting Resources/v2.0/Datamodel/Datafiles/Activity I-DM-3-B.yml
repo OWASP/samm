@@ -16,8 +16,7 @@ id: f2a309b82fbc46cfb2f11c9cde20dc0a
 title: Use metrics to improve the security strategy
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Collection and evaluation of security metrics is effective and helps drive
-  your security strategy.
+benefit: Optimized security strategy based on defect information
 
 #A one sentence description of the activity
 shortDescription: Continuously improve your security defect management metrics and

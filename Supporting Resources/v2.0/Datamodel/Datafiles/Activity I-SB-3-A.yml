@@ -16,8 +16,7 @@ id: 281369f491da4d4c84b0729e344e2c93
 title: Enforce a security baseline during build
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: It is ensured that only software complying to a defined security baseline
-  gets built.
+benefit: Assurance that you build software complying with a security baseline
 
 shortDescription: Define mandatory security checks in the build process and ensure
   that building non-compliant artifacts fails.

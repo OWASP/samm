@@ -16,7 +16,7 @@ id: 77a5f467ffe140e2a2839bb522e82c4e
 title: Protect application secrets in configuration and code
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Risk of leaking production secrets is reduced by introduction of basic protection measures.
+benefit: Defined and limited access to your production secrets
 
 #A one sentence description of the activity
 shortDescription: Introduce basic protection measures to limit access to your production secrets.
