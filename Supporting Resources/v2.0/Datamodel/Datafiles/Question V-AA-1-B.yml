@@ -13,16 +13,16 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 id: b920062a62d84883af0c167955ec10de
 
 #One-sentence description of the criterium
-text: Do you evaluate the technical architecture of your applications for potential
-  threats?
+text: Do you review the application architecture for mitigations of typical threats on an ad-hoc basis?
 
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 
 #Qualifying Criterion
 quality:
-- You review application trust boundaries
-- Threat identification covers different types of threats
+- You have an agreed upon model of the overall software architecture
+- Security savvy staff conduct the review
+- You consider different types of threats, including insider and data-related one
 
 #Type Classification of the Document
 type: Question
