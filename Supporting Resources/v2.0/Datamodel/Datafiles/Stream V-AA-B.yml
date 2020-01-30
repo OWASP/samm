@@ -16,7 +16,7 @@ letter: B
 
 #Multi-paragraph explanation of the stream
 description: |
-  Architecture Mitigation is focused on ensuring that all relevant identified threats during Threat Assessment are adequately mitigated, and existing reference architectures updated to address any unhandled threats.
+  Architecture mitigation focuses on ensuring that all threats identified during Threat Assessment are adequately mitigated, and existing reference architectures updated to address any unhandled threats.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 2
