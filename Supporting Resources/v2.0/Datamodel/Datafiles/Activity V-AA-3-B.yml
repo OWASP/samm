@@ -13,8 +13,7 @@ level: 83ea8aaab3384b41b785107613ee4d86
 id: a11da5bb4d3c475d9e9c53b104032e65
 
 #The title of this activity
-title: Leverage architecture review results as inputs and updates to security and
-  reference architectures.
+title: Feed review results back to improve reference architectures
 
 #Describe the benefit that is achieved by implementing this activity
 benefit: Formalized security architecture review processes ensure alignment with enterprise
@@ -26,10 +25,8 @@ shortDescription: Feed the architecture review results back into the enterprise 
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Reference architectures encapsulate common patterns, principles and reusable best practices which teams can leverage to build more interoperable components, aligned to the business's value streams and supporting functions. As a starting point for building secure components, it is important they reflect security best practices. Review all partially or fully unmitigated threats against system architectures, and examine whether supporting reference architectures could be improved to better protect against them.
-
-  Formalize a process to use recurring architecture findings as a trigger to identify the causes of gaps in the security assessment and deal with them. Feed findings back to the Design phase by creating, or updating relevant reference architectures, existing security solutions, or organisation design principles and patterns.
-
+  As an organization, you can further improve your software security posture by understanding which threats remain unaddressed in the software architectures and adapting your tactics to prevent this. Formalize a process to use recurring architecture findings as a trigger to identify the causes of gaps in the security assessment and deal with them. Feed findings back to the Design phase by creating, or updating relevant reference architectures, existing security solutions, or organisation design principles and patterns.
+  
 #The output of this particular activity
 results:
 
