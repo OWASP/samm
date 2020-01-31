@@ -46,7 +46,7 @@ Don’t forget to look around our [new website](https://owaspsamm.org/), review 
 
 ### Thanks
 
-Big thanks to our community, your feedback, corrections, questions, input, and encouragement. SAMM version 2 is for you!
+A big thanks to our community, your feedback, corrections, questions, input, and encouragement. SAMM version 2 is for you!
 
 Special thanks to Brett Crawley, Brian Glas, Bruce Jenkins, Chris Cooper, Daniel Kefer, Felipe Zipitria, Hardik Parekh, John Dileo, John Ellingsworth, John Kennedy, Nessim Kisserli, Patricia Duarte, Sebastian Arriada, and Yan Kravchenko.
 
