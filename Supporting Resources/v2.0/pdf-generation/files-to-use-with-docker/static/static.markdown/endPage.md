@@ -12,6 +12,7 @@ The OWASP SAMM project is led by Sebastien Deleersnyder & Bart De Win with contr
   - Nessim Kisserli
   - Yan Kravchenko
   - Hardik Parekh
+  - Felipe Zipitria
 
 ## Sponsors
 
