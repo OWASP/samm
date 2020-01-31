@@ -24,4 +24,4 @@ After a period of intensive discussions and with input from practitioners and th
 
 For an overview of the version 2 changes, read our [SAMM version 2 release notes](/release-notes-v2).
 
-We generated a PDF version of the model, available as download [here](https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf). Be advised that we are updating the layout of this document throughout the coming days.
+We generated a bare-bones [PDF version](https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf) of the model. We'll continue to work on it to have a final version as soon as possible.
