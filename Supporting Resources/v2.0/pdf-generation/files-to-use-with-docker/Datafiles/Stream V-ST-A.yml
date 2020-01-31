@@ -1,0 +1,24 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: bb5488860c124b6e8076b023485023e1
+
+#Unique identifier to refer to this stream
+id: 102fdab651834273abd67a3ec27aab05
+
+#Official stream name
+name: Scalable Baseline
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: |
+  Scalable baseline focuses on the use of application-specific automated testing tools that integrate security validation into the build and deploy process. The goal of this stream is to favor width (a broad spectrum of applications) over depth of testing.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+#Type Classification of the Document
+type: Stream

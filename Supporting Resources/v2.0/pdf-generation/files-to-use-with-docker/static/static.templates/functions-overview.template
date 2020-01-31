@@ -1,0 +1,47 @@
+# Overview of Business Functions
+The SAMM model contains five business functions with three security practices each. This section provides a high level overview of each of the business functions.
+
+## {{function-1:name}}
+<i>{{function-1:description}}</i>
+
+**{{function-1-practice-1:name}}** {{function-1-practice-1:shortDescription}}
+
+**{{function-1-practice-2:name}}** {{function-1-practice-2:shortDescription}}
+
+**{{function-1-practice-3:name}}** {{function-1-practice-3:shortDescription}}
+
+## {{function-2:name}}
+<i>{{function-2:description}}</i>
+
+**{{function-2-practice-1:name}}** {{function-2-practice-1:shortDescription}}
+
+**{{function-2-practice-2:name}}** {{function-2-practice-2:shortDescription}}
+
+**{{function-2-practice-3:name}}** {{function-2-practice-3:shortDescription}}
+
+## {{function-3:name}}
+<i>{{function-3:description}}</i>
+
+**{{function-3-practice-1:name}}** {{function-3-practice-1:shortDescription}}
+
+**{{function-3-practice-2:name}}** {{function-3-practice-2:shortDescription}}
+
+**{{function-3-practice-3:name}}** {{function-3-practice-3:shortDescription}}
+
+## {{function-4:name}}
+<i>{{function-4:description}}</i>
+
+**{{function-4-practice-1:name}}** {{function-4-practice-1:shortDescription}}
+
+**{{function-4-practice-2:name}}** {{function-4-practice-2:shortDescription}}
+
+**{{function-4-practice-3:name}}** {{function-4-practice-3:shortDescription}}
+
+## {{function-5:name}}
+<i>{{function-5:description}}</i>
+
+**{{function-5-practice-1:name}}** {{function-5-practice-1:shortDescription}}
+
+**{{function-5-practice-2:name}}** {{function-5-practice-2:shortDescription}}
+
+**{{function-5-practice-3:name}}** {{function-5-practice-3:shortDescription}}

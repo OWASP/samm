@@ -1,0 +1,48 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Decom/Legacy, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: a0d2ec4c6daa43369c07644b8745a7bd
+
+#Link to the practice level that this activity belongs to
+level: d0a99f3db27e48aa9b2d6b58a9040f49
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 1a398709b9d3407dbf9db7eeff6e916c
+
+#The title of this activity
+title: Identify unused applications
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Identification of unused of software assets or components
+
+#A one sentence description of the activity
+shortDescription: Decomission unused applications and services as identified. Manage
+  customer upgrades/migrations individually.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Identify unused applications on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When you identify unused applications, process those findings for further action. If you have established a formal process for decommissioning unused applications, ensure teams are aware of and use it.
+
+  Manage customer/user migration from older versions of your products for each product and customer/user group. When a product version is no longer in use by any customer/user group, discontinue support for that version. However, at this level of maturity you may have a large number of product versions in active use across the customer/user base, requiring significant developer effort to back-port product fixes.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity

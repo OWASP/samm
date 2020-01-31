@@ -1,0 +1,47 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 79754453c74b4143b20a57d0efdaab56
+
+#Link to the practice level that this activity belongs to
+level: 9d1e469966124c0fa80d1bc2fc223a0a
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 3afce608ad7c42deb37a04d6b86e5c33
+
+#The title of this activity
+title: Enforce the use of recommended technologies
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Limited attack surface due to usage of vetted technologies
+
+#A one sentence description of the activity
+shortDescription: Impose the use of standard technologies on all software development.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organization, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks.
+
+  Verify several factors with project teams. Identify use of non-recommended technologies to determine if there are gaps in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, implement functionality in the reference platforms as the organization evolves and project teams request it.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity

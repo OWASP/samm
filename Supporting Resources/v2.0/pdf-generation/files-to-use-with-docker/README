@@ -1,0 +1,8 @@
+see docker-make-pdf.sh for an example of how I run docker.
+the static directory is what I map to /static
+the /output is an empty dir the image will write files (including pdf) to
+
+the Datafiles are the latest from master except the Answer Set questions have 'No' instead of No.
+You can apply the change yourself to the latest Datafiles on github by running the following command:
+sed -i "s/- text: No/- text: 'No'/" Answer\ Set\ *.yml
+

@@ -1,0 +1,27 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 786b3d7b39cd49a88090554a275f04a6
+
+#This question uses Answer Set T
+answerset: 612bf4ec249f4e9d86f9e36dbf511821
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 1e005e11997f4929a12fdb939599e77e
+
+#Text of the question presented to the user
+text: Do you harden configurations for key components of your technology stacks?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You have identified the key components in each technology stack used
+- You have an established configuration standard for each key component
+
+#Type Classification of the Document
+type: Question

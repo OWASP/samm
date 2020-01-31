@@ -1,0 +1,37 @@
+## {{function:name}}
+This business function contains the following three security practices.
+
+### {{practice-1:name}}
+
+{{practice-1:longDescription}}
+
+#### Streams
+
+  - `{{stream-A-p1:name}}`:
+    {{stream-A-p1:description}}
+  - `{{stream-B-p1:name}}`:
+    {{stream-B-p1:description}}
+
+### {{practice-2:name}}
+
+{{practice-2:longDescription}}
+
+#### Streams
+
+  - `{{stream-A-p2:name}}`:
+    {{stream-A-p2:description}}
+  - `{{stream-B-p2:name}}`:
+    {{stream-B-p2:description}}
+
+### {{practice-3:name}}
+
+{{practice-3:longDescription}}
+
+#### Streams
+
+  - `{{stream-A-p3:name}}`:
+    {{stream-A-p3:description}}
+  - `{{stream-B-p3:name}}`:
+    {{stream-B-p3:description}}
+
+

@@ -1,0 +1,27 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: b8dfd23d66224ac88d3ce41cf83ed15e
+
+#This question uses Answer Set A
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 1e005e11997f4929a12fdb939599e77e
+
+#Text of the question presented to the user
+text: Do you analyze log data for security incidents periodically?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You have a contact point for the creation of security incidents
+- You analyze data in accordance with the log data retention periods
+- The frequency of this analysis is aligned with the criticality of your applications
+#Type Classification of the Document
+type: Question

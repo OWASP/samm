@@ -1,0 +1,51 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 102fdab651834273abd67a3ec27aab05
+
+#Link to the practice level that this activity belongs to
+level: 6291462e1894467d807b913ef7da4beb
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: fb6f258a2e424ee9a919341758222a7a
+
+#The title of this activity
+title: Develop application-specific security test cases
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Detection of organization-specific easy-to-find vulnerabilites
+
+#A one sentence description of the activity
+shortDescription: Employ application-specific security testing automation
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Increase the effectiveness of automated security testing tools by tuning and customizing them for your particular technology stacks and applications. Automated security testing tools have 2 important characteristics: Their false positive rate, i.e. the non-existent bugs and vulnerabilities they incorrectly report; their false negative rate, i.e. actual bugs and vulnerabilities which they fail to detect. As you mature in your use of automated testing tools, you strive to minimize their false positive and false negative rates. This maximizes the time development teams spend reviewing and addressing real security issues in their applications, and reduces the friction typically associated with using untuned automated security analysis tools.
+
+  Start by disabling tool support for technologies and frameworks you do not use and target specific versions where possible. This will increase execution speed and reduce the number spurious results reported. Rely on security tool champions or shared security teams to pilot the tools in coordination with a select group of motivated development teams. This will identify likely false positive findings to ignore or remove from the tools' output. Identify specific security issues and anti-patterns and favor the best tool for detecting them.
+
+  Leverage available tool features to take application-specific and organizational coding styles, as well as technical standards into account. Many automated static analysis tools allow users to write their own rules or customize default analysis rules to the specific software interfaces in the project under test for improved accuracy and depth of coverage. For example, potentially dangerous input (aka tainted) can be marked as safe after it flows through a designated custom sanitization method.
+
+  Strategically, it is better to reliably detect a limited subset of security issues via automated tooling, and incrementally extend coverage than attempting to detect all known issues immediately. Once the tools have been sufficiently tuned, they can be made available to a more development teams. It is important to continuously monitor their perceived efficacy among development teams. In more advanced forms, machine learning techniques can be adopted to identify and automatically filter out likely false positives at scale.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequisites to implement this one.
+dependencies:
+#Type Classification of the Document
+type: Activity

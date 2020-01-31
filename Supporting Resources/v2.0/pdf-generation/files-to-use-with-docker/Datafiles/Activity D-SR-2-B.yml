@@ -1,0 +1,48 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 8c1dcd10821f4f2baed52fdc83d93cf6
+
+#Link to the practice level that this activity belongs to
+level: 1a55b2c4666f4336a3f5c12c5bb4a1e9
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 5d5e3d9beab9498ca1ce66d3a53a81c6
+
+#The title of this activity
+title: Discuss security responsabilities with suppliers
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Clearly defined security responsibilities of your software suppliers
+
+#A one sentence description of the activity
+shortDescription: Build security into supplier agreements in order to ensure compliance
+  with organizational requirements.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Increase your confidence in the capability of your suppliers for software security. Discuss concrete responsibilities and expectations from your suppliers and your own organization and establish a contract with the supplier. The responsibilities can be specific quality requirements or particular tasks, and minimal service can be detailed in a Service Level Agreement (SLA). A quality requirement example is that they will deliver software that is protected against the OWASP Top 10, and in case issues are detected, these will be fixed. A task example is that they have to perform continuous static code analysis, or perform an independent penetration test before a major release. The agreement stipulates liabilities and caps in case an important issue arises.
+
+  Once you have implemented this for a few suppliers, work towards a standard agreement for suppliers that forms the basis of your negotiations. You can deviate from this standard agreement on a case by case basis, but it will help you to ensure you do not overlook important topics.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity

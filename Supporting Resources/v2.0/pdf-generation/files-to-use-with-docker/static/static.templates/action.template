@@ -1,0 +1,34 @@
+<div class="new-page"/>
+### {{practice:name}} ({{practice:shortName}}{{maturity:number}})
+
+The goal of this practice level is to {{practice-level:objective}}
+
+#### Activities
+
+##### [Stream {{stream-a:letter}}] {{activity-a:title}}
+<b>Benefit</b>: <i>{{activity-a:benefit}}</i>
+
+{{activity-a:longDescription}}
+
+###### Assessment Question(s)
+{{question-a:text}}
+
+{{answerset-a:values.text}}
+
+Quality Criteria:
+
+{{question-a:quality}}
+
+##### [Stream {{stream-b:letter}}] {{activity-b:title}}
+<b>Benefit</b>: <i>{{activity-b:benefit}}</i>
+
+{{activity-b:longDescription}}
+
+###### Assessment Question(s)
+{{question-b:text}}
+
+{{answerset-b:values.text}}
+
+Quality Criteria:
+
+{{question-b:quality}}

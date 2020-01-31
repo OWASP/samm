@@ -1,0 +1,7 @@
+.new-page {
+    page-break-after: always;
+}
+
+.level-3, .level-4 {
+    display: none;
+}
