@@ -14,7 +14,7 @@ The new SAMM version 2 consists of the following components:
 * a new [SAMM Benchmark initiative](/benchmarking/) to compare your maturity and progress with other similar organizations and teams
 
 
-The original model [OpenSAMM 1.0](https://www.opensamm.org/) was written by Pravir Chandra and dates back to 2009. Over the last 10 years, it has proven a widely distributed and effective model for improving secure software practices in different types of organizations. With SAMM v2, further improvements have been made to deal with some of its perceived limitations.
+The original model [OpenSAMM 1.0](https://www.opensamm.org/) was written by Pravir Chandra and dates back to 2009. Over the last 10 years, it has proven a widely distributed and effective model for improving secure software practices in different types of organizations. With SAMM v2, further improvements have been made to deal with a number of its perceived limitations.
 
 The new SAMM model is development paradigm agnostic. It supports waterfall, iterative, agile, and DevOps development. The model is flexible enough to allow organizations to take a path based on their risk tolerance and the way they build and use software. The model is built upon the core business functions of software development with security assurance practices.
 
