@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outline xmlns="http://wkhtmltopdf.org/outline">
+  <item title="all" page="0" link="__WKANCHOR_0" backLink="__WKANCHOR_1">
+    <item title="Overview" page="1" link="__WKANCHOR_2" backLink="__WKANCHOR_3">
+      <item title="What is OWASP SAMM?" page="1" link="__WKANCHOR_4" backLink="__WKANCHOR_5"/>
+      <item title="The OWASP SAMM Model" page="1" link="__WKANCHOR_6" backLink="__WKANCHOR_7"/>
+      <item title="OWASP SAMM structure" page="1" link="__WKANCHOR_8" backLink="__WKANCHOR_9"/>
+    </item>
+    <item title="Overview of Business Functions" page="2" link="__WKANCHOR_a" backLink="__WKANCHOR_b">
+      <item title="Governance" page="2" link="__WKANCHOR_c" backLink="__WKANCHOR_d"/>
+      <item title="Design" page="2" link="__WKANCHOR_e" backLink="__WKANCHOR_f"/>
+      <item title="Implementation" page="2" link="__WKANCHOR_g" backLink="__WKANCHOR_h"/>
+      <item title="Verification" page="2" link="__WKANCHOR_i" backLink="__WKANCHOR_j"/>
+      <item title="Operations" page="2" link="__WKANCHOR_k" backLink="__WKANCHOR_l"/>
+    </item>
+    <item title="Overview of the Security Practices" page="3" link="__WKANCHOR_m" backLink="__WKANCHOR_n">
+      <item title="Governance" page="3" link="__WKANCHOR_o" backLink="__WKANCHOR_p">
+        <item title="Strategy &amp; Metrics" page="3" link="__WKANCHOR_q" backLink="__WKANCHOR_r">
+          <item title="Streams" page="3" link="__WKANCHOR_s" backLink="__WKANCHOR_t"/>
+        </item>
+        <item title="Policy &amp; Compliance" page="3" link="__WKANCHOR_u" backLink="__WKANCHOR_v">
+          <item title="Streams" page="3" link="__WKANCHOR_w" backLink="__WKANCHOR_x"/>
+        </item>
+        <item title="Education &amp; Guidance" page="3" link="__WKANCHOR_y" backLink="__WKANCHOR_z">
+          <item title="Streams" page="4" link="__WKANCHOR_10" backLink="__WKANCHOR_11"/>
+        </item>
+      </item>
+      <item title="Design" page="4" link="__WKANCHOR_12" backLink="__WKANCHOR_13">
+        <item title="Threat Assessment" page="4" link="__WKANCHOR_14" backLink="__WKANCHOR_15">
+          <item title="Streams" page="4" link="__WKANCHOR_16" backLink="__WKANCHOR_17"/>
+        </item>
+        <item title="Security Requirements" page="4" link="__WKANCHOR_18" backLink="__WKANCHOR_19">
+          <item title="Streams" page="4" link="__WKANCHOR_1a" backLink="__WKANCHOR_1b"/>
+        </item>
+        <item title="Security Architecture" page="4" link="__WKANCHOR_1c" backLink="__WKANCHOR_1d">
+          <item title="Streams" page="5" link="__WKANCHOR_1e" backLink="__WKANCHOR_1f"/>
+        </item>
+      </item>
+      <item title="Implementation" page="5" link="__WKANCHOR_1g" backLink="__WKANCHOR_1h">
+        <item title="Secure Build" page="5" link="__WKANCHOR_1i" backLink="__WKANCHOR_1j">
+          <item title="Streams" page="5" link="__WKANCHOR_1k" backLink="__WKANCHOR_1l"/>
+        </item>
+        <item title="Secure Deployment" page="5" link="__WKANCHOR_1m" backLink="__WKANCHOR_1n">
+          <item title="Streams" page="5" link="__WKANCHOR_1o" backLink="__WKANCHOR_1p"/>
+        </item>
+        <item title="Defect Management" page="5" link="__WKANCHOR_1q" backLink="__WKANCHOR_1r">
+          <item title="Streams" page="6" link="__WKANCHOR_1s" backLink="__WKANCHOR_1t"/>
+        </item>
+      </item>
+      <item title="Verification" page="6" link="__WKANCHOR_1u" backLink="__WKANCHOR_1v">
+        <item title="Architecture Assessment" page="6" link="__WKANCHOR_1w" backLink="__WKANCHOR_1x">
+          <item title="Streams" page="6" link="__WKANCHOR_1y" backLink="__WKANCHOR_1z"/>
+        </item>
+        <item title="Requirements-driven Testing" page="6" link="__WKANCHOR_20" backLink="__WKANCHOR_21">
+          <item title="Streams" page="6" link="__WKANCHOR_22" backLink="__WKANCHOR_23"/>
+        </item>
+        <item title="Security Testing" page="7" link="__WKANCHOR_24" backLink="__WKANCHOR_25">
+          <item title="Streams" page="7" link="__WKANCHOR_26" backLink="__WKANCHOR_27"/>
+        </item>
+      </item>
+      <item title="Operations" page="7" link="__WKANCHOR_28" backLink="__WKANCHOR_29">
+        <item title="Incident Management" page="7" link="__WKANCHOR_2a" backLink="__WKANCHOR_2b">
+          <item title="Streams" page="7" link="__WKANCHOR_2c" backLink="__WKANCHOR_2d"/>
+        </item>
+        <item title="Environment Management" page="8" link="__WKANCHOR_2e" backLink="__WKANCHOR_2f">
+          <item title="Streams" page="8" link="__WKANCHOR_2g" backLink="__WKANCHOR_2h"/>
+        </item>
+        <item title="Operational Management" page="8" link="__WKANCHOR_2i" backLink="__WKANCHOR_2j">
+          <item title="Streams" page="8" link="__WKANCHOR_2k" backLink="__WKANCHOR_2l"/>
+        </item>
+      </item>
+    </item>
+    <item title="Overview of Security Activities" page="8" link="__WKANCHOR_2m" backLink="__WKANCHOR_2n">
+      <item title="Governance" page="8" link="__WKANCHOR_2o" backLink="__WKANCHOR_2p">
+        <item title="Strategy &amp; Metrics (SM1)" page="8" link="__WKANCHOR_2q" backLink="__WKANCHOR_2r">
+          <item title="Activities" page="9" link="__WKANCHOR_2s" backLink="__WKANCHOR_2t">
+            <item title="[Stream A] Identify the organization’s risk appetite" page="9" link="__WKANCHOR_2u" backLink="__WKANCHOR_2v">
+              <item title="Assessment Question(s)" page="9" link="__WKANCHOR_2w" backLink="__WKANCHOR_2x"/>
+            </item>
+            <item title="[Stream B] Define basic security metrics" page="9" link="__WKANCHOR_2y" backLink="__WKANCHOR_2z">
+              <item title="Assessment Question(s)" page="10" link="__WKANCHOR_30" backLink="__WKANCHOR_31"/>
+            </item>
+          </item>
+        </item>
+        <item title="Strategy &amp; Metrics (SM2)" page="10" link="__WKANCHOR_32" backLink="__WKANCHOR_33">
+          <item title="Activities" page="10" link="__WKANCHOR_34" backLink="__WKANCHOR_35">
+            <item title="[Stream A] Define the security strategy" page="10" link="__WKANCHOR_36" backLink="__WKANCHOR_37">
+              <item title="Assessment Question(s)" page="10" link="__WKANCHOR_38" backLink="__WKANCHOR_39"/>
+            </item>
+            <item title="[Stream B] Set strategic KPIs" page="11" link="__WKANCHOR_3a" backLink="__WKANCHOR_3b">
+              <item title="Assessment Question(s)" page="11" link="__WKANCHOR_3c" backLink="__WKANCHOR_3d"/>
+            </item>
+          </item>
+        </item>
+        <item title="Strategy &amp; Metrics (SM3)" page="11" link="__WKANCHOR_3e" backLink="__WKANCHOR_3f">
+          <item title="Activities" page="11" link="__WKANCHOR_3g" backLink="__WKANCHOR_3h">
+            <item title="[Stream A] Align security and business strategies" page="11" link="__WKANCHOR_3i" backLink="__WKANCHOR_3j">
+              <item title="Assessment Question(s)" page="12" link="__WKANCHOR_3k" backLink="__WKANCHOR_3l"/>
+            </item>
+            <item title="[Stream B] Drive the security program through metrics" page="12" link="__WKANCHOR_3m" backLink="__WKANCHOR_3n">
+              <item title="Assessment Question(s)" page="12" link="__WKANCHOR_3o" backLink="__WKANCHOR_3p"/>
+            </item>
+          </item>
+        </item>
+        <item title="Policy &amp; Compliance (PC1)" page="12" link="__WKANCHOR_3q" backLink="__WKANCHOR_3r">
+          <item title="Activities" page="12" link="__WKANCHOR_3s" backLink="__WKANCHOR_3t">
+            <item title="[Stream A] Define policies and standards" page="12" link="__WKANCHOR_3u" backLink="__WKANCHOR_3v">
+              <item title="Assessment Question(s)" page="13" link="__WKANCHOR_3w" backLink="__WKANCHOR_3x"/>
+            </item>
+            <item title="[Stream B] Identify compliance requirements" page="13" link="__WKANCHOR_3y" backLink="__WKANCHOR_3z">
+              <item title="Assessment Question(s)" page="13" link="__WKANCHOR_40" backLink="__WKANCHOR_41"/>
+            </item>
+          </item>
+        </item>
+        <item title="Policy &amp; Compliance (PC2)" page="14" link="__WKANCHOR_42" backLink="__WKANCHOR_43">
+          <item title="Activities" page="14" link="__WKANCHOR_44" backLink="__WKANCHOR_45">
+            <item title="[Stream A] Develop test procedures" page="14" link="__WKANCHOR_46" backLink="__WKANCHOR_47">
+              <item title="Assessment Question(s)" page="14" link="__WKANCHOR_48" backLink="__WKANCHOR_49"/>
+            </item>
+            <item title="[Stream B] Standardize policy and compliance requirements" page="14" link="__WKANCHOR_4a" backLink="__WKANCHOR_4b">
+              <item title="Assessment Question(s)" page="15" link="__WKANCHOR_4c" backLink="__WKANCHOR_4d"/>
+            </item>
+          </item>
+        </item>
+        <item title="Policy &amp; Compliance (PC3)" page="15" link="__WKANCHOR_4e" backLink="__WKANCHOR_4f">
+          <item title="Activities" page="15" link="__WKANCHOR_4g" backLink="__WKANCHOR_4h">
+            <item title="[Stream A] Measure compliance to policies and standards" page="15" link="__WKANCHOR_4i" backLink="__WKANCHOR_4j">
+              <item title="Assessment Question(s)" page="15" link="__WKANCHOR_4k" backLink="__WKANCHOR_4l"/>
+            </item>
+            <item title="[Stream B] Measure compliance to external requirements" page="15" link="__WKANCHOR_4m" backLink="__WKANCHOR_4n">
+              <item title="Assessment Question(s)" page="16" link="__WKANCHOR_4o" backLink="__WKANCHOR_4p"/>
+            </item>
+          </item>
+        </item>
+        <item title="Education &amp; Guidance (EG1)" page="16" link="__WKANCHOR_4q" backLink="__WKANCHOR_4r">
+          <item title="Activities" page="16" link="__WKANCHOR_4s" backLink="__WKANCHOR_4t">
+            <item title="[Stream A] Train all stakeholders for awareness" page="16" link="__WKANCHOR_4u" backLink="__WKANCHOR_4v">
+              <item title="Assessment Question(s)" page="16" link="__WKANCHOR_4w" backLink="__WKANCHOR_4x"/>
+            </item>
+            <item title="[Stream B] Identify security champions" page="17" link="__WKANCHOR_4y" backLink="__WKANCHOR_4z">
+              <item title="Assessment Question(s)" page="17" link="__WKANCHOR_50" backLink="__WKANCHOR_51"/>
+            </item>
+          </item>
+        </item>
+        <item title="Education &amp; Guidance (EG2)" page="17" link="__WKANCHOR_52" backLink="__WKANCHOR_53">
+          <item title="Activities" page="17" link="__WKANCHOR_54" backLink="__WKANCHOR_55">
+            <item title="[Stream A] Customize security training" page="17" link="__WKANCHOR_56" backLink="__WKANCHOR_57">
+              <item title="Assessment Question(s)" page="18" link="__WKANCHOR_58" backLink="__WKANCHOR_59"/>
+            </item>
+            <item title="[Stream B] Implement centers of excellence" page="18" link="__WKANCHOR_5a" backLink="__WKANCHOR_5b">
+              <item title="Assessment Question(s)" page="18" link="__WKANCHOR_5c" backLink="__WKANCHOR_5d"/>
+            </item>
+          </item>
+        </item>
+        <item title="Education &amp; Guidance (EG3)" page="19" link="__WKANCHOR_5e" backLink="__WKANCHOR_5f">
+          <item title="Activities" page="19" link="__WKANCHOR_5g" backLink="__WKANCHOR_5h">
+            <item title="[Stream A] Standardize security guidance" page="19" link="__WKANCHOR_5i" backLink="__WKANCHOR_5j">
+              <item title="Assessment Question(s)" page="19" link="__WKANCHOR_5k" backLink="__WKANCHOR_5l"/>
+            </item>
+            <item title="[Stream B] Establish a security community" page="19" link="__WKANCHOR_5m" backLink="__WKANCHOR_5n">
+              <item title="Assessment Question(s)" page="20" link="__WKANCHOR_5o" backLink="__WKANCHOR_5p"/>
+            </item>
+          </item>
+        </item>
+      </item>
+      <item title="Design" page="20" link="__WKANCHOR_5q" backLink="__WKANCHOR_5r">
+        <item title="Threat Assessment (TA1)" page="20" link="__WKANCHOR_5s" backLink="__WKANCHOR_5t">
+          <item title="Activities" page="20" link="__WKANCHOR_5u" backLink="__WKANCHOR_5v">
+            <item title="[Stream A] Perform application risk assessments" page="20" link="__WKANCHOR_5w" backLink="__WKANCHOR_5x">
+              <item title="Assessment Question(s)" page="20" link="__WKANCHOR_5y" backLink="__WKANCHOR_5z"/>
+            </item>
+            <item title="[Stream B] Perform basic threat modeling" page="21" link="__WKANCHOR_60" backLink="__WKANCHOR_61">
+              <item title="Assessment Question(s)" page="21" link="__WKANCHOR_62" backLink="__WKANCHOR_63"/>
+            </item>
+          </item>
+        </item>
+        <item title="Threat Assessment (TA2)" page="21" link="__WKANCHOR_64" backLink="__WKANCHOR_65">
+          <item title="Activities" page="21" link="__WKANCHOR_66" backLink="__WKANCHOR_67">
+            <item title="[Stream A] Inventorize risk profiles" page="21" link="__WKANCHOR_68" backLink="__WKANCHOR_69">
+              <item title="Assessment Question(s)" page="22" link="__WKANCHOR_6a" backLink="__WKANCHOR_6b"/>
+            </item>
+            <item title="[Stream B] Standardize and scale threat modeling" page="22" link="__WKANCHOR_6c" backLink="__WKANCHOR_6d">
+              <item title="Assessment Question(s)" page="22" link="__WKANCHOR_6e" backLink="__WKANCHOR_6f"/>
+            </item>
+          </item>
+        </item>
+        <item title="Threat Assessment (TA3)" page="22" link="__WKANCHOR_6g" backLink="__WKANCHOR_6h">
+          <item title="Activities" page="23" link="__WKANCHOR_6i" backLink="__WKANCHOR_6j">
+            <item title="[Stream A] Periodic review of risk profiles" page="23" link="__WKANCHOR_6k" backLink="__WKANCHOR_6l">
+              <item title="Assessment Question(s)" page="23" link="__WKANCHOR_6m" backLink="__WKANCHOR_6n"/>
+            </item>
+            <item title="[Stream B] Optimize threat modeling" page="23" link="__WKANCHOR_6o" backLink="__WKANCHOR_6p">
+              <item title="Assessment Question(s)" page="23" link="__WKANCHOR_6q" backLink="__WKANCHOR_6r"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Requirements (SR1)" page="24" link="__WKANCHOR_6s" backLink="__WKANCHOR_6t">
+          <item title="Activities" page="24" link="__WKANCHOR_6u" backLink="__WKANCHOR_6v">
+            <item title="[Stream A] Identify security requirements" page="24" link="__WKANCHOR_6w" backLink="__WKANCHOR_6x">
+              <item title="Assessment Question(s)" page="24" link="__WKANCHOR_6y" backLink="__WKANCHOR_6z"/>
+            </item>
+            <item title="[Stream B] Perform vendor assessments" page="24" link="__WKANCHOR_70" backLink="__WKANCHOR_71">
+              <item title="Assessment Question(s)" page="24" link="__WKANCHOR_72" backLink="__WKANCHOR_73"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Requirements (SR2)" page="25" link="__WKANCHOR_74" backLink="__WKANCHOR_75">
+          <item title="Activities" page="25" link="__WKANCHOR_76" backLink="__WKANCHOR_77">
+            <item title="[Stream A] Standardize and integrate security requirements" page="25" link="__WKANCHOR_78" backLink="__WKANCHOR_79">
+              <item title="Assessment Question(s)" page="25" link="__WKANCHOR_7a" backLink="__WKANCHOR_7b"/>
+            </item>
+            <item title="[Stream B] Discuss security responsabilities with suppliers" page="25" link="__WKANCHOR_7c" backLink="__WKANCHOR_7d">
+              <item title="Assessment Question(s)" page="26" link="__WKANCHOR_7e" backLink="__WKANCHOR_7f"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Requirements (SR3)" page="26" link="__WKANCHOR_7g" backLink="__WKANCHOR_7h">
+          <item title="Activities" page="26" link="__WKANCHOR_7i" backLink="__WKANCHOR_7j">
+            <item title="[Stream A] Develop a security requirements framework" page="26" link="__WKANCHOR_7k" backLink="__WKANCHOR_7l">
+              <item title="Assessment Question(s)" page="26" link="__WKANCHOR_7m" backLink="__WKANCHOR_7n"/>
+            </item>
+            <item title="[Stream B] Align security methodology with suppliers" page="26" link="__WKANCHOR_7o" backLink="__WKANCHOR_7p">
+              <item title="Assessment Question(s)" page="27" link="__WKANCHOR_7q" backLink="__WKANCHOR_7r"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Architecture (SA1)" page="27" link="__WKANCHOR_7s" backLink="__WKANCHOR_7t">
+          <item title="Activities" page="27" link="__WKANCHOR_7u" backLink="__WKANCHOR_7v">
+            <item title="[Stream A] Adhere to basic security principles" page="27" link="__WKANCHOR_7w" backLink="__WKANCHOR_7x">
+              <item title="Assessment Question(s)" page="27" link="__WKANCHOR_7y" backLink="__WKANCHOR_7z"/>
+            </item>
+            <item title="[Stream B] Identify tools and technologies" page="27" link="__WKANCHOR_80" backLink="__WKANCHOR_81">
+              <item title="Assessment Question(s)" page="28" link="__WKANCHOR_82" backLink="__WKANCHOR_83"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Architecture (SA2)" page="28" link="__WKANCHOR_84" backLink="__WKANCHOR_85">
+          <item title="Activities" page="28" link="__WKANCHOR_86" backLink="__WKANCHOR_87">
+            <item title="[Stream A] Provide preferred security solutions" page="28" link="__WKANCHOR_88" backLink="__WKANCHOR_89">
+              <item title="Assessment Question(s)" page="28" link="__WKANCHOR_8a" backLink="__WKANCHOR_8b"/>
+            </item>
+            <item title="[Stream B] Promote preferred tools and technologies" page="29" link="__WKANCHOR_8c" backLink="__WKANCHOR_8d">
+              <item title="Assessment Question(s)" page="29" link="__WKANCHOR_8e" backLink="__WKANCHOR_8f"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Architecture (SA3)" page="29" link="__WKANCHOR_8g" backLink="__WKANCHOR_8h">
+          <item title="Activities" page="29" link="__WKANCHOR_8i" backLink="__WKANCHOR_8j">
+            <item title="[Stream A] Build reference architectures" page="29" link="__WKANCHOR_8k" backLink="__WKANCHOR_8l">
+              <item title="Assessment Question(s)" page="30" link="__WKANCHOR_8m" backLink="__WKANCHOR_8n"/>
+            </item>
+            <item title="[Stream B] Enforce the use of recommended technologies" page="30" link="__WKANCHOR_8o" backLink="__WKANCHOR_8p">
+              <item title="Assessment Question(s)" page="30" link="__WKANCHOR_8q" backLink="__WKANCHOR_8r"/>
+            </item>
+          </item>
+        </item>
+      </item>
+      <item title="Implementation" page="30" link="__WKANCHOR_8s" backLink="__WKANCHOR_8t">
+        <item title="Secure Build (SB1)" page="30" link="__WKANCHOR_8u" backLink="__WKANCHOR_8v">
+          <item title="Activities" page="30" link="__WKANCHOR_8w" backLink="__WKANCHOR_8x">
+            <item title="[Stream A] Define a consistent build process" page="30" link="__WKANCHOR_8y" backLink="__WKANCHOR_8z">
+              <item title="Assessment Question(s)" page="31" link="__WKANCHOR_90" backLink="__WKANCHOR_91"/>
+            </item>
+            <item title="[Stream B] Identify application dependencies" page="31" link="__WKANCHOR_92" backLink="__WKANCHOR_93">
+              <item title="Assessment Question(s)" page="31" link="__WKANCHOR_94" backLink="__WKANCHOR_95"/>
+            </item>
+          </item>
+        </item>
+        <item title="Secure Build (SB2)" page="31" link="__WKANCHOR_96" backLink="__WKANCHOR_97">
+          <item title="Activities" page="31" link="__WKANCHOR_98" backLink="__WKANCHOR_99">
+            <item title="[Stream A] Automate the build process" page="31" link="__WKANCHOR_9a" backLink="__WKANCHOR_9b">
+              <item title="Assessment Question(s)" page="32" link="__WKANCHOR_9c" backLink="__WKANCHOR_9d"/>
+            </item>
+            <item title="[Stream B] Review application dependencies for security" page="32" link="__WKANCHOR_9e" backLink="__WKANCHOR_9f">
+              <item title="Assessment Question(s)" page="32" link="__WKANCHOR_9g" backLink="__WKANCHOR_9h"/>
+            </item>
+          </item>
+        </item>
+        <item title="Secure Build (SB3)" page="33" link="__WKANCHOR_9i" backLink="__WKANCHOR_9j">
+          <item title="Activities" page="33" link="__WKANCHOR_9k" backLink="__WKANCHOR_9l">
+            <item title="[Stream A] Enforce a security baseline during build" page="33" link="__WKANCHOR_9m" backLink="__WKANCHOR_9n">
+              <item title="Assessment Question(s)" page="33" link="__WKANCHOR_9o" backLink="__WKANCHOR_9p"/>
+            </item>
+            <item title="[Stream B] Test application dependencies" page="33" link="__WKANCHOR_9q" backLink="__WKANCHOR_9r">
+              <item title="Assessment Question(s)" page="33" link="__WKANCHOR_9s" backLink="__WKANCHOR_9t"/>
+            </item>
+          </item>
+        </item>
+        <item title="Secure Deployment (SD1)" page="34" link="__WKANCHOR_9u" backLink="__WKANCHOR_9v">
+          <item title="Activities" page="34" link="__WKANCHOR_9w" backLink="__WKANCHOR_9x">
+            <item title="[Stream A] Use a repeatable deployment process" page="34" link="__WKANCHOR_9y" backLink="__WKANCHOR_9z">
+              <item title="Assessment Question(s)" page="34" link="__WKANCHOR_a0" backLink="__WKANCHOR_a1"/>
+            </item>
+            <item title="[Stream B] Protect application secrets in configuration and code" page="34" link="__WKANCHOR_a2" backLink="__WKANCHOR_a3">
+              <item title="Assessment Question(s)" page="35" link="__WKANCHOR_a4" backLink="__WKANCHOR_a5"/>
+            </item>
+          </item>
+        </item>
+        <item title="Secure Deployment (SD2)" page="35" link="__WKANCHOR_a6" backLink="__WKANCHOR_a7">
+          <item title="Activities" page="35" link="__WKANCHOR_a8" backLink="__WKANCHOR_a9">
+            <item title="[Stream A] Automate deployment and integrate security checks" page="35" link="__WKANCHOR_aa" backLink="__WKANCHOR_ab">
+              <item title="Assessment Question(s)" page="35" link="__WKANCHOR_ac" backLink="__WKANCHOR_ad"/>
+            </item>
+            <item title="[Stream B] Include application secrets during deployment" page="35" link="__WKANCHOR_ae" backLink="__WKANCHOR_af">
+              <item title="Assessment Question(s)" page="36" link="__WKANCHOR_ag" backLink="__WKANCHOR_ah"/>
+            </item>
+          </item>
+        </item>
+        <item title="Secure Deployment (SD3)" page="36" link="__WKANCHOR_ai" backLink="__WKANCHOR_aj">
+          <item title="Activities" page="36" link="__WKANCHOR_ak" backLink="__WKANCHOR_al">
+            <item title="[Stream A] Verify the integrity of deployment artifacts" page="36" link="__WKANCHOR_am" backLink="__WKANCHOR_an">
+              <item title="Assessment Question(s)" page="36" link="__WKANCHOR_ao" backLink="__WKANCHOR_ap"/>
+            </item>
+            <item title="[Stream B] Enforce lifecycle management of application secrets" page="36" link="__WKANCHOR_aq" backLink="__WKANCHOR_ar">
+              <item title="Assessment Question(s)" page="37" link="__WKANCHOR_as" backLink="__WKANCHOR_at"/>
+            </item>
+          </item>
+        </item>
+        <item title="Defect Management (DM1)" page="37" link="__WKANCHOR_au" backLink="__WKANCHOR_av">
+          <item title="Activities" page="37" link="__WKANCHOR_aw" backLink="__WKANCHOR_ax">
+            <item title="[Stream A] Track security defects centrally" page="37" link="__WKANCHOR_ay" backLink="__WKANCHOR_az">
+              <item title="Assessment Question(s)" page="37" link="__WKANCHOR_b0" backLink="__WKANCHOR_b1"/>
+            </item>
+            <item title="[Stream B] Define basic defect metrics" page="38" link="__WKANCHOR_b2" backLink="__WKANCHOR_b3">
+              <item title="Assessment Question(s)" page="38" link="__WKANCHOR_b4" backLink="__WKANCHOR_b5"/>
+            </item>
+          </item>
+        </item>
+        <item title="Defect Management (DM2)" page="38" link="__WKANCHOR_b6" backLink="__WKANCHOR_b7">
+          <item title="Activities" page="38" link="__WKANCHOR_b8" backLink="__WKANCHOR_b9">
+            <item title="[Stream A] Rate and track security defects" page="38" link="__WKANCHOR_ba" backLink="__WKANCHOR_bb">
+              <item title="Assessment Question(s)" page="38" link="__WKANCHOR_bc" backLink="__WKANCHOR_bd"/>
+            </item>
+            <item title="[Stream B] Define advanced defect metrics" page="39" link="__WKANCHOR_be" backLink="__WKANCHOR_bf">
+              <item title="Assessment Question(s)" page="39" link="__WKANCHOR_bg" backLink="__WKANCHOR_bh"/>
+            </item>
+          </item>
+        </item>
+        <item title="Defect Management (DM3)" page="39" link="__WKANCHOR_bi" backLink="__WKANCHOR_bj">
+          <item title="Activities" page="39" link="__WKANCHOR_bk" backLink="__WKANCHOR_bl">
+            <item title="[Stream A] Enforce an SLA for defect management" page="39" link="__WKANCHOR_bm" backLink="__WKANCHOR_bn">
+              <item title="Assessment Question(s)" page="40" link="__WKANCHOR_bo" backLink="__WKANCHOR_bp"/>
+            </item>
+            <item title="[Stream B] Use metrics to improve the security strategy" page="40" link="__WKANCHOR_bq" backLink="__WKANCHOR_br">
+              <item title="Assessment Question(s)" page="40" link="__WKANCHOR_bs" backLink="__WKANCHOR_bt"/>
+            </item>
+          </item>
+        </item>
+      </item>
+      <item title="Verification" page="40" link="__WKANCHOR_bu" backLink="__WKANCHOR_bv">
+        <item title="Architecture Assessment (AA1)" page="40" link="__WKANCHOR_bw" backLink="__WKANCHOR_bx">
+          <item title="Activities" page="40" link="__WKANCHOR_by" backLink="__WKANCHOR_bz">
+            <item title="[Stream A] Assess application architecture" page="40" link="__WKANCHOR_c0" backLink="__WKANCHOR_c1">
+              <item title="Assessment Question(s)" page="41" link="__WKANCHOR_c2" backLink="__WKANCHOR_c3"/>
+            </item>
+            <item title="[Stream B] Evaluate architecture for typical threats" page="41" link="__WKANCHOR_c4" backLink="__WKANCHOR_c5">
+              <item title="Assessment Question(s)" page="41" link="__WKANCHOR_c6" backLink="__WKANCHOR_c7"/>
+            </item>
+          </item>
+        </item>
+        <item title="Architecture Assessment (AA2)" page="41" link="__WKANCHOR_c8" backLink="__WKANCHOR_c9">
+          <item title="Activities" page="41" link="__WKANCHOR_ca" backLink="__WKANCHOR_cb">
+            <item title="[Stream A] Verify the application architecture for security methodically" page="41" link="__WKANCHOR_cc" backLink="__WKANCHOR_cd">
+              <item title="Assessment Question(s)" page="42" link="__WKANCHOR_ce" backLink="__WKANCHOR_cf"/>
+            </item>
+            <item title="[Stream B] Structurally verify the architecture for identified threats" page="42" link="__WKANCHOR_cg" backLink="__WKANCHOR_ch">
+              <item title="Assessment Question(s)" page="42" link="__WKANCHOR_ci" backLink="__WKANCHOR_cj"/>
+            </item>
+          </item>
+        </item>
+        <item title="Architecture Assessment (AA3)" page="42" link="__WKANCHOR_ck" backLink="__WKANCHOR_cl">
+          <item title="Activities" page="42" link="__WKANCHOR_cm" backLink="__WKANCHOR_cn">
+            <item title="[Stream A] Verify the effectiveness of security components" page="42" link="__WKANCHOR_co" backLink="__WKANCHOR_cp">
+              <item title="Assessment Question(s)" page="43" link="__WKANCHOR_cq" backLink="__WKANCHOR_cr"/>
+            </item>
+            <item title="[Stream B] Feed review results back to improve reference architectures" page="43" link="__WKANCHOR_cs" backLink="__WKANCHOR_ct">
+              <item title="Assessment Question(s)" page="43" link="__WKANCHOR_cu" backLink="__WKANCHOR_cv"/>
+            </item>
+          </item>
+        </item>
+        <item title="Requirements-driven Testing (RT1)" page="43" link="__WKANCHOR_cw" backLink="__WKANCHOR_cx">
+          <item title="Activities" page="43" link="__WKANCHOR_cy" backLink="__WKANCHOR_cz">
+            <item title="[Stream A] Test the effectiveness of security controls" page="43" link="__WKANCHOR_d0" backLink="__WKANCHOR_d1">
+              <item title="Assessment Question(s)" page="44" link="__WKANCHOR_d2" backLink="__WKANCHOR_d3"/>
+            </item>
+            <item title="[Stream B] Perform fuzz testing" page="44" link="__WKANCHOR_d4" backLink="__WKANCHOR_d5">
+              <item title="Assessment Question(s)" page="44" link="__WKANCHOR_d6" backLink="__WKANCHOR_d7"/>
+            </item>
+          </item>
+        </item>
+        <item title="Requirements-driven Testing (RT2)" page="44" link="__WKANCHOR_d8" backLink="__WKANCHOR_d9">
+          <item title="Activities" page="44" link="__WKANCHOR_da" backLink="__WKANCHOR_db">
+            <item title="[Stream A] Define and run security test cases from requirements" page="44" link="__WKANCHOR_dc" backLink="__WKANCHOR_dd">
+              <item title="Assessment Question(s)" page="45" link="__WKANCHOR_de" backLink="__WKANCHOR_df"/>
+            </item>
+            <item title="[Stream B] Define and run security abuse cases from requirements" page="45" link="__WKANCHOR_dg" backLink="__WKANCHOR_dh">
+              <item title="Assessment Question(s)" page="45" link="__WKANCHOR_di" backLink="__WKANCHOR_dj"/>
+            </item>
+          </item>
+        </item>
+        <item title="Requirements-driven Testing (RT3)" page="45" link="__WKANCHOR_dk" backLink="__WKANCHOR_dl">
+          <item title="Activities" page="45" link="__WKANCHOR_dm" backLink="__WKANCHOR_dn">
+            <item title="[Stream A] Automate security requirements testing" page="45" link="__WKANCHOR_do" backLink="__WKANCHOR_dp">
+              <item title="Assessment Question(s)" page="46" link="__WKANCHOR_dq" backLink="__WKANCHOR_dr"/>
+            </item>
+            <item title="[Stream B] Perform security stress testing" page="46" link="__WKANCHOR_ds" backLink="__WKANCHOR_dt">
+              <item title="Assessment Question(s)" page="46" link="__WKANCHOR_du" backLink="__WKANCHOR_dv"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Testing (ST1)" page="46" link="__WKANCHOR_dw" backLink="__WKANCHOR_dx">
+          <item title="Activities" page="47" link="__WKANCHOR_dy" backLink="__WKANCHOR_dz">
+            <item title="[Stream A] Perform automated security testing" page="47" link="__WKANCHOR_e0" backLink="__WKANCHOR_e1">
+              <item title="Assessment Question(s)" page="47" link="__WKANCHOR_e2" backLink="__WKANCHOR_e3"/>
+            </item>
+            <item title="[Stream B] Test high risk application components manually" page="47" link="__WKANCHOR_e4" backLink="__WKANCHOR_e5">
+              <item title="Assessment Question(s)" page="48" link="__WKANCHOR_e6" backLink="__WKANCHOR_e7"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Testing (ST2)" page="48" link="__WKANCHOR_e8" backLink="__WKANCHOR_e9">
+          <item title="Activities" page="48" link="__WKANCHOR_ea" backLink="__WKANCHOR_eb">
+            <item title="[Stream A] Develop application-specific security test cases" page="48" link="__WKANCHOR_ec" backLink="__WKANCHOR_ed">
+              <item title="Assessment Question(s)" page="48" link="__WKANCHOR_ee" backLink="__WKANCHOR_ef"/>
+            </item>
+            <item title="[Stream B] Establish a penetration testing process" page="49" link="__WKANCHOR_eg" backLink="__WKANCHOR_eh">
+              <item title="Assessment Question(s)" page="49" link="__WKANCHOR_ei" backLink="__WKANCHOR_ej"/>
+            </item>
+          </item>
+        </item>
+        <item title="Security Testing (ST3)" page="49" link="__WKANCHOR_ek" backLink="__WKANCHOR_el">
+          <item title="Activities" page="49" link="__WKANCHOR_em" backLink="__WKANCHOR_en">
+            <item title="[Stream A] Integrate security testing tools in the delivery pipeline" page="49" link="__WKANCHOR_eo" backLink="__WKANCHOR_ep">
+              <item title="Assessment Question(s)" page="50" link="__WKANCHOR_eq" backLink="__WKANCHOR_er"/>
+            </item>
+            <item title="[Stream B] Establish continuous, scalable security verification" page="50" link="__WKANCHOR_es" backLink="__WKANCHOR_et">
+              <item title="Assessment Question(s)" page="50" link="__WKANCHOR_eu" backLink="__WKANCHOR_ev"/>
+            </item>
+          </item>
+        </item>
+      </item>
+      <item title="Operations" page="50" link="__WKANCHOR_ew" backLink="__WKANCHOR_ex">
+        <item title="Incident Management (IM1)" page="50" link="__WKANCHOR_ey" backLink="__WKANCHOR_ez">
+          <item title="Activities" page="51" link="__WKANCHOR_f0" backLink="__WKANCHOR_f1">
+            <item title="[Stream A] Use best-effort incident detection" page="51" link="__WKANCHOR_f2" backLink="__WKANCHOR_f3">
+              <item title="Assessment Question(s)" page="51" link="__WKANCHOR_f4" backLink="__WKANCHOR_f5"/>
+            </item>
+            <item title="[Stream B] Create an incident response plan" page="51" link="__WKANCHOR_f6" backLink="__WKANCHOR_f7">
+              <item title="Assessment Question(s)" page="51" link="__WKANCHOR_f8" backLink="__WKANCHOR_f9"/>
+            </item>
+          </item>
+        </item>
+        <item title="Incident Management (IM2)" page="51" link="__WKANCHOR_fa" backLink="__WKANCHOR_fb">
+          <item title="Activities" page="52" link="__WKANCHOR_fc" backLink="__WKANCHOR_fd">
+            <item title="[Stream A] Define an incident detection process" page="52" link="__WKANCHOR_fe" backLink="__WKANCHOR_ff">
+              <item title="Assessment Question(s)" page="52" link="__WKANCHOR_fg" backLink="__WKANCHOR_fh"/>
+            </item>
+            <item title="[Stream B] Define and incident response process" page="52" link="__WKANCHOR_fi" backLink="__WKANCHOR_fj">
+              <item title="Assessment Question(s)" page="52" link="__WKANCHOR_fk" backLink="__WKANCHOR_fl"/>
+            </item>
+          </item>
+        </item>
+        <item title="Incident Management (IM3)" page="53" link="__WKANCHOR_fm" backLink="__WKANCHOR_fn">
+          <item title="Activities" page="53" link="__WKANCHOR_fo" backLink="__WKANCHOR_fp">
+            <item title="[Stream A] Improve the incident detection process" page="53" link="__WKANCHOR_fq" backLink="__WKANCHOR_fr">
+              <item title="Assessment Question(s)" page="53" link="__WKANCHOR_fs" backLink="__WKANCHOR_ft"/>
+            </item>
+            <item title="[Stream B] Establish an incident response team" page="53" link="__WKANCHOR_fu" backLink="__WKANCHOR_fv">
+              <item title="Assessment Question(s)" page="53" link="__WKANCHOR_fw" backLink="__WKANCHOR_fx"/>
+            </item>
+          </item>
+        </item>
+        <item title="Environment Management (EM1)" page="54" link="__WKANCHOR_fy" backLink="__WKANCHOR_fz">
+          <item title="Activities" page="54" link="__WKANCHOR_g0" backLink="__WKANCHOR_g1">
+            <item title="[Stream A] Use best-effort hardening" page="54" link="__WKANCHOR_g2" backLink="__WKANCHOR_g3">
+              <item title="Assessment Question(s)" page="54" link="__WKANCHOR_g4" backLink="__WKANCHOR_g5"/>
+            </item>
+            <item title="[Stream B] Practice best-effort patching" page="54" link="__WKANCHOR_g6" backLink="__WKANCHOR_g7">
+              <item title="Assessment Question(s)" page="55" link="__WKANCHOR_g8" backLink="__WKANCHOR_g9"/>
+            </item>
+          </item>
+        </item>
+        <item title="Environment Management (EM2)" page="55" link="__WKANCHOR_ga" backLink="__WKANCHOR_gb">
+          <item title="Activities" page="55" link="__WKANCHOR_gc" backLink="__WKANCHOR_gd">
+            <item title="[Stream A] Establish hardening baselines" page="55" link="__WKANCHOR_ge" backLink="__WKANCHOR_gf">
+              <item title="Assessment Question(s)" page="55" link="__WKANCHOR_gg" backLink="__WKANCHOR_gh"/>
+            </item>
+            <item title="[Stream B] Formalize patch management" page="55" link="__WKANCHOR_gi" backLink="__WKANCHOR_gj">
+              <item title="Assessment Question(s)" page="56" link="__WKANCHOR_gk" backLink="__WKANCHOR_gl"/>
+            </item>
+          </item>
+        </item>
+        <item title="Environment Management (EM3)" page="56" link="__WKANCHOR_gm" backLink="__WKANCHOR_gn">
+          <item title="Activities" page="56" link="__WKANCHOR_go" backLink="__WKANCHOR_gp">
+            <item title="[Stream A] Perform continuous configuration monitoring" page="56" link="__WKANCHOR_gq" backLink="__WKANCHOR_gr">
+              <item title="Assessment Question(s)" page="56" link="__WKANCHOR_gs" backLink="__WKANCHOR_gt"/>
+            </item>
+            <item title="[Stream B] Enforce timely patch management" page="56" link="__WKANCHOR_gu" backLink="__WKANCHOR_gv">
+              <item title="Assessment Question(s)" page="57" link="__WKANCHOR_gw" backLink="__WKANCHOR_gx"/>
+            </item>
+          </item>
+        </item>
+        <item title="Operational Management (OM1)" page="57" link="__WKANCHOR_gy" backLink="__WKANCHOR_gz">
+          <item title="Activities" page="57" link="__WKANCHOR_h0" backLink="__WKANCHOR_h1">
+            <item title="[Stream A] Organize basic data protections" page="57" link="__WKANCHOR_h2" backLink="__WKANCHOR_h3">
+              <item title="Assessment Question(s)" page="57" link="__WKANCHOR_h4" backLink="__WKANCHOR_h5"/>
+            </item>
+            <item title="[Stream B] Identify unused applications" page="57" link="__WKANCHOR_h6" backLink="__WKANCHOR_h7">
+              <item title="Assessment Question(s)" page="58" link="__WKANCHOR_h8" backLink="__WKANCHOR_h9"/>
+            </item>
+          </item>
+        </item>
+        <item title="Operational Management (OM2)" page="58" link="__WKANCHOR_ha" backLink="__WKANCHOR_hb">
+          <item title="Activities" page="58" link="__WKANCHOR_hc" backLink="__WKANCHOR_hd">
+            <item title="[Stream A] Establish a data catalog" page="58" link="__WKANCHOR_he" backLink="__WKANCHOR_hf">
+              <item title="Assessment Question(s)" page="58" link="__WKANCHOR_hg" backLink="__WKANCHOR_hh"/>
+            </item>
+            <item title="[Stream B] Formalize decommissioning process" page="58" link="__WKANCHOR_hi" backLink="__WKANCHOR_hj">
+              <item title="Assessment Question(s)" page="59" link="__WKANCHOR_hk" backLink="__WKANCHOR_hl"/>
+            </item>
+          </item>
+        </item>
+        <item title="Operational Management (OM3)" page="59" link="__WKANCHOR_hm" backLink="__WKANCHOR_hn">
+          <item title="Activities" page="59" link="__WKANCHOR_ho" backLink="__WKANCHOR_hp">
+            <item title="[Stream A] Respond to data breaches" page="59" link="__WKANCHOR_hq" backLink="__WKANCHOR_hr">
+              <item title="Assessment Question(s)" page="59" link="__WKANCHOR_hs" backLink="__WKANCHOR_ht"/>
+            </item>
+            <item title="[Stream B] Review application lifecycle state regularly" page="59" link="__WKANCHOR_hu" backLink="__WKANCHOR_hv">
+              <item title="Assessment Question(s)" page="60" link="__WKANCHOR_hw" backLink="__WKANCHOR_hx"/>
+            </item>
+          </item>
+        </item>
+      </item>
+    </item>
+    <item title="Credits" page="60" link="__WKANCHOR_hy" backLink="__WKANCHOR_hz">
+      <item title="Sponsors" page="60" link="__WKANCHOR_i0" backLink="__WKANCHOR_i1">
+        <item title="Proceeds" page="61" link="__WKANCHOR_i2" backLink="__WKANCHOR_i3"/>
+        <item title="Sponsorship levels" page="61" link="__WKANCHOR_i4" backLink="__WKANCHOR_i5"/>
+        <item title="Sponsorship benefits" page="61" link="__WKANCHOR_i6" backLink="__WKANCHOR_i7"/>
+        <item title="Join as a sponsor" page="61" link="__WKANCHOR_i8" backLink="__WKANCHOR_i9"/>
+      </item>
+    </item>
+    <item title="License" page="61" link="__WKANCHOR_ia" backLink="__WKANCHOR_ib"/>
+  </item>
+</outline>

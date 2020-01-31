@@ -1,0 +1,2994 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:outline="http://wkhtmltopdf.org/outline">
+  <head>
+    <title>Table of Contents</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+          h1 {
+            text-align: center;
+            font-size: 20px;
+            font-family: arial;
+          }
+          div {border-bottom: 1px rgb(200,200,200);}
+          span {float: right;}
+          li {list-style: none;}
+          ul {
+            font-size: 20px;
+            font-family: arial;
+          }
+          ul ul {font-size: 80%; }
+          ul {padding-left: 0em;}
+          ul ul {padding-left: 1em;}
+          a {text-decoration:none; color: black;}
+          .level-6 {display: none;}
+          .new-page { page-break-after: always; }
+        </style>
+  </head>
+  <body>
+    <h1>Table of Contents</h1>
+    <ul>
+      <li class="level-1">
+        <div>
+          <a href="__WKANCHOR_2" name="__WKANCHOR_3" id="__WKANCHOR_3">Overview</a>
+4
+        </div>
+        <ul class="level-1">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_4" name="__WKANCHOR_5" id="__WKANCHOR_5">What is OWASP SAMM?</a>
+4
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_6" name="__WKANCHOR_7" id="__WKANCHOR_7">The OWASP SAMM Model</a>
+4
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_8" name="__WKANCHOR_9" id="__WKANCHOR_9">OWASP SAMM structure</a>
+4
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="level-1">
+        <div>
+          <a href="__WKANCHOR_a" name="__WKANCHOR_b" id="__WKANCHOR_b">Overview of Business Functions</a>
+5
+        </div>
+        <ul class="level-1">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_c" name="__WKANCHOR_d" id="__WKANCHOR_d">Governance</a>
+5
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_e" name="__WKANCHOR_f" id="__WKANCHOR_f">Design</a>
+5
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_g" name="__WKANCHOR_h" id="__WKANCHOR_h">Implementation</a>
+5
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_i" name="__WKANCHOR_j" id="__WKANCHOR_j">Verification</a>
+5
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_k" name="__WKANCHOR_l" id="__WKANCHOR_l">Operations</a>
+5
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="level-1">
+        <div>
+          <a href="__WKANCHOR_m" name="__WKANCHOR_n" id="__WKANCHOR_n">Overview of the Security Practices</a>
+6
+        </div>
+        <ul class="level-1">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_o" name="__WKANCHOR_p" id="__WKANCHOR_p">Governance</a>
+6
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_q" name="__WKANCHOR_r" id="__WKANCHOR_r">Strategy &amp; Metrics</a>
+6
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_s" name="__WKANCHOR_t" id="__WKANCHOR_t">Streams</a>
+6
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_u" name="__WKANCHOR_v" id="__WKANCHOR_v">Policy &amp; Compliance</a>
+6
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_w" name="__WKANCHOR_x" id="__WKANCHOR_x">Streams</a>
+6
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_y" name="__WKANCHOR_z" id="__WKANCHOR_z">Education &amp; Guidance</a>
+6
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_10" name="__WKANCHOR_11" id="__WKANCHOR_11">Streams</a>
+7
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_12" name="__WKANCHOR_13" id="__WKANCHOR_13">Design</a>
+7
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_14" name="__WKANCHOR_15" id="__WKANCHOR_15">Threat Assessment</a>
+7
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_16" name="__WKANCHOR_17" id="__WKANCHOR_17">Streams</a>
+7
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_18" name="__WKANCHOR_19" id="__WKANCHOR_19">Security Requirements</a>
+7
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_1a" name="__WKANCHOR_1b" id="__WKANCHOR_1b">Streams</a>
+7
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_1c" name="__WKANCHOR_1d" id="__WKANCHOR_1d">Security Architecture</a>
+7
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_1e" name="__WKANCHOR_1f" id="__WKANCHOR_1f">Streams</a>
+8
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_1g" name="__WKANCHOR_1h" id="__WKANCHOR_1h">Implementation</a>
+8
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_1i" name="__WKANCHOR_1j" id="__WKANCHOR_1j">Secure Build</a>
+8
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_1k" name="__WKANCHOR_1l" id="__WKANCHOR_1l">Streams</a>
+8
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_1m" name="__WKANCHOR_1n" id="__WKANCHOR_1n">Secure Deployment</a>
+8
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_1o" name="__WKANCHOR_1p" id="__WKANCHOR_1p">Streams</a>
+8
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_1q" name="__WKANCHOR_1r" id="__WKANCHOR_1r">Defect Management</a>
+8
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_1s" name="__WKANCHOR_1t" id="__WKANCHOR_1t">Streams</a>
+9
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_1u" name="__WKANCHOR_1v" id="__WKANCHOR_1v">Verification</a>
+9
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_1w" name="__WKANCHOR_1x" id="__WKANCHOR_1x">Architecture Assessment</a>
+9
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_1y" name="__WKANCHOR_1z" id="__WKANCHOR_1z">Streams</a>
+9
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_20" name="__WKANCHOR_21" id="__WKANCHOR_21">Requirements-driven Testing</a>
+9
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_22" name="__WKANCHOR_23" id="__WKANCHOR_23">Streams</a>
+9
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_24" name="__WKANCHOR_25" id="__WKANCHOR_25">Security Testing</a>
+10
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_26" name="__WKANCHOR_27" id="__WKANCHOR_27">Streams</a>
+10
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_28" name="__WKANCHOR_29" id="__WKANCHOR_29">Operations</a>
+10
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_2a" name="__WKANCHOR_2b" id="__WKANCHOR_2b">Incident Management</a>
+10
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_2c" name="__WKANCHOR_2d" id="__WKANCHOR_2d">Streams</a>
+10
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_2e" name="__WKANCHOR_2f" id="__WKANCHOR_2f">Environment Management</a>
+11
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_2g" name="__WKANCHOR_2h" id="__WKANCHOR_2h">Streams</a>
+11
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_2i" name="__WKANCHOR_2j" id="__WKANCHOR_2j">Operational Management</a>
+11
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_2k" name="__WKANCHOR_2l" id="__WKANCHOR_2l">Streams</a>
+11
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="level-1">
+        <div>
+          <a href="__WKANCHOR_2m" name="__WKANCHOR_2n" id="__WKANCHOR_2n">Overview of Security Activities</a>
+11
+        </div>
+        <ul class="level-1">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_2o" name="__WKANCHOR_2p" id="__WKANCHOR_2p">Governance</a>
+11
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_2q" name="__WKANCHOR_2r" id="__WKANCHOR_2r">Strategy &amp; Metrics (SM1)</a>
+11
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_2s" name="__WKANCHOR_2t" id="__WKANCHOR_2t">Activities</a>
+12
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_2u" name="__WKANCHOR_2v" id="__WKANCHOR_2v">[Stream A] Identify the organization’s risk appetite</a>
+12
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_2w" name="__WKANCHOR_2x" id="__WKANCHOR_2x">Assessment Question(s)</a>
+12
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_2y" name="__WKANCHOR_2z" id="__WKANCHOR_2z">[Stream B] Define basic security metrics</a>
+12
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_30" name="__WKANCHOR_31" id="__WKANCHOR_31">Assessment Question(s)</a>
+13
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_32" name="__WKANCHOR_33" id="__WKANCHOR_33">Strategy &amp; Metrics (SM2)</a>
+13
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_34" name="__WKANCHOR_35" id="__WKANCHOR_35">Activities</a>
+13
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_36" name="__WKANCHOR_37" id="__WKANCHOR_37">[Stream A] Define the security strategy</a>
+13
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_38" name="__WKANCHOR_39" id="__WKANCHOR_39">Assessment Question(s)</a>
+13
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_3a" name="__WKANCHOR_3b" id="__WKANCHOR_3b">[Stream B] Set strategic KPIs</a>
+14
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_3c" name="__WKANCHOR_3d" id="__WKANCHOR_3d">Assessment Question(s)</a>
+14
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_3e" name="__WKANCHOR_3f" id="__WKANCHOR_3f">Strategy &amp; Metrics (SM3)</a>
+14
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_3g" name="__WKANCHOR_3h" id="__WKANCHOR_3h">Activities</a>
+14
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_3i" name="__WKANCHOR_3j" id="__WKANCHOR_3j">[Stream A] Align security and business strategies</a>
+14
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_3k" name="__WKANCHOR_3l" id="__WKANCHOR_3l">Assessment Question(s)</a>
+15
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_3m" name="__WKANCHOR_3n" id="__WKANCHOR_3n">[Stream B] Drive the security program through metrics</a>
+15
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_3o" name="__WKANCHOR_3p" id="__WKANCHOR_3p">Assessment Question(s)</a>
+15
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_3q" name="__WKANCHOR_3r" id="__WKANCHOR_3r">Policy &amp; Compliance (PC1)</a>
+15
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_3s" name="__WKANCHOR_3t" id="__WKANCHOR_3t">Activities</a>
+15
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_3u" name="__WKANCHOR_3v" id="__WKANCHOR_3v">[Stream A] Define policies and standards</a>
+15
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_3w" name="__WKANCHOR_3x" id="__WKANCHOR_3x">Assessment Question(s)</a>
+16
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_3y" name="__WKANCHOR_3z" id="__WKANCHOR_3z">[Stream B] Identify compliance requirements</a>
+16
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_40" name="__WKANCHOR_41" id="__WKANCHOR_41">Assessment Question(s)</a>
+16
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_42" name="__WKANCHOR_43" id="__WKANCHOR_43">Policy &amp; Compliance (PC2)</a>
+17
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_44" name="__WKANCHOR_45" id="__WKANCHOR_45">Activities</a>
+17
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_46" name="__WKANCHOR_47" id="__WKANCHOR_47">[Stream A] Develop test procedures</a>
+17
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_48" name="__WKANCHOR_49" id="__WKANCHOR_49">Assessment Question(s)</a>
+17
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_4a" name="__WKANCHOR_4b" id="__WKANCHOR_4b">[Stream B] Standardize policy and compliance requirements</a>
+17
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_4c" name="__WKANCHOR_4d" id="__WKANCHOR_4d">Assessment Question(s)</a>
+18
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_4e" name="__WKANCHOR_4f" id="__WKANCHOR_4f">Policy &amp; Compliance (PC3)</a>
+18
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_4g" name="__WKANCHOR_4h" id="__WKANCHOR_4h">Activities</a>
+18
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_4i" name="__WKANCHOR_4j" id="__WKANCHOR_4j">[Stream A] Measure compliance to policies and standards</a>
+18
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_4k" name="__WKANCHOR_4l" id="__WKANCHOR_4l">Assessment Question(s)</a>
+18
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_4m" name="__WKANCHOR_4n" id="__WKANCHOR_4n">[Stream B] Measure compliance to external requirements</a>
+18
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_4o" name="__WKANCHOR_4p" id="__WKANCHOR_4p">Assessment Question(s)</a>
+19
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_4q" name="__WKANCHOR_4r" id="__WKANCHOR_4r">Education &amp; Guidance (EG1)</a>
+19
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_4s" name="__WKANCHOR_4t" id="__WKANCHOR_4t">Activities</a>
+19
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_4u" name="__WKANCHOR_4v" id="__WKANCHOR_4v">[Stream A] Train all stakeholders for awareness</a>
+19
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_4w" name="__WKANCHOR_4x" id="__WKANCHOR_4x">Assessment Question(s)</a>
+19
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_4y" name="__WKANCHOR_4z" id="__WKANCHOR_4z">[Stream B] Identify security champions</a>
+20
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_50" name="__WKANCHOR_51" id="__WKANCHOR_51">Assessment Question(s)</a>
+20
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_52" name="__WKANCHOR_53" id="__WKANCHOR_53">Education &amp; Guidance (EG2)</a>
+20
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_54" name="__WKANCHOR_55" id="__WKANCHOR_55">Activities</a>
+20
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_56" name="__WKANCHOR_57" id="__WKANCHOR_57">[Stream A] Customize security training</a>
+20
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_58" name="__WKANCHOR_59" id="__WKANCHOR_59">Assessment Question(s)</a>
+21
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_5a" name="__WKANCHOR_5b" id="__WKANCHOR_5b">[Stream B] Implement centers of excellence</a>
+21
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_5c" name="__WKANCHOR_5d" id="__WKANCHOR_5d">Assessment Question(s)</a>
+21
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_5e" name="__WKANCHOR_5f" id="__WKANCHOR_5f">Education &amp; Guidance (EG3)</a>
+22
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_5g" name="__WKANCHOR_5h" id="__WKANCHOR_5h">Activities</a>
+22
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_5i" name="__WKANCHOR_5j" id="__WKANCHOR_5j">[Stream A] Standardize security guidance</a>
+22
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_5k" name="__WKANCHOR_5l" id="__WKANCHOR_5l">Assessment Question(s)</a>
+22
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_5m" name="__WKANCHOR_5n" id="__WKANCHOR_5n">[Stream B] Establish a security community</a>
+22
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_5o" name="__WKANCHOR_5p" id="__WKANCHOR_5p">Assessment Question(s)</a>
+23
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_5q" name="__WKANCHOR_5r" id="__WKANCHOR_5r">Design</a>
+23
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_5s" name="__WKANCHOR_5t" id="__WKANCHOR_5t">Threat Assessment (TA1)</a>
+23
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_5u" name="__WKANCHOR_5v" id="__WKANCHOR_5v">Activities</a>
+23
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_5w" name="__WKANCHOR_5x" id="__WKANCHOR_5x">[Stream A] Perform application risk assessments</a>
+23
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_5y" name="__WKANCHOR_5z" id="__WKANCHOR_5z">Assessment Question(s)</a>
+23
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_60" name="__WKANCHOR_61" id="__WKANCHOR_61">[Stream B] Perform basic threat modeling</a>
+24
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_62" name="__WKANCHOR_63" id="__WKANCHOR_63">Assessment Question(s)</a>
+24
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_64" name="__WKANCHOR_65" id="__WKANCHOR_65">Threat Assessment (TA2)</a>
+24
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_66" name="__WKANCHOR_67" id="__WKANCHOR_67">Activities</a>
+24
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_68" name="__WKANCHOR_69" id="__WKANCHOR_69">[Stream A] Inventorize risk profiles</a>
+24
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_6a" name="__WKANCHOR_6b" id="__WKANCHOR_6b">Assessment Question(s)</a>
+25
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_6c" name="__WKANCHOR_6d" id="__WKANCHOR_6d">[Stream B] Standardize and scale threat modeling</a>
+25
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_6e" name="__WKANCHOR_6f" id="__WKANCHOR_6f">Assessment Question(s)</a>
+25
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_6g" name="__WKANCHOR_6h" id="__WKANCHOR_6h">Threat Assessment (TA3)</a>
+25
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_6i" name="__WKANCHOR_6j" id="__WKANCHOR_6j">Activities</a>
+26
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_6k" name="__WKANCHOR_6l" id="__WKANCHOR_6l">[Stream A] Periodic review of risk profiles</a>
+26
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_6m" name="__WKANCHOR_6n" id="__WKANCHOR_6n">Assessment Question(s)</a>
+26
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_6o" name="__WKANCHOR_6p" id="__WKANCHOR_6p">[Stream B] Optimize threat modeling</a>
+26
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_6q" name="__WKANCHOR_6r" id="__WKANCHOR_6r">Assessment Question(s)</a>
+26
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_6s" name="__WKANCHOR_6t" id="__WKANCHOR_6t">Security Requirements (SR1)</a>
+27
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_6u" name="__WKANCHOR_6v" id="__WKANCHOR_6v">Activities</a>
+27
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_6w" name="__WKANCHOR_6x" id="__WKANCHOR_6x">[Stream A] Identify security requirements</a>
+27
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_6y" name="__WKANCHOR_6z" id="__WKANCHOR_6z">Assessment Question(s)</a>
+27
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_70" name="__WKANCHOR_71" id="__WKANCHOR_71">[Stream B] Perform vendor assessments</a>
+27
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_72" name="__WKANCHOR_73" id="__WKANCHOR_73">Assessment Question(s)</a>
+27
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_74" name="__WKANCHOR_75" id="__WKANCHOR_75">Security Requirements (SR2)</a>
+28
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_76" name="__WKANCHOR_77" id="__WKANCHOR_77">Activities</a>
+28
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_78" name="__WKANCHOR_79" id="__WKANCHOR_79">[Stream A] Standardize and integrate security requirements</a>
+28
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_7a" name="__WKANCHOR_7b" id="__WKANCHOR_7b">Assessment Question(s)</a>
+28
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_7c" name="__WKANCHOR_7d" id="__WKANCHOR_7d">[Stream B] Discuss security responsabilities with suppliers</a>
+28
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_7e" name="__WKANCHOR_7f" id="__WKANCHOR_7f">Assessment Question(s)</a>
+29
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_7g" name="__WKANCHOR_7h" id="__WKANCHOR_7h">Security Requirements (SR3)</a>
+29
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_7i" name="__WKANCHOR_7j" id="__WKANCHOR_7j">Activities</a>
+29
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_7k" name="__WKANCHOR_7l" id="__WKANCHOR_7l">[Stream A] Develop a security requirements framework</a>
+29
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_7m" name="__WKANCHOR_7n" id="__WKANCHOR_7n">Assessment Question(s)</a>
+29
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_7o" name="__WKANCHOR_7p" id="__WKANCHOR_7p">[Stream B] Align security methodology with suppliers</a>
+29
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_7q" name="__WKANCHOR_7r" id="__WKANCHOR_7r">Assessment Question(s)</a>
+30
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_7s" name="__WKANCHOR_7t" id="__WKANCHOR_7t">Security Architecture (SA1)</a>
+30
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_7u" name="__WKANCHOR_7v" id="__WKANCHOR_7v">Activities</a>
+30
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_7w" name="__WKANCHOR_7x" id="__WKANCHOR_7x">[Stream A] Adhere to basic security principles</a>
+30
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_7y" name="__WKANCHOR_7z" id="__WKANCHOR_7z">Assessment Question(s)</a>
+30
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_80" name="__WKANCHOR_81" id="__WKANCHOR_81">[Stream B] Identify tools and technologies</a>
+30
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_82" name="__WKANCHOR_83" id="__WKANCHOR_83">Assessment Question(s)</a>
+31
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_84" name="__WKANCHOR_85" id="__WKANCHOR_85">Security Architecture (SA2)</a>
+31
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_86" name="__WKANCHOR_87" id="__WKANCHOR_87">Activities</a>
+31
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_88" name="__WKANCHOR_89" id="__WKANCHOR_89">[Stream A] Provide preferred security solutions</a>
+31
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_8a" name="__WKANCHOR_8b" id="__WKANCHOR_8b">Assessment Question(s)</a>
+31
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_8c" name="__WKANCHOR_8d" id="__WKANCHOR_8d">[Stream B] Promote preferred tools and technologies</a>
+32
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_8e" name="__WKANCHOR_8f" id="__WKANCHOR_8f">Assessment Question(s)</a>
+32
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_8g" name="__WKANCHOR_8h" id="__WKANCHOR_8h">Security Architecture (SA3)</a>
+32
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_8i" name="__WKANCHOR_8j" id="__WKANCHOR_8j">Activities</a>
+32
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_8k" name="__WKANCHOR_8l" id="__WKANCHOR_8l">[Stream A] Build reference architectures</a>
+32
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_8m" name="__WKANCHOR_8n" id="__WKANCHOR_8n">Assessment Question(s)</a>
+33
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_8o" name="__WKANCHOR_8p" id="__WKANCHOR_8p">[Stream B] Enforce the use of recommended technologies</a>
+33
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_8q" name="__WKANCHOR_8r" id="__WKANCHOR_8r">Assessment Question(s)</a>
+33
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_8s" name="__WKANCHOR_8t" id="__WKANCHOR_8t">Implementation</a>
+33
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_8u" name="__WKANCHOR_8v" id="__WKANCHOR_8v">Secure Build (SB1)</a>
+33
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_8w" name="__WKANCHOR_8x" id="__WKANCHOR_8x">Activities</a>
+33
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_8y" name="__WKANCHOR_8z" id="__WKANCHOR_8z">[Stream A] Define a consistent build process</a>
+33
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_90" name="__WKANCHOR_91" id="__WKANCHOR_91">Assessment Question(s)</a>
+34
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_92" name="__WKANCHOR_93" id="__WKANCHOR_93">[Stream B] Identify application dependencies</a>
+34
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_94" name="__WKANCHOR_95" id="__WKANCHOR_95">Assessment Question(s)</a>
+34
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_96" name="__WKANCHOR_97" id="__WKANCHOR_97">Secure Build (SB2)</a>
+34
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_98" name="__WKANCHOR_99" id="__WKANCHOR_99">Activities</a>
+34
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_9a" name="__WKANCHOR_9b" id="__WKANCHOR_9b">[Stream A] Automate the build process</a>
+34
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_9c" name="__WKANCHOR_9d" id="__WKANCHOR_9d">Assessment Question(s)</a>
+35
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_9e" name="__WKANCHOR_9f" id="__WKANCHOR_9f">[Stream B] Review application dependencies for security</a>
+35
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_9g" name="__WKANCHOR_9h" id="__WKANCHOR_9h">Assessment Question(s)</a>
+35
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_9i" name="__WKANCHOR_9j" id="__WKANCHOR_9j">Secure Build (SB3)</a>
+36
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_9k" name="__WKANCHOR_9l" id="__WKANCHOR_9l">Activities</a>
+36
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_9m" name="__WKANCHOR_9n" id="__WKANCHOR_9n">[Stream A] Enforce a security baseline during build</a>
+36
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_9o" name="__WKANCHOR_9p" id="__WKANCHOR_9p">Assessment Question(s)</a>
+36
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_9q" name="__WKANCHOR_9r" id="__WKANCHOR_9r">[Stream B] Test application dependencies</a>
+36
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_9s" name="__WKANCHOR_9t" id="__WKANCHOR_9t">Assessment Question(s)</a>
+36
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_9u" name="__WKANCHOR_9v" id="__WKANCHOR_9v">Secure Deployment (SD1)</a>
+37
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_9w" name="__WKANCHOR_9x" id="__WKANCHOR_9x">Activities</a>
+37
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_9y" name="__WKANCHOR_9z" id="__WKANCHOR_9z">[Stream A] Use a repeatable deployment process</a>
+37
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_a0" name="__WKANCHOR_a1" id="__WKANCHOR_a1">Assessment Question(s)</a>
+37
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_a2" name="__WKANCHOR_a3" id="__WKANCHOR_a3">[Stream B] Protect application secrets in configuration and code</a>
+37
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_a4" name="__WKANCHOR_a5" id="__WKANCHOR_a5">Assessment Question(s)</a>
+38
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_a6" name="__WKANCHOR_a7" id="__WKANCHOR_a7">Secure Deployment (SD2)</a>
+38
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_a8" name="__WKANCHOR_a9" id="__WKANCHOR_a9">Activities</a>
+38
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_aa" name="__WKANCHOR_ab" id="__WKANCHOR_ab">[Stream A] Automate deployment and integrate security checks</a>
+38
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_ac" name="__WKANCHOR_ad" id="__WKANCHOR_ad">Assessment Question(s)</a>
+38
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_ae" name="__WKANCHOR_af" id="__WKANCHOR_af">[Stream B] Include application secrets during deployment</a>
+38
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_ag" name="__WKANCHOR_ah" id="__WKANCHOR_ah">Assessment Question(s)</a>
+39
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_ai" name="__WKANCHOR_aj" id="__WKANCHOR_aj">Secure Deployment (SD3)</a>
+39
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_ak" name="__WKANCHOR_al" id="__WKANCHOR_al">Activities</a>
+39
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_am" name="__WKANCHOR_an" id="__WKANCHOR_an">[Stream A] Verify the integrity of deployment artifacts</a>
+39
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_ao" name="__WKANCHOR_ap" id="__WKANCHOR_ap">Assessment Question(s)</a>
+39
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_aq" name="__WKANCHOR_ar" id="__WKANCHOR_ar">[Stream B] Enforce lifecycle management of application secrets</a>
+39
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_as" name="__WKANCHOR_at" id="__WKANCHOR_at">Assessment Question(s)</a>
+40
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_au" name="__WKANCHOR_av" id="__WKANCHOR_av">Defect Management (DM1)</a>
+40
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_aw" name="__WKANCHOR_ax" id="__WKANCHOR_ax">Activities</a>
+40
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_ay" name="__WKANCHOR_az" id="__WKANCHOR_az">[Stream A] Track security defects centrally</a>
+40
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_b0" name="__WKANCHOR_b1" id="__WKANCHOR_b1">Assessment Question(s)</a>
+40
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_b2" name="__WKANCHOR_b3" id="__WKANCHOR_b3">[Stream B] Define basic defect metrics</a>
+41
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_b4" name="__WKANCHOR_b5" id="__WKANCHOR_b5">Assessment Question(s)</a>
+41
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_b6" name="__WKANCHOR_b7" id="__WKANCHOR_b7">Defect Management (DM2)</a>
+41
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_b8" name="__WKANCHOR_b9" id="__WKANCHOR_b9">Activities</a>
+41
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_ba" name="__WKANCHOR_bb" id="__WKANCHOR_bb">[Stream A] Rate and track security defects</a>
+41
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_bc" name="__WKANCHOR_bd" id="__WKANCHOR_bd">Assessment Question(s)</a>
+41
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_be" name="__WKANCHOR_bf" id="__WKANCHOR_bf">[Stream B] Define advanced defect metrics</a>
+42
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_bg" name="__WKANCHOR_bh" id="__WKANCHOR_bh">Assessment Question(s)</a>
+42
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_bi" name="__WKANCHOR_bj" id="__WKANCHOR_bj">Defect Management (DM3)</a>
+42
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_bk" name="__WKANCHOR_bl" id="__WKANCHOR_bl">Activities</a>
+42
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_bm" name="__WKANCHOR_bn" id="__WKANCHOR_bn">[Stream A] Enforce an SLA for defect management</a>
+42
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_bo" name="__WKANCHOR_bp" id="__WKANCHOR_bp">Assessment Question(s)</a>
+43
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_bq" name="__WKANCHOR_br" id="__WKANCHOR_br">[Stream B] Use metrics to improve the security strategy</a>
+43
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_bs" name="__WKANCHOR_bt" id="__WKANCHOR_bt">Assessment Question(s)</a>
+43
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_bu" name="__WKANCHOR_bv" id="__WKANCHOR_bv">Verification</a>
+43
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_bw" name="__WKANCHOR_bx" id="__WKANCHOR_bx">Architecture Assessment (AA1)</a>
+43
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_by" name="__WKANCHOR_bz" id="__WKANCHOR_bz">Activities</a>
+43
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_c0" name="__WKANCHOR_c1" id="__WKANCHOR_c1">[Stream A] Assess application architecture</a>
+43
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_c2" name="__WKANCHOR_c3" id="__WKANCHOR_c3">Assessment Question(s)</a>
+44
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_c4" name="__WKANCHOR_c5" id="__WKANCHOR_c5">[Stream B] Evaluate architecture for typical threats</a>
+44
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_c6" name="__WKANCHOR_c7" id="__WKANCHOR_c7">Assessment Question(s)</a>
+44
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_c8" name="__WKANCHOR_c9" id="__WKANCHOR_c9">Architecture Assessment (AA2)</a>
+44
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_ca" name="__WKANCHOR_cb" id="__WKANCHOR_cb">Activities</a>
+44
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_cc" name="__WKANCHOR_cd" id="__WKANCHOR_cd">[Stream A] Verify the application architecture for security methodically</a>
+44
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_ce" name="__WKANCHOR_cf" id="__WKANCHOR_cf">Assessment Question(s)</a>
+45
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_cg" name="__WKANCHOR_ch" id="__WKANCHOR_ch">[Stream B] Structurally verify the architecture for identified threats</a>
+45
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_ci" name="__WKANCHOR_cj" id="__WKANCHOR_cj">Assessment Question(s)</a>
+45
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_ck" name="__WKANCHOR_cl" id="__WKANCHOR_cl">Architecture Assessment (AA3)</a>
+45
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_cm" name="__WKANCHOR_cn" id="__WKANCHOR_cn">Activities</a>
+45
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_co" name="__WKANCHOR_cp" id="__WKANCHOR_cp">[Stream A] Verify the effectiveness of security components</a>
+45
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_cq" name="__WKANCHOR_cr" id="__WKANCHOR_cr">Assessment Question(s)</a>
+46
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_cs" name="__WKANCHOR_ct" id="__WKANCHOR_ct">[Stream B] Feed review results back to improve reference architectures</a>
+46
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_cu" name="__WKANCHOR_cv" id="__WKANCHOR_cv">Assessment Question(s)</a>
+46
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_cw" name="__WKANCHOR_cx" id="__WKANCHOR_cx">Requirements-driven Testing (RT1)</a>
+46
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_cy" name="__WKANCHOR_cz" id="__WKANCHOR_cz">Activities</a>
+46
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_d0" name="__WKANCHOR_d1" id="__WKANCHOR_d1">[Stream A] Test the effectiveness of security controls</a>
+46
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_d2" name="__WKANCHOR_d3" id="__WKANCHOR_d3">Assessment Question(s)</a>
+47
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_d4" name="__WKANCHOR_d5" id="__WKANCHOR_d5">[Stream B] Perform fuzz testing</a>
+47
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_d6" name="__WKANCHOR_d7" id="__WKANCHOR_d7">Assessment Question(s)</a>
+47
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_d8" name="__WKANCHOR_d9" id="__WKANCHOR_d9">Requirements-driven Testing (RT2)</a>
+47
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_da" name="__WKANCHOR_db" id="__WKANCHOR_db">Activities</a>
+47
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_dc" name="__WKANCHOR_dd" id="__WKANCHOR_dd">[Stream A] Define and run security test cases from requirements</a>
+47
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_de" name="__WKANCHOR_df" id="__WKANCHOR_df">Assessment Question(s)</a>
+48
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_dg" name="__WKANCHOR_dh" id="__WKANCHOR_dh">[Stream B] Define and run security abuse cases from requirements</a>
+48
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_di" name="__WKANCHOR_dj" id="__WKANCHOR_dj">Assessment Question(s)</a>
+48
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_dk" name="__WKANCHOR_dl" id="__WKANCHOR_dl">Requirements-driven Testing (RT3)</a>
+48
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_dm" name="__WKANCHOR_dn" id="__WKANCHOR_dn">Activities</a>
+48
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_do" name="__WKANCHOR_dp" id="__WKANCHOR_dp">[Stream A] Automate security requirements testing</a>
+48
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_dq" name="__WKANCHOR_dr" id="__WKANCHOR_dr">Assessment Question(s)</a>
+49
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_ds" name="__WKANCHOR_dt" id="__WKANCHOR_dt">[Stream B] Perform security stress testing</a>
+49
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_du" name="__WKANCHOR_dv" id="__WKANCHOR_dv">Assessment Question(s)</a>
+49
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_dw" name="__WKANCHOR_dx" id="__WKANCHOR_dx">Security Testing (ST1)</a>
+49
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_dy" name="__WKANCHOR_dz" id="__WKANCHOR_dz">Activities</a>
+50
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_e0" name="__WKANCHOR_e1" id="__WKANCHOR_e1">[Stream A] Perform automated security testing</a>
+50
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_e2" name="__WKANCHOR_e3" id="__WKANCHOR_e3">Assessment Question(s)</a>
+50
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_e4" name="__WKANCHOR_e5" id="__WKANCHOR_e5">[Stream B] Test high risk application components manually</a>
+50
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_e6" name="__WKANCHOR_e7" id="__WKANCHOR_e7">Assessment Question(s)</a>
+51
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_e8" name="__WKANCHOR_e9" id="__WKANCHOR_e9">Security Testing (ST2)</a>
+51
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_ea" name="__WKANCHOR_eb" id="__WKANCHOR_eb">Activities</a>
+51
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_ec" name="__WKANCHOR_ed" id="__WKANCHOR_ed">[Stream A] Develop application-specific security test cases</a>
+51
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_ee" name="__WKANCHOR_ef" id="__WKANCHOR_ef">Assessment Question(s)</a>
+51
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_eg" name="__WKANCHOR_eh" id="__WKANCHOR_eh">[Stream B] Establish a penetration testing process</a>
+52
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_ei" name="__WKANCHOR_ej" id="__WKANCHOR_ej">Assessment Question(s)</a>
+52
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_ek" name="__WKANCHOR_el" id="__WKANCHOR_el">Security Testing (ST3)</a>
+52
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_em" name="__WKANCHOR_en" id="__WKANCHOR_en">Activities</a>
+52
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_eo" name="__WKANCHOR_ep" id="__WKANCHOR_ep">[Stream A] Integrate security testing tools in the delivery pipeline</a>
+52
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_eq" name="__WKANCHOR_er" id="__WKANCHOR_er">Assessment Question(s)</a>
+53
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_es" name="__WKANCHOR_et" id="__WKANCHOR_et">[Stream B] Establish continuous, scalable security verification</a>
+53
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_eu" name="__WKANCHOR_ev" id="__WKANCHOR_ev">Assessment Question(s)</a>
+53
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_ew" name="__WKANCHOR_ex" id="__WKANCHOR_ex">Operations</a>
+53
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_ey" name="__WKANCHOR_ez" id="__WKANCHOR_ez">Incident Management (IM1)</a>
+53
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_f0" name="__WKANCHOR_f1" id="__WKANCHOR_f1">Activities</a>
+54
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_f2" name="__WKANCHOR_f3" id="__WKANCHOR_f3">[Stream A] Use best-effort incident detection</a>
+54
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_f4" name="__WKANCHOR_f5" id="__WKANCHOR_f5">Assessment Question(s)</a>
+54
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_f6" name="__WKANCHOR_f7" id="__WKANCHOR_f7">[Stream B] Create an incident response plan</a>
+54
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_f8" name="__WKANCHOR_f9" id="__WKANCHOR_f9">Assessment Question(s)</a>
+54
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_fa" name="__WKANCHOR_fb" id="__WKANCHOR_fb">Incident Management (IM2)</a>
+54
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_fc" name="__WKANCHOR_fd" id="__WKANCHOR_fd">Activities</a>
+55
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_fe" name="__WKANCHOR_ff" id="__WKANCHOR_ff">[Stream A] Define an incident detection process</a>
+55
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_fg" name="__WKANCHOR_fh" id="__WKANCHOR_fh">Assessment Question(s)</a>
+55
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_fi" name="__WKANCHOR_fj" id="__WKANCHOR_fj">[Stream B] Define and incident response process</a>
+55
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_fk" name="__WKANCHOR_fl" id="__WKANCHOR_fl">Assessment Question(s)</a>
+55
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_fm" name="__WKANCHOR_fn" id="__WKANCHOR_fn">Incident Management (IM3)</a>
+56
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_fo" name="__WKANCHOR_fp" id="__WKANCHOR_fp">Activities</a>
+56
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_fq" name="__WKANCHOR_fr" id="__WKANCHOR_fr">[Stream A] Improve the incident detection process</a>
+56
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_fs" name="__WKANCHOR_ft" id="__WKANCHOR_ft">Assessment Question(s)</a>
+56
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_fu" name="__WKANCHOR_fv" id="__WKANCHOR_fv">[Stream B] Establish an incident response team</a>
+56
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_fw" name="__WKANCHOR_fx" id="__WKANCHOR_fx">Assessment Question(s)</a>
+56
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_fy" name="__WKANCHOR_fz" id="__WKANCHOR_fz">Environment Management (EM1)</a>
+57
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_g0" name="__WKANCHOR_g1" id="__WKANCHOR_g1">Activities</a>
+57
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_g2" name="__WKANCHOR_g3" id="__WKANCHOR_g3">[Stream A] Use best-effort hardening</a>
+57
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_g4" name="__WKANCHOR_g5" id="__WKANCHOR_g5">Assessment Question(s)</a>
+57
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_g6" name="__WKANCHOR_g7" id="__WKANCHOR_g7">[Stream B] Practice best-effort patching</a>
+57
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_g8" name="__WKANCHOR_g9" id="__WKANCHOR_g9">Assessment Question(s)</a>
+58
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_ga" name="__WKANCHOR_gb" id="__WKANCHOR_gb">Environment Management (EM2)</a>
+58
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_gc" name="__WKANCHOR_gd" id="__WKANCHOR_gd">Activities</a>
+58
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_ge" name="__WKANCHOR_gf" id="__WKANCHOR_gf">[Stream A] Establish hardening baselines</a>
+58
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_gg" name="__WKANCHOR_gh" id="__WKANCHOR_gh">Assessment Question(s)</a>
+58
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_gi" name="__WKANCHOR_gj" id="__WKANCHOR_gj">[Stream B] Formalize patch management</a>
+58
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_gk" name="__WKANCHOR_gl" id="__WKANCHOR_gl">Assessment Question(s)</a>
+59
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_gm" name="__WKANCHOR_gn" id="__WKANCHOR_gn">Environment Management (EM3)</a>
+59
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_go" name="__WKANCHOR_gp" id="__WKANCHOR_gp">Activities</a>
+59
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_gq" name="__WKANCHOR_gr" id="__WKANCHOR_gr">[Stream A] Perform continuous configuration monitoring</a>
+59
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_gs" name="__WKANCHOR_gt" id="__WKANCHOR_gt">Assessment Question(s)</a>
+59
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_gu" name="__WKANCHOR_gv" id="__WKANCHOR_gv">[Stream B] Enforce timely patch management</a>
+59
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_gw" name="__WKANCHOR_gx" id="__WKANCHOR_gx">Assessment Question(s)</a>
+60
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_gy" name="__WKANCHOR_gz" id="__WKANCHOR_gz">Operational Management (OM1)</a>
+60
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_h0" name="__WKANCHOR_h1" id="__WKANCHOR_h1">Activities</a>
+60
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_h2" name="__WKANCHOR_h3" id="__WKANCHOR_h3">[Stream A] Organize basic data protections</a>
+60
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_h4" name="__WKANCHOR_h5" id="__WKANCHOR_h5">Assessment Question(s)</a>
+60
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_h6" name="__WKANCHOR_h7" id="__WKANCHOR_h7">[Stream B] Identify unused applications</a>
+60
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_h8" name="__WKANCHOR_h9" id="__WKANCHOR_h9">Assessment Question(s)</a>
+61
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_ha" name="__WKANCHOR_hb" id="__WKANCHOR_hb">Operational Management (OM2)</a>
+61
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_hc" name="__WKANCHOR_hd" id="__WKANCHOR_hd">Activities</a>
+61
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_he" name="__WKANCHOR_hf" id="__WKANCHOR_hf">[Stream A] Establish a data catalog</a>
+61
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_hg" name="__WKANCHOR_hh" id="__WKANCHOR_hh">Assessment Question(s)</a>
+61
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_hi" name="__WKANCHOR_hj" id="__WKANCHOR_hj">[Stream B] Formalize decommissioning process</a>
+61
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_hk" name="__WKANCHOR_hl" id="__WKANCHOR_hl">Assessment Question(s)</a>
+62
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_hm" name="__WKANCHOR_hn" id="__WKANCHOR_hn">Operational Management (OM3)</a>
+62
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                  <li class="level-4">
+                    <div>
+                      <a href="__WKANCHOR_ho" name="__WKANCHOR_hp" id="__WKANCHOR_hp">Activities</a>
+62
+                    </div>
+                    <ul class="level-4">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_hq" name="__WKANCHOR_hr" id="__WKANCHOR_hr">[Stream A] Respond to data breaches</a>
+62
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_hs" name="__WKANCHOR_ht" id="__WKANCHOR_ht">Assessment Question(s)</a>
+62
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="level-5">
+                        <div>
+                          <a href="__WKANCHOR_hu" name="__WKANCHOR_hv" id="__WKANCHOR_hv">[Stream B] Review application lifecycle state regularly</a>
+62
+                        </div>
+                        <ul class="level-5">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                          <li class="level-6">
+                            <div>
+                              <a href="__WKANCHOR_hw" name="__WKANCHOR_hx" id="__WKANCHOR_hx">Assessment Question(s)</a>
+63
+                            </div>
+                            <ul class="level-6">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="level-1">
+        <div>
+          <a href="__WKANCHOR_hy" name="__WKANCHOR_hz" id="__WKANCHOR_hz">Credits</a>
+63
+        </div>
+        <ul class="level-1">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+          <li class="level-2">
+            <div>
+              <a href="__WKANCHOR_i0" name="__WKANCHOR_i1" id="__WKANCHOR_i1">Sponsors</a>
+63
+            </div>
+            <ul class="level-2">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_i2" name="__WKANCHOR_i3" id="__WKANCHOR_i3">Proceeds</a>
+64
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_i4" name="__WKANCHOR_i5" id="__WKANCHOR_i5">Sponsorship levels</a>
+64
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_i6" name="__WKANCHOR_i7" id="__WKANCHOR_i7">Sponsorship benefits</a>
+64
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                </ul>
+              </li>
+              <li class="level-3">
+                <div>
+                  <a href="__WKANCHOR_i8" name="__WKANCHOR_i9" id="__WKANCHOR_i9">Join as a sponsor</a>
+64
+                </div>
+                <ul class="level-3">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="level-1">
+        <div>
+          <a href="__WKANCHOR_ia" name="__WKANCHOR_ib" id="__WKANCHOR_ib">License</a>
+64
+        </div>
+        <ul class="level-1">
+<!--added to prevent self-closing tags in QtXmlPatterns-->
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
