@@ -23,3 +23,5 @@ The original model (v1.0) was written by Pravir Chandra and dates back from 2009
 After a period of intensive discussions and with input from practitioners and the OWASP community during summits in Europe and the US on the best way forward, we take a new approach for version 2.0 based on the following improvements.
 
 For an overview of the version 2 changes, read our [SAMM version 2 release notes](/release-notes-v2).
+
+We generated a PDF version of the model, available as download [here](https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf). Be advised that we are updating the layout of this document throughout the coming days.
