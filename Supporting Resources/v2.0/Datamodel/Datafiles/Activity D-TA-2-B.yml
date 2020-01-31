@@ -18,7 +18,7 @@ id: 649b693315234a94928e42f3e308deac
 title: Standardize and scale threat modeling
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Clear expectations of the quality of threat modeling activites
+benefit: Clear expectations of the quality of threat modeling activities
 
 #A one sentence description of the activity
 shortDescription: Standardize threat modeling training, processes, and tools to scale across the organization.
