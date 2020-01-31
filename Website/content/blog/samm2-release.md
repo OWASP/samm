@@ -34,7 +34,7 @@ The new model supports maturity measurements both from coverage and quality pers
 
 We have a single source using [GitHub](https://github.com/OWASP/samm) and we can automatically generate PDF documents, the website, the toolbox, and applications. All the model content has been converted to YAML files, allowing tools or other SAMM consumers to automatically use the model. You can always find the latest version of SAMM on our website, in the [Model section](/model/). The full release notes for version 2 are available [here](/release-notes-v2/).
 
-As always, feedback is welcome in the usual channels:
+As always, feedback is welcome in our usual channels:
 
 * the [SAMM Github repository](https://github.com/OWASP/samm/issues)
 * our [#project-samm](https://owasp.slack.com/messages/C0VF1EJGH) Slack channel  
