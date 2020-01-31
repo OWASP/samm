@@ -16,7 +16,7 @@ id: b3b20a75740c4880a21ad9aa0c1298c7
 title: Test high risk application components manually
 
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detection of manually identifable vulnerabilities in critical components
+benefit: Detection of manually identifiable vulnerabilities in critical components
 
 #A one sentence description of the activity
 shortDescription: Perform manual security testing of high-risk components
