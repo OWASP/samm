@@ -1,4 +1,4 @@
-<div class="new-page"/>
+<div class="new-page"></div>
 ### {{practice:name}} ({{practice:shortName}}{{maturity:number}})
 
 The goal of this practice level is to {{practice-level:objective}}
