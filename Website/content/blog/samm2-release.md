@@ -9,18 +9,18 @@ author = "The SAMM Project Team"
 
 #### After three years of preparation, our SAMM project team has delivered version 2 of SAMM!
 
-OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help organizations assess, formulate, and implement, through our self-assessment model, a strategy for software security they can be integrate into their existing Software Development Lifecycle (SDLC).
+OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help organizations assess, formulate, and implement, through our self-assessment model, a strategy for software security they can be integrated into their existing Software Development Lifecycle (SDLC).
 
 The new SAMM v2 consists of the following components:
 
-* the [SAMM Model](/model/) overview and introduction, explaining the maturity model in detail
-* a [Quick-start Guide](/quick-start-guide/) with different steps to improve your secure software practice
-* an updated [SAMM Toolbox](https://owaspsamm.org/assessment/) to perform SAMM assessments and create SAMM roadmaps
-* a new [SAMM Benchmark initiative](/benchmarking/) to compare your maturity and progress with other similar organizations and teams
+* The [SAMM Model](/model/) overview and introduction, explaining the maturity model in detail
+* A [Quick-start Guide](/quick-start-guide/) with different steps to improve your secure software practice
+* An updated [SAMM Toolbox](https://owaspsamm.org/assessment/) to perform SAMM assessments and create SAMM roadmaps
+* A new [SAMM Benchmark initiative](/benchmarking/) to compare your maturity and progress with other similar organizations and teams
 
 ### What's changed with SAMM v2?
 
-For those organizations using earlier versions of SAMM it’s important to take the time to understand how the framework has evolved in favor of automation and better alignment with development teams. Organizationally, some important changes worth noting:
+For those organizations using earlier versions of SAMM, it’s important to take the time to understand how the framework has evolved in favor of automation and better alignment with development teams. Organizationally, some important changes worth noting:
 
 * Construction is now Design
 * New business function: Implementation
