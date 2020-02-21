@@ -214,3 +214,6 @@ paginate = 10
     enable = true
     title = "From our blog"
     subtitle = "Be an OWASP SAMM contributor and tell us about your experience using our maturity model in guest articles. Get in touch with us to share your SAMM story."
+
+[markup.goldmark.renderer]
+    unsafe = true

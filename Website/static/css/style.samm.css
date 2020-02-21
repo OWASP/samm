@@ -3649,6 +3649,10 @@ a.list-group-item.active > .badge,
   right: 15px;
 }
 
+.samm-content-with-space div {
+  margin-bottom: 30px;
+}
+
 .samm-page-content div {
   padding-bottom: 30px;
 }
@@ -3671,11 +3675,12 @@ a.list-group-item.active > .badge,
   font-weight: 400;
   background-color: inherit;
   float: left;
-  border: none;
-  outline: none;
+  border: 2px solid #66B8B8;
   cursor: pointer;
   padding: 14px 16px;
+  margin: 3px;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 /* Change background color of buttons on hover */
@@ -3686,6 +3691,9 @@ a.list-group-item.active > .badge,
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #66B8B8;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
 }
 
 /* Style the tab content */
