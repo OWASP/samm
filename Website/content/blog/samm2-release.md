@@ -14,8 +14,8 @@ OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help or
 The new SAMM v2 consists of the following components:
 
 * The [SAMM Model](/model/) overview and introduction, explaining the maturity model in detail
-* A [Quick-start Guide](/quick-start-guide/) with different steps to improve your secure software practice
-* An updated [SAMM Toolbox](https://owaspsamm.org/assessment/) to perform SAMM assessments and create SAMM roadmaps
+* A [Quick-start Guide](/guidance/quick-start-guide/) with different steps to improve your secure software practice
+* An updated [SAMM Toolbox](/assessment/) to perform SAMM assessments and create SAMM roadmaps
 * A new [SAMM Benchmark initiative](/benchmarking/) to compare your maturity and progress with other similar organizations and teams
 
 ### What's changed with SAMM v2?

@@ -9,7 +9,7 @@ keywords = ["about","what is","questions"]
 The new SAMM version 2 consists of the following components:
 
 * the [SAMM Model](/model/) overview and introduction, explaining the maturity model in detail
-* a [Quick-start Guide](/quick-start-guide/) with different steps to improve your secure software practice
+* a [Quick-start Guide](/guidance/quick-start-guide/) with different steps to improve your secure software practice
 * an updated [SAMM Toolbox](/assessment/) to perform SAMM assessments and create SAMM roadmaps
 * a new [SAMM Benchmark initiative](/benchmarking/) to compare your maturity and progress with other similar organizations and teams
 
