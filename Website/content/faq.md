@@ -4,8 +4,10 @@ description = "Frequently asked questions"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Everything you need to know so you can use OWASP SAMM like a pro.<br>
+This FAQ is work in progress, if you have some spare cycles [jump right in](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/contributing-to-git.md) to improve them!
 
+# How to use SAMM?
 ## Do I need a 1 out of 1 rating for maturity level 1 before working on level 2?
 
 It is not strictly required to get a 1 out 1 rating on maturity level 1 to start working on maturity level 2.
@@ -13,15 +15,32 @@ There might be activities of maturity level 1 that are not relevant for you whic
 
 We did order the activities in a logical order and maturity levels, but each organiZation and team can have unique situations, where some of them are not relevant or could be implemented in a different order.
 
-
-## When will SAMM v2 be released? 
-
-We plan to release SAMM version 2 by the end of this year.
-
 ## Should I use version 1.5 until version 2 is released?
 
-We recommend using the latest SAMM 2 (even while it is not fully finished) over SAMM 1.5
-Have a look at our latest "head" version [here](http://owaspsamm.org/head/introduction/)
+We released SAMM version 2 on the 31st of January 2020, check out our [release blog](https://owaspsamm.org/blog/2020/01/31/samm2-release/). We recommend using the latest stable release [SAMM version 2](https://owaspsamm.org/model/) over SAMM 1.5.
+If you are brave, you can use our latest "head" version[here](http://owaspsamm.org/head/introduction/) which is the latest version under active development.
+
+## When will SAMM v2 be released?
+
+We released SAMM version 2 on the 31st of January 2020, check out our [release blog](https://owaspsamm.org/blog/2020/01/31/samm2-release/) (Huray!).
+
+# How to contribute to SAMM?
+We regularly get asked, how can we contribute to SAMM?
+Glad you asked, here is a list of suggestions:
+
+1. Share your experience with a SAMM testimonial? We are building a list of testimonials for the website,
+2. Encourage your peers to use SAMM and share their experiences as well,
+3. Donate SAMM data sets to our Benchmark initiative (see https://owaspsamm.org/benchmarking/ and align this with Brian - in cc),
+4. Check out the list of open issues on our SAMM GitHub:https://github.com/OWASP/samm/issues
+and let us know if you can help with any of these?
+5. Help us with translating SAMM to other languages, see https://crowdin.com/project/owasp-samm,
+6. Sponsor SAMM, more information is available here: https://owaspsamm.org/sponsors/
+
+Best to check out our contribution instructions on GitHub:
+https://github.com/OWASP/samm/blob/master/Current%20Releases/head/contributing-to-git.md
+
+
+
 
 
 ---
