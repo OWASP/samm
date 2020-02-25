@@ -8,19 +8,19 @@ Everything you need to know so you can use OWASP SAMM like a pro.<br>
 This FAQ is work in progress, if you have some spare cycles [jump right in](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/contributing-to-git.md) to improve them!
 
 # How to use SAMM?
-## Do I need a 1 out of 1 rating for maturity level 1 before working on level 2?
+### Do I need a 1 out of 1 rating for maturity level 1 before working on level 2?
 
 It is not strictly required to get a 1 out 1 rating on maturity level 1 to start working on maturity level 2.
 There might be activities of maturity level 1 that are not relevant for you which you can bypass, moving to maturity level 2 activities.
 
 We did order the activities in a logical order and maturity levels, but each organiZation and team can have unique situations, where some of them are not relevant or could be implemented in a different order.
 
-## Should I use version 1.5 until version 2 is released?
+### Should I use version 1.5 until version 2 is released?
 
 We released SAMM version 2 on the 31st of January 2020, check out our [release blog](https://owaspsamm.org/blog/2020/01/31/samm2-release/). We recommend using the latest stable release [SAMM version 2](https://owaspsamm.org/model/) over SAMM 1.5.
 If you are brave, you can use our latest "head" version[here](http://owaspsamm.org/head/introduction/) which is the latest version under active development.
 
-## When will SAMM v2 be released?
+### When will SAMM v2 be released?
 
 We released SAMM version 2 on the 31st of January 2020, check out our [release blog](https://owaspsamm.org/blog/2020/01/31/samm2-release/) (Huray!).
 
