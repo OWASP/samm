@@ -101,7 +101,7 @@ jobs:
 
       - name: "Deploy to Netlify"
         # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
-        uses: netlify/actions/cli@master
+        uses: fzipi/netlify-actions/cli@master
         with:
           args: deploy --dir webpage
         env:
