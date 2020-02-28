@@ -7,7 +7,7 @@ keywords = ["FAQ","How do I","questions","what if"]
 Everything you need to know so you can use OWASP SAMM like a pro.<br>
 This FAQ is work in progress, if you have some spare cycles [jump right in](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/contributing-to-git.md) to improve them!
 
-# How to use SAMM?
+
 ### Do I need a 1 out of 1 rating for maturity level 1 before working on level 2?
 
 It is not strictly required to get a 1 out 1 rating on maturity level 1 to start working on maturity level 2.
@@ -24,7 +24,7 @@ If you are brave, you can use our latest "head" version[here](http://owaspsamm.o
 
 We released SAMM version 2 on the 31st of January 2020, check out our [release blog](https://owaspsamm.org/blog/2020/01/31/samm2-release/) (Huray!).
 
-# How to contribute to SAMM?
+### How can I contribute to SAMM?
 We regularly get asked, how can we contribute to SAMM?
 Glad you asked, here is a list of suggestions:
 
