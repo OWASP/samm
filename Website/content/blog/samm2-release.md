@@ -52,7 +52,6 @@ Special thanks to Brett Crawley, Brian Glas, Bruce Jenkins, Chris Cooper, Daniel
 
 And to our leading sponsors, Concord, Micro Focus Fortify, NCC Group, Toreon, PWC, and Splunk.
 
-
 **Time to celebrate!**
 
 The OWASP SAMM project team
