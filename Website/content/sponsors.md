@@ -33,16 +33,17 @@ All proceeds from the sponsorship support the mission of the OWASP Foundation an
 
 ### Sponsorship levels
 
-![Sponsorship levels](../img/sponsorship/levels1_small.png)
+{{< sponsorship_levels >}}
 
 ### Sponsorship benefits
+
+{{< sponsorship_benefits >}}
 
 By sponsoring SAMM, you get 
 
 * visibility during the next SAMM Summit
 * recognition on our website and the v 2.0 release of SAMM
 
-![Sponsorship levels](../img/sponsorship/benefits1_small.png)
 
 ### Join as a sponsor
 
