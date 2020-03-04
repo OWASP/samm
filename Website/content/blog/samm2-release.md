@@ -1,6 +1,6 @@
 +++
 title = "OWASP SAMM version 2 - public release"
-date = "2020-01-29T00:00:00+02:00"
+date = "2020-01-31T00:00:00+02:00"
 tags = ["version 2", "release", "what's new"]
 categories = ["release"]
 banner = "img/banners/undraw_celebration_0jvk.png"
@@ -9,18 +9,18 @@ author = "The SAMM Project Team"
 
 #### After three years of preparation, our SAMM project team has delivered version 2 of SAMM!
 
-OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help organizations assess, formulate, and implement, through our self-assessment model, a strategy for software security they can be integrate into their existing Software Development Lifecycle (SDLC).
+OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help organizations assess, formulate, and implement, through our self-assessment model, a strategy for software security they can be integrated into their existing Software Development Lifecycle (SDLC).
 
 The new SAMM v2 consists of the following components:
 
-* the [SAMM Model](/model/) overview and introduction, explaining the maturity model in detail
-* a [Quick-start Guide](/quick-start-guide/) with different steps to improve your secure software practice
-* an updated [SAMM Toolbox](https://owaspsamm.org/assessment/) to perform SAMM assessments and create SAMM roadmaps
-* a new [SAMM Benchmark initiative](/benchmarking/) to compare your maturity and progress with other similar organizations and teams
+* The [SAMM Model](/model/) overview and introduction, explaining the maturity model in detail
+* A [Quick-start Guide](/guidance/quick-start-guide/) with different steps to improve your secure software practice
+* An updated [SAMM Toolbox](/assessment/) to perform SAMM assessments and create SAMM roadmaps
+* A new [SAMM Benchmark initiative](/benchmarking/) to compare your maturity and progress with other similar organizations and teams
 
 ### What's changed with SAMM v2?
 
-For those organizations using earlier versions of SAMM it’s important to take the time to understand how the framework has evolved in favor of automation and better alignment with development teams. Organizationally, some important changes worth noting:
+For those organizations using earlier versions of SAMM, it’s important to take the time to understand how the framework has evolved in favor of automation and better alignment with development teams. Organizationally, some important changes worth noting:
 
 * Construction is now Design
 * New business function: Implementation
@@ -34,7 +34,7 @@ The new model supports maturity measurements both from coverage and quality pers
 
 We have a single source using [GitHub](https://github.com/OWASP/samm) and we can automatically generate PDF documents, the website, the toolbox, and applications. All the model content has been converted to YAML files, allowing tools or other SAMM consumers to automatically use the model. You can always find the latest version of SAMM on our website, in the [Model section](/model/). The full release notes for version 2 are available [here](/release-notes-v2/).
 
-As always, feedback is welcome in the usual channels:
+As always, feedback is welcome in our usual channels:
 
 * the [SAMM Github repository](https://github.com/OWASP/samm/issues)
 * our [#project-samm](https://owasp.slack.com/messages/C0VF1EJGH) Slack channel  
@@ -46,12 +46,11 @@ Don’t forget to look around our [new website](https://owaspsamm.org/), review 
 
 ### Thanks
 
-Big thanks to our community, your feedback, corrections, questions, input, and encouragement. SAMM version 2 is for you!
+A big thanks to our community, your feedback, corrections, questions, input, and encouragement. SAMM version 2 is for you!
 
-Special thanks to Brett Crawley, Brian Glas, Bruce Jenkins, Chris Cooper, Daniel Kefer, Felipe Zipitria, Hardik Parekh, John Dileo, John Ellingsworth, John Kennedy, Nessim Kisserli, Patricia Duarte, Sebastian Arriada, and Yan Kravchenko.
+Special thanks to Brett Crawley, Brian Glas, Bruce Jenkins, Chris Cooper, Daniel Kefer, Felipe Zipitria, Hardik Parekh, John Dileo, John Ellingsworth, John Kennedy, Nessim Kisserli, Patricia Duarte, Sebastian Arriada, Timo Pagel, and Yan Kravchenko.
 
 And to our leading sponsors, Concord, Micro Focus Fortify, NCC Group, Toreon, PWC, and Splunk.
-
 
 **Time to celebrate!**
 

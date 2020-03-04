@@ -1,0 +1,70 @@
+{{ define "content" }}
+  <div class="col-md-12 samm-page-content">
+
+    <div class="samm-content-with-space">
+    {{ .Content }}
+    </div>
+    
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openMaturityLevel(event, '1')" id="defaultOpen">Prepare</button>
+        <button class="tablinks" onclick="openMaturityLevel(event, '2')">Assess</button>
+        <button class="tablinks" onclick="openMaturityLevel(event, '3')">Set the target</button>
+        <button class="tablinks" onclick="openMaturityLevel(event, '4')">Define the plan</button>
+        <button class="tablinks" onclick="openMaturityLevel(event, '5')">Implement</button>
+        <button class="tablinks" onclick="openMaturityLevel(event, '6')">Roll out</button>
+    </div>
+    
+    <!-- Tab content -->
+    {{ $steps := .Params.steps }}
+    {{ range $steps }}
+    <div id="{{ .step }}" class="tabcontent">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td style="color:#366867"><b>Purpose</b></td>
+                    <td colspan="2">{{ .purpose | markdownify }}</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color:rgba(102, 184, 184, .5); color:#366867"><b>Activities</b></td>
+                  </tr>
+                  {{ $activities := .activities }}
+                  {{ range $activities }}
+                  <tr>
+                    <td></td>
+                    <td>{{ .name }}</td>
+                    <td width="70%">{{ .description | markdownify }}</td>
+                  </tr>
+                  {{ end }}
+                  <tr>
+                      <td colspan="3" style="background-color:rgba(102, 184, 184, .5); color:#366867"><b>Resources</b></td>
+                  </tr>
+                  {{ $resources := .resources }}
+                  {{ range $resources }}
+                  <tr>
+                    <td></td>
+                    <td>{{ .heading }}</td>
+                    <td>{{ .description | markdownify }}</td>
+                  </tr>
+                  {{ end }}
+                  <tr>
+                      <td colspan="3" style="background-color:rgba(102, 184, 184, .5); color:#366867"><b>Best practices</b></td>
+                  </tr>
+                  {{ range .best_practices }}
+                  <tr>
+                      <td></td>
+                      <td colspan="2">{{ . }}</td>
+                  </tr>
+                  {{ end }}
+            </tbody>
+        </table>
+    </div>
+    {{ end }}
+
+    <div class="samm-content-with-space">
+      <h2>Final notes</h2>
+      <p>{{ .Params.notes | markdownify }}</p>
+    </div>
+
+  </div>
+{{ end }}

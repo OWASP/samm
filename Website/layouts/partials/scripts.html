@@ -18,3 +18,22 @@
 
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+
+<!-- cookie consent -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#66b8b8"
+    },
+    "button": {
+      "background": "#366867"
+    }
+  },
+  "content": {
+    "message": "We use cookies mainly to analyze traffic. Some video providers also use cookies.",
+    "href": "https://www2.owasp.org/www-policy/operational/privacy"
+  }
+});
+</script>

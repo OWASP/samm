@@ -12,7 +12,7 @@ The SAMM v2 assessment Toolbox has been improved to measure the quality of you o
 
 Your first step towards improvement, is to measure where you are now.
 
-Make sure you first read our [getting started guide](/quick-start-guide/), then you can start with assessing your current software assurance posture.
+Make sure you first read our [getting started guide](/guidance/quick-start-guide/), then you can start with assessing your current software assurance posture.
 
 You will typically start with a self-assessment to get an overview on your status of software security activities in your organization. We created the OWASP SAMM [Toolbox spreadsheet](https://github.com/OWASP/samm/tree/master/Supporting%20Resources/v2.0/toolbox) to do just that. You can also use the Toolbox to support an interview or workshop together with other people that are involved in your software development process.
 
