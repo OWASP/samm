@@ -1,1 +1,1 @@
-<div class="new-page"/>
+<div class="new-page"></div>

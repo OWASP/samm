@@ -5,3 +5,158 @@
 .level-3, .level-4 {
     display: none;
 }
+
+#governance {
+    color: #e9425c;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#design {
+    color: #f39200;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#implementation {
+    color: #f08590;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#verification {
+    color: #a9768e;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#operations {
+    color: #cab25a;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#governance-1 {
+    color: #e9425c;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#design-1 {
+    color: #f39200;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#implementation-1 {
+    color: #f08590;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#verification-1 {
+    color: #a9768e;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#operations-1 {
+    color: #cab25a;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#governance-2 {
+    color: #e9425c;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#design-2 {
+    color: #f39200;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#implementation-2 {
+    color: #f08590;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#verification-2 {
+    color: #a9768e;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+#operations-2 {
+    color: #cab25a;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+h1 {
+    padding-top:30px;
+    color:#66b8b8;
+    font-family:"Days One", sans-serif;
+    font-size:30px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bolder;
+    line-height:1.2;
+    orphans:1;
+    page-break-after:auto;
+    page-break-before:auto;
+    text-align:center;
+    text-decoration:none;
+    text-indent:0;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    widows:1;
+}

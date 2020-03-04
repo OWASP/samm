@@ -1,0 +1,458 @@
+.new-page {
+    page-break-after: always;
+}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+    margin:0;
+    padding:0;
+    border-width:0px;
+}
+body {
+    -epub-hyphens:auto;
+}
+div.text-center {
+    text-align:center;
+}
+div.basic-image-frame, img.basic-image-frame {
+    border-color:#000000;
+    border-width:1px;
+    border-style:solid;
+}
+div.basic-text-frame {
+    border-style:solid;
+    margin: 20px;
+}
+p.basic-line, li.basic-line {
+    color:#000000;
+    font-family:"DINRoundPro-Light", sans-serif;
+    font-size:10px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:300;
+    line-height:1.2;
+    margin-bottom:5px;
+    margin-left:0;
+    margin-right:0;
+    margin-top:5px;
+    orphans:1;
+    page-break-after:auto;
+    page-break-before:auto;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0;
+    text-transform:none;
+    widows:1;
+}
+p.KOP, h1 {
+    padding-top:30px;
+    color:#66b8b8;
+    font-family:"Days One", sans-serif;
+    font-size:30px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bolder;
+    line-height:1.2;
+    orphans:1;
+    page-break-after:auto;
+    page-break-before:auto;
+    text-align:center;
+    text-decoration:none;
+    text-indent:0;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    widows:1;
+}
+span.TOC-L1 {
+    font-size:14px;
+    font-style:normal;
+    font-weight:normal;
+}
+span.TOC-L2 {
+    font-size:9px;
+    font-variant:normal;
+    text-transform:uppercase;
+}
+span.TOC-L3 {
+    font-size:8px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+span.TOC-L4 {
+    font-size:8px;
+}
+.governance {
+    color:#a9768e;
+}
+td.page-number {
+    font-size:20px;
+    font-variant:normal;
+    color:#66b8b8;
+}
+#intro-container {
+    margin-top: 40px;
+}
+.column {
+    line-height: 1.25;
+    position: relative;
+    width: 410px;
+    height: 1200px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.content {
+    width: 400px;
+}
+span.text-1 {
+    font-size:47px;
+}
+span.text-2 {
+    color:#bedcdc;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+span.text-3 {
+    color:#e9425c;
+}
+span.text-4 {
+    font-size:58%;
+    font-style:normal;
+    font-weight:normal;
+    vertical-align:super;
+}
+span.text-5 {
+    font-size:58%;
+    vertical-align:super;
+}
+span.text-6 {
+    color:#f39200;
+}
+span.text-7 {
+    color:#f08590;
+}
+span.text-8 {
+    color:#a9768e;
+}
+span.text-9 {
+    color:#cab25a;
+}
+span.text-10 {
+    color:#66b8b8;
+    font-family:"Days One", sans-serif;
+    font-size:20px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+span.text-11 {
+    color:#e9425c;
+    font-size:25px;
+}
+span.text-12 {
+    color:#f39200;
+    font-size:25px;
+}
+span.text-13 {
+    color:#f08590;
+    font-size:25px;
+}
+span.text-14 {
+    color:#a9768e;
+    font-size:25px;
+}
+span.text-15 {
+    color:#cab25a;
+    font-size:25px;
+}
+span.text-16 {
+    color:#e9425c;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.text-17 {
+    font-size:11px;
+    font-variant:normal;
+    text-transform:uppercase;
+}
+span.text-18 {
+    color:#e9425c;
+    font-style:normal;
+    font-weight:normal;
+}
+span.text-19 {
+    font-style:normal;
+    font-weight:normal;
+}
+span.text-20 {
+    color:#f39200;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.text-21 {
+    color:#f39200;
+    font-style:normal;
+    font-weight:normal;
+}
+span.text-22 {
+    color:#f08590;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.text-23 {
+    color:#f08590;
+    font-style:normal;
+    font-weight:normal;
+}
+span.text-24 {
+    color:#a9768e;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.text-25 {
+    color:#a9768e;
+    font-style:normal;
+    font-weight:normal;
+}
+span.text-26 {
+    color:#cab25a;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.text-27 {
+    color:#154648;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.text-28 {
+    color:#154648;
+}
+span.text-29 {
+    color:#66b8b8;
+}
+span.text-30 {
+    color:#66b8b8;
+    font-variant:normal;
+    text-transform:uppercase;
+}
+img._idGenObjectAttribute-1 {
+    height:1px;
+    width:230px;
+}
+div._idGenObjectStyleOverride-1 {
+    background-color:#66b8b8;
+    border-width:0px;
+}
+div._idGenObjectStyleOverride-2 {
+    background-color:#ffffff;
+    border-bottom-left-radius:9px;
+    border-bottom-right-radius:9px;
+    border-color:#ffffff;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    border-width:1px;
+}
+div._idGenObjectStyleOverride-3 {
+    background-color:#000000;
+    border-width:0px;
+}
+div._idGenObjectStyleOverride-4 {
+    border-width:0px;
+}
+div._idGenObjectLayout-1 {
+    text-align:center;
+}
+span.CharOverride-1 {
+    font-size:47px;
+}
+span.CharOverride-2 {
+    color:#bedcdc;
+    font-family:"Days One", sans-serif;
+    font-size:21px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+span.CharOverride-3, a.CharOverride-3 {
+    color:#e9425c !important;
+    text-decoration: none;
+}
+span.CharOverride-4 {
+    font-size:58%;
+    font-style:normal;
+    font-weight:normal;
+    vertical-align:super;
+}
+span.CharOverride-5 {
+    font-size:58%;
+    vertical-align:super;
+}
+span.CharOverride-6 {
+    color:#f39200;
+}
+span.CharOverride-7 {
+    color:#f08590;
+}
+span.CharOverride-8 {
+    color:#a9768e;
+}
+span.CharOverride-9 {
+    color:#cab25a;
+}
+span.CharOverride-10 {
+    color:#66b8b8;
+    font-family:"Days One", sans-serif;
+    font-size:20px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+span.CharOverride-11 {
+    color:#e9425c;
+    font-size:25px;
+}
+span.CharOverride-12 {
+    color:#f39200;
+    font-size:25px;
+}
+span.CharOverride-13 {
+    color:#f08590;
+    font-size:25px;
+}
+span.CharOverride-14 {
+    color:#a9768e;
+    font-size:25px;
+}
+span.CharOverride-15 {
+    color:#cab25a;
+    font-size:25px;
+}
+a.CharOverride-16 {
+    color:#e9425c;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+    text-decoration: none;
+}
+span.CharOverride-17 {
+    font-size:11px;
+    font-variant:normal;
+    text-transform:uppercase;
+}
+span.CharOverride-18 {
+    color:#e9425c;
+    font-style:normal;
+    font-weight:normal;
+}
+span.CharOverride-19 {
+    font-style:normal;
+    font-weight:normal;
+}
+span.CharOverride-20 {
+    color:#f39200;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.CharOverride-21 {
+    color:#f39200;
+    font-style:normal;
+    font-weight:normal;
+}
+span.CharOverride-22 {
+    color:#f08590;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.CharOverride-23 {
+    color:#f08590;
+    font-style:normal;
+    font-weight:normal;
+}
+span.CharOverride-24 {
+    color:#a9768e;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.CharOverride-25 {
+    color:#a9768e;
+    font-style:normal;
+    font-weight:normal;
+}
+span.CharOverride-26 {
+    color:#cab25a;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.CharOverride-27 {
+    color:#154648;
+    font-family:"DINRoundPro-Black", sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    text-transform:none;
+}
+span.CharOverride-28 {
+    color:#154648;
+}
+span.CharOverride-29 {
+    color:#66b8b8;
+}
+span.CharOverride-30 {
+    color:#66b8b8;
+    font-variant:normal;
+    text-transform:uppercase;
+}

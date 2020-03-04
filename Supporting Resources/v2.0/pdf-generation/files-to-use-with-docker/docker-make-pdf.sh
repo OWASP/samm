@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=0.5
+version=0.6
 
 # create the dir or docker will, probably with the wrong owner.
 mkdir -p $(pwd)/pdf/output
