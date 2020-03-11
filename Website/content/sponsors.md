@@ -51,4 +51,9 @@ By sponsoring SAMM, you get
 2. We draw a sponsorship contract and provide you with an invoice.
 3. Upon payment, we activate your benefits for 1 year and for SAMM release 2.0 publications.
 
+---
+
+> **Interested in becoming a SAMM sponsor?**  
+For more information, check out the [Support OWASP SAMM](https://www.slideshare.net/sdeleersnyder/support-owasp-samm-178691671) presentation.
+
 
