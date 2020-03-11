@@ -3663,6 +3663,39 @@ a.list-group-item.active > .badge,
     padding-top: 20px;
 }
 
+.samm-table-narrow {
+  max-width: 70%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.samm-title-row {
+  text-align: left;
+  background-color:rgba(102, 184, 184, .5); 
+  color:#366867;
+  font-weight: 600;
+}
+
+.samm-title-row-centered {
+  text-align: center;
+  background-color:rgba(102, 184, 184, .5); 
+  color:#366867;
+  font-weight: 600;
+}
+
+.samm-row-bold {
+  text-align: left;
+  color:#366867;
+  font-weight: 600;
+}
+
+.samm-row-centered-bold {
+  text-align: center;
+  color:#366867;
+  font-weight: 600;
+}
+
+
 /* tab */
 .tab {
   overflow: hidden;
