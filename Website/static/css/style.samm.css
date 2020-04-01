@@ -3818,3 +3818,8 @@ a.list-group-item.active > .badge,
   filter: none;
   -webkit-filter: none;
 }
+
+.responsive-image img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
