@@ -9,7 +9,7 @@ author = "The SAMM Project Team"
 
 #### After three years of preparation, our SAMM project team has delivered version 2 of SAMM!
 
-OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help organizations assess, formulate, and implement, through our self-assessment model, a strategy for software security they can be integrated into their existing Software Development Lifecycle (SDLC).
+OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help organizations assess, formulate, and implement, through our self-assessment model, a strategy for software security they can integrate into their existing Software Development Lifecycle (SDLC).
 
 The new SAMM v2 consists of the following components:
 
