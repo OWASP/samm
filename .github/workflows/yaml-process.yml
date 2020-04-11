@@ -6,6 +6,11 @@ on:
       - ".github/workflows/*.yml"
       - "Website/**"
       - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+  pull_request:
+    paths:
+      - ".github/workflows/*.yml"
+      - "Website/**"
+      - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
 
 jobs:
   lintModelv20:
@@ -102,11 +107,22 @@ jobs:
       - name: "Deploy to Netlify"
         # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
         uses: fzipi/netlify-actions/cli@master
+        id: netlifydeploy
         with:
           args: deploy --dir webpage
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: "Add netlify url to pull"
+        if: github.event_name == 'pull_request' && contains(steps.netlifydeploy.outputs.NETLIFY_URL, 'netlify.com')
+        uses: andrewmusgrave/automatic-pull-request-review@0.0.2
+        env:
+          NETLIFY_LIVE_URL: ${{ steps.netlifydeploy.outputs.NETLIFY_LIVE_URL }}
+        with:
+          repo-token: '${{ secrets.GITHUB_TOKEN }}'
+          event: COMMENT
+          body: 'See SAMM website preview here: ${NETLIFY_LIVE_URL}'
 
       - name: "Deploy to Github"
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
