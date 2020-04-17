@@ -31,9 +31,9 @@ steps:
                     - QA Testers
                     - Managers
             resource2:
-                heading: SAMM wiki
+                heading: SAMM project page - OWASP website
                 type: link
-                description: https://www.owasp.org/index.php/OWASP_SAMM_Project
+                description: https://owasp.org/www-project-samm/
             resource3:
                 heading: SAMM downloads
                 type: link
@@ -116,11 +116,6 @@ steps:
                 name: Develop/update the roadmap plan
                 description: |
                     Distribute the implementation of additional activities over the different roadmap phases, taking into account the effort required to implement them. Try to balance the implementation effort over the different periods, and take dependencies between activities into account.
-        resources:
-            resource1:
-                heading: SAMM Resources
-                description: |
-                    https://www.owasp.org/index.php/SAMM-Resources
         best_practices:
             - Identify activities that can be completed quickly and successfully early in the project
             - Start with awareness / training
@@ -134,11 +129,6 @@ steps:
                 name: Implement activities
                 description: |
                     Implement all activities that are part of this period. Consider their impact on processes, people, knowledge, and tools. The SAMM model contains prescriptive advice on how to do this. OWASP projects may help to facilitate this.
-        resources:
-            resource1:
-                heading: Useful OWASP resources per activity
-                description: |
-                    https://www.owasp.org/index.php/Category:SAMM-Resources
         best_practices:
             - Treat legacy software separately. Do not mandate migration unless really important.
             - Avoid operational bottlenecks, particularly for the security team
@@ -162,8 +152,8 @@ steps:
 resourcestext: The following SAMM resources are referenced in the SAMM Quick Start Guide
 resources:
     resource1: 
-        heading: SAMM wiki
-        description: https://www.owasp.org/index.php/OWASP_SAMM_Project
+        heading: SAMM project page - OWASP website
+        description: https://owasp.org/www-project-samm/
     resource2: 
         heading: SAMM downloads
         description: https://owaspsamm.org/about/
@@ -173,9 +163,6 @@ resources:
     resource4:
         heading: SAMM model
         description: https://owaspsamm.org/model/
-    resource5:
-        heading: OWASP resources
-        description: https://www.owasp.org/index.php/Main_Page
 notes: |
     The best way to grasp SAMM is to start using it. This document has presented a number of concrete steps and supportive material to get you started. Now it’s your turn. We warmly invite you to spend a day or two on following the first steps, then you can understand and appreciate the added value of the model. Enjoy! Suggestions for improvements are welcome. Consider joining the mailing list and becoming part of the SAMM community.
 
