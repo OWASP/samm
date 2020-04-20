@@ -27,21 +27,54 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
+    name = "Community"
+    identifier = "community"
+    url  = ""
+    weight = 7
+
+[[menu.main]]
     name = "Blog"
+    parent = "community"
     url  = "/blog/"
     weight = 3
 
 [[menu.main]]
     name = "Events"
     identifier = "events"
+    parent = "community"
     url  = "/events/"
     weight = 4
 
 [[menu.main]]
     name = "Sponsors"
     identifier = "sponsors"
+    parent = "community"
     url  = "/sponsors/"
     weight = 5
+
+[[menu.main]]
+    name = "Guidance"
+    identifier = "guidance"
+    url  = ""
+    weight = 6
+
+[[menu.main]]
+    name = "Getting started"
+    parent = "guidance"
+    url  = "/guidance/quick-start-guide/"
+    weight = 5
+
+[[menu.main]]
+    name = "Assessment"
+    parent = "guidance"
+    url  = "/assessment/"
+    weight = 6
+
+[[menu.main]]
+    name = "Benchmarking"
+    parent = "guidance"
+    url  = "/benchmarking/"
+    weight = 7
 
 #[[menu.main]]
 #    name = "Version 1.5"
@@ -51,12 +84,18 @@ paginate = 10
 # [[menu.main]]
 #     name = "FAQ"
 #     url  = "/faq/"
+
 #     weight = 7
+
+[[menu.main]]
+    name = "User Day"
+    url  = "/user-day/"
+    weight = 8
 
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 8
+    weight = 9
 
 # Top bar social links menu
 
