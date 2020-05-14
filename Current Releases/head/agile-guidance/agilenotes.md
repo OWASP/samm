@@ -1,7 +1,7 @@
-# SAMM Agile notes - introduction
+# SAMM Agile guidance
 By Rob van der Veer (Software Improvement Group) with the help of many peers and clients. r.vanderveer@sig.eu
 
-These Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
+This document explains how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
 
 **Media**
 
@@ -9,21 +9,21 @@ These Agile notes explain how SAMM topics specifically work for Agile, in the fo
 
 - [Slides](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/20190926-AppsecTalk-SAMMagileNotes.pdf?raw=1)
 
-**Why SAMM Agile notes?**
+**Why SAMM Agile guidance?**
 
-The [Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/) is an OWASP flagship project on how to setup and grow a secure development process. It aims to be agnostic of the type of development approach, which is why Agile is not explicitly covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modelling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?
+The [Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/) is an OWASP flagship project on how to setup and grow a secure development process. It is agnostic of the development approach, which is why Agile is not explicitly covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modelling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?
 
-There are three main reasons for these Agile notes:
+There are three main reasons for SAMM Agile guidance:
 
-1. They provide specifics on how the activity is (slightly) different for Agile
-2. Additionally they provide more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what pitfalls to watch out for. Many mistakes are made in practice when doing software security, especially in Agile situations.
-3. They prevent SAMM being regarded as ‘too much waterfall’.
+1. It provides specifics on how the activity is (slightly) different for Agile
+2. Additionally it provides more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what pitfalls to watch out for. Many mistakes are made in practice when doing software security, especially in Agile situations.
+3. It prevents SAMM being regarded as ‘too much waterfall’.
 
 **History**
 
-Since April 2018, Rob van der Veer has been working on extending SAMM with this guidance, in collaboration with the SAMM working group, industry peers and clients. These peers notably include Michael Kuipers (Centric) and Eric Nieuwland (ICTU). The Agile notes were developed by studying many organisations  on what works and what doesn't work, by doing interviews and by looking into the many publications on this topic. 
+Since April 2018, Rob van der Veer has been working on extending SAMM with this guidance, in collaboration with the SAMM working group, industry peers and clients. These peers notably include Michael Kuipers (Centric) and Eric Nieuwland (ICTU). The Agile guidance was developed by studying many organisations  on what works and what doesn't work, by doing interviews and by looking into the many publications on this topic. 
 
-# The SAMM Agile notes 
+
 ## Topic: General 
 ### Quality at speed:
 How to attain quality at speed? Agile delivers software more frequently, which means that quality assurance is a more frequent issue. Traditionally, quality assurance has been a carefully designed single phase in software development. The challenge is to make it less bureaucratic, take less time and still get quality software. To make this feasible, mistakes need to be both prevented (build security in) and fought (find mistakes) with maximum efficiency, so to minimize manual work and the burden on developers:
@@ -41,7 +41,7 @@ How to attain quality at speed? Agile delivers software more frequently, which m
 - By checks that need to be automated as much as possible 
 - Manual checking will still be required and needs to be performed in a smart incremental and risk-based way, focusing only on changes and their impact.
 
-The Agile notes provide insight into how to make this happen.
+The SAMM Agile guidance provides insight into how to make this happen.
 ### Does a maturity model conflict with Agile?
 A maturity model may appear to conflict with the Agile manifesto, because Agile holds people over process and working software over documentation. However, Agile does not disqualify process or documentation - it wants to minimize it where possible. To make this happen, a maturity model can provide tremendous help and it supports the Agile way of improving the way you work by learning as you go along.
 
@@ -167,6 +167,6 @@ Security ought to be a standard topic in both refinements and retrospectives. Ov
 ### Security Champions
 A security champion is a liaison between developers in a team and information security. They act as a point of contact for security related questions and try to remove any impediments preventing the team to be able to develop software securely. Because of continuous collaboration in Agile, this role is very important.
 
-PITFALL #relyonthechampion: care should be taken to ensure that security is not delegated as a responsibility to a single developer. The champion can be responsible to help where possible, but that should not relieve the team of security concerns.  
+PITFALL #relyonthechampion: care should be taken to ensure that security is not delegated as a responsibility to a single developer. The champion can be responsible to help where possible, but that should not relieve the team of security concerns. 
 
 PITFALL #silentchampion: regarding selecting the right champion: the ability and the mandate of the champion to communicate and learn should be more important aspects than technical knowledge.
