@@ -1,9 +1,7 @@
 # SAMM Agile notes - introduction
-By Rob van der Veer (Software Improvement Group) with the help of many peers and clients.
+By Rob van der Veer (Software Improvement Group) with the help of many peers and clients. r.vanderveer@sig.eu
 
-r.vanderveer@sig.eu
-
-Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
+These Agile notes explain how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
 
 **Media**
 
@@ -11,28 +9,19 @@ Agile notes explain how SAMM topics specifically work for Agile, in the form of 
 
 - [Slides](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/20190926-AppsecTalk-SAMMagileNotes.pdf?raw=1)
 
-- [This document on the SAMM website](https://owaspsamm.org/head/agile-guidance/agilenotes/)
-
-
-
 **Why SAMM Agile notes?**
 
-The Software Assurance Maturity Model (SAMM) is an open guide to building security into software development. See [SAMM website](https://owaspsamm.org/)
-SAMM is OWASP's flagship project on how to setup and grow a secure development process. It aims to be agnostic of the type of development approach, which is why Agile was not covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modelling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?
+The [Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/) is an OWASP flagship project on how to setup and grow a secure development process. It aims to be agnostic of the type of development approach, which is why Agile is not explicitly covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modelling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?
 
 There are three main reasons for these Agile notes:
 
-1. They provide specifics on how the activity is (slightly) different for Agile, on the same detail level as the core model
-2. Additionally they provide more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what to watch out for. Many mistakes are made in practice when doing security, especially in Agile situations.
-3. They prevent some readers from believing SAMM is ‘too much waterfall’. This is mainly a language thing.
+1. They provide specifics on how the activity is (slightly) different for Agile
+2. Additionally they provide more detail on how to implement activities in Agile (for example how you make code reviews incremental), and what pitfalls to watch out for. Many mistakes are made in practice when doing software security, especially in Agile situations.
+3. They prevent SAMM being regarded as ‘too much waterfall’.
 
 **History**
 
-Since April 2018, Rob van der Veer has been working on extending SAMM with such guidance, in collaboration with the SAMM working group, industry peers and clients. These peers notably include Michael Kuipers (Centric) and Eric Nieuwland (ICTU). The Agile notes were developed by studying many organisations  on what works and what doesn't work, by doing interviews and by looking into the many publications on this topic. 
-
-**Deliverable**
-
-Just to imagine what these notes would look like:  in the 2.0 core PDF, these notes could for example be presented in rectangles marked ‘Agile note’ and then contain the note text. That way they are not part of the method-agnostic core text but at the same time they provide information that can easily be found or skipped.
+Since April 2018, Rob van der Veer has been working on extending SAMM with this guidance, in collaboration with the SAMM working group, industry peers and clients. These peers notably include Michael Kuipers (Centric) and Eric Nieuwland (ICTU). The Agile notes were developed by studying many organisations  on what works and what doesn't work, by doing interviews and by looking into the many publications on this topic. 
 
 # The SAMM Agile notes 
 ## Topic: General 
