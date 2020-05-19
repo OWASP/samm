@@ -65,6 +65,12 @@ paginate = 10
     weight = 5
 
 [[menu.main]]
+    name = "Agile"
+    parent = "guidance"
+    url  = "/guidance/agile/"
+    weight = 7
+
+[[menu.main]]
     name = "Assessment"
     parent = "guidance"
     url  = "/assessment/"
