@@ -1,7 +1,7 @@
 # SAMM Agile guidance
 By Rob van der Veer (Software Improvement Group) with the help of many peers and clients. r.vanderveer@sig.eu
 
-This document explains how SAMM topics specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
+This document explains how SAMM practices specifically work for Agile, in the form of best practices and pitfalls, to attain the continuous building in of sufficient security during software development.
 
 **Media**
 
@@ -43,7 +43,7 @@ The SAMM Agile guidance provides insight into how to make this happen.
 ### Does a maturity model conflict with Agile?
 A maturity model may appear to conflict with the Agile manifesto, because Agile holds people over process and working software over documentation. However, Agile does not disqualify process or documentation - it wants to minimize it where possible. To make this happen, a maturity model can provide tremendous help and it supports the Agile way of improving the way you work by learning as you go along.
 
-## Topic: Education & Guidance
+## Practice: Education & Guidance
 ### Team autonomy
 In most Agile environments, team autonomy is important, which means that it can be a challenge to work on process maturity at an organization-wide scale. If team-autonomy is important, then a maturity program should embrace that different teams can have different maturities and different ways of working, including security. At the same time it is advisable to let teams learn from each other, so sharing of practices between teams is a best practice for maturity programs, as well as transparency on maturity which nurtures gamification.
 
@@ -61,11 +61,11 @@ PITFALL #relyonthechampion: care should be taken to ensure that security is not 
 
 PITFALL #silentchampion: regarding selecting the right champion: the ability and the mandate of the champion to communicate and learn should be more important aspects than technical knowledge.
 
-## Topic: Strategy & metrics
+## Practice: Strategy & metrics
 ### Metrics
 In Agile, feedback loops are short and verification is frequent. You cannot control what you don’t measure, so in order to put security on the agenda and to improve maturity and quality of results, it is beneficial to measure those aspects. Ideally these measurements are presented in one or a series of dashboards which a central security team together with management can use to drive important decisions. 
 
-## Topic: Threat assessment
+## Practice: Threat assessment
 ### Incremental threat modelling
 Even though the Agile manifesto states “working software is more important than comprehensive documentation”, the concept of a threat model should not be dismissed. First of all, a threat model provides a shared mental model of possible attacks in a development team which decreases the probability of security mistakes. Second of all, a threat model can be helpful in selecting the right requirements: system-generic and story-specific (see “Requirements in stories” and “Selecting and preparing requirements”).
 
@@ -77,7 +77,7 @@ Involving the product owner is recommended to get a fast reality check regarding
 
 PITFALL #onlythreatmodel: Threat modelling should not be relied on as the only way to build security in. It’s typically hard for developers and for QA people to think like attackers and come up with all the things that could go wrong and all the necessary countermeasures. This is why it’s so important to have security requirements readily available to be selected when specific types of work are done (See “Selecting and preparing requirements”). This hardening approach to security (security hygiene, if you will) nicely complements the risk-based approach of threat modelling as another perspective to see how security needs to be built in. The team can let the amount (effort and frequency) of threat modelling depend on how much they trust the other methods of applying security requirements.
 
-## Topic: Security requirements
+## Practice: Security requirements
 ### Selecting and preparing requirements
 In an Agile process, some requirements need to be selected and tested for every sprint. In order to make this feasible, we need processes to select and prepare relevant requirements 1) per system and 2) per story. The goal is to make the story-process efficient and provide a minimized set of relevant requirements for each situation, including instructions for developers and test plans.
 
@@ -144,7 +144,7 @@ PITFALL #skipsecurityrequirements: The key to Agile security is to apply the rig
 
 PITFALL #pickduringplanning: Picking requirements should be done during either creation of the story or backlog refinements. Doing this during sprint planning is not recommended because all the time will be needed to plan.
 
-## Topic: Security testing
+## Practice: Security testing
 ### Agile testing
 In Agile, testing happens more frequently and typically covers the same parts of a system over and over again, which is why it is important to automate testing as much as possible and to limit manual testing based on the changes made. 
 
@@ -160,7 +160,7 @@ PITFALL #skipmanualtest: Automation alone will typically not do the trick. Both 
 
 PITFALL #latepentest: the classic penetration test pitfall is performing it late, just before a public release: when rework is the most expensive and time is the shortest.
 
-## Topic: Requirements driven testing
+## Practice: Requirements driven testing
 ### Abuse Stories
 An Abuse story (or evil story) is a description from the perspective of an attacker (as supposed to a user), how a system is abused through a security weakness: “As an attacker…”. It is normally not added on a sprint backlog because it does not describe specific development work that can be planned. The purpose of an abuse story is to help the team think about what could go wrong so they can specify the work/the requirements needed in user stories. The form of the abuse story is helpful because developers are familiar with user stories.
 Abuse stories are advantageous mostly in the beginning of development. Abuse stories can be helpful as explanation of certain security tests, explaining for example to a pentester against what threats a specific requirement needs to be tested.
