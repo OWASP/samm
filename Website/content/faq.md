@@ -4,7 +4,9 @@ description = "Frequently asked questions"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
-This document is work in progress. It grows with your questions and your feedback. You can always [contact us here](/contact/) or use our [Slack channel](https://owasp.slack.com/messages/C0VF1EJGH).
+This document is work in progress. It grows with your questions and your feedback. You can always reach out through our [contact form](/contact/) or our [Slack channel](https://owasp.slack.com/messages/C0VF1EJGH).
+
+{{< centered-image-small  "/img/pages/question.png" "question">}}
 
 ### Do I need a 1 out of 1 rating for maturity level 1 before working on level 2?
 
@@ -18,11 +20,11 @@ We did order the activities in a logical order and maturity levels, but each org
 If you have to send the questionnaire for people to fill out on their own, you can send the full questionnaire and ask them to fill out anything they feel fairly confident on the answers. If you are running sessions where you are asking them questions, then maybe don't go down the list. Just keep in mind what needs to be answered and interact with them as a conversation. Have them explain how things work and what doesn't. Then translate the notes to answers to the questions in the questionnaire.
 
 ### Is there a general description available for the 3 maturity levels?
-The first maturity level aims at achieving an ad-hoc, best effort implementation of a particular activity within a stream.
-The second maturity level aims to establish a consistent, repeatable process that can be relied on.
-The third maturity level aims to maximize effectiveness through continuous improvement, based on effective and timely feedback.
+1. The first maturity level aims at achieving an ad-hoc, best effort implementation of a particular activity within a stream.
+2. The second maturity level aims to establish a consistent, repeatable process that can be relied on.
+3. The third maturity level aims to maximize effectiveness through continuous improvement, based on effective and timely feedback.
 
-This content is part of our data files on GitHub and is part of our [PDF version](https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf). We'll work on having it available on the website soon.
+This content is part of our [data files on GitHub](https://github.com/OWASP/samm/tree/master/Supporting%20Resources/v2.0/Datamodel/Datafiles). We'll work on having it available on the website soon.
 
 ### Is there a process for translation efforts of SAMM into other languages?
 Yes! We're using [CrowdIn](https://crowdin.com/project/owasp-samm) and the help of the community to have SAMM translated to other languages.
