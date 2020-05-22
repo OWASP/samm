@@ -53,6 +53,12 @@ paginate = 10
     weight = 5
 
 [[menu.main]]
+    name = "FAQ"
+    parent = "community"
+    url  = "/faq/"
+    weight = 6
+
+[[menu.main]]
     name = "Guidance"
     identifier = "guidance"
     url  = ""
