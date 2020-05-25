@@ -10,15 +10,19 @@ On **June 16th, 2020** we're having our first OWASP SAMM User Day online. During
 
 {{< responsive-image  "../img/pages/user_day.png" "illustration of people on a conference call">}}
 
-## Propose your topic
+## Program
+At this moment, we can already confirm the following presentations and workshops for the user day (in no particular order):
+* SathIsh Eathuraj, SAMM 2.0 Dashboard 
+* Ben Schofield, Open control frameworks in Media and Entertainment
+* Lucian Corlan, OWASP Top 10 Maturity Categories for Security Champions
+* John Wood, The Seven Deadly Sins of OWASP SAMM
+* Thomas Kerbl, Using OWASP SAMM to kickstart the SSDLC - Lessons learned from real-world projects
+* Dennis Verslegers, Lean security: a framework for activities and design factors in DevSecOps
+* John Ellingsworth, OWASP SAMM: Tools of the Trade
+* Tony Cargile, Integrating SAMMv2 into Consulting Assessments
+* Brian Glas, SAMM benchmark - design and user stories 
 
-Have you used OWASP SAMM in your project or organization? We'd love to hear from you about what worked (or didn't work). Have you mapped or integrated SAMM in your control framework? Please share this with us! Have you used SAMM to compare your development team’s maturity and want to share your feedback? Do you want to organize a SAMM related virtual roundtable with your peers? Do you have great ideas on how to further improve SAMM?
+The final program will be published approx. 14 days before the event.
 
-Please propose your topic for our first User Day and share your secure development experience with the SAMM community.  
-To do that, **please fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSes9KoP76Hrr5gzlet8ZyFJTz_TneHrTYLQgRnn8VSUSi6i6w/viewform).**
-
-Topic formats include presentations, roundtables, and workshops.
-
-### Timeline
-May 19th, 2020 - CFT closes  
-June 2nd, 2020 - you will get notified
+## Registration
+This user day will be a complete virtual event, using Zoom technology. In order for the day to run smoothly, we require you to register for the event on EventBrite via the following link: TODO. Invitations with more practical information to join the user day will be sent out to registered people.
