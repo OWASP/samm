@@ -12,6 +12,7 @@ On **June 16th, 2020** we're having our first OWASP SAMM User Day online. During
 
 ## Program
 We are happy to announce the the following presentations and workshops for the user day (in no particular order):
+
 - SathIsh Eathuraj  
     SAMM 2.0 Dashboard  
 - Ben Schofield  
