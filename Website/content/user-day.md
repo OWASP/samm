@@ -12,23 +12,24 @@ On **June 16th, 2020** we're having our first OWASP SAMM User Day online. During
 
 ## Program
 We are happy to announce the the following presentations and workshops for the user day (in no particular order):
-* SathIsh Eathuraj  
+
+- SathIsh Eathuraj  
     SAMM 2.0 Dashboard  
-* Ben Schofield  
+- Ben Schofield  
     Open control frameworks in Media and Entertainment  
-* Lucian Corlan  
+- Lucian Corlan  
     OWASP Top 10 Maturity Categories for Security Champions  
-* John Wood  
+- John Wood  
     The Seven Deadly Sins of OWASP SAMM  
-* Thomas Kerbl  
+- Thomas Kerbl  
     Using OWASP SAMM to kickstart the SSDLC - Lessons learned from real-world projects  
-* Dennis Verslegers  
+- Dennis Verslegers  
     Lean security: a framework for activities and design factors in DevSecOps  
-* John Ellingsworth  
+- John Ellingsworth  
     OWASP SAMM: Tools of the Trade  
-* Tony Cargile  
+- Tony Cargile  
     Integrating SAMMv2 into Consulting Assessments  
-* Brian Glas  
+- Brian Glas  
     SAMM benchmark - design and user stories  
 
 We'll publish the final program a couple of weeks before the event.
