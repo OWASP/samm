@@ -3802,6 +3802,30 @@ a.list-group-item.active > .badge,
   width: 200px;
 }
 
+.flex-banner-container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .img-left {
+    padding: 20px;
+  }
+  .img-right {
+    display: none;
+  }
+}
+
 .flex-container {
     display: flex; /* or inline-flex */
     flex-direction: row;
