@@ -65,7 +65,8 @@ button i.fa {
 .required {
   color: #366867;
 }
-.accent {
+.
+ {
   color: #366867;
 }
 .text-uppercase {
@@ -3794,6 +3795,13 @@ a.list-group-item.active > .badge,
   width: 200px;
 }
 
+.centered-img-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
 .flex-banner-container {
   display: flex; /* or inline-flex */
   flex-direction: row;
@@ -3817,7 +3825,6 @@ a.list-group-item.active > .badge,
     display: none;
   }
 }
-
 
 .flex-container {
     display: flex; /* or inline-flex */
