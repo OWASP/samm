@@ -220,7 +220,7 @@ Abuse stories are advantageous mostly at the beginning of development. Abuse sto
 **PITFALL #abusestorygalore**  
 Abuse stories should not be the only method to find security requirements (see “Requirements in stories”). Requirements can also be added by applying triggers, expertise, and by using triggers, allowing more direct and efficient selection instead of first having to think about what could go wrong.
 
-See [Misuse/Abuse testing](/model/verification/requirements-driven-testing/stream-b/) in the SAMM Model.
+See [Misuse/Abuse Testing](/model/verification/requirements-driven-testing/stream-b/) in the SAMM Model.
 
 <a name="ST"></a>
 
@@ -242,4 +242,4 @@ Automation alone will typically not do the trick. Both expert code review and ma
 **PITFALL #latepentest**  
 The classic penetration test pitfall is performing it late, just before a public release: when rework is the most expensive and time is the shortest.
 
-See [Security testing](/model/verification/security-testing/) in the SAMM Model.
+See [Security Testing](/model/verification/security-testing/) in the SAMM Model.
