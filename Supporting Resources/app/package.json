@@ -1,5 +1,5 @@
 {
-  "name": "ang8crud",
+  "name": "samm",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -65,6 +65,8 @@
     "jquery": "^3.4.1",
     "jsreport": "^2.6.1",
     "jsreport-client": "^1.0.2",
+    "kind-of": "^6.0.3",
+    "minimist": "^1.2.5",
     "ng-chartjs": "^0.1.2",
     "ng-circle-progress": "^1.5.1",
     "ng2-charts": "^2.3.0",

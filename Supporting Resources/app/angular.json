@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ang8crud": {
+    "samm": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ang8crud",
+            "outputPath": "dist/samm",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -77,19 +77,19 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ang8crud:build",
+            "browserTarget": "samm:build",
             "port": 4208
           },
           "configurations": {
             "production": {
-              "browserTarget": "ang8crud:build:production"
+              "browserTarget": "samm:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ang8crud:build"
+            "browserTarget": "samm:build"
           }
         },
         "test": {
@@ -131,16 +131,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ang8crud:serve"
+            "devServerTarget": "samm:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ang8crud:serve:production"
+              "devServerTarget": "samm:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "ang8crud"
+  "defaultProject": "samm"
 }
