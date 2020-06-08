@@ -3675,6 +3675,31 @@ a.list-group-item.active > .badge,
   background-color:rgba(102, 184, 184, .5); 
   color:#366867;
   font-weight: 600;
+  padding: 10px;
+}
+
+.samm-title-row a {
+ color: #366867;
+}
+
+.samm-title-row a:hover {
+  color: #003333;
+}
+
+.samm-heading-row {
+  text-align: center;
+  background-color:rgba(0, 51, 51, .7); 
+  color:white;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.samm-break-row {
+  text-align: center;
+  background-color:rgba(117, 118, 128, .3); 
+  color:#366867;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .samm-title-row-centered {
@@ -3682,20 +3707,29 @@ a.list-group-item.active > .badge,
   background-color:rgba(102, 184, 184, .5); 
   color:#366867;
   font-weight: 600;
+  padding: 10px;
+}
+
+.samm-row {
+  text-align: left;
+  color:#366867;
+  font-weight: 400;
+  padding: 10px;
 }
 
 .samm-row-bold {
   text-align: left;
   color:#366867;
   font-weight: 600;
+  padding: 10px;
 }
 
 .samm-row-centered-bold {
   text-align: center;
   color:#366867;
   font-weight: 600;
+  padding: 10px;
 }
-
 
 /* tab */
 .tab {

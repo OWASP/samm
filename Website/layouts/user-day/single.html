@@ -1,0 +1,51 @@
+{{ define "content" }}
+<div class="col-md-12 samm-page-content">
+    <div class="heading">
+        <h2>{{ .Params.name | markdownify }}</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            {{ if .Params.image }}
+                <img src="{{ .Params.image }}" class="img-left" style="max-width: 200px;" alt="speaker picture"/>
+            {{ else }}
+                <img src="/img/people/undraw_male_avatar_323b.png" class="img-left" style="max-width: 200px;" alt="generic avatar"/>
+            {{ end }}
+        </div>
+        <div class="col-md-9">
+            <h3>{{ .Params.speaker }}</h3>
+            <p>
+                {{ .Params.affiliation }}
+                </br>
+                {{ .Params.role }}
+            </p>
+            {{ with .Params.twitter }}
+                <a href="https://twitter.com/{{ . }}" target="_blank"><i class="fab fa-2x fa fa-twitter-square"></i></a>
+            {{ end }}
+            {{ with .Params.linkedin }}
+                <a href="https://linkedin.com/in/{{ . }}" target="_blank"><i class="fab fa-2x fa fa-linkedin-square"></i></a>
+            {{ end }}
+        </div>
+    </div>
+    {{ with .Params.abstract }}
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Abstract</h2>
+            <p>{{ . | markdownify }}</p>
+        </div>
+    </div>
+    {{ end }}
+    {{ with .Params.bio }}
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Speaker bio</h2>
+            <p>{{ . | markdownify }}</p>
+        </div>
+    </div>
+    {{ end }}
+            
+    <div class="samm-content-with-space">
+        {{ .Content }}
+    </div>
+</div>
+
+{{ end }}
