@@ -1,8 +1,9 @@
-+++
-title = "User Day"
-description = "User Day June 16th, 2020"
-keywords = ["about","what is","questions", "event", "user"]
-+++
+---
+title: User Day
+layout: main-page
+description: User Day June 16th, 2020
+keywords: ["about","what is","questions", "event", "user"]
+---
 
 ## Save the date
 
