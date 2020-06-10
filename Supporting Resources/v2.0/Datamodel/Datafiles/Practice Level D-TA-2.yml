@@ -13,7 +13,7 @@ maturitylevel: 47dd82af343e4695a0385418af4398d1
 id: e5b6dc4f907c4986b8ba7923303cd665
 
 #Objective of this particular practice level
-objective: Increase granularity of security requirements derived from business logic
-  and known risks.
+objective: Standardization and enterprise-wide analysis of software-related
+  threats within the organization.
 #Type Classification of the Document
 type: PracticeLevel
