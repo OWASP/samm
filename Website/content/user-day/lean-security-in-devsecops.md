@@ -5,8 +5,8 @@ title: User day
 name: Lean security&#58; a framework for activities and design factors in DevSecOps
 speaker: Dennis Verslegers
 image: /img/people/Dennis_Verslegers.png
-affiliation: 
-role: 
+affiliation: OrangeCyberDefense
+role: Strategic Advisor Application Security
 twitter: "@DVerslegers"
 abstract: |
     Improving your security posture while delivering software more rapidly and reliably, a challenge which many organizations are facing. Eighteen months ago, I set out for a quest to find out more about DevSecOps, SecDevOps, RuggedOps, shift-left… Which (security) activities are part of DevSecOps? How do we choose between them? and How are they different from traditional security assurance activities? Join this session if you want to find out what I learned on my journey through literature research and interactions with 18 international DevSecOps experts.  
