@@ -7,15 +7,6 @@ keywords = ["agile","guidance"]
 ## Overview
 This document explains how SAMM security practices work for Agile to attain the continuous building in of sufficient security during software development. It's structured in the form of best practices and pitfalls.
 
-### Author
-[Rob van der Veer](mailto:r.vanderveer@sig.eu) (Software Improvement Group) with the help of many peers and clients. 
-
-### Media
-
-- [Talk at GlobalAppsec Amsterdam 2019](https://www.youtube.com/watch?v=ati80YcVJy8)
-
-- [Slides](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/20190926-AppsecTalk-SAMMagileNotes.pdf?raw=1)
-
 ### Why SAMM Agile guidance
 
 The [Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/) is an OWASP flagship project on how to set up and grow a secure development process. It is agnostic of the development approach, which is why Agile is not explicitly covered. Nevertheless, there appears to be a strong need in the industry for guidance on how to make secure software development work in an Agile environment. How do you squeeze all the necessary activities into a sprint, e.g. requirement selection, threat modeling, verification? What do you do with stories, with abuse stories and with the Definition Of Done? How do you get security teams and developers to co-operate instead of just setting up quality gates?
@@ -243,3 +234,12 @@ Automation alone will typically not do the trick. Both expert code review and ma
 The classic penetration test pitfall is performing it late, just before a public release: when rework is the most expensive and time is the shortest.
 
 See [Security Testing](/model/verification/security-testing/) in the SAMM Model.
+
+### Author
+[Rob van der Veer](mailto:r.vanderveer@sig.eu) (Software Improvement Group) with the help of many peers and clients. 
+
+### Media
+
+- [Talk at GlobalAppsec Amsterdam 2019](https://www.youtube.com/watch?v=ati80YcVJy8)
+
+- [Slides](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/agile-guidance/20190926-AppsecTalk-SAMMagileNotes.pdf?raw=1)
