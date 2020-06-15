@@ -137,9 +137,16 @@ paginate = 10
 
 [[menu.topbar]]
     weight = 5
+    name = "YouTube"
+    url = "https://www.youtube.com/channel/UCEZDbvQrj5APg5cEET49A_g"
+    pre = "<i class='fa fa-2x fa-youtube'></i>"
+
+[[menu.topbar]]
+    weight = 6
     name = "Email"
     url = "mailto:info@owaspsamm.org"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
+
 
 [params]
     viewMorePostLink = "/blog/"
