@@ -3710,6 +3710,15 @@ a.list-group-item.active > .badge,
   padding: 10px;
 }
 
+.samm-title-row-centered a {
+  color: #366867;
+ }
+ 
+ .samm-title-row-centered a:hover {
+   color: #003333;
+ }
+ 
+
 .samm-row {
   text-align: left;
   color:#366867;
@@ -3845,10 +3854,12 @@ a.list-group-item.active > .badge,
 
 .img-left {
   float: left;
+  padding-right: 30px;
 }
 
 .img-right {
   float: right;
+  padding-left: 40px;
 }
 
 @media screen and (max-width: 600px) {
