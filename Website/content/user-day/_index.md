@@ -5,17 +5,15 @@ description: User Day June 16th, 2020
 keywords: ["about","what is","questions", "event", "user"]
 ---
 
-## Save the date
+On **June 16th, 2020** we had our first OWASP SAMM User Day. We want to thank all our speakers and attendees for a day packed with shared experiences and useful ideas! We would also appreciate your feedback so we know how we can make it better for you the next time around.
 
-On **June 16th, 2020** we're having our first OWASP SAMM User Day online. During this User Day, we'll share our practical experiences and lessons learned when using OWASP SAMM to improve your secure development practices.
+{{< responsive-image-link  "../img/pages/feedback_banner_small.png" "Give feedback" "https://www.surveymonkey.com/r/3NFB35T">}}
 
-{{< responsive-image-link  "../img/pages/user_day.png" "illustration of people on a conference call" "https://www.eventbrite.com/e/owasp-samm-user-day-tickets-107338771154">}}
+## Presentations
 
-## Program
+Here's all the information on the talks we had during the User Day, together with the presentations the speakers used.
 
 {{< user_day_agenda >}}
 
-##### Watch live on [YouTube](https://www.youtube.com/channel/UCEZDbvQrj5APg5cEET49A_g)
+##### Watch on [YouTube](https://www.youtube.com/channel/UCEZDbvQrj5APg5cEET49A_g)
 
-## Registration
-This user day will be a complete virtual event, using Zoom technology.  For the day to run smoothly, we ask you to [register](https://www.eventbrite.com/e/owasp-samm-user-day-tickets-107338771154) for the event on EventBrite. We'll send out invitations with more practical information to registered people.
