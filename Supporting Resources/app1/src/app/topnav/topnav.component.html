@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+<section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="javascript: void(0);">SAMM
+        </a>
+      </div>
+      <nav>
+        <div class="nav-mobile">
+          <a id="nav-toggle" href="javascript: void(0);" ><span></span></a>
+        </div>
+        <ul class="nav-list" style="float: inline-end;">
+          <li style="color:white;padding:10px;margin-right:14vh;text-transform:uppercase;"></li>
+          <li><button routerLink="/home" ><i class="fas fa-home"></i>Home</button></li>
+          <li><button routerLink="/userprofile"><i class='fas fa-user-alt'></i>Profile</button></li>
+          <li><button (click)="auth.logout()"><i class='fas fa-sign-out-alt'></i>Logout</button></li>
+        </ul>
+      </nav>
+    </div>
+  </section>

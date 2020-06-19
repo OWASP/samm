@@ -1,0 +1,35 @@
+{
+    "shortid": "rkJTnK2ce",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "data": {
+        "shortid": "Sy5S19ncg"
+    },
+    "name": "invoice-main",
+    "folder": {
+        "shortid": "G3i2B3"
+    },
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1cm",
+        "marginRight": "1cm",
+        "marginBottom": "1cm",
+        "marginLeft": "1cm"
+    },
+    "creationDate": "2020-01-10T05:17:12.009Z",
+    "modificationDate": {
+        "$$date": 1584084490985
+    },
+    "_id": "u07olXB4Fx2SoqoO",
+    "$entitySet": "templates",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "enabled": false
+        },
+        {
+            "type": "merge",
+            "enabled": false
+        }
+    ]
+}

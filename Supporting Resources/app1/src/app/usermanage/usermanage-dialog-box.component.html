@@ -1,0 +1,69 @@
+
+
+<div class="md-padding dialogdemoBasicUsage">
+  <h1 mat-dialog-title  >Edit Score </h1>
+
+  </div>
+
+
+
+
+  <div mat-dialog-content>
+    <br>
+    <label for="Name"><b>Name</b></label>
+    <br>
+    <mat-form-field style="width: 1300px;" >
+      <input placeholder="" matInput [(ngModel)]="local_data.Name">
+
+    </mat-form-field>
+    <br>
+    <label for="Username"><b>Username</b></label>
+    <br>
+    <mat-form-field style="width: 1300px;">
+      <input placeholder="" matInput [(ngModel)]="local_data.Username">
+
+    </mat-form-field>
+    <br>
+    <label for="Email"><b>Email</b></label>
+
+    <br>
+    <mat-form-field style="width: 1300px;">
+      <input placeholder=""matInput [(ngModel)]="local_data.Email">
+
+    </mat-form-field>
+    <br>
+    <label for="Role"><b>Role</b></label>
+    <br>
+    <mat-form-field style="width: 1300px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.Role">
+
+    </mat-form-field>
+    <br>
+    <label for="GroupName"><b>GroupName</b></label>
+    <br>
+
+    <mat-form-field  style="width: 1300px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.GroupName">
+    </mat-form-field>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  <br>
+
+  <div mat-dialog-actions>
+
+    <button mat-button (click)="closeDialog()" mat-flat-button >Close</button>
+    <button mat-button mat-flat-button class="btn btn-primary pull-right" (click)="doAction()">{{action}}</button>
+  </div>

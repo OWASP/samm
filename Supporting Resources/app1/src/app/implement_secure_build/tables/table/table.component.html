@@ -1,0 +1,233 @@
+<!--button class="btn btn-lg btn-outline-primary" (click)="open(mymodal)">Open My Modal</button-->
+
+<ng-template #mymodal let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Edit Score</h4>
+      <button style='border:none' type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Ok</button>
+    </div>
+  </ng-template>
+  
+  
+  <kendo-grid
+              [kendoGridBinding]="gridView"
+              kendoGridSelectBy="id"
+              [selectedKeys]="mySelection"
+              [pageSize]="50"
+              [pageable]="false"
+              [data]="gridView"
+              [pageable]="true"
+              [sortable]="true"
+              [groupable]="true"
+              [group] = "groups"
+              [reorderable]="true"
+              [resizable]="true"
+              [height]="630"
+              [columnMenu]="{ filter: true }"
+          >
+              <ng-template kendoGridToolbarTemplate>
+                  <input placeholder="Search in all columns..." kendoTextBox (input)="onFilter($event.target.value)"/>
+                  <button kendoGridExcelCommand type="button" icon="file-excel" style="float:right;">Export to Excel</button>
+                  <button kendoGridPDFCommand icon="file-pdf" style="float:right;">Export to PDF</button>
+              </ng-template>
+              <kendo-grid-checkbox-column
+                  [width]="25"
+                  [headerClass]="{'text-center': true}"
+                  [class]="{'text-center': true}"
+                  [resizable]="false"
+                  [columnMenu]="false"
+                  showSelectAll="true"
+              ></kendo-grid-checkbox-column>
+              <!--kendo-grid-column-group title="Employee" [columnMenu]="false"-->
+              <kendo-grid-column field="id" title="ID" [width]="70" [headerClass]="{'text-center': true}">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <!--div class="customer-photo" [ngStyle]="{'background-image' : photoURL(dataItem)}"></div-->
+                        <div class="">{{ dataItem.id }}</div>
+                    </ng-template>
+                  </kendo-grid-column>
+                  
+                  <kendo-grid-column field="quests" title="Questionnaires" [width]="180" [headerClass]="{'text-center': true}">
+                      <ng-template kendoGridCellTemplate let-dataItem>
+                          <!--div class="customer-photo" [ngStyle]="{'background-image' : photoURL(dataItem)}"></div-->
+                          <div class="customer-name">{{ dataItem.quests }}</div>
+                          <!--<div class="customer-name">Description:<br> {{ dataItem.description }}</div>-->
+                      </ng-template>
+                  </kendo-grid-column>
+                  <kendo-grid-column field="details" title="Details" [width]="250" [headerClass]="{'text-center': true}">
+                      <ng-template kendoGridCellTemplate let-dataItem>
+                          <!--div class="customer-photo" [ngStyle]="{'background-image' : photoURL(dataItem)}"></div-->
+                        <!--  <div class="customer-name">{{ dataItem.quests }}</div>-->
+                       
+                          <div class="customer-name" *ngFor="let suit of dataItem.details" ><li> {{ suit}}</li></div>
+                        
+                      </ng-template>
+                  </kendo-grid-column>
+                  <!--kendo-grid-column field="category" title="Category" [width]="120">
+                  </kendo-grid-column-->
+                  <!--kendo-grid-column
+                      field="country"
+                      title="Country"
+                      [width]="100"
+                      [class]="{'text-center': true}"
+                      [resizable]="false"
+                  >
+                      <ng-template kendoGridCellTemplate let-dataItem>
+                          <img class="flag" [src]="flagURL(dataItem)" width="30">
+                      </ng-template>
+                  </kendo-grid-column-->
+                  <kendo-grid-column
+                      field="score"
+                      title="Score"
+                      [width]="50"
+                      [class]="{'text-center': true}"
+                      [resizable]="false"
+                      filter="boolean"
+  
+                  >
+                      <ng-template kendoGridCellTemplate let-dataItem>
+                        <div class=""> {{ dataItem.score }}</div>
+                                         </ng-template>
+                  </kendo-grid-column>
+                  <kendo-grid-column
+                  field="answer"
+                  title="Answer"
+                  [width]="70"
+                  [headerClass]="{'text-center': true}"
+                  filter="boolean"
+              >
+                  <ng-template kendoGridCellTemplate let-dataItem>
+                    <div class=""> {{ dataItem.answer }}</div>
+                                     </ng-template>
+              </kendo-grid-column>
+              <kendo-grid-column *ngIf=""
+                  field="gcomment"
+                  title="Comment"
+                  [width]="70"
+                  [headerClass]="{'text-center': true}"
+                  filter="boolean"
+              >
+                  <ng-template kendoGridCellTemplate let-dataItem>
+                    <div class=""> {{ dataItem.comment }}</div>
+                                     </ng-template>
+              </kendo-grid-column>
+              <kendo-grid-column *ngIf=""
+              field="commentor"
+              title="Commentor"
+              [width]="70"
+              [headerClass]="{'text-center': true}"
+              filter="boolean"
+          >
+              <ng-template kendoGridCellTemplate let-dataItem>
+                <div class=""> {{ dataItem.commentor }}</div>
+                                 </ng-template>
+          </kendo-grid-column>
+              <kendo-grid-column *ngIf=""
+              field="user"
+              title="User"
+              [width]="70"
+              [headerClass]="{'text-center': true}"
+              filter="boolean"
+          >
+              <ng-template kendoGridCellTemplate let-dataItem>
+                <div class=""> {{ dataItem.user }}</div>
+                                 </ng-template>
+          </kendo-grid-column>
+          <kendo-grid-column *ngIf=""
+          field="auditor"
+          title="Auditor"
+          [width]="70"
+          [headerClass]="{'text-center': true}"
+          filter="boolean"
+      >
+          <ng-template kendoGridCellTemplate let-dataItem>
+            <div class=""> {{ dataItem.user }}</div>
+                             </ng-template>
+      </kendo-grid-column>
+              <!--/kendo-grid-column-group-->
+              <!--kendo-grid-column-group title="Performance" [columnMenu]="false"-->
+                  <!--kendo-grid-column
+                      field="rating"
+                      title="Rating"
+                      [width]="110"
+                      [resizable]="false"
+                      filter="numeric"
+                  >
+                      <ng-template kendoGridCellTemplate let-dataItem>
+                          <app-kendo-rating
+                              [value]="dataItem.rating"
+                              [max]="5"
+                          ></app-kendo-rating>
+                      </ng-template>
+                  </kendo-grid-column-->
+                  <!--kendo-grid-column
+                      field="target"
+                      title="Engagement"
+                      [width]="230"
+                      [resizable]="false"
+                      filter="numeric"
+                  >
+                      <ng-template kendoGridCellTemplate let-dataItem>
+                          <kendo-sparkline type="bar"
+                              [data]="dataItem.target"
+                              [tooltip]="{visible: false}"
+                              [transitions]="true"
+                              [seriesDefaults]="{labels: {background: 'none', visible: true, format: '{0}%'}}"
+                          >
+                              <kendo-chart-area opacity="0" [width]="200"></kendo-chart-area>
+                              <kendo-chart-value-axis>
+                                  <kendo-chart-value-axis-item [min]="0" [max]="130">
+                                  </kendo-chart-value-axis-item>
+                              </kendo-chart-value-axis>
+                          </kendo-sparkline>
+                      </ng-template>
+                  </kendo-grid-column-->
+                  <kendo-grid-column
+                      field="budget"
+                      
+                      title="Action"
+                      [width]="70"
+                      filter="numeric"
+                      [headerClass]="{'text-center': true}"
+                  >
+                      <ng-template kendoGridCellTemplate let-dataItem>
+                        <!-- <button (click)="open('Update',dataItem)" kendoButton [primary]="true">Edit</button> -->
+                          <button (click)="openDialog('Update',dataItem)" kendoButton [primary]="true">Edit</button>
+                          <!--span [ngClass]="{'red text-bold': dataItem.budget < 0}">{{ dataItem.budget | currency }}</span-->
+                      </ng-template>
+                  </kendo-grid-column>
+  
+  
+              <!--/kendo-grid-column-group-->
+              <!--kendo-grid-column-group title="Contacts" [columnMenu]="false">
+                  <kendo-grid-column field="phone" title="Phone" [width]="130">
+                  </kendo-grid-column>
+                  <kendo-grid-column field="address" title="Address" [width]="200">
+                  </kendo-grid-column>
+              </kendo-grid-column-group-->
+              
+              <kendo-grid-excel fileName="implement_secure_build.xlsx"></kendo-grid-excel>
+              <kendo-grid-pdf  fileName="implement_secure_build.pdf"  paperSize="A4"  [scale]="0.5"  [repeatHeaders]="true"  [margin]="{ top: '0.5cm', left: '0.5cm', right: '0.5cm', bottom: '0.5cm' }">  
+                      <ng-template kendoGridPDFTemplate let-pageNum="pageNum" let-totalPages="totalPages"> 
+                           <div class="page-template">  
+                               <div class="header">  
+                                   <div style="float: right">Page {{ pageNum }} of {{ totalPages }}</div> Secure Build Report </div>  <div class="footer">  Page {{ pageNum }} of {{ totalPages }}  </div>  </div>  </ng-template>
+                  <kendo-grid-column field="id" title="id"  width="80">  </kendo-grid-column>  
+                  <kendo-grid-column field="quests" title="Questions">  </kendo-grid-column>  
+                  
+                  <kendo-grid-column field="details" title="Details">  </kendo-grid-column> 
+                  <kendo-grid-column field="answer" title="Answer">  </kendo-grid-column> 
+                  <kendo-grid-column field="commentor" title="Commentor" width="110">  </kendo-grid-column> 
+                  <kendo-grid-column field="score" title="Score"   width="80">  </kendo-grid-column>
+                  <kendo-grid-column field="gcomment" title="Comment">  </kendo-grid-column>  
+              </kendo-grid-pdf>
+  
+          </kendo-grid>
+  
+  

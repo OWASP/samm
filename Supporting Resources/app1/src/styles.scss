@@ -1,0 +1,255 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+
+body {
+
+  // background-color: #061234;
+  //background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%) !important;
+   //background-image: linear-gradient(to bottom, #010f20 20%, #061339 90%) !important;
+   background-attachment: fixed !important;
+   background: black !important;
+  //background-image: radial-gradient(#123 5%, transparent 0);
+  //background-size: 35px 35px;
+
+  font-family: 'Oxygen', sans-serif;
+}
+
+  h6{
+    font-weight: bolder !important;
+    text-transform: uppercase !important;
+  }
+
+text{
+  //fill:white !important;
+  //fill: cyan !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px !important;
+}
+
+
+.inside {
+  &:hover{
+    height: 100% !important;
+  }
+}
+
+h5{
+  text-transform: UPPERCASE !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+
+
+
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/ng2-slim-loading-bar/style.css";
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import "~aos/dist/aos.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.example-card {
+    max-width: 500px;
+    display: flex;
+   flex-direction: row;
+  }
+
+  .title-card{
+    font-size:7vh;
+    float:left;
+    font-family: 'Roboto', sans-serif;
+  }
+  .subtitle-card{
+    font-size:7vh;
+    color: #274b6a;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .content-card{
+    font-size:3vh;
+    float:left;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+        .modal-footer{
+          align-items: center;
+        }
+
+        .card_hover1{
+          display:hidden;
+        }
+        .container1{
+          height:80px;
+        }
+
+        body {
+          margin :0;
+        }
+
+
+        .mat-dialog-container {
+          transform: none;
+          border: 2px bisque;
+          background: black;
+          color:white;
+         // height: 800px;
+         // width: 800px;
+          }
+
+         .mat-tab-label .mat-tab-label-content {
+             color: white;
+          }
+
+          .mat-card {
+            background: transparent;
+            color: #f8f9fa;
+        }
+        h1[_ngcontent-kxf-c3] {
+          color: white;
+        }
+        .subtitle-card {
+          font-size: 7vh;
+          color: white;
+      }
+      .mat-form-field-infix {
+        background: white;
+      }
+      [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        // color: white;
+    }
+    .mat-icon {
+      color: white;
+  }
+  .mat-form-field-infix {
+    margin-left: 2vh;
+    padding: 5px 5px 5px 5px !important;
+  }
+
+text{
+  //fill:white !important;
+  //fill: cyan !important;
+  font-weight: 600;
+  letter-spacing: 2px !important;
+}
+
+tspan{
+  //fill: #9a0139 !important;
+ //fill:darkcyan !important;
+ //font-size: 10px;
+ font-weight: 600;
+   fill: white !important;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-dialog-container {
+  display: block;
+  padding: 24px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: auto;
+  outline: 0;
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  max-height: inherit;
+  background: whitesmoke;
+
+}
+.modal-basic-title {
+  color: black;
+}
+.btn-outline-dark {
+  color: #343a40;
+  background-color: white;
+  border-color: #343a40;
+}
+.btn-outline-dark:hover {
+  color: white;
+  /* background-color: #343a40;  */
+  border-color: #343a40;
+}
+.mat-stepper-horizontal, .mat-stepper-vertical {
+  background-color: #424242;
+}
+.mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+  background-color: #7b1fa2;
+  color: whitesmoke;
+}
+/*.mat-step-header .mat-step-icon {
+  background-color: rgba(255,255,255,.7);
+  color: #fff;
+}  */
+.mat-step-header .mat-step-label.mat-step-label-active {
+  color: white;
+}
+/*
+.k-grid-toolbar>*+* {
+  margin-left: 4px;
+  background: gray;
+}
+*/
+#modal-basic-title{
+  color: black;
+}
+
+.k-button-icontext k-button k-grid-excel :hover {
+  margin-left: 4px;
+  background: gray;
+  color: black;
+}
+
+
+
+.carousel-indicators {
+  margin-right: 0%;
+  margin-left: 0%;
+  left: 35% !important;
+}
+ 
+.carousel {
+  z-index: 0 !important;
+}
+ 
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.92) !important;
+  border: 5px solid #135858 !important;
+  border-radius: 10px !important;
+}
+ 
+.modal-header {
+  border: none !important;
+}
+ 
+.modal-body {
+  border: none !important;
+}
+ 
+.modal-footer {
+  border-radius: 20px;
+  border-top: 2px solid #135858 !important;
+}
+
+.k-grid, .k-grid-header, .k-grid-header .k-header{
+  background-color: #253041;
+  color: #768895
+}
+
+.k-grouping-row td, tbody .k-group-cell, .k-grid-content, .k-grid-toolbar, .k-grouping-header {
+  background-color: #02142a;
+  color: #768895
+}
+
+.k-grid td{
+  color: #768895; 
+}
+
+.k-grid tr:hover > td{
+  background-color: black;
+  color: #768895;
+}

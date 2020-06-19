@@ -1,0 +1,262 @@
+/*  For Demo/Test pages */
+@media only screen {
+    main {
+        padding-left:210px;
+    }
+}
+
+@media only screen and (max-width: 961px) {
+    main {
+        padding-left: 0px;
+    }
+}
+
+#viz_container {
+    margin:0px auto;
+    width:600px;
+    height:600px;
+    padding-top:0px;
+    border-radius:6px;
+    overflow: hidden;
+}
+
+
+div.container {
+    left:0px;
+    right:0px;
+    position:absolute;
+    top:100px;
+}
+
+/* MATERIAL.CSS for Demo Menu */
+
+[type="radio"]:checked + label:after {
+    background-color:#448AFF;
+    border-color: #3864c9;
+}
+
+[type="radio"] + label {
+    border-color: #3864c9;
+}
+
+.input-field {
+    margin-left: 0px;
+    padding-bottom: 5px;
+    font-family: "Roboto";
+}
+
+.dropdown-content {
+    font-family:"Roboto";
+    font-size:.5em;
+}
+
+.dropdown-content li span {
+    font-family:"Roboto";
+    font-size:1.75em;
+}
+
+div.input-field label {
+    margin-left:-10px;
+}
+
+.mdi-navigation-menu {
+    font-size:30px;
+    color:#444;
+}
+
+i.mdi-navigation-menu:before {
+    font-size:40px;
+    content: "\e662";
+}
+i.mdi-navigation-menu:hover {
+    transition: color 0.5s ease;
+    color: #0176B4;
+}
+
+div.settings-label {
+    font-size:12px;
+    color:#BBB;
+    font-style: italic;
+    margin-top:-10px;
+    margin-bottom:40px;
+    font-weight:300;
+}
+
+/*  for tool tips etc */
+.z-depth-2 {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.z-depth-3 {
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+
+.z-depth-4, .modal {
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21); }
+
+.z-depth-5 {
+    box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22); }
+
+.vz-data-tip {
+    position: absolute;
+    z-index: 100;
+    width: 175px;
+    border-radius: 4px;
+    border: 1px solid #EEE;
+    padding: 10px;
+    background: rgba(255,255,255, .9);
+    -moz-box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, .25);
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, .25);
+    pointer-events: none;
+}
+
+.vz-tip-header-rule{
+    height:1px;
+    margin:1px auto 3px;
+    margin-top:7px;
+    margin-bottom:7px;
+    background:#ddd;
+    width:125px;
+}
+
+.vz-tip-header1{
+    color:#000;
+    text-transform:uppercase;
+    font-size: 12px;
+    margin-bottom: 2px;
+    text-align:center;
+}
+
+.vz-tip-header2 {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 2px;
+    color:#666;
+    text-align:center;
+}
+
+.vz-tip-header3 {
+    color:#333;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Georgia;
+    /*  width:170px;*/
+    text-align:center;
+}
+
+
+
+/* General Vizuly Styles for SVG */
+svg.vizuly path.domain {
+    fill:none;
+}
+
+.vizuly {
+    fill: #AAA;
+    shape-rendering: auto;
+}
+
+.vz-background {
+    fill: none;
+	fill: transparent !important;
+}
+
+.vz-plot-background {
+    fill: #FFF;
+}
+
+.vz-left-axis path.domain {
+    display:none;
+}
+.vz-bottom-axis path.domain {
+    display:none;
+}
+
+.vz-bar{
+    stroke: #EEE;
+    fill: #777;
+    shape-rendering:auto;
+}
+
+.vz-area {
+    fill-opacity:0.7;
+    shape-rendering: auto;
+}
+
+.vz-line {
+    stroke: #777;
+    stroke-width:1px;
+    stroke-opacity: 1;
+    fill:none;
+    shape-rendering: auto;
+}
+
+.vz-tip {
+    stroke: 1px;
+    fill:none;
+    stroke: #777777;
+    stroke-opacity: 1;
+    shape-rendering: auto;
+}
+
+.vz-line-indicator {
+    stroke:#555;
+    stroke-width: 1px;
+}
+
+.vz-data-point {
+    shape-rendering: auto;
+}
+
+.vz-bottomAxis {
+    shape-rendering: crispEdges;
+}
+
+.vz-radial-axis-tick {
+    font-weight:300;
+}
+
+.vz-skin-axiis {
+    background-image: linear-gradient(
+            to bottom,
+            #d0d0d0,
+            #dfdfdf,
+            #f3f3f3,
+            #d0d0d0
+    );
+    border-radius: 5px;
+    border:1px solid #BBB;
+}
+
+.vz-viz circle {
+    shape-rendering:auto;
+}
+
+.vz-scatter-node {
+    fill:#FFF;
+}
+
+div.vz-weighted_tree-viz {
+    overflow:scroll;
+}
+
+
+.vz-weighted_tree-viz circle {
+    fill:#777;
+    fill-opacity:.5;
+}
+
+
+.vz-weighted_tree-viz text {
+    fill:#777;
+	fill: white !important;
+}
+
+.vz-weighted_tree-viz path {
+    stroke:#777;
+    stroke-opacity:.5;
+    fill: none;
+}
+
+

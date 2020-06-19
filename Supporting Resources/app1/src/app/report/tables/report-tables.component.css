@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+}
+th.mat-sort-header-sorted {
+  color: black;
+
+}
+th{
+
+background: transparent;
+color:white;
+font-size:1vw;
+padding: 2vh 2vh 2vh 2vh;
+
+}
+td{
+
+  background:transparent;
+  color: white;
+  font-size:1vw;
+  padding: 2vh 2vh 2vh 2vh;
+  border-block-start: 1px solid rgba(0,0,0,.12);
+  }
+mat-card{
+background:transparent;
+}
+.fbutton{
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1vw;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  background: #3399ff;
+  color: white;
+}
+.odd {
+  background:transparent;
+  }

@@ -1,0 +1,391 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@font-face {
+  font-family: Lato;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/176026/ProximaNova-Regular.otf);
+  font-weight: 300;
+}
+body, html {
+  font-family: Lato;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #48c15e;
+}
+
+h1 p {
+  font-size: 22px;
+}
+
+@-moz-keyframes lineani {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes lineani {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes lineani {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.underlay {
+  stroke-width: 5;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #24303a;
+}
+
+#circle-graph-1 {
+  stroke: url(#gradient-1);
+  stroke-width: 5;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.chart-circle {
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+body {
+  background-color: #24303a;
+  color: white;
+  text-align: center;
+}
+
+.charts-container {
+  padding: 20px;
+  width: 100%;
+ /* max-width: 1024px; */
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chart {
+  color: #4a667a;
+  text-align: left;
+  position: relative;
+  height: auto;
+  background-color: #1e2730;
+  display: inline-block;
+  /* float: left; */
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 15px 20px 65px 20px;
+}
+
+.chart:hover {
+  cursor: pointer;
+}
+
+.chart.circle {
+  padding: 15px 20px 40px 20px;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.chart-svg {
+  position: relative;
+  float: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.chart-line {
+  width: 80%;
+}
+
+.valueX {
+  font-size: 14px;
+}
+
+.chart-values {
+  text-align: right;
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+}
+
+.h-value {
+  -moz-transition: ease-in-out 700ms;
+  -o-transition: ease-in-out 700ms;
+  -webkit-transition: ease-in-out 700ms;
+  transition: ease-in-out 700ms;
+  opacity: 0;
+}
+.h-value.visible {
+  opacity: 1;
+}
+
+.percentage-value {
+  -moz-transition: ease-in-out 700ms;
+  -o-transition: ease-in-out 700ms;
+  -webkit-transition: ease-in-out 700ms;
+  transition: ease-in-out 700ms;
+  color: #48c15e;
+  margin-top: 2px;
+  opacity: 0;
+}
+.percentage-value.negative {
+  color: #ef6670;
+}
+.percentage-value.visible {
+  opacity: 1;
+}
+
+.total-gain {
+  color: white;
+  font-size: 48px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 28px 0 0 28px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.triangle.red {
+  border-color: transparent transparent transparent #ef6670;
+}
+.triangle.green {
+  border-color: transparent transparent transparent #48c15e;
+}
+
+.horizontal {
+  stroke-width: 0.1;
+  stroke: #4a667a;
+}
+.vertical {
+  stroke-width: 0.1;
+  stroke: #4a667a;
+}
+
+/* CLEARFIX HELPER */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+/*IRRELEVANT CSS*/
+.followlinks {
+  position: fixed;
+  right: 35px;
+  bottom: 15px;
+  display: table;
+}
+.followlinks a {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  color: white;
+}
+.followlinks a svg path {
+  fill: white;
+}
+
+.heartIt {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.heartIt p {
+  font-size: 24px;
+  line-height: 40px;
+}
+.heartIt img {
+  width: 64px;
+  height: auto;
+  opacity: 0.7;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.original {
+  color: #ef6670;
+  font-size: 14px;
+}
+
+/*------------------------------Changes Applied 1------------------*/
+
+
+.charts-container{
+  position: absolute;
+  left:0;
+  top: 50px;
+  padding-top:15px;
+  padding-bottom:10px;
+	display: table;
+	width: 33%;
+//	z-index: -1;
+}
+
+.title{
+	width: 100%;
+	height: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.chart{
+	background: transparent;
+//	border-bottom: 1px solid darkcyan;
+	padding: 0px 0px 20px 10px;
+	height: 140px;
+	width: 185px;
+}
+
+.chart-line{
+	width: 100%;
+}
+
+p{
+  margin-bottom: .5rem;
+}
+
+.chart-values{
+  /* height: -webkit-fill-available; */
+  font-size: 12px;
+  display: none; // new change
+}
+
+.total-gain{
+	font-size:15px;
+}
+
+.triangle{
+	border-width: 12px 0 0 12px;
+}
+
+.chart.circle{
+	padding: 0px 0px 20px 10px;
+}
+
+.align-center{
+  text-align: center;
+  left: 30%;
+
+}
+.circle-percentage{
+	font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400);
+@keyframes load{0%{stroke-dashoffset:0}}
+.progress {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+   // text-align: center;
+    &>li {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        color: #93A2AC;
+        font-family: Lato;
+        font-weight:400;
+        //margin: 2rem;
+        margin: 0rem;
+        &:before {
+           // content: attr(data-name);
+            position: absolute;
+            width: 100%;
+           // bottom: -2rem;
+           bottom: -1rem;
+            font-weight:400;
+            font-size: 12px;
+        }
+        &:after {
+            content: attr(data-percent);
+            position: absolute;
+            width: 100%;
+           // top: 3.7rem;
+            top: 3.3rem;
+            left: 0;
+           // font-size: 2rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    svg {
+       // width: 10rem;
+       // height: 10rem;
+        width: 5.5rem;
+        height: 6.7rem;
+        &:nth-child(2) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotate(-90deg);
+        }
+        &:nth-child(2) path {
+            fill: none;
+            stroke-width: 30;
+            stroke-dasharray: 629;
+           // stroke: #fff;
+           stroke: #061234;
+            opacity:.9;
+            animation: load 10s;
+        }
+    }
+}

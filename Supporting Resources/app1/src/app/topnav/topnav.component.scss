@@ -1,0 +1,319 @@
+@charset "UTF-8";
+/*
+$content-width will be the max width of the content within the navigation bar.
+$breakpoint determines at which width the media query breakpoint will take effect.
+*/
+
+nav {
+  float: right;
+  margin-right: -130px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a {
+  display: block;
+  padding: 0 20px;
+  line-height: 40px;
+  background: #ffffff;
+  background: transparent;
+  color: #463f3f;
+  color: darkcyan;
+  text-decoration: none;
+  /*
+  The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
+  */
+}
+nav ul li a:hover {
+  background: #f2f2f2;
+  background: transparent;
+  color: #fb5958;
+}
+nav ul li a:not(:only-child):after {
+  padding-left: 4px;
+  content: ' ▾';
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+
+.nav-dropdown {
+  position: absolute;
+  z-index: 1;
+  /* Guarantees that the dropdown will display on top of any content. */
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  background: transparent;
+  height: 40px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-mobile {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    //padding: 70px 0 15px;
+    padding: 40px 0 0px;
+    background: rgba(0,0,0,0.93);
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+}
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  cursor: pointer;
+  padding: 0px 35px 16px 0px;
+}
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #463f3f;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 800px) {
+  .nav-list {
+    display: block !important;
+  }
+}
+/*
+.navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
+*/
+.navigation {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 44px;
+  //background: #ffffff;
+  //background-image: linear-gradient(to bottom, #010f20 60%, #0e1835 100%) !important;
+  // background: #010f20 !important;
+  background: black !important;
+ // border-bottom: 2px solid #082332;
+
+}
+
+/*
+.nav-container – the inner wrapper for the navbar. Defines how far the actual content should stretch.
+*/
+.nav-container {
+  max-width: 1000px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.brand {
+  position: absolute;
+  padding-left:20px;
+  padding-right:20px;
+  float: left;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  background-image: linear-gradient(to bottom, #010f20 60%, #0e1835 100%) !important;
+  border-bottom: 1px solid #015f78;
+  display: none; // new change
+}
+.brand a,
+.brand a:visited {
+  color: #463f3f;
+  color: #4a667a;
+  text-decoration: none;
+}
+
+
+/*
+.container {
+  position: absolute;
+  width: 370px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container hr {
+  visibility: hidden;
+}
+*/
+
+button {
+  width: 100px;
+  height: 25px;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  margin: 10px;
+  font-size: 14px;
+}
+button:focus {
+  outline: none;
+  opacity: 0.5;
+}
+
+
+
+
+/*
+button:nth-child(1) {
+  color: #42D6CA;
+}
+button:nth-child(1):before {
+  content: " ";
+  border: 2px transparent solid;
+  position: absolute;
+  right: -60px;
+  top: 0px;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  width: 120px;
+  height: 40px;
+  transition: all 0.7s ease;
+  border: 5px rgba(66, 214, 202, 0) solid;
+}
+button:nth-child(1):hover {
+  background-color: transparent;
+  border-radius: 20px;
+}
+.nav-list button:nth-child(1):hover:before {
+  border-radius: 30px;
+  border: 1px #42D6CA solid;
+  width: 100px;
+  height: 25px;
+  right: -40px;
+  top: 10px;
+}
+*/
+
+
+
+
+button:nth-child(1) {
+  background-color: rgba(66, 214, 202, 0.1);
+  border-radius: 50px;
+  color: #539db3;
+}
+button:nth-child(1):hover {
+  background-color: rgba(66, 214, 202, 0.2);
+  color:lightgray;
+  cursor: pointer;
+}
+button:nth-child(1):hover:before {
+  content: " ";
+  border-radius: 15px;
+  border: 1px #42D6CA solid;
+  position: absolute;
+  left: 15px;
+  top: 6;
+  box-sizing: border-box;
+  width: 45px;
+  height: 30px;
+  transition: all 0.7s ease;
+  animation: grow 1s infinite;
+}
+
+
+
+
+/*
+button:nth-child(1) {
+  background-color: #42D6CA;
+  border: 5px solid #42D6CA;
+  transition: all 0.5s ease;
+}
+button:nth-child(1):before {
+  content: " ";
+  border: 2px transparent solid;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  box-sizing: border-box;
+  width: 110px;
+  height: 35px;
+  transition: all 0.7s ease;
+}
+button:nth-child(1):hover {
+  background-color: rgba(66, 214, 202, 0.7);
+  color: #fff;
+  border-radius: 20px;
+}
+button:nth-child(1):hover:before {
+  border-radius: 20px;
+  border: 2px #42D6CA solid;
+}
+*/
+
+
+@keyframes grow {
+  from {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+}
+
+
+.fa, .fas {
+  display: inline;
+  padding: 10px;
+}

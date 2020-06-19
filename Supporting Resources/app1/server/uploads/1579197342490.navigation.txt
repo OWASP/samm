@@ -1,0 +1,318 @@
+
+ <style>
+ <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/css/tether.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:700">
+
+
+a: link, a: visited {
+		text-decoration: none
+		color: white;
+}
+a.hover:hover
+{
+  text-decoration: none;
+  color: white;
+}
+.sidenav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: white;
+	overflow-x:hidden;
+	transition:0.5s;
+	//-webkit-text-size-adjust:none;
+}
+.sidenav a,.dropdown-btn{
+	padding:0.25vw;
+	font-family:Roboto;
+	text-decoration: none;
+	cursor: pointer;
+	font-size:2.3vh;
+	color: #000000;
+	display: block;
+	transition: 0.3s;
+	width:100%;
+}
+.dropdown-container a{
+	padding-left:1vw;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #818181;
+  //background-color:white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 2vh;
+  right: 5vh;
+  font-size: 36px;
+}
+
+
+.dropdown-container{
+	display:none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 2.5vh;}
+}
+
+.topnav {
+	//padding-right:3vh;
+  overflow: hidden;
+  background-color: white;
+  //height:auto;
+}
+
+.topnav a,.topnav button,.myDropdown a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown-content1{
+	min-width:30vh;
+	margin-right:3vh;
+
+}
+.btn-block{
+	margin-top:3vh;
+}
+.dropdown-container
+{
+	margin-left:3vw;
+}
+
+.hamburger{
+	top:2vh;
+}
+
+
+ </style>
+ <div class="overlay"></div>
+<nav class="sidenav" id ="mySidenav"  role="navigation">
+<div class="sidebar-header">
+      <div class="sidebar-brand" style="color:black; font-size:4vh;">
+        <b>Virtusa SWIFT</b>
+
+		<!--<button type="button" class="closebtn pull-right hamburger animated fadeInLeft" id="btn1" data-toggle="offcanvas" style="width:1.5vw;height:3vh; top:3vh; float:right;">
+		<svg class="" style="width:inherit;"><use xlink:href="icons/icons.svg#icon-x"></use></svg>
+    </button>-->
+		<button type="button" class="closebtn hamburger animated fadeInLeft" id="btn1" data-toggle="offcanvas" style="padding-bottom:2rem;">
+		<svg class="" style="width:1.5vw;height:3vh; top:3.5vh; float:right;"><use xlink:href="icons/icons.svg#icon-x"></use></svg>
+    </button>
+</div></div>
+
+  <br><br>
+
+  <a class="  btn-block  dropdown-btn pull-left" href="/swift/dashboard/home.php" style="margin-left:;">
+	<svg style="width:1.5vw;height:3vh;">
+		<use xlink:href="icons/icons.svg#icon-home"></use>
+	</svg>
+	<span style="margin-left:0.9vw;">Home</span>
+  </a>
+  <a href="/swift/dashboard/restrict_ia.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-technology"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-technology"></use></svg> <span style="margin-left:0.9vw;">Restrict Internet Access</span></a>
+  <a href="/swift/dashboard/reduce_asv.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-bug"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-bug"></use></svg> <span style="margin-left:0.9vw;">Reduce Attack Surface & Vulnerabilities</span></a>
+  <a href="/swift/dashboard/physical_ses.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-lock"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-lock"></use></svg> <span style="margin-left:0.9vw;">Physical Security & Environmental Security</span></a>
+  <a href="/swift/dashboard/prevent_coc.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-secure"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-secure"></use></svg> <span style="margin-left:0.9vw;">Prevent Compromise Of Credentials</span></a>
+  <a href="/swift/dashboard/incident_ris.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-training"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-training"></use></svg> <span style="margin-left:0.9vw;">Incident Response & Information Sharing</span></a>
+  <a href="/swift/dashboard/detect_aa.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-thief"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-thief"></use></svg> <span  style="margin-left:0.9vw;">Detect Anamolous Activity</span></a>
+  <a href="/swift/dashboard/manage_isp.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-people"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-people"></use></svg> <span style="margin-left:0.9vw;">Manage Identities and Segregate Privileges</span></a>
+  <a href="/swift/usermanage/report.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-checklist"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-checklist"></use></svg> <span style="margin-left:0.9vw;">Report</span></a>
+  <a href="/swift/logout.php" class="btn-block  dropdown-btn pull-left" style="margin-left:;"><svg role="img" class="icon icon-logout"style="width:1.5vw;height:3vh;padding-top:0.5vh;"><use xlink:href="icons/icons.svg#icon-plane"></use></svg> <span style="margin-left:0.9vw;">Logout</span></a>
+
+
+ <!-- <a class="btn-block dropdown-btn pull-left" style="">
+	<svg style="width:1.5vw;height:3vh;padding-top:0.5vh;">
+		<use xlink:href="icons/icons.svg#icon-laptop"></use>
+	</svg>
+	<span style="margin-left:0.9vw;">Report </span>
+    <i class="fa fa-caret-down" style="float:right;"></i>
+  </a>-->
+  <div class="dropdown-container">
+    <a href="/swift/usermanage/report.php">Scoring Report</a>
+
+
+  </div>
+</nav>
+
+<div class="topnav" id="myTopnav">
+	<button type="button" class="pull-left hamburger animated fadeInLeft is-closed" onclick="openNav()" id="btn" data-toggle="offcanvas" style="left:2vw;">
+        <span class="hamb-top"></span>
+		<span class="hamb-middle"></span>
+		<span class="hamb-bottom"></span>
+    </button>
+	<a  href="#" style="position:relative;left:37vw	;width:auto;cursor:context-menu;" onmouseover="this.style.background='white';"><b>RESTICT INTERNET ACCESS</b></a>
+	<button onclick="myFunction()" class="dropbtn1 pull-right" onmouseover="this.style.background='#d7dbdd';" onmouseout="this.style.background='#ffffff';">
+		<i class="fa fa-user-circle-o " style="text-decoration:none;font-size:1.5vw;" aria-hidden="true"></i>
+	</button>
+<div id="myDropdown" class="dropdown-content1" style="margin-right:0.2vw;">
+    <a href="#" >Profile</a><br>
+    <a href="/swift/logout.php">Logout</a>
+</div>
+    <a href="<?= 'javascript:history.go(-1)' ?>" style="float:right;" onmouseover="this.style.background='#d7dbdd';" onmouseout="this.style.background='#ffffff';"><b>Back</b></a>
+	<a href="/swift/dashboard/home.php" style="float:right;"onmouseover="this.style.background='#d7dbdd';" onmouseout="this.style.background='#ffffff';"><b>Home</b></a>
+
+
+</div>
+</div>
+
+
+<!--
+<div class="container-fluid" style="background-color:#ffffff">
+	<div class="">
+
+        <button type="button" class="pull-left hamburger animated fadeInLeft is-closed" onclick="openNav()" id="btn" data-toggle="offcanvas" style="left:20px;">
+            <span class="hamb-top"></span>
+			<span class="hamb-middle"></span>
+			<span class="hamb-bottom"></span>
+        </button>
+	</div>
+		<ul class="nav navbar-nav navbar-right" style="position:absolute;left:35%;">
+		<li><a  href="#" style="color:black;">AUTHENTICATION AND AUTHORIZATION</a></li>
+	</ul>
+
+	<ul class="nav navbar-nav navbar-right pull-right">
+	<li><a href="<?= 'javascript:history.go(-1)' ?>" style="color:black;">Back</a></li>
+				<li><a href="/psd2/dashboard/home.php" style="color:black;">Home</a></li>
+				<li><button onclick="myFunction()" class="dropbtn1 pull-right">
+				<i class="fa fa-user-circle-o " style="font-size:25px;color:black;text-decoration:none;" aria-hidden="true"></i>
+		</button></li><br><br><br>
+		<div id="myDropdown" class="dropdown-content1 pull-right">
+    <a href="#">Profile</a>
+    <a href="/psd2/logout.php">Logout</a>
+    </ul>
+</div>
+
+-->
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropbtn1 pull-right");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "28vw";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  //overlay.hide();
+}
+</script>
+<script>
+PHP
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$("#recentItem").click(function(){
+$(".recentItem").animate({
+left: '0'
+});
+$("body").css('overflow','hidden');
+});
+
+$("#closX").click(function(){
+$(".recentItem").animate({
+left: '-300px'
+});
+$("body").css('overflow','auto');});
+});
+
+</script>
+<!--
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$("#recentItem").click(function(){
+$(".recentItem").animate({
+left: '0'
+});
+$("body").css('overflow','hidden');
+});
+
+$("#myS").click(function(){
+$(".recentItem").animate({
+left: '-300px'
+});
+$("body").css('overflow','auto');});
+});
+
+</script>
+-->
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "28vw";
+
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  //hamburger-cross();
+
+}
+</script>
+<script>
+var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {
+        overlay.hide();
+        //trigger.removeClass('is-open');
+        //trigger.addClass('is-closed');
+        isClosed = false;
+		closeNav();
+		overlay.hide();
+      } else {
+        overlay.show();
+       // trigger.removeClass('is-closed');
+        //trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });
+
+</script>
