@@ -9,7 +9,7 @@
     "entryPoint": "server.js"
   },
   "dependencies": {
-    "jsreport": "2.6.1",
+    "jsreport": "^2.8.0",
     "nodemon": "^2.0.4"
   }
 }
