@@ -65,8 +65,7 @@ button i.fa {
 .required {
   color: #366867;
 }
-.
- {
+.accent {
   color: #366867;
 }
 .text-uppercase {
@@ -3876,7 +3875,6 @@ a.list-group-item.active > .badge,
     display: none;
   }
 }
-
 
 .centered-img-small {
   display: block;
