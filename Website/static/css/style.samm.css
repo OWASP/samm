@@ -160,6 +160,10 @@ div.section {
   list-style: none;
 }
 
+.link-icon {
+  color: #66B8B8;
+}
+
 .subscribe-link {
   color: #999999;
   font-size: 18px;
@@ -3872,7 +3876,6 @@ a.list-group-item.active > .badge,
     display: none;
   }
 }
-
 
 
 .centered-img-small {
