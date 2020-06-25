@@ -40,14 +40,17 @@ We want the website to be an interactive place where the community can share the
 
 ### GitHub issues
 
-All of SAMM’s content is on GitHub. 
+All of SAMM’s content is on {{< external-link "https://github.com/OWASP/samm/" "Github">}}. 
 
 
 We use 
 - YAML files for the data that makes up the model
 - Hugo for the website
 
-To make changes to either, you need a GitHub user. If you're familiar with GitHub, follow these steps:
+{{< responsive-image-link-medium "/img/pages/Octocat.png" "SAMM on GitHub" "https://github.com/OWASP/samm/" >}}
+
+#### Familiar with GitHub?
+To make changes to either, follow these steps:
 
 1. Create a branch from our repository
 2. Make changes and push the branch to GitHub
@@ -55,14 +58,19 @@ To make changes to either, you need a GitHub user. If you're familiar with GitHu
 
 Once the changes are approved, someone from the team will merge that branch to the master branch.
 
+#### Not familiar with GitHub?
+GitHub is a company that provides hosting for software development version control using Git.  
+If you've neer used Git or GitHub you can always use the regular channels for feedback.
+
 Read our [blog post](/blog/2020/03/31/samm-is-doing-cicd/) on how SAMM is doing CI/CD.
 
-If you're not familiar with GitHub you can always use the regular channels for feedback.
-
+#### What is Hugo?
+Hugo is a static site generator written in Go, a statically typed, compiled programming language. It integrates well with GitHub and allows us to automatically build the site every time we make changes.
 
 <a name="Translations"></a>
 
 ### Translations
+
 
 We've started using Crowdin for localization management. We want to have the SAMM model available in as many languages as possible.  
 Visit our {{< external-link "https://crowdin.com/project/owasp-samm" "project page">}} on Crowdin to start contributing.
