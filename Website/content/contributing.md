@@ -71,6 +71,7 @@ Hugo is a static site generator written in Go, a statically typed, compiled prog
 
 ### Translations
 
+
 We've started using Crowdin for localization management. We want to have the SAMM model available in as many languages as possible.  
 Visit our {{< external-link "https://crowdin.com/project/owasp-samm" "project page">}} on Crowdin to start contributing.
 
