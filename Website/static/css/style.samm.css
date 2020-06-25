@@ -2625,6 +2625,9 @@ fieldset[disabled] .btn-template-primary.active {
   #footer img {
     width:60%;
   }
+  #footer p {
+    margin: 0px;
+  }
 }
 
 #footer img:hover {
