@@ -19,24 +19,24 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Installation Instructions 
 
 1) Open XAMPP Control panel and open phpmyadmin
-2) Make sure your phpmyadmin Username & Password is `root`.
-    In order to change the user credential,
+2) Make sure your phpmyadmin Username & Password is `root`.  
+    In order to change the user credential,  
     1) open the file `c:/xampp/phpMyAdmin/config.inc.php`
     2) Go to line number 20 and make changes to the folowing parameters,
     
-        $cfg['Servers'][$i]['user'] = 'root';
-        $cfg['Servers'][$i]['password'] = 'root';
-        $cfg['Servers'][$i]['extension'] = 'mysqli';
-        $cfg['Servers'][$i]['AllowNoPassword'] = false;
+        $cfg['Servers'][$i]['user'] = 'root';  
+        $cfg['Servers'][$i]['password'] = 'root';  
+        $cfg['Servers'][$i]['extension'] = 'mysqli';  
+        $cfg['Servers'][$i]['AllowNoPassword'] = false;  
         
     3) Save the file.
     4) Restart the Mysql Server via xampp control Pannel.
     
 3) From phpmyadmin and in database import the `samm.sql` file in a new database as `samm`.
     #### For Mysql 
-    Open command propmt in the parent directory and run `mysql` (Mysql should be added to the path of environment variables). Execute the following queries to import the `.sql` file 
-    `create database samm;`
-    `use samm;`
+    Open command propmt in the parent directory and run `mysql` (Mysql should be added to the path of environment variables). Execute the following queries to import the `.sql` file,  
+    `create database samm;`  
+    `use samm;`  
     `mysql -u username –-password=your_password database_name < Path/to/samm.sql`
 4) Navigate to `/server` directory and open command prompt and run the command:
      `npm install -g nodemon` 
@@ -48,16 +48,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 8) Open browser and navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
     
 ## Default User Credentials
-Normal User Credentials - Can update scores for the business functions and security practices
-Username - User
+Normal User Credentials - Can update scores for the business functions and security practices  
+Username - User  
 Passowrd - User@123
 
-Auditor Credentials - Can review the scores updated by users for the business functions and security practices
-Username - Auditor 
+Auditor Credentials - Can review the scores updated by users for the business functions and security practices  
+Username - Auditor  
 Password - Auditor@123
     
-Admin Credentials - Admin can add users to the portal and edit the questions.
-Username - Admin 
+Admin Credentials - Admin can add users to the portal and edit the questions.   
+Username - Admin  
 Password - Admin@123
     
 
