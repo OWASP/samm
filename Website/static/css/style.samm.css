@@ -65,8 +65,7 @@ button i.fa {
 .required {
   color: #366867;
 }
-.
- {
+.accent {
   color: #366867;
 }
 .text-uppercase {
@@ -158,6 +157,11 @@ div.section {
 }
 .ul.list-style-none {
   list-style: none;
+}
+
+.link-icon {
+  color: #66B8B8;
+  padding-right: 3px;
 }
 
 .subscribe-link {
@@ -3859,6 +3863,18 @@ a.list-group-item.active > .badge,
   float: right;
   margin: 10px;
   width: 200px;
+}
+
+.text-wrap-img-medium {
+  float: right;
+  margin: 10px;
+  width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .text-wrap-img-medium {
+    display: none;
+  }
 }
 
 .centered-img-small {
