@@ -33,7 +33,7 @@ Link icons {{< icon "fas fa-link">}} indicate links to pages on our website wher
 
 ### Testimonials
 
-We want the website to be an interactive place where the community can share their ideas an experiences.  
+We want the website to be an interactive place where the community can share their ideas and experiences.  
 [Contact us](/contact) so we can all get an idea of who is using SAMM and how that’s working for them.
 
 <a name="GitHub"></a>
@@ -60,7 +60,7 @@ Once the changes are approved, someone from the team will merge that branch to t
 
 #### Not familiar with GitHub?
 GitHub is a company that provides hosting for software development version control using Git.  
-If you've neer used Git or GitHub you can always use the regular channels for feedback.
+If you've never used Git or GitHub you can always use the regular channels for feedback.
 
 Read our [blog post](/blog/2020/03/31/samm-is-doing-cicd/) on how SAMM is doing CI/CD.
 
