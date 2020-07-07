@@ -65,8 +65,7 @@ button i.fa {
 .required {
   color: #366867;
 }
-.
- {
+.accent {
   color: #366867;
 }
 .text-uppercase {
@@ -158,6 +157,11 @@ div.section {
 }
 .ul.list-style-none {
   list-style: none;
+}
+
+.link-icon {
+  color: #66B8B8;
+  padding-right: 3px;
 }
 
 .subscribe-link {
@@ -2580,6 +2584,13 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 50px 0;
   color: #999999;
 }
+
+@media screen and (max-width: 600px) {
+  #footer div {
+    text-align: center;
+  }
+}
+
 #footer h1,
 #footer h2,
 #footer h3,
@@ -2612,6 +2623,15 @@ fieldset[disabled] .btn-template-primary.active {
 #footer img {
   width:80%;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #footer img {
+    width:60%;
+  }
+  #footer p {
+    margin: 0px;
+  }
 }
 
 #footer img:hover {
@@ -2694,6 +2714,13 @@ fieldset[disabled] .btn-template-primary.active {
 #footer .social a:hover {
   color: #366867;
 }
+
+@media screen and (max-width: 600px) {
+  #footer .social a {
+    font-size: 16px;
+  }
+}
+
 #copyright {
   background: #333;
   color: #ccc;
@@ -3836,6 +3863,18 @@ a.list-group-item.active > .badge,
   float: right;
   margin: 10px;
   width: 200px;
+}
+
+.text-wrap-img-medium {
+  float: right;
+  margin: 10px;
+  width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .text-wrap-img-medium {
+    display: none;
+  }
 }
 
 .centered-img-small {
