@@ -15,5 +15,5 @@ Here's all the information on the talks we had during the User Day, together wit
 
 {{< user_day_agenda >}}
 
-##### Watch on [YouTube](https://www.youtube.com/watch?v=BpNbWZg_pKY)
+##### Watch on [YouTube](https://www.youtube.com/channel/UCEZDbvQrj5APg5cEET49A_g)
 
