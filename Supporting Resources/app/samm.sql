@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 07, 2020 at 08:37 PM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.6
+-- Generation Time: Mar 15, 2020 at 12:28 PM
+-- Server version: 10.1.30-MariaDB
+-- PHP Version: 7.2.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -31,14 +32,14 @@ CREATE TABLE `check_tab` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -111,14 +112,14 @@ CREATE TABLE `design_secure_arch` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -152,14 +153,14 @@ CREATE TABLE `design_security` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -193,14 +194,14 @@ CREATE TABLE `design_threat` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -234,14 +235,14 @@ CREATE TABLE `governance_education` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -275,14 +276,14 @@ CREATE TABLE `governance_policy` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -316,14 +317,14 @@ CREATE TABLE `governance_strategy` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -402,14 +403,14 @@ CREATE TABLE `implement_defect` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -443,14 +444,14 @@ CREATE TABLE `implement_secure_build` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -484,14 +485,14 @@ CREATE TABLE `implement_secure_deploy` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -525,14 +526,14 @@ CREATE TABLE `operate_environment` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -566,14 +567,14 @@ CREATE TABLE `operate_incident` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -607,14 +608,14 @@ CREATE TABLE `operate_operational` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -677,26 +678,20 @@ INSERT INTO `register` (`email`) VALUES
 --
 
 CREATE TABLE `roles` (
+  `id` int(11) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
   `createdAt` datetime NOT NULL,
-  `updatedAt` datetime NOT NULL,
-  `id` int(11) NOT NULL
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `roles`
 --
 
-INSERT INTO `roles` (`name`, `createdAt`, `updatedAt`, `id`) VALUES
-('USER', '2020-03-08 12:09:09', '2020-03-08 12:09:09', 1),
-('AUDITOR', '2020-03-08 12:09:09', '2020-03-08 12:09:09', 2),
-('ADMIN', '2020-03-08 12:09:09', '2020-03-08 12:09:09', 3),
-('USER', '2020-07-07 18:36:02', '2020-07-07 18:36:02', 1),
-('AUDITOR', '2020-07-07 18:36:02', '2020-07-07 18:36:02', 2),
-('ADMIN', '2020-07-07 18:36:02', '2020-07-07 18:36:02', 3),
-('USER', '2020-07-07 18:37:13', '2020-07-07 18:37:13', 1),
-('AUDITOR', '2020-07-07 18:37:13', '2020-07-07 18:37:13', 2),
-('ADMIN', '2020-07-07 18:37:13', '2020-07-07 18:37:13', 3);
+INSERT INTO `roles` (`id`, `name`, `createdAt`, `updatedAt`) VALUES
+(1, 'USER', '2020-03-08 12:09:09', '2020-03-08 12:09:09'),
+(2, 'AUDITOR', '2020-03-08 12:09:09', '2020-03-08 12:09:09'),
+(3, 'ADMIN', '2020-03-08 12:09:09', '2020-03-08 12:09:09');
 
 -- --------------------------------------------------------
 
@@ -894,17 +889,19 @@ CREATE TABLE `users` (
   `empid` varchar(255) DEFAULT NULL,
   `createdAt` datetime NOT NULL,
   `updatedAt` datetime NOT NULL,
-  `lname` varchar(255) DEFAULT NULL
+  `lname` varchar(255) DEFAULT NULL,
+  `resttoken` varchar(300) NOT NULL,
+  `tempotp` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `username`, `email`, `password`, `mobile`, `role`, `country`, `groupname`, `company`, `empid`, `createdAt`, `updatedAt`, `lname`) VALUES
-(6, 'SAMM', 'User', 'user@gmail.com', '$2a$08$JHWl9.S1PWv2E/4Veu8GSOJZ9d1taA6oFLBea6eiYckRQZ/ocncZG', 2147483647, 'User', NULL, NULL, NULL, NULL, '2020-03-08 16:48:08', '2020-03-08 16:48:08', 'User'),
-(8, 'SAMM', 'Auditor', 'auditor@gmail.com', '$2a$08$2vGK0q9x5Q90QvQL.c7VeOfmIWUt3ilHQWmlqhDqU98UaucAnYnXa', 1234567890, 'Auditor', NULL, NULL, NULL, NULL, '2020-03-08 17:24:25', '2020-03-08 17:24:25', 'Auditor'),
-(9, 'SAMM', 'Admin', 'admin@gmail.com', '$2a$08$oE4xN2yN2yhD1/89qWrCwex2.yuppwKwhnP0fcr.4Q7ZHgjZ4OC3O', 1234567890, 'Admin', NULL, NULL, NULL, NULL, '2020-03-09 05:45:33', '2020-03-09 05:45:33', 'Admin');
+INSERT INTO `users` (`id`, `name`, `username`, `email`, `password`, `mobile`, `role`, `country`, `groupname`, `company`, `empid`, `createdAt`, `updatedAt`, `lname`, `resttoken`, `tempotp`) VALUES
+(6, 'SAMM', 'User', 'user@gmail.com', '$2a$08$JHWl9.S1PWv2E/4Veu8GSOJZ9d1taA6oFLBea6eiYckRQZ/ocncZG', 2147483647, 'User', NULL, NULL, NULL, NULL, '2020-03-08 16:48:08', '2020-03-08 16:48:08', 'User', '', ''),
+(8, 'SAMM', 'Auditor', 'auditor@gmail.com', '$2a$08$2vGK0q9x5Q90QvQL.c7VeOfmIWUt3ilHQWmlqhDqU98UaucAnYnXa', 1234567890, 'Auditor', NULL, NULL, NULL, NULL, '2020-03-08 17:24:25', '2020-03-08 17:24:25', 'Auditor', '', ''),
+(9, 'SAMM', 'Admin', 'admin@gmail.com', '$2a$08$oE4xN2yN2yhD1/89qWrCwex2.yuppwKwhnP0fcr.4Q7ZHgjZ4OC3O', 1234567890, 'Admin', NULL, NULL, NULL, NULL, '2020-03-09 05:45:33', '2020-03-09 05:45:33', 'Admin', '', '');
 
 -- --------------------------------------------------------
 
@@ -920,7 +917,7 @@ CREATE TABLE `user_manages` (
   `groupname` varchar(200) NOT NULL,
   `phone` varchar(10) NOT NULL,
   `created` datetime NOT NULL,
-  `modified` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `country` varchar(500) NOT NULL,
   `company` varchar(500) NOT NULL,
   `id` int(200) NOT NULL,
@@ -966,14 +963,14 @@ CREATE TABLE `verify_arch` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -1007,14 +1004,14 @@ CREATE TABLE `verify_requirement` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -1048,14 +1045,14 @@ CREATE TABLE `verify_security` (
   `vsamm_id` varchar(10) NOT NULL,
   `stream` varchar(100) NOT NULL,
   `maturity_level` int(20) NOT NULL,
-  `question` text DEFAULT NULL,
+  `question` text,
   `description` text NOT NULL,
   `answer` varchar(200) NOT NULL,
   `status` float DEFAULT NULL,
   `user` varchar(10) DEFAULT NULL,
   `auditor` varchar(10) DEFAULT NULL,
-  `comment` text DEFAULT NULL,
-  `commentor` text DEFAULT NULL,
+  `comment` text,
+  `commentor` text,
   `upload` varchar(10) DEFAULT NULL,
   `findings` varchar(20) DEFAULT NULL,
   `recommendations` varchar(30) DEFAULT NULL,
@@ -1174,6 +1171,12 @@ ALTER TABLE `operate_operational`
   ADD PRIMARY KEY (`vsamm_id`);
 
 --
+-- Indexes for table `roles`
+--
+ALTER TABLE `roles`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `score_history`
 --
 ALTER TABLE `score_history`
@@ -1246,7 +1249,7 @@ ALTER TABLE `users`
 -- Constraints for table `user_roles`
 --
 ALTER TABLE `user_roles`
-  ADD CONSTRAINT `user_roles_ibfk_1` FOREIGN KEY (`roleId`) REFERENCES `role_copy` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `user_roles_ibfk_1` FOREIGN KEY (`roleId`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `user_roles_ibfk_2` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
