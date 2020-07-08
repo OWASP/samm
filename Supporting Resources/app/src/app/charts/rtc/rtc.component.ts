@@ -64,6 +64,9 @@ let currentYear = 2020;
 const colorSet = new am4core.ColorSet();
 
 const chart = am4core.create('chartdiv_rtc', am4charts.RadarChart);
+
+chart.logo.disabled = true;
+
 // chart.numberFormatter.numberFormat = '+#.0°C|#.0°C|0.0°C';
 chart.hiddenState.properties.opacity = 0;
 

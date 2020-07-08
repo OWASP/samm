@@ -30,7 +30,7 @@ export class GSMFdtComponent implements OnInit {
 
     this.authService.secondgraph().subscribe(
       res => {
-        //console.log(res);
+        console.log(res.strategy_rating);
       this.strategy_rating=res.strategy_rating;
       this.education_rating=res.education_rating;
       this.policy_rating=res.policy_rating;
@@ -62,8 +62,8 @@ export class GSMFdtComponent implements OnInit {
         { name: 'Strategy & Metrics',value: this.strategy_rating },
         { name: 'Policy & Compliance',value: this.policy_rating },
         { name: 'Education & Guidance',value: this.education_rating }
-          
-        
+
+
       ]
     },
     {
@@ -76,8 +76,8 @@ export class GSMFdtComponent implements OnInit {
         { name: 'Threat Assessment',value: res.threat_rating},
         { name: 'Security Requirements',value: res.security_rating },
         { name: 'Secure Architecture',value:res.secure_arch_rating }
-          
-        
+
+
       ]
     },
     {
@@ -90,8 +90,8 @@ export class GSMFdtComponent implements OnInit {
         { name: 'Secure Build',value: res.secure_build_rating},
         { name: 'Secure Deployment',value: res.secure_deploy_rating },
         { name: 'Defect Management',value: res.defect_rating }
-          
-        
+
+
       ]
     },
     {
@@ -104,8 +104,8 @@ export class GSMFdtComponent implements OnInit {
         { name: 'Architecture Assessment',value: res.verify_arch_rating},
         { name: 'Requirements Driven Testing',value:res.verify_requirement_rating },
         { name: 'Security Testing',value: res.verify_security_rating }
-          
-        
+
+
       ]
     },
     {
@@ -118,8 +118,8 @@ export class GSMFdtComponent implements OnInit {
         { name: 'Incident Management',value: res.operate_incident_rating },
         { name: 'Environment Management',value: res.operate_environment_rating },
         { name: 'Operational Management',value: res.operate_operational_rating }
-          
-        
+
+
       ]
     }
 
@@ -149,6 +149,7 @@ export class GSMFdtComponent implements OnInit {
       }
     );
     const chart = am4core.create('chartdiv_fdt', am4plugins_forceDirected.ForceDirectedTree);
+    chart.logo.disabled = true;
     chart.legend = new am4charts.Legend();
 
     const networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries());
@@ -196,7 +197,7 @@ export class GSMFdtComponent implements OnInit {
     // networkSeries.links.template.distance = 3;
 
 
-    chart.legend = new am4charts.Legend();
+    //chart.legend = new am4charts.Legend();
     chart.legend.position = 'top';
     chart.legend.fontSize = 10;
     // chart.legend.fill = am4core.color('#ffffff');

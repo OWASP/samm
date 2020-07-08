@@ -168,5 +168,9 @@ export class RETablesComponent implements OnInit {
     let url = 'http://'+ hostname +':3000/api/reportexcel'
     window.open(url);
   }
-  
+  /*
+  downloadPdf(){
+    let url='http://localhost:3000/api/reportPdf'
+    window.open(url);
+  }*/
 }

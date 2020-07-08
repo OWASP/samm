@@ -32,6 +32,7 @@ uam: {};
 
 // Create chart instance
 const chart = am4core.create('chartdiv_sg', am4charts.RadarChart);
+chart.logo.disabled = true;
 this.authService.scores().subscribe(
   res => {
   //  console.log(res.data);

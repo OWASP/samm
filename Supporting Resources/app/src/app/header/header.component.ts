@@ -122,8 +122,6 @@ onSubmit2() {
  // window.location.reload();
 //}
 ngOnInit() {
-
-  console.log(hostname);
   if (this.tokenStorage.getToken()) {
   this.isLoggedIn = true;
   this.roles = this.tokenStorage.getAuthorities();

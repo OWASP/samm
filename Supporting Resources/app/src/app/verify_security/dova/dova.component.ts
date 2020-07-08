@@ -19,6 +19,7 @@ export class VERSDovaComponent implements OnInit {
   ngOnInit() {
 
     const chart = am4core.create("chartdiv_dova", am4charts.XYChart);
+    chart.logo.disabled = true;
     this.authService.fourthgraph({'secpractice':'Security Testing'}).subscribe(
       res => {
         var d = new Date();

@@ -19,6 +19,7 @@ export class GSMDovaComponent implements OnInit {
   ngOnInit() {
 
     const chart = am4core.create("chartdiv_dova", am4charts.XYChart);
+    chart.logo.disabled = true;
     this.authService.fourthgraph({'secpractice':'Strategy & Metrics'}).subscribe(
       res => {
         var d = new Date();

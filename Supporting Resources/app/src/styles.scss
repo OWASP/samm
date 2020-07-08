@@ -49,18 +49,6 @@ h5{
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-body{
-//background:#e9edf7;
-
-}
-
-
-
-
-
-
-
-
 
 .example-card {
     max-width: 500px;
@@ -85,246 +73,6 @@ body{
     font-family: 'Roboto', sans-serif;
 
   }
-
-
-#content{
-
-  background-image: linear-gradient(to bottom, #010f20 20%, #061339 90%) !important;
-  // background-color: black;
-  background-attachment: fixed !important;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      .description{
-        text-align: center;
-        font-size: 30px;
-        font-weight: 200;
-        position: relative;
-
-        .plus{
-          font-weight: bold;
-          display: inline-block;
-          font-size: 72px;
-          line-height: 1;
-          margin-top: -10px;
-        }
-      }
-      #circle{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -250px;
-        margin-left: -250px;
-
-      }
-    }
-
-    .description{
-        margin-left:-150px;
-
-    }
-
-    .ickon{
-        width:123px;
-        height:50px;
-        margin-bottom:5px;
-        margin-left:-9px;
-
-    }
-
-    canvas{
-        margin-left:-40px;
-
-    }
-
-
-    canvas:hover{
-        cursor:pointer;
-    }
-    .scene {
-        width: 200px;
-        height: 260px;
-        border: 1px solid #CCC;
-        margin: 40px 0;
-        perspective: 600px;
-      }
-
-
-
-      .card.is-flipped {
-        transform: rotateY(180deg);
-      }
-
-      .card.is-reversed {
-        transform: rotateY(180deg);
-      }
-
-      .card__face {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-
-        text-align: center;
-        font-weight: bold;
-        font-size: 40px;
-        backface-visibility: hidden;
-      }
-
-      .card__face--front {
-        background: white;
-      }
-
-      .card__face--back {
-        background: white;
-        transform: rotateY(180deg);
-      }
-
-
-      svg {
-        width: 19em;
-
-        border-radius: 19em;
-        opacity: 1;
-        -webkit-transition: all 1s;
-      }
-
-      .ikon{
-          width:123px;
-          height:50px;
-          margin-bottom:20px;
-      }
-      .content {
-        width: 90%;
-        margin: 0 auto; }
-        *:focus {
-            outline: none;
-        }
-
-        #icon {
-          width:38vh;
-        }
-
-
-
-
-        .intersect .icon{
-            width:50px;
-            height:50px;
-            margin-bottom:10px;
-            margin-top:-5px;
-        }
-
-        .icon{
-            width:275px;
-            height:40px;
-            margin-bottom:30px;
-        }
-
-        .content{
-            font-size:14px;
-            color:#999;
-            margin-top:10%;
-        }
-        #circle1{
-          height: 200px;
-        }
-        .text{
-          font-size: 18px;
-          font-weight: bold;
-          text-align: center;
-          width: 111px;
-          color: white;
-        }
-        #circleflip1{
-          height: 200px;
-        }
-        .text1{
-          font-size: 50px;
-          font-weight: bold;
-          text-align: center;
-          width: 111px;
-          color: white;
-        }
-        #circle2{
-          height: 200px;
-        }
-        #circleflip2{
-          height: 200px;
-        }
-        #circle3{
-          height: 200px;
-        }
-        #circleflip3{
-          height: 200px
-        }
-        #circle4{
-          height: 200px;
-
-        }
-        #circleflip4{
-          height: 200px;
-        }
-        #circle5{
-            height: 200px;
-          }
-          #circleflip5{
-            height: 200px;
-          }
-          #circle6{
-            height: 200px;
-          }
-          #circleflip6{
-            height: 200px;
-          }
-          #circle7{
-            height: 200px;
-          }
-          #circleflip7{
-            height: 200px;
-          }
-          #circle8{
-            height: 200px;
-          }
-          #circleflip8{
-            height: 200px;
-          }
-          #circle9{
-            height: 200px;
-          }
-          #circleflip9{
-            height: 200px;
-          }
-          #circle10{
-            height: 200px;
-          }
-          #circleflip10{
-            height: 200px;
-          }
-          #circle11{
-            height: 200px;
-          }
-          #circleflip11{
-            height: 200px;
-          }
-          #circle12{
-            height: 200px;
-          }
-          #circleflip12{
-            height: 200px;
-          }
-          #circle13{
-            height: 200px;
-          }
-          #circleflip13{
-            height: 200px;
-          }
-          #circle14{
-            height: 200px;
-          }
-          #circleflip14{
-            height: 200px;
-          }
 
         .modal-footer{
           align-items: center;
@@ -371,15 +119,15 @@ body{
       }
       [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
         cursor: pointer;
-        color: white;
+        // color: white;
     }
     .mat-icon {
       color: white;
   }
   .mat-form-field-infix {
     margin-left: 2vh;
+    padding: 5px 5px 5px 5px !important;
   }
-
 
 text{
   //fill:white !important;
@@ -440,11 +188,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-step-header .mat-step-label.mat-step-label-active {
   color: white;
 }
-
+/*
 .k-grid-toolbar>*+* {
   margin-left: 4px;
   background: gray;
 }
+*/
 #modal-basic-title{
   color: black;
 }
@@ -484,4 +233,23 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .modal-footer {
   border-radius: 20px;
   border-top: 2px solid #135858 !important;
+}
+
+.k-grid, .k-grid-header, .k-grid-header .k-header{
+  background-color: #253041;
+  color: #768895
+}
+
+.k-grouping-row td, tbody .k-group-cell, .k-grid-content, .k-grid-toolbar, .k-grouping-header {
+  background-color: #02142a;
+  color: #768895
+}
+
+.k-grid td{
+  color: #768895; 
+}
+
+.k-grid tr:hover > td{
+  background-color: black;
+  color: #768895;
 }

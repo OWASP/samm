@@ -23,6 +23,7 @@ export class SsbComponent implements OnInit {
   ngOnInit() {
 
     const chart = am4core.create("chartdiv_ssb", am4plugins_sunburst.Sunburst);
+    chart.logo.disabled = true;
     chart.padding(0, 0, 0, 0);
     chart.radius = am4core.percent(70);
 

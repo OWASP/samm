@@ -19,6 +19,7 @@ export class OETDovaComponent implements OnInit {
   ngOnInit() {
 
     const chart = am4core.create("chartdiv_dova", am4charts.XYChart);
+    chart.logo.disabled = true;
     this.authService.fourthgraph({'secpractice':'Environment Management'}).subscribe(
       res => {
         var d = new Date();

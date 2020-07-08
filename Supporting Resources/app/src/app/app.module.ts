@@ -69,7 +69,6 @@ import { SsbComponent } from './charts/ssb/ssb.component';
 import { RadarChartComponent } from './charts/radar-chart/radar-chart.component';
 import { GridModule, PDFModule, ExcelModule } from '@progress/kendo-angular-grid';
 import { UserIdleModule } from 'angular-user-idle';
-
 // Routing
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -219,6 +218,7 @@ import {  VERSPopupComponent } from './verify_security/popup/popup.component';
 @NgModule({
   declarations: [
       // ---------------------------------------------------------- ACCESS-BRAC
+      
      AppComponent,
      IndexComponent,
      ContentComponent,
@@ -509,7 +509,7 @@ HomeNewComponent,
     VEREPopupComponent,
     VERSPopupComponent
   ],
- providers: [httpInterceptorProviders, AuthServices, AuthGuard,
+ providers: [httpInterceptorProviders, AuthServices, AuthGuard ,
   {
     provide:  MatDialogRef,
     useValue: DEFAULT_PERFECT_SCROLLBAR_CONFIG,

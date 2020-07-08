@@ -3,8 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 
-export const hostname = 'localhost';  // Feed your public IP for global access.
-
+export const hostname = 'localhost';
 
 export const environment = {
   production: false,

@@ -1,3 +1,9 @@
-<app-topnav *ngIf="router.url!=='/index'"></app-topnav>
+<div class='outside-sidenav'>
+    <app-topnav *ngIf="router.url!=='/index'"></app-topnav>
+</div>
+
 <app-sidenav *ngIf="router.url!=='/index'"></app-sidenav>
-<router-outlet></router-outlet>
+
+<div class='outside-sidenav'>
+    <router-outlet></router-outlet>
+</div>

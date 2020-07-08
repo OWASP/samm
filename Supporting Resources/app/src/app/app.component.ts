@@ -19,8 +19,7 @@ export class AppComponent {
   private roles: string[];
   private authority: string;
 
-  constructor(private loadingBar: SlimLoadingBarService, public router: Router,
-    private tokenStorage: TokenStorageService) {
+  constructor(private loadingBar: SlimLoadingBarService, public router: Router,private tokenStorage: TokenStorageService) {
     this.router.events.subscribe((event: Event) => {
       this.navigationInterceptor(event);
     });
@@ -53,8 +52,9 @@ ngOnInit() {
         this.authority = 'user';
         return true;
       });
-
     }
+
+
 
    /* if (this.tokenStorage.getToken()) {
       this.roles = this.tokenStorage.getAuthorities();

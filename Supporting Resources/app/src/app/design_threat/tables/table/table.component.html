@@ -29,7 +29,7 @@
               [group] = "groups"
               [reorderable]="true"
               [resizable]="true"
-              [height]="560"
+              [height]="630"
               [columnMenu]="{ filter: true }"
           >
               <ng-template kendoGridToolbarTemplate>
@@ -106,7 +106,7 @@
                     <div class=""> {{ dataItem.answer }}</div>
                                      </ng-template>
               </kendo-grid-column>
-              <kendo-grid-column *ngIf="c"
+              <kendo-grid-column *ngIf=""
                   field="gcomment"
                   title="Comment"
                   [width]="70"
@@ -117,7 +117,7 @@
                     <div class=""> {{ dataItem.comment }}</div>
                                      </ng-template>
               </kendo-grid-column>
-              <kendo-grid-column *ngIf="c"
+              <kendo-grid-column *ngIf=""
                   field="commentor"
                   title="Commentor"
                   [width]="70"
@@ -128,7 +128,7 @@
                     <div class=""> {{ dataItem.commentor }}</div>
                                      </ng-template>
               </kendo-grid-column>
-              <kendo-grid-column *ngIf="c"
+              <kendo-grid-column *ngIf=""
               field="user"
               title="User"
               [width]="70"
@@ -139,7 +139,7 @@
                 <div class=""> {{ dataItem.user }}</div>
                                  </ng-template>
           </kendo-grid-column>
-          <kendo-grid-column *ngIf="c"
+          <kendo-grid-column *ngIf=""
           field="auditor"
           title="Auditor"
           [width]="70"

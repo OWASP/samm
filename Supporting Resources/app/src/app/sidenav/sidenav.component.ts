@@ -45,14 +45,18 @@ export class SidenavComponent implements OnInit  {
       }
     });
 
-
-
     $("#close-sidebar").click(function() {
       $(".page-wrapper").removeClass("toggled");
     });
+
     $("#show-sidebar").click(function() {
       $(".page-wrapper").addClass("toggled");
     });
+
+   $('.outside-sidenav').hover(function(e){
+      $(".page-wrapper").removeClass("toggled");
+   });
+
     if (this.token.getToken()) {
       this.roles = this.token.getAuthorities();
       this.roles.every(role => {
