@@ -7,7 +7,7 @@ keywords: ["Contribute","How do I","questions"]
 ## Interested in contributing to SAMM?
 
 Here's how you can do it!  
-Link icons {{< icon "fas fa-link">}} indicate links to pages on our website where you can find the information.
+### indicate links to pages on our website where you can find the information.
 
 {{< responsive-image-medium "/img/pages/undraw_a_day_off_w9ex.png" "contribute">}}
 
