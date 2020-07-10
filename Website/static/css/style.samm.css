@@ -3878,6 +3878,16 @@ a.list-group-item.active > .badge,
   width: 200px;
 }
 
+@media screen and (max-width: 600px) {
+  .text-wrap-img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    }
+}
+
 .text-wrap-img-medium {
   float: right;
   margin: 10px;
