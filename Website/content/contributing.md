@@ -82,3 +82,5 @@ Visit our {{< external-link "https://crowdin.com/project/owasp-samm" "project pa
 
 SAMM is a community-driven project. We welcome all feedback and input.
 You can use the contact form link from the main menu or any of the options available from the footer of the website.
+
+If you want to join our Slack channel but the direct link doesn't work, you need invitation. Get it {{< external-link "https://owasp-slack.herokuapp.com" "here">}}.
