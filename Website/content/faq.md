@@ -28,7 +28,7 @@ This content is part of our [data files on GitHub](https://github.com/OWASP/samm
 
 ### Can you explain streams in the SAMM model?
 Streams cover different aspects of a practice inside a business function. For example, in the Requirements-driven testing practice, the streams focus on positive and negative testing.
-[See in the model](https://owaspsamm.org/model/verification/requirements-driven-testing/).  
+See [Requirements-driven Testing](https://owaspsamm.org/model/verification/requirements-driven-testing/) in the model.  
 Check out our [about page](/about) for more on the structure of the SAMM model.
 
 ### Is there a process for translation efforts of SAMM into other languages?
