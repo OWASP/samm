@@ -26,9 +26,13 @@ If you have to send the questionnaire for people to fill out on their own, you c
 
 This content is part of our [data files on GitHub](https://github.com/OWASP/samm/tree/master/Supporting%20Resources/v2.0/Datamodel/Datafiles). We'll work on having it available on the website soon.
 
+### Can you explain streams in the SAMM model?
+Streams cover different aspects of a practice inside a business function. For example, in the Requirements-driven testing practice, the streams focus on positive and negative testing.
+See [Requirements-driven Testing](https://owaspsamm.org/model/verification/requirements-driven-testing/) in the model.  
+Check out our [about page](/about) for more on the structure of the SAMM model.
+
 ### Is there a process for translation efforts of SAMM into other languages?
 Yes! We're using [CrowdIn](https://crowdin.com/project/owasp-samm) and the help of the community to have SAMM translated to other languages.
-
 
 ### When was SAMM v2 released?
 
@@ -47,7 +51,6 @@ Glad you asked, here is a list of suggestions:
 
 ### How can I join SAMM's Slack channel?
 You can try with the direct link to our [Slack channel](https://owasp.slack.com/messages/C0VF1EJGH). If that doesn't work, you need and invitation. Click {{< external-link "https://owasp-slack.herokuapp.com" "here">}} to get it.
-
 
 ---
 

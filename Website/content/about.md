@@ -23,6 +23,18 @@ SAMM does not insist that all organizations achieve the maximum maturity level i
 
 ## OWASP SAMM structure
 
+SAMM is based around 12 security practices grouped into 5 business functions. Every security practice contains a set of activities, structured into 3 maturity levels. The activities on a lower maturity level are typically easier to execute and require less formalization than the ones on a higher maturity level.
+
+{{< responsive-image  "/img/pages/SAMM_model_structure.png" "business function with security practices, security practices with activites">}}
+
+At the highest level, SAMM defines five business functions. Each business function is a category of activities that any organization involved with software development must fulfill to some degree.
+
+Each business function has three security practices, areas of security-related activities that build assurance for the related business function.
+
+Security practices have activities, grouped in logical flows and divided into two streams. Streams cover different aspects of a practice and have their own objectives, aligning and linking the activities in the practice over the different maturity levels.
+
+For each security practice, SAMM defines three maturity levels. Each level has a successively more sophisticated objective with specific activities, and more strict success metrics.
+
 The structure and setup of the SAMM model support
 
 * the assessment of the organization’s current software security posture
