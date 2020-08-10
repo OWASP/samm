@@ -67,7 +67,7 @@ maturity_levels:
         question: Do you enforce the use of recommended technologies within the organization?
         quality_criteria:
             - You monitor applications regularly for the correct use of the recommended technologies
-            - You solve violations against the list accoranding to organizational policies
+            - You solve violations against the list according to organizational policies
             - You take action if the number of violations falls outside the yearly objectives
 
         answers:
