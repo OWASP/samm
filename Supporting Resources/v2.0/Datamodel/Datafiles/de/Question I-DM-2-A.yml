@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 2bf0e192a904444b8a2f38c33256e80a
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 5b333ff2dd474381b0af595ff13dcdcf
+
+#One-sentence description of the criterium
+text: Do you keep an overview of the state of security defects across the organization?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- A single severity scheme is applied to all defects across the organization
+- The scheme includes SLAs for fixing particular severity classes
+- You regularly report compliance to SLAs
+
+#Type Classification of the Document
+type: Question

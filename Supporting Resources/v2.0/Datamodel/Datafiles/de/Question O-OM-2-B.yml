@@ -1,0 +1,32 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 60d7a0a61dd142d5a87009bc5b93df56
+
+#This question uses Answer Set E
+answerset: d096060a4d864133afcbdd1397b95827
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: f9c5a8649ddf4168b6f62d0018a32704
+
+#Text of the question presented to the user
+text: Do you follow an established process for removing all associated resources,
+  as part of decommissioning of unused systems, applications, application dependencies,
+  or services?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You document the status of support for all released versions of your products, in
+  an accessible location
+- The process includes replacement or upgrade of third-party applications, or application
+  dependencies, that have reached end of life
+- Operating environments do not contain orphaned accounts, firewall rules, or other
+  configuration artifacts
+#Type Classification of the Document
+type: Question

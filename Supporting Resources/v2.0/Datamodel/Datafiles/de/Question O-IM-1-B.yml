@@ -1,0 +1,26 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: b082664b8815407d825b82cf23fa88ea
+
+#This question uses Answer Set H
+answerset: 381e1e37a19c488ab045a8a512552141
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 0d889a913d484eb39b80f096f3a66019
+
+#Text of the question presented to the user
+text: Do you respond to detected incidents?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You have a defined person or role for incident handling
+- You document security incidents
+#Type Classification of the Document
+type: Question

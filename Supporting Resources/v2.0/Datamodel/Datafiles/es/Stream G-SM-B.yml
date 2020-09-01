@@ -1,0 +1,23 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 32b3bdd85d3a4d53827960004f9d1c7e
+
+#Unique identifier to refer to this stream
+id: 2f1cac3c2e724823b3b48a7e797520b4
+
+#Official stream name
+name: Measure and Improve
+
+#Stream letter, A or B
+letter: B
+
+#Multi-paragraph explanation of the stream
+description: This stream aims to drive the validity, relevance, and improvement of the application security roadmap through measurements of performance within the organization.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream

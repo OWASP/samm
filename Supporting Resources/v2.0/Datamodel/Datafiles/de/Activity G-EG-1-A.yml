@@ -1,0 +1,56 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 7344f4b153314dd8965361d23772aef1
+
+#Link to the practice level that this activity belongs to
+level: 38f3a2f7633c42b98eb160f36a2c0a7b
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 93ccc4cdf5d841e3986f3684467b2bf1
+
+#The title of this activity
+title: Train all stakeholders for awareness
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Basic security awareness for all relevant employees
+
+#A one sentence description of the activity
+shortDescription: Provide security awareness training for all personnel involved in
+  software development
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Conduct security awareness training for all roles currently involved in the management, development, testing, or auditing of the software. The goal is to increase the awareness of application security threats and risks, security best practices, and secure software design principles. Develop training internally or procure it externally. Ideally, deliver training in person so participants can have discussions as a team, but Computer-Based Training (CBT) is also an option.
+
+  Course content should include a range of topics relevant to application security and privacy, while remaining accessible to a non-technical audience. Suitable concepts are secure design principles including Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability. Additionally, the training should include references to any organization-wide standards, policies, and procedures defined to improve application security. The OWASP Top 10 vulnerabilities should be covered at a high level.
+
+  Training is mandatory for all employees and contractors involved with software development and includes an auditable sign-off to demonstrate compliance. Consider incorporating innovative ways of delivery (such as gamification) to maximize its effectiveness and combat desensitization.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes: |
+  **References**
+
+  - [NIST SP 800-50](https://csrc.nist.gov/publications/detail/sp/800-50/final)
+  - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
+  - [OWASP Training Resources](https://www.owasp.org/index.php/OWASP_Training)
+  - [OWASP Application Security Curriculum](https://www.owasp.org/index.php/OWASP_Application_Security_Curriculum)
+
+
+#References to other activities that may be related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity

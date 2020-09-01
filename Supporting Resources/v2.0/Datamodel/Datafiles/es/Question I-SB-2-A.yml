@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: bcc960e835aa4ad58a9d39a272cbf6f1
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: b5d33583538b4878bb4674a5f838b8ea
+
+#One-sentence description of the criterium
+text: Is the build process fully automated?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- The build process itself doesn't require any human interaction
+- Your build tools are hardened as per best practice and vendor guidance
+- You encrypt the secrets required by the build tools and control access based on
+  the principle of least privilege
+
+#Type Classification of the Document
+type: Question

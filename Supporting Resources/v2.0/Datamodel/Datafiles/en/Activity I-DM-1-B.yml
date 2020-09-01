@@ -1,0 +1,61 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 55bf5184ff7d4b76a444e52a28c803d9
+
+#Link to the practice level that this activity belongs to
+level: 97a46a074fe849a1af2c2d2d3dd09ba5
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: d1cb54f1ddd3432480513df320fc0ff8
+
+#The title of this activity
+title: Define basic defect metrics
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Identification of quick wins derived from available defect information
+
+#A one sentence description of the activity
+shortDescription: Regularly go over previously recorded security defects and derive
+  quick wins from basic metrics.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Once per defined period of time (typically at least once per year), go over your both resolved and still open recorded security defects in every team and extract basic metrics from the available data. These might include:
+
+  * The total number of defects versus total number of verification activities. This could give you an idea whether you're looking for defects with an adequate intensity and quality.
+  * The software components the defects reside in. This is indicative of where attention might be most required, and where security flaws might be more likely to appear in the future again.
+  * The type or category of the defect, which suggests areas where the development team need further training.
+  * The severity of the defect, which can help the team understand the software’s risk exposure.
+
+  Identify and carry out sensible quick win activities which you can derive from the newly acquired knowledge. These might include things like a knowledge sharing session about one particular vulnerability type or carrying out / automating a security scan.
+
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Developer
+- Security Champion
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+- 93dff7be5f954f8d87d24f4261002508   #I-DM-1-A
+#Type Classification of the Document
+type: Activity

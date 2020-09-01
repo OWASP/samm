@@ -1,0 +1,23 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 483a0a1b78264cafbc470ce72d557332
+
+#Unique identifier to refer to this stream
+id: 7344f4b153314dd8965361d23772aef1
+
+#Official stream name
+name: Training and Awareness
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: Training and awareness focuses on increasing the overall knowledge around software security anmong the different stakeholders within the organization.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+#Type Classification of the Document
+type: Stream

@@ -1,0 +1,51 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Configuration Hardening, Level 2
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 47bff9a57f0344eeb4b083f1c2b1bb7e
+
+#Link to the practice level that this activity belongs to
+level: 354292b7198b48bb8c4909e0d7e29f68
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 84dcbc954d954d95b1fb37e032f05402
+
+#The title of this activity
+title: Establish hardening baselines
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Consistent hardening of technology stack components in your organization
+
+#A one sentence description of the activity
+shortDescription: Perform consistent hardening of configurations, following established
+  baselines and guidance.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Establsh configuration hardening baselines for all components in each technology stack used. To assist with consistent application of the hardening baselines, develop configuration guides for the components. Require product teams to apply configuration baselines to all new systems, and to existing systems when practicable.
+
+  Place hardening baselines and configuration guides under change management, and assign an owner to each. Owners have ongoing responsibility to keep them up-to-date, based on evolving best practices or changes to the relevant components (e.g., version updates, new features).
+
+  In larger environments, derive configurations of instances from a locally maintained master, with relevant configuration baselines applied. Employ automated tools for hardening configurations.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

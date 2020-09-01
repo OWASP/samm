@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: e7ba346fabdc44beb47e2c67c14a6726
+
+#Link to the answer set that contains the potential answers for this question
+answerset: e0fcc49a200847eab218c04e2c80490a
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 6a81ec4bcd1f43de95b91a7f50a40244
+
+#One-sentence description of the criterium
+text: Do you regularly report on adherence to external compliance obligations and
+  use that information to guide efforts to close compliance gaps?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You have established, well-defined compliance metrics
+- You measure and report on applications' compliance metrics regularly
+- Stakeholders use the reported compliance status information to identify compliance
+  gaps and prioritize gap remediation efforts
+
+#Type Classification of the Document
+type: Question

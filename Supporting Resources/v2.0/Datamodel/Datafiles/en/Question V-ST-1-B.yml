@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: b3b20a75740c4880a21ad9aa0c1298c7
+
+#Link to the answer set that contains the potential answers for this question
+answerset: 612bf4ec249f4e9d86f9e36dbf511821
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 77dd81adf35f43608408e548c4972136
+
+#One-sentence description of the criterium
+text: Do you manually review the security quality of selected high-risk components?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- Criteria exist to help the reviewer focus on high-risk components
+- Qualified personnel conduct reviews following documented guidelines
+- You address findings in accordance with the organization's defect management policy
+
+#Type Classification of the Document
+type: Question

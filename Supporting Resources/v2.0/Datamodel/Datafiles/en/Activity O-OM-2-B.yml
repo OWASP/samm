@@ -1,0 +1,52 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Decom/Legacy, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: a0d2ec4c6daa43369c07644b8745a7bd
+
+#Link to the practice level that this activity belongs to
+level: 76f8a2e68065467ba9bd2b5ac625490b
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 60d7a0a61dd142d5a87009bc5b93df56
+
+#The title of this activity
+title: Formalize decommissioning process
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Standardized decommisioning process decreasing the risk of forgetting components
+
+#A one sentence description of the activity
+shortDescription: Develop repeatable decommissioning processes for unused systems/services,
+  and for migration from legacy dependencies. Manage legacy migration roadmaps for
+  customers.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  As part of decommissioning a system, application, or service, follow an established process for removing all relevant accounts, firewall rules, data, etc. from the operational environment. By removing these unused elements from configuration files, you improve the maintainability of infrastructure-as-code resources.
+
+  Follow a consistent process for timely replacement or upgrade of third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), that have reached end of life.
+
+  Engage with customers and user groups for your products at or approaching end of life, to migrate them to supported versions in a timely manner.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

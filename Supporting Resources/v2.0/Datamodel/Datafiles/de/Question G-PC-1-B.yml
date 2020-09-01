@@ -1,0 +1,27 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 852c76292e8a41de92205b31cb3f4e49
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 4bb7dd93f5874730bd84b41cb56ce60a
+
+#One-sentence description of the criterium
+text: Do you have a complete picture of your external compliance obligations?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You have identified all sources of external compliance obligations
+- You have captured and reconciled compliance obligations from all sources
+
+#Type Classification of the Document
+type: Question

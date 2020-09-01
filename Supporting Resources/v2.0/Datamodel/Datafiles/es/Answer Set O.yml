@@ -1,0 +1,34 @@
+---
+# ===========================================================
+# OWASP SAMM2 Answer Set - O
+# ===========================================================
+# Unique identifier (GUID) used to refer to this maturity level.
+# Please generate another identifier for your specific maturity level.
+id: 66e3e11eb8404fb6880377e539609678
+
+# Different answers with their properties. We use 4 levels or answers
+values:
+    #lowest level
+- text: No
+  value: 0
+  weight: 1
+  order: 0
+    #second level
+- text: Yes, we review it annually
+  value: 0.25
+  weight: 1
+  order: 1
+    #third level
+- text: Yes, we consult the plan before making significant decisions
+  value: 0.5
+  weight: 1
+  order: 2
+    #highest level
+- text: Yes, we consult the plan often, and it is aligned with our application security
+    strategy
+  value: 1
+  weight: 1
+  order: 3
+
+# Type Classification of the Document
+type: AnswerSet

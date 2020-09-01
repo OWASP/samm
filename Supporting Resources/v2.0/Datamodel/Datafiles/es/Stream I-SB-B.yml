@@ -1,0 +1,23 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: b2af112859d34cada6ce4cf44d393b94
+
+#Unique identifier to refer to this stream
+id: 2f7b501627954c6cb03342196b2065a7
+
+#Official stream name
+name: Software Dependencies
+
+#Stream letter, A or B
+letter: B
+
+#Multi-paragraph explanation of the stream
+description: External libraries are a significant part of modern software. The activities in this stream help create a view of external libraries and ensure their security strength is adequate.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream

@@ -1,0 +1,34 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: a3720e84d6a24a8ba235c25ce6afc5c7
+
+#Link to the answer set that contains the potential answers for this question
+answerset: 3d4c5c80278b4a58b80d559085804446
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 871a30e6aaef4905a3d3302ceea808f4
+
+#One-sentence description of the criterium
+text: Is there a centralized portal where developers and application security professionals
+  from different teams and business units are able to communicate and share information?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- The organization promotes use of a single portal across different teams and business
+  units
+- The portal is used for timely information such as notification of security incidents,
+  tool updates, architectural standard changes, and other related announcements
+- The portal is widely recognized by developers and architects as a centralized repository
+  of the organization-specific application security information
+- All content is considered persistent and searchable
+- The portal provides access to application-specific security metrics
+
+#Type Classification of the Document
+type: Question

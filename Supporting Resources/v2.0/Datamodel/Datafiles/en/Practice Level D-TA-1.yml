@@ -1,0 +1,18 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice Level template/sample
+# ===========================================================
+#Link to the practice, using its unique identifier
+practice: f9269aebfe2c4d5b9293ba42a40a93ac
+
+#Link to the maturity level, using its unique identifier
+maturitylevel: 0a1dc80f84964f2fa776c5d8e932353a
+
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: a3d4045d5c0c4bd4a875784759539f0c
+
+#Objective of this particular practice level
+objective: Best-effort identification of high-level threats to the organization and individual projects.
+#Type Classification of the Document
+type: PracticeLevel

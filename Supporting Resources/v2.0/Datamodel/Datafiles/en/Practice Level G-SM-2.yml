@@ -1,0 +1,20 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice Level template/sample
+# ===========================================================
+#Link to the practice, using its unique identifier
+practice: 32b3bdd85d3a4d53827960004f9d1c7e
+
+#Link to the maturity level, using its unique identifier
+maturitylevel: 47dd82af343e4695a0385418af4398d1
+
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: 561e85a7fb114b1d976acce95d0b41ee
+
+#Objective of this particular practice level
+objective: Establish a unified strategic roadmap for software security within the
+  organization.
+
+#Type Classification of the Document
+type: PracticeLevel

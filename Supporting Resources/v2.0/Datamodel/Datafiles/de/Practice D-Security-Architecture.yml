@@ -1,0 +1,36 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice template/sample
+# ===========================================================
+#Link to the function, using its unique identifier
+function: 88c296acaae841a2b2fc5314bff44cb4
+
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: 4753e55e943c4d418303bf90d599c6b1
+
+#Official name of this practice
+name: Security Architecture
+
+#Abbreviation of this practice
+shortName: SA
+
+#A one sentence description of the security practice
+shortDescription: The security architecture practice focuses on managing architectural
+  risks for the software solution.
+
+#A multi-paragraph description of the security practice
+longDescription: |
+  The Security Architecture (SA) practice focuses on the security linked to components and technology you deal with during the architectural design of your software. Secure Architecture Design looks at the selection and composition of components that form the foundation of your solution, focusing on its security properties. Technology management looks at the security of supporting technologies used during development, deployment and operations, such as development stacks and tooling, deployment tooling, and operating systems and tooling.
+
+#The relative order of this practice in the business function
+order: 3
+
+#Who's the "owner" of this practice
+assignee: John Ellingsworth
+
+#Indication of progress to keep track of overall status
+progress: 50
+
+#Type Classification of the Document
+type: Practice

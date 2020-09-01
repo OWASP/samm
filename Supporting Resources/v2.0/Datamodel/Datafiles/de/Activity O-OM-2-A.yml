@@ -1,0 +1,50 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Data Protection, Level 2
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 9c6bf45a97ae4149a44c4a5d97ea6a40
+
+#Link to the practice level that this activity belongs to
+level: 76f8a2e68065467ba9bd2b5ac625490b
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 82a962e3dcc44b1086760de517aaa3c1
+
+#The title of this activity
+title: Establish a data catalog
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Standardized handling of different classes of sensitive data
+
+#A one sentence description of the activity
+shortDescription: Develop data catalog and establish data protection policy.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  At this maturity level, Data Protection activities focus on actively managing your stewardship of data. Establish technical and administrative controls to protect the confidentiality of sensitive data, and the integrity and availability of all data in your care, from its initial creation/receipt through the destruction of backups at the end of their retention period.
+
+  Identify the data stored, processed, and transmitted by applications, and capture information regarding their types, sensitivity (classification) levels, and storage location(s) in your data catalog. Clearly identify records or data elements subject to specific regulation. Establishing a single source of truth regarding the data you work with supports finer-grained selection of controls for their protection. Collecting this information enhances the accuracy, timeliness, and efficiency of your responses to data-related queries (e.g., from auditors, incident response teams, or customers), and supports threat modeling and compliance activities.
+
+  Based on your Data Protection Policy, establish processes and procedures for protecting and preserving data throughout their lifetime, whether at rest, while being processed, or in transit. Pay particular attention to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Your processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

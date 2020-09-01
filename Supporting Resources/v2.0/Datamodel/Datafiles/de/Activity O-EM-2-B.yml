@@ -1,0 +1,50 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Patching and Updating, Level 2
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 1a7ad26d9e48411e95a63be79e1b90ea
+
+#Link to the practice level that this activity belongs to
+level: 354292b7198b48bb8c4909e0d7e29f68
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: b7f1d18fbe724a148f039ce036de98ef
+
+#The title of this activity
+title: Formalize patch management
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Consistent and proactive patching of technology stack components
+
+#A one sentence description of the activity
+shortDescription: Perform regular patching of system and application components, across
+  the full stack. Ensure timely delivery of patches to customers.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Develop and follow a well-defined process for managing patches to application components across the technology stacks in use. Ensure processes include regular schedules for applying vendor updates, aligned with vendor update calendars (e.g., Microsoft Patch Tuesday). For software developed by the organization, deliver releases to customers and organization-managed solutions on a regular basis (e.g., monthly), regardless of whether you are including new features.
+
+  Create guidance for prioritizing component patching, reflecting your risk tolerance and management objectives. Consider operational factors (e.g., criticality of the application, severity of the vulnerabilities addressed) in determining priorities for testing and applying patches.
+
+  In the event receive a notification for a critical vulnerability in a component, while no patch is yet available, triage and handle the situation as a risk management issue (e.g., implement compensating controls, obtain customer risk acceptance, or disable affected applications/features).
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity

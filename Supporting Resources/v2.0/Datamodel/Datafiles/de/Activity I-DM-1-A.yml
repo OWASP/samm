@@ -1,0 +1,64 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: a5b57fc5fa0441b7b23f599b506c5752
+
+#Link to the practice level that this activity belongs to
+level: 97a46a074fe849a1af2c2d2d3dd09ba5
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 93dff7be5f954f8d87d24f4261002508
+
+#The title of this activity
+title: Track security defects centrally
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Transparency of known security defects impacting particular applications
+
+#A one sentence description of the activity
+shortDescription: Introduce a structured tracking of security defects and make knowledgeable
+  decisions based on this information.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Introduce a common definition / understanding of a security defect and define the most common ways of identifying these. These typically include, but are not limited to:
+
+  * Threat assessments
+  * Penetration tests
+  * Output from static and dynamic analysis scanning tools
+  * Responsible disclosure processes or bug bounties
+
+  Foster a culture of transparency and avoid blaming any teams for introducing or identifying security defects. Record and track all security defects in a defined location. This location doesn't necessarily have to centralized for the whole organization, however ensure that you're able to get an overview of all defects affecting a particular application at any single point in time. Define and apply access rules for the tracked security defects to mitigate the risk of leakage and abuse of this information.
+
+  Introduce at least rudimentary qualitative classificiation of security defects so that you are able to prioritize fixing efforts accordingly. Strive for limiting duplication of information and presence of false positives to increase the trustworthiness of the process.
+
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Security Engineer
+- Security Officer
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+- 921ff24f0b9f4df9a5129aa2f8a4a570   #V-ST-1-A
+- b3b20a75740c4880a21ad9aa0c1298c7   #V-ST-1-B
+#Type Classification of the Document
+type: Activity

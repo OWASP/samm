@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 27cdd2a336a44e56a42632c7a78fcf4f
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 47c8fb0cae5944d090d7f73f7632dc9f
+
+#One-sentence description of the criterium
+text: Do you evaluate the security quality of important technologies used for development?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You have a list of the most important technologies used in or in support of each
+  application
+- You identify and track technological risks
+- You ensure the risks to these technologies are in line with the organizational baseline
+
+#Type Classification of the Document
+type: Question

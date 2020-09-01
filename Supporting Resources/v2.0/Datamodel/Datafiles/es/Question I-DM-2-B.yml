@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 15d73a64818c43019504c8d938ca2434
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 1a849e8fd3ae41a4b3675947482426da
+
+#One-sentence description of the criterium
+text: Do you improve your security assurance program upon standardized metrics?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You document metrics for defect classification and categorization and keep them up to date
+- Executive management regularly receives information about defects and has acted upon it in the last year
+- You regularly share technical details about security defects among teams
+
+#Type Classification of the Document
+type: Question

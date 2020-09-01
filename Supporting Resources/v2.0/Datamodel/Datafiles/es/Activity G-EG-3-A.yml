@@ -1,0 +1,50 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 7344f4b153314dd8965361d23772aef1
+
+#Link to the practice level that this activity belongs to
+level: e3cf1d3c27b74262b9f842f27ca86333
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: a061ed8a5b1c4899bc95d9b1a10a469d
+
+#The title of this activity
+title: Standardize security guidance
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Adequate security knowledge of all employees ensured prior to working on critical tasks
+
+#A one sentence description of the activity
+shortDescription: Standardized in-house guidance around the organization’s secure
+  software development standards.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training as part of the onboarding process. Based on the criticality of the application and user’s role, consider restricting access until the onboarding training has been completed. While the organization may source some modules externally, the program is facilitated and managed in-house and includes content specific to the organization going beyond general security best practices. The program has a defined curriculum, checks participation, and tests understanding and competence. The training consists of a combination of industry best practices and organization’s internal standards, including training on specific systems used by the organization.
+
+  In addition to issues directly related to security, the organization includes other standards to the program, such as code complexity, code documentation, naming convention, and other process-related disciplines. This training minimizes issues resulting from employees following practices incorporated outside the organization and ensures continuity in the style and competency of the code.
+
+  To facilitate progress monitoring and successful completion of each training module the organization has a learning management platform or another centralized portal with similar functionality. Employees can monitor their progress and have access to all training resources even after they complete initial training.
+
+  Review issues resulting from employees not following established standards, policies, procedures, or security best practices at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization. Update the training periodically and train employees on any changes and most prevalent security deficiencies.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that may be related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
