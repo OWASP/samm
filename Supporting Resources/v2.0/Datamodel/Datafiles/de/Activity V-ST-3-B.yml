@@ -1,0 +1,51 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 8a64c7b0b35a458ea436260d5e414dfa
+
+#Link to the practice level that this activity belongs to
+level: eac3184f8e2343b8b29047d023376da5
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: a395d69917b947b28d5995738d716283
+
+#The title of this activity
+title: Establish continuous, scalable security verification
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Identification of manually identifiable security issues in earliest possible stages
+
+#A one sentence description of the activity
+shortDescription: Integrate security testing into development process
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Integrate security testing in parallel to all other development activities, including requirement analysis, software design and construction.
+
+  With the multiplicity of security tools running at every phase of development, remediating security issues at a designated stage (such as pre-release testing) is no longer appropriate or desirable. Security issues must be quickly triaged and fixes planned in a tradeoff between risk and cost of remediation. Continuously striving to detect issues earlier in the development lifecycle, via specific, low-friction automated tests integrated into development tools and build processes, lowers the cost of remediation thereby increasing the likelihood of issues being quickly resolved.
+
+  Proactively improve the security testing effort integrated into the development process by adequately propagating the results of other security test activities. For example, if a security penetration test identifies issues with session management, any changes to session management should trigger explicit security tests before pushing the changes to production.
+
+  Security champions and the central secure software group continuously review results from automated and manual security tests during development, including these results as part of the security awareness trainings for the development teams. Integrate lessons learned in overall playbooks to improve security testing as part of the organization development. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+#Type Classification of the Document
+type: Activity

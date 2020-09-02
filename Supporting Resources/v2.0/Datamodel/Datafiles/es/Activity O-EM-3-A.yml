@@ -1,0 +1,57 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Configuration Hardening, Level 3
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 47bff9a57f0344eeb4b083f1c2b1bb7e
+
+#Link to the practice level that this activity belongs to
+level: 1cb6e197ca8245eca65b0ecbdd784720
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 3156ab7b516e4550893427face9f86bc
+
+#The title of this activity
+title: Perform continuous configuration monitoring
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Clear view on component configurations to avoid non-conformities
+
+#A one sentence description of the activity
+shortDescription: Actively monitor configurations for non-conformance to baselines,
+  and handle detected occurrences as security defects.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Actively monitor the security configurations of deployed technology stacks, performing regular checks against established baselines. Ensure results of configuration checks are readily available, through published reports and dashboards.
+
+  When you detect non-conforming configurations, treat each occurrence as a security finding, and manage corrective actions within your established Defect Management practice.
+
+  Further gains may be realized using automated measures, such as "self-healing" configurations and security information and event management (SIEM) alerts.
+
+  As part of the process for updating components (e.g., new releases, vendor patches), review corresponding baselines and configuration guides, updating them as needed to maintain their relevance and accuracy. Review other baselines and configuration guides at least annually.
+
+  Periodically review your baseline management process, incorporating feedback and lessons learned from teams applying and maintaining configuration baselines and configuration guides.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+- 93dff7be5f954f8d87d24f4261002508   # Activity I-DM-1-A - Track all defects
+- 2bf0e192a904444b8a2f38c33256e80a   # Activity I-DM-2-A - Assign SLA based on security rating
+
+#Type Classification of the Document
+type: Activity

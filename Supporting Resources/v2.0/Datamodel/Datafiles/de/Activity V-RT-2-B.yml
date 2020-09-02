@@ -1,0 +1,47 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 27a14a265c864eb790781cd1e2bf843b
+
+#Link to the practice level that this activity belongs to
+level: 3e6e9a2b696e48018830b44fa96f98b5
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: fd4d1ac720374b13a25ab1381045b731
+
+#The title of this activity
+title: Define and run security abuse cases from requirements
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Detection of application business logic flaws
+
+#A one sentence description of the activity
+shortDescription: Create and test abuse cases and business logic flaw test
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Misuse and abuse cases describe unintended and malicious use scenarios of the application, describing how an attacker could do this. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application. Use abuse-case models for an application to serve as fuel for identification of concrete security tests that directly or indirectly exploit the abuse scenarios.
+
+  Abuse of functionality, sometimes referred to as a “business logic attack”, depends on the design and implementation of application functions and features. An example is using a password reset flow to enumerate accounts. As part of business logic testing, identify the business rules that are important for the application and turn them into experiments to verify whether the application properly enforces the business rule. For example, on a stock trading application, is the attacker allowed to start a trade at the beginning of the day and lock in a price, hold the transaction open until the end of the day, then complete the sale if the stock price has risen or cancel if the price dropped?
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+#Type Classification of the Document
+type: Activity

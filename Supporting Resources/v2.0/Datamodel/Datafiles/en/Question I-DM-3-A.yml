@@ -1,0 +1,27 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: d955a7b3fbfc4b6aa5b327af9e01c377
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 6b5eac7b9e2f49e2a2cda600ef70ad99
+
+#One-sentence description of the criterium
+text: Do you enforce SLAs for fixing security defects?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You automatically alert of SLA breaches and transfer respective defects to the risk management process
+- You integrate relevant tooling (e.g. monitoring, build, deployment) with the defect management system
+
+#Type Classification of the Document
+type: Question

@@ -1,0 +1,32 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: a9f56795ac84426c9e45f9471e82a8d7
+
+#Link to the answer set that contains the potential answers for this question
+answerset: d096060a4d864133afcbdd1397b95827
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 497753e656514aa6bdf3030bebcb3fbe
+
+#One-sentence description of the criterium
+text: Are vendors aligned with standard security controls and software development
+  tools and processes that the organization utilizes?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- The vendor has a secure SDLC that includes secure build, secure deployment, defect
+  management, and incident management that align with those used in your organization
+- You verify the solution meets quality and security objectives before every major
+  release
+- When standard verification processes are not available, you use compensating controls
+  such as software composition analysis and independent penetration testing
+
+#Type Classification of the Document
+type: Question

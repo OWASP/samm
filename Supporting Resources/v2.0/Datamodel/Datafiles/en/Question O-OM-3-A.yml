@@ -1,0 +1,31 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: cd80066899014962a37af7ab34c83003
+
+#This question uses Answer Set K
+answerset: 14ad9a12e44f4079abc610010292f35e
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 8176c4588bdd4e979e3c82566450696a
+
+#Text of the question presented to the user
+text: Do you regularly review and update the data catalog and your data protection
+  policies and procedures?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You have automated monitoring to detect attempted or actual violations of the Data
+  Protection Policy
+- You have tools for data loss prevention, access control and tracking, or anomalous
+  behavior detection
+- You periodically audit the operation of automated mechanisms, including backups
+  and record deletions
+#Type Classification of the Document
+type: Question

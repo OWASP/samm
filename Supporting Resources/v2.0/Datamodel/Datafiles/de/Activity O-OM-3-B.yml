@@ -1,0 +1,49 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Decom/Legacy, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: a0d2ec4c6daa43369c07644b8745a7bd
+
+#Link to the practice level that this activity belongs to
+level: 2a059c7d07c34b9897e49e6295501608
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 8ab46d242edd413d99a6c1991aef2416
+
+#The title of this activity
+title: Review application lifecycle state regularly
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Full visibility into lifecycle of all software assets
+
+#A one sentence description of the activity
+shortDescription: Proactively manage migration roadmaps, for both unsupported end-of-life
+  dependencies, and legacy versions of delivered software.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end-of-life. Follow a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. Regularly review and update your process, to reflect lessons learned.
+
+  Establish a product support plan, providing clear timelines for ending support on older product versions. Limit product versions in active use to only a small number (e.g., N.x.x and N-1.x.x only). Establish and publicize timelines for discontinuing support on prior versions, and proactively engage with customers and user groups to prevent disruption of service or support.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

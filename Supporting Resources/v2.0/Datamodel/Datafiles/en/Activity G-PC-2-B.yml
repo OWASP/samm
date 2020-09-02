@@ -1,0 +1,46 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 2919e1f19aec4f018da94a3e8733f37d
+
+#Link to the practice level that this activity belongs to
+level: 2a29c1f7d6954785b8d42d637a752f94
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 38932fe4024e4ec89646a82e0b4e651e
+
+#The title of this activity
+title: Standardize policy and compliance requirements
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Common understanding how to reach compliance with external compliance drivers for product teams
+
+#A one sentence description of the activity
+shortDescription: Publish compliance-specific application requirements and test guidance.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Develop a library of application requirements and test scripts to establish and verify regulatory compliance of applications. Some of these are tied to individual compliance requirements like PCI or GDPR, while others are more general in nature and address global compliance requirements such as ISO. The library is available to all application development teams. It includes guidance for determining all applicable requirements including considerations for reducing the compliance burden and scope. Implement a process to periodically re-assess each application’s compliance requirements. Re-assessment includes reviewing all application functionality and opportunities to reduce scope to lower the overall cost of compliance.
+
+  Requirements include enough information for developers to understand functional and non-functional requirements of the different compliance obligations. They include references to policies and standards, and provide explicit references to regulations. If there are questions about the implementation of a particular requirement, the original text of the regulation can help interpret the intent more accurately. Each requirement includes a set of test scripts for verifying compliance. In addition to assisting QA with compliance verification, these can help clarify compliance requirements for developers and make the compliance process transparent. Requirements have a format that allows importing them into individual requirements repositories. further clarify compliance requirements for developers and ensure the process of achieving compliance is fully transparent.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that may be related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

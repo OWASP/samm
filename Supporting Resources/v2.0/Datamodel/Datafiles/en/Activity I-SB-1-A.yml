@@ -1,0 +1,64 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 8a870a9b26724b4ba0dff177028b474a
+
+#Link to the practice level that this activity belongs to
+level: b29ab542cc674901a19cf5f3c0c4be18
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: bf536a9305134a769adbd414652054ee
+
+#The title of this activity
+title: Define a consistent build process
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Limited risk of human error during build process minimizing security issues
+
+#A one sentence description of the activity
+shortDescription: Create a formal definition of the build process so that it becomes
+  consistent and repeatable.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Define the build process, breaking it down into a set of clear instructions to either be followed by a person or an automated tool. The build process definition describes the whole process end-to-end so that the person or tool can follow it consistently each time and produce the same result. The definition is stored centrally and accessible to any tools or people. Avoid storing multiple copies as they may become unaligned and outdated.
+
+  The process definition does not include any secrets (specifically considering those needed during the build process).
+
+  Review any build tools, ensuring that they are actively maintained by vendors and up-to-date with security patches. Harden each tool’s configuration so that it is aligned with vendor guidelines and industry best practices.
+
+  Determine a value for each generated artifact that can be later used to verify its integrity, such as a signature or a hash. Protect this value and, if the artifact is signed, the private signing certificate.
+
+  Ensure that build tools are routinely patched and properly hardened.
+
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Developer
+- Security Engineer
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivites:
+- 786b3d7b39cd49a88090554a275f04a6   # O-EM-1-A
+- 0721d5bd5d67479991b5b52f33dcd7b1   # O-EM-1-B
+
+#Type Classification of the Document
+type: Activity

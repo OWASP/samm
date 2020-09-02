@@ -1,0 +1,52 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Patching and Updating, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 1a7ad26d9e48411e95a63be79e1b90ea
+
+#Link to the practice level that this activity belongs to
+level: 8cb942eff46d41f38e6edc11849744a6
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 0721d5bd5d67479991b5b52f33dcd7b1
+
+#The title of this activity
+title: Practice best-effort patching
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Mitigation of well-known issues in third-party components
+
+#A one sentence description of the activity
+shortDescription: Perform best-effort patching of system and application components.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Identify applications and third-party components which need to be updated or patched, including underlying operating systems, application servers, and third-party code libraries.
+
+  At this level of maturity, your identification and patching activities are best-effort and _ad hoc_, without a managed process for tracking component versions, available updates, and patch status. However, high-level requirements for patching activities (e.g., testing patches before pushing to production) may exist, and product teams are achieving best-effort compliance with those requirements.
+
+  Except for critical security updates (e.g., an exploit for a third-party component has been publicly released), teams leverage maintenance windows established for other purposes to apply component patches. For software developed by the organization, component patches are delivered to customers and organization-managed solutions only as part of feature releases.
+
+  Teams share their awareness of available updates, and their experiences with patching, on an _ad hoc_ basis. Ensure teams can determine the versions of all components in use, to evaluate whether their products are affected by a security vulnerability when notified. However, the process for generating and maintaining component lists may require significant analyst effort.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

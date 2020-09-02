@@ -1,0 +1,24 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 53f2da68c37a4ced8d5e767298fba589
+
+#Unique identifier to refer to this stream
+id: 77ca4b5e7ebc42558109829dffc2b80d
+
+#Official stream name
+name: Architecture Validation
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: |
+  Architecture validation confirms the security of the software and supporting architecture by identifying application and infrastructure architecture components and verifying their provision of security objectives and requirements.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+#Type Classification of the Document
+type: Stream

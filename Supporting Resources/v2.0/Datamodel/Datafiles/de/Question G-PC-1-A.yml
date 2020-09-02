@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 6e7a618abd564df5bb784ca54893bbee
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: d15bfcd426d24a43b9417a0464b3af44
+
+#One-sentence description of the criterium
+text: Do you have and apply a common set of policies and standards throughout your
+  organization?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You have adapted existing standards appropriate for the organization’s industry
+  to account for domain-specific considerations
+- Your standards are aligned with your policies and incorporate technology-specific
+  implementation guidance
+
+#Type Classification of the Document
+type: Question

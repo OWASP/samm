@@ -1,0 +1,26 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 11dd0c95f8914b6cb850a27f0557a9dd
+
+#This question uses Answer Set A
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 09744a244f8d4076bec35130da92ea2b
+
+#Text of the question presented to the user
+text: Do you review and update the incident detection process regularly?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You perform reviews at least annually
+- You update the checklist of potential attacks with external and internal data
+#Type Classification of the Document
+type: Question

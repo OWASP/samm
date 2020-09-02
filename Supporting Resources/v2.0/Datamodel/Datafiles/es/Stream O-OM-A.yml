@@ -1,0 +1,25 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream - Data Protection
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 8f07145b5ea74388b2217895d5e7b5c2
+
+#Unique identifier to refer to this stream
+id: 9c6bf45a97ae4149a44c4a5d97ea6a40
+
+#Official stream name
+name: Data Protection
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: |
+  The activities in this stream focus on ensuring the organization properly protects data in all aspects of their creation, handling, storage, and processing.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+
+#Type Classification of the Document
+type: Stream

@@ -1,0 +1,47 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 77ca4b5e7ebc42558109829dffc2b80d
+
+#Link to the practice level that this activity belongs to
+level: 67fcd33f84364ef68fb88aba77de1a63
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: eba4b86963f44fa59b0b9389a1cfc59b
+
+#The title of this activity
+title: Verify the application architecture for security methodically
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Consistent architecture review process across your organization
+
+#A one sentence description of the activity
+shortDescription: Validate the architecture security mechanisms
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Verify that the solution architecture addresses all identified security and compliance requirements. For each interface in the application, iterate through the list of security and compliance requirements and analyze the architecture for their provision. Also perform an interaction or data flow analysis to ensure that the requirements are adequately addressed over different components. Elaborate the analysis to show the design-level features that address each requirement.
+
+  Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface. Also identify and validate important design decisions made as part of the architecture, in particular when they deviate from the available shared security solutions in the organization. Finally, update the findings based on changes made during the development cycle, and note any requirements that are not clearly provided at the design level as assessment findings.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+#Type Classification of the Document
+type: Activity

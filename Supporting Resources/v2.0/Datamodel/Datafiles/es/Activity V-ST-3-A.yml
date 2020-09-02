@@ -1,0 +1,53 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 102fdab651834273abd67a3ec27aab05
+
+#Link to the practice level that this activity belongs to
+level: eac3184f8e2343b8b29047d023376da5
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 4f6a06796d0840debcc775ea1af65679
+
+#The title of this activity
+title: Integrate security testing tools in the delivery pipeline
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Identification of automatically identifiable vulnerabilities in earliest possible stages
+
+#A one sentence description of the activity
+shortDescription: Integrate automated security testing into the build and deploy process
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Projects within the organization routinely run automated security tests and review results during development. Configure security testing tools to automatically run as part of the build and deploy process to make this scalable with low overhead. Inspect findings as they occur.
+
+  Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle. With the automatic execution of security test cases, projects enter the implementation phase with a number of failing tests for the non-existent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, lowering risk of release delays due to security concerns or forced acceptance of risk to meet project deadlines.
+
+  Make the results of automated and manual security tests visible via dashboards, and routinely present them to management and business stakeholders (e.g. before each release) for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers work together to establish a concrete timeframe for addressing them. Continuously review and improve the quality of the security tests.
+
+  Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. Spread the knowledge of the created security tests and the results across the development team to improve security knowledge and awareness inside the organization.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+- e17d573510904f65a1fe6040b56ad0b1   # Practice I-Defect-Management
+
+#Type Classification of the Document
+type: Activity

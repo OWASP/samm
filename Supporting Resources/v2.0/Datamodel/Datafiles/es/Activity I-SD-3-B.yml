@@ -1,0 +1,55 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 9a5f26d77f204467bdda7ffa09109d73
+
+#Link to the practice level that this activity belongs to
+level: fc5eb251c6ee4f3db04eb01b62d380ba
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: fed0d75c064c4a979a5b7b98adfdedbf
+
+#The title of this activity
+title: Enforce lifecycle management of application secrets
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Minimized possibility and timely detection of production secret abuse
+
+#A one sentence description of the activity
+shortDescription: Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance. The use of secrets per application instance ensures that unexpected application behavior can be traced back and properly analyzed. Tools can help in automatically and seemlessly updating the secrets in all relevant places upon change.
+
+  Ensure that all access to secrets (both reading and writing) is logged in a central infrastructure. Review these logs regularly to identify unexpected behavior and perform proper analysis to understand why this happened. Feed issues and root causes into the defect management practice to make sure that the organization will resolve any unacceptable situations.
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Administrator
+- Security Engineer
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+-
+
+#Type Classification of the Document
+type: Activity

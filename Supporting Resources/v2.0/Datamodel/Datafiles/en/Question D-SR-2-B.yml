@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 5d5e3d9beab9498ca1ce66d3a53a81c6
+
+#Link to the answer set that contains the potential answers for this question
+answerset: d096060a4d864133afcbdd1397b95827
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: dffdd9659e6243d7bcbcbc0dff4429fc
+
+#One-sentence description of the criterium
+text: Do vendors meet the security responsibilities and quality measures of service level agreements defined by the organization?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You discuss security requirements with the vendor when creating vendor agreements
+- Vendor agreements provide specific guidance on security defect remediation within an agreed upon timeframe
+- The organization has a templated agreement of responsibilities and service levels for key vendor security processes
+- You measure key performance indicators
+
+#Type Classification of the Document
+type: Question

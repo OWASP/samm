@@ -1,0 +1,49 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: efb5d1f275504173899da345ef5bbe8e
+
+#Link to the practice level that this activity belongs to
+level: df5a0be1889a4b06835193892803dde5
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 99989f86dabc4a7a87fbe6a274c99ca3
+
+#The title of this activity
+title: Test the effectiveness of security controls
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Verified effectiveness of your standard security controls
+
+#A one sentence description of the activity
+shortDescription: Test for software security controls
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Conduct security tests to verify that the standard software security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service. Security tests at least include testing for authentication, access control, input validation, encoding, and escaping data and encryption controls. The test objective is to validate that the security controls are correctly implemented.
+
+  The security testing validates the relevant software security controls. Perform control-verification security tests manually or with tools, each time the application changes its use of the controls. Techniques such as feature toggles and A/B testing can be used to progressively expose features to broader audiences as they are sufficiently validated. Software control verification is mandatory for all software that is part of the SAMM program.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+- 5702908efca4499e87a0239f32920d9b     # Practice D-Security-Requirements
+
+#Type Classification of the Document
+type: Activity

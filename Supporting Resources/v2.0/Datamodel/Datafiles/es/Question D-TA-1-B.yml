@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 1ceadbb5a0024e2599821e7ce756f3a4
+
+#Link to the answer set that contains the potential answers for this question
+
+answerset: 8c89e8daf71d425abaca53edc01f6afa
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: e9dcf4f79e2e487fb74df5e15a14a91b
+
+#One-sentence description of the criterium
+text: Do you identify and manage architectural design flaws with threat modeling?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+  - You perform threat modeling for high-risk applications
+  - You use simple threat checklists, such as STRIDE
+  - You persist the outcome of a threat model for later use
+
+#Type Classification of the Document
+type: Question

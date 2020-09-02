@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 4f6a06796d0840debcc775ea1af65679
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f0ccf7b66c0a484aa8374a387438bc98
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 009a8fafe5dd41889947a6b2c6769bbe
+
+#One-sentence description of the criterion
+text: Do you integrate automated security testing into the build and deploy process?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- Management and business stakeholders track and review test results throughout
+  the development cycle
+- You merge test results into a central dashboard and feed them into defect management
+
+#Type Classification of the Document
+type: Question

@@ -1,0 +1,27 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: f692ee8f87c1499681490cc1647c0df4
+
+#This question uses Answer Set E
+answerset: d096060a4d864133afcbdd1397b95827
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 91bd2bdc1c734d8dbffc30e37158ab00
+
+#Text of the question presented to the user
+text: Do you have a dedicated incident response team available?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- The team performs Root Cause Analysis for all security incidents unless there is
+  a specific reason not to do so
+- You review and update the response process at least annually
+#Type Classification of the Document
+type: Question

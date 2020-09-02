@@ -1,0 +1,25 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream - Incident Detection
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: c13aa12c13d04362a3ca3385a8c580ee
+
+#Unique identifier to refer to this stream
+id: ff8a6a08dc684f38ab74b9db9584f0a5
+
+#Official stream name
+name: Incident Detection
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: |
+  Incident Detection refers to the process of determining an identified security-relevant event is, in fact, a security incident. The activities in this stream focus on the organization's ability to identify security incidents when they occur, and to initiate appropriate incident response activities.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+
+#Type Classification of the Document
+type: Stream

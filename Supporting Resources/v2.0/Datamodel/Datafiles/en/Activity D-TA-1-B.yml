@@ -1,0 +1,56 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+
+stream: ed5a9c3dd7884c88918a45dc9d231c5d
+
+#Link to the practice level that this activity belongs to
+level: a3d4045d5c0c4bd4a875784759539f0c
+
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 1ceadbb5a0024e2599821e7ce756f3a4
+
+#The title of this activity
+title: Perform basic threat modeling
+
+#Describe the benefit that is achieved by implementing this activity
+
+benefit: Identification of architectural design flaws in your applications
+
+#A one sentence description of the activity
+shortDescription: Perform best-effort, risk-based threat modeling using brainstorming and existing diagrams with simple threat checklists.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Threat modeling is a structured activity for identifying, evaluating, and managing system threats, architectural design flaws, and recommended security mitigations. It is typically done as part of the design phase or as part of a security assessment.
+
+  Threat modeling is a team exercise, including product owners, architects, security champions, and security testers. At this maturity level, expose teams and stakeholders to threat modeling to increase security awareness and to create a shared vision on the security of the system.
+
+  At maturity level 1, you perform threat modeling ad-hoc for high-risk applications and use simple threat checklists, such as STRIDE. Avoid lengthy workshops and overly detailed lists of low-relevant threats. Perform threat modeling iteratively to align to more iterative development paradigms. If you add new functionality to an existing application, look only into the newly added functions instead of trying to cover the entire scope. A good starting point is the existing diagrams that you annotate during discussion workshops. Always make sure to persist the outcome of a threat modeling discussion for later use.
+
+  Your most important tool to start threat modeling is a whiteboard, smartboard, or a piece of paper. Aim for security awareness, a simple process, and actionable outcomes that you agree upon with your team.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

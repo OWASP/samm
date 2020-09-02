@@ -1,0 +1,48 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: c404aa4f711e4f4e9e71faea22f7fb5c
+
+#Link to the practice level that this activity belongs to
+level: 2a29c1f7d6954785b8d42d637a752f94
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 09f4b814a3444b329a7c9c7f54152ffe
+
+#The title of this activity
+title: Develop test procedures
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Common understanding of how to reach compliance with security policies for product teams
+
+#A one sentence description of the activity
+shortDescription: Develop security requirements applicable to all applications.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  To assist with the ongoing implementation and verification of compliance with policies and standards, develop application security and appropriate test scripts related to each applicable requirement. Organize these documents into libraries and make them available to all application teams in formats most conducive for inclusion into each application. Clearly label the documents and link them to the policies and standards they represent, to assist with the ongoing updates and maintenance. Version policies and standards and include detailed change logs with each iterative update to make ongoing inclusion into different products’ SDLC easier.
+
+  Write application security requirements in a format consistent with the existing requirements management processes. You may need more than one version catering to different development methodologies or technologies. The goal is to make it easy for various product teams to incorporate policies and standards into their existing development life-cycles needing minimal interpretation of requirements.
+
+  Test scripts help reinforce application security requirements through clear expectations of application functionality, and guide automated or manual testing efforts that may already be part of the development process. These efforts not only help each team establish the current state of compliance with existing policies and standards, but also ensure compliance as applications continue to change.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that may be related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

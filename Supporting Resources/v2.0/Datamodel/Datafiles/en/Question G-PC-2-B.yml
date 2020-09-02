@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 38932fe4024e4ec89646a82e0b4e651e
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f5042ff6c8d44068a9ac3e1bd8349760
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 84d5a7f8d9e647db95288329f64fc41d
+
+#One-sentence description of the criterium
+text: Do you have a standard set of security requirements and verification procedures
+  addressing the organization's external compliance obligations?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You map each external compliance obligation to a well-defined set of application
+  requirements
+- You define verification procedures, including automated tests, to verify compliance
+  with compliance-related requirements
+
+#Type Classification of the Document
+type: Question

@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 9d0433c5133c4a4c9c16ae84abe9a235
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: ba213b2d5fc844a386010ca53cf87fb8
+
+#One-sentence description of the criterium
+text: Do you regularly review the effectiveness of the security controls?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You evaluate the preventive, detective, and response capabilities of security controls
+- You evaluate the strategy alignment, appropriate support, and scalability of security
+  controls
+- You evaluate the effectiveness at least yearly
+- You log identified shortcomings as defects
+
+#Type Classification of the Document
+type: Question
