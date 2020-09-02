@@ -4,6 +4,11 @@ weight: 4
 type: security_practice
 ---
 
+
+Todo's for this document:
+- [ ] Mapping to OWASP SAMM categories (eg. CISO in Governance, Developer in Implementation, Pen-tester in Verification -> Security Testing, etc.)
+
+
 Throughout the core model and supporting documentation, we address the responsibilities associated with various teams and functional roles, such as the Information Security Team. Each organization has a unique structure and is likely to use different naming conventions. Here we provide explanations of how we use terms referring to teams and roles, and some guidance for you to align them with your assessment scenarios.
 
 ## The Organization
@@ -80,7 +85,7 @@ Furthermore, a medior developer should understand the value of Security controls
 
 
 #### Senior Developer
-In addition to the medior level, a senior developer should have firm knowledge of security principles and be able to map thse principles on the architecture and software code produced. The senior developer should be able to discuss, cooperate and challenge in security requirements and threat modelling, as well as helping security champions and pentesters to design and implement security controls that mitigate existing or potential vulnerabilities.
+In addition to the medior level, a senior developer should have firm knowledge of security principles and be able to map these principles on the architecture and software code produced. The senior developer should be able to discuss, cooperate and challenge in security requirements and threat modelling, as well as helping security champions and pentesters to design and implement security controls that mitigate existing or potential vulnerabilities.
 
 A senior developer, similar to an architect, should be able to explain to pen-testers and Security officers, what the architecture of the application landscape looks like, as well as the software development environment and platform.
 
