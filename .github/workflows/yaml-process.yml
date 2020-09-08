@@ -5,12 +5,12 @@ on:
     paths:
       - ".github/workflows/*.yml"
       - "Website/**"
-      - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+      - "Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml"
   pull_request:
     paths:
       - ".github/workflows/*.yml"
       - "Website/**"
-      - "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+      - "Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml"
 
 jobs:
   lintModelv20:
@@ -20,38 +20,41 @@ jobs:
     - name: yaml-lint
       uses: ibiqlik/action-yamllint@master
       with:
-        file_or_dir: "Supporting*Resources/v2.0/Datamodel/Datafiles/*.yml"
+        file_or_dir: "Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml"
         config_file: .yamllint
 
   generate-markdown:
     runs-on: ubuntu-18.04
     needs: lintModelv20
+    strategy:
+      matrix:
+        lang: [en, es, de]
     steps:
       - uses: actions/checkout@v2
 
       - name: "Create output dir and copy files to override spaces in directories"
         run: |
-          cp -r Supporting\ Resources/v2.0/Datamodel/Datafiles .
+          cp -r Supporting\ Resources/v2.0/Datamodel/Datafiles/${{ matrix.lang }} .
           mkdir output
 
-      - name: "Process datafiles"
-        uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.3.5
+      - name: "Process datafiles for ${{ matrix.lang }}"
+        uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.4.9
         with:
-          args: "-d Datafiles -o output"
+          args: "-d ${{ matrix.lang }} -o output"
 
-      - name: "Process artifacts"
+      - name: "Process artifacts for ${{ matrix.lang }}"
         run: |
-          mkdir -p business-function/practice/stream
+          mkdir -p ${{ matrix.lang }}/business-function/practice/stream
           BASE=output/markdown
-          cp "$BASE"/{Design.md,Governance.md,Implementation.md,Operations.md,Verification.md} business-function
-          cp "$BASE"/*-??-?.md business-function/practice/stream
-          cp "$BASE"/*-??.md business-function/practice
+          cp "$BASE"/{Design.md,Governance.md,Implementation.md,Operations.md,Verification.md} ${{ matrix.lang }}/business-function
+          cp "$BASE"/*-??-?.md ${{ matrix.lang }}/business-function/practice/stream
+          cp "$BASE"/*-??.md ${{ matrix.lang }}/business-function/practice
 
       - name: "Upload artifacts"
         uses: actions/upload-artifact@v1
         with:
-          name: markdown
-          path: business-function
+          name: markdown-${{ matrix.lang }}
+          path: ${{ matrix.lang }}/business-function
 
   build:
     runs-on: ubuntu-18.04
@@ -71,22 +74,31 @@ jobs:
           hugo-version: '0.59.1'
           extended: true
 
-      - uses: actions/download-artifact@v1
-        name: Download markdown-files
-        with:
-          name: markdown
+      - name: Install rename
+        run: sudo apt-get install -y rename
+
+      - uses: actions/download-artifact@v2
+        name: Download markdown-files for all langs
 
       - name: Production build
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: |
-          cp -r markdown/* Website/content/business-function
+          for lang in en es de;
+          do 
+            rename "s/.md/.${lang}.md/" markdown-"${lang}"/**/*.md
+            cp -r markdown-"${lang}"/* Website/content/business-function/
+          done
           hugo --gc --minify -v --cleanDestinationDir --environment production -s Website -d public
 
       - name: Staging build
         # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
         if: github.ref != 'refs/heads/master'
         run: |
-          cp -r markdown/* Website/content/business-function
+          for lang in en es de;
+          do 
+            rename "s/.md/.${lang}.md/" markdown-"${lang}"/**/*.md
+            cp -r markdown-"${lang}"/* Website/content/business-function/
+          done
           hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
 
       - name: "Upload hugo artifacts"
