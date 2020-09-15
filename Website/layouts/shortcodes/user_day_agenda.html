@@ -12,15 +12,22 @@
         {{ range sort . "weight" }}
         {{"<!-- SUD talk -->" | safeHTML}}
         <tr>
-            {{ if isset . "youtubeUrl" }}
-            <td class="samm-title-row-centered"><a href="{{ .youtubeUrl }}" target="_blank"><i class="fas fa-play"></i></a></td>
-            {{ end }}
-            {{ if isset . "downloadUrl" }}
-            <td class="samm-title-row-centered"><a href="{{ .downloadUrl }}"><i class="fas fa-download"></i></a></td>
-            {{ end }}
+            <td class="samm-title-row-centered">
+                {{ if isset . "youtubeUrl" | and (not (eq . "youtubeUrl" "")) }}
+                <a href="{{ .youtubeUrl }}" target="_blank"><i class="fas fa-play"></i></a>
+                {{ end }}
+            </td>
+            <td class="samm-title-row-centered">
+                {{ if isset . "downloadUrl" | and (not (eq . "downloadUrl" "")) }}
+                <a href="{{ .downloadUrl }}"><i class="fas fa-download"></i></a>
+                {{ end }}
+            </td>
             <td class="samm-title-row"><a href="{{ .url }}">{{ .name }}</a></td>
             <td class="samm-row">{{ .presenter }}</td>
         </tr>
         {{ end }}
     </tbody>
 </table>
+{{"<!-- End talk list -->" | safeHTML}}
+{{ end }}
+{{ end }}
