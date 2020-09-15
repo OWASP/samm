@@ -13,12 +13,12 @@
         {{"<!-- SUD talk -->" | safeHTML}}
         <tr>
             <td class="samm-title-row-centered">
-                {{ if isset . "youtubeUrl" | and (not (eq . "youtubeUrl" "")) }}
+                {{ if and (isset . "youtubeUrl") (not (eq . "youtubeUrl" "")) }}
                 <a href="{{ .youtubeUrl }}" target="_blank"><i class="fas fa-play"></i></a>
                 {{ end }}
             </td>
             <td class="samm-title-row-centered">
-                {{ if isset . "downloadUrl" | and (not (eq . "downloadUrl" "")) }}
+                    {{ if and (isset . "downloadUrl") (not (eq . "downloadUrl" "")) }}
                 <a href="{{ .downloadUrl }}"><i class="fas fa-download"></i></a>
                 {{ end }}
             </td>
