@@ -1,3 +1,6 @@
+{{ if gt (len .Site.Data.sud) 0 }}
+{{ with index .Site.Data.sud }}
+{{"<!-- Start talk list -->" | safeHTML}}
 <table class="table samm-table" style="border: 1px solid rgba(102, 184, 184, .5);">
     <tbody>
         <tr>
@@ -6,83 +9,25 @@
             <td class="samm-heading-row">Title</td>
             <td class="samm-heading-row">Speaker</td>
         </tr>
+        {{ range sort . "weight" }}
+        {{"<!-- SUD talk -->" | safeHTML}}
         <tr>
-            <td class="samm-title-row-centered"><a href="https://youtu.be/5B-methdLO8" target="_blank"><i class="fas fa-play"></i></a></td>
-            <td class="samm-title-row-centered"><a href="/presentations/SUD20_OWASP_SAMM_Update.pdf"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="samm-update">OWASP SAMM Update</a></td>
-            <td class="samm-row">Bart De Win and Sebastien Deleersnyder</td>
+            <td class="samm-title-row-centered">
+                {{ if and (isset . "youtubeUrl") (not (eq . "youtubeUrl" "")) }}
+                <a href="{{ .youtubeUrl }}" target="_blank"><i class="fas fa-play"></i></a>
+                {{ end }}
+            </td>
+            <td class="samm-title-row-centered">
+                    {{ if and (isset . "downloadUrl") (not (eq . "downloadUrl" "")) }}
+                <a href="{{ .downloadUrl }}"><i class="fas fa-download"></i></a>
+                {{ end }}
+            </td>
+            <td class="samm-title-row"><a href="{{ .url }}">{{ .name }}</a></td>
+            <td class="samm-row">{{ .presenter }}</td>
         </tr>
-        <tr>
-            <td class="samm-title-row-centered"><a href="https://www.youtube.com/watch?v=yz-JbdI48NU" target="_blank"><i class="fas fa-play"></i></a></td>
-            <td class="samm-title-row-centered"><a href="/presentations/Seven_Deadly_Sins_of_SAMM.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="sins-of-samm">The Seven Deadly Sins of SAMM</td>
-            <td class="samm-row">John Wood</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/Agile_Guidance_for_SAMM.pdf"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="agile-guidance">Agile Guidance for SAMM</a></td>
-            <td class="samm-row">Rob van der Veer</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/OWASP_SAMM_Dashboard.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="samm-dashboard">SAMM 2.0 Dashboard</a></td>
-            <td class="samm-row">Sathish Ashwin</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/OWASP_Top_10_Maturity_Categories_for_Security_Champions.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="owasp-categories-for-security-champions">OWASP Top 10 Maturity Categories for Security Champions</a></td>
-            <td class="samm-row">Lucian Corlan</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/Using_OWASP_SAMM_to_kickstart_the_SSDLC.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="samm-to-kickstart-the-tssdlc">Using OWASP SAMM to kickstart the SSDLC - Lessons learned from real-world projects</a></td>
-            <td class="samm-row">Thomas Kerbl</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>            
-            <td class="samm-title-row-centered"><a href="/presentations/OWASP_SAMM_Tools_of_the_Trade.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="samm-tools-of-the-trade">OWASP SAMM: Tools of the Trade</a></td>
-            <td class="samm-row">John Ellingsworth</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/Lean_Security.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="lean-security-in-devsecops">Lean security: a framework for activities and design factors in DevSecOps</a></td>
-            <td class="samm-row">Dennis Verslegers</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/Open_control_frameworks_in_Media_and_Entertainment.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="content-security-in-federated-media-cloud-workflows">Content Security in Federated Media Cloud Workflows</a></td>
-            <td class="samm-row">Ben Schofield</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/Integrating_SAMM_v2_into_Consulting_Assessments.pdf"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="integrating-samm-into-consulting-assessments">Integrating SAMM v2 into Consulting Assessments</a></td>
-            <td class="samm-row">Tony Cargile</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"><a href="/presentations/SAMM_Benchmark.pptx"><i class="fas fa-download"></i></a></td>
-            <td class="samm-title-row"><a href="samm-benchmark">SAMM benchmark - design and user stories</a></td>
-            <td class="samm-row">Brian Glas</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row"><a href="contributing-to-samm">Contributing to SAMM</a></td>
-            <td class="samm-row">Patricia Duarte</td>
-        </tr>
-        <tr>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row-centered"></td>
-            <td class="samm-title-row"><a href="user-day-wrap-up">Wrapping up our first SAMM User Day</a></td>
-            <td class="samm-row">Bart De Win</td>
-        </tr>
+        {{ end }}
     </tbody>
 </table>
+{{"<!-- End talk list -->" | safeHTML}}
+{{ end }}
+{{ end }}
