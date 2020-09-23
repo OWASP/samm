@@ -1,0 +1,13 @@
+"project_id": "owasp-samm"                     #open project settings and go to API section 
+"api_token": ""          #open profile settings and go to API & SSO > New Token > create Token
+"base_path": "/samm"
+"base_url": "https://crowdin.com"
+"preserve_hierarchy": true
+
+"files": [
+  {
+    "source": "/Supporting Resources/v2.0/Datamodel/Datafiles/en/",                                       #source files filter
+    "translation": "/Supporting Resources/v2.0/Datamodel/Datafiles/%two_letters_code%/%original_file_name%"        #where translations are stored
+  }
+]
+
