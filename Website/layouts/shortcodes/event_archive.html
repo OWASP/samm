@@ -1,0 +1,14 @@
+<div class="event-list">
+    {{ if gt (len .Site.Data.eventsarchive) 0 }}
+    {{ with index .Site.Data.eventsarchive }}
+    {{ range sort . "weight" }}
+    <div>
+        <h4>{{ .title }}</h4>
+        <p class="author-category">{{ .text }}</p>
+        <a href="{{ .videoUrl }}" target="_blank">Watch video</a>
+    </div>
+    <!-- /.row -->
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>
