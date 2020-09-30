@@ -1,0 +1,51 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: a5b57fc5fa0441b7b23f599b506c5752
+#Link to the practice level that this activity belongs to
+level: 5a25ae9bc9134d6387128ea925c81845
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: d955a7b3fbfc4b6aa5b327af9e01c377
+#The title of this activity
+title: Enforce an SLA for defect management
+#Describe the benefit that is achieved by implementing this activity
+benefit: Assurance that security defects are handled within predefined SLAs
+#A one sentence description of the activity
+shortDescription: Enforce the predefined SLAs and integrate your defect management system with other relevant tooling.
+#A multi-paragraph description of the activity
+longDescription: |
+  Implement an automated alerting on security defects if the fix time breaches the defined SLAs. Ensure that these defects are automatically transfered into the risk management process and rated by a consistent quantitative methodology. Evaluate how particular defects influence / amplify each other not only on the level of separate teams, but on the level of the whole organization. Use the knowledge of the full kill chain to prioritize, introduce and track compensating controls mitigating the respective business risks.
+
+  Integrate your defect management system with the automated tooling introduced by other practices, e.g.:
+
+  * Build and Deployment: Fail the build / deployment process if security defects above certain severity affect the final artifact, unless someone explicitely signs off the exception.
+  * Monitoring: If possible, ensure that abuse of the security defect in production environment is recognized and alerted.
+#The output of this particular activity
+results:
+  - result1
+  - result2
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+#A description of the costs required to implement the activity
+costs: TBS.
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Administrator
+  - Security Engineer
+  - Security Officer
+  - Product Owner
+  - Manager
+#Internal notes that might help the author
+notes: None
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+  - 11dd0c95f8914b6cb850a27f0557a9dd
+  - 281369f491da4d4c84b0729e344e2c93
+  - 05a3e75c6c654ae58a115cbf4295662b
+#Type Classification of the Document
+type: Activity
