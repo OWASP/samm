@@ -1,0 +1,38 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description - Incident Response, Level 1
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 390bec725b8344a289d5386026925947
+#Link to the practice level that this activity belongs to
+level: 817dd6acaf85496aa005393e0e6c3e70
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: b082664b8815407d825b82cf23fa88ea
+#The title of this activity
+title: Create an incident response plan
+#Describe the benefit that is achieved by implementing this activity
+benefit: Ability to efficiently solve most common security incidents
+#A one sentence description of the activity
+shortDescription: Identify roles and responsibilities for incident response.
+#A multi-paragraph description of the activity
+longDescription: |
+  The first step is to recognize the incident response competence as such, and define a responsible owner. Provide them the time and resources they need to keep up with current state of incident handling best practices and forensic tooling.
+
+  At this level of maturity, you may not have established a dedicated incident response team, but you have defined the participants of the process (usually different roles). Assign a single point of contact for the process, known to all relevant stakeholders. Ensure that the point of contact knows how to reach each participant, and define on-call responsibilities for those who have them.
+
+  When security incidents happen, document all actions taken. Protect this information from unauthorized access.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
