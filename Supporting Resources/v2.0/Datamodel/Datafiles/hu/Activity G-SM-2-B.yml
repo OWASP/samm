@@ -1,0 +1,38 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 2f1cac3c2e724823b3b48a7e797520b4
+#Link to the practice level that this activity belongs to
+level: 561e85a7fb114b1d976acce95d0b41ee
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: c1aef0137df1400cbdd3c660b609b7b2
+#The title of this activity
+title: Set strategic KPIs
+#Describe the benefit that is achieved by implementing this activity
+benefit: Transparency on your AppSec program's performance
+#A one sentence description of the activity
+shortDescription: Set targets and KPI’s for measuring the program effectiveness.
+#A multi-paragraph description of the activity
+longDescription: |
+  Once the organization has defined its application security metrics, collect enough information to establish realistic goals. Test identified metrics to ensure you can gather data consistently and efficiently over a short period. After the initial testing period, the organization should have enough information to commit to goals and objectives expressed through Key Performance Indicators (KPIs).
+
+  While several measurements are useful for monitoring the information security program and its effectiveness, KPIs are comprised of the most meaningful and effective metrics. Aim to remove volatility common in application development environments from KPIs to reduce chances of unfavorable numbers resulting from temporary or misleading individual measurements. Base KPIs on metrics considered valuable not only to Information Security professionals but also to individuals responsible for the overall success of the application, and organization’s leadership. View KPIs as definitive indicators of the success of the whole program and consider them actionable.
+
+  Fully document KPIs and distribute them to the teams contributing to the success of the program as well as organization’s leadership. Ideally, include a brief explanation of the information sources for each KPI and the meaning if the numbers are high or low. Include short and long-term goals, and ranges for unacceptable measurements requiring immediate intervention. Share action plans with application security and application development teams to ensure full transparency in understanding of the organization’s objectives and goals.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that may be related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
