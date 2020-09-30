@@ -1,0 +1,53 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 55bf5184ff7d4b76a444e52a28c803d9
+#Link to the practice level that this activity belongs to
+level: 5a25ae9bc9134d6387128ea925c81845
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: f2a309b82fbc46cfb2f11c9cde20dc0a
+#The title of this activity
+title: Use metrics to improve the security strategy
+#Describe the benefit that is achieved by implementing this activity
+benefit: Optimized security strategy based on defect information
+#A one sentence description of the activity
+shortDescription: Continuously improve your security defect management metrics and correlate it with other sources.
+#A multi-paragraph description of the activity
+longDescription: |
+  Regularly (at least once per year) revisit the defect management metrics you're collecting and compare the effort needed to collect and track these to the expected outcomes. Make knowledgeable decision about removing metrics which don't deliver the overall expected value. Wherever possible, include and automate verification activities for the quality of the collected data and ensure sustainable improvement if any differences are detected.
+
+  Aggregate the data with your threat intelligence and incident management metrics and use the results as input for other initiatives over the whole organization, such as:
+
+  * Planning security trainings for various personnel
+  * Improvement of security verification activities for both internally and externally develeoped collected
+  * Supply chain management, e.g. carrying out security audits of partner organizations
+  * Monitoring of attacks against your infrastructure and applications
+  * Investing in security infrastructure or compensating controls
+  * Staffing your security team and setting up the security budget
+#The output of this particular activity
+results:
+  - result1
+  - result2
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+#A description of the costs required to implement the activity
+costs: TBS.
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Security Officer
+  - Security Engineer
+  - Manager
+#Internal notes that might help the author
+notes: None
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+  - 5bcb52375a0f4085bb12266c9ecfa84d
+  - 4f6a06796d0840debcc775ea1af65679
+  - a395d69917b947b28d5995738d716283
+#Type Classification of the Document
+type: Activity
