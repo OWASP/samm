@@ -1,0 +1,39 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 7fb68bc660774b9080963c17761529a2
+#Link to the practice level that this activity belongs to
+level: 1a55b2c4666f4336a3f5c12c5bb4a1e9
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 1cc77725cb2349f394477838668f6184
+#The title of this activity
+title: Standardize and integrate security requirements
+#Describe the benefit that is achieved by implementing this activity
+benefit: Alignment of security requirements with other types of requirements
+#A one sentence description of the activity
+shortDescription: Structured security requirements are available and utilized by developer teams.
+#A multi-paragraph description of the activity
+longDescription: |
+  Security requirements can originate from other sources including policies and legislation, known problems within the application, and intelligence from metrics and feedback. At this level, a more systematic elicitation of security requirements must be achieved by analysing different sources of such requirements. Ensure that appropriate input is received from these sources to help the elicitation of requirements. For example, organize interviews or brainstorm sessions (e.g., in the case of policy and legislation), analyze historical logs or vulnerability systems.
+
+  Use a structured notation of security requirements across applications and an appropriate formalism that integrates well with how you specify other (functional) requirements for the project. This could mean, for example, extending analysis documents, writing user stories, etc.
+
+  When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. For example, annotate requirements with priorities, or influence the handling of requirements to enforce sufficient security appetite (while balancing against other non-functional requirements).
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+  - e17d573510904f65a1fe6040b56ad0b1
+#Type Classification of the Document
+type: Activity
