@@ -1,0 +1,42 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description - Incident Detection, Level 1
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: ff8a6a08dc684f38ab74b9db9584f0a5
+#Link to the practice level that this activity belongs to
+level: 817dd6acaf85496aa005393e0e6c3e70
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: b8dfd23d66224ac88d3ce41cf83ed15e
+#The title of this activity
+title: Use best-effort incident detection
+#Describe the benefit that is achieved by implementing this activity
+benefit: Ability to detect the most obvious security incidents
+#A one sentence description of the activity
+shortDescription: Use available log data to perform best-effort detection of possible security incidents.
+#A multi-paragraph description of the activity
+longDescription: |
+  Analyze available log data (e.g., access logs, application logs, infrastructure logs), to detect possible security incidents in accordance with known log data retention periods.
+
+  In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques. Even a `cron` job, running a simple script to look for suspicious events, is a step forward!
+
+  If you send logs from different sources to a dedicated log aggregation system, analyze the logs there and employ basic log correlation principles.
+
+  Even if you don't have a 24/7 incident detection process, ensure that unavailability of the responsible person (e.g., due to vacation or illness) doesn't significantly impact detection speed or quality.
+
+  Establish and share points of contact for formal creation of security incidents.
+#The output of this particular activity
+results:
+#The different metrics used to measure the success of the activity
+metrics:
+#A description of the costs of implementing the activity
+costs:
+#The roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
