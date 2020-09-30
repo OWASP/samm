@@ -1,0 +1,15 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice Level - Operational Management, Level 2
+#===========================================================
+#Link to the practice, using its unique identifier
+practice: 8f07145b5ea74388b2217895d5e7b5c2
+#Link to the maturity level, using its unique identifier
+maturitylevel: 47dd82af343e4695a0385418af4398d1
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: 76f8a2e68065467ba9bd2b5ac625490b
+#Objective of this particular practice level
+objective: Managed, Responsive Processes
+#Type Classification of the Document
+type: PracticeLevel
