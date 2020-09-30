@@ -1,0 +1,45 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: a5b57fc5fa0441b7b23f599b506c5752
+#Link to the practice level that this activity belongs to
+level: b55c7a41eba747678a65651f5ccacaf2
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 2bf0e192a904444b8a2f38c33256e80a
+#The title of this activity
+title: Rate and track security defects
+#Describe the benefit that is achieved by implementing this activity
+benefit: Consistent classification of security defects with clear expectations of their handling
+#A one sentence description of the activity
+shortDescription: Rate all security defects over the whole organization consistently and define SLAs for particular severity classes.
+#A multi-paragraph description of the activity
+longDescription: |
+  Introduce and apply a well defined rating methodology for your security defects consistently across the whole organization, based on the probability and expected impact of the defect being exploited. This will allow you to identify applications which need higher attention and investments. In case you don't store the information about security defects centrally, ensure that you're still able to easily pull the information from all sources and get an overview about "hot spots" needing your attention.
+
+  Introduce SLAs for timely fixing of security defects according to their criticality rating and centrally monitor and regularly report on SLA breaches. Define a process for cases where it's not feasible or economical to fix a defect within the time defined by the SLAs. This should at least ensure that all relevant stakeholders have a solid understanding of the imposed risk. If suitable, employ compensating controls for these cases.
+
+  Even if you don't have any formal SLAs for fixing low severity defects, ensure that responsible teams still get a regular overview about issues affecting their applications and understand how particular issues affect or amplify each other.
+#The output of this particular activity
+results:
+  - result1
+  - result2
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+#A description of the costs required to implement the activity
+costs: TBS.
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Security Engineer
+  - Security Officer
+#Internal notes that might help the author
+notes: None
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+  -
+#Type Classification of the Document
+type: Activity
