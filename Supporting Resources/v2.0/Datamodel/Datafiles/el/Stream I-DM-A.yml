@@ -1,0 +1,18 @@
+---
+#===========================================================
+#OWASP SAMM2 Activity Stream template/sample
+#===========================================================
+#Link to the security practice that this stream belongs to
+practice: e17d573510904f65a1fe6040b56ad0b1
+#Unique identifier to refer to this stream
+id: a5b57fc5fa0441b7b23f599b506c5752
+#Official stream name
+name: Defect Tracking
+#Stream letter, A or B
+letter: A
+#Multi-paragraph explanation of the stream
+description: Defect tracking manages the collection and follow-up of all potential issues in a piece of software, from architectural flaws to coding issues and run-time vulnerabilities.
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+#Type Classification of the Document
+type: Stream
