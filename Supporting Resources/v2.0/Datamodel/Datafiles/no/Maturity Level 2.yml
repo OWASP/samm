@@ -1,0 +1,13 @@
+---
+#===================================================
+#OWASP SAMM2 Security Maturity Level - Level 2
+#===================================================
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 47dd82af343e4695a0385418af4398d1
+#The number of the marurity level
+number: 2
+#General description of this maturity level
+description: The second maturity level aims to establish a consistent, repeatable process that can be relied on.
+#Type Classification of the Document
+type: MaturityLevel
