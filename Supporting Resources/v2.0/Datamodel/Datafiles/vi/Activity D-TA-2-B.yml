@@ -1,0 +1,40 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: ed5a9c3dd7884c88918a45dc9d231c5d
+#Link to the practice level that this activity belongs to
+level: e5b6dc4f907c4986b8ba7923303cd665
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 649b693315234a94928e42f3e308deac
+#The title of this activity
+title: Standardize and scale threat modeling
+#Describe the benefit that is achieved by implementing this activity
+benefit: Clear expectations of the quality of threat modeling activities
+#A one sentence description of the activity
+shortDescription: Standardize threat modeling training, processes, and tools to scale across the organization.
+#A multi-paragraph description of the activity
+longDescription: |
+  Use a standardized threat modeling methodology for your organization and align this on your application risk levels. Think about ways to support the scaling of threat modeling throughout the organization.
+
+  Train your architects, security champions, and other stakeholders on how to do practical threat modeling.  Threat modeling requires understanding, clear playbooks and templates, organization-specific examples, and experience, which is hard to automate.
+
+  Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts. Your threat model diagram allows a detailed understanding of the environment and the mechanics of the application. You discover threats to your application with checklists, such as STRIDE or more organization-specific threats. For identified design flaws (ranked according to risk for your organization), you add mitigating controls to support stakeholders in dealing with particular threats. Define what triggers updating a threat model, for example, a technology change or deployment of an application in a new environment.
+
+  Feed the output of threat modeling to the defect management process for adequate follow-up. Capture the threat modeling artifacts with tools that are used by your application teams.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity
