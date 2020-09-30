@@ -1,0 +1,40 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description - Incident Response, Level 3
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 390bec725b8344a289d5386026925947
+#Link to the practice level that this activity belongs to
+level: 6fe1973911bf4e54b018da10a5aa80a1
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: f692ee8f87c1499681490cc1647c0df4
+#The title of this activity
+title: Establish an incident response team
+#Describe the benefit that is achieved by implementing this activity
+benefit: Efficient incident response independent of time, location, or type of incident
+#A one sentence description of the activity
+shortDescription: Employ a dedicated, well-trained incident response team.
+#A multi-paragraph description of the activity
+longDescription: |
+  Establish a dedicated incident response team, continuously available and responsible for continuous process improvement with the help of regular RCAs. For distributed organizations, define and document logistics rules for all relevant locations if sensible.
+
+  Document detailed incident response procedures and keep them up to date. Automate procedures where appropriate. Keep all resources necessary for these procedures (e.g., separate communicating infrastructure or reliable external location) ready to use. Detect and correct unavailability of these resources in a timely manner.
+
+  Carry out incident and emergency exercises are regularly. Use the results for process improvement.
+
+  Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement.
+##The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
