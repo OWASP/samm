@@ -1,0 +1,41 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description - Incident Response, Level 2
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 390bec725b8344a289d5386026925947
+#Link to the practice level that this activity belongs to
+level: 439406325e6645519c149da3e05a7d9d
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: d6dd8813c5074350b5614b92f2dec60d
+#The title of this activity
+title: Define and incident response process
+#Describe the benefit that is achieved by implementing this activity
+benefit: Understanding and efficient handling of most security incidents
+#A one sentence description of the activity
+shortDescription: Establish a formal incident response process and ensure staff are properly trained in performing their roles.
+#A multi-paragraph description of the activity
+longDescription: |
+  Establish and document the formal security incident response process. Ensure documentation includes information like&#58;
+
+  * most probable/common scenarios of security incidents and high-level instructions for handling them; for such scenarios, also use public knowledge about possibly relevant third-party incidents
+  * rules for triaging each incident
+  * rules for involvement of different stakeholders including senior management, Public Relations, Legal, privacy, Human Resources, external (law enforcement) authorities, and customers; specify mandatory timeframe to do so, if needed
+  * the process for performing root-cause analysis and documentation of its results
+
+  Ensure a knowledgeable and properly trained incident response team is available both during and outside of business hours. Define timelines for action and a war room. Keep hardware and software tools up to date and ready for use anytime.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
