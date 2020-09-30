@@ -1,0 +1,54 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 2f7b501627954c6cb03342196b2065a7
+#Link to the practice level that this activity belongs to
+level: 46f16450b23d4c29a5cf19b056c2636e
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 857a43e335ba467598eca99d48ea0076
+#The title of this activity
+title: Review application dependencies for security
+#Describe the benefit that is achieved by implementing this activity
+benefit: Full transparency of known security issues in dependencies
+#A one sentence description of the activity
+shortDescription: Evaluate used dependencies and ensure timely reaction to situations posing risk to your applications.
+#A multi-paragraph description of the activity
+longDescription: |
+  Evaluate used dependencies and establish a list of acceptable ones approved for use within a project, team, or the wider organization according to a defined set of criteria.
+
+  Introduce a central repository of dependencies that all software can be built from.
+
+  Review used dependencies regularly to ensure that&#58;
+
+  * they remain correctly licensed
+  * no known and significant vulnerabilities impacting your applications are present
+  * the dependency is still actively supported and maintained
+  * you are using a current version
+  * there is a valid reason to include the dependency
+
+  React timely and appropriately to non-conformities by handling these as defects. Consider using an automated tool to scan for vulnerable dependencies and assign the identified issues to the respective development teams.
+#The output of this particular activity
+results:
+  - result1
+  - result2
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+#A description of the costs required to implement the activity
+costs: TBS.
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Architect
+  - Developer
+  - Security Engineer
+#Internal notes that might help the author
+notes: None
+#References to other activities that are prerequesites to implement this one.
+relatedActivites:
+  - 93dff7be5f954f8d87d24f4261002508
+#Type Classification of the Document
+type: Activity
