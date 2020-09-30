@@ -1,0 +1,15 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice Level template/sample
+#===========================================================
+#Link to the practice, using its unique identifier
+practice: 40d7879025144dbbbf34ba8ea82f060d
+#Link to the maturity level, using its unique identifier
+maturitylevel: 7bbfe31d447e48759ef0f2af25c31b43
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: fc5eb251c6ee4f3db04eb01b62d380ba
+#Objective of this particular practice level
+objective: Deployment process is fully automated and incorporates automated verification of all critical milestones.
+#Type Classification of the Document
+type: PracticeLevel
