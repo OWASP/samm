@@ -1,0 +1,38 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description - Configuration Hardening, Level 1
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 47bff9a57f0344eeb4b083f1c2b1bb7e
+#Link to the practice level that this activity belongs to
+level: 8cb942eff46d41f38e6edc11849744a6
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 786b3d7b39cd49a88090554a275f04a6
+#The title of this activity
+title: Use best-effort hardening
+#Describe the benefit that is achieved by implementing this activity
+benefit: Hardened basic configuration settings of your components
+#A one sentence description of the activity
+shortDescription: Perform best-effort hardening of configurations, based on readily available information.
+#A multi-paragraph description of the activity
+longDescription: |
+  Understanding the importance of securing the technology stacks you're using, apply secure configuration to stack elements, based on readily available guidance (e.g., open source projects, vendor documentation, blog articles). When your teams develop configuration guidance for their applications, based on trial-and-error and information gathered by team members, encourage them to share their learnings across the organization.
+
+  Identify key elements of common technology stacks, and establish configuration standards for those, based on teams' experiences of what works.
+
+  At this level of maturity, you don't yet have a formal process for managing configuration baselines. Configurations may not be applied consistently across applications and deployments, and monitoring of conformance is likely absent.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
