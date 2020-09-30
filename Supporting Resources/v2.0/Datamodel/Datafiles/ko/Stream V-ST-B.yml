@@ -1,0 +1,19 @@
+---
+#===========================================================
+#OWASP SAMM2 Activity Stream template/sample
+#===========================================================
+#Link to the security practice that this stream belongs to
+practice: bb5488860c124b6e8076b023485023e1
+#Unique identifier to refer to this stream
+id: 8a64c7b0b35a458ea436260d5e414dfa
+#Official stream name
+name: Deep Understanding
+#Stream letter, A or B
+letter: B
+#Multi-paragraph explanation of the stream
+description: |
+  Deep understanding focuses on performing manual security testing of high-risk components, using complex attack vectors with the goal of making advanced security testing an integral part of the development process. The goal of this stream is to favor testing depth (testing rigour) over testing width (the portfolio of applications).
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream
