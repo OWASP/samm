@@ -1,0 +1,14 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice Level template/sample
+#===========================================================
+#Link to the practice, using its unique identifier
+practice: 5702908efca4499e87a0239f32920d9b
+#Link to the maturity level, using its unique identifier
+maturitylevel: 7bbfe31d447e48759ef0f2af25c31b43
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: f8b6eebc0662477f9286aa4f6068e364
+#Objective of this particular practice level
+objective: Mandate security requirements process for all software projects and third-party dependencies. #Type Classification of the Document
+type: PracticeLevel
