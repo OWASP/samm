@@ -1,0 +1,40 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description - Incident Detection, Level 2
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: ff8a6a08dc684f38ab74b9db9584f0a5
+#Link to the practice level that this activity belongs to
+level: 439406325e6645519c149da3e05a7d9d
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 5bcb52375a0f4085bb12266c9ecfa84d
+#The title of this activity
+title: Define an incident detection process
+#Describe the benefit that is achieved by implementing this activity
+benefit: Timely and consistent detection of expected security incidents
+#A one sentence description of the activity
+shortDescription: Follow an established, well-documented process for incident detection, with emphasis on automated log evaluation.
+#A multi-paragraph description of the activity
+longDescription: |
+  Establish a dedicated owner for the incident detection process, make clear documentation accessible to all process stakeholders, and ensure it is regularly reviewed and updated as necessary. Ensure employees responsible for incident detection follow this process (e.g., using training).
+
+  The process typically relies on a high degree of automation, collecting and correlating log data from different sources, including application logs. You may aggregate logs in a central place, if suitable. Periodically verify the integrity of analyzed data. If you add a new application, ensure the process covers it within a reasonable period of time.
+
+  Detect possible security incidents using an available checklist. The checklist should cover expected attack vectors and known or expected kill chains. Evaluate and update it regularly.
+
+  When you determine an event is a security incident (with sufficiently high confidence), notify responsible staff immediately, even outside business hours. Perform further analysis, as appropriate, and start the escalation process.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
