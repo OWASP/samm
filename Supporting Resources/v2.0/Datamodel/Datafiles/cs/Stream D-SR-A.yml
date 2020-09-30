@@ -1,0 +1,18 @@
+---
+#===========================================================
+#OWASP SAMM2 Activity Stream template/sample
+#===========================================================
+#Link to the security practice that this stream belongs to
+practice: 5702908efca4499e87a0239f32920d9b
+#Unique identifier to refer to this stream
+id: 7fb68bc660774b9080963c17761529a2
+#Official stream name
+name: Software Requirements
+#Stream letter, A or B
+letter: A
+#Multi-paragraph explanation of the stream
+description: Software requirements specify objectives and expectations to protect the service and data at the core of the application.
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+#Type Classification of the Document
+type: Stream
