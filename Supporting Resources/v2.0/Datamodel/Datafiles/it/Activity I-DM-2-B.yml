@@ -1,0 +1,57 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 55bf5184ff7d4b76a444e52a28c803d9
+#Link to the practice level that this activity belongs to
+level: b55c7a41eba747678a65651f5ccacaf2
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 15d73a64818c43019504c8d938ca2434
+#The title of this activity
+title: Define advanced defect metrics
+#Describe the benefit that is achieved by implementing this activity
+benefit: Improved learning from security defects in your organization
+#A one sentence description of the activity
+shortDescription: Collect standardized defect management metrics and use these also for prioritization of centrally driven initiatives.
+#A multi-paragraph description of the activity
+longDescription: |
+  Define, collect and calculate unified metrics across the whole organization. These might include:
+
+  * Total amount of verification activites and identified defects.
+  * Types and severities of identified defects.
+  * Time to detect and time to resolve defects.
+  * Windows of exposure of defects being present on live systems.
+  * Number of regressions / reopened vulnerabilities.
+  * Coverage of verification activities for particular software components.
+  * Amount of accepted risk.
+  * Ratio of security incidents caused due to unknown or undocumented security defects.
+
+  Generate a regular (e.g. monthly) report for a suitable audience. This would typically reach audience like managers and security officer and engineers. Use the information in the report as an input for your security strategy, e.g. improving trainings or security verification activities.
+
+  Share the most prominent or interesting technical details about security defects including the fixing strategy to other teams once these defects are fixed, e.g. in a regular knowledge sharing meeting. This will help scale the learning effect from defects to the whole organization and limit their occurence in the future.
+#The output of this particular activity
+results:
+  - result1
+  - result2
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+#A description of the costs required to implement the activity
+costs: TBS.
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Security Officer
+  - Security Champion
+  - Manager
+#Internal notes that might help the author
+notes: None
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+  - 2bf0e192a904444b8a2f38c33256e80a
+  - c1aef0137df1400cbdd3c660b609b7b2
+  - 05073fb130c74143a12a6ba74a44c580
+#Type Classification of the Document
+type: Activity
