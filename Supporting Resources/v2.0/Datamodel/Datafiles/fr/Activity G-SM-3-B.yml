@@ -1,0 +1,41 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 2f1cac3c2e724823b3b48a7e797520b4
+#Link to the practice level that this activity belongs to
+level: 420074f071fb4ab6b6ee6ef44c4f4f1c
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 43d347fd280845718f16ccc811e5d942
+#The title of this activity
+title: Drive the security program through metrics
+#Describe the benefit that is achieved by implementing this activity
+benefit: Continuous improvement of your program according to results
+#A one sentence description of the activity
+shortDescription: Influence the strategy based on the metrics and organizational needs.
+#A multi-paragraph description of the activity
+longDescription: |
+  Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics. These guidelines  combine the maturity of the application development process and procedures  with different metrics to make the program more efficient. The following examples show a relationship between measurements and ways of evolving and improving application security
+
+  * Focus on maturity of the development lifecycle makes the relative cost per defect lower by applying security proactively.
+  * Monitoring the balance between effort, result, and environment metrics improves the program’s efficiency and justifies additional automation and other methods for improving the overall application security baselines.
+  * Individual Security Practices could provide indicators of success or failure of individual application security initiatives.
+  * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
+
+  When defining the overall metrics strategy, keep the end-goal in mind and define what decisions can be made as a result of changes in KPIs and metrics as soon as possible, to help guide development of metrics.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that may be related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
