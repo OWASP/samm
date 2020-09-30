@@ -1,0 +1,18 @@
+---
+#===========================================================
+#OWASP SAMM2 Activity Stream template/sample
+#===========================================================
+#Link to the security practice that this stream belongs to
+practice: 4753e55e943c4d418303bf90d599c6b1
+#Unique identifier to refer to this stream
+id: 253b012094cf4e0988e08fd22609227d
+#Official stream name
+name: Architecture Design
+#Stream letter, A or B
+letter: A
+#Multi-paragraph explanation of the stream
+description: The design of a software architecture can significantly impact the security posture of a software and the use of good security practices will improve the overall design.
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+#Type Classification of the Document
+type: Stream
