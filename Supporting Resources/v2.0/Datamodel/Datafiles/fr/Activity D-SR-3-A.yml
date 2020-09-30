@@ -1,0 +1,38 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 7fb68bc660774b9080963c17761529a2
+#Link to the practice level that this activity belongs to
+level: f8b6eebc0662477f9286aa4f6068e364
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: ce13df2e0dfb455588bf75135f1a718e
+#The title of this activity
+title: Develop a security requirements framework
+#Describe the benefit that is achieved by implementing this activity
+benefit: Efficient and effective handling of security requirements in your organization
+#A one sentence description of the activity
+shortDescription: Build a requirements framework for product teams to utilize.
+#A multi-paragraph description of the activity
+longDescription: |
+  Setup a security requirements framework to help projects elicit an appropriate and complete requirements set for their project. This framework considers the different types of requirements and sources of requirements. It should be adapted to the organizational habits and culture, and provide effective methodology and guidance in the elicitation and formation of requirements.
+
+  The framework helps project teams increase the efficiency and effectiveness of requirements engineering. It can provide a categorisation of common requirements and a number of reusable requirements. Do remember that, while thoughtless copying is ineffective, the fact of having potential relevant requirements to reason about is often productive.
+
+  The framework also gives clear guidance on the quality of requirements and formalizes how to describe them. For user stories, for instance, concrete guidance can explain what to describe in the definition of done, definition of ready, story description, and acceptance criteria.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity
