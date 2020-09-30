@@ -1,0 +1,38 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 94bb47791e3d462cbf5f71ebb1a1327a
+#Link to the practice level that this activity belongs to
+level: 4e54705272fa4f1f9977b1f9011f585d
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: ef0b56870b734b13868697017a9b605e
+#The title of this activity
+title: Identify the organization's risk appetite
+#Describe the benefit that is achieved by implementing this activity
+benefit: Common understanding of your organization's security posture
+#A one sentence description of the activity
+shortDescription: Identify organization drivers as they relate to the organization’s risk tolerance.
+#A multi-paragraph description of the activity
+longDescription: |
+  Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization. Gathered information includes worst-case scenarios that could impact the organization, as well as opportunities where an optimized software development lifecycle and more secure applications could provide a market-differentiator or create additional opportunities.
+
+  Gathered information provides a baseline for the organization to develop and promote its application security program. Items in the program are prioritized to address threats and opportunities most important to the organization. The baseline is split into several risk factors and drivers linked directly to the organization’s priorities and used to help build a risk profile of each custom-developed application by documenting how they can impact the organization if they are compromised.
+
+  The baseline and individual risk factors should be published and made available to application development teams to ensure a more transparent process of creating application risk profiles and incorporating the organization’s priorities into the program. Additionally, these goals should provide a set of objectives which should be used to ensure all application security program enhancements provide direct support of the organization’s current and future needs.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that may be related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
