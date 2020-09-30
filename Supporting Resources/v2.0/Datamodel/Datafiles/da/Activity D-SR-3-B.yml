@@ -1,0 +1,36 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 8c1dcd10821f4f2baed52fdc83d93cf6
+#Link to the practice level that this activity belongs to
+level: f8b6eebc0662477f9286aa4f6068e364
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: a9f56795ac84426c9e45f9471e82a8d7
+#The title of this activity
+title: Align security methodology with suppliers
+#Describe the benefit that is achieved by implementing this activity
+benefit: Alignment of software development practices with suppliers to limit security risks
+#A one sentence description of the activity
+shortDescription: Ensure proper security coverage for external suppliers by providing clear objectives.
+#A multi-paragraph description of the activity
+longDescription: |
+  The best way to minimize the risk of issues in software is to align maximally and integrate closely between the different parties. From a process perspective, this means using similar development paradigms and introducing regular milestones to ensure proper alignment and qualitative progress. From a tools perspective, this might mean using similar build, verification and deployment environments, and sharing other supporting tools (e.g. requirements, architecture tools, or code repositories).
+
+  In case suppliers cannot meet the objectives that you have set, implement compensating controls so that, overall, you meet your objectives. Execute extra activities (e.g., threat modelling before starting the actual implementation cycle) or implement extra tooling (e.g., 3rd party library analysis at solution intake). The more suppliers deviate from your requirements, the more work will be required to compensate.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity
