@@ -1,0 +1,36 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: c404aa4f711e4f4e9e71faea22f7fb5c
+#Link to the practice level that this activity belongs to
+level: 61ae1e4268b24d7986805658c89b5e54
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: fe7afe5fc04742bcbe476d4ba37d8091
+#The title of this activity
+title: Measure compliance to policies and standards
+#Describe the benefit that is achieved by implementing this activity
+benefit: Understanding of your organization’s compliance with policies and standards
+#A one sentence description of the activity
+shortDescription: Measure and report on the status of individual application’s adherence to policies and standards.
+#A multi-paragraph description of the activity
+longDescription: |
+  Develop a program to measure each application’s compliance with existing policies and standards. Mandatory requirements should be motivated and reported consistently across all teams. Whenever possible, tie compliance status into automated testing and report with each version. Compliance reporting includes the version of policies and standards and appropriate code coverage factors.
+
+  Encourage non-compliant teams to review available resources such as security requirements and test scripts, to ensure non-compliance is not a result of inadequate guidance. Forward issues resulting from insufficient guidance to the teams responsible for publishing application requirements and test scripts, to include them in the future releases. Escalate issues resulting from the inability to meet policies and standards the teams that handle application security risks.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that may be related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity
