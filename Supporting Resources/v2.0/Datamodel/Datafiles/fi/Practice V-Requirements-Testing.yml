@@ -1,0 +1,31 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice template/sample
+#===========================================================
+#Link to the function, using its unique identifier
+function: fa340fa1816244d79f369ae82e998368
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: 66fb99798fe946e4979a2de98e9d6f8b
+#Official name of this practice
+name: Requirements-driven Testing
+#Abbreviation of this practice
+shortName: RT
+#A one sentence description of the security practice
+shortDescription: This practice focuses on using both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).
+#A multi-paragraph description of the security practice
+longDescription: |
+
+  The goal of the Requirements-driven Testing (RT) practice is to ensure that the implemented security controls operate as expected and satisfy the project's stated security requirements. It does so by incrementally building a set of security test and regression cases and executing them regularly.
+
+  A key aspect of this practice is its attention to both positive and negative testing. The former verifies that the application's security controls satisfy stated security requirements and validates their correct functioning. These requirements are typically functional in nature. Negative testing addresses the quality of the implementation of the security controls and aims to detect unexpected design flaws and implementation bugs through misuse and abuse testing. In its more advanced forms, the practice promotes security stress testing, such as denial of service, and strives to continuously improve application security by consistently automating security unit tests and creating security regression tests for all bugs identified and fixed.
+
+  Although both the Requirements-driven Testing and Security Testing practices are concerned with security testing, the former focuses on verifying the correct implementation of security requirements, while the latter aims to uncover technical implementation weaknesses in an application, irrespective of requirements.
+#The relative order of this practice in the business function
+order: 2
+#Who's the "owner" of this practice
+assignee: Nessim Kisserli
+#Indication of progress to keep track of overall status
+progress: 42
+#Type Classification of the Document
+type: Practice
