@@ -1,0 +1,34 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: b7487370a07543cbb02ddb60c055d92f
+#Link to the practice level that this activity belongs to
+level: 83ea8aaab3384b41b785107613ee4d86
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: a11da5bb4d3c475d9e9c53b104032e65
+#The title of this activity
+title: Feed review results back to improve reference architectures
+#Describe the benefit that is achieved by implementing this activity
+benefit: Continuous improvement of enterprise architecture based on architecture reviews
+#A one sentence description of the activity
+shortDescription: Feed the architecture review results back into the enterprise architecture, organization design principles & patterns, security solutions and reference architectures.
+#A multi-paragraph description of the activity
+longDescription: |
+  As an organization, you can further improve your software security posture by understanding which threats remain unaddressed in the software architectures and adapting your tactics to prevent this. Formalize a process to use recurring architecture findings as a trigger to identify the causes of gaps in the security assessment and deal with them. Feed findings back to the Design phase by creating, or updating relevant reference architectures, existing security solutions, or organisation design principles and patterns.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+#Type Classification of the Document
+type: Activity
