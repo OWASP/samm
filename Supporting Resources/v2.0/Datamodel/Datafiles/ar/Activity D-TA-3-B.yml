@@ -1,0 +1,38 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: ed5a9c3dd7884c88918a45dc9d231c5d
+#Link to the practice level that this activity belongs to
+level: 21a59897dbeb4d7fa4603a0f24362c2b
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: e931a744c2864bef85a3fa75ce7e214f
+#The title of this activity
+title: Optimize threat modeling
+#Describe the benefit that is achieved by implementing this activity
+benefit: Assurance of continuous improvement of threat modeling activities
+#A one sentence description of the activity
+shortDescription: Continuously optimization and automation of your threat modeling methodology.
+#A multi-paragraph description of the activity
+longDescription: |
+  Threat modeling is integrated into your SDLC and has become part of the developer security culture.  Reusable risk patterns, comprising of related threat libraries, design flaws, and security mitigations, are created and improved, based on the organization's threat models. You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications.
+
+  You optimize your threat modeling methodology. You capture lessons learned from threat models and use these to improve your threat modeling methodology.  You review the threat categories relevant to your organization and update your methodology appropriately. From time to time, you evaluate the quality of your threat models independently.
+
+  You automate parts of your threat modeling process with threat modeling tools. You integrate your threat modeling tools with other security tools, such as security verification tools and risk tracking tools. You consider "threat modeling as code" practices to integrate threat modeling artifacts with application code.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity
