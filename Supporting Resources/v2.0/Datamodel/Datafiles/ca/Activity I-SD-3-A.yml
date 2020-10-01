@@ -1,0 +1,45 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 9ec70d6f7ddb4cb6b37928f9994c6049
+#Link to the practice level that this activity belongs to
+level: fc5eb251c6ee4f3db04eb01b62d380ba
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 05a3e75c6c654ae58a115cbf4295662b
+#The title of this activity
+title: Verify the integrity of deployment artifacts
+#Describe the benefit that is achieved by implementing this activity
+benefit: Assured integrity of artifacts being deployed to production
+#A one sentence description of the activity
+shortDescription: Automatically verify integrity of all deployed software, indenendently on whether it's internally or externally developed.
+#A multi-paragraph description of the activity
+longDescription: |
+  Take advantage of binaries being signed at the build time and include automatic verification of the integrity of software being deployed by checking their signatures against trusted certificates. This may include binaries developed and built in-house, as well as third-party artifacts. Do not deploy artifacts if their signatures cannot be verified, including those with invalid or expired certificates.
+
+  If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organization’s wider governance surrounding trusted third-party suppliers.
+
+  Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, go for this option.
+#The output of this particular activity
+results:
+  - result1
+  - result2
+#The different metrics that can be used to measure the success of the activity
+metrics:
+  - metric1
+  - metric2
+#A description of the costs required to implement the activity
+costs: TBS.
+#The (standard) roles involved in the implementation of this activity
+personnel:
+  - Security Engineer
+  - Administrator
+#Internal notes that might help the author
+notes: None
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+  - 281369f491da4d4c84b0729e344e2c93
+#Type Classification of the Document
+type: Activity
