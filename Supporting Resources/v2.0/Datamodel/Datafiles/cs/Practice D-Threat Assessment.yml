@@ -1,0 +1,28 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice template/sample
+#===========================================================
+#Link to the function, using its unique identifier
+function: 88c296acaae841a2b2fc5314bff44cb4
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: f9269aebfe2c4d5b9293ba42a40a93ac
+#Official name of this practice
+name: Threat Assessment
+#Abbreviation of this practice
+shortName: TA
+#A one sentence description of the security practice
+shortDescription: This practice focuses on identifying potential threats in applications.
+#A multi-paragraph description of the security practice
+longDescription: |
+  The Threat Assessment (TA) practice focuses on identifying and understanding of project-level risks based on the functionality of the software being developed and characteristics of the runtime environment. From details about threats and likely attacks against each project, the organization as a whole operates more effectively through better decisions about prioritization of initiatives for security. Additionally, decisions for risk acceptance are more informed, therefore better aligned to the business.
+
+  By starting with simple threat models and building application risk profiles, an organization improves over time. Ultimately, a sophisticated organization would maintain this information in a way that is tightly coupled to the compensating factors and pass-through risks from external entities. This provides greater breadth of understanding for potential downstream impacts from security issues while keeping a close watch on the organization’s current performance against known threats.
+#The relative order of this practice in the business function
+order: 1
+#Who's the "owner" of this practice
+assignee: John Ellingsworth
+#Indication of progress to keep track of overall status
+progress: 50
+#Type Classification of the Document
+type: Practice
