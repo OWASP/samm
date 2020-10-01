@@ -10,11 +10,11 @@ level: a11b78917dec4cfdad983cf6d1d17b61
 #Please generate another identifier for your specific activity.
 id: 27bb61f3c6344359b021caeaef5ab07e
 #The title of this activity
-title: Adhere to basic security principles
+title: Hou u aan basisveiligheidsbeginselen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Sets of security basic principles available to product teams
+benefit: Sets van beveiligingsbasisprincipes beschikbaar voor productteams
 #A one sentence description of the activity
-shortDescription: Teams are trained on the use of basic security principles during design
+shortDescription: Teams worden getraind op het gebruik van basisbeveiligingsbeginselen bij het ontwerp
 #A multi-paragraph description of the activity
 longDescription: |
   During design, technical staff on the product team use a short checklist of security principles. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
