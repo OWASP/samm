@@ -74,9 +74,6 @@ jobs:
           hugo-version: '0.59.1'
           extended: true
 
-      - name: Install rename
-        run: sudo apt-get install -y rename
-
       - uses: actions/download-artifact@v2
         name: Download markdown-files for all langs
 
@@ -85,8 +82,8 @@ jobs:
         run: |
           for lang in en es de;
           do 
-            rename "s/.md/.${lang}.md/" markdown-"${lang}"/**/*.md
-            cp -r markdown-"${lang}"/* Website/content/business-function/
+            mkdir -p Website/content/business-function/"${lang}"
+            cp -r markdown-"${lang}"/* Website/content/"${lang}"/business-function/
           done
           hugo --gc --minify -v --cleanDestinationDir --environment production -s Website -d public
 
@@ -96,8 +93,8 @@ jobs:
         run: |
           for lang in en es de;
           do 
-            rename "s/.md/.${lang}.md/" markdown-"${lang}"/**/*.md
-            cp -r markdown-"${lang}"/* Website/content/business-function/
+            mkdir -p Website/content/business-function/"${lang}"
+            cp -r markdown-"${lang}"/* Website/content/"${lang}"/business-function/
           done
           hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
 
