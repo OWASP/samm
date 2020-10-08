@@ -15,12 +15,9 @@ Organizationally, some important changes worth noting:
 
 The chart below provides a high-level summary of the changes between different practices, with more details to follow:
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-
 ## Governance
 
-<div class="mermaid">
+{{< mermaid >}}
     graph LR
     classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
     classDef des fill:#d75,stroke:#000,stroke-width:2px;
@@ -55,11 +52,10 @@ The chart below provides a high-level summary of the changes between different p
     class dr1,ir1,st1,aa2,rdt2,st2 ver
     class im1,eh1,oe1,im2,em2,om2 ops
     end
-</div>
-
+{{</ mermaid >}}
 
 ## Construction
-<div class="mermaid">
+{{< mermaid >}}
 graph LR
     classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
     classDef des fill:#d75,stroke:#000,stroke-width:2px;
@@ -89,10 +85,10 @@ graph LR
     class dr1,ir1,st1,aa2,rdt2,st2 ver
     class im1,eh1,oe1,im2,em2,om2 ops
 end
-</div>
+{{</ mermaid >}}
 
 ## Verification
-<div class="mermaid">
+{{< mermaid >}}
 graph LR
     classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
     classDef des fill:#d75,stroke:#000,stroke-width:2px;
@@ -128,10 +124,10 @@ graph LR
     class dr1,ir1,st1,aa2,rdt2,st2 ver
     class im1,eh1,oe1,im2,em2,om2 ops
     end
-</div>
+{{</ mermaid >}}
 
 ## Operations
-<div class="mermaid">
+{{< mermaid >}}
 graph LR
     classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
     classDef des fill:#d75,stroke:#000,stroke-width:2px;
@@ -169,4 +165,4 @@ graph LR
     class dr1,ir1,st1,aa2,rdt2,st2 ver
     class im1,eh1,oe1,im2,em2,om2 ops
 end
-</div>
+{{< / mermaid >}}
