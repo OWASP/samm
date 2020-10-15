@@ -77,25 +77,23 @@ jobs:
       - uses: actions/download-artifact@v2
         name: Download markdown-files for all langs
 
-      - name: Production build
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      - name: Deploy generated artifacs
         run: |
           for lang in en es de;
           do 
-            mkdir -p Website/content/business-function/"${lang}"
+            mkdir -p Website/content/"${lang}"/business-function/
             cp -r markdown-"${lang}"/* Website/content/"${lang}"/business-function/
           done
+
+      - name: Production build
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: |
           hugo --gc --minify -v --cleanDestinationDir --environment production -s Website -d public
 
       - name: Staging build
         # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
         if: github.ref != 'refs/heads/master'
         run: |
-          for lang in en es de;
-          do 
-            mkdir -p Website/content/business-function/"${lang}"
-            cp -r markdown-"${lang}"/* Website/content/"${lang}"/business-function/
-          done
           hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
 
       - name: "Upload hugo artifacts"
