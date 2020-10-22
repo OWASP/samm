@@ -14,7 +14,9 @@
             <h4><a href="{{ .url }}" target="_blank">{{ .title }}</a></h4>
             <p class="author-category">{{ .date }}</p>
             <p class="author-category">{{ .type }} by {{ .presenter }}</p>
-
+            {{ if .url2 }}
+            <a href="{{ .url2 }}" target="_blank">{{ .url2text }}</a>
+            {{ end }}
         </div>
     </div>
     <!-- /.row -->
