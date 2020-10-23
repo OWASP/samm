@@ -1,2 +1,20 @@
-baseURL = "/"
 title = "OWASP SAMM (Local Development)"
+baseURL = "/"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "OWASP SAMM (Staging)"
+    contentDir = "content/en"
+    weight = 1
+  [languages.es]
+    languageName = "Español"
+    title = "OWASP SAMM (Pre-producción)"
+    contentDir = "content/es"
+    weight = 2
+  [languages.de]
+    languageName = "Deustch"
+    title = "OWASP SAMM (Deustch)"
+    contentDir = "content/de"
+    weight = 3
+
