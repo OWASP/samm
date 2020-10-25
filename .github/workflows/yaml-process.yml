@@ -38,7 +38,7 @@ jobs:
           mkdir output
 
       - name: "Process datafiles for ${{ matrix.lang }}"
-        uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.5.0
+        uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.5.1
         with:
           args: "-d ${{ matrix.lang }} -o output"
 
