@@ -3,25 +3,23 @@ name: Generate Web Markdown
 on:
   push:
     paths:
-      - ".github/workflows/*.yml"
-      - "Website/**"
-      - "Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml"
+      - '.github/workflows/*.yml'
+      - 'Website/**'
+      - 'Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml'
   pull_request:
     paths:
-      - ".github/workflows/*.yml"
-      - "Website/**"
-      - "Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml"
+      - '.github/workflows/*.yml'
+      - 'Website/**'
+      - 'Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml'
 
 jobs:
   lintModelv20:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
     - name: yaml-lint
-      uses: ibiqlik/action-yamllint@master
-      with:
-        file_or_dir: "Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml"
-        config_file: .yamllint
+      run: |
+        yamllint -c .yamllint -f github Supporting\ Resources/v2.0/Datamodel/Datafiles
 
   generate-markdown:
     runs-on: ubuntu-18.04
@@ -32,17 +30,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: "Create output dir and copy files to override spaces in directories"
+      - name: 'Create output dir and copy files to override spaces in directories'
         run: |
           cp -r Supporting\ Resources/v2.0/Datamodel/Datafiles/${{ matrix.lang }} .
           mkdir output
 
-      - name: "Process datafiles for ${{ matrix.lang }}"
+      - name: 'Process datafiles for ${{ matrix.lang }}'
         uses: docker://fzipi/owasp-samm-preprocess-yaml:version-0.5.0
         with:
-          args: "-d ${{ matrix.lang }} -o output"
+          args: '-d ${{ matrix.lang }} -o output'
 
-      - name: "Process artifacts for ${{ matrix.lang }}"
+      - name: 'Process artifacts for ${{ matrix.lang }}'
         run: |
           mkdir -p ${{ matrix.lang }}/business-function/practice/stream
           BASE=output/markdown
@@ -50,11 +48,11 @@ jobs:
           cp "$BASE"/*-??-?.md ${{ matrix.lang }}/business-function/practice/stream
           cp "$BASE"/*-??.md ${{ matrix.lang }}/business-function/practice
 
-      - name: "Upload artifacts"
+      - name: 'Upload artifacts'
         uses: actions/upload-artifact@v1
         with:
-          name: markdown-${{ matrix.lang }}
-          path: ${{ matrix.lang }}/business-function
+          name: 'markdown-${{ matrix.lang }}'
+          path: '${{ matrix.lang }}/business-function'
 
   build:
     runs-on: ubuntu-18.04
@@ -96,7 +94,7 @@ jobs:
         run: |
           hugo --gc --minify -v --cleanDestinationDir --environment staging -s Website -d public
 
-      - name: "Upload hugo artifacts"
+      - name: 'Upload hugo artifacts'
         uses: actions/upload-artifact@v1
         with:
           name: webpage
@@ -111,7 +109,7 @@ jobs:
         with:
           name: webpage
 
-      - name: "Deploy to Netlify"
+      - name: 'Deploy to Netlify'
         # Note: By default, a workflow only runs when a pull_request's activity type is opened, synchronize, or reopened
         uses: fzipi/netlify-actions/cli@master
         id: netlifydeploy
@@ -121,7 +119,7 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
-      - name: "Add netlify url to pull"
+      - name: 'Add netlify url to pull'
         if: github.event_name == 'pull_request' && contains(steps.netlifydeploy.outputs.NETLIFY_URL, 'netlify.com')
         uses: andrewmusgrave/automatic-pull-request-review@0.0.2
         env:
@@ -131,7 +129,7 @@ jobs:
           event: COMMENT
           body: 'See SAMM website preview here: ${NETLIFY_LIVE_URL}'
 
-      - name: "Deploy to Github"
+      - name: 'Deploy to Github'
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
