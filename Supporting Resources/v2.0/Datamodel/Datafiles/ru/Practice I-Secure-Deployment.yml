@@ -1,0 +1,28 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice template/sample
+#===========================================================
+#Link to the function, using its unique identifier
+function: 8aa8154b83434e73b3ca8c0e9b654417
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: 40d7879025144dbbbf34ba8ea82f060d
+#Official name of this practice
+name: Secure Deployment
+#Abbreviation of this practice
+shortName: SD
+#A one sentence description of the security practice
+shortDescription: This practice focuses on increasing the security of software deployments to the production environment and the supporting secrets.
+#A multi-paragraph description of the security practice
+longDescription: |
+  One of the final stages in delivering secure software is ensuring the security and integrity of developed applications are not compromised during deployment. The Secure Deployment (SD) practice focuses on this. To this end, the practice’s first stream focuses on removing manual error by automating the deployment process as much as possible, and making its success contingent upon the outcomes of integrated security verification checks. It also fosters Separation of Duties by making adequately trained, non-developers responsible for deployment.
+
+  The second stream goes beyond the mechanics of deployment, and focuses on protecting the privacy and integrity of sensitive data, such as passwords, tokens, and other secrets, required for applications to operate in production environments. In its simplest form, suitable production secrets are moved from repositories and configuration files into adequately managed digital vaults. In more advanced forms, secrets are dynamically generated at deployment time and routine processes detect and mitigate the presence of any unprotected secrets in the environment.
+#The relative order of this practice in the business function
+order: 2
+#Who's the "owner" of this practice
+assignee: Daniel Kefer
+#Indication of progress to keep track of overall status
+progress: 50
+#Type Classification of the Document
+type: Practice
