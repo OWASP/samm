@@ -1,0 +1,19 @@
+---
+#===========================================================
+#OWASP SAMM2 Activity Stream - System Decom./Legacy Mgmt.
+#===========================================================
+#Link to the security practice that this stream belongs to
+practice: 8f07145b5ea74388b2217895d5e7b5c2
+#Unique identifier to refer to this stream
+id: a0d2ec4c6daa43369c07644b8745a7bd
+#Official stream name
+name: System Decomissioning / Legacy Management
+#Stream letter, A or B
+letter: B
+#Multi-paragraph explanation of the stream
+description: |
+  From the perspective of the organization as a consumer of resources, the activities in this stream focus on the identification, management, and tracking of systems, applications, application dependencies, and services that are no longer used, have reached end of life, or are no longer actively developed or supported. Removal of unused systems and services improves manageability of the environment and reduces the organization's attack surface, while affording direct and indirect cost savings (e.g., reduced license count, reduced logging volume, or reduced analyst effort).
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream
