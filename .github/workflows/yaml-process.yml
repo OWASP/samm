@@ -13,8 +13,22 @@ on:
       - 'Supporting*Resources/v2.0/Datamodel/Datafiles/**/*.yml'
 
 jobs:
+  checkDuplicateRun:
+    # continue-on-error: true # Uncomment once integration is finished
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+    - id: skip_check
+      uses: fkirc/skip-duplicate-actions@master
+      with:
+        github_token: ${{ github.token }}
+
   lintModelv20:
     runs-on: ubuntu-18.04
+    needs: checkDuplicateRun
+    if: ${{ needs.pre_job.outputs.should_skip != 'true' }}
     steps:
     - uses: actions/checkout@v2
     - name: yaml-lint
@@ -120,14 +134,13 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
       - name: 'Add netlify url to pull'
-        if: github.event_name == 'pull_request' && contains(steps.netlifydeploy.outputs.NETLIFY_URL, 'netlify.com')
-        uses: andrewmusgrave/automatic-pull-request-review@0.0.2
-        env:
-          NETLIFY_LIVE_URL: ${{ steps.netlifydeploy.outputs.NETLIFY_LIVE_URL }}
+        if: github.event_name == 'pull_request' && contains(steps.netlifydeploy.outputs.NETLIFY_URL, 'netlify.app')
+        uses: actions/github-script@0.3.0
         with:
-          repo-token: '${{ secrets.GITHUB_TOKEN }}'
-          event: COMMENT
-          body: 'See SAMM website preview here: ${NETLIFY_LIVE_URL}'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
+            github.issues.createComment({ issue_number, owner, repo, body: 'See SAMM website preview here: ${{steps.netlifydeploy.outputs.NETLIFY_URL}}' });
 
       - name: 'Deploy to Github'
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
