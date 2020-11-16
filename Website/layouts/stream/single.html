@@ -24,7 +24,7 @@
                     <div class="col-md-12 samm-page-content">
                         {{ $practicepagename := (replace .Params.practice "&" "and")  }}
                         <h3>
-                            <a href="../../">Model</a> | <a href="../../{{ .Params.business_function_url }}">{{ .Params.business_function }}</a> | <a href="/model/{{ .Params.business_function | urlize }}/{{ $practicepagename | urlize }}">{{ .Params.practice }}</a> | {{ .Params.title }}
+                            <a href="../../../">Model</a> | <a href="../../../{{ .Params.business_function_url }}">{{ .Params.business_function }}</a> | <a href="../../../{{ .Params.business_function | urlize }}/{{ $practicepagename | urlize }}">{{ .Params.practice }}</a> | {{ .Params.title }}
                         </h3>
 
                         {{ partial "tabs.html" . }}
