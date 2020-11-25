@@ -1,0 +1,86 @@
+.mat-stepper-horizontal {
+  margin-top: 8px;
+}
+
+.mat-form-field {
+  margin-top: 16px;
+}
+.modal-header{
+  padding: 0.5rem;
+}
+
+.modal-body{
+  padding: 0.5rem;
+}
+
+.modal-footer{
+  padding: 0.5rem;
+}
+
+
+.mat-form-field-infix {
+  display: block;
+  position: relative;
+  flex: auto;
+  min-width: 0;
+  width: 1480px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.fbutton{
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mat-dialog-container {
+  display: block;
+  padding: 24px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: auto;
+  outline: 0;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  min-height: inherit;
+  max-height: inherit;
+}
+.h4, h4 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.modal-content{
+background: black;
+transform: none;
+
+}
+label{
+color: white;
+}
+.close{
+color: white;
+}
+
+

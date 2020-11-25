@@ -1,0 +1,33 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: e092ac0ccb8c4fccb6cd662f974dc107
+
+#Link to the answer set that contains the potential answers for this question
+answerset: 01b2ac64461d4ec6b40843a4c77e1ba6
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 74eaee0cbf454a46adeb2619850bbcb3
+
+#One-sentence description of the criterium
+text: Do you regularly review and update the Strategic Plan for Application Security?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You review and update the plan in response to significant changes in the business
+  environment, the organization, or its risk appetite
+- Plan update steps include reviewing the plan with all the stakeholders and updating
+  the business drivers and strategies
+- You adjust the plan and roadmap based on lessons learned from completed roadmap
+  activities
+- You publish progress information on roadmap activities, making sure they are available
+  to all stakeholders
+
+#Type Classification of the Document
+type: Question

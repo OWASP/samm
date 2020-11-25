@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: d6dd8813c5074350b5614b92f2dec60d
+
+#This question uses Answer Set I
+answerset: e5a12ab46e4645a9ab22aa5a1ebe562f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: dbb83b0d5b504db6a170710df4df347f
+
+#Text of the question presented to the user
+text: Do you use a repeatable process for incident handling?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You have an agreed upon incident classification
+- The process considers Root Case Analysis for high severity incidents
+- Employees responsible for incident response are trained in this process
+- Forensic analysis tooling is available
+#Type Classification of the Document
+type: Question

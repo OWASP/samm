@@ -1,0 +1,63 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 2f7b501627954c6cb03342196b2065a7
+
+#Link to the practice level that this activity belongs to
+level: 02e602c451d548e8a95433a46fe6b9d8
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: d09a731835304ea8aeb4c21565e45c4b
+
+#The title of this activity
+title: Test application dependencies
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Handling of security issues in dependencies comparable to those in your own code
+
+#A one sentence description of the activity
+shortDescription: Analyze used dependencies for security issues in a comparable way
+  to your own code.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Maintain a whitelist of approved dependencies and versions, and ensure that the build process fails upon a presence of dependency not being on the list. Include a sign-off process for handling exceptions to this rule if sensible.
+
+  Perform security verification activites against dependencies on the whitelist in a comparable way to the target applications themselves (esp. using SAST and analyzing transitive dependencies). Ensure that these checks also aim to identify possible backdoors or easter eggs in the dependencies. Establish vulnerability disclosure processes with the dependency authors including SLAs for fixing issues. In case enforcing SLAs is not realistic (e.g. with open source vulnerabilities), ensure that the most probable cases are expected and you are able to implement compensating measures in a timely manner. Implement regression tests for the fixes to identified issues.
+
+  Track all identified issues and their state using your defect tracking system. Integrate your build pipeline with this system to enable failing the build whenever the included dependencies contain issues above a defined criticality level.
+
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Security Engineer
+- Architect
+- Developer
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+- 2bf0e192a904444b8a2f38c33256e80a   #I-DM-2-A
+- 15d73a64818c43019504c8d938ca2434   #I-DM-2-B
+- fb6f258a2e424ee9a919341758222a7a   #V-ST-2-A
+- 346ed576f0a94147ba2b8148abc3c73a   #V-ST-2-B
+
+#Type Classification of the Document
+type: Activity

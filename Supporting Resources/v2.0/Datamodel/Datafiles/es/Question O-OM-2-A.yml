@@ -1,0 +1,31 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 82a962e3dcc44b1086760de517aaa3c1
+
+#This question uses Answer Set J
+answerset: 6c3e82e127264b92b25b732d85286d72
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 424c004afec041058e89c396c9e88930
+
+#Text of the question presented to the user
+text: Do you maintain a data catalog, including types, sensitivity levels, and processing
+  and storage locations?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- The data catalog is stored in an accessible location
+- You know which data elements are subject to specific regulation
+- You have controls for protecting and preserving data throughout its lifetime
+- You have retention requirements for data, and you destroy backups in a timely manner
+  after the relevant retention period ends
+
+#Type Classification of the Document
+type: Question

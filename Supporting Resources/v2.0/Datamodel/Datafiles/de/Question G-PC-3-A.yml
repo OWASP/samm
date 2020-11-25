@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: fe7afe5fc04742bcbe476d4ba37d8091
+
+#Link to the answer set that contains the potential answers for this question
+answerset: e0fcc49a200847eab218c04e2c80490a
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 073b78f0ce314757a05b15d9c6f96703
+
+#One-sentence description of the criterium
+text: Do you regularly report on policy and standard compliance, and use that information
+  to guide compliance improvement efforts?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You have procedures (automated, if possible) to regularly generate compliance reports
+- You deliver compliance reports to all relevant stakeholders
+- Stakeholders use the reported compliance status information to identify areas for
+  improvement
+
+#Type Classification of the Document
+type: Question

@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 77a5f467ffe140e2a2839bb522e82c4e
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 37c6a5618a6344b386eb872619cfe53f
+
+#One-sentence description of the criterium
+text: Do you limit access to application secrets according to the least privilege principle?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You store production secrets protected in a secured location
+- Developers do not have access to production secrets
+- Production secrets are not available in non-production environments
+
+#Type Classification of the Document
+type: Question

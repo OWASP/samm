@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Business Function template/sample
+# ===========================================================
+#Link to the model, using its unique identifier
+model: SAMM20
+
+#Unique identifier (GUID) that can be used to refer to this function
+#Please generate another identifier for your specific function..
+id: fa340fa1816244d79f369ae82e998368
+
+#Official name of the function
+name: Verification
+
+#A multi-paragraph description of the function
+description: |
+  Verification focuses on the processes and activities related to how an organization checks and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
+
+#The color to be used to render the function and its subelements, in Hex RGB
+color:
+  #993300
+
+#The logo to be used to render the function
+logo: https://icon-library.net/icon/verification-icon-17.html
+
+#The relative order of the practice in the business function
+order: 4
+
+#Type Classification of the Document
+type: Function

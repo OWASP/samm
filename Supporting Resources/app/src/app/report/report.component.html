@@ -1,0 +1,136 @@
+
+  <br>
+
+
+  <div class="container">
+    <div class="row">
+      <form class="form-inline" style="margin-top:3vw">
+        <mat-form-field class="example-full-width">
+          <input [max]="DateVariableEnd" [matDatepicker]="picker1" matInput placeholder="From"
+                 [formControl]="startDate">
+          <mat-datepicker-toggle matSuffix [for]="picker1">
+            <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+          </mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input [min]="DateVariableStart" [matDatepicker]="picker2" matInput placeholder="To" [formControl]="endDate">
+          <mat-datepicker-toggle matSuffix [for]="picker2">
+            <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+          </mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+        </mat-form-field>
+        <!--<div class="form-group hidden">
+          <div class="input-group">
+            <input #datepicker="ngbDatepicker"
+                   (dateSelect)="onDateSelection($event)"
+                   [autoClose]="'outside'"
+                   [dayTemplate]="t"
+                   [displayMonths]="2"
+                   [startDate]="fromDate"
+                   class="form-control"
+                   name="datepicker"
+                   ngbDatepicker
+                   outsideDays="hidden">
+            <ng-template #t let-date let-focused="focused">
+              <span (mouseenter)="hoveredDate = date"
+                    (mouseleave)="hoveredDate = null"
+                    [class.faded]="isHovered(date) || isInside(date)"
+                    [class.focused]="focused"
+                    [class.range]="isRange(date)"
+                    class="custom-day">
+                {{ date.day }}
+              </span>
+            </ng-template>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <input #dpFromDate
+                   (click)="datepicker.toggle()" (input)="fromDate = validateInput(fromDate, dpFromDate.value)"
+                   [value]="formatter.format(fromDate)"
+                   class="form-control"
+                   name="dpFromDate"
+                   placeholder="From date">
+            <div class="input-group-append">
+
+              <button class="btn btn-outline-secondary calendar" mat-icon-button>
+                <mat-icon>date_range</mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group ml-2">
+          <div class="input-group">
+            <input #dpToDate
+                   (click)="datepicker.toggle()" (input)="toDate = validateInput(toDate, dpToDate.value)"
+                   [value]="formatter.format(toDate)"
+                   class="form-control"
+                   name="dpToDate"
+                   placeholder="To date">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary calendar" mat-icon-button>
+                <mat-icon>date_range</mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>-->
+      </form>
+      <mat-form-field style="margin-top:3vw">
+        <mat-label>-Select User-</mat-label>
+        <mat-select [(ngModel)]="uname">
+          <mat-option [value]="">-Select User-</mat-option>
+          <mat-option *ngFor="let o of this.usernameOptions" [value]="o.value">{{o.name}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field style="margin-top:3vw">
+
+        <mat-label>-Select Group-</mat-label>
+        <mat-select [(ngModel)]="group" (selectionChange)="toggle()">
+          <mat-option [value]="">-Select Group-</mat-option>
+          <mat-option *ngFor="let o of this.groupOptions" [value]="o.value">{{o.name}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button (click)="selectGroupOptions()" mat-icon-button
+              matTooltip={{this.ShowMoreFiltersMatToolTipText}} style="display: inline;margin-left:2vh; margin-top: 3vw">
+        <mat-icon>{{this.ShowExtraFiltersicon}}</mat-icon>
+      </button>
+      <div *ngIf="displayFilterFlag&&showExtraFilters">
+        <mat-form-field style="margin-top:3vw">
+          <mat-label>Select Security Practice</mat-label>
+          <mat-select [(ngModel)]="securityPractice">
+            <mat-option [value]="">-Select Security Practice-</mat-option>
+            <mat-option *ngFor="let o of this.securityPracticeOptions" [value]="o.value">{{o.name}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+
+    <!--    <mat-form-field  style="margin-top:3vw">
+          <mat-label>-Select Score-</mat-label>
+          <mat-select [(ngModel)]="score">
+            <mat-option [value]="">-select score-</mat-option>
+            <mat-option *ngFor="let o of this.ScoreOptions" [value]="o.value">{{o.name}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      -->
+      </div>
+      <div>
+        <button (click)="toggle()" button color="warn" id="see" style="margin-top:6vw"
+                mat-raised-button
+                style=" margin-top:6.5vh;margin-left:2vh; width:2vw;height:6.6vh;font-size:small;">{{buttonName}}</button>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <ng-container *ngIf="show">
+    <div class='container-fluid'>
+      <report-tables [select]="bindSelectOptions"></report-tables>
+    </div>
+  </ng-container>
+
+
+
+

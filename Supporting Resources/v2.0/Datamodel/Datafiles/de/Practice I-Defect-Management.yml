@@ -1,0 +1,38 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice template/sample
+# ===========================================================
+#Link to the function, using its unique identifier
+function: 8aa8154b83434e73b3ca8c0e9b654417
+
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: e17d573510904f65a1fe6040b56ad0b1
+
+#Official name of this practice
+name: Defect Management
+
+#Abbreviation of this practice
+shortName: DM
+
+#A one sentence description of the security practice
+shortDescription: This practice focuses on managing security defects in software and
+  their associated metrics.
+
+#A multi-paragraph description of the security practice
+longDescription: |
+  The Defect Management (DM) practice focuses on collecting, recording, and analyzing software security defects and enriching them with information to drive metrics-based decisions.
+
+  The practice’s first stream deals with the process of handling and managing defects to ensure released software has a given assurance level. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole.
+
+  In a sophisticated form, the practice requires formalised, independent defect management and real-time, correlated information to detect trends and influence security strategy.
+#The relative order of this practice in the business function
+order: 3
+
+#Who's the "owner" of this practice
+assignee: Daniel Kefer
+
+#Indication of progress to keep track of overall status
+progress: 50
+#Type Classification of the Document
+type: Practice

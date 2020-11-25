@@ -1,2 +1,16 @@
 baseURL = "https://elegant-wescoff-8f804a.netlify.com/"
-title = "OWASP SAMM (Staging)"
+title = "SAMM"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "OWASP SAMM (Staging)"
+    weight = 1
+  [languages.es]
+    languageName = "Español"
+    title = "OWASP SAMM (Pre-producción)"
+    weight = 2
+  [languages.de]
+    languageName = "Deustch"
+    title = "OWASP SAMM (Deustch)"
+    weight = 3

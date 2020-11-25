@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 994bcac2bb7c4cc59a0faa365a0b58a0
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 24697d43707b4d83a6a5819a9db9a75d
+
+#One-sentence description of the criterium
+text: Do you use repeatable deployment processes?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You have enough information to run the deployment processes
+- Your deployment documentation up to date
+- Your deployment documentation is accessible to relevant stakeholders
+- You ensure that only defined qualified personnel can trigger a deployment
+- You harden the tools that are used within the deployment process
+
+#Type Classification of the Document
+type: Question

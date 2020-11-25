@@ -1,0 +1,26 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream - Configuration Hardening
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 53a9cd5c2d3643f3b71e4e9d92b811e2
+
+#Unique identifier to refer to this stream
+id: 47bff9a57f0344eeb4b083f1c2b1bb7e
+
+#Official stream name
+name: Configuration Hardening
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: |
+  The activities in this stream focus on the organization's management of security-related configurations in all elements of the technology stack. The emphasis is on those elements (e.g., operating systems, containers, frameworks, services, appliances, and libraries) obtained from third parties, because their architecture and design are not under the organization's control.
+
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+
+#Type Classification of the Document
+type: Stream

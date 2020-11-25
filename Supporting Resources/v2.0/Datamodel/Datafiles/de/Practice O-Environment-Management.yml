@@ -1,0 +1,39 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice - Environment Management
+# ===========================================================
+#Link to the model, using its unique identifier
+function: 942d679b0c9e41909f8bde728fdb1259
+
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: 53a9cd5c2d3643f3b71e4e9d92b811e2
+
+#Official name of this practice
+name: Environment Management
+
+#Abbreviation of this practice
+shortName: EM
+
+#A one sentence description of the security practice
+shortDescription: This practice describes proactive activities carried out to improve and maintain the security of the environments in which the organization's applications operate.
+
+#A multi-paragraph description of the security practice
+longDescription: |
+  The organization's work on application security doesn't end once the application becomes operational. New security features and patches are regularly released for the various elements of the technology stack you're using, until they become obsolete or are no longer supported.
+
+  Most of the technologies in any application stack are not secure by default. This is frequently intentional, to enhance backwards compatibility or ease of setup. For this reason, ensuring the secure operation of the organization's technology stack requires the consistent application of secure baseline configurations to all components. The Environment Management (EM) practice focuses on keeping your environment clean and secure.
+
+  Vulnerabilities are discovered throughout the lifecycles of the technologies on which your organization relies, and new versions addressing them are released on various schedules. This makes it essential to monitor vulnerability reports and perform orderly, timely patching across all affected systems.
+
+#The relative order of this practice in the business function
+order: 2
+
+#Who's the "owner" of this practice
+assignee: John DiLeo
+
+#Indication of progress to keep track of overall status
+progress: 80
+
+#Type Classification of the Document
+type: Practice

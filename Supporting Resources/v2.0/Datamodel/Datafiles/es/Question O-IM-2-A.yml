@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 5bcb52375a0f4085bb12266c9ecfa84d
+
+#This question uses Answer Set A
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 13b9816c06444ba99584e657bfa5833d
+
+#Text of the question presented to the user
+text: Do you follow a documented process for incident detection?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- The process has a dedicated owner
+- You store process documentation in an accessible location
+- The process considers an escalation path for further analysis
+- You train employees responsible for incident detection in this process
+- You have a checklist of potential attacks to simplify incident detection
+
+#Type Classification of the Document
+type: Question

@@ -1,0 +1,51 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 8a64c7b0b35a458ea436260d5e414dfa
+
+#Link to the practice level that this activity belongs to
+level: 6291462e1894467d807b913ef7da4beb
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 346ed576f0a94147ba2b8148abc3c73a
+
+#The title of this activity
+title: Establish a penetration testing process
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Understanding of application resilience from black-box perspective
+
+#A one sentence description of the activity
+shortDescription: Conduct manual penetration testing
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Using the set of security test cases identified for each project, conduct manual penetration testing to evaluate the system’s performance against each case. Generally, this happens during the testing phase prior to release and includes both static and dynamic manual penetration testing. In cases where software cannot be realistically tested outside of production, use of techniques such as blue-green deployments or A/B testing can allow ring-fenced security testing in production.
+
+  Penetration testing cases include both application-specific tests to check soundness of business logic, and common vulnerability tests to check the design and implementation. Once specified, security-savvy quality assurance or development staff can execute security test cases. The central software security group monitors first-time execution of security test cases for a project team to assist and coach the team security champions.
+
+  Many organizations offer "Bug Bunty" programmes which invite security researchers to find vulnerabilties in applications and report them responsibly in exchange for rewards. The approach allows organizations to access a bigger pool of talent, especially those lacking sufficient internal capacity or requiring the additional assurance.
+
+  Prior to release or mass deployment, stakeholders review results of security tests and accept the risks indicated by failing security tests at release time. Establish a concrete timeline to address the gaps over time. Spread the knowledge of manual security testing and the results across the development team to improve security knowledge and awareness inside the organization.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+#Type Classification of the Document
+type: Activity

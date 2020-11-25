@@ -1,0 +1,59 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 9a5f26d77f204467bdda7ffa09109d73
+
+#Link to the practice level that this activity belongs to
+level: 3e89d1fa6cba4516a3ec446faaab5b84
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 4729b4bd6dca4d58a68cb854ad4409a6
+
+#The title of this activity
+title: Include application secrets during deployment
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Detection of potential leakage of production secrets
+
+#A one sentence description of the activity
+shortDescription: Inject secrets dynamically during deployment process from hardened storages and audit all human access to them.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Have an automated process to add credentials and secrets to configuration files during the deployment process to respective stages. This way, developers and deployers do not see or handle those sensitive values.
+
+  Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings. In systems such as code repositories, where there is a history, include the versions in the checks. Mark potential secrets you discover as sensitive values, and remove them where appropriate. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
+
+  Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt all secrets at rest and in transit. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptance test or production environment.
+
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Administrator
+- Developer
+- Security Engineer
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+- 84dcbc954d954d95b1fb37e032f05402   #O-EM-2-A
+
+#Type Classification of the Document
+type: Activity

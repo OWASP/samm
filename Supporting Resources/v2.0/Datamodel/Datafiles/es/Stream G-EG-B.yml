@@ -1,0 +1,23 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 483a0a1b78264cafbc470ce72d557332
+
+#Unique identifier to refer to this stream
+id: 0e2c4c5620e24d7d8e979020ca414182
+
+#Official stream name
+name: Organization and Culture
+
+#Stream letter, A or B
+letter: B
+
+#Multi-paragraph explanation of the stream
+description: Organization and culture focuses on promoting the culture of application security within the organization as an important success factor of an SDLC project.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream

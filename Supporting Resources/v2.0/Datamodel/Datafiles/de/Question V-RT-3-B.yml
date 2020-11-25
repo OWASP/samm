@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: d975bb1ce1dd4d61a6039b0a4a05926e
+
+#Link to the answer set that contains the potential answers for this question
+answerset: d096060a4d864133afcbdd1397b95827
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 814caca2fc5241dcb90c48302ac031b2
+
+#One-sentence description of the criterium
+text: Do you perform denial of service and security stress testing?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- Stress tests target specific application resources (e.g. memory exhaustion by saving
+  large amounts of data to a user session)
+- You design tests around relevant personas with well-defined capabilities (knowledge,
+  resources)
+- You feed the results back to the Design practices
+
+#Type Classification of the Document
+type: Question

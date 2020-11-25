@@ -17,12 +17,29 @@ function openMaturityLevel(evt, maturityLevel) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(maturityLevel).style.display = "block";
     evt.currentTarget.className += " active";
+
+    window.scrollTo(0, 0);
   }
 
-// Get the element with id="defaultOpen" and click on it
-var element = document.getElementById("defaultOpen");
- 
-//If it isn't "undefined" and it isn't "null", then it exists.
-if(typeof(element) != 'undefined' && element != null){
-    element.click();
-}
+  // Load maturity, either default or from url
+  var element = document.getElementById("maturity1"); // default is maturity 1
+
+  // get url to extract parameter
+  const url_string = window.location.href;
+  var maturity_param = '';
+  var split_url;
+  
+  split_url = url_string.split('#');
+  maturity_param = split_url[1];
+  
+  // If there's a parameter in the URL, open that maturity level
+  if(maturity_param == 'maturity2' || maturity_param == 'maturity3'){
+    element = document.getElementById(maturity_param);
+  }
+  
+  console.log (element);
+    // If element isn't "undefined" and it isn't "null", click it
+  if(typeof(element) != 'undefined' && element != null){
+      element.click();
+  }
+  

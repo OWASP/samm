@@ -1,0 +1,31 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: aa962032982a4d53bd34cd8771558df1
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: cb88049632b54a15b3d610c4d492e83e
+
+#One-sentence description of the criterium
+text: Do you base your design on available reference architectures?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You have one or more approved reference architectures documented and available to
+  stakeholders
+- You improve the reference architectures continuously based on insights and best
+  practices
+- You provide a set of components, libraries, and tools to implement each reference
+  architecture
+
+#Type Classification of the Document
+type: Question

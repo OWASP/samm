@@ -1,0 +1,19 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice Level - Environment Management, Level 3
+# ===========================================================
+#Link to the practice, using its unique identifier
+practice: 53a9cd5c2d3643f3b71e4e9d92b811e2
+
+#Link to the maturity level, using its unique identifier
+maturitylevel: 7bbfe31d447e48759ef0f2af25c31b43
+
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: 1cb6e197ca8245eca65b0ecbdd784720
+
+#Objective of this particular practice level
+objective: Conformity with continuously improving process enforced
+
+#Type Classification of the Document
+type: PracticeLevel

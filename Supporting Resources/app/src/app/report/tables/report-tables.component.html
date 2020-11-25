@@ -1,0 +1,63 @@
+<mat-card>
+
+    <!----------Table Form ------>
+    <mat-toolbar style="font-size: small;background-color:transparent;height: 5vh;color: white;transition: none !important;
+      box-shadow: none !important;">Report
+      <span style="
+    flex: 1 1 auto;"></span>
+      <button mat-icon-button style="float: right;size:1vh;" [matMenuTriggerFor]="menu" matTooltip="Export report as">
+        <mat-icon style="color: #2927bb">save_alt</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="download()">
+          <fa-icon class="icon-xls" [icon]="faFileExcel"></fa-icon>
+          Excel
+        </button>
+        <button mat-menu-item (click)="downloadPdf()">
+          <fa-icon class="icon-pdf" [icon]="faFilePdf"></fa-icon>
+          PDF
+        </button>
+      </mat-menu>
+  
+    </mat-toolbar>
+    <table [dataSource]="dataSource" class="mat-elevation-z8 table-hover table-striped" mat-table matSort style="transition: none !important;
+      box-shadow: none !important;">
+      <ng-container matColumnDef="id">
+        <th *matHeaderCellDef mat-header-cell mat-sort-header>ID</th>
+        <td *matCellDef="let element" mat-cell>{{element.id}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="question">
+        <th *matHeaderCellDef mat-header-cell mat-sort-header> Question</th>
+        <td *matCellDef="let element" mat-cell> {{element.question}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="groupname">
+        <th *matHeaderCellDef mat-header-cell mat-sort-header> Group Name</th>
+        <td *matCellDef="let element" mat-cell> {{element.groupname}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="secpractice">
+        <th *matHeaderCellDef mat-header-cell mat-sort-header>Security Practice</th>
+        <td *matCellDef="let element" mat-cell> {{element.secpractice}} </td>
+      </ng-container>
+      <ng-container matColumnDef="score">
+        <th *matHeaderCellDef mat-header-cell mat-sort-header> Score</th>
+        <td *matCellDef="let element" mat-cell> {{element.score}} </td>
+      </ng-container>
+      <ng-container matColumnDef="commentor">
+        <th *matHeaderCellDef mat-header-cell mat-sort-header>Commentor</th>
+        <td *matCellDef="let element" mat-cell> {{element.commentor}} </td>
+      </ng-container>
+      <ng-container matColumnDef="created">
+        <th *matHeaderCellDef mat-header-cell mat-sort-header>Date</th>
+        <td *matCellDef="let element" mat-cell> {{element.created}} </td>
+      </ng-container>
+      <tr *matHeaderRowDef="displayedColumns" mat-header-row></tr>
+      <tr *matRowDef="let row; columns: displayedColumns;" mat-row></tr>
+    </table>
+    <mat-paginator  style="background: black;color:white"[pageSizeOptions]="[5, 10, 15,25,50]" showFirstLastButtons></mat-paginator>
+  </mat-card>
+  
+  
+  

@@ -1,0 +1,339 @@
+<mat-toolbar  class="example-toolbar" >
+    <mat-toolbar-row>
+        
+            <font size="6"> Virtusa ~ </font> 
+            <font size="5" style="margin-bottom:-10px;">OSF</font>
+        
+        <button mat-icon-button  style="margin-left:920px;" tooltipClass="my-custom-class" ><mat-icon ngbPopover=" Admin " placement="bottom"   class="ic1" [openDelay]="300" [closeDelay]="500" triggers="mouseenter:mouseleave"  popoverTitle="Profile" >account_circle</mat-icon></button>
+        
+        
+
+       
+        <button mat-icon-button style="margin-left:10px;"><mat-icon >power_settings_new</mat-icon></button>
+        
+        
+        
+
+    </mat-toolbar-row>
+        
+
+
+
+
+</mat-toolbar>
+
+
+<mat-sidenav-container class="example-container"  >
+   <mat-sidenav #sidenav class="example-sidenav" mode="side" opened="true" (mouseenter)="mouseenter()" (mouseleave)="mouseleave()">
+       
+               
+        
+        
+                
+
+
+        
+
+        
+        
+        
+        
+       
+   
+       
+
+<mat-nav-list>
+   <br>
+               <mat-list-item class="home">
+                    <svg role="img"  class="icn"   style="margin-right:15px;" ><use xlink:href="/assets/icons/icons.svg#icon-home"></use></svg>
+                       <span class="full-width" *ngIf="isExpanded || isShowing">Home</span>
+                       
+                       </mat-list-item>
+
+           <mat-list-item  class="API">
+                   <svg role="" class="icn"  style="margin-right:15px;"><use xlink:href="/assets/icons/icons.svg#icon-technology"></use></svg>
+               <span class="full-width" *ngIf="isExpanded || isShowing">API Security Management</span>
+               
+               
+           </mat-list-item>
+          
+
+
+           
+       </mat-nav-list>
+   <mat-nav-list>
+           
+           
+</mat-nav-list>
+<mat-nav-list>
+   <mat-list-item (click)="showSubmenu1 = !showSubmenu1" class="dropdown">
+           <svg role="" class="icn"  style="margin-right:15px;" ><use xlink:href="/assets/icons/icons.svg#icon-checklist "></use></svg>
+       <span class="full-width" *ngIf="isExpanded || isShowing">Regulatory Compliance</span>
+       
+       <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu1}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
+   </mat-list-item>
+   <div class="submenu1" [ngClass]="{'expanded' : showSubmenu1}" *ngIf="isShowing || isExpanded">
+    <a mat-list-item href="...">Security Procedure & Policies
+    </a>
+    <a mat-list-item href="...">Consent Management
+    </a>
+    <a mat-list-item href="...">Authentication & Authorization
+    </a>
+    <a mat-list-item href="...">Logging & Auditing
+    </a>
+    
+    
+</div>
+
+  
+</mat-nav-list>
+<mat-nav-list>
+</mat-nav-list>
+<mat-nav-list>
+       <mat-list-item (click)="showSubmenu2 = !showSubmenu2" class="dropdown">
+               <svg role="" class="icn"  style="margin-right:15px;"><use xlink:href="/assets/icons/icons.svg#icon-secure"></use></svg>
+           
+           <span class="full-width" *ngIf="isExpanded || isShowing">Operational Security</span>
+       
+           <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu2}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
+       </mat-list-item>
+       <div class="submenu2" [ngClass]="{'expanded' : showSubmenu2}" *ngIf="isShowing || isExpanded">
+           <a mat-list-item href="...">Governance Framework
+        </a>
+           <a mat-list-item href="...">Risk Assessment Framework
+        </a>
+           <a mat-list-item href="...">Threat Detection Capabilities
+        </a>
+        <a mat-list-item href="...">Business Continuity
+
+        </a>
+        <a mat-list-item href="...">Testing of Security Measures
+
+
+        </a>
+        <a mat-list-item href="...">PSU Relationship Management
+        </a>
+
+
+           
+           
+       </div>
+   </mat-nav-list>
+   <mat-nav-list>
+   </mat-nav-list>
+   <mat-nav-list>
+           <mat-list-item (click)="showSubmenu3 = !showSubmenu3" class="dropdown">
+                   <svg role="" class="icn"  style="margin-right:15px;"><use xlink:href="/assets/icons/icons.svg#icon-safe"></use></svg>
+               
+               <span class="full-width" *ngIf="isExpanded || isShowing">Data Management</span>
+           
+               <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu3}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
+           </mat-list-item>
+           <div class="submenu3 " [ngClass]="{'expanded' : showSubmenu3}" *ngIf="isShowing || isExpanded">
+               <a mat-list-item href="...">Data Protection</a>
+               <a mat-list-item href="...">Infrastructure Readiness</a>
+               
+               
+               
+           </div>
+       </mat-nav-list>
+       <mat-nav-list>
+       </mat-nav-list>
+       
+       <mat-nav-list>
+        <mat-list-item (click)="showSubmenu4 = !showSubmenu4" class="dropdown">
+                <svg role="" class="icn"  style="margin-right:15px;"><use xlink:href="/assets/icons/icons.svg#icon-people"></use></svg>
+            
+            <span class="full-width" *ngIf="isExpanded || isShowing">Third Party Ecosystem</span>
+        
+            <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu4}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
+        </mat-list-item>
+        <div class="submenu4 " [ngClass]="{'expanded' : showSubmenu4}" *ngIf="isShowing || isExpanded">
+            <a mat-list-item href="..." >Vetting Process</a>
+            <a mat-list-item href="...">Infrastructure Syncing</a>
+            <a mat-list-item href="...">Third Party Governance</a>
+            <a mat-list-item href="...">Assess Extent, Number & Categories</a>
+            
+            
+            
+        </div>
+    </mat-nav-list>
+    <mat-nav-list>
+    </mat-nav-list>
+
+    <mat-nav-list>
+        <mat-list-item (click)="showSubmenu5 = !showSubmenu5" class="dropdown">
+                <svg role="" class="icn"  style="margin-right:15px;"><use xlink:href="/assets/icons/icons.svg#icon-bulb"></use></svg>
+            
+            <span class="full-width" *ngIf="isExpanded || isShowing">Innovation Efficiency</span>
+        
+            <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu5}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
+        </mat-list-item>
+        <div class="submenu5 " [ngClass]="{'expanded' : showSubmenu5}" *ngIf="isShowing || isExpanded">
+            <a mat-list-item href="..." >Enablement & Governance</a>
+            <a mat-list-item href="...">Change Management</a>
+            <a mat-list-item href="...">Situational Awareness & Continuous Learning</a>
+            <a mat-list-item href="...">Cloud Adoption Security</a>
+            <a mat-list-item href="...">Legacy System Security</a>
+            
+            
+            
+        </div>
+    </mat-nav-list>
+    <mat-nav-list>
+    </mat-nav-list>
+
+    <mat-nav-list>
+        <mat-list-item (click)="showSubmenu6 = !showSubmenu6" class="dropdown">
+                <svg role="" class="icn"  style="margin-right:15px;"><use xlink:href="/assets/icons/icons.svg#icon-cogs"></use></svg>
+            
+            <span class="full-width" *ngIf="isExpanded || isShowing">Configuration Management</span>
+        
+            <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu6}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
+        </mat-list-item>
+        <div class="submenu6 " [ngClass]="{'expanded' : showSubmenu6}" *ngIf="isShowing || isExpanded">
+            <a mat-list-item href="..." >User Configuration</a>
+            <a mat-list-item href="...">API Configuration</a>
+           
+            
+            
+            
+        </div>
+    </mat-nav-list>
+    <mat-nav-list>
+    </mat-nav-list>
+
+
+
+       <mat-nav-list>
+        <mat-list-item (click)="showSubmenu7 = !showSubmenu7" class="dropdown">
+                <svg role="img"  class="icn" style="margin-right:15px;" ><use xlink:href="/assets/icons/icons.svg#icon-laptop"></use></svg>
+            
+            <span class="full-width" *ngIf="isExpanded || isShowing" >Report</span>
+        
+            <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu7}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
+        </mat-list-item>
+        <div class="submenu7 " [ngClass]="{'expanded' : showSubmenu7}" *ngIf="isShowing || isExpanded">
+            <a mat-list-item href="...">Scoring Report</a>
+            <a mat-list-item href="...">Vulnerabilities</a>
+            
+            
+            
+        </div>
+    </mat-nav-list>
+    <mat-nav-list>
+    </mat-nav-list>
+
+    <mat-nav-list>
+        <mat-list-item (click)="showSubmenu8 = !showSubmenu8" class="dropdown">
+                <svg role="" class="icn"  style="margin-right:15px;"><use xlink:href="/assets/icons/icons.svg#icon-plane"></use></svg>
+            
+            <span class="full-width" *ngIf="isExpanded || isShowing">Logout</span>
+        
+            
+        </mat-list-item>
+        
+    </mat-nav-list>
+    <mat-nav-list>
+    </mat-nav-list>
+
+</mat-sidenav>
+<br>
+
+                    
+<div class="container">
+    <div class="row">
+<form class="form-inline">
+        <div class="form-group hidden">
+          <div class="input-group">
+            <input name="datepicker"
+                   class="form-control"
+                   ngbDatepicker
+                   #datepicker="ngbDatepicker"
+                   [autoClose]="'outside'"
+                   (dateSelect)="onDateSelection($event)"
+                   [displayMonths]="2"
+                   [dayTemplate]="t"
+                   outsideDays="hidden"
+                   [startDate]="fromDate">
+            <ng-template #t let-date let-focused="focused">
+              <span class="custom-day"
+                    [class.focused]="focused"
+                    [class.range]="isRange(date)"
+                    [class.faded]="isHovered(date) || isInside(date)"
+                    (mouseenter)="hoveredDate = date"
+                    (mouseleave)="hoveredDate = null">
+                {{ date.day }}
+              </span>
+            </ng-template>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <input #dpFromDate
+                   class="form-control" placeholder="From date"
+                   (click)="datepicker.toggle()" 
+                   name="dpFromDate"
+                   [value]="formatter.format(fromDate)"
+                   (input)="fromDate = validateInput(fromDate, dpFromDate.value)">
+            <div class="input-group-append">
+              
+              <button mat-icon-button class="btn btn-outline-secondary calendar" ><mat-icon >date_range</mat-icon></button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group ml-2">
+          <div class="input-group">
+            <input #dpToDate
+                   class="form-control" placeholder="To date"
+                   (click)="datepicker.toggle()" 
+                   name="dpToDate"
+                   [value]="formatter.format(toDate)"
+                   (input)="toDate = validateInput(toDate, dpToDate.value)">
+            <div class="input-group-append">
+                    <button mat-icon-button class="btn btn-outline-secondary calendar" ><mat-icon >date_range</mat-icon></button>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      
+      <select id="uname" class="form-control btn-info" name="uname" style="width:200px; margin-left:2vh;" >
+			<option value="">-Select User-</option>
+			<option>Admin</option><option>Auditor</option><option>User1</option><option>User2</option>		</select>
+      
+
+            <select name="grp" class="form-control btn-info" id="category" style="width:200px; margin-left:2vh;" >
+                    <option value="">-Select Group-</option>
+                    <option value="Regulatory Compliance">Regulatory Compliance</option>
+                    <option value="API Security Management">API Security Management</option>
+                    <option value="Operational Security">Operational Security</option>
+                    <option value="Data Management">Data Management</option>
+                    <option value="Third Party Ecosystem">Third Party Ecosystem</option>
+                    <option value="Innovation Efficiency">Innovation & Efficiency</option>
+                </select>
+                <select name="grp" class="form-control btn-info" id="category" style="width:200px; margin-left:2vh;" >
+                        <option value="">-Select Security Practice-</option>
+                        </select>
+                        
+
+                        <select name="score" class="form-control btn-info" style="width:200px; margin-top:5vh;" >
+                                <option value=-2>-Select Score-</option>
+                                <option value=1>Yes</option>
+                                <option value=0.5>Implementing</option>
+                                <option value=0>No</option>
+                                <option value=-1>N/A</option>
+                            </select>
+
+                            
+
+                            <button id="see" mat-raised-button color="warn" style="width:20vh; height:6vh;margin-left:2vh;margin-top:5vh;">Filter</button>
+
+     
+ 
+  
+  
+  </div>
+  </div>
+  
+</mat-sidenav-container>

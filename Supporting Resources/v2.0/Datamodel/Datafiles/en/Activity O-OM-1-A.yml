@@ -1,0 +1,47 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Data Protection, Level 1
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 9c6bf45a97ae4149a44c4a5d97ea6a40
+
+#Link to the practice level that this activity belongs to
+level: d0a99f3db27e48aa9b2d6b58a9040f49
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: c16a12399dc94cc889d7e9e66e0ae2a0
+
+#The title of this activity
+title: Organize basic data protections
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Understanding of sensitivity of processed data with derived quick-win measures
+
+#A one sentence description of the activity
+shortDescription: Implement basic data protection practices
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Understand the types and sensitivity of data stored and processed by your applications, and maintain awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. Protect and handle all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed.
+
+  Implement basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, you can focus data protection policies and activities on production.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+#Type Classification of the Document
+type: Activity

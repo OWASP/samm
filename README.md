@@ -29,3 +29,26 @@ Please see guidance here: [/Current Releases/head/contributing-to-git.md](https:
 * Change directory to _Website/hugo_
 * Execute `hugo server`
 
+## SAMM Sponsors
+
+We thank our sponsors for their OWASP SAMM support. All proceeds from the
+sponsorship support the mission of the OWASP Foundation and the further
+development of SAMM. Supporting the project drives the funding for
+research grants, SAMM hosting, tools, templates, documents, promotion,
+and more.
+
+By sponsoring SAMM, you not only support an important and flagship OWASP
+project, you will also get visibility during the next SAMM User Conference 
+and recognition on the OWASP SAMM [web site](https://owaspsamm.org/) and
+the next releases of SAMM.
+
+For more information: Contact <seba@owasp.org>
+
+### Project Sponsors
+* [Concord](https://concordusa.com/)
+* [Fortify](https://www.microfocus.com/en-us/solutions/application-security)
+* [NCC Group](https://www.nccgroup.trust/uk/)
+* [PWC](https://www.pwc.com/)
+* [Splunk](https://splunk.com)
+* [Toreon](https://toreon.com)
+* [White Jaguars](https://www.whitejaguars.com/)

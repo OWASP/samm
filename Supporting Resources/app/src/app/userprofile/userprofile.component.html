@@ -1,0 +1,208 @@
+<div class="main-content">
+    <div class="container-fluid" style="height:15vw;">
+
+        <div class="row" style="padding: 8vh 5vh 9vh 2vh;">
+                <div class="card card-profile">
+                        <div class="card-avatar">
+                            <a href="javascript:void(0)">
+                                <img class="rounded-circle" src="/assets/pic/avatar.jpg" />
+                            </a>
+                            <button class="btn" style='margin:20px 26%;font-weight: bold;background: bisque;color:black' 
+                            (click)="openModal(template)" >
+                                    Change Picture
+                            </button>
+                            <div class="container" style="border-radius:15px;">
+                                    <ng-template #template>
+
+                                                <img class="rounded-circle" [src]="imageUrl" style="width:100px;height:100px;">
+                                                <br>
+                                                <div style="margin-top:20px;margin-left:10px;">
+                                                    <input type="file" (change)="handlefileInput($event.target.files)">
+                                                    <button (click)="upload()" class="upload">Upload</button>
+                                                </div>
+                                                <br><br>
+
+                                        </ng-template>
+
+                                        </div>
+
+
+
+
+
+                        </div>
+                        <hr>
+                        <div class="card-body" style='text-align: center'>
+                            <h6 class="card-category text-gray">{{userInfo.role}}</h6>
+                            <h4 class="card-title">{{userInfo.name}} {{userInfo.lname}}</h4>
+
+                           <!--<p class="card-description">
+                              Hi,I am the {{userInfo.role}} {{userInfo.name}}.
+                            </p> -->
+
+
+                        </div>
+                    </div>
+                <mat-tab-group>
+                      <mat-tab label="Personal Information" class ="btn">
+
+            <div class="col-md-12">
+                <div class="card" >
+                    <div class="card-header card-header-danger">
+
+                        <h6> Personal Information</h6>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class='table table-hover table-responsive table-bordered'>
+                                        <tr>
+                                            <td><b>First Name</b></td>
+                                            <td>{{userInfo.name}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Last Name</b></td>
+                                            <td>{{userInfo.lname}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Username</b></td>
+                                            <td>{{userInfo.username}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Role</b></td>
+                                            <td>{{userInfo.role}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Email</b></td>
+                                            <td>{{userInfo.email}}</td>
+                                        </tr>
+
+                                        <tr>
+                                                <div *ngIf="isShown==false">
+                                                        <button class="btn btn-primary pull-right fbutton"  (click)="toggleShow()" type="checkbox" >Change Password</button>
+                                                        </div>
+            
+            
+                                                <div *ngIf="isShown==true">
+                                                        <button class="btn btn-primary pull-right fbutton"  (click)="togglehide()" type="checkbox" > Hide Change Password</button>
+            
+            
+                                            </div>
+                                            <div *ngIf="isShown" class="form-group"  style="font-size:3vh;">
+            
+            
+            
+                                                    <label>Old Password</label>
+                                                    <input type="password" id="password" placeholder="Enter Old Password" class="form-control" [(ngModel)]="pass.old" name="password">
+            
+                                            </div>
+                                            <div *ngIf="isShown" class="form-group"  style="font-size:3vh;">
+            
+            
+            
+                                                    <label>New Password</label>
+                                                    <input type="password" id="password" placeholder="Enter New Password" class="form-control"  [(ngModel)]="pass.newp" name="password">
+            
+                                            </div>
+            
+                                            <div *ngIf="isShown" class="form-group"  style="font-size:3vh;">
+            
+            
+            
+                                                    <label>Confirm New Password</label>
+                                                    <input type="password" id="password" placeholder="Re-enter New Password" class="form-control" [(ngModel)]="pass.confirmp"  name="password">
+            
+                                            </div>
+            
+                                            <div class="alert-warning"  *ngIf="oldpassmessage_show" >
+                                                {{oldpassmessage}}
+                                                </div>
+                                        <div class="alert-warning"  *ngIf="mismatch_show" >
+                                                {{mismatch}}
+                                                </div>
+                                                <div class="alert-success"  *ngIf="match_show" >
+                                                        {{match}}
+                                                        </div>
+                                        <br>
+                                        <div *ngIf="isShown" class="form-group"  style="font-size:3vh;">
+                                        <button mat-raised-button type="submit" class="btn btn-danger pull-right fbutton" (click)="updatepass()">Update</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        </tr>
+                                    </table>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </mat-tab>
+            <mat-tab *ngIf="authority === 'Admin'" label="Add User"> <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h6>Add User</h6>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                                <div class="form-group"  style="font-size:3vh;">
+
+                                        <label>First Name</label>
+                                        <input type="name" id="fname" placeholder="First Name" class="form-control" [(ngModel)]="local_data.fname" name="fname">
+
+                                </div>
+                                <div class="form-group"  style="font-size:3vh;">
+
+                                    <label>Last Name</label>
+                                    <input type="name" id="lname" placeholder="Last Name" class="form-control" [(ngModel)]="local_data.lname" name="lname">
+
+                            </div>
+                                <div class="form-group"  style="font-size:3vh;">
+
+                                        <label>UserName</label>
+                                        <input type="text" id="username" ng-model="userInfo.username" class="form-control" placeholder="Username" [(ngModel)]="local_data.username" name="username">
+
+                                </div>
+
+
+                                <div class="form-group"  style="font-size:3vh;">
+
+
+
+                                        <label>Email</label>
+                                        <input type="email" id="email" placeholder="ex:abc@gmail.com" class="form-control" [(ngModel)]="local_data.email" name="email">
+
+                                </div>
+
+
+
+
+
+                                <div class="form-group"  style="font-size:3vh;">
+
+
+
+                                        <label>Role</label>
+                                        <select id="role" placeholder="role" class="form-control" [(ngModel)]="local_data.role" name="role">
+                                            <option value="Auditor">Auditor</option>
+                                            <option value="User">User</option>
+                                        </select>
+
+                                </div> 
+
+                                <button mat-raised-button type="submit" class="btn btn-primary pull-right fbutton"(click)="AddUser()">Update</button>
+                        </form>
+                    </div>
+                </div>
+            </div>  </mat-tab>
+
+            </mat-tab-group>
+
+        </div>
+
+    </div>
+  </div>
+  <br>

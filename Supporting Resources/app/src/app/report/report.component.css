@@ -1,0 +1,253 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.example-container {
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+body {
+  background: white;
+}
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  user-select: none;
+
+}
+
+.full-width {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.menu-button {
+  transition: 300ms ease-in-out;
+  transform: rotate(0deg);
+}
+
+.menu-button.rotated {
+  transform: rotate(180deg);
+}
+
+.submenu {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;;
+  display: none;
+
+}
+
+.submenu1 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+  display: none;
+}
+
+.submenu.expanded {
+  transform: scaleY(1);
+
+
+}
+
+.submenu1.expanded {
+  transform: scaleY(1);
+}
+
+.submenu2 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+  display: none;
+}
+
+.submenu2.expanded {
+  transform: scaleY(1);
+}
+
+.submenu3 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+  display: none;
+}
+
+.submenu3.expanded {
+  transform: scaleY(1);
+}
+
+.submenu4 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+  display: none;
+}
+
+.submenu4.expanded {
+  transform: scaleY(1);
+}
+
+.submenu5 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+  display: none;
+}
+
+.submenu5.expanded {
+  transform: scaleY(1);
+}
+
+.submenu6 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+  display: none;
+}
+
+.submenu6.expanded {
+  transform: scaleY(1);
+}
+
+.submenu7 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+  display: none;
+}
+
+.submenu7.expanded {
+  transform: scaleY(1);
+}
+
+
+svg {
+  width: 2em;
+  height: 2em;
+
+
+}
+
+.icn {
+  width: 1.5em;
+  height: 1.5em;
+
+}
+
+
+.mat-icon {
+  font-size: 25px;
+}
+
+font {
+  color: #274b6a;
+}
+
+.example-container {
+  background-color: #e9edf7;
+
+}
+
+.form-group.hidden {
+  width: 0;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.custom-day {
+  text-align: center;
+  padding: 0.185rem 0.25rem;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+}
+
+.custom-day.focused {
+  background-color: #e6e6e6;
+}
+
+.custom-day.range, .custom-day:hover {
+  background-color: rgb(2, 117, 216);
+  color: white;
+}
+
+.custom-day.faded {
+  background-color: rgba(2, 117, 216, 0.5);
+}
+
+#see:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+#see:active {
+  box-shadow: 0px 0px gray;
+  transform: translateY(4px);
+}
+
+.container {
+  width: 100vw;
+}
+
+.input-group {
+  width: 12vw;
+}
+.mat-card {
+  background: transparent;
+  color: #f8f9fa;
+}
+h1[_ngcontent-kxf-c3] {
+color: white;
+}
+.subtitle-card {
+font-size: 7vh;
+color: white;
+font-family: "Roboto", sans-serif;
+}
+.mat-form-field-infix {
+display: block;
+position: relative;
+flex: auto;
+min-width: 0;
+width: 180px;
+background: white;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+cursor: pointer;
+color: white;
+}
+.mat-icon {
+background-repeat: no-repeat;
+display: inline-block;
+fill: currentColor;
+height: 24px;
+width: 24px;
+color: white;
+}
+.mat-form-field-infix {
+margin-left: 2vh;
+}
+.mat-form-field-infix {
+  background: white;
+}

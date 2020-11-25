@@ -1,0 +1,24 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: f9269aebfe2c4d5b9293ba42a40a93ac
+
+#Unique identifier to refer to this stream
+id: 17c90203f8354c3594eea22759e375a9
+
+#Official stream name
+name: Application Risk Profile
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: An application risk profile helps to identify which applications can pose a serious threat to the organization if they were attacked or breached.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+
+#Type Classification of the Document
+type: Stream

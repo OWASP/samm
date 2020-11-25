@@ -1,0 +1,128 @@
+
+
+
+
+<div class="md-padding dialogdemoBasicUsage">
+  <h1 mat-dialog-title  >Edit Score </h1>
+  
+  </div>
+
+  
+  
+ 
+  <div mat-dialog-content>
+    <br>
+    <!--  <label for="Id"><b>Id</b></label>
+      <br>
+      <mat-form-field style="width: 650px;" >
+        <input placeholder="" matInput [(ngModel)]="local_data.id" readonly>
+        
+      </mat-form-field>
+      <br>
+    <br>-->
+    <label for="FirstName"><b>FirstName</b></label>
+    <br>
+    <mat-form-field style="width: 650px;" >
+      <input placeholder="" matInput [(ngModel)]="local_data.firstname" >
+      
+    </mat-form-field>
+    <br>
+    <label for="LasttName"><b>LastName</b></label>
+    <br>
+    <mat-form-field style="width: 650px;" >
+      <input placeholder="" matInput [(ngModel)]="local_data.lastname"  >
+      
+    </mat-form-field>
+    <br>
+    <label for="Username"><b>Username</b></label>
+    <br>
+    <mat-form-field style="width: 650px;">
+      <input placeholder="" matInput [(ngModel)]="local_data.vsamm_uname"  >
+      
+    </mat-form-field>
+    <br>
+    <label for="password"><b>Password</b></label>
+    <br>
+    <mat-form-field style="width: 650px;">
+      <input placeholder="" matInput [(ngModel)]="local_data.vsamm_pswd"  >
+      
+    </mat-form-field>
+    <br>
+    <label for="empid"><b>Employee ID</b></label>
+    
+    <br>
+    <mat-form-field style="width: 650px;">
+      <input placeholder="" matInput [(ngModel)]="local_data.empid"  >
+      
+    </mat-form-field>
+    <br>
+    <label for="Email"><b>Email</b></label>
+    
+    <br>
+    <mat-form-field style="width: 650px;">
+      <input placeholder=""matInput [(ngModel)]="local_data.email"  >
+      
+    </mat-form-field>
+    <br>
+    <label for="Role"><b>Role</b></label>
+    <br>
+    <mat-form-field style="width: 650px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.role"  >
+      
+    </mat-form-field>
+    <br>
+    <label for="GroupName"><b>Group Name</b></label>
+    <br>
+  
+    <mat-form-field  style="width: 650px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.groupname"  >
+    </mat-form-field>
+    <br>
+    <label for="phone"><b>Phone</b></label>
+    <br>
+  
+    <mat-form-field  style="width: 650px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.phone"  >
+    </mat-form-field>
+    <br>
+    <label for="country"><b>Country</b></label>
+    <br>
+  
+    <mat-form-field  style="width: 650px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.country"  >
+    </mat-form-field>
+    <br>
+    <label for="company"><b>Company</b></label>
+    <br>
+  
+    <mat-form-field  style="width: 650px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.company"  >
+    </mat-form-field>
+    <br>
+    <label for="created"><b>Created</b></label>
+    <br>
+  
+    <mat-form-field  style="width: 650px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.created" readonly >
+    </mat-form-field>
+    <br>
+    <label for="modified"><b>Modified</b></label>
+    <br>
+  
+    <mat-form-field  style="width: 650px;">
+      <input  placeholder="" matInput [(ngModel)]="local_data.modified"  readonly>
+    </mat-form-field>
+    <br>
+   
+
+        
+  
+      </div>
+  <br>
+  
+    <div mat-dialog-actions>
+      
+      <button mat-button (click)="closeDialog()" mat-flat-button >Close</button>
+      <button mat-button mat-flat-button class="btn btn-primary pull-right" (click)="doAction()">{{action}}</button>
+    </div>
+    

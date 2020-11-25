@@ -1,0 +1,21 @@
+{
+    "comments": {
+        "question": "Do you use repeatable deployment processes?\r\n",
+        "id": 6,
+        "groupname": "Implementation",
+        "secpractice": "Secure Deployment",
+        "comment": "check",
+        "commentor": "Auditor",
+        "created": "2020-03-10T07:21:27.000Z",
+        "score": 1,
+        "qoid": "I-SD-A-1-1",
+        "answer": "Yes, for most of the applications\r\n"
+    },
+    "FirstGraph": {},
+    "SecondGraph": {
+        "Total0": 23,
+        "Total25": 25,
+        "Total50": 25,
+        "Total1": 23
+    }
+}

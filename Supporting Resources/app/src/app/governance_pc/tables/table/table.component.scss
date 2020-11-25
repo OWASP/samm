@@ -1,0 +1,168 @@
+.customer-photo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-size: 32px 35px;
+  background-position: center center;
+  vertical-align: middle;
+  line-height: 32px;
+  box-shadow: inset 0 0 1px #999, inset 0 0 10px rgba(0,0,0,.2);
+  margin-left: 5px;
+}
+
+.customer-name {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  padding-left: 10px;
+}
+
+.red {
+  color: #d9534f;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.badge{
+ // width: 100%;
+  padding: 0.55em 0.7em;
+ // font-size: 84%;
+}
+
+.wrapper {
+  padding: 20px;
+  color: #fff;
+  background-color: red;
+}
+
+.modal-header{
+  padding: 0.5rem;
+}
+
+.modal-body{
+  padding: 0.5rem;
+}
+
+.modal-footer{
+  padding: 0.5rem;
+}
+
+
+
+
+// Black Theme //
+
+
+
+
+$wizard-color-neutral: #ccc !default;
+$wizard-color-active: #4183D7 !default;
+$wizard-color-complete: #87D37C !default;
+$wizard-step-width-height: 64px !default;
+$wizard-step-font-size: 24px !default;
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+
+.step-wrapper {
+    padding: 20px 0;
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+
+
+.step-indicator {
+    border-collapse: separate;
+    display: table;
+    margin-left: 0px;
+    position: relative;
+    table-layout: fixed;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 0;
+    padding-top: 20px;
+
+    li {
+        display: table-cell;
+        position: relative;
+        float: none;
+        padding: 0;
+        width: 1%;
+
+        &:after {
+            background-color: $wizard-color-neutral;
+            content: "";
+            display: block;
+            height: 1px;
+            position: absolute;
+            width: 100%;
+            top: $wizard-step-width-height/2;
+        }
+
+        &:after {
+            left: 50%;
+        }
+
+        &:last-child {
+            &:after {
+                display: none;
+            }
+        }
+
+        &.active {
+            .step {
+                border-color: $wizard-color-active;
+                color: $wizard-color-active;
+            }
+
+            .caption {
+                color: $wizard-color-active;
+            }
+        }
+
+        &.complete {
+            &:after {
+                background-color: $wizard-color-complete;
+            }
+
+            .step {
+                border-color: $wizard-color-complete;
+                color: $wizard-color-complete;
+            }
+
+            .caption {
+                color: $wizard-color-complete;
+            }
+        }
+    }
+
+    .step {
+        background-color: #fff;
+        border-radius: 50%;
+        border: 1px solid $wizard-color-neutral;
+        color: $wizard-color-neutral;
+        font-size: $wizard-step-font-size;
+        height: $wizard-step-width-height;
+        line-height: $wizard-step-width-height;
+        margin: 0 auto;
+        position: relative;
+        width: $wizard-step-width-height;
+        z-index: 1;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .caption {
+        color: $wizard-color-neutral;
+        padding: 11px 16px;
+    }
+}

@@ -24,7 +24,7 @@
                     <div class="col-md-12 samm-page-content">
 
                         <h3>
-                            <a href="/model/">Model</a> | <a href="/model/{{ .Params.business_function_url }}">{{ .Params.business_function }}</a> | {{ .Params.title }}
+                            <a href="../../">Model</a> | <a href="../../{{ .Params.business_function_url }}">{{ .Params.business_function }}</a> | {{ .Params.title }}
                         </h3>
 
                         <div>
@@ -38,11 +38,11 @@
                               <th></th>
                               <th>
                                 Stream A</br>
-                                <a href="{{ .Params.url }}stream-a">{{ .Params.stream_a }}</a>
+                                <a href="../../../{{ .Params.url }}stream-a">{{ .Params.stream_a }}</a>
                               </th>
                               <th>
                                   Stream B</br>
-                                  <a href="{{ .Params.url }}stream-b">{{ .Params.stream_b }}</a>
+                                  <a href="../../../{{ .Params.url }}stream-b">{{ .Params.stream_b }}</a>
                                 </th>
                               </tr>
                           </thead>

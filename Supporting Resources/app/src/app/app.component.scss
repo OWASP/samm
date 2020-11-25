@@ -1,0 +1,62 @@
+.mat-icon{
+  height:40px;
+  width:40px;
+  padding:8px;
+}
+
+.example-container {
+
+  //height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background:#e9edf7;
+}
+
+.example-sidenav-content {
+  //height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+.example-button-row {
+  margin-top: 16px;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 2 2 auto;
+  text-align: center;
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+body {
+
+  // background-color: #061234;
+  //background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%) !important;
+   background-image: linear-gradient(to bottom, #010f20 20%, #061339 90%) !important;
+   background-attachment: fixed !important;
+  //background-image: radial-gradient(#123 5%, transparent 0);
+  //background-size: 35px 35px;
+
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+text{
+  //fill:white !important;
+  //fill: cyan !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px !important;
+}
+
+tspan{
+  fill: #9a0139 !important;
+}
+

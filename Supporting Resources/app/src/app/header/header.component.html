@@ -1,0 +1,362 @@
+<nav class="navbar navbar-expand-lg" style='background-color:transparent; z-index:1'>
+  <div class="container-fluid ">
+    <ul class="navbar-nav ml-auto ">
+      <!--li class="nav-item ">
+        <a style='padding:0.5rem 2rem 0.5rem 2rem;font-weight:700;color: #00a25e;' class="nav-link"
+          (click)="openModals(templates)">
+          Create an Account
+        </a>
+      </li-->
+
+      <div class="Login-button-row ">
+
+
+        <button (click)="openModal(template)" style="background-color: rgb(39, 75, 106);
+                    background-color: transparent;
+                    font-size: 2.5vh;
+                    width: 25vh;
+                    height: 6vh;
+                    display: inline-block;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: azure;
+                    border-radius: 10px;">LOGIN
+        </button>
+      </div>
+    </ul>
+  </div>
+</nav>
+
+
+<!--Account Creation Modal Pop Up Form-->
+
+<!--div class="container">
+  <ng-template #templates>
+    <div class="modal-header" style="font-weight:bolder;color:#00a25e">Account Creation
+
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span style="color:white;" aria-hidden="true">&times;</span>
+      </button>
+      <div class="fadeIn first" style="margin-bottom:3px;font-size:3vh;">
+
+      </div>
+
+    </div-->
+<!--img src="" id="icon" alt="User Icon" width=130 height=80 style="margin-left:110px;"-->
+<!--br-->
+<!-- Success message -->
+<!--div class="success" *ngIf="f.submitted && message">
+      Saved successfully
+    </div>
+    <div *ngIf="f.submitted && isSignUpFailed" class="alert" style="padding:2vh 2vh 2vh 20vh;">
+      {{errorMessage}}
+    </div-->
+<!-- Error message -->
+<!--div class="alert" *ngIf="serverErrorMessagesss">
+      {{serverErrorMessagesss}}
+    </div>
+
+    <form name="form" #signupForm="ngForm" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+      <div class="form-group">
+        <input placeholder="Name" type="text" class="form-control" name="name" [(ngModel)]="form.name" #name="ngModel"
+          required />
+        <div *ngIf="f.submitted && name.invalid">
+          <div *ngIf="name.errors.required">Name is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input placeholder="UserName" autocomplete="off" type="text" class="form-control" name="username"
+          [(ngModel)]="form.username" #username="ngModel" required />
+        <div *ngIf="f.submitted && username.invalid">
+          <div *ngIf="username.errors.required">Username is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input placeholder="Role" type="text" class="form-control" name="role" [(ngModel)]="form.role" #role="ngModel"
+          required />
+        <div *ngIf="f.submitted && role.invalid">
+          <div *ngIf="role.errors.required">Role is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input placeholder="Email" type="text" class="form-control" name="email" [(ngModel)]="form.email"
+          #email="ngModel" required email />
+        <div *ngIf="f.submitted && email.invalid">
+          <div *ngIf="email.errors.required" class="validation-message">Email is required</div>
+          <div *ngIf="email.errors.email" class="validation-message">Email must be a valid email address</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input placeholder="Password" type="password" class="form-control" name="password" [(ngModel)]="form.password"
+          #password="ngModel" required minlength="6" />
+        <div *ngIf="f.submitted && password.invalid">
+          <div *ngIf="password.errors.required" class="validation-message">Password is required</div>
+          <div *ngIf="password.errors.minlength" class="validation-message">Password must be at least 6 characters</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input placeholder="Mobile Number" autocomplete="off" type="text" class="form-control" name="mobile"
+          [(ngModel)]="form.mobile" #password="ngModel" required minlength="10" maxlength="10" />
+        <div *ngIf="f.submitted && password.invalid">
+          <div *ngIf="password.errors.required" class="validation-message">MobileNumber is required</div>
+          <div *ngIf="password.errors.minlength" class="validation-message">MobileNumber must be 10 digits number</div>
+          <label *ngIf="password.errors.maxlength" class="validation-message">Invalid mobile number</label>
+        </div>
+      </div-->
+<!--<div class="form-group">
+                <button class="btn btn-primary">Register</button>
+              </div> -->
+<!--input id="btn" class="form-group" style="margin-left:140px;" type="submit" value="signup">
+    </form>
+
+  </ng-template>
+</div-->
+
+
+
+
+
+<!--Login Modal Pop Up Form -->
+
+<div class="container1" id="cont">
+  <ng-template #template>
+    <div class="modal-header" id="head">
+      <div style="color:azure;
+                margin-left: 42%;
+                font-size: 25px;
+                font-weight: bold;">
+        LOGIN
+      </div>
+
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span style="color:white;" aria-hidden="true">&times;</span>
+      </button>
+      <div class="fadeIn first" style="margin-bottom:3px;font-size:3vh;" id="fade">
+
+      </div>
+
+    </div>
+    <!--img src="" id="icon" alt="User Icon" width=130 height=80 style="margin-left:120px;"-->
+    <div class="modal-body" id="bod" style="padding-top: 50px">
+
+      <!-- Success message -->
+      <div class="success" *ngIf="showSucessMessage">
+        Saved successfully {{message}}
+      </div>
+      <div *ngIf="f.submitted && isLoginFailed" class="alert" style="padding:2vh 2vh 2vh 20vh;">
+        {{errorMessage}}
+      </div>
+      <!-- Error message -->
+      <div class="alert" *ngIf="serverErrorMessagesss">
+        {{serverErrorMessagesss}}
+      </div>
+      <form name="form" #loginForm="ngForm" (ngSubmit)="f.form.valid && onSubmit2()" #f="ngForm" novalidate>
+        <div class="form-group">
+          <input placeholder="USERNAME" autocomplete="off" type="text" class="form-control" name="username"
+            [(ngModel)]="form.username" #username="ngModel" required />
+          <div *ngIf="f.submitted && username.invalid">
+            <div *ngIf="username.errors.required" class="validation-message">USERNAME IS REQUIRED</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input placeholder="PASSWORD" type="password" class="form-control" name="password" [(ngModel)]="form.password"
+            #password="ngModel" required minlength="6" />
+          <div *ngIf="f.submitted && password.invalid">
+            <div *ngIf="password.errors.required" class="validation-message">PASSWORD IS REQUIRED</div>
+            <div *ngIf="password.errors.minlength" class="validation-message">PASSWORD MUST BE ATLEAST 6 CHARACTERS
+            </div>
+          </div>
+        </div>
+        <!-- <div class="form-group">
+                  <button class="btn btn-primary">Login</button>
+                </div> -->
+        <input id="btn" class="form-group" style="margin: 10px 30%" type="submit" value="Login">
+
+      </form>
+    </div>
+
+    <div class="modal-footer" id="foot">
+      <a class="nav-link" routerLinkActive="active" (click)="openModa(templat) "
+        style="margin: 0px 29%;color:white">FORGOT PASSWORD?</a>
+
+    </div>
+  </ng-template>
+</div>
+
+
+<div class="container" id="con">
+  <ng-template #templat>
+    <div class="modal-header" id="heade">
+
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span style="color:white;" aria-hidden="true">&times;</span>
+      </button>
+      <div class="fadeIn first" style="margin-bottom:3px;font-size:3vh;" id="fadefirst">
+
+      </div>
+
+    </div>
+    <!--img src="" id="Icone" alt="User Icon" width=200 height=80 style="margin-left:150px;"-->
+    <div class="modal-body" id="bod1">
+      <form #forgotp="ngForm" (ngSubmit)="forgotp.form.valid && onSubmitEmail(forgotp)">
+
+        <input type="text" autocomplete="off" #emailid="ngModel" [(ngModel)]="forgot.emailid" name="emailid"
+          id="emailid" placeholder="EMAIL" required [pattern]="emailRegex"
+          [ngClass]="{'invalid-textbox' :forgotp.submitted && !emailid.valid}">
+        <div *ngIf="forgotp.submitted && emailid.errors">
+          <label style="color: red; background-color:white" class="alert-success" *ngIf="emailid.errors.required"
+            class="validation-message">THIS FIELD IS REQUIRED</label>
+          <label style="color: red; background-color:white" class="alert-success" *ngIf="emailid.errors.pattern"
+            class="validation-message">INVALID EMAIL ADDRESS</label>
+        </div>
+
+        <input style="margin:50px 125px;" type="submit" value="SUBMIT" id="but1" style="margin-left:140px;"
+          *ngIf=" !forgotp.submitted">
+        <input style="margin:50px 125px;" type="submit" value="SUBMIT" id="but1" style="margin-left:140px;"
+          *ngIf=" forgotp.submitted && emailid.errors">
+        <input style="margin:50px 125px;" type="submit" value="SUBMIT" id="but1" style="margin-left:140px;"
+          *ngIf="forgotp.submitted && !emailid.errors" (click)="openModalotp(templateotp)">
+      </form>
+
+    </div>
+
+    <div class="modal-footer" id="foot1">
+      <a class="nav-link" routerLinkActive="active" (click)="openModal(template)"
+        style="margin-right:152px;color:white">BACK TO LOGIN</a>
+    </div>
+  </ng-template>
+</div>
+
+
+<!--OTP-->
+<div class="container" id="con">
+  <ng-template #templateotp>
+
+    <div class="modal-header" id="headmm">
+
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span style="color:white;" aria-hidden="true">&times;</span>
+      </button>
+
+
+    </div>
+    <div>
+      <!--img src="" id="Iconmm" alt="User Icon" width=200 height=80 style="margin-left:150px;"-->
+    </div>
+
+    <div class="alert" *ngIf="serverErrorMessages">
+      {{serverErrorMessages}}
+      <a class="nav-link" routerLinkActive="active" (click)="openModal(template)" tyle="color:black;"><b>TRY
+          AGAIN</b></a>
+    </div>
+
+
+    <div *ngIf="showSucessMessages" id="successmsg">
+      <div class="alert-success" *ngIf="showSucessMessages_m">
+        CHECK EMAIL FOR OTP
+      </div>
+    </div>
+    <div class="modal-body" id="bodmm">
+      <div class="alert-warning" *ngIf="!showSucessMessages" style="text-align:center">
+
+        PLEASE WAIT.. CONFIRMING YOUR MAIL..</div>
+      <div *ngIf="showSucessMessages">
+        <form #resetotp="ngForm" (ngSubmit)="verifyotp(resetotp)">
+          <input type="text" name="otp" autocomplete="off" placeholder="Enter OTP.." [(ngModel)]="votp.otp"
+            placeholder="Enter OTP..">
+          <input type="submit" value="Submit" id="butmm" style="margin-left:140px;"
+            (click)="openModalsss(templatechangepass)">
+        </form>
+      </div>
+    </div>
+
+    <!-- Success message -->
+
+    <div class="modal-footer" id="footmm" *ngIf="showSucessMessages">
+      <a class="nav-link" routerLinkActive="active" (click)="openModal(template)" style="margin-right:180px;">Back to
+        Login</a>
+    </div>
+
+  </ng-template>
+</div>
+
+
+<!--change password-->
+<div class="container" id="con">
+  <ng-template #templatechangepass>
+    <div class="modal-header" id="headz">
+
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span style="color:white;" aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <!--img src="" id="Iconz" alt="User Icon" width=200 height=80 style="margin-left:150px;"-->
+    <div class="modal-body" id="bodz" *ngIf="!showSucessMessagesss">
+      <div class="alert-success" *ngIf="showSucessMessagess_m" id="successmsg1">
+        OTP VERIFIED
+      </div>
+
+      <!-- Error message -->
+      <div class="alert-warning" *ngIf="serverErrorMessagess">
+        {{serverErrorMessagess}}
+      </div>
+      <div *ngIf="showSucessMessagess">
+        Please enter your new password
+        <form #changepassword="ngForm" (ngSubmit)="changepassword.valid && changepass(changepassword)">
+
+          <input type="password" name="password" #password="ngModel" [(ngModel)]="chng.password" placeholder="Password"
+            required [pattern]="passRegex" [ngClass]="{'is-invalid' :changepassword.submitted && password.invalid }">
+          <div *ngIf="changepassword.submitted && password.errors">
+            <label *ngIf="password.errors.required" class="validation-message">This field is required.</label>
+            <label *ngIf="password.errors.pattern" class="validation-message">Invalid password address.</label>
+          </div>
+          <input type="password" name="conpassword" #conpassword="ngModel" [(ngModel)]="chng.conpassword"
+            placeholder="Confirm Password" required [pattern]="passRegex"
+            [ngClass]="{'is-invalid' :changepassword.submitted && conpassword.invalid }">
+          <div *ngIf="changepassword.submitted && conpassword.errors">
+            <label *ngIf="conpassword.errors.required" class="validation-message">This field is required.</label>
+            <label *ngIf="conpassword.errors.pattern" class="validation-message">Invalid password address.</label>
+
+          </div>
+          <!--<div *ngIf="changepassword.submitted && password.errors?.minlength">
+  <label class="validation-message">Minimum 4 characters.</label>
+</div>-->
+          <!--
+
+ <input type="text" #email="ngModel" [(ngModel)]="userService.selectedUser.email" name="email" placeholder="Email"
+  required [pattern]="emailRegex" [ngClass]="{'invalid-textbox' :signUpForm.submitted && !email.valid }">
+  <div *ngIf="signUpForm.submitted && email.errors">
+  <label *ngIf="email.errors.required" class="validation-message">This field is required.</label>
+  <label *ngIf="email.errors.pattern" class="validation-message">Invalid email address.</label>
+  </div>
+-->
+          <input type="submit" value="Submit" id="butz" style="margin-left:140px;">
+        </form>
+      </div>
+    </div>
+
+
+
+    <!-- Success message -->
+    <div class="alert-success" *ngIf="showSucessMessagesss" id="successmsg2">
+
+      <a class="nav-link" routerLinkActive="active" (click)="openModalz(template)" style="text-align: center;">Password
+        has been reset:<strong>Login</strong> </a>
+    </div>
+
+    <div class="alert-warning" *ngIf="pcheck">
+      Password Mismatch
+    </div>
+    <!-- Error message -->
+    <div class="alert-warning" *ngIf="serverErrorMessagesss">
+      {{serverErrorMessagesss}}
+    </div>
+
+
+    <div class="modal-footer" id="footz" *ngIf="!showSucessMessagesss">
+      <a class="nav-link" routerLinkActive="active" (click)="openModal(template)" style="margin-right:180px;">Back to
+        Login</a>
+    </div>
+
+  </ng-template>
+</div>

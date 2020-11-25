@@ -1,0 +1,53 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Data Protection, Level 3
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 9c6bf45a97ae4149a44c4a5d97ea6a40
+
+#Link to the practice level that this activity belongs to
+level: 2a059c7d07c34b9897e49e6295501608
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: cd80066899014962a37af7ab34c83003
+
+#The title of this activity
+title: Respond to data breaches
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Technically enforced compliance with your data protection policy
+
+#A one sentence description of the activity
+shortDescription: Automate detection of policy non-compliance, and audit compliance
+  periodically. Regularly review and update to data catalog and data protection policy.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Activities at this maturity level are focused on automating data protection, reducing your reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
+
+  Implement technical controls to enforce compliance with your Data Protection Policy, and put monitoring in place to detect attempted or actual violations. You may use a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
+
+  Regularly audit compliance with established administrative controls, and closely monitor performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting you to take timely corrective action.
+
+  Reviews and update the data catalog regularly, to maintain its accurate reflection of your data landscape. Regular reviews and updates of processes and procedures maintain their alignment with your policies and priorities.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+
+#Type Classification of the Document
+type: Activity

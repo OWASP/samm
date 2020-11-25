@@ -1,0 +1,224 @@
+<div class="container">
+            <button mat-raised-button color="primary"(click)="open(tempa)">Create New User</button>
+            <button mat-raised-button color="warn" (click)="removeSelectedRows()">Delete</button>
+            <button mat-raised-button color="accent"(click)="openModa(temp)">Add project</button>
+
+
+<mat-table #table [dataSource]="dataSource" matSort class="mat-elevation-z8 table-border">
+        <ng-container matColumnDef="select">
+                <mat-header-cell *matHeaderCellDef>
+                        <mat-checkbox (change)="$event ? masterToggle() : null"
+                                      [checked]="selection.hasValue() && isAllSelected()"
+                                      [indeterminate]="selection.hasValue() && !isAllSelected()">
+                        </mat-checkbox>
+                      </mat-header-cell>
+                      <mat-cell *matCellDef="let row">
+                            <mat-checkbox (click)="$event.stopPropagation()"
+                                          (change)="$event ? selection.toggle(row) : null"
+                                          [checked]="selection.isSelected(row)">
+                            </mat-checkbox>
+                          </mat-cell>
+                        </ng-container>
+<ng-container matColumnDef="Name">
+<mat-header-cell *matHeaderCellDef mat-sort-header> Name</mat-header-cell>
+<mat-cell *matCellDef="let element" style="padding-left:1%;"> {{element.Name}} </mat-cell>
+</ng-container>
+
+<ng-container matColumnDef="Username">
+<mat-header-cell *matHeaderCellDef mat-sort-header> Username </mat-header-cell>
+<mat-cell *matCellDef="let element" style="padding-left:3%;"> {{element.Username}} </mat-cell>
+</ng-container>
+
+<ng-container matColumnDef="Email">
+<mat-header-cell *matHeaderCellDef> Email </mat-header-cell>
+<mat-cell *matCellDef="let element" > {{element.Email}} </mat-cell>
+</ng-container>
+
+<ng-container matColumnDef="Role">
+<mat-header-cell *matHeaderCellDef> Role </mat-header-cell>
+<mat-cell *matCellDef="let element"> {{element.Role}}  </mat-cell>
+</ng-container>
+<ng-container matColumnDef="GroupName">
+<mat-header-cell *matHeaderCellDef > GroupName </mat-header-cell>
+<mat-cell *matCellDef="let element"style="margin-right:7vh"> {{element.GroupName}} </mat-cell>
+</ng-container>
+<ng-container matColumnDef="action">
+    <mat-header-cell *matHeaderCellDef> Action </mat-header-cell>
+    <mat-cell *matCellDef="let element" class="action-link">
+        <button mat-icon-button><mat-icon (click)="openDialogDes('Update',element)" color="accent">description</mat-icon></button>
+        <button mat-icon-button><mat-icon (click)="openDialog('Update',element)" color="primary" >edit</mat-icon></button>
+        <button mat-icon-button><mat-icon (click)="openModals(templat); delete(element)"color="warn" >delete</mat-icon></button>
+    </mat-cell>
+  </ng-container>
+
+<div class="container1" >
+    <ng-template #templat >
+            <div class="modal-header" style="background-color:red;" >
+
+
+
+                    </div>
+
+                    <div class="modal-body">
+                        Are you sure want to delete?
+                    </div>
+                    <div class="modal-footer">
+                        <button mat-raised-button color="primary" (click)="deletecol()">Yes</button>
+                        <button mat-raised-button color="warn"(click)="modalRef.hide()">No</button>
+                    </div>
+        </ng-template>
+                    </div>
+
+                    <div class="container1" >
+                        <ng-template #temp>
+                                <div class="modal-header" >
+                                        <b>Add Project</b>
+                                        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+
+
+
+                                    </div>
+                                    <div class="modal-body" style="height:100px;" >
+                                            <mat-form-field style="width: 60vh;height:500px;">
+                                                    <input placeholder="Enter Project Name" [(ngModel)]="pname.name">
+                                                    <button mat-raised-button color="primary" style="margin-left:7vh;" >Add</button>
+
+
+
+                                                    </mat-form-field>
+                                    </div>
+                                    <div class="modal-footer">
+                                            <button mat-raised-button color="primary" (click)="addpname(); modalRef.hide()">save</button>
+                                            <button mat-raised-button color="warn"(click)="modalRef.hide()">cancel</button>
+                                            </div>
+                                            </ng-template>
+                                            </div>
+
+
+<div class="example-container1" >
+    <ng-template #tempa >
+        <div class="modal-head">
+            <b>Add User</b>
+        </div>
+        <div class="modal-body">
+                <mat-form-field>
+                        <input matInput placeholder="Enter your FirstName" [formControl]="firstname" name="firstname" [(ngModel)]="local_data.firstname"  required>
+
+                        </mat-form-field>
+                        <br>
+                        <mat-form-field>
+                                <input matInput placeholder="Enter your LastName" [formControl]="lastname" name="lastname" [(ngModel)]="local_data.lastname" >
+
+                                </mat-form-field>
+                                <br>
+
+                                        <mat-form-field>
+                                                <input matInput placeholder="Enter your UserName" [formControl]="username"  name="username" [(ngModel)]="local_data.username" required>
+
+                                                </mat-form-field>
+                                                <br>
+                                                <mat-form-field>
+                                                        <input matInput type="password" placeholder="Enter your Password" [formControl]="password" name="password" [(ngModel)]="local_data.password" required>
+
+                                                        </mat-form-field>
+                                                        <br>
+
+                        <mat-form-field>
+                        <input matInput placeholder="Enter your email" [formControl]="email"  name="email" [(ngModel)]="local_data.email" required>
+                        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                        </mat-form-field>
+                        <br>
+                        <mat-form-field>
+                            <input matInput placeholder="Enter your EmployeeId" [formControl]="empid" name="empid" [(ngModel)]="local_data.empid" required>
+
+                        </mat-form-field>
+
+                        <br>
+                        <div class="form-group" [formGroup]="myGroup" style="font-size:3vh;">
+                            <label>GroupName</label>
+                            <select class="form-control" style="font-size:2vh;height:5vh; width:35vh;" [formControl]="groupname" name="groupname" [(ngModel)]="local_data.groupname">
+                            <option value="Regulatory Compliance">Regulatory Compliance</option>
+                            <option value="Technological Security">Technological Security</option>
+                            <option value="Operational Security">Operational Security</option>
+                            <option value="Data Management">Data Management</option>
+                            <option value="Third Party Ecosystem">Third Party Ecosystem</option>
+                            <option value="Innovation Efficiency">Innovation Efficiency</option>
+                            </select>
+                        </div>
+                       <!-- <mat-form-field>
+                            <input matInput placeholder="Enter GroupName" [formControl]="groupname"  name="groupname" [(ngModel)]="local_data.groupname" required>
+
+                        </mat-form-field>-->
+
+                        <br>
+                        <mat-form-field>
+                            <input matInput placeholder="Enter your phone number" [formControl]="phone"  name="phone" [(ngModel)]="local_data.phone" >
+
+                        </mat-form-field>
+
+                        <br>
+                        <mat-form-field>
+                            <input matInput placeholder="Enter your country" [formControl]="country"  name="country" [(ngModel)]="local_data.country" >
+
+                        </mat-form-field>
+
+                        <br>
+                        <mat-form-field>
+                            <input matInput placeholder="Enter your Company name" [formControl]="company" name="company" [(ngModel)]="local_data.company" >
+
+                        </mat-form-field>
+
+                        <br>
+                        <div class="form-group" [formGroup]="myGroup" style="font-size:3vh;">
+                            <label>Role</label>
+                            <select class="form-control" style="font-size:2vh;height:5vh; width:35vh;" [formControl]="role" name="role" [(ngModel)]="local_data.role">
+                            <option value="admin">Admin</option>
+                            <option value="auditor">Auditor</option>
+                            <option value="owner">Owner</option>
+                            <option value="user">User</option>
+
+                            </select>
+                        </div>
+                        <br>
+                <!--    <mat-form-field>
+                        <mat-select placeholder="Select" [formControl]="role" required  name="role" [(ngModel)]="local_data.role">
+                            <mat-option value="admin">Admin</mat-option>
+                            <mat-option value="auditor">Auditor</mat-option>
+                            <mat-option value="owner">Owner</mat-option>
+                            <mat-option value="user">User</mat-option>
+                        </mat-select>
+                        </mat-form-field>
+                    -->
+
+                </div>
+                <div class="modal-footer">
+                        <button mat-raised-button color="primary" (click)="createnew()">save</button>
+                        <button mat-raised-button color="warn"(click)="modalRef.hide()">cancel</button>
+                        </div>
+            </ng-template>
+        </div>
+
+
+
+
+
+
+
+
+<mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+<mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+<mat-paginator #paginator
+[pageSize]="3"
+[pageSizeOptions]="[5, 10, 20]">
+</mat-paginator>
+</div>
+
+<!----------Table Form  end------>
+
+<!----------table Form paginator ------>
+
+
+

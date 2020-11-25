@@ -1,0 +1,59 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 9ec70d6f7ddb4cb6b37928f9994c6049
+
+#Link to the practice level that this activity belongs to
+level: 3e89d1fa6cba4516a3ec446faaab5b84
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 1f3a9306778f4539a437d9f19232cda7
+
+#The title of this activity
+title: Automate deployment and integrate security checks
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Efficient deployment process with integrated security tools
+
+#A one sentence description of the activity
+shortDescription: Automate the deployment process over all stages and introduce sensible
+  security verification tests.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Automate the deployment process to cover various stages, so that no manual configuration steps are needed and the risk of isolated human errors is eliminated. Ensure and verify that the deployment is consistent over all stages.
+
+  Integrate automated security checks in your deployment process, e.g. using Dynamic Analysis Security Testing (DAST) and vulnerability scanning tools. Also, verify the integrity of the deployed artefacts where this makes sense. Log the results from these tests centrally and take any necessary actions. Ensure that in case any defects are detected, relevant personnel is notified automaticaly. In case any issues exceeding predefined criticality are identified, stop or reverse the deployment  either automatically, or introduce a separate manual approval workflow so that this decision is recorded, containing an explanation for the exception.
+
+  Account for and audit all deployments to all stages. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
+
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Administrator
+- Security Engineer
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivites:
+- fb6f258a2e424ee9a919341758222a7a   #V-ST-2-A
+
+#Type Classification of the Document
+type: Activity

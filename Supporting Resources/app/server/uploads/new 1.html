@@ -1,0 +1,105 @@
+<html>
+<head>
+<style>
+.navbar-side {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid #ccc;
+  background-color: #f7f7f9;
+  overflow-y: scroll;
+  z-index: 1000;
+}
+.navbar-side-item {
+  padding: 1.5rem 0;
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+  height: 5rem;
+}
+
+.side-link {
+  padding-left: 2rem;
+}
+
+ .navbar-side {
+    // other code omitted
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+ .reveal {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+.overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: #ccc;
+  opacity: 0.6;
+  z-index: 990;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-light navbar-static bg-faded" role="navigation">
+
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <!-- insert more nav-items if you so choose -->
+    <button class="navbar-toggler pull-xs-right" id="navbarSideButton" type="button">
+      &#9776;
+    </button>
+  </ul>
+    <!-- navbar-side will go here -->
+	<ul class="navbar-side" id="navbarSide">
+  <li class="navbar-side-item">
+    <a href="#" class="side-link">Signup</a>
+  </li>
+  <!-- insert more side-items if you so choose -->
+</ul>
+<div class="overlay"></div>
+</nav>
+<script>
+
+ $( document ).ready(function() {
+  $('#navbarSideButton').on('click', function() {
+    $('#navbarSide’).addClass('reveal');
+  });
+});
+
+$( document ).ready(function() {
+
+  // Open navbarSide when button is clicked
+  $('#navbarSideButton').on('click', function() {
+    $('#navbarSide').addClass('reveal');
+    $('.overlay').show();
+  });
+
+  // Close navbarSide when the outside of menu is clicked
+  $('.overlay').on('click', function(){
+    $('#navbarSide').removeClass('reveal');
+    $('.overlay').hide();
+  });
+
+});
+</script>
+</body>
+</html>

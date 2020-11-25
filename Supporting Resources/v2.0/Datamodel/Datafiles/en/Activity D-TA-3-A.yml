@@ -1,0 +1,50 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 17c90203f8354c3594eea22759e375a9
+
+#Link to the practice level that this activity belongs to
+level: 21a59897dbeb4d7fa4603a0f24362c2b
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 2f63f92c414546b58d035ece110d479f
+
+#The title of this activity
+title: Periodic review of risk profiles
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Timely update of the application classification in case of changes
+
+#A one sentence description of the activity
+shortDescription: Periodically review application risk profiles at regular intervals
+  to ensure accuracy and reflect current state.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  The application portfolio of an organization changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). Periodically review the risk inventory to ensure correctness of the risk evaluations of the different applications.
+
+  Have a periodic review at an enterprise-wide level. Also, as your enterprise matures in software assurance, stimulate teams to continuously question which changes in conditions might impact the risk profile. For instance, an internal application might become exposed to the internet by a business decision. This should trigger the teams to rerun the risk evaluation and update the application risk profile accordingly.
+
+  In a mature implementation of this practice, train and continuously update teams on lessons learned and best practices from these risk evaluations. This leads to a better execution and a more accurate representation of the application risk profile.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity

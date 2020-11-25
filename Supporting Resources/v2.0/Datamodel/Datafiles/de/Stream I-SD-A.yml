@@ -1,0 +1,23 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 40d7879025144dbbbf34ba8ea82f060d
+
+#Unique identifier to refer to this stream
+id: 9ec70d6f7ddb4cb6b37928f9994c6049
+
+#Official stream name
+name: Deployment Process
+
+#Stream letter, A or B
+letter: A
+
+#Multi-paragraph explanation of the stream
+description: A repeatable and consistent deployment process ensures you only deploy correct software artifacts to production. It also paves the way for representative test environments prior to production.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 1
+#Type Classification of the Document
+type: Stream

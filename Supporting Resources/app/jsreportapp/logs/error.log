@@ -1,0 +1,131 @@
+2020-01-10T08:55:28.208Z - error: Error during processing request at http://localhost:8001/api/report/invoice-main, details: SyntaxError: Unexpected token , in JSON at position 360
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\render.js:113:19)
+    at Reporter.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\reporter.js:291:12)
+    at Object.reporter.express.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+2020-01-10T08:56:05.309Z - error: Error during processing request at http://localhost:8001/api/report/invoice-main, details: SyntaxError: Unexpected token [ in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\render.js:113:19)
+    at Reporter.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\reporter.js:291:12)
+    at Object.reporter.express.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+2020-01-17T07:17:17.274Z - error: Error when processing render request Timeout Error: pdf generation not completed after 40000ms Error: Timeout Error: pdf generation not completed after 40000ms
+    at Timeout.<anonymous> (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-chrome-pdf\lib\conversion.js:192:19)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+2020-01-17T07:17:17.283Z - error: Error during processing request at http://localhost:8001/api/report
+2020-01-21T09:54:22.639Z - error: uncaughtException: kill ENOSYS date=Tue Jan 21 2020 15:24:22 GMT+0530 (India Standard Time), pid=33364, uid=null, gid=null, cwd=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\shaswatag\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=92610560, heapTotal=63340544, heapUsed=56339328, external=1705326, loadavg=[0, 0, 0], uptime=89357, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-01-22T12:32:08.305Z - error: uncaughtException: kill ENOSYS date=Wed Jan 22 2020 18:02:08 GMT+0530 (India Standard Time), pid=40844, uid=null, gid=null, cwd=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\shaswatag\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=63496192, heapTotal=65437696, heapUsed=58936328, external=1778086, loadavg=[0, 0, 0], uptime=185222, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-01-26T13:02:20.280Z - error: uncaughtException: kill ENOSYS date=Sun Jan 26 2020 18:32:20 GMT+0530 (India Standard Time), pid=25544, uid=null, gid=null, cwd=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\shaswatag\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=93679616, heapTotal=63340544, heapUsed=52561424, external=1882496, loadavg=[0, 0, 0], uptime=279705, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-01-27T09:04:11.627Z - error: Error during processing request at http://localhost:8001/api/report/report, details: SyntaxError: Unexpected token  in JSON at position 423
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\render.js:113:19)
+    at Reporter.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\reporter.js:291:12)
+    at Object.reporter.express.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+2020-01-27T09:04:13.269Z - error: Error during processing request at http://localhost:8001/api/report/report, details: SyntaxError: Unexpected token  in JSON at position 423
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\render\render.js:113:19)
+    at Reporter.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-core\lib\reporter.js:291:12)
+    at Object.reporter.express.render (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+2020-01-29T05:46:49.559Z - error: uncaughtException: kill ENOSYS date=Wed Jan 29 2020 11:16:49 GMT+0530 (India Standard Time), pid=65980, uid=null, gid=null, cwd=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\shaswatag\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=29638656, heapTotal=65175552, heapUsed=55948096, external=1778102, loadavg=[0, 0, 0], uptime=512775, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-02-05T10:21:28.849Z - error: uncaughtException: kill ENOSYS date=Wed Feb 05 2020 15:51:28 GMT+0530 (India Standard Time), pid=48976, uid=null, gid=null, cwd=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\server], rss=69345280, heapTotal=54095872, heapUsed=46482384, external=1695870, loadavg=[0, 0, 0], uptime=193749, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\shaswatag\Desktop\VSAAM\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-03-07T13:33:24.461Z - error: Error during processing request at http://localhost:8001/api/report/invoice-main, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:289:13)
+    at Object.reporter.express.render (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\shaswatag\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\shaswatag\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\shaswatag\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:446:7
+    at Layer.handle [as handle_request] (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\shaswatag\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+2020-03-14T12:25:01.254Z - error: uncaughtException: kill ENOSYS date=Sat Mar 14 2020 17:55:01 GMT+0530 (India Standard Time), pid=18252, uid=null, gid=null, cwd=C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp (SSAM), execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp (SSAM)\server.js], rss=62976000, heapTotal=48590848, heapUsed=43054768, external=1695870, loadavg=[0, 0, 0], uptime=105636, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=SSAM)\node_modules\signal-exit\index.js, function=process.listener (C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp, line=95, method=listener (C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp (SSAM)\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-03-15T16:16:23.786Z - error: uncaughtException: kill ENOSYS date=Sun Mar 15 2020 21:46:23 GMT+0530 (India Standard Time), pid=19632, uid=null, gid=null, cwd=C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp\server.js], rss=27238400, heapTotal=50688000, heapUsed=45236000, external=1695854, loadavg=[0, 0, 0], uptime=205919, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-04-10T06:41:42.839Z - error: uncaughtException: kill ENOSYS date=Fri Apr 10 2020 12:11:42 GMT+0530 (India Standard Time), pid=6480, uid=null, gid=null, cwd=C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.9.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp\server.js], rss=78282752, heapTotal=49639424, heapUsed=42588504, external=1812617, loadavg=[0, 0, 0], uptime=1786944, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=189, method=kill, native=false, column=15, file=C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=13, file=events.js, function=process.emit, line=209, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:189:13),     at process.listener (C:\Users\rehmankhan\Desktop\Angular8\Projects\samm\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:209:13)]
+2020-06-15T22:48:22.053Z - error: uncaughtException: kill ENOSYS date=Mon Jun 15 2020 22:48:22 GMT+0000 (Greenwich Mean Time), pid=6372, uid=null, gid=null, cwd=C:\Users\Administrator\Desktop\node\samm\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.18.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\Administrator\Desktop\node\samm\jsreportapp\server], rss=77905920, heapTotal=50462720, heapUsed=43037352, external=1898947, arrayBuffers=326763, loadavg=[0, 0, 0], uptime=22169, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=198, method=kill, native=false, column=15, file=C:\Users\Administrator\Desktop\node\samm\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=20, file=events.js, function=process.emit, line=315, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:198:13),     at process.listener (C:\Users\Administrator\Desktop\node\samm\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:315:20)]
+2020-06-16T09:20:10.203Z - error: uncaughtException: kill ENOSYS date=Tue Jun 16 2020 09:20:10 GMT+0000 (Greenwich Mean Time), pid=288, uid=null, gid=null, cwd=C:\Users\Administrator\Desktop\node\samm\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.18.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\Administrator\Desktop\node\samm\jsreportapp\server], rss=77963264, heapTotal=50987008, heapUsed=44687344, external=1898947, arrayBuffers=326763, loadavg=[0, 0, 0], uptime=5495, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=198, method=kill, native=false, column=15, file=C:\Users\Administrator\Desktop\node\samm\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=20, file=events.js, function=process.emit, line=315, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:198:13),     at process.listener (C:\Users\Administrator\Desktop\node\samm\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:315:20)]
+2020-06-19T07:51:15.806Z - error: uncaughtException: kill ENOSYS date=Fri Jun 19 2020 13:21:15 GMT+0530 (India Standard Time), pid=2140, uid=null, gid=null, cwd=D:\backup\samm\jsreportapp, execPath=C:\Program Files\nodejs\node.exe, version=v12.16.1, argv=[C:\Program Files\nodejs\node.exe, D:\backup\samm\jsreportapp\server], rss=71516160, heapTotal=45223936, heapUsed=39580080, external=1802104, loadavg=[0, 0, 0], uptime=8471, trace=[column=13, file=internal/process/per_thread.js, function=process.kill, line=196, method=kill, native=false, column=15, file=D:\backup\samm\jsreportapp\node_modules\signal-exit\index.js, function=process.listener, line=95, method=listener, native=false, column=20, file=events.js, function=process.emit, line=311, method=emit, native=false], stack=[Error: kill ENOSYS,     at process.kill (internal/process/per_thread.js:196:13),     at process.listener (D:\backup\samm\jsreportapp\node_modules\signal-exit\index.js:95:15),     at process.emit (events.js:311:20)]

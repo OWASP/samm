@@ -1,0 +1,206 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+.example-container {
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.example-sidenav-content {
+  display: flex;
+	height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+.example-sidenav {
+	 user-select: none;
+
+}
+
+.full-width {
+	width: 100%;
+	margin-right: 50px;
+}
+.menu-button {
+  transition: 300ms ease-in-out;
+  transform: rotate(0deg);
+}
+.menu-button.rotated {
+  transform: rotate(180deg);
+}
+.submenu {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+	padding-left: 30px;;
+	display:none;
+
+}
+.submenu1 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+	padding-left: 30px;
+	display:none;
+}
+.submenu.expanded {
+	transform: scaleY(1);
+
+
+}
+.submenu1.expanded {
+  transform: scaleY(1);
+}
+.submenu2 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+	padding-left: 30px;
+	display:none;
+}
+.submenu2.expanded {
+  transform: scaleY(1);
+}
+.submenu3 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+	padding-left: 30px;
+	display:none;
+}
+.submenu3.expanded {
+  transform: scaleY(1);
+}
+.submenu4 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+	padding-left: 30px;
+	display:none;
+}
+.submenu4.expanded {
+  transform: scaleY(1);
+}
+.submenu5 {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+	padding-left: 30px;
+	display:none;
+}
+.submenu5.expanded {
+  transform: scaleY(1);
+}
+
+.submenu6 {
+    overflow-y: hidden;
+    transition: transform 300ms ease;
+    transform: scaleY(0);
+    transform-origin: top;
+      padding-left: 30px;
+      display:none;
+  }
+  .submenu6.expanded {
+    transform: scaleY(1);
+  }
+
+  .submenu7 {
+    overflow-y: hidden;
+    transition: transform 300ms ease;
+    transform: scaleY(0);
+    transform-origin: top;
+      padding-left: 30px;
+      display:none;
+  }
+  .submenu7.expanded {
+    transform: scaleY(1);
+  }
+
+
+svg{
+  width: 2em;
+	height: 2em;
+
+
+}
+.icn{
+	width: 1.5em;
+	height: 1.5em;
+
+}
+
+
+.mat-icon {
+	font-size: 30px;
+	}
+	font{
+		color: #274b6a;
+	}
+	.example-container{
+    background-color:#e9edf7;
+
+  }
+  mat-table {
+    width: 100%;
+    border: 1px solid black;
+
+
+  }
+  mat-header-cell{
+    background-color: #4CAF50;
+  color: white;
+
+  }
+  @media(max-width: 599px) {
+    #container {
+    top: 56px !important;
+    }
+}
+
+
+  .container{
+    top: 64px !important;
+    position: relative;
+     padding-right: 1vw; width: 100vw; margin-top: 116px;
+
+  }
+  .fbutton{
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    background: #3399ff;
+    color: white;
+  }
+  .container1{
+    height: 100px;
+    width: 50px;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  .example-container1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .example-container1 > * {
+    width: 100%;
+  }
+
+  div.container {
+    left:0px;
+    right:0px;
+    position:absolute;
+    top:50px;
+  }
+
+

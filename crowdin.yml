@@ -1,0 +1,3 @@
+files:
+  - source: /Supporting Resources/v2.0/Datamodel/Datafiles/en/*.yml
+    translation: /Supporting Resources/v2.0/Datamodel/Datafiles/%two_letters_code%/%original_file_name%

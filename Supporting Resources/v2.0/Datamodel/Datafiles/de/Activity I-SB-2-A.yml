@@ -1,0 +1,62 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 8a870a9b26724b4ba0dff177028b474a
+
+#Link to the practice level that this activity belongs to
+level: 46f16450b23d4c29a5cf19b056c2636e
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: bcc960e835aa4ad58a9d39a272cbf6f1
+
+#The title of this activity
+title: Automate the build process
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Efficient build process with integrated security tools
+
+#A one sentence description of the activity
+shortDescription: Automate your build pipeline and secure the used tooling. Add security
+  checks in the build pipeline.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Automate the build process so that builds can be executed consistently anytime. The build process shouldn't typically require any intervention, further reducing the likelihood of human error.
+
+  The use of an automated system increases reliance on security of the build tooling and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+
+  The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Sign generated artifacts using a certificate that identifies the organization or business unit that built it, so you can verify its integrity.
+
+  Finally, add appropriate automated security checks (e.g. using SAST tools) in the pipeline to leverage the automation for security benefit.
+
+#The output of this particular activity
+results:
+- result1
+- result2
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+- metric1
+- metric2
+
+#A description of the costs required to implement the activity
+costs: TBS.
+
+#The (standard) roles involved in the implementation of this activity
+personnel:
+- Developer
+- Security Engineer
+
+#Internal notes that might help the author
+notes: None
+
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+- 4f6a06796d0840debcc775ea1af65679   #V-ST-3-A
+- 77a5f467ffe140e2a2839bb522e82c4e   #I-SD-1-B
+
+#Type Classification of the Document
+type: Activity

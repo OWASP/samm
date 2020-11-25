@@ -1,0 +1,24 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream template/sample
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: 53f2da68c37a4ced8d5e767298fba589
+
+#Unique identifier to refer to this stream
+id: b7487370a07543cbb02ddb60c055d92f
+
+#Official stream name
+name: Architecture Mitigation
+
+#Stream letter, A or B
+letter: B
+
+#Multi-paragraph explanation of the stream
+description: |
+  Architecture mitigation focuses on ensuring that all threats identified during Threat Assessment are adequately mitigated, and existing reference architectures updated to address any unhandled threats.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream

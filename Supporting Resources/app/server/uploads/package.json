@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "madhu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.8",
+    "mongoose-title-case": "^0.1.1",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.3.1",
+    "sendmail": "^1.6.1"
+  }
+}

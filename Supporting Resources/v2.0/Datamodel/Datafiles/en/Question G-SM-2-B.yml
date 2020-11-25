@@ -1,0 +1,33 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: c1aef0137df1400cbdd3c660b609b7b2
+
+#Link to the answer set that contains the potential answers for this question
+answerset: 439e7b91e6b446ae83b4d1efe831a97d
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 26f12b057f2b44f386d9af391383b590
+
+#One-sentence description of the criterium
+text: Did you define Key Perfomance Indicators (KPI) from available application security
+  metrics?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- You defined KPIs after gathering enough information to establish realistic objectives
+- You developed KPIs with the buy-in from the leadership and teams responsible for
+  application security
+- KPIs are available to the application teams and include acceptability thresholds
+  and guidance in case teams need to take action
+- Success of the application security program is clearly visible based on defined
+  KPIs
+
+#Type Classification of the Document
+type: Question

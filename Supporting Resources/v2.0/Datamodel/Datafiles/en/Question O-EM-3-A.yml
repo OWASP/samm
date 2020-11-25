@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 3156ab7b516e4550893427face9f86bc
+
+#This question uses Answer Set G
+answerset: 612bf4ec249f4e9d86f9e36dbf511821
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: f4ec030280ee417099eaf12752a542ae
+
+#Text of the question presented to the user
+text: Do you monitor and enforce conformity with hardening baselines?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You perform conformity checks regularly, preferably using automation
+- You store conformity check results in an accessible location
+- You follow an established process to address reported non-conformities
+- You review each baseline at least annually, and update it when required
+
+#Type Classification of the Document
+type: Question

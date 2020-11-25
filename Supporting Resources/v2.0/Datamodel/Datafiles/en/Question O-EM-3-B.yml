@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: a573c126b3e345fba9d1d94c8158cf60
+
+#This question uses Answer Set G
+answerset: 612bf4ec249f4e9d86f9e36dbf511821
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 6e72179a31c04024bb649346bfb03eb5
+
+#Text of the question presented to the user
+text: Do you regularly evaluate components and review patch level status?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You update the list with components and versions
+- You identify and update missing updates according to existing SLA
+- You review and update the process based on feedback from the people who perform
+  patching
+#Type Classification of the Document
+type: Question

@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: b7f1d18fbe724a148f039ce036de98ef
+
+#This question uses Answer Set G
+answerset: 612bf4ec249f4e9d86f9e36dbf511821
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 0844b1a3be8b49ec83c7377a9f797cfc
+
+#Text of the question presented to the user
+text: Do you follow an established process for updating components of your technology
+  stacks?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- The process includes vendor information for third-party patches
+- The process considers external sources to gather information about zero day attacks,
+  and includes appropriate risk mitigation steps
+- The process includes guidance for prioritizing component updates
+
+#Type Classification of the Document
+type: Question

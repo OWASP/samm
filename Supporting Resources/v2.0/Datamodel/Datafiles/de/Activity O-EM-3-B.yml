@@ -1,0 +1,54 @@
+---
+# ===========================================================
+# OWASP SAMM Activity Description - Patching and Updating, Level 3
+# ===========================================================
+#Link to the stream that this activity belongs to
+stream: 1a7ad26d9e48411e95a63be79e1b90ea
+
+#Link to the practice level that this activity belongs to
+level: 1cb6e197ca8245eca65b0ecbdd784720
+
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: a573c126b3e345fba9d1d94c8158cf60
+
+#The title of this activity
+title: Enforce timely patch management
+
+#Describe the benefit that is achieved by implementing this activity
+benefit: Clear view on component patch state to avoid non-conformities
+
+#A one sentence description of the activity
+shortDescription: Actively monitor update status and manage missing patches as security
+  defects. Proactively obtain vulnerability and update information for components.
+
+#A multi-paragraph description of the activity
+longDescription: |
+  Develop and use management dashboards/reports to track compliance with patching processes and SLAs, across the portfolio. Ensure dependency management and application packaging processes can support applying component-level patches at any time, to meet required SLAs.
+
+  Treat missed updates as security-related product defects, and manage their triage and correction in accordance with your established Defect Management practice.
+
+  Don't rely on routine notifications from component vendors to learn about vulnerabilities and associated patches. Monitor a variety of external threat intelligence sources, to learn about zero day vulnerabilities; handle those affecting your applications as risk management issues.
+
+#The output of this particular activity
+results:
+
+#The different metrics that can be used to measure the success of the activity
+metrics:
+
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+
+#Internal notes that might help the author
+notes:
+
+#References to other activities that are related to this one
+relatedActivities:
+- 93dff7be5f954f8d87d24f4261002508   # Activity I-DM-1-A - Track all defects
+- 2bf0e192a904444b8a2f38c33256e80a   # Activity I-DM-2-A - Assign SLA based on security rating
+- 0082a76b1a3744d9ab0443bd2168e13d   # Activity G-SM-1-B - Define security metrics
+
+#Type Classification of the Document
+type: Activity

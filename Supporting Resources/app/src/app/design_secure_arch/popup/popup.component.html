@@ -1,0 +1,106 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Edit Score</h4>
+    <button style='border:none; color: black;font-size:1.5rem;' data-dismiss="modal" (click)="closeDialog()">
+      <span aria-hidden="true" style="background-color: transparent;">&times;</span>
+    </button>
+  </div>
+  
+  <mat-horizontal-stepper [linear]="isLinear" #stepper>
+  <mat-step [stepControl]="firstFormGroup">
+  <form class="modal-body">
+    <div class="form-group"  style="font-size:3vh;">
+  
+      <label>Assessment Factor</label>
+      <input type="name" id="question" class="form-control" required [(ngModel)]="local_data.quests" name="name" readonly>
+    </div>
+    <div class="form-group"  style="font-size:3vh;">
+  
+      <label> Score</label>
+      <input type="score" id="score" class="form-control" required [(ngModel)]="local_data.score" name="score" readonly>
+    </div>
+   <div class="form-group" [formGroup]="myGroup" style="font-size:3vh;">
+      <label>Status</label>
+      <select class="form-control"  style="font-size:2vh;height:7vh;" (change)="onChange($event.target.value)" formControlName="name" [(ngModel)]="local_data.ans">
+        <option >{{w}}</option>
+        <option *ngFor="let suit of oppoSuits; let i = index" [value]="i">{{suit}}</option>
+  </select>
+  </div>
+    <div class="modal-footer">
+      <button mat-button matStepperNext>Next</button>
+    </div>
+  </form>
+  </mat-step>
+  
+  <mat-step [stepControl]="secondFormGroup">
+    <form >
+    <!--  <ng-template matStepLabel>Fill out your address</ng-template> -->
+    <div class="form-group" style="font-size:3vh;" *ngIf="authority === 'User'">
+        <label>Auditor</label>
+        <input type="auditor" id="audit" class="form-control" [(ngModel)]="local_data.auditor" name="auditor" readonly>
+      </div>
+  
+      <div class="form-group" style="font-size:3vh;" *ngIf="authority === 'Auditor'">
+        <label>User</label>
+        <input type="user" id="user" class="form-control" [(ngModel)]="local_data.symbol" name="user" readonly>
+      </div>
+          <div *ngIf="isShown" class="row container-fluid"  id="divshow" >
+  
+              <label>Previous Comments</label>
+              <textarea rows="2" id="newcomment" class="form-control"  style="font-size:2vh;" [(ngModel)]="local_data.hcomment" name="hcomment" readonly></textarea>
+            </div>
+        <div class="form-group" style="font-size:3vh;">
+                <label>Comment</label>
+                <textarea rows="2" id="newcomment" class="form-control" placeholder="Enter Your Comment" style="font-size:2vh;"  [(ngModel)]="local_data.comment" name="comment"></textarea>
+  
+  
+            <div>
+              <button class="btn btn-primary pull-right fbutton"  (click)="toggleShow()" type="checkbox" >Show Comments History</button>
+  
+            </div>
+  
+        </div>
+  <!--*ngIf="showfile && isShown1 && authority === 'user'"-->
+  
+  
+  
+  
+  <div class="form-group" style="font-size:3vh;" >
+  <label>Artifacts</label>
+  <input type='file' name='file' id='file' accept="application/pdf, application/vnd.ms-excel" class='form-control'style="font-size:2vh;height:7vh;" (change)="fileChange($event)" multiple>
+  </div>
+  
+  <div class="form-group" style="font-size:3vh;" *ngIf="authority === 'Auditor'">
+  <button mat-button (click)="download(local_data); toggleShow1()">{{todo}}</button><button   *ngIf="isShown1" (click)=" toggleShow1()" style="font-size:3vh;" mat-button>&times;</button>
+  </div>
+  
+  <div *ngIf="showfile && isShown1 " >
+  
+  <div class="row"   *ngFor="let item of splitted; let i = index" >
+  <div class="col-sm-7"><button (click)="downloadfile(i)" mat-button>{{item}}</button></div>
+  </div>
+  </div>
+  <div *ngIf="showfile===false && isShown1">
+  <div class="row"  *ngFor="let item of splitted; let i = index" >
+  <div class="col-sm-7">No uploaded files</div>
+  <br>
+  </div>
+  </div>
+  
+  
+    <input type="hidden" id="userId" class="form-control" style="font-size:2vh;">
+    <div class="modal-footer">
+        
+        <button mat-button matStepperPrevious  style="color:white;">Back</button>&nbsp;
+        <button type="button" id="ok" style="color:white;" OnMouseOver="this.style.color='white'"
+        onMouseOut="this.style.color='white'"class="btn btn-outline-dark" (click)="doAction()">Done</button>
+      
+      </div>
+    </form>
+    
+    
+  </mat-step>
+  
+  </mat-horizontal-stepper>
+  
+  
+  

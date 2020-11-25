@@ -1,0 +1,71 @@
+table {
+  width: 100%;
+}
+
+.icon-pdf {
+  color: red;
+}
+
+.icon-xls {
+  color: darkgreen;
+}
+
+//MAT MENU STYLES START
+::ng-deep .mat-menu-content {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.mat-menu-item {
+  line-height: 35px;
+  height: 35px;
+}
+
+//MAT MENU STYLES END
+th.mat-sort-header-sorted {
+  color: black;
+
+}
+
+th {
+
+ // background-image: linear-gradient(to bottom, #010f20 20%, #061339 90%) !important;
+ background:black;
+ opacity: 1;
+  color:white;
+  font-size: 1vw;
+  padding: 2vh 2vh 2vh 2vh;
+
+}
+
+td {
+
+ // background-image: linear-gradient(to bottom, #010f20 20%, #061339 90%) !important;
+  //@at-root color:white;
+ background: black;
+ opacity: 1;
+  font-size: 1vw;
+  padding: 2vh 2vh 2vh 2vh;
+  // border-block-start: 1px solid rgba(0, 0, 0, .12);
+  color: white;
+}
+
+mat-card {
+  background: transparent;
+}
+
+.fbutton {
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1vw;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  background: #3399ff none;
+  color: white;
+}
+
+.odd {
+  background: transparent;
+}

@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: a061ed8a5b1c4899bc95d9b1a10a469d
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f96770095fab4afbb27949c2242e47c2
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: c7147e96d99849a994e63d5732c26220
+
+#One-sentence description of the criterium
+text: Have you implemented a Learning Management System or equivalent to track employee
+  training and certification processes?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- A Learning Management System (LMS) is used to track trainings and certifications
+- Training is based on internal standards, policies, and procedures
+- You use certification programs or attendance records to determine access to development
+  systems and resources
+
+#Type Classification of the Document
+type: Question

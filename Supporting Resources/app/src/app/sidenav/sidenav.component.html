@@ -1,0 +1,151 @@
+<link rel='stylesheet' routerLink='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+<link rel='stylesheet' routerLink='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script>
+
+<!--Veratile SAMM 2.0 - menu driven navigator-->
+
+<div class="page-wrapper chiller-theme">
+  <a id="show-sidebar" class="btn btn-md btn-outline-info">
+    <i class="fas fa-bars" style='color:darkturquoise'></i>
+  </a>
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand">
+        <a routerLink="home">SAMM 2.0</a>
+        <div id="close-sidebar">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="sidebar-menu">
+        <ul>
+          <li>
+
+            <a href="{{'http://'+ hostname +':4208/home'}}">
+              <i class="fas fa-home"></i> Home</a>
+          </li>
+
+          <li class="sidebar-dropdown">
+            <a>
+              <i class="fas fa-mail-bulk"></i>
+              <span>Governance</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a routerLink="/governance_strategy">Strategy & Metrics
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/governance_policy">Policy & Compliance
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/governance_education">Education & Guidance
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a>
+              <i class="fas fa-globe-americas"></i>
+              <span>Design</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a routerLink="/design_threat">Threat Assessment
+
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/design_security">Security Requirements</a>
+                </li>
+                <li>
+                  <a routerLink="/design_secure_arch">Secure Architecture</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a>
+              <i class="fas fa-people-carry"></i>
+              <span>Implementation</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a routerLink="/implement_secure_build">Secure Build</a>
+                </li>
+                <li>
+                  <a routerLink="/implement_secure_deploy">Secure Deployment</a>
+                </li>
+                <li>
+                  <a routerLink="/implement_defect">Defect Managements</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a>
+              <i class="fas fa-tasks"></i>
+              <span>Verification</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a routerLink="/verify_arch">Architecture Assessment</a>
+                </li>
+                <li>
+                  <a routerLink="/verify_requirement">Requirements Driven Testing</a>
+                </li>
+                <li>
+                  <a routerLink="/verify_security">Security Testing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a>
+              <i class="fas fa-broadcast-tower"></i>
+              <span>Operations</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a routerLink="/operate_incident">Incident Management</a>
+                </li>
+                <li>
+                  <a routerLink="/operate_environment">Environment Management</a>
+                </li>
+                <li>
+                  <a routerLink="/operate_operational">Operational Management</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a routerLink="/report">
+              <i class="fas fa-bug"></i>
+              <span>Report</span>
+            </a>
+          </li>
+          
+          <li>
+            <a (click)="auth.logout()">
+              <i class="fas fa-address-card"></i>Logout</a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidebar-menu  -->
+    </div>
+    <!-- sidebar-content  -->
+  </nav>
+  <!-- sidebar-wrapper  --
+
+    <!- page-content" -->
+</div>
+<!-- page-wrapper -->

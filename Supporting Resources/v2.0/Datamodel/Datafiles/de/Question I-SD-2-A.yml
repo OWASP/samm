@@ -1,0 +1,28 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 1f3a9306778f4539a437d9f19232cda7
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 7ef6753cda0d4da6ad194e56650f584d
+
+#One-sentence description of the criterium
+text: Are deployment processes automated and employing security checks?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- Deployment processes are automated on all stages
+- Deployment includes automated security testing procedures
+- You alert responsible staff to identified vulnerabilities
+- You have logs available for your past deployments for a defined period of time
+#Type Classification of the Document
+type: Question

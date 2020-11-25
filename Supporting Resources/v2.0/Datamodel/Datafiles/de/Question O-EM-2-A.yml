@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 84dcbc954d954d95b1fb37e032f05402
+
+#This question uses Answer Set G
+answerset: 612bf4ec249f4e9d86f9e36dbf511821
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 41d33402a94c49538554ce77e9de6a72
+
+#Text of the question presented to the user
+text: Do you have hardening baselines for your components?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- You have assigned an owner for each baseline
+- The owner keeps their assigned baselines up to date
+- You store baselines in an accessible location
+- You train employees responsible for configurations in these baselines
+
+#Type Classification of the Document
+type: Question

@@ -1,0 +1,33 @@
+{{ if gt (len .Site.Data.sud) 0 }}
+{{ with index .Site.Data.sud }}
+{{"<!-- Start talk list -->" | safeHTML}}
+<table class="table samm-table" style="border: 1px solid rgba(102, 184, 184, .5);">
+    <tbody>
+        <tr>
+            <td class="samm-heading-row"></td>
+            <td class="samm-heading-row"></td>
+            <td class="samm-heading-row">Title</td>
+            <td class="samm-heading-row">Speaker</td>
+        </tr>
+        {{ range sort . "weight" }}
+        {{"<!-- SUD talk -->" | safeHTML}}
+        <tr>
+            <td class="samm-title-row-centered">
+                {{ if and (isset . "youtubeUrl") (not (eq . "youtubeUrl" "")) }}
+                <a href="{{ .youtubeUrl }}" target="_blank"><i class="fas fa-play"></i></a>
+                {{ end }}
+            </td>
+            <td class="samm-title-row-centered">
+                    {{ if and (isset . "downloadUrl") (not (eq . "downloadUrl" "")) }}
+                <a href="{{ .downloadUrl }}"><i class="fas fa-download"></i></a>
+                {{ end }}
+            </td>
+            <td class="samm-title-row"><a href="{{ .url }}">{{ .name }}</a></td>
+            <td class="samm-row">{{ .presenter }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+{{"<!-- End talk list -->" | safeHTML}}
+{{ end }}
+{{ end }}

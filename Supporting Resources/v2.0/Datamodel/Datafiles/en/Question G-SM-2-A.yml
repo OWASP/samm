@@ -1,0 +1,30 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: c1778728d66e4b83b59a42405a90598a
+
+#Link to the answer set that contains the potential answers for this question
+answerset: 66e3e11eb8404fb6880377e539609678
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 8fd0374f0b63476eacb3cadca99b1538
+
+#One-sentence description of the criterium
+text: Do you have a strategic plan for application security and use it to make decisions?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- The plan reflects the organization's business priorities and risk appetite
+- The plan includes measurable milestones and a budget
+- The plan is consistent with the organization's business drivers and risks
+- The plan lays out a roadmap for strategic and tactical initiatives
+- You have buy-in from stakeholders, including development teams
+
+#Type Classification of the Document
+type: Question

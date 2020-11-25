@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 8ab46d242edd413d99a6c1991aef2416
+
+#This question uses Answer Set L
+answerset: c1d15e1f5c8946d381f508db29b26473
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 54ad3e4182844623b3290901c1a1932d
+
+#Text of the question presented to the user
+text: Do you regularly evaluate the lifecycle state and support status of every software
+  asset and underlying infrastructure component, and estimate their end of life?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criteria
+quality:
+- Your end of life management process is agreed upon
+- You inform customers and user groups of product timelines to prevent disruption
+  of service or support
+- You review the process at least annually
+#Type Classification of the Document
+type: Question

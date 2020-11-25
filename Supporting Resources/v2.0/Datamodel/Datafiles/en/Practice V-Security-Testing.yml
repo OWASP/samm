@@ -1,0 +1,38 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice template/sample
+# ===========================================================
+#Link to the function, using its unique identifier
+function: fa340fa1816244d79f369ae82e998368
+
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: bb5488860c124b6e8076b023485023e1
+
+#Official name of this practice
+name: Security Testing
+
+#Abbreviation of this practice
+shortName: ST
+
+#A one sentence description of the security practice
+shortDescription: This practice focuses on the detection and resolution of basic security issues through automation, allowing manual testing to focus on more complex attack vectors.
+
+#A multi-paragraph description of the security practice
+longDescription: |
+  The Security Testing (ST) practice leverages the fact that, while automated security testing is fast and scales well to numerous applications, in-depth testing based on good knowledge of an application and its business logic is often only possible via slower, manual expert security testing. Each stream therefore has one approach at its core.
+
+  The first stream focuses on establishing a common security baseline to automatically detect so-called "low hanging fruit". Progressively customize the automated tests for each application and increase their frequency of execution to detect more bugs and regressions earlier, as close as possible to their inception. The more bugs the automated processes can detect, the more time experts have to use their knowledge and creativity to focus on more complex attack vectors and ensure in-depth application testing in the second stream. As manual review is slow and hard to scale, reviewers prioritize testing components based on their risk, recent relevant changes, or upcoming major releases. Organizations can also access external expertise by participating in bug bounty programs, for example.
+
+  Unlike the Requirements-driven testing practice which focuses on verifying that applications correctly implement their requirements, the goal of this practice is to uncover technical and business-logic weaknesses in application and make them visible to management and business stakeholders, irrespective of requirements.
+
+#The relative order of this practice in the business function
+order: 3
+
+#Who's the "owner" of this practice
+assignee: Nessim Kisserli
+
+#Indication of progress to keep track of overall status
+progress: 50
+#Type Classification of the Document
+type: Practice

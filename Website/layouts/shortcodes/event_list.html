@@ -1,0 +1,26 @@
+<div class="event-list">
+    {{ if gt (len .Site.Data.events) 0 }}
+    {{ with index .Site.Data.events }}
+    {{ range sort . "weight" }}
+    <div class="event-row">
+        <div class="col-md-3 col-sm-6">
+            {{ if and (isset . "image") (not (eq . "image" "")) }}
+            <img src="{{ .image }}" class="img-responsive" alt="" >
+            {{ else }}
+            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+            {{ end }}
+        </div>
+        <div class="col-md-9 col-sm-6">
+            <h4><a href="{{ .url }}" target="_blank">{{ .title }}</a></h4>
+            <p class="author-category">{{ .date }}</p>
+            <p class="author-category">{{ .type }} by {{ .presenter }}</p>
+            {{ if .url2 }}
+            <a href="{{ .url2 }}" target="_blank">{{ .url2text }}</a>
+            {{ end }}
+        </div>
+    </div>
+    <!-- /.row -->
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>

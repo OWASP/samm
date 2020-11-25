@@ -1,0 +1,25 @@
+---
+# ===========================================================
+# OWASP SAMM2 Activity Stream - Incident Response
+# ===========================================================
+#Link to the security practice that this stream belongs to
+practice: c13aa12c13d04362a3ca3385a8c580ee
+
+#Unique identifier to refer to this stream
+id: 390bec725b8344a289d5386026925947
+
+#Official stream name
+name: Incident Response
+
+#Stream letter, A or B
+letter: B
+
+#Multi-paragraph explanation of the stream
+description: |
+  Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible. The activities in this stream focus on the organization's ability to respond appropriately and effectively to reported security incidents.
+
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+
+#Type Classification of the Document
+type: Stream

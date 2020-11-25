@@ -1,0 +1,156 @@
+.container {
+  max-width: 1225px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+
+
+}
+.card:hover{
+  transform: rotateY(180deg);
+}
+.Login-button-row button{
+  margin-right:8px;
+
+}
+
+.section--full{
+  padding-top: 2px;
+}
+
+.section__title[_ngcontent]{
+  font-size:7vh;
+  float:left;
+}
+.str[_ngcontent]{
+  font-size:7vh;
+}
+.para[_ngcontent]{
+  font-size:3vh;
+  float:left;
+}
+.img-fluid{
+  width:40vw;
+  height:50vh;
+  margin-top:5%;
+  size:14vw;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-shadow: white 1px 1px 0;
+  color: #274b6a;
+}
+.mat-card:not([class*=mat-elevation-z]) {
+box-shadow: none !important;
+margin-top: 10%;
+}
+
+.title-card, .subtitle-card {
+font-weight: normal;
+font-size: 40px;
+}
+
+mat-card img{
+ // object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+ // width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+ // height: 100%;
+  color: white;
+ // background-image: linear-gradient(to bottom, #010f20 20%, #061339 90%) !important;
+  background-attachment: fixed !important;
+
+  width: 100%;
+  height: 100%;
+ // object-fit: cover;
+}
+.col-example{
+  height: 10;
+}
+.card-front:hover{
+  transform: rotateY(180deg);
+
+}
+.card-back{
+  transform: rotateY(180deg);
+
+}
+.mat-icon {
+background-repeat: no-repeat;
+display: inline-block;
+fill: currentColor;
+height: 24px;
+width: 24px;
+color: white;
+}
+h1[_ngcontent-rpq-c3] {
+font-family: "Roboto", sans-serif;
+text-shadow: white 1px 1px 0;
+color: white;
+}
+svg{
+fill: white;
+}
+
+#circle1, #circle2, #circle3, #circle4, #circle5, #circle6, #circle7, #circle8, #circle9,
+#circle10, #circle11, #circle12, #circle13, #circle14 {
+ height: 140px;
+}
+
+#circleflip1, #circleflip2, #circleflip3, #circleflip4, #circleflip5, #circleflip6, #circleflip7, #circleflip8,
+#circleflip9, #circleflip10, #circleflip11, #circleflip12, #circleflip13, #circleflip14 {
+ height: 140px;
+} 
+
+
+
+
+
+
+
+
+
+// Carousel//
+
+
+.demo {
+  &-code {
+    font-family: "Roboto Mono";
+  }
+
+  &-container {
+    padding: 15px;
+  }
+
+  &-source {
+    margin-left: 15px;
+  }
+
+  &-spacer {
+    flex: 1 1 auto;
+  }
+
+  &-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  &-margin {
+    margin: 0 10px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+  &-carousel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  } 
+}

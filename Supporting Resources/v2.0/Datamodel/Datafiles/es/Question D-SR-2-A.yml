@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 1cc77725cb2349f394477838668f6184
+
+#Link to the answer set that contains the potential answers for this question
+answerset: d096060a4d864133afcbdd1397b95827
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: 2d458a65858c48af94f25f9858bd8ed7
+
+#One-sentence description of the criterium
+text: Do you define, structure, and include prioritization in the artifacts of the security requirements gathering process?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+ - Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development
+ - Domain experts are involved in the requirements definition process
+ - You have an agreed upon structured notation for security requirements
+ - Development teams have a security champion dedicated to reviewing security requirements and outcomes
+
+#Type Classification of the Document
+type: Question

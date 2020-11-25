@@ -1,0 +1,565 @@
+<!--  Container  -->
+
+
+<div class="charts-container cf">
+
+
+        <div class='chart progress' id='graph-1-container' routerLink="/governance_strategy">
+          <h2 class="title">Strategy & Metrics</h2>
+    
+          <li class="chart-svg  align-center" data-name="SVG Skill" attr.data-percent="{{strategy_rating}}">
+    
+              <svg viewBox="-10 -10 220 220">
+                  <g fill="none" stroke-width="10" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                  </g>
+                   </svg>
+    
+                  <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{strategy_rating_load}}"></path>
+                  </svg>
+            </li>
+    
+    
+          <div class="chart-values" >
+            <p class="h-value" attr.data="{{hr1}}">{{hr1}}0h</p>
+            <p class="percentage-value"></p>
+            <p class="total-gain"></p>
+          </div>
+    
+          <div class="triangle green"></div>
+        </div>
+    
+        <!-- Card -2 -->
+    
+        <div class="chart progress" id="graph-2-container" style="float:left" routerLink="/governance_policy">
+            <h2 class="title">Policy & Compliance</h2>
+            <li class='chart-svg align-center' data-name="HTML5 Skill" attr.data-percent="{{policy_rating}}">
+                <svg viewBox="-10 -10 220 220">
+                    <g fill="none" stroke-width="10" transform="translate(100,100)">
+                    <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                    <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                    <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                    <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                    <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                    <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                    </g>
+                    </svg>
+                <svg viewBox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{policy_rating_load}}"></path>
+                </svg>
+            </li>
+            <div class="chart-values">
+              <p class="h-value" attr.data="{{hr2}}">{{hr2}}0h</p>
+              <p class="percentage-value"></p>
+              <p class="total-gain"></p>
+            </div>
+            <div class="triangle red"></div>
+          </div>
+    
+          <div class="chart progress" id="graph-3-container" style="float:left" routerLink="/governance_education">
+              <h2 class="title">Education & Guidance</h2>
+              <li class='chart-svg align-center' data-name="HTML5 Skill" attr.data-percent="{{education_rating}}">
+                  <svg viewBox="-10 -10 220 220">
+                      <g fill="none" stroke-width="10" transform="translate(100,100)">
+                      <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                      <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                      <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                      <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                      <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                      <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                      </g>
+                      </svg>
+                      <svg viewBox="-10 -10 220 220">
+                          <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{education_rating_load}}"></path>
+                      </svg>
+              </li>
+              <div class="chart-values">
+                <p class="h-value" attr.data="{{hr3}}">0{{hr3}}h</p>
+                <p class="percentage-value"></p>
+                <p class="total-gain"></p>
+              </div>
+              <div class="triangle red"></div>
+            </div>
+    
+    
+            <div class="chart progress" id="graph-4-container" style="float:left" routerLink="/design_threat">
+                <h2 class="title">Threat Assessment</h2>
+                <li class='chart-svg align-center' data-name="HTML5 Skill" attr.data-percent="{{threat_rating}}">
+                    <svg viewBox="-10 -10 220 220">
+                        <g fill="none" stroke-width="10" transform="translate(100,100)">
+                        <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                        <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                        <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                        <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                        <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                        <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                        </g>
+                        </svg>
+                    <svg viewBox="-10 -10 220 220">
+                    <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{threat_rating_load}}"></path>
+                    </svg>
+                </li>
+                <div class="chart-values">
+                  <p class="h-value" attr.data="{{hr4}}">{{hr4}}0h</p>
+                  <p class="percentage-value"></p>
+                  <p class="total-gain"></p>
+                </div>
+                <div class="triangle red"></div>
+              </div>
+    
+    
+              <div class="chart progress" id="graph-5-container" style="float:left;"routerLink="/design_security">
+                  <h2 class="title">Security Requirements</h2>
+                  <li class='chart-svg  align-center' data-name="HTML5 Skill" attr.data-percent="{{security_rating}}">
+                      <svg viewBox="-10 -10 220 220">
+                          <g fill="none" stroke-width="10" transform="translate(100,100)">
+                          <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                          <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                          <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                          <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                          <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                          <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                          </g>
+                          </svg>
+                      <svg viewBox="-10 -10 220 220">
+                        <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{security_rating_load}}"></path>
+                      </svg>
+                  </li>
+                  <div class="chart-values">
+                    <p class="h-value" attr.data="{{hr5}}">{{hr4}}770h</p>
+                    <p class="percentage-value"></p>
+                    <p class="total-gain"></p>
+                  </div>
+                  <div class="triangle red"></div>
+                </div>
+    
+    
+    
+                <div class="chart progress" id="graph-6-container" style="float:left" routerLink="/design_secure_arch">
+                    <h2 class="title">Secure Architecture</h2>
+                    <li class='chart-svg  align-center' data-name="HTML5 Skill" attr.data-percent="{{secure_arch_rating}}">
+                        <svg viewBox="-10 -10 220 220">
+                            <g fill="none" stroke-width="10" transform="translate(100,100)">
+                            <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                            <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                            <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                            <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                            <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                            <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                            </g>
+                            </svg>
+                        <svg viewBox="-10 -10 220 220">
+                        <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{secure_arch_rating_load}}"></path>
+                        </svg>
+                    </li>
+                    <div class="chart-values">
+                      <p class="h-value" attr.data="{{hr6}}">{{hr6}}0h</p>
+                      <p class="percentage-value"></p>
+                      <p class="total-gain"></p>
+                    </div>
+                    <div class="triangle red"></div>
+                  </div>
+    
+    
+    
+                  <div class="chart progress" id="graph-7-container" style="float:left" routerLink="/implement_secure_build">
+                      <h2 class="title">Secure Build</h2>
+                      <li class='chart-svg align-center' data-name="HTML5 Skill" attr.data-percent="{{secure_build_rating}}">
+                          <svg viewBox="-10 -10 220 220">
+                              <g fill="none" stroke-width="10" transform="translate(100,100)">
+                              <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                              <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                              <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                              <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                              <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                              <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                              </g>
+                              </svg>
+                          <svg viewBox="-10 -10 220 220">
+                          <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{secure_build_rating_load}}"></path>
+                          </svg>
+                      </li>
+                      <div class="chart-values">
+                        <p class="h-value" attr.data="{{hr7}}">{{hr7}}0h</p>
+                        <p class="percentage-value"></p>
+                        <p class="total-gain"></p>
+                      </div>
+                      <div class="triangle red"></div>
+                    </div>
+    
+    
+                    <div class="chart progress" id="graph-7-container" style="float:left" routerLink="/implement_secure_deploy">
+                      <h2 class="title">Secure Deployment</h2>
+                      <li class='chart-svg align-center' data-name="HTML5 Skill" attr.data-percent="{{secure_deploy_rating}}">
+                          <svg viewBox="-10 -10 220 220">
+                              <g fill="none" stroke-width="10" transform="translate(100,100)">
+                              <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                              <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                              <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                              <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                              <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                              <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                              </g>
+                              </svg>
+                          <svg viewBox="-10 -10 220 220">
+                          <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{secure_deploy_rating_load}}"></path>
+                          </svg>
+                      </li>
+                      <div class="chart-values">
+                        <p class="h-value" attr.data="{{hr7}}">{{hr7}}0h</p>
+                        <p class="percentage-value"></p>
+                        <p class="total-gain"></p>
+                      </div>
+                      <div class="triangle red"></div>
+                    </div>
+    
+      </div>
+    
+    
+    
+    
+      <div class="charts-container cf" style="width:33%;margin-left:67%" routerLink="/implement_defect">
+    
+    
+          <div class='chart progress' id='graph-8-container' style="float:right">
+            <h2 class="title">Defect Management</h2>
+    
+            <li class="chart-svg  align-center" data-name="SVG Skill" attr.data-percent="{{defect_rating}}">
+                <svg viewBox="-10 -10 220 220">
+                    <g fill="none" stroke-width="10" transform="translate(100,100)">
+                    <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                    <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                    <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                    <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                    <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                    <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                    </g>
+                    </svg>
+                    <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{defect_rating_load}}"></path>
+                    </svg>
+              </li>
+    
+    
+            <div class="chart-values">
+              <p class="h-value" attr.data="{{hr8}}">{{hr8}}0h</p>
+              <p class="percentage-value"></p>
+              <p class="total-gain"></p>
+            </div>
+    
+            <div class="triangle green"></div>
+          </div>
+    
+          <!-- Card -2 -->
+    
+          <div class="chart progress" id="graph-9-container" style="float:right" routerLink="/verify_arch">
+              <h2 class="title">Architecture Assessment</h2>
+              <li class='chart-svg  align-center' data-name="HTML5 Skill" attr.data-percent="{{verify_arch_rating}}">
+                  <svg viewBox="-10 -10 220 220">
+                      <g fill="none" stroke-width="10" transform="translate(100,100)">
+                      <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                      <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                      <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                      <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                      <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                      <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                      </g>
+                      </svg>
+                  <svg viewBox="-10 -10 220 220">
+                  <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{verify_arch_rating_load}}"></path>
+                  </svg>
+              </li>
+              <div class="chart-values">
+                <p class="h-value" attr.data="{{hr9}}">{{hr9}}0h</p>
+                <p class="percentage-value"></p>
+                <p class="total-gain"></p>
+              </div>
+              <div class="triangle red"></div>
+            </div>
+    
+            <div class="chart progress" id="graph-10-container" style="float:right" routerLink="/verify_requirement">
+                <h2 class="title">Requirements Driven Testing</h2>
+                <li class='chart-svg  align-center' data-name="HTML5 Skill" attr.data-percent="{{verify_requirement_rating}}">
+                    <svg viewBox="-10 -10 220 220">
+                        <g fill="none" stroke-width="10" transform="translate(100,100)">
+                        <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                        <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                        <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                        <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                        <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                        <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                        </g>
+                        </svg>
+                    <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{verify_requirement_rating_load}}"></path>
+                    </svg>
+                </li>
+                <div class="chart-values">
+                  <p class="h-value" attr.data="{{hr10}}">{{hr10}}0h</p>
+                  <p class="percentage-value"></p>
+                  <p class="total-gain"></p>
+                </div>
+                <div class="triangle red"></div>
+              </div>
+    
+    
+              <div class="chart progress" id="graph-11-container" style="float:right" routerLink="/verify_security">
+                  <h2 class="title">Security Testing</h2>
+                  <li class='chart-svg  align-center' data-name="HTML5 Skill" attr.data-percent="{{verify_security_rating}}">
+                      <svg viewBox="-10 -10 220 220">
+                          <g fill="none" stroke-width="10" transform="translate(100,100)">
+                          <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                          <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                          <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                          <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                          <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                          <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                          </g>
+                          </svg>
+                      <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{verify_security_rating_load}}"></path>
+                      </svg>
+                  </li>
+                  <div class="chart-values">
+                    <p class="h-value" attr.data="{{hr11}}">{{hr11}}0h</p>
+                    <p class="percentage-value"></p>
+                    <p class="total-gain"></p>
+                  </div>
+                  <div class="triangle red"></div>
+                </div>
+    
+    
+                <div class="chart progress" id="graph-12-container" style="float:right;" routerLink="/operate_incident">
+                    <h2 class="title">Incident Management</h2>
+                    <li class='chart-svg  align-center' data-name="HTML5 Skill" attr.data-percent="{{operate_incident_rating}}">
+                        <svg viewBox="-10 -10 220 220">
+                            <g fill="none" stroke-width="10" transform="translate(100,100)">
+                            <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                            <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                            <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                            <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                            <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                            <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                            </g>
+                            </svg>
+                        <svg viewBox="-10 -10 220 220">
+                          <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{operate_incident_rating_load}}"></path>
+                        </svg>
+                      </li>
+                      <div class="chart-values">
+                        <p class="h-value" attr.data="{{hr12}}">{{hr12}}0h</p>
+                        <p class="percentage-value"></p>
+                        <p class="total-gain"></p>
+                      </div>
+                      <div class="triangle red"></div>
+                    </div>
+    
+    
+          <!-- Card -2 -->
+    
+                  <div class="chart progress" id="graph-13-container" style="float:right" routerLink="/operate_environment">
+                      <h2 class="title">Environment Management</h2>
+                      <li class='chart-svg  align-center' data-name="HTML5 Skill" attr.data-percent="{{operate_environment_rating}}">
+                          <svg viewBox="-10 -10 220 220">
+                              <g fill="none" stroke-width="10" transform="translate(100,100)">
+                              <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                              <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                              <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                              <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                              <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                              <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                              </g>
+                              </svg>
+                          <svg viewBox="-10 -10 220 220">
+                          <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{operate_environment_rating_load}}"></path>
+                          </svg>
+                      </li>
+                      <div class="chart-values">
+                        <p class="h-value" attr.data="{{hr13}}">{{hr13}}0h</p>
+                        <p class="percentage-value"></p>
+                        <p class="total-gain"></p>
+                      </div>
+                      <div class="triangle red"></div>
+                    </div>
+    
+    
+    
+                    <div class="chart progress" id="graph-14-container" style="float: right;margin-right: 44%;" routerLink="/operate_operational">
+                        <h2 class="title">Operational Management</h2>
+                        <li class='chart-svg align-center' data-name="HTML5 Skill" attr.data-percent="{{operate_operational_rating}}">
+                            <svg viewBox="-10 -10 220 220">
+                            <g fill="none" stroke-width="10" transform="translate(100,100)">
+                            <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                            <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                            <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                            <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                            <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                            <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                            </g>
+                            </svg>
+                            <svg viewBox="-10 -10 220 220">
+                            <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" attr.stroke-dashoffset ="{{operate_operational_rating_load}}"></path>
+                            </svg>
+                        </li>
+                        <div class="chart-values">
+                          <p class="h-value" attr.data="{{hr14}}">{{hr14}}0h</p>
+                          <p class="percentage-value"></p>
+                          <p class="total-gain"></p>
+                        </div>
+                        <div class="triangle red"></div>
+                      </div>
+    
+    
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--
+    <ul class="progress">
+    
+        <li data-name="jQuery Skill" data-percent="13%">
+            <svg viewBox="-10 -10 220 220">
+            <g fill="none" stroke-width="12" transform="translate(100,100)">
+            <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+            <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+            <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+            <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+            <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+            <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+            </g>
+            </svg>
+            <svg viewBox="-10 -10 220 220">
+            <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="81"></path>
+            </svg>
+        </li>
+    
+        <li data-name="UI Skill" data-percent="97%">
+            <svg viewBox="-10 -10 220 220">
+            <g fill="none" stroke-width="9" transform="translate(100,100)">
+            <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+            <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+            <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+            <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+            <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+            <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+            </g>
+            </svg>
+            <svg viewBox="-10 -10 220 220">
+            <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="610"></path>
+            </svg>
+        </li>
+    
+        <li data-name="PHP Skill" data-percent="58%">
+            <svg viewBox="-10 -10 220 220">
+            <g fill="none" stroke-width="6" transform="translate(100,100)">
+            <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+            <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+            <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+            <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+            <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+            <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+            </g>
+            </svg>
+            <svg viewBox="-10 -10 220 220">
+            <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="364"></path>
+            </svg>
+        </li>
+    
+        <li data-name="CSS Skill" data-percent="100%">
+            <svg viewBox="-10 -10 220 220">
+            <g fill="none" stroke-width="6" transform="translate(100,100)">
+            <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+            <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+            <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+            <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+            <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+            <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+            </g>
+            </svg>
+            <svg viewBox="-10 -10 220 220">
+            <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="629"></path>
+            </svg>
+          </li>
+    </ul>
+    -->
+    <!--  Defining Angle Gradient Colors  -->
+    <svg width="0" height="0">
+    <defs>
+    <!--linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#618099"/>
+        <stop offset="100%" stop-color="#8e6677"/>
+    </linearGradient>
+    <linearGradient id="cl2" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="#8e6677"/>
+        <stop offset="100%" stop-color="#9b5e67"/>
+    </linearGradient>
+    <linearGradient id="cl3" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+        <stop stop-color="#9b5e67"/>
+        <stop offset="100%" stop-color="#9c787a"/>
+    </linearGradient>
+    <linearGradient id="cl4" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+        <stop stop-color="#9c787a"/>
+        <stop offset="100%" stop-color="#817a94"/>
+    </linearGradient>
+    <linearGradient id="cl5" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+        <stop stop-color="#817a94"/>
+        <stop offset="100%" stop-color="#498a98"/>
+    </linearGradient>
+    <linearGradient id="cl6" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+        <stop stop-color="#498a98"/>
+        <stop offset="100%" stop-color="#618099"/>
+    </linearGradient-->
+    
+    
+    
+    
+    
+    <linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#954ce9"/>
+        <stop offset="100%" stop-color="#954ce9"/>
+    </linearGradient>
+    <linearGradient id="cl2" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="#7071ea"/>
+        <stop offset="100%" stop-color="#7071ea"/>
+    </linearGradient>
+    <linearGradient id="cl3" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+        <stop stop-color="#5194ec"/>
+        <stop offset="100%" stop-color="#5194ec"/>
+    </linearGradient>
+    <linearGradient id="cl4" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+        <stop stop-color="#24c1ed"/>
+        <stop offset="100%" stop-color="#24c1ed"/>
+    </linearGradient>
+    <linearGradient id="cl5" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+        <stop stop-color="#24c1ed"/>
+        <stop offset="100%" stop-color="#24c1ed"/>
+    </linearGradient>
+    <linearGradient id="cl6" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+        <stop stop-color="#24c1ed"/>
+        <stop offset="100%" stop-color="#24c1ed"/>
+    </linearGradient>
+    
+    
+    </defs>
+    </svg>
+    

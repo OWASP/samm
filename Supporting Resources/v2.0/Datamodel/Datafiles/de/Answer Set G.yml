@@ -1,0 +1,33 @@
+---
+# ===========================================================
+# OWASP SAMM2 Answer Set - G
+# ===========================================================
+# Unique identifier (GUID) used to refer to this maturity level.
+# Please generate another identifier for your specific maturity level.
+id: 612bf4ec249f4e9d86f9e36dbf511821
+
+# Different answers with their properties. We use 4 levels or answers
+values:
+    #lowest level
+- text: No
+  value: 0
+  weight: 1
+  order: 0
+    #second level
+- text: Yes, for some components
+  value: 0.25
+  weight: 1
+  order: 1
+    #third level
+- text: Yes, for at least half of the components
+  value: 0.5
+  weight: 1
+  order: 2
+    #highest level
+- text: Yes, for most or all of the components
+  value: 1
+  weight: 1
+  order: 3
+
+# Type Classification of the Document
+type: AnswerSet

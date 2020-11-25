@@ -1,0 +1,38 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice template/sample
+# ===========================================================
+#Link to the function, using its unique identifier
+function: 8aa8154b83434e73b3ca8c0e9b654417
+
+#Unique identifier (GUID) used to refer to this practice.
+#Please generate another identifier for your specific practice.
+id: b2af112859d34cada6ce4cf44d393b94
+
+#Official name of this practice
+name: Secure Build
+
+#Abbreviation of this practice
+shortName: SB
+
+#A one sentence description of the security practice
+shortDescription: This practice focuses on creating a consistently repeatable build
+  process and accounting for the security of application dependencies.
+
+#A multi-paragraph description of the security practice
+longDescription: |
+  The Secure Build (SB) practice emphasises the importance of building software in a standardised, repeatable manner, and of doing so using secure components, including 3rd party software dependencies.
+
+  The first stream focuses on removing any subjectivity from the build process by striving for full automation. An automated build pipeline can include additional automated security checks such as SAST and DAST to gain further assurance and flag security regressions early by failing the build, for example.
+
+  The second stream acknowledges the prevalence of software dependencies in modern applications. It aims to identify them and track their security status in order to contain the impact of their insecurity on an otherwise secure application. In an advanced form, it applies similar security checks to software dependencies as to the application itself.
+#The relative order of this practice in the business function
+order: 1
+
+#Who's the "owner" of this practice
+assignee: Daniel Kefer
+
+#Indication of progress to keep track of overall status
+progress: 50
+#Type Classification of the Document
+type: Practice

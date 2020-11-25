@@ -1,0 +1,29 @@
+---
+# ===========================================================
+# OWASP SAMM2 Coverage Question template/sample
+# ===========================================================
+#Link to the activity that this question helps measure
+activity: 281369f491da4d4c84b0729e344e2c93
+
+#Link to the answer set that contains the potential answers for this question
+answerset: f77bd45a28c8493dbba6e53b2eafa20f
+
+#Unique identifier (GUID) used to refer to this maturity level.
+#Please generate another identifier for your specific maturity level.
+id: ee775955bf7f48d294c75f6384232f48
+
+#One-sentence description of the criterium
+text: Do you enforce automated security checks in your build processes?
+
+#Order of this question for the activity (in case there would be multiple)
+order: 1
+
+#Qualifying Criterion
+quality:
+- Builds fail if the application doesn't meet a predefined security baseline
+- You have a maximum accepted severity for vulnerabilties
+- You log warnings and failures in a centralized system
+- You select and configure tools to evaluate each application against its security requirements at least once a year
+
+#Type Classification of the Document
+type: Question

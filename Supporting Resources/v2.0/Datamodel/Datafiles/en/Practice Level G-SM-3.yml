@@ -1,0 +1,20 @@
+---
+# ===========================================================
+# OWASP SAMM2 Security Practice Level template/sample
+# ===========================================================
+#Link to the practice, using its unique identifier
+practice: 32b3bdd85d3a4d53827960004f9d1c7e
+
+#Link to the maturity level, using its unique identifier
+maturitylevel: 7bbfe31d447e48759ef0f2af25c31b43
+
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: 420074f071fb4ab6b6ee6ef44c4f4f1c
+
+#Objective of this particular practice level
+objective: Align security efforts with the relevant organizational indicators and
+  asset values.
+
+#Type Classification of the Document
+type: PracticeLevel

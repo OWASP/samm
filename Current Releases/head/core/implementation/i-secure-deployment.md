@@ -21,7 +21,7 @@ The second stream goes beyond the mechanics of deployment, and focuses on protec
 |:---|:---|:---|
 | Maturity 1 - Deployment processes are fully documented. | Formalize the deployment process and secure the used tooling and processes. | Introduce basic access control measures to the systems storing your production secrets. |
 | Maturity 2 - Deployment processes include security verification milestones. | Automate the deployment process over all stages and introduce sensible security verification tests. | Inject secrets dynamically during deployment process from hardened storages and audit all human access to them. |
-| Maturity 3 - Deployment process is fully automated and incorporates automated verification of all critical milestones. | Automatically verify integrity of all deployed software, indenendently on whether it's internally or externally developed. | Regenerate secrets dynamically during every deployment using well-hardened process wherever possible. |
+| Maturity 3 - Deployment process is fully automated and incorporates automated verification of all critical milestones. | Automatically verify integrity of all deployed software, independently of whether it's internally or externally developed. | Regenerate secrets dynamically during every deployment using well-hardened process wherever possible. |
 
 
 # A: Deployment Process
