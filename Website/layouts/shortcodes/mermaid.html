@@ -1,5 +1,2 @@
-<!-- MermaidJS support -->
-<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
-<div class="mermaid">
-        {{ safeHTML .Inner}}
-</div>
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}" >{{ safeHTML .Inner  }}</div>
