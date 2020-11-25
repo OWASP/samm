@@ -24,7 +24,7 @@ shortDescription: Define metrics with insight into the effectiveness and efficie
 
 #A multi-paragraph description of the activity
 longDescription: |
-  Define and document metrics to evaluate the effectiveness and efficiency of the application security program. This way improvements are measurable and you can use them to secure future support and funding for the program. Considering the dynamic nature of most development environments, metrics should be comprised of measurements in the following categories
+  Define and document metrics to evaluate the effectiveness and efficiency of the application security program. This way improvements are measurable and you can use them to secure future support and funding for the application security program. Considering the dynamic nature of most development environments, metrics should be comprised of measurements in the following categories
 
   * `Effort` metrics measure the effort spent on security. For example training hours, time spent performing code reviews, and number of applications scanned for vulnerabilities.
   * `Result` metrics measure the results of security efforts. Examples include number of outstanding patches with security defects and number of security incidents involving application vulnerabilities.
