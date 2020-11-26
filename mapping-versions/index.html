@@ -3,7 +3,7 @@
 <span class=sr-only>Mapping SAMM 1.5 to 2.0 - go to homepage</span></a><div class=navbar-buttons><button type=button class="navbar-toggle btn-template-main" data-toggle=collapse data-target=#navigation>
 <span class=sr-only>Toggle Navigation</span>
 <i class="fa fa-align-justify"></i></button></div></div><div class="navbar-collapse collapse" id=navigation><ul class="nav navbar-nav navbar-right"><li class=dropdown><a href=/about/>About SAMM</a></li><li class=dropdown><a href=/model/>The model</a></li><li class=dropdown><a href=# class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Guidance <span class=caret></span></a><ul class=dropdown-menu><li><a href=/guidance/quick-start-guide/>Getting started</a></li><li><a href=/assessment/>Assessment</a></li><li><a href=/guidance/agile/>Agile</a></li><li><a href=/benchmarking/>Benchmarking</a></li></ul></li><li class=dropdown><a href=# class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Community <span class=caret></span></a><ul class=dropdown-menu><li><a href=/blog/>Blog</a></li><li><a href=/events/>Events</a></li><li><a href=/sponsors/>Sponsors</a></li><li><a href=/faq/>FAQ</a></li><li><a href=/contributing/>Contributing</a></li></ul></li><li class=dropdown><a href=/user-day/>User Day</a></li><li class=dropdown><a href=/contact/>Contact</a></li></ul></div><div class="collapse clearfix" id=search><form class=navbar-form role=search><div class=input-group><input type=text class=form-control placeholder=Search>
-<span class=input-group-btn><button type=submit class="btn btn-template-main"><i class="fa fa-search"></i></button></span></div></form></div></div></div></div></header><div id=heading-breadcrumbs><div class=container><div class=row><div class=col-md-12><h1>Mapping SAMM 1.5 to 2.0</h1></div></div></div></div><div id=content><div class=container><div class=row><div class="col-md-12 samm-page-content"><div><h2 id=overview>Overview</h2><p>For those organizations using 1.0 or 1.5 versions of SAMM it&rsquo;s important to take the time to understand how the framework has evolved. Organizations that implemented security initiatives and are looking for SAMM scores to validate effectiveness will need to take these changes into consideration since in most cases expectations for maturity level 3 have been significantly increased in favor of automation and better alignment with development teams.</p><p>Organizationally, some important changes worth noting:</p><ul><li>Construction is now Design</li><li>New Business Function: Implementation</li><li>New Operational Management Practice</li><li>Activities are now continuous throughout each Security Practice</li><li>Operational Enablement eliminated and absorbed by other practices</li></ul><p>The chart below provides a high-level summary of the changes between different practices, with more details to follow:</p><h2 id=governance>Governance</h2><script defer src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js>mermaid.initialize({startOnLoad:true});</script><div class=mermaid align=center>graph LR
+<span class=input-group-btn><button type=submit class="btn btn-template-main"><i class="fa fa-search"></i></button></span></div></form></div></div></div></div></header><div id=heading-breadcrumbs><div class=container><div class=row><div class=col-md-12><h1>Mapping SAMM 1.5 to 2.0</h1></div></div></div></div><div id=content><div class=container><div class=row><div class="col-md-12 samm-page-content"><div><h2 id=overview>Overview</h2><p>For those organizations using 1.0 or 1.5 versions of SAMM it&rsquo;s important to take the time to understand how the framework has evolved. Organizations that implemented security initiatives and are looking for SAMM scores to validate effectiveness will need to take these changes into consideration since in most cases expectations for maturity level 3 have been significantly increased in favor of automation and better alignment with development teams.</p><p>Organizationally, some important changes worth noting:</p><ul><li>Construction is now Design</li><li>New Business Function: Implementation</li><li>New Operational Management Practice</li><li>Activities are now continuous throughout each Security Practice</li><li>Operational Enablement eliminated and absorbed by other practices</li></ul><p>The chart below provides a high-level summary of the changes between different practices, with more details to follow:</p><script src=https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js></script><script>mermaid.initialize({startOnLoad:true});</script><h2 id=governance>Governance</h2><div class=mermaid>graph LR
 classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
 classDef des fill:#d75,stroke:#000,stroke-width:2px;
 classDef imp fill:#ff0,stroke:#000,stroke-width:2px;
@@ -36,7 +36,7 @@ class ta2,sr2,sa2,ta1,sr1,sa1 des
 class sb2,sd2,dm2 imp
 class dr1,ir1,st1,aa2,rdt2,st2 ver
 class im1,eh1,oe1,im2,em2,om2 ops
-end</div><h2 id=construction>Construction</h2><script defer src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js>mermaid.initialize({startOnLoad:true});</script><div class=mermaid align=center>graph LR
+end</div><h2 id=construction>Construction</h2><div class=mermaid>graph LR
 classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
 classDef des fill:#d75,stroke:#000,stroke-width:2px;
 classDef imp fill:#ff0,stroke:#000,stroke-width:2px;
@@ -64,7 +64,7 @@ class ta2,sr2,sa2,ta1,sr1,sa1 des
 class sb2,sd2,dm2 imp
 class dr1,ir1,st1,aa2,rdt2,st2 ver
 class im1,eh1,oe1,im2,em2,om2 ops
-end</div><h2 id=verification>Verification</h2><script defer src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js>mermaid.initialize({startOnLoad:true});</script><div class=mermaid align=center>graph LR
+end</div><h2 id=verification>Verification</h2><div class=mermaid>graph LR
 classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
 classDef des fill:#d75,stroke:#000,stroke-width:2px;
 classDef imp fill:#ff0,stroke:#000,stroke-width:2px;
@@ -98,7 +98,7 @@ class ta2,sr2,sa2,ta1,sr1,sa1 des
 class sb2,sd2,dm2 imp
 class dr1,ir1,st1,aa2,rdt2,st2 ver
 class im1,eh1,oe1,im2,em2,om2 ops
-end</div><h2 id=operations>Operations</h2><script defer src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js>mermaid.initialize({startOnLoad:true});</script><div class=mermaid align=center>graph LR
+end</div><h2 id=operations>Operations</h2><div class=mermaid>graph LR
 classDef gov fill:#7ac,stroke:#000,stroke-width:2px;
 classDef des fill:#d75,stroke:#000,stroke-width:2px;
 classDef imp fill:#ff0,stroke:#000,stroke-width:2px;
