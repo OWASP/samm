@@ -178,6 +178,7 @@ paginate = 10
     #
     # Enable the contact form by entering your Formspree.io email
     email = "info@owaspsamm.org"
+    formspree_id = "moqpnkgj"
 
     about_us = "<p>This is an OWASP Project.</br>OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security.</p>"
     about_us_img = "/img/owasp_logo_1c_w_notext.png"
