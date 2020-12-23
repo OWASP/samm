@@ -21,7 +21,7 @@ Or speak to us on our [Slack channel](https://owasp.slack.com/messages/C0VF1EJGH
 
 ## Contributions
 
-Please see guidance here: [/Current Releases/head/contributing-to-git.md](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/contributing-to-git.md).
+Please see guidance on the [contributing page](https://owaspsamm.org/contributing/) on our website.
 
 ## Custom Development
 * Install hugo or pull a hugo docker image
