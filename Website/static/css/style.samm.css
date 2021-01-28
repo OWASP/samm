@@ -3990,3 +3990,7 @@ a.list-group-item.active > .badge,
 .event {
   padding: 0px !important;
 }
+
+.formspree-input{
+  display: none;
+}
