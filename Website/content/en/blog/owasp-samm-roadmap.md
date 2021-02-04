@@ -69,7 +69,7 @@ In 2021
 * Extra mappings (e.g. technologies)
 * External references
 * SAMM assessor and implementation vendor list
-* Evaluation of stream-specific scoring and graphing?
+* Evaluation of stream-specific scoring and graphing
 * Model accessibility through API
 
 ### Long-term horizon
