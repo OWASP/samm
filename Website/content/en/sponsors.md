@@ -16,6 +16,7 @@ Don't hesitate to [contact us](mailto:info@owaspsamm.org).
 [![Minded Security](../img/clients/minded_security_medium.png)](https://www.mindedsecurity.com/)
 [![NCC group](../img/clients/nccgroup_medium.png)](https://www.nccgroup.trust/)  
 [![PWC](../img/clients/pwc_medium.png)](https://www.pwc.com/)
+[![Security Innovation](../img/clients/security_innovation_medium.png)](https://www.securityinnovation.com/)
 [![Splunk](../img/clients/splunk_medium.png)](https://www.splunk.com/)
 [![Toreon](../img/clients/toreon_medium.png)](https://www.toreon.com/)
 
