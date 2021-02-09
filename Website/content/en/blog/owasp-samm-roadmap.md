@@ -1,15 +1,15 @@
 +++
 title = "OWASP SAMM Roadmap"
-date = "2021-02-01T00:00:00+02:00"
+date = "2021-02-09T00:00:00+02:00"
 tags = ["roadmap", "samm", "next", "what's new"]
 categories = ["roadmap"]
-banner = "img/banners/undraw_process_e90d.png"
+banner = "img/banners/undraw_navigator_a479.png"
 author = "The SAMM Project Team"
 +++
 
 ## What happened in 2020?
 
-Some text here. A weird year but still a lot happened. Something along those lines.
+This was a special year but still a lot happened for SAMM. The team worked hard to continue delivering and adding value for our users.
 
 {{< responsive-image  "/img/blog/2020.png" "2020">}}
 
