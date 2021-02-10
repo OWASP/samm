@@ -23,6 +23,7 @@ Throughout 2020 we developed and released a new website and promoted the launch 
 
 On the 15th and 16th of November 2020 the SAMM core team came together for our annual SAMM Summit. Because of COVID we organized it as a virtual online summit.
 During the summit the team  made some great progress. We
+
 * designed a new GitHub structure to start as a separate organization
 * cleaned up our existing GitHub repository
 * created an outreach plan for 2021
@@ -47,7 +48,8 @@ We foresee major improvements in the coming years with the next releases of OWAS
 
 ### Short-term horizon
 
-Within the next few months  
+Within the next few months
+
 * Model translations
 * Toolbox translation
 * Mappings
@@ -60,7 +62,8 @@ Within the next few months
 
 ### Medium-term horizon
 
-In 2021  
+In 2021
+
 * Online SAMM training
 * SAMM webinars
 * Online assessment tool
@@ -75,6 +78,7 @@ In 2021
 ### Long-term horizon
 
 Beyond 2021
+
 * Committed assessment data to the benchmark data
 * Online roadmaps with benchmark overlays
 * Vertical industry benchmarks
