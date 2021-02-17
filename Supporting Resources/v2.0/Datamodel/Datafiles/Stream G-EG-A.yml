@@ -15,7 +15,7 @@ name: Training and Awareness
 letter: A
 
 #Multi-paragraph explanation of the stream
-description: Training and awareness focuses on increasing the overall knowledge around software security anmong the different stakeholders within the organization.
+description: Training and awareness focuses on increasing the overall knowledge around software security among the different stakeholders within the organization.
 
 #Relative order of the stream within the security stream  (A=1 ; B=2)
 order: 1
