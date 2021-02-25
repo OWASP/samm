@@ -12,3 +12,5 @@
   translation: "Read more"
 - id: continueReading
   translation: "Continue reading"
+- id: selectLanguage
+  translation: "Select a language"
