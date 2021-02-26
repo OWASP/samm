@@ -83,17 +83,13 @@ steps:
             activity1:
                 name: Define the target
                 description: |
-                    Set or update the target by identifying which activities your organization should implement ideally. Typically, this will include more lower-level than higher-level activities. Predefined roadmap templates can be used as a source for inspiration. Ensure that the total set of selected activities makes sense, and take into account dependencies between activities.                    
+                    Set or update the target by identifying which activities your organization should implement ideally. Typically, this will include more lower-level than higher-level activities. Ensure that the total set of selected activities makes sense, and take into account dependencies between activities.                    
             activity2:
                 name: Estimate overall impact
                 description: |
                     Estimate the impact of the chosen target on the organization. Try to express in budgetary arguments.        
         resources:
             resource1:
-                heading: Templates
-                description: |
-                    See the How-to Guide for predefined templates
-            resource2:
                 heading: SAMM roadmap chart
                 description: Worksheet (part of the SAMM Benchmarking as a comparative source)
             resource3:
@@ -185,7 +181,7 @@ The structure and setup of the **OWASP SAMM maturity model** are made to support
 3. the formulation of an implementation **roadmap** of how to get there, and
 4. prescriptive advice on how to **implement** particular activities.
 
-The value of OWASP SAMM lies in providing a means to know where your organization is on its journey towards software assurance and understand what is recommended to move to a next level of maturity. OWASP SAMM does not insist that all organizations achieve maturity level 3 in every category. Indeed, you determine the target maturity level for each Security Practice that is the best fit for your organization and its needs. OWASP SAMM provides a number of templates for typical organizations to this end, but we recommended that you adapt these to the needs of your organization.
+The value of OWASP SAMM lies in providing a means to know where your organization is on its journey towards software assurance and understand what is recommended to move to a next level of maturity. OWASP SAMM does not insist that all organizations achieve maturity level 3 in every category. Indeed, you determine the target maturity level for each Security Practice that is the best fit for your organization and its needs.
 
 ## How to apply
 
