@@ -1,5 +1,5 @@
 ---
-url: /user-day/samm-to-kickstart-the-tssdlc/
+url: /user-day/2020/samm-to-kickstart-the-tssdlc/
 type: user-day
 title: User day
 name: Using OWASP SAMM to kickstart the SSDLC - Lessons learned from real-world projects

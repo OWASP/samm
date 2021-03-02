@@ -11,10 +11,10 @@ On **June 16th, 2020** we had our first OWASP SAMM User Day. We want to thank al
 
 ## Presentations
 
-Here's all the information on the talks we had during the User Day, together with the presentations the speakers used.
+The video for the whole conference is available on our {{< external-link "https://www.youtube.com/channel/UCEZDbvQrj5APg5cEET49A_g" "YouTube channel">}}.
 
-The video for the whole conference is available on our YouTube channel.  
-We've added videos for the first 2 presentations and will continue to add until we have all of them.
+Next is all the information on the talks we had during the User Day, together with links to their individual videos and to download the presentations the speakers used.
 
+  
 {{< user_day_agenda >}}
 

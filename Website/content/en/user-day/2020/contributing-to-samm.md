@@ -1,5 +1,5 @@
 ---
-url: /user-day/contributing-to-samm/
+url: /user-day/2020/contributing-to-samm/
 type: user-day
 title: User day
 name: Contributing to SAMM

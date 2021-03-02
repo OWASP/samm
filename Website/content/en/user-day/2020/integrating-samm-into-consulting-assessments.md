@@ -1,5 +1,5 @@
 ---
-url: /user-day/integrating-samm-into-consulting-assessments/
+url: /user-day/2020/integrating-samm-into-consulting-assessments/
 type: user-day
 title: User day
 name: Integrating SAMMv2 into Consulting Assessments

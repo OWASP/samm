@@ -1,5 +1,5 @@
 ---
-url: /user-day/samm-dashboard/
+url: /user-day/2020/samm-dashboard/
 type: user-day
 title: User day
 name: SAMM 2.0 Dashboard

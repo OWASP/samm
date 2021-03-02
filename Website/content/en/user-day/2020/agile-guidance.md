@@ -1,5 +1,5 @@
 ---
-url: /user-day/agile-guidance/
+url: /user-day/2020/agile-guidance/
 type: user-day
 title: User day
 name: Agile Guidance for SAMM

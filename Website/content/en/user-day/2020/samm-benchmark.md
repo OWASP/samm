@@ -1,5 +1,5 @@
 ---
-url: /user-day/samm-benchmark/
+url: /user-day/2020/samm-benchmark/
 type: user-day
 title: User day
 name: SAMM benchmark - design and user stories 

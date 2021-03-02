@@ -1,5 +1,5 @@
 ---
-url: /user-day/content-security-in-federated-media-cloud-workflows/
+url: /user-day/2020/content-security-in-federated-media-cloud-workflows/
 type: user-day
 title: User day
 name: Content security in federated media cloud workflows

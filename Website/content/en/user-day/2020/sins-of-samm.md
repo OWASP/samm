@@ -1,5 +1,5 @@
 ---
-url: /user-day/sins-of-samm/
+url: /user-day/2020/sins-of-samm/
 type: user-day
 title: User day
 name: The Seven Deadly Sins of SAMM

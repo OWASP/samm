@@ -1,5 +1,5 @@
 ---
-url: /user-day/lean-security-in-devsecops/
+url: /user-day/2020/lean-security-in-devsecops/
 type: user-day
 title: User day
 name: Lean security&#58; a framework for activities and design factors in DevSecOps
