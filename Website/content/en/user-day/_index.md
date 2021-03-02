@@ -25,4 +25,4 @@ Don't forget to keep coming back to this page for more information as we put tog
 
 You can always visit last year's SAMM User Day page, where you can see the full list of talks, with downloadable material and YouTube links.
 
-{{< button  "sud2020" "Visit the 2020 User Day page">}}
+{{< button  "2020" "Visit the 2020 User Day page">}}
