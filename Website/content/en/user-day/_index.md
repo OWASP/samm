@@ -15,7 +15,7 @@ Based on feedback from last year, we decided to have 2 shorter User Days instead
 
 ## Call for presentations
 
-Are you considering sharing your experiences and knowledge with the community? If you'd like to do a presentation during the SAMM User Day, please complete [this form]().
+Are you considering sharing your experiences and knowledge with the community? If you'd like to do a presentation during the SAMM User Day, please complete [this form](https://forms.gle/3K6ZXJQCX2mj2aMz9).
 
 ## More information soon
 
