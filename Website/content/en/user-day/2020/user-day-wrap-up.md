@@ -1,5 +1,5 @@
 ---
-url: /user-day/user-day-wrap-up/
+url: /user-day/2020/user-day-wrap-up/
 type: user-day
 title: User day
 name: Wrapping up our first SAMM User Day

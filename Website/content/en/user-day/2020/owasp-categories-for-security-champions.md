@@ -1,5 +1,5 @@
 ---
-url: /user-day/owasp-categories-for-security-champions/
+url: /user-day/2020/owasp-categories-for-security-champions/
 type: user-day
 title: User day
 name: OWASP Top 10 Maturity Categories for Security Champions

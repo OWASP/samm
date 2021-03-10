@@ -1,5 +1,5 @@
 ---
-url: /user-day/samm-tools-of-the-trade/
+url: /user-day/2020/samm-tools-of-the-trade/
 type: user-day
 title: User day
 name: SAMM&#58; Tools of the Trade

@@ -1829,6 +1829,20 @@ fieldset[disabled] .btn-template-primary.active {
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
+.bar.background-sud {
+  background: url('../img/sud_section_background.png') center bottom no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-color: #eeeeee;
+}
+@media (max-width: 767px) {
+  .bar.background-sud {
+    /* The file size of this background image is smaller
+    to improve page load speed on mobile internet connections */
+    background: url('../img/sud_section_background_small.png') center bottom no-repeat;
+    background-color: #eeeeee;
+    }
+}
 .bar.background-gray {
   background: #eeeeee;
 }
@@ -3509,6 +3523,12 @@ p {
     font-size: 21px;
   }
 }
+.highlight {
+  margin-top: -20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #366867;
+}
 .text-small {
   font-size: 12px;
 }
@@ -3982,11 +4002,6 @@ a.list-group-item.active > .badge,
 .event-row .img-responsive {
   max-width: 100%;
   max-height: 100%;
-}
-@media (max-width: 767px) {
-  img {
-    width: 250px;
-  }
 }
 
 .event {

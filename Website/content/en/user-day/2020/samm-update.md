@@ -1,5 +1,5 @@
 ---
-url: /user-day/samm-update/
+url: /user-day/2020/samm-update/
 type: user-day
 title: User day
 name: OWASP SAMM Update
