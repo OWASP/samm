@@ -19,7 +19,7 @@ We knew there was still a lot to improve. We needed to define a better structure
 
 ## Separating repositories for various subprojects
 
-We have realized that we need to become more flexible with the particular deliverables of the project. While we want to have tighter processes and access rights around the core model, we also want to enable various degrees of flexibility of the derived projects, such as PDF generation and website generation and future projects. Not all of them should even be managed by the core team! 
+We have realized that we need to become more flexible with the particular deliverables of the project. While we want to have tighter processes and access rights around the core model, we also want to enable various degrees of flexibility of the derived projects, such as PDF generation and website generation. Not all of them should even be managed by the core team! 
 
 We have agreed to create a set of separate repositories for different components of the project, all of them with their own governance, degree of automation, contributors, and versioning strategy. The deliverables of the particular build processes will not be stored in the GitHub repository anymore, but attached to the particular releases. We also decided to move unnecessary multimedia files away from the repository to the project’s Google drive. 
 
