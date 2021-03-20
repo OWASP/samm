@@ -1,6 +1,6 @@
 +++
 title = "Towards a well-governed SAMM Suite"
-date = "2021-03-15T00:00:00+02:00"
+date = "2021-03-23T00:00:00+02:00"
 tags = ["governance", "samm", "suite", "next", "what's new"]
 categories = ["roadmap"]
 banner = "img/banners/samm_suite.png"
