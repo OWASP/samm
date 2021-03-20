@@ -188,7 +188,7 @@ paginate = 10
     copyright_url_text = "CC BY-SA 4.0 license"
 
     privacy_policy = "and we share the"
-    privacy_policy_url = "https://www2.owasp.org/www-policy/operational/privacy"
+    privacy_policy_url = "https://owasp.org/www-policy/operational/privacy"
     privacy_policy_url_text = "OWASP Privacy Policy"
     
     # Format dates with Go's time formatting
