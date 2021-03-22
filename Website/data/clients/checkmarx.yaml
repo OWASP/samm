@@ -1,0 +1,4 @@
+name: "checkmarx"
+image180: "/img/clients/checkmarx_180.png"
+image200: "/img/clients/checkmarx_200.png"
+url: "http://www.checkmarx.com"

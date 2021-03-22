@@ -1,3 +1,4 @@
 name: "toreon"
-image: "/img/clients/toreon_medium.png"
+image180: "/img/clients/toreon_180.png"
+image200: "/img/clients/toreon_200.png"
 url: "https://www.toreon.com/"

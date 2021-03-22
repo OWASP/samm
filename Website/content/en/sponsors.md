@@ -11,14 +11,7 @@ The OWASP Flagship designation is given to projects that have demonstrated strat
 Don't hesitate to [contact us](mailto:info@owaspsamm.org).
 
 ---
-[![Concord](../img/clients/concord_medium.png)](http://www.concordusa.com)
-[![Fortify](../img/clients/fortify_medium.png)](http://www.microfocus.com/en-us/solutions/application-security)
-[![Minded Security](../img/clients/minded_security_medium.png)](https://www.mindedsecurity.com/)
-[![NCC group](../img/clients/nccgroup_medium.png)](https://www.nccgroup.com/)  
-[![PWC](../img/clients/pwc_medium.png)](https://www.pwc.com/)
-[![Security Innovation](../img/clients/security_innovation_medium.png)](https://www.securityinnovation.com/)
-[![Splunk](../img/clients/splunk_medium.png)](https://www.splunk.com/)
-[![Toreon](../img/clients/toreon_medium.png)](https://www.toreon.com/)
+{{< sponsors >}}
 
 ---
 

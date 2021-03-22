@@ -21,10 +21,10 @@
                     {{ range .Site.Data.clients }}
                         {{ if .url }}
                           <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                            <img src="{{ .image180 }}" alt="{{ .name }}" class="img-responsive" />
                           </a>
                         {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          <img src="{{ .image180 }}" alt="{{ .name }}" class="img-responsive" />
                         {{ end }}
                     {{ end }}
                 </div>
