@@ -1,3 +1,4 @@
 name: "splunk"
-image: "/img/clients/splunk_medium.png"
+image180: "/img/clients/splunk_180.png"
+image200: "/img/clients/splunk_200.png"
 url: "https://www.splunk.com/"

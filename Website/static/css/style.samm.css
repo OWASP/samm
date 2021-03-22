@@ -3953,6 +3953,19 @@ a.list-group-item.active > .badge,
   }
 }
 
+.sponsors-flex-container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsors-flex-container img {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .flex-container {
     display: flex; /* or inline-flex */
     flex-direction: row;

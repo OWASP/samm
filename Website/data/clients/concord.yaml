@@ -1,3 +1,4 @@
 name: "concord"
-image: "/img/clients/concord_medium.png"
+image180: "/img/clients/concord_180.png"
+image200: "/img/clients/concord_200.png"
 url: "http://www.concordusa.com"
