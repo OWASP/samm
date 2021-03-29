@@ -1,0 +1,20 @@
+<div class="testimonials-flex-container testimonials">
+    {{ range .Site.Data.testimonials }}
+    <div class="item">
+        <div class="testimonial">
+            <div class="text">
+                <p>{{ .text | markdownify }}</p>
+            </div>
+            <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i>
+                </div>
+                <div class="name-picture">
+                    <img alt="photo" src="{{ .avatar | absURL }}">
+                    <h5>{{ .name }}</h5>
+                    <p>{{ .position }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
