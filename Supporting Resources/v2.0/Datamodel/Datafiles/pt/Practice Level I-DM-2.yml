@@ -1,0 +1,15 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice Level template/sample
+#===========================================================
+#Link to the practice, using its unique identifier
+practice: e17d573510904f65a1fe6040b56ad0b1
+#Link to the maturity level, using its unique identifier
+maturitylevel: 47dd82af343e4695a0385418af4398d1
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: b55c7a41eba747678a65651f5ccacaf2
+#Objective of this particular practice level
+objective: Defect tracking used to influence the deployment process.
+#Type Classification of the Document
+type: PracticeLevel
