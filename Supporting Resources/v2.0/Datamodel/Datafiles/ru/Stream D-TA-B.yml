@@ -1,0 +1,18 @@
+---
+#===========================================================
+#OWASP SAMM2 Activity Stream template/sample
+#===========================================================
+#Link to the security practice that this stream belongs to
+practice: f9269aebfe2c4d5b9293ba42a40a93ac
+#Unique identifier to refer to this stream
+id: ed5a9c3dd7884c88918a45dc9d231c5d
+#Official stream name
+name: Threat Modeling
+#Stream letter, A or B
+letter: B
+#Multi-paragraph explanation of the stream
+description: Threat modeling is intended to help software development teams understand what risks exist in what is being built, what could go wrong, and how we the risks can be mitigated or remediated.
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream
