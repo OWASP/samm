@@ -1,0 +1,18 @@
+---
+#===========================================================
+#OWASP SAMM2 Activity Stream template/sample
+#===========================================================
+#Link to the security practice that this stream belongs to
+practice: e17d573510904f65a1fe6040b56ad0b1
+#Unique identifier to refer to this stream
+id: 55bf5184ff7d4b76a444e52a28c803d9
+#Official stream name
+name: Metrics and Feedback
+#Stream letter, A or B
+letter: B
+#Multi-paragraph explanation of the stream
+description: Defect tracking can drive the improvement of security activities within the organization through metrics and feedback.
+#Relative order of the stream within the security stream  (A=1 ; B=2)
+order: 2
+#Type Classification of the Document
+type: Stream
