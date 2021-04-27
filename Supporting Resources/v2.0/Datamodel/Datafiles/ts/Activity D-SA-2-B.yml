@@ -1,0 +1,38 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: 79754453c74b4143b20a57d0efdaab56
+#Link to the practice level that this activity belongs to
+level: 41c8e63716c34f1eaf09b8cad70cfbaf
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 5e1dd310e28449058046c7af0fe46fce
+#The title of this activity
+title: Promote preferred tools and technologies
+#Describe the benefit that is achieved by implementing this activity
+benefit: Technologies with appropriate security level available to product teams
+#A one sentence description of the activity
+shortDescription: Standardize technologies and frameworks to be used throughout the different applications
+#A multi-paragraph description of the activity
+longDescription: |
+  Identify commonly used technologies, frameworks and tools in use across software projects in the organization, whereby you focus on capturing the high-level technologies.
+
+  Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organization.
+
+  Senior developers and architects create this list, including input from managers and security auditors. Share this list of recommended components with the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+relatedActivities:
+#Type Classification of the Document
+type: Activity
