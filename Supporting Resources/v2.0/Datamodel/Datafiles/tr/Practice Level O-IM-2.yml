@@ -1,0 +1,15 @@
+---
+#===========================================================
+#OWASP SAMM2 Security Practice Level - Incident Management, Level 2
+#===========================================================
+#Link to the practice, using its unique identifier
+practice: c13aa12c13d04362a3ca3385a8c580ee
+#Link to the maturity level, using its unique identifier
+maturitylevel: 47dd82af343e4695a0385418af4398d1
+#Unique identifier (GUID) used to refer to this practice level.
+#Please generate another identifier for your specific practice level.
+id: 439406325e6645519c149da3e05a7d9d
+#Objective of this particular practice level
+objective: Formal incident management process in place
+#Type Classification of the Document
+type: PracticeLevel
