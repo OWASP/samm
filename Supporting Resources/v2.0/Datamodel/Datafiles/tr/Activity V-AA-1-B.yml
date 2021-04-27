@@ -1,0 +1,36 @@
+---
+#===========================================================
+#OWASP SAMM Activity Description
+#===========================================================
+#Link to the stream that this activity belongs to
+stream: b7487370a07543cbb02ddb60c055d92f
+#Link to the practice level that this activity belongs to
+level: 39bc5d271fae4ea8ba53db7de7b2712c
+#Unique identifier (GUID) used to refer to this activity.
+#Please generate another identifier for your specific activity.
+id: 3ae763a70854421984dfa70980e1bf68
+#The title of this activity
+title: Evaluate architecture for typical threats
+#Describe the benefit that is achieved by implementing this activity
+benefit: Assures that the architecture protects against typical security threats.
+#A one sentence description of the activity
+shortDescription: Ad-hoc review of the architecture for unmitigated security threats.
+#A multi-paragraph description of the activity
+longDescription: |
+  Review the architecture for typical security threats. Security-savvy technical staff conduct this analysis with input from architects, developers, managers, and business owners as needed, to ensure the architecture addresses all common threats which development teams lacking specialised security expertise may have overlooked.
+
+  Typical threats in an architecture can relate to incorrect assumptions in, or overly reliance on, the provisioning of security mechanisms such as authentication, authorization, user and rights management, secure communication, data protection, key management and log management. Threats, on the other hand, can also relate to known limitations of, or issues in, technological components or frameworks that are part of the solution and for which insufficient mitigation has been put in place.
+#The output of this particular activity
+results:
+#The different metrics that can be used to measure the success of the activity
+metrics:
+#A description of the costs required to implement the activity
+costs:
+#The (standard) roles involved in the implementation of this activity
+personnel:
+#Internal notes that might help the author
+notes:
+#References to other activities that are prerequesites to implement this one.
+dependencies:
+#Type Classification of the Document
+type: Activity
