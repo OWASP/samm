@@ -8,7 +8,7 @@ model: SAMM20
 #Please generate another identifier for your specific function..
 id: fa340fa1816244d79f369ae82e998368
 #Official name of the function
-name: Verification
+name: Verificação
 #A multi-paragraph description of the function
 description: |
   Verification focuses on the processes and activities related to how an organization checks and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
@@ -20,4 +20,4 @@ logo: https://icon-library.net/icon/verification-icon-17.html
 #The relative order of the practice in the business function
 order: 4
 #Type Classification of the Document
-type: Function
+type: Função
