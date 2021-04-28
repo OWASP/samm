@@ -11,7 +11,7 @@ id: 102ad02df5dc4a8eb3837ef4ca2c1af4
 name: Governança
 #A multi-paragraph description of the function
 description: |
-  Governance focuses on the processes and activities related to how an organization manages overall software development activities. More specifically, this includes concerns that impact cross-functional groups involved in development, as well as business processes established at the organization level.
+  A governança foca nos processos e atividades relacionadas a como uma organização gerencia as atividades gerais de desenvolvimento. Mais especificamente, inclui preocupações que impactam grupos interfuncionais envolvidos no desenvolvimento, assim como os processos empresariais estabelecidos a nível de organização.
 #The color to be used to render the function and its subelements, in Hex RGB
 color:
 #228B22
