@@ -8,10 +8,10 @@ model: SAMM20
 #Please generate another identifier for your specific function..
 id: 942d679b0c9e41909f8bde728fdb1259
 #Official name of the Business Function
-name: Operations
+name: Operações
 #A multi-paragraph description of the Business Function
 description: |
-  The Operations Business Function encompasses those activities necessary to ensure confidentiality, integrity, and availability are maintained throughout the operational lifetime of an application and its associated data. Increased maturity with regard to this Business Function provides greater assurance that the organization is resilient in the face of operational disruptions, and responsive to changes in the operational landscape.
+  A função de operações engloba as atividades necessárias para garantir que confidencialidade, integridade e disponibilidade são mantidas durante todo o ciclo de vida operacional de uma aplicação e os dados a ela associados. Uma maior maturidade em relação a esta função oferece uma melhor garantia de que a organização é resiliente na ocorrência de perturbações e problemas e, ainda, responsiva a mudanças no cenário operacional.
 #The color to be used to render the function and its subelements, in Hex RGB
 color:
 #228B22
@@ -20,4 +20,4 @@ logo: https://icon-library.net/icon/operations-icon-13.html
 #The relative order of the Business Function within the core model
 order: 5
 #Type Classification of the Document
-type: Function
+type: Função
