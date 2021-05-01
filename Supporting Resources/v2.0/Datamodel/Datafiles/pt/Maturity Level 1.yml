@@ -8,6 +8,6 @@ id: 0a1dc80f84964f2fa776c5d8e932353a
 #The number of the marurity level
 number: 1
 #General description of this maturity level
-description: The first maturity level aims at achieving an ad-hoc, best effort implementation of a particular activity within a stream.
+description: O primeiro nível de maturidade visa alcançar uma implementação ad hoc, com o melhor esforço, de uma atividade específica em uma stream.
 #Type Classification of the Document
-type: MaturityLevel
+type: Nível de Maturidade
