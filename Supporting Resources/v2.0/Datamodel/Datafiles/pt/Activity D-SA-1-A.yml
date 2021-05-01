@@ -10,18 +10,18 @@ level: a11b78917dec4cfdad983cf6d1d17b61
 #Please generate another identifier for your specific activity.
 id: 27bb61f3c6344359b021caeaef5ab07e
 #The title of this activity
-title: Adhere to basic security principles
+title: Adira a princípios básicos de segurança
 #Describe the benefit that is achieved by implementing this activity
-benefit: Sets of security basic principles available to product teams
+benefit: Conjuntos de princípios básicos de segurança disponíveis para as equipes de produtos
 #A one sentence description of the activity
-shortDescription: Teams are trained on the use of basic security principles during design
+shortDescription: As equipes são treinadas sobre o uso dos princípios básicos de segurança durante o design
 #A multi-paragraph description of the activity
 longDescription: |
-  During design, technical staff on the product team use a short checklist of security principles. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
+  Durante o design, a equipe técnica do time de produtos utiliza um checklist de princípios de segurança. Normalmente, os princípios de segurança incluem defesa em profundidade, proteção do elo mais fraco, uso de padrões seguros, simplicidade no design de funcionalidades de segurança, falhas de segurança, equilíbrio entre segurança e usabilidade, menor privilégio, não utilização de segurança por obscuridade etc.
 
-  For perimeter interfaces, the team considers each principle in the context of the overall system and identify features that can be added to bolster security at each such interface. Limit these such that they only take a small amount of extra effort beyond the normal implementation cost of functional requirements. Note anything larger, and schedule it for future releases.
+  Para interfaces de perímetro, o time considera cada princípio no contexto do sistema como um todo e identifica recursos que podem ser adicionados para reforçar a segurança em cada uma dessas interfaces. Limite-os para que eles exijam apenas um pouco mais de esforço além do custo normal de implementação de requisitos funcionais. Observe e anote qualquer coisa maior e programe-os para o próximo lançamento.
 
-  Train each product team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.
+  Treine cada time de produtos com conscientização em segurança antes deste processo e incorpore equipes mais experientes em segurança para ajudar na tomada de decisões de design.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Atividade
