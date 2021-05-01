@@ -11,7 +11,7 @@ id: 88c296acaae841a2b2fc5314bff44cb4
 name: Design
 #A multi-paragraph description of the function
 description: |
-  Design concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include requirements gathering, high-level architecture specification and detailed design.
+  O design diz respeito aos processos e atividades relacionadas a como a organização define metas e desenvolve software dentro de seus projetos de desenvolvimento. De modo geral, inclui-se o levantamento de requisitos, especificação de arquitetura de alto nível e um design detalhado.
 #The color to be used to render the function and its subelements, in Hex RGB
 color:
 #993300
