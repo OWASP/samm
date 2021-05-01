@@ -8,6 +8,6 @@ id: 7bbfe31d447e48759ef0f2af25c31b43
 #The number of the marurity level
 number: 3
 #General description of this maturity level
-description: The third maturity level aims to maximize effectiveness through continuous improvement, based on effective and timely feedback.
+description: O terceiro nível de maturidade visa maximizar a efetividade através de uma melhoria contínua, com base em feedback eficaz e oportuno.
 #Type Classification of the Document
-type: MaturityLevel
+type: Nível de Maturidade
