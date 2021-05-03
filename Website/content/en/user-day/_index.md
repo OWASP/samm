@@ -13,13 +13,13 @@ In 2021 we'll have 2 User Days, one on May 27th and another one around November.
 
 Based on feedback from last year, we decided to have 2 shorter User Days instead of just one that lasts all day.
 
-## Call for presentations
+## Agenda
 
-Are you considering sharing your experiences and knowledge with the community? If you'd like to do a presentation during the SAMM User Day, please complete [this form](https://forms.gle/3K6ZXJQCX2mj2aMz9).
+We received several proposals for talks and workshops and want to thank you all for getting in touch. We had to narrow the list down to fit our half-a-day event, so here it is! There will be more opportunities to share your experience with the community.
 
-## More information soon
+{{< user_day_agenda_2021a >}}
 
-Don't forget to keep coming back to this page for more information as we put together a list of talks and get registration for the event started.
+Don't forget to keep coming back to this page for more information as we get closer to May 27th.
 
 ## Archive
 

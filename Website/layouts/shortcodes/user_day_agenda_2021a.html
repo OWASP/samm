@@ -1,0 +1,29 @@
+{{ if gt (len .Site.Data.sud2021a) 0 }}
+{{ with index .Site.Data.sud2021a }}
+{{"<!-- Start talk list -->" | safeHTML}}
+<table class="table samm-table" style="border: 1px solid rgba(102, 184, 184, .5);">
+    <tbody>
+        <tr>
+            <td class="samm-heading-row">Title</td>
+            <td class="samm-heading-row">Speaker</td>
+            <td class="samm-heading-row">Type</td>
+        </tr>
+        {{ range sort . "weight" }}
+            {{ if eq .type "Break" }}
+                <tr>
+                    <td colspan="3" class="samm-break-row">BREAK</td>
+                </tr>
+            {{ else }}
+                {{"<!-- SUD talk -->" | safeHTML}}
+                <tr>
+                    <td class="samm-title-row"><a href="{{ .url }}">{{ .name }}</a></td>
+                    <td class="samm-row">{{ .presenter }}</td>
+                    <td class="samm-row">{{ .type }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
+    </tbody>
+</table>
+{{"<!-- End talk list -->" | safeHTML}}
+{{ end }}
+{{ end }}
