@@ -13,17 +13,18 @@
         </div>
         <div class="col-md-9">
             <h3>{{ .Params.speaker }}</h3>
-            <p>
-                {{ .Params.affiliation }}
-                </br>
-                {{ .Params.role }}
-            </p>
             {{ with .Params.twitter }}
                 <a href="https://twitter.com/{{ . }}" target="_blank"><i class="fab fa-2x fa fa-twitter-square"></i></a>
             {{ end }}
             {{ with .Params.linkedin }}
                 <a href="https://linkedin.com/in/{{ . }}" target="_blank"><i class="fab fa-2x fa fa-linkedin-square"></i></a>
             {{ end }}
+            </br></br>
+            <p>
+                {{ .Params.affiliation }}
+                </br>
+                {{ .Params.role }}
+            </p>
         </div>
     </div>
     {{ with .Params.abstract }}
