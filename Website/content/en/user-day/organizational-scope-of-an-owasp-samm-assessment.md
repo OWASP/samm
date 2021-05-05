@@ -23,6 +23,6 @@ abstract: |
 bio: | 
     Carsten has over 10 years of experience in application security. He has carried out numerous AppSec program rollouts and deployments as a professional services consultant at HP and Fortify Software before becoming the practice principal of the Fortify professional services team in EMEA and managing a team of up to about eight software security consultants. 
 
-    When joining Checkmarx in 2016, Carsten initially worked as the first Technical Account Manager (TAM) at Checkmarx in EMEA, handling some of the largest accounts of Checkmarx. After about 1.5 years in this role Carsten started building the team of technical account managers around him and a year later also the AppSec advisor team. Carsten has contributed to the OWASP OpenSAMM standard and has presented at various application security conferences.
+    When joining Checkmarx in 2016, Carsten initially worked as the first Technical Account Manager (TAM) at Checkmarx in EMEA, handling some of the largest accounts of Checkmarx. After about 1.5 years in this role Carsten started building the team of technical account managers around him and a year later also the AppSec advisor team. Carsten has contributed to the OWASP SAMM project and has presented at various application security conferences.
 
 ---
