@@ -4,7 +4,7 @@
 <table class="table samm-table" style="border: 1px solid rgba(102, 184, 184, .5);">
     <tbody>
         <tr>
-            <td class="samm-heading-row">CEST</td>
+            <td class="samm-heading-row">UTC</td>
             <td class="samm-heading-row">Title</td>
             <td class="samm-heading-row">Speaker</td>
             <td class="samm-heading-row">Type</td>
@@ -12,7 +12,7 @@
         {{ range sort . "weight" }}
             {{ if eq .type "Break" }}
                 <tr>
-                    <td colspan="4" class="samm-break-row">BREAK</td>
+                    <td colspan="4" class="samm-break-row">{{ .time }}&nbsp;-&nbsp;{{ .name }}</td>
                 </tr>
             {{ else }}
                 {{"<!-- SUD talk -->" | safeHTML}}
