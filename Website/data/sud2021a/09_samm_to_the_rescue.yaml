@@ -1,0 +1,8 @@
+weight: 9
+youtubeUrl:
+downloadUrl:
+url: "owasp-samm-to-the-rescue"
+name: "OWASP SAMM to the rescue? On the intricate challenges of setting up a secure CICD pipeline"
+type: "Presentation"
+presenter: "Asier Rivera Fernandez and Nessim Kisserli"
+time: "15.00"

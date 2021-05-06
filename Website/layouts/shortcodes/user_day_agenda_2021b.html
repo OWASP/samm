@@ -1,0 +1,27 @@
+{{ if gt (len .Site.Data.sud2021a) 0 }}
+{{ with index .Site.Data.sud2021a }}
+{{"<!-- Start talk list -->" | safeHTML}}
+<div class="sud-agenda">
+    {{ range sort . "weight" }}
+    <div class="sud-line">
+            {{ if eq .type "Break" }}
+        <div class="sud-break">
+                {{ .time }} &nbsp; {{ .name }}
+        </div>
+        {{ else }}
+            {{"<!-- SUD talk -->" | safeHTML}}
+            <div class="sud-time ">{{ .time }}</div>
+            <div class="sud-talk">
+                <a href="{{ .url }}">{{ .name }}</a>
+                <br>
+                {{ .presenter }}
+                <br>
+                {{ .type }}
+            </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>    
+{{"<!-- End talk list -->" | safeHTML}}
+{{ end }}
+{{ end }}
