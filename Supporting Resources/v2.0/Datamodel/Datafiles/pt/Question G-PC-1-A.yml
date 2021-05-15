@@ -10,7 +10,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: d15bfcd426d24a43b9417a0464b3af44
 #One-sentence description of the criterium
-text: Do you have and apply a common set of policies and standards throughout your organization?
+text: Você tem e aplica um conjunto comum de políticas e padrões em toda a sua organização?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
