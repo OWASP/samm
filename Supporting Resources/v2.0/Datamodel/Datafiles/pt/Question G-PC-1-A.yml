@@ -15,7 +15,7 @@ text: Você tem e aplica um conjunto comum de políticas e padrões em toda a su
 order: 1
 #Qualifying Criterion
 quality:
-  - You have adapted existing standards appropriate for the organization’s industry to account for domain-specific considerations
-  - Your standards are aligned with your policies and incorporate technology-specific implementation guidance
+  - Você adaptou os padrões existentes apropriados à indústria/ao setor da organização para levar em conta considerações específicas do domínio
+  - Seus padrões estão alinhados com suas políticas e incorporam orientações de implementação específicas de tecnologias
 #Type Classification of the Document
-type: Question
+type: Questão
