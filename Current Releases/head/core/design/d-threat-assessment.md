@@ -1,7 +1,7 @@
 ---
 business_functions : Design
 title : Threat Assessment
-assignedto       : John Ellingsworth
+assignedto       : Yassine Amraoui
 complete          : 50%
 weight: 1
 type: security_practice
