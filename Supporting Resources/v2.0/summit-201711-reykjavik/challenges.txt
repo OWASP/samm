@@ -1,8 +1,0 @@
-Defect vs. incident vs. vulnerability management: where's the difference or focus ?
-Operational enablement: rather part of deploy ?
-Policy & Compliance: reduce into stream (theme?) or activity ? Or move it into security requirements ? (move policy into S&M and compliance into Requirements ?)
-Metrics: change current metrics into more useful metrics. Metrics should be a stream on its own. Build the process around setting up a metrics strategy.
-Guidelines: difference between compliance and technical guidelines is OK. Keep technical guidelines in its current place.
-E&G: somehow represent Organisational structure / culture / responsabilities
-Discussion about guidance on ordered execution of activities (in a stream) vs. just a bucket of activities (prescriptive vs. descriptive); SAMM vs. BSIMM difference. 
-Core model vs. extended model (relevant for every maturity level, not only for level 3+). Our model becomes more prescriptive and more focused than before due to the streams.
