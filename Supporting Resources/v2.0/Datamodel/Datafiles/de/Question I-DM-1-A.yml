@@ -10,14 +10,14 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 7f92b3f940cb4229a6079016269d76c6
 #One-sentence description of the criterium
-text: Do you track all known security defects in accessible locations?
+text: Verfolgen Sie alle bekannten Sicherheitsmängel an zugänglichen Stellen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You can easily get an overview of all security defects impacting one application
-  - You have at least a rudimentary classification scheme in place
-  - The process includes a strategy for handling false positives and duplicate entries
-  - The defect management system covers defects from various sources and activities
+  - Sie können sich leicht einen Überblick über alle Sicherheitsmängel verschaffen, die eine Anwendung betreffen
+  - Sie haben zumindest ein rudimentäres Klassifizierungsschema erstellt
+  - Der Prozess umfasst eine Strategie für den Umgang mit falsch-positiven und doppelten Einträgen
+  - Das Fehlermanagementsystem umfasst Fehler aus verschiedenen Quellen und Tätigkeiten
 #Type Classification of the Document
-type: Question
+type: Frage
