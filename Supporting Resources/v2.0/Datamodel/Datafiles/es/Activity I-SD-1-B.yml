@@ -10,18 +10,18 @@ level: 5015427608de428cba3c324772fb4191
 #Please generate another identifier for your specific activity.
 id: 77a5f467ffe140e2a2839bb522e82c4e
 #The title of this activity
-title: Protect application secrets in configuration and code
+title: Proteger secretos de la aplicación en la configuración y el código
 #Describe the benefit that is achieved by implementing this activity
-benefit: Defined and limited access to your production secrets
+benefit: Acceso definido y limitado a tus secretos de producción
 #A one sentence description of the activity
-shortDescription: Introduce basic protection measures to limit access to your production secrets.
+shortDescription: Introducir medidas de protección básicas para limitar el acceso a sus secretos de producción.
 #A multi-paragraph description of the activity
 longDescription: |
-  Developers should not have access to secrets or credentials for production environments. Have a mechanism in place to adequately protect production secrets, for instance by (i) having specific persons adding them to relevant configuration files upon deployment (the separation of duty principle) or (ii) by encrypting the production secrets contained in the configuration files upfront.
+  Los desarrolladores no deben tener acceso a secretos o credenciales para entornos de producción. Disponer de un mecanismo para proteger adecuadamente los secretos de producción, por ejemplo, (i) haciendo que personas específicas los agreguen a los archivos de configuración relevantes en el momento de la implementación (el principio de separación de funciones) o (ii) encriptando los secretos de producción contenidos en los archivos de configuración por adelantado.
 
-  Do not use production secrets in configuration files for development or testing environments, as such environments may have a significantly lower security posture. Similarly, do not keep secrets unprotected in configuration files stored in code repositories.
+  No utilice secretos de producción en archivos de configuración para entornos de desarrollo o prueba, ya que dichos entornos pueden tener una postura de seguridad significativamente más baja. Del mismo modo, no guarde secretos desprotegidos en archivos de configuración almacenados en repositorios de código.
 
-  Store sensitive credentials and secrets for production systems with encryption-at-rest at all times. Consider using a purpose-built tool for this. Handle key management carefully so only personnel with responsibility for production deployments are able to access this data.
+  Almacene credenciales confidenciales y secretos para sistemas de producción con cifrado en reposo en todo momento. Considere usar una herramienta especialmente diseñada para esto. Maneje la administración de claves con cuidado para que solo el personal responsable de las implementaciones de producción pueda acceder a estos datos.
 #The output of this particular activity
 results:
   - result1
@@ -34,11 +34,11 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
-  - Administrator
-  - Security Engineer
+  - Desarrollador
+  - Administrador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   - 994bcac2bb7c4cc59a0faa365a0b58a0
