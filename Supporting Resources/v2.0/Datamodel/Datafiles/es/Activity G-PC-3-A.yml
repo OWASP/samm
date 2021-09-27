@@ -10,16 +10,16 @@ level: 61ae1e4268b24d7986805658c89b5e54
 #Please generate another identifier for your specific activity.
 id: fe7afe5fc04742bcbe476d4ba37d8091
 #The title of this activity
-title: Measure compliance to policies and standards
+title: Medición del cumplimiento con políticas y estándares
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of your organization’s compliance with policies and standards
+benefit: Entendimiento del cumplimiento de las políticas y estándares de la organización
 #A one sentence description of the activity
-shortDescription: Measure and report on the status of individual application’s adherence to policies and standards.
+shortDescription: Medir e informar sobre el estado de la adherencia de cada aplicación a las políticas y estándares.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop a program to measure each application’s compliance with existing policies and standards. Mandatory requirements should be motivated and reported consistently across all teams. Whenever possible, tie compliance status into automated testing and report with each version. Compliance reporting includes the version of policies and standards and appropriate code coverage factors.
+  Desarrolle un programa para medir el cumplimiento de cada aplicación con las políticas y estándares existentes. Los requisitos obligatorios deben estar motivados e informados de manera consistente en todos los equipos. Siempre que sea posible, vincule el estado de cumplimiento con pruebas automatizadas e informe con cada versión. Los informes de cumplimiento incluyen la versión de las políticas y los estándares y los factores de cobertura del código adecuados.
 
-  Encourage non-compliant teams to review available resources such as security requirements and test scripts, to ensure non-compliance is not a result of inadequate guidance. Forward issues resulting from insufficient guidance to the teams responsible for publishing application requirements and test scripts, to include them in the future releases. Escalate issues resulting from the inability to meet policies and standards the teams that handle application security risks.
+  Anime a los equipos que no cumplen a revisar los recursos disponibles, como los requisitos de seguridad y los scripts de prueba, para asegurarse de que el incumplimiento no sea el resultado de una guía inadecuada. Reenvíe los problemas que resulten de una guía insuficiente a los equipos responsables de publicar los requisitos de la aplicación y los scripts de prueba, para incluirlos en las versiones futuras. Escale los problemas resultantes de la incapacidad de cumplir con las políticas y estándares de los equipos que manejan los riesgos de seguridad de las aplicaciones.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
