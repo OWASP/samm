@@ -10,18 +10,18 @@ level: 61ae1e4268b24d7986805658c89b5e54
 #Please generate another identifier for your specific activity.
 id: e7ba346fabdc44beb47e2c67c14a6726
 #The title of this activity
-title: Measure compliance to external requirements
+title: Messung der Einhaltung von externen Anforderungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of your organization’s compliance with external compliance drivers
+benefit: Verständnis der Konformität Ihres Unternehmens mit externen Compliance-Treibern
 #A one sentence description of the activity
-shortDescription: Measure and report on individual application’s compliance with 3rd party requirements.
+shortDescription: Messung und Berichterstattung über die Übereinstimmung einzelner Anwendungen mit den Anforderungen von Dritten.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop a program for measuring and reporting on the status of compliance between different applications. Application requirements and test scripts help determine the status of compliance. Leverage testing automation to promptly detect compliance regressions in frequently updated applications and ensure compliance is maintained through the different application versions. Whenever fully automated testing is not possible, QA, Internal Audit, or Information Security teams assess compliance periodically through a combination of manual testing and interview.
+  Ntwicklung eines Programms zur Messung und Berichterstattung über den Status der Konformität zwischen verschiedenen Anwendungen. Anhand von Anwendungsanforderungen und Testskripten lässt sich der Status der Konformität ermitteln. Nutzen Sie die Testautomatisierung, um Regressionen bei der Einhaltung von Richtlinien in häufig aktualisierten Anwendungen sofort zu erkennen und sicherzustellen, dass die Einhaltung der Richtlinien in den verschiedenen Anwendungsversionen beibehalten wird. Wenn vollautomatische Tests nicht möglich sind, bewerten QA-, Innenrevisions- oder Informationssicherheitsteams die Konformität in regelmäßigen Abständen durch eine Kombination aus manuellen Tests und Befragungen.
 
-  While full compliance is always the ultimate goal, include tracking remediation actions and periodic updates in the program. Review compliance remediation activities periodically to check teams are making appropriate progress, and that remediation strategies will be effective in achieving compliance. To further improve the process, develop a series of standard reports and compliance scorecards. These help individual teams understand the current state of compliance, and the organization manage assistance for remediating compliance gaps more effectively.
+  Obwohl die vollständige Einhaltung der Vorschriften immer das oberste Ziel ist, sollten Sie die Verfolgung von Abhilfemaßnahmen und regelmäßige Aktualisierungen in das Programm aufnehmen. Überprüfen Sie die Abhilfemaßnahmen zur Einhaltung der Vorschriften in regelmäßigen Abständen, um sicherzustellen, dass die Teams angemessene Fortschritte machen und dass die Abhilfestrategien zur Einhaltung der Vorschriften wirksam sind. Zur weiteren Verbesserung des Prozesses sollten Sie eine Reihe von Standardberichten und Scorecards für die Einhaltung der Vorschriften entwickeln. Diese helfen den einzelnen Teams, den aktuellen Stand der Compliance zu verstehen, und der Organisation, die Unterstützung bei der Behebung von Compliance-Lücken effektiver zu gestalten.
 
-  Review compliance gaps requiring significant expenses or development with the subject-matter experts and compare them against the cost of reducing the application’s functionality, minimizing scope or eliminating the compliance requirement. longterm compliance gaps require management approval and a formal compliance risk acceptance, so they receive appropriate attention and scrutiny from the organization’s leadership.
+  Prüfen Sie Compliance-Lücken, die erhebliche Ausgaben oder Entwicklungsarbeiten erfordern, gemeinsam mit den Fachexperten und vergleichen Sie diese mit den Kosten, die durch die Reduzierung der Anwendungsfunktionalität, die Minimierung des Umfangs oder die Beseitigung der Compliance-Anforderung entstehen würden. Langfristige Compliance-Lücken erfordern die Genehmigung durch die Geschäftsleitung und eine formelle Akzeptanz des Compliance-Risikos, so dass sie von der Unternehmensführung angemessen berücksichtigt und geprüft werden.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
