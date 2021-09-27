@@ -15,7 +15,7 @@ text: Do you have a complete picture of your external compliance obligations?
 order: 1
 #Qualifying Criterion
 quality:
-  - You have identified all sources of external compliance obligations
-  - You have captured and reconciled compliance obligations from all sources
+  - Sie haben alle Quellen für externe Compliance-Verpflichtungen ermittelt
+  - Sie haben die Compliance-Verpflichtungen aus allen Quellen erfasst und abgeglichen
 #Type Classification of the Document
-type: Question
+type: Frage
