@@ -10,5 +10,5 @@ maturitylevel: 7bbfe31d447e48759ef0f2af25c31b43
 #Please generate another identifier for your specific practice level.
 id: f8b6eebc0662477f9286aa4f6068e364
 #Objective of this particular practice level
-objective: Mandate security requirements process for all software projects and third-party dependencies. #Type Classification of the Document
-type: PracticeLevel
+objective: Festlegung von Sicherheitsanforderungen für alle Softwareprojekte und Abhängigkeiten von Dritten. #Type Classification of the Document
+type: Praxis Level
