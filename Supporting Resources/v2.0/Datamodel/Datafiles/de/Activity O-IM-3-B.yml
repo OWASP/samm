@@ -10,20 +10,20 @@ level: 6fe1973911bf4e54b018da10a5aa80a1
 #Please generate another identifier for your specific activity.
 id: f692ee8f87c1499681490cc1647c0df4
 #The title of this activity
-title: Establish an incident response team
+title: Einrichtung eines Incident Response Team für Zwischenfälle
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient incident response independent of time, location, or type of incident
+benefit: Effiziente Reaktion auf Vorfälle unabhängig von Zeit, Ort oder Art des Vorfalls
 #A one sentence description of the activity
-shortDescription: Employ a dedicated, well-trained incident response team.
+shortDescription: Einsatz eines engagierten, gut ausgebildeten Reaktionsteams für Zwischenfälle.
 #A multi-paragraph description of the activity
 longDescription: |
-  Establish a dedicated incident response team, continuously available and responsible for continuous process improvement with the help of regular RCAs. For distributed organizations, define and document logistics rules for all relevant locations if sensible.
+  Etablieren Sie ein dediziertes Incident Response Team, das ständig zur Verfügung steht und mit Hilfe regelmäßiger RCAs für eine kontinuierliche Prozessverbesserung verantwortlich ist. Definieren und dokumentieren Sie bei verteilten Organisationen Logistikregeln für alle relevanten Standorte, sofern dies sinnvoll ist.
 
-  Document detailed incident response procedures and keep them up to date. Automate procedures where appropriate. Keep all resources necessary for these procedures (e.g., separate communicating infrastructure or reliable external location) ready to use. Detect and correct unavailability of these resources in a timely manner.
+  Dokumentieren Sie detaillierte Verfahren zur Reaktion auf Vorfälle und halten Sie diese auf dem neuesten Stand. Automatisieren Sie Verfahren, wo dies sinnvoll ist. Halten Sie alle für diese Verfahren erforderlichen Ressourcen (z. B. eine separate Kommunikationsinfrastruktur oder einen zuverlässigen externen Standort) einsatzbereit. Erkennen und korrigieren Sie die Nichtverfügbarkeit dieser Ressourcen zeitnah.
 
-  Carry out incident and emergency exercises are regularly. Use the results for process improvement.
+  Führen Sie regelmäßig Störfall- und Notfallübungen durch. Nutzen Sie die Ergebnisse zur Prozessverbesserung.
 
-  Define, gather, evaluate, and act upon metrics on the incident response process, including its continuous improvement.
+  Definition, Erfassung, Bewertung und Umsetzung von Kennzahlen für den Prozess der Reaktion auf Vorfälle, einschließlich seiner kontinuierlichen Verbesserung.
 ##The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -37,4 +37,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
