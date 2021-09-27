@@ -10,21 +10,21 @@ level: 420074f071fb4ab6b6ee6ef44c4f4f1c
 #Please generate another identifier for your specific activity.
 id: 43d347fd280845718f16ccc811e5d942
 #The title of this activity
-title: Drive the security program through metrics
+title: Vorantreiben des Sicherheitsprogramms durch Metriken
 #Describe the benefit that is achieved by implementing this activity
-benefit: Continuous improvement of your program according to results
+benefit: Kontinuierliche Verbesserung Ihres Programms anhand der Ergebnisse
 #A one sentence description of the activity
-shortDescription: Influence the strategy based on the metrics and organizational needs.
+shortDescription: Beeinflussung der Strategie auf der Grundlage der Metriken und der organisatorischen Anforderungen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics. These guidelines  combine the maturity of the application development process and procedures  with different metrics to make the program more efficient. The following examples show a relationship between measurements and ways of evolving and improving application security
+  Definition von Richtlinien zur Beeinflussung des Anwendungssicherheits-(AppSec)-Programms auf der Grundlage von Kennzahlen (KPIs) und anderen Metriken zur Anwendungssicherheit. Diese Richtlinien kombinieren den Reifegrad des Anwendungsentwicklungsprozesses und der Verfahren mit verschiedenen Metriken, um das Programm effizienter zu gestalten. Die folgenden Beispiele zeigen eine Beziehung zwischen Messungen und Möglichkeiten zur Entwicklung und Verbesserung der Anwendungssicherheit
 
-  * Focus on maturity of the development lifecycle makes the relative cost per defect lower by applying security proactively.
-  * Monitoring the balance between effort, result, and environment metrics improves the program’s efficiency and justifies additional automation and other methods for improving the overall application security baselines.
-  * Individual Security Practices could provide indicators of success or failure of individual application security initiatives.
-  * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
+  * Die Konzentration auf die Reife des Entwicklungslebenszyklus senkt die relativen Kosten pro Fehler durch proaktive Anwendung der Sicherheit.
+  * Die Überwachung des Gleichgewichts zwischen Aufwand, Ergebnis und Umgebungsmetriken verbessert die Effizienz des Programms und rechtfertigt zusätzliche Automatisierung und andere Methoden zur Verbesserung der allgemeinen Anwendungssicherheits-Baselines.
+  * Einzelne Sicherheitspraktiken könnten Indikatoren für den Erfolg oder Misserfolg einzelner Initiativen zur Anwendungssicherheit liefern.
+  * Aufwandsmetriken tragen dazu bei, dass die Arbeit im Bereich der Anwendungssicherheit auf die relevanten und wichtigen Technologien und Disziplinen ausgerichtet wird.
 
-  When defining the overall metrics strategy, keep the end-goal in mind and define what decisions can be made as a result of changes in KPIs and metrics as soon as possible, to help guide development of metrics.
+  Bei der Festlegung der Gesamtstrategie für die Metrik sollte das Endziel im Auge behalten werden, und es sollte so schnell wie möglich festgelegt werden, welche Entscheidungen aufgrund von Änderungen der Kennzahlen (KPIs) und Metriken getroffen werden können, um die Entwicklung von Metriken zu unterstützen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -38,4 +38,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
