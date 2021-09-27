@@ -10,18 +10,18 @@ level: 1a55b2c4666f4336a3f5c12c5bb4a1e9
 #Please generate another identifier for your specific activity.
 id: 1cc77725cb2349f394477838668f6184
 #The title of this activity
-title: Standardize and integrate security requirements
+title: Estandarizar e integrar requisitos de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Alignment of security requirements with other types of requirements
+benefit: Alineación de los requisitos de seguridad con otros tipo de requerimientos
 #A one sentence description of the activity
-shortDescription: Structured security requirements are available and utilized by developer teams.
+shortDescription: Los requisitos de seguridad estructurados están disponibles y son utilizados por los equipos de desarrolladores.
 #A multi-paragraph description of the activity
 longDescription: |
-  Security requirements can originate from other sources including policies and legislation, known problems within the application, and intelligence from metrics and feedback. At this level, a more systematic elicitation of security requirements must be achieved by analysing different sources of such requirements. Ensure that appropriate input is received from these sources to help the elicitation of requirements. For example, organize interviews or brainstorm sessions (e.g., in the case of policy and legislation), analyze historical logs or vulnerability systems.
+  Los requisitos de seguridad pueden provenir de otras fuentes, incluyendo políticas y legislación, problemas conocidos dentro de la aplicación, e inteligencia a partir de métricas y retroalimentación. A este nivel, se debe lograr una elusión más sistemática de los requisitos de seguridad mediante el análisis de diferentes fuentes de dichos requisitos. Asegurarse de que se recibe una entrada apropiada de estas fuentes para ayudar a la obtención de requisitos. Por ejemplo, organice entrevistas o sesiones de lluvia de ideas (por ejemplo, en el caso de políticas y legislaciones), analizar registros históricos o sistemas de vulnerabilidad.
 
-  Use a structured notation of security requirements across applications and an appropriate formalism that integrates well with how you specify other (functional) requirements for the project. This could mean, for example, extending analysis documents, writing user stories, etc.
+  Utilice una notación estructurada de los requisitos de seguridad a través de aplicaciones y un formalismo apropiado que se integre bien con la forma en que especifica otros requisitos (funcionales) para el proyecto. Esto podría significar, por ejemplo, ampliar los documentos de análisis, escribir historias de usuarios, etc.
 
-  When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. For example, annotate requirements with priorities, or influence the handling of requirements to enforce sufficient security appetite (while balancing against other non-functional requirements).
+  Cuando se especifican los requisitos, es importante asegurarse de que estos requisitos sean tenidos en cuenta durante el desarrollo del producto. Establecer un mecanismo para estimular o forzar a los equipos de proyectos a cumplir estos requisitos en el producto. Por ejemplo, anotar los requisitos con prioridades, o influir en el manejo de los requisitos para hacer cumplir el apetito de seguridad suficiente (a la vez que se equilibra con otros requisitos no funcionales).
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
