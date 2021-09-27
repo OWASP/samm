@@ -10,18 +10,18 @@ level: 812abdd0a2b54366a497919f8463911a
 #Please generate another identifier for your specific activity.
 id: 7003146cf1a1450293001754fe74787d
 #The title of this activity
-title: Automate security requirements testing
+title: Automatizar las pruebas de requisitos de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Timely and reliable detection of violations to security requirements
+benefit: Detección oportuna y fiable de violaciones a los requisitos de seguridad
 #A one sentence description of the activity
-shortDescription: Perform regression testing (with security unit tests)
+shortDescription: Realizar pruebas de regresión (con pruebas de unidades de seguridad)
 #A multi-paragraph description of the activity
 longDescription: |
-  Write and automate regression tests for all identified (and fixed) bugs to ensure that these become a test harness preventing similar issues being introduced during later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
+  Escriba y automatice pruebas de regresión para todos los errores identificados (y corregidos) para garantizar que se conviertan en un arnés de prueba que evite que se introduzcan problemas similares en versiones posteriores. Las pruebas unitarias de seguridad deben verificar dinámicamente (es decir, en tiempo de ejecución) que los componentes funcionan como se espera y deben validar que los cambios de código se implementan correctamente.
 
-  A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as Identity, Authentication & Access Control, Input Validation & Encoding, User and Session Management, Error and Exception Handling, Encryption, and Auditing and Logging. Verify the correct execution of the security tests as early as possible. If feasible for example, consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base. Alternatively, consider their passing a requirement for validating a build.
+  Una buena práctica para los desarrolladores es crear casos de prueba de seguridad como un conjunto de pruebas de seguridad genérico que forma parte del marco de prueba unitario existente. Un conjunto de pruebas de seguridad genérico puede incluir casos de prueba de seguridad para validar los requisitos positivos y negativos de los controles de seguridad, como la identidad, la autenticación y el control de acceso, la validación y codificación de entrada, la gestión de usuarios y sesiones, la gestión de errores y excepciones, el cifrado y la auditoría y el registro. Verifique la correcta ejecución de las pruebas de seguridad lo antes posible. Si es factible, por ejemplo, considere la aprobación de las pruebas de seguridad como parte de los requisitos de combinación antes de permitir que el nuevo código ingrese a la base del código principal. Alternativamente, considere su aprobación como un requisito para validar una compilación.
 
-  For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.
+  Para las pruebas funcionales de seguridad, utilice pruebas de nivel de unidad para la funcionalidad de los controles de seguridad a nivel de componente de software, como funciones, métodos o clases. Por ejemplo, un caso de prueba podría verificar la validación de entrada y salida (por ejemplo, saneamiento de variables) y verificaciones de límites para las variables afirmando la funcionalidad esperada del componente.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
