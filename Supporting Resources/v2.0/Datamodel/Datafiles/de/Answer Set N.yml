@@ -15,21 +15,21 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, it covers general risks
-    value: 0.25
+    text: Ja, es deckt allgemeine Risiken ab
+    value: 0
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, it covers organization-specific risks
-    value: 0.5
+    text: Ja, es deckt organisationsspezifische Risiken ab
+    value: 0
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, it covers risks and opportunities
+    text: Ja, es deckt Risiken und Chancen ab
     value: 1
     weight: 1
     order: 3
 #Type Classification of the Document
-type: AnswerSet
+type: Antwortmöglichkeiten
