@@ -15,19 +15,19 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, for some components
+    text: Sim, para alguns componentes
     value: 0.25
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, for at least half of the components
+    text: Sim, para pelo menos metade dos componentes
     value: 0.5
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, for most or all of the components
+    text: Sim, para a maioria ou para todos os componentes
     value: 1
     weight: 1
     order: 3
