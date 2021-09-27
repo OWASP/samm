@@ -10,16 +10,16 @@ level: 9d1e469966124c0fa80d1bc2fc223a0a
 #Please generate another identifier for your specific activity.
 id: 3afce608ad7c42deb37a04d6b86e5c33
 #The title of this activity
-title: Enforce the use of recommended technologies
+title: Forzar el uso de tecnologías recomendadas
 #Describe the benefit that is achieved by implementing this activity
-benefit: Limited attack surface due to usage of vetted technologies
+benefit: Superficie de ataque limitada por el uso de tecnologías aprobadas
 #A one sentence description of the activity
-shortDescription: Impose the use of standard technologies on all software development.
+shortDescription: Imponer el uso de tecnologías estándar en todo desarrollo de software.
 #A multi-paragraph description of the activity
 longDescription: |
-  For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organization, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks.
+  Para todo desarrollo propietario (interno o adquirido), imponen y controlan el uso de la tecnología estandarizada. Dependiendo de su organización, implemente estas restricciones en herramientas de construcción o despliegue mediante análisis automatizados de los efectos de aplicación (por ejemplo: código fuente, archivos de configuración o elementos de implementación) o revisión periódica centrándose en el uso correcto de estos frameworks.
 
-  Verify several factors with project teams. Identify use of non-recommended technologies to determine if there are gaps in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, implement functionality in the reference platforms as the organization evolves and project teams request it.
+  Verificar varios factores con los equipos del proyecto. Identificar el uso de tecnologías no recomendadas para determinar si hay lagunas en las recomendaciones frente a las necesidades de la organización. Examinar los patrones de diseño y los módulos de plataforma de referencia no utilizados o incorrectamente para determinar si se necesitan actualizaciones. Adicionalmente, implementar la funcionalidad en las plataformas de referencia a medida que la organización evoluciona, y los equipos del proyecto lo solicitan.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
