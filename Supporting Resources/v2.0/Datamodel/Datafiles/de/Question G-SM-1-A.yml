@@ -10,14 +10,14 @@ answerset: f678b7a00f2441148087d48f8e0a6ad1
 #Please generate another identifier for your specific maturity level.
 id: 64f49a28334e4a40a04e534225a941d2
 #One-sentence description of the criterium
-text: Do you understand the enterprise-wide risk appetite for your applications ?
+text: Kennen Sie die unternehmensweite Risikobereitschaft für Ihre Anwendungen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You capture the risk appetite of your organization's executive leadership
-  - The organization's leadership vet and approve the set of risks
-  - You identify the main business and technical threats to your assets and data
-  - You document risks and store them in an accessible location
+  - Sie erfassen die Risikobereitschaft der Führungsebene Ihres Unternehmens
+  - Die Leitung der Organisation prüft und genehmigt das Risikopaket
+  - Sie identifizieren die wichtigsten geschäftlichen und technischen Bedrohungen für Ihre Vermögenswerte und Daten
+  - Sie dokumentieren Risiken und bewahren sie an einem zugänglichen Ort auf
 #Type Classification of the Document
-type: Question
+type: Frage
