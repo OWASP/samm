@@ -10,18 +10,18 @@ level: 41c8e63716c34f1eaf09b8cad70cfbaf
 #Please generate another identifier for your specific activity.
 id: 5e1dd310e28449058046c7af0fe46fce
 #The title of this activity
-title: Promote preferred tools and technologies
+title: Promover herramientas y tecnologías preferidas
 #Describe the benefit that is achieved by implementing this activity
-benefit: Technologies with appropriate security level available to product teams
+benefit: Tecnologías con un nivel de seguridad adecuado disponibles para equipos de producción
 #A one sentence description of the activity
-shortDescription: Standardize technologies and frameworks to be used throughout the different applications
+shortDescription: Estandarizar tecnologías y frameworks para ser utilizados a través de las diferentes aplicaciones
 #A multi-paragraph description of the activity
 longDescription: |
-  Identify commonly used technologies, frameworks and tools in use across software projects in the organization, whereby you focus on capturing the high-level technologies.
+  Identificar las tecnologías, frameworks y herramientas comúnmente utilizadas en todos los proyectos de software de la organización, por medio de los cuales usted se centra en capturar las tecnologías de alto nivel.
 
-  Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organization.
+  Cree una lista y compártela a través de la organización de desarrollo según las tecnologías recomendadas. Al seleccionarlos, considerar historial de incidentes, registro de seguimiento para responder a vulnerabilidades, idoneidad de funcionalidad para la organización, excesiva complejidad en el uso del componente de terceros, y suficiente conocimiento dentro de la organización.
 
-  Senior developers and architects create this list, including input from managers and security auditors. Share this list of recommended components with the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
+  Los desarrolladores senior y los arquitectos crean esta lista, incluyendo la entrada de administradores y auditores de seguridad. Comparta esta lista de componentes recomendados con la organización de desarrollo. En última instancia, el objetivo es proporcionar valores predeterminados bien conocidos para equipos de proyecto. Realizar una revisión periódica de estas tecnologías para la seguridad y la apropiación.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
