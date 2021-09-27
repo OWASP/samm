@@ -10,39 +10,39 @@ level: 97a46a074fe849a1af2c2d2d3dd09ba5
 #Please generate another identifier for your specific activity.
 id: d1cb54f1ddd3432480513df320fc0ff8
 #The title of this activity
-title: Define basic defect metrics
+title: Definition grundlegender Fehler der Metriken
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identification of quick wins derived from available defect information
+benefit: Identifizierung von Quick Wins auf der Grundlage verfügbarer Fehlerinformationen
 #A one sentence description of the activity
-shortDescription: Regularly go over previously recorded security defects and derive quick wins from basic metrics.
+shortDescription: Gehen Sie regelmäßig die zuvor erfassten Sicherheitsmängel durch und leiten Sie aus den grundlegenden Metriken Quick Wins ab.
 #A multi-paragraph description of the activity
 longDescription: |
-  Once per defined period of time (typically at least once per year), go over your both resolved and still open recorded security defects in every team and extract basic metrics from the available data. These might include:
+  Gehen Sie einmal pro definiertem Zeitraum (in der Regel mindestens einmal pro Jahr) die behobenen und noch offenen Sicherheitsmängel in jedem Team durch und extrahieren Sie grundlegende Metriken aus den verfügbaren Daten. Dazu könnten gehören:
 
-  * The total number of defects versus total number of verification activities. This could give you an idea whether you're looking for defects with an adequate intensity and quality.
-  * The software components the defects reside in. This is indicative of where attention might be most required, and where security flaws might be more likely to appear in the future again.
-  * The type or category of the defect, which suggests areas where the development team need further training.
-  * The severity of the defect, which can help the team understand the software’s risk exposure.
+  * Die Gesamtzahl der Mängel im Verhältnis zur Gesamtzahl der Überprüfungsaktivitäten. Dies könnte Ihnen einen Hinweis darauf geben, ob Sie nach Mängeln mit angemessener Intensität und Qualität suchen.
+  * Die Softwarekomponenten, in denen sich die Fehler befinden. Dies ist ein Hinweis darauf, wo die größte Aufmerksamkeit erforderlich ist und wo Sicherheitsmängel in Zukunft eher wieder auftreten werden.
+  * Die Art oder Kategorie des Fehlers, die auf Bereiche hinweist, in denen das Entwicklungsteam weiter geschult werden muss.
+  * Der Schweregrad des Fehlers, der dem Team helfen kann, das Risiko der Software zu verstehen.
 
-  Identify and carry out sensible quick win activities which you can derive from the newly acquired knowledge. These might include things like a knowledge sharing session about one particular vulnerability type or carrying out / automating a security scan.
+  Identifizieren Sie sinnvolle Quick-Win-Aktivitäten, die Sie aus dem neu erworbenen Wissen ableiten können, und führen Sie diese durch. Dazu könnten Dinge wie eine Sitzung zum Wissensaustausch über eine bestimmte Art von Schwachstelle oder die Durchführung/Automatisierung eines Sicherheitsscans gehören.
 #The output of this particular activity
 results:
   - result1
-  - result2
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
+  - Metrik 1
   - metric2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
+  - Entwickler
   - Security Champion
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 93dff7be5f954f8d87d24f4261002508
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
