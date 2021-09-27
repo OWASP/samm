@@ -10,12 +10,12 @@ answerset: 9a87d689fe35441aabf1ad4b7048b61e
 #Please generate another identifier for your specific maturity level.
 id: 54aca12ea18e4073becbdd356cd3b3ef
 #One-sentence description of the criterium
-text: Do you publish the organization's policies as test scripts or run-books for easy interpretation by development teams?
+text: Veröffentlichen Sie die Unternehmensrichtlinien als Testskripte oder Run-Books, damit sie von den Entwicklungsteams leicht interpretiert werden können?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You create verification checklists and test scripts where applicable, aligned with the policy's requirements and the implementation guidance in the associated standards
-  - You create versions adapted to each development methodology and technology the organization uses
+  - Sie erstellen Checklisten zur Überprüfung und gegebenenfalls Testskripte, die mit den Anforderungen der Richtlinie und den Umsetzungsrichtlinien in den zugehörigen Normen übereinstimmen
+  - Sie erstellen Versionen, die an jede Entwicklungsmethodik und Technologie angepasst sind, die das Unternehmen verwendet
 #Type Classification of the Document
-type: Question
+type: Frage
