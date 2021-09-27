@@ -10,18 +10,18 @@ level: 3d035b6df77f4ee69577c9b4c9d64891
 #Please generate another identifier for your specific activity.
 id: 2b01696356ed4652accf093f6c6a47ee
 #The title of this activity
-title: Perform vendor assessments
+title: Realizar evaluaciones de proveedores
 #Describe the benefit that is achieved by implementing this activity
-benefit: Transparency of security practices of your software suppliers
+benefit: Transparencia de las prácticas de seguridad de sus proveedores de software
 #A one sentence description of the activity
-shortDescription: Evaluate the supplier based on organizational security requirements.
+shortDescription: Evaluar el proveedor basado en los requerimientos de seguridad de la organización.
 #A multi-paragraph description of the activity
 longDescription: |
-  The security competences and habits of the expernal suppliers involved in the development of your software can have a significant impact on the security posture of the final product. Consequently, it is important to know and evaluate your suppliers on this front.
+  Las competencias y hábitos de seguridad de los proveedores expertos implicados en el desarrollo de su software pueden tener un impacto significativo en la postura de seguridad del producto final. En consecuencia, es importante conocer y evaluar a sus proveedores en este frente.
 
-  Carry out a vendor assessment to understand the strengths and weaknesses of your suppliers. Use a basic checklist or conduct interviews to review their typical practices and deliveries. This gives you an idea of how they organize themselves and elements to evaluate whether you need to take additional measures to mitigate potential risks. Ideally, speak to different roles in the organization, or even set up a small maturity evaluation to this end. Strong suppliers will run their own software assurance program and will be able to answer most of your questions. If suppliers have weak competences in software security, discuss with them how and to what extent they plan to work on this and evaluate whether this is enough for your organization. A software supplier might be working on a low-risk project, but this could change.
+  Prepara una evaluación del proveedor para entender las fortalezas y debilidades de tus proveedores. Utilice una lista de verificación básica o lleve a cabo entrevistas para revisar sus prácticas y entregas típicas. Esto le da una idea de cómo se organizan ellos mismos y los elementos para evaluar si necesita tomar medidas adicionales para mitigar riesgos potenciales. Idealmente, hablar con diferentes roles en la organización, o incluso establecer una pequeña evaluación de madurez para este fin. Los proveedores fuertes ejecutarán su propio programa de aseguramiento de software y podrán responder a la mayoría de sus preguntas. Si los proveedores tienen competencias débiles en seguridad de software, discutir con ellos cómo y hasta qué punto planean trabajar en esto y evaluar si esto es suficiente para su organización. Un proveedor de software podría estar trabajando en un proyecto de bajo riesgo, pero esto podría cambiar.
 
-  It is important that your suppliers understand and align to the risk appetite and are able to meet your requirements in that area. Make what you expect from them explicit and discuss this clearly.
+  Es importante que sus proveedores entiendan y alineen con el apetito de riesgo y sean capaces de satisfacer sus requisitos en esa área. Haga lo que usted espera de ellos explícitos y discuta esto claramente.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
