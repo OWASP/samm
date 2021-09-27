@@ -10,18 +10,18 @@ level: 561e85a7fb114b1d976acce95d0b41ee
 #Please generate another identifier for your specific activity.
 id: c1aef0137df1400cbdd3c660b609b7b2
 #The title of this activity
-title: Set strategic KPIs
+title: Establecer KPI estratégicos
 #Describe the benefit that is achieved by implementing this activity
-benefit: Transparency on your AppSec program's performance
+benefit: Transparencia en el rendimiento de tu programa AppSec
 #A one sentence description of the activity
-shortDescription: Set targets and KPI’s for measuring the program effectiveness.
+shortDescription: Establezca objetivos y KPI para medir la efectividad del programa.
 #A multi-paragraph description of the activity
 longDescription: |
-  Once the organization has defined its application security metrics, collect enough information to establish realistic goals. Test identified metrics to ensure you can gather data consistently and efficiently over a short period. After the initial testing period, the organization should have enough information to commit to goals and objectives expressed through Key Performance Indicators (KPIs).
+  Una vez que la organización ha definido sus métricas de seguridad de aplicaciones, recopile suficiente información para establecer objetivos realistas. Pruebe las métricas identificadas para asegurarse de que puede recopilar datos de manera consistente y eficiente durante un período corto. Después del período de prueba inicial, la organización debe tener suficiente información para comprometerse con las metas y los objetivos expresados ​​a través de los indicadores clave de rendimiento (KPI).
 
-  While several measurements are useful for monitoring the information security program and its effectiveness, KPIs are comprised of the most meaningful and effective metrics. Aim to remove volatility common in application development environments from KPIs to reduce chances of unfavorable numbers resulting from temporary or misleading individual measurements. Base KPIs on metrics considered valuable not only to Information Security professionals but also to individuals responsible for the overall success of the application, and organization’s leadership. View KPIs as definitive indicators of the success of the whole program and consider them actionable.
+  Si bien varias mediciones son útiles para monitorear el programa de seguridad de la información y su efectividad, los KPI se componen de las métricas más significativas y efectivas. Apunte a eliminar la volatilidad común en los entornos de desarrollo de aplicaciones de los KPI para reducir las posibilidades de números desfavorables como resultado de mediciones individuales temporales o engañosas. Basar los KPI en métricas que se consideren valiosas no solo para los profesionales de seguridad de la información, sino también para las personas responsables del éxito general de la aplicación y el liderazgo de la organización. Vea los KPI como indicadores definitivos del éxito de todo el programa y considérelos viables.
 
-  Fully document KPIs and distribute them to the teams contributing to the success of the program as well as organization’s leadership. Ideally, include a brief explanation of the information sources for each KPI and the meaning if the numbers are high or low. Include short and long-term goals, and ranges for unacceptable measurements requiring immediate intervention. Share action plans with application security and application development teams to ensure full transparency in understanding of the organization’s objectives and goals.
+  Documente completamente los KPI y distribúyalos a los equipos que contribuyen al éxito del programa, así como al liderazgo de la organización. Idealmente, incluya una breve explicación de las fuentes de información para cada KPI y el significado si los números son altos o bajos. Incluya metas a corto y largo plazo y rangos de medidas inaceptables que requieran una intervención inmediata. Comparta planes de acción con los equipos de seguridad y desarrollo de aplicaciones para garantizar la total transparencia en la comprensión de los objetivos y metas de la organización.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
