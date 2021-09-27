@@ -10,18 +10,18 @@ level: 21a59897dbeb4d7fa4603a0f24362c2b
 #Please generate another identifier for your specific activity.
 id: 2f63f92c414546b58d035ece110d479f
 #The title of this activity
-title: Periodic review of risk profiles
+title: Regelmäßige Überprüfung der Risikoprofile
 #Describe the benefit that is achieved by implementing this activity
-benefit: Timely update of the application classification in case of changes
+benefit: Rechtzeitige Aktualisierung der Anwendungsklassifizierung im Falle von Änderungen
 #A one sentence description of the activity
-shortDescription: Periodically review application risk profiles at regular intervals to ensure accuracy and reflect current state.
+shortDescription: Überprüfen Sie die Risikoprofile der Anwendungen in regelmäßigen Abständen, um ihre Genauigkeit zu gewährleisten und den aktuellen Stand wiederzugeben.
 #A multi-paragraph description of the activity
 longDescription: |
-  The application portfolio of an organization changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). Periodically review the risk inventory to ensure correctness of the risk evaluations of the different applications.
+  Das Anwendungsportfolio eines Unternehmens ändert sich ebenso wie die Bedingungen und Einschränkungen, denen eine Anwendung unterliegt (z. B. aufgrund der Unternehmensstrategie). Regelmäßige Überprüfung des Risikoinventars, um die Korrektheit der Risikobewertungen der verschiedenen Anwendungen sicherzustellen.
 
-  Have a periodic review at an enterprise-wide level. Also, as your enterprise matures in software assurance, stimulate teams to continuously question which changes in conditions might impact the risk profile. For instance, an internal application might become exposed to the internet by a business decision. This should trigger the teams to rerun the risk evaluation and update the application risk profile accordingly.
+  Führen Sie eine periodische Überprüfung auf unternehmensweiter Ebene durch. Wenn Ihr Unternehmen im Bereich Software Assurance reifer wird, sollten Sie die Teams auch dazu anregen, kontinuierlich zu hinterfragen, welche Änderungen der Bedingungen sich auf das Risikoprofil auswirken könnten. So könnte beispielsweise eine interne Anwendung durch eine Geschäftsentscheidung dem Internet ausgesetzt werden. Dies sollte die Teams dazu veranlassen, die Risikobewertung zu wiederholen und das Risikoprofil der Anwendung entsprechend zu aktualisieren.
 
-  In a mature implementation of this practice, train and continuously update teams on lessons learned and best practices from these risk evaluations. This leads to a better execution and a more accurate representation of the application risk profile.
+  Bei einer ausgereiften Umsetzung dieser Praxis sollten die Teams in Bezug auf die aus diesen Risikobewertungen gewonnenen Erkenntnisse und bewährten Verfahren geschult und ständig aktualisiert werden. Dies führt zu einer besseren Ausführung und einer genaueren Darstellung des Anwendungsrisikoprofils.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
