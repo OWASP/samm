@@ -8,18 +8,18 @@ function: 102ad02df5dc4a8eb3837ef4ca2c1af4
 #Please generate another identifier for your specific practice.
 id: 32b3bdd85d3a4d53827960004f9d1c7e
 #Official name of this practice
-name: Strategy & Metrics
+name: Strategie und Metriken
 #Abbreviation of this practice
 shortName: SM
 #A one sentence description of the security practice
-shortDescription: This practice forms the basis of your secure software activities by building an overall plan.
+shortDescription: Diese Praxis bildet die Grundlage für Ihre Aktivitäten im Bereich der sicheren Software, indem ein Gesamtplan erstellt wird.
 #A multi-paragraph description of the security practice
 longDescription: |
-  Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counterproductive. The goal of the Strategy & Metrics (SM) practice is to build an efficient and effective plan for realizing your software security objectives within your organization.
+  Software Assurance umfasst viele verschiedene Aktivitäten und Anliegen. Ohne einen Gesamtplan kann es passieren, dass Sie viel Aufwand betreiben, um Sicherheit einzubauen, während Ihre Bemühungen in Wirklichkeit nicht aufeinander abgestimmt, unverhältnismäßig oder sogar kontraproduktiv sind. Das Ziel der Strategy & Metrics (SM)-Praxis ist es, einen effizienten und effektiven Plan für die Verwirklichung Ihrer Software-Sicherheitsziele in Ihrem Unternehmen zu erstellen.
 
-  A software security program, that selects and prioritizes activities of the rest of the model, serves as the foundation for your efforts. The practice works on building the plan, maintaining and disseminating it.
+  Ein Software-Sicherheitsprogramm, das die Aktivitäten des restlichen Modells auswählt und priorisiert, dient als Grundlage für Ihre Bemühungen. Die Praxis arbeitet daran, den Plan zu erstellen, zu pflegen und zu verbreiten.
 
-  At the same time, you want to keep track of your security posture and program improvements. A metrics-driven approach is included to ensure an accurate view on your activities. To measure is to know.
+  Gleichzeitig wollen Sie Ihre Sicherheitslage und Programmverbesserungen im Auge behalten. Um einen genauen Überblick über Ihre Aktivitäten zu erhalten, ist ein metrikorientierter Ansatz vorgesehen. Wer misst, muss wissen.
 #The relative order of this practice in the business function
 order: 1
 #Who's the "owner" of this practice
@@ -27,4 +27,4 @@ assignee: Yan Kravchenko
 #Indication of progress to keep track of overall status
 progress: 90
 #Type Classification of the Document
-type: Practice
+type: Praxis
