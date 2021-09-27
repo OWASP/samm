@@ -10,22 +10,22 @@ level: 817dd6acaf85496aa005393e0e6c3e70
 #Please generate another identifier for your specific activity.
 id: b8dfd23d66224ac88d3ce41cf83ed15e
 #The title of this activity
-title: Use best-effort incident detection
+title: Utilice la detección de incidentes con el mejor esfuerzo
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to detect the most obvious security incidents
+benefit: Habilidad para detectar los incidentes de seguridad más obvios
 #A one sentence description of the activity
-shortDescription: Use available log data to perform best-effort detection of possible security incidents.
+shortDescription: Utilice los datos de registro disponibles para realizar la mejor detección de posibles incidentes de seguridad.
 #A multi-paragraph description of the activity
 longDescription: |
-  Analyze available log data (e.g., access logs, application logs, infrastructure logs), to detect possible security incidents in accordance with known log data retention periods.
+  Analice los datos de registro disponibles (por ejemplo, registros de acceso, registros de aplicaciones, registros de infraestructura) para detectar posibles incidentes de seguridad de acuerdo con los períodos de retención de datos de registro conocidos.
 
-  In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques. Even a `cron` job, running a simple script to look for suspicious events, is a step forward!
+  En configuraciones pequeñas, puede hacer esto manualmente con la ayuda de herramientas comunes de línea de comandos. Con volúmenes de registro más grandes, emplee técnicas de automatización. ¡Incluso un trabajo `cron`, ejecutar un script simple para buscar eventos sospechosos, es un paso adelante!
 
-  If you send logs from different sources to a dedicated log aggregation system, analyze the logs there and employ basic log correlation principles.
+  Si envía registros de diferentes fuentes a un sistema de agregación de registros dedicado, analice los registros allí y emplee principios básicos de correlación de registros.
 
-  Even if you don't have a 24/7 incident detection process, ensure that unavailability of the responsible person (e.g., due to vacation or illness) doesn't significantly impact detection speed or quality.
+  Incluso si no tiene un proceso de detección de incidentes las 24 horas del día, los 7 días de la semana, asegúrese de que la falta de disponibilidad de la persona responsable (por ejemplo, debido a vacaciones o enfermedad) no afecte significativamente la velocidad o la calidad de la detección.
 
-  Establish and share points of contact for formal creation of security incidents.
+  Establecer y compartir puntos de contacto para la creación formal de incidentes de seguridad.
 #The output of this particular activity
 results:
 #The different metrics used to measure the success of the activity
