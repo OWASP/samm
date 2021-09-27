@@ -10,20 +10,20 @@ level: 46f16450b23d4c29a5cf19b056c2636e
 #Please generate another identifier for your specific activity.
 id: bcc960e835aa4ad58a9d39a272cbf6f1
 #The title of this activity
-title: Automate the build process
+title: Automatizar el proceso de construcción
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient build process with integrated security tools
+benefit: Proceso de construcción eficiente con herramientas de seguridad integradas
 #A one sentence description of the activity
-shortDescription: Automate your build pipeline and secure the used tooling. Add security checks in the build pipeline.
+shortDescription: Automatizar el flujo de construcción y asegurar la herramientas usadas. Añadir chequeos de seguridad en el flujo de construcción.
 #A multi-paragraph description of the activity
 longDescription: |
-  Automate the build process so that builds can be executed consistently anytime. The build process shouldn't typically require any intervention, further reducing the likelihood of human error.
+  Automatizar el proceso de construcción de manera que las construcciones puedan ser ejecutadas consistentemente en cualquier momento. El proceso de construcción normalmente no debería requerir ninguna intervención, reduciendo aún más la probabilidad de error humano.
 
-  The use of an automated system increases reliance on security of the build tooling and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+  El uso de un sistema automatizado aumenta la dependencia en la seguridad de las herramientas de construcción y hace que el aseguramiento y el mantenimiento de las herramientas sean aún más críticos. Preste especial atención a las interfaces de estas herramientas, tales como portales basados en la web y cómo pueden ser bloqueados. La exposición de una herramienta de construcción a la red podría permitir a un actor malicioso manipular la integridad del proceso. Esto podría, por ejemplo, permitir que el código malicioso se incorpore al software.
 
-  The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Sign generated artifacts using a certificate that identifies the organization or business unit that built it, so you can verify its integrity.
+  El proceso automatizado puede requerir acceso a credenciales y secretos necesarios para construir el software, como el certificado de firma de código o el acceso a los repositorios. Maneje estos con cuidado. Firmar artefactos generados mediante un certificado que identifica la organización o unidad de negocio que lo construyó, para que pueda verificar su integridad.
 
-  Finally, add appropriate automated security checks (e.g. using SAST tools) in the pipeline to leverage the automation for security benefit.
+  Finalmente, añada las comprobaciones de seguridad automatizadas apropiadas (por ejemplo, usando las herramientas SAST) en el tubo para aprovechar la automatización en beneficio de seguridad.
 #The output of this particular activity
 results:
   - result1
@@ -36,10 +36,10 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
-  - Security Engineer
+  - Desarrollador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 4f6a06796d0840debcc775ea1af65679
