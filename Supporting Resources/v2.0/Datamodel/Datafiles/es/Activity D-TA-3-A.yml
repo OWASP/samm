@@ -10,18 +10,18 @@ level: 21a59897dbeb4d7fa4603a0f24362c2b
 #Please generate another identifier for your specific activity.
 id: 2f63f92c414546b58d035ece110d479f
 #The title of this activity
-title: Periodic review of risk profiles
+title: Revisión periódica de los perfiles de riesgo
 #Describe the benefit that is achieved by implementing this activity
-benefit: Timely update of the application classification in case of changes
+benefit: Actualización oportuna de la clasificación de la aplicación en caso de cambios
 #A one sentence description of the activity
-shortDescription: Periodically review application risk profiles at regular intervals to ensure accuracy and reflect current state.
+shortDescription: Revisar periódicamente los perfiles de riesgo de la aplicación en intervalos regulares para asegurar la precisión y reflejar el estado actual.
 #A multi-paragraph description of the activity
 longDescription: |
-  The application portfolio of an organization changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). Periodically review the risk inventory to ensure correctness of the risk evaluations of the different applications.
+  La cartera de aplicaciones de una organización cambia, así como las condiciones y limitaciones en las que vive una aplicación (por ejemplo, Impulsada por la estrategia de la empresa). Revisar periódicamente el inventario de riesgos para asegurar la veracidad de las evaluaciones de riesgo de las diferentes aplicaciones.
 
-  Have a periodic review at an enterprise-wide level. Also, as your enterprise matures in software assurance, stimulate teams to continuously question which changes in conditions might impact the risk profile. For instance, an internal application might become exposed to the internet by a business decision. This should trigger the teams to rerun the risk evaluation and update the application risk profile accordingly.
+  Realice una revisión periódica a nivel de toda la empresa. Además, a medida que su empresa madura en la garantía de software, estimule a los equipos para que cuestionen continuamente qué cambios en las condiciones podrían afectar el perfil de riesgo. Por ejemplo, una aplicación interna puede quedar expuesta a Internet por una decisión comercial. Esto debería hacer que los equipos vuelvan a ejecutar la evaluación de riesgos y actualicen el perfil de riesgo de la aplicación en consecuencia.
 
-  In a mature implementation of this practice, train and continuously update teams on lessons learned and best practices from these risk evaluations. This leads to a better execution and a more accurate representation of the application risk profile.
+  En una implementación madura de esta práctica, capacite y actualice continuamente a los equipos sobre las lecciones aprendidas y las mejores prácticas de estas evaluaciones de riesgos. Esto conduce a una mejor ejecución y una representación más precisa del perfil de riesgo de la aplicación.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
