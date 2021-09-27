@@ -10,26 +10,26 @@ level: 46f16450b23d4c29a5cf19b056c2636e
 #Please generate another identifier for your specific activity.
 id: 857a43e335ba467598eca99d48ea0076
 #The title of this activity
-title: Review application dependencies for security
+title: Revisar las dependencias de la aplicación por seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Full transparency of known security issues in dependencies
+benefit: Transparencia total de problemas de seguridad conocidos en dependencias
 #A one sentence description of the activity
-shortDescription: Evaluate used dependencies and ensure timely reaction to situations posing risk to your applications.
+shortDescription: Evalúe las dependencias usadas y asegure una reacción oportuna a las situaciones que presentan riesgo para sus aplicaciones.
 #A multi-paragraph description of the activity
 longDescription: |
-  Evaluate used dependencies and establish a list of acceptable ones approved for use within a project, team, or the wider organization according to a defined set of criteria.
+  Evalúe las dependencias utilizadas y establezca una lista de las aceptables aprobadas para su uso dentro de un proyecto, equipo o la organización en general de acuerdo con un conjunto definido de criterios.
 
-  Introduce a central repository of dependencies that all software can be built from.
+  Introduzca un repositorio central de dependencias desde el que se pueda construir todo el software.
 
-  Review used dependencies regularly to ensure that&#58;
+  Revise las dependencias utilizadas con regularidad para asegurarse de que &#58;
 
-  * they remain correctly licensed
-  * no known and significant vulnerabilities impacting your applications are present
-  * the dependency is still actively supported and maintained
-  * you are using a current version
-  * there is a valid reason to include the dependency
+  * mantienen la licencia correcta
+  * no existen vulnerabilidades conocidas y significativas que afecten a sus aplicaciones
+  * la dependencia todavía se apoya y mantiene activamente
+  * estás usando una versión actual
+  * hay una razón válida para incluir la dependencia
 
-  React timely and appropriately to non-conformities by handling these as defects. Consider using an automated tool to scan for vulnerable dependencies and assign the identified issues to the respective development teams.
+  Reaccione oportuna y apropiadamente a las no conformidades tratándolas como defectos. Considere utilizar una herramienta automatizada para buscar dependencias vulnerables y asignar los problemas identificados a los respectivos equipos de desarrollo.
 #The output of this particular activity
 results:
   - result1
@@ -42,11 +42,11 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Security Engineer
+  - Arquitecto
+  - Desarrollador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   - 93dff7be5f954f8d87d24f4261002508
