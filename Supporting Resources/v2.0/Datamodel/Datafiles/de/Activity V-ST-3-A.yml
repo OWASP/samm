@@ -14,16 +14,16 @@ title: Integrate security testing tools in the delivery pipeline
 #Describe the benefit that is achieved by implementing this activity
 benefit: Identification of automatically identifiable vulnerabilities in earliest possible stages
 #A one sentence description of the activity
-shortDescription: Integrate automated security testing into the build and deploy process
+shortDescription: Integration von automatisierten Sicherheitstests in den Build- und Deployment-Prozess
 #A multi-paragraph description of the activity
 longDescription: |
-  Projects within the organization routinely run automated security tests and review results during development. Configure security testing tools to automatically run as part of the build and deploy process to make this scalable with low overhead. Inspect findings as they occur.
+  Projekte innerhalb des Unternehmens führen routinemäßig automatisierte Sicherheitstests durch und überprüfen die Ergebnisse während der Entwicklung. Konfigurieren Sie die Sicherheitstest-Tools so, dass sie automatisch als Teil des Build- und Deployment-Prozesses laufen, um dies mit geringem Aufwand skalierbar zu machen. Prüfen Sie die Ergebnisse, sobald sie auftreten.
 
-  Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle. With the automatic execution of security test cases, projects enter the implementation phase with a number of failing tests for the non-existent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, lowering risk of release delays due to security concerns or forced acceptance of risk to meet project deadlines.
+  Die Durchführung von Sicherheitstests bereits in der Anforderungs- oder Entwurfsphase kann von Vorteil sein. Diese Art der testgesteuerten Entwicklung, die traditionell für funktionale Testfälle verwendet wird, beinhaltet die Identifizierung und Ausführung relevanter Sicherheitstestfälle in einem frühen Stadium des Entwicklungszyklus. Durch die automatische Ausführung von Sicherheitstestfällen treten Projekte in die Implementierungsphase mit einer Reihe von fehlgeschlagenen Tests für die nicht vorhandene Funktionalität ein. Die Implementierung ist abgeschlossen, wenn alle Tests bestanden sind. Damit haben die Entwickler schon früh im Entwicklungszyklus ein klares Ziel vor Augen, was das Risiko von Verzögerungen bei der Veröffentlichung aufgrund von Sicherheitsbedenken oder der erzwungenen Inkaufnahme von Risiken zur Einhaltung von Projektterminen verringert.
 
-  Make the results of automated and manual security tests visible via dashboards, and routinely present them to management and business stakeholders (e.g. before each release) for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers work together to establish a concrete timeframe for addressing them. Continuously review and improve the quality of the security tests.
+  Machen Sie die Ergebnisse der automatisierten und manuellen Sicherheitstests über Dashboards sichtbar und stellen Sie sie routinemäßig der Geschäftsleitung und den Unternehmensbeteiligten zur Überprüfung vor (z. B. vor jeder Veröffentlichung). Wenn es noch nicht bearbeitete Ergebnisse gibt, die als akzeptierte Risiken für das Release verbleiben, arbeiten Stakeholder und Entwicklungsmanager zusammen, um einen konkreten Zeitrahmen für die Behebung der Probleme festzulegen. Kontinuierliche Überprüfung und Verbesserung der Qualität der Sicherheitstests.
 
-  Consider and implement security test correlation tools to automate the matching and merging of test results from dynamic, static, and interactive application scanners into one central dashboard, providing direct input towards Defect Management. Spread the knowledge of the created security tests and the results across the development team to improve security knowledge and awareness inside the organization.
+  Erwägen und implementieren Sie Tools zur Korrelation von Sicherheitstests, um den Abgleich und die Zusammenführung von Testergebnissen aus dynamischen, statischen und interaktiven Anwendungsscannern in einem zentralen Dashboard zu automatisieren, das direkten Input für das Mängelmanagement liefert. Verbreitung des Wissens über die erstellten Sicherheitstests und deren Ergebnisse im gesamten Entwicklungsteam, um das Sicherheitswissen und -bewusstsein innerhalb des Unternehmens zu verbessern.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -38,4 +38,4 @@ notes:
 dependencies:
   - e17d573510904f65a1fe6040b56ad0b1
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
