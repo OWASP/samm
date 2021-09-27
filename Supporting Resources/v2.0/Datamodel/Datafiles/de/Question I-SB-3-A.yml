@@ -18,6 +18,6 @@ quality:
   - Builds fail if the application doesn't meet a predefined security baseline
   - You have a maximum accepted severity for vulnerabilties
   - You log warnings and failures in a centralized system
-  - You select and configure tools to evaluate each application against its security requirements at least once a year
+  - Sie wählen und konfigurieren Tools, um jede Anwendung mindestens einmal pro Jahr anhand ihrer Sicherheitsanforderungen zu bewerten
 #Type Classification of the Document
-type: Question
+type: Frage
