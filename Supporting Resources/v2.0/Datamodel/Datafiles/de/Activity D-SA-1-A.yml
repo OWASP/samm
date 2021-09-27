@@ -10,18 +10,18 @@ level: a11b78917dec4cfdad983cf6d1d17b61
 #Please generate another identifier for your specific activity.
 id: 27bb61f3c6344359b021caeaef5ab07e
 #The title of this activity
-title: Einhaltung grundlegender Sicherheitsprinzipien
+title: Einhaltung der grundlegenden Sicherheitsprinzipien
 #Describe the benefit that is achieved by implementing this activity
 benefit: Produktteams stehen Sammlungen grundlegender Sicherheitsprinzipien zur Verfügung
 #A one sentence description of the activity
-shortDescription: Teams are trained on the use of basic security principles during design
+shortDescription: Teams werden während der Entwicklung auf die Anwendung grundlegender Sicherheitsprinzipien geschult
 #A multi-paragraph description of the activity
 longDescription: |
-  During design, technical staff on the product team use a short checklist of security principles. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
+  Während der Entwicklung verwenden die technischen Mitarbeiter des Produktteams eine kurze Checkliste mit Sicherheitsgrundsätzen. Zu den Sicherheitsgrundsätzen gehören in der Regel: Verteidigung in der Tiefe, Sicherung des schwächsten Glieds, Verwendung sicherer Standardeinstellungen, einfache Gestaltung der Sicherheitsfunktionen, sicheres Versagen, Gleichgewicht zwischen Sicherheit und Benutzerfreundlichkeit, Betrieb mit geringsten Rechten, Vermeidung von Sicherheit durch Unklarheit, etc.
 
-  For perimeter interfaces, the team considers each principle in the context of the overall system and identify features that can be added to bolster security at each such interface. Limit these such that they only take a small amount of extra effort beyond the normal implementation cost of functional requirements. Note anything larger, and schedule it for future releases.
+  Bei den Perimeter Schnittstellen betrachtet das Team jeden Grundsatz im Kontext des Gesamtsystems und ermittelt Merkmale, die hinzugefügt werden können, um die Sicherheit an jeder dieser Schnittstellen zu erhöhen. Diese sind so zu begrenzen, dass sie nur einen geringen Mehraufwand über die normalen Implementierungskosten der funktionalen Anforderungen hinaus erfordern. Notieren Sie alles, was darüber hinausgeht, und planen Sie es für künftige Versionen ein.
 
-  Train each product team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.
+  Schulen Sie jedes Produktteam vor diesem Prozess im Hinblick auf die Sicherheit und binden Sie sicherheitsbewusste Mitarbeiter ein, die bei den Entwurfsentscheidungen helfen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivität
