@@ -10,20 +10,20 @@ level: 2a059c7d07c34b9897e49e6295501608
 #Please generate another identifier for your specific activity.
 id: cd80066899014962a37af7ab34c83003
 #The title of this activity
-title: Respond to data breaches
+title: Respuesta a las violaciones de datos
 #Describe the benefit that is achieved by implementing this activity
-benefit: Technically enforced compliance with your data protection policy
+benefit: Cumplir técnicamente tu política de protección de datos
 #A one sentence description of the activity
-shortDescription: Automate detection of policy non-compliance, and audit compliance periodically. Regularly review and update to data catalog and data protection policy.
+shortDescription: Automatiza la detección de incumplimientos de políticas y auditoría de conformidad periódicamente. Revise y actualice regularmente el catálogo de datos y la política de protección de datos.
 #A multi-paragraph description of the activity
 longDescription: |
-  Activities at this maturity level are focused on automating data protection, reducing your reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
+  Las actividades en este nivel de madurez se centran en automatizar la protección de datos, reduciendo su dependencia del esfuerzo humano para evaluar y gestionar el cumplimiento de las políticas. Hay un enfoque en los mecanismos de retroalimentación y revisiones proactivas, para identificar y actuar sobre oportunidades de mejora de procesos.
 
-  Implement technical controls to enforce compliance with your Data Protection Policy, and put monitoring in place to detect attempted or actual violations. You may use a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
+  Implemente controles técnicos para hacer cumplir su Política de protección de datos y establezca un monitoreo para detectar infracciones reales o intentadas. Puede utilizar una variedad de herramientas disponibles para la prevención de pérdida de datos, control y seguimiento de acceso o detección de comportamiento anómalo.
 
-  Regularly audit compliance with established administrative controls, and closely monitor performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting you to take timely corrective action.
+  Audite periódicamente el cumplimiento de los controles administrativos establecidos y supervise de cerca el rendimiento y el funcionamiento de los mecanismos automatizados, incluidas las copias de seguridad y la eliminación de registros. Las herramientas de monitoreo detectan e informan rápidamente fallas en la automatización, lo que le permite tomar las medidas correctivas oportunas.
 
-  Reviews and update the data catalog regularly, to maintain its accurate reflection of your data landscape. Regular reviews and updates of processes and procedures maintain their alignment with your policies and priorities.
+  Revisa y actualiza el catálogo de datos con regularidad para mantener un reflejo preciso de su panorama de datos. Las revisiones y actualizaciones periódicas de los procesos y procedimientos mantienen su alineación con sus políticas y prioridades.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
