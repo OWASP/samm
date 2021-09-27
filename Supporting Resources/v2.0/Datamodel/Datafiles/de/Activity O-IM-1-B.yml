@@ -10,18 +10,18 @@ level: 817dd6acaf85496aa005393e0e6c3e70
 #Please generate another identifier for your specific activity.
 id: b082664b8815407d825b82cf23fa88ea
 #The title of this activity
-title: Create an incident response plan
+title: Erstellung eines Reaktionsplans für Zwischenfälle
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to efficiently solve most common security incidents
+benefit: In der Lage sein, die häufigsten Sicherheitsvorfälle effizient zu lösen
 #A one sentence description of the activity
-shortDescription: Identify roles and responsibilities for incident response.
+shortDescription: Festlegung von Rollen und Verantwortlichkeiten für die Reaktion auf Vorfälle.
 #A multi-paragraph description of the activity
 longDescription: |
-  The first step is to recognize the incident response competence as such, and define a responsible owner. Provide them the time and resources they need to keep up with current state of incident handling best practices and forensic tooling.
+  Der erste Schritt besteht darin, die Kompetenz für die Reaktion auf Vorfälle als solche anzuerkennen und einen verantwortlichen Inhaber zu bestimmen. Stellen Sie ihm die Zeit und die Ressourcen zur Verfügung, die er benötigt, um sich über den aktuellen Stand der Best Practices bei der Behandlung von Vorfällen und der forensischen Werkzeuge zu informieren.
 
-  At this level of maturity, you may not have established a dedicated incident response team, but you have defined the participants of the process (usually different roles). Assign a single point of contact for the process, known to all relevant stakeholders. Ensure that the point of contact knows how to reach each participant, and define on-call responsibilities for those who have them.
+  Bei diesem Reifegrad haben Sie vielleicht noch kein spezielles Incident-Response-Team eingerichtet, aber Sie haben die Teilnehmer des Prozesses definiert (in der Regel verschiedene Rollen). Bestimmen Sie eine einzige Kontaktstelle für den Prozess, die allen relevanten Beteiligten bekannt ist. Stellen Sie sicher, dass die Kontaktstelle weiß, wie jeder Teilnehmer zu erreichen ist, und legen Sie die Zuständigkeiten für die Rufbereitschaft für diejenigen fest, die sie haben.
 
-  When security incidents happen, document all actions taken. Protect this information from unauthorized access.
+  Dokumentieren Sie bei Sicherheitsvorfällen alle ergriffenen Maßnahmen. Schützen Sie diese Informationen vor unberechtigtem Zugriff.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
