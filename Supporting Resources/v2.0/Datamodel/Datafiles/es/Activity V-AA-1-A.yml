@@ -10,16 +10,16 @@ level: 39bc5d271fae4ea8ba53db7de7b2712c
 #Please generate another identifier for your specific activity.
 id: 0f611af10f974da497e7f3defe0c4f12
 #The title of this activity
-title: Assess application architecture
+title: Evaluar la arquitectura de la aplicación
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of high-level architecture and sensible security measures
+benefit: Comprensión de la arquitectura de alto nivel y las medidas de seguridad sensibles
 #A one sentence description of the activity
-shortDescription: Identify application and infrastructure architecture components and review for basic security provisioning
+shortDescription: Identificar los componentes de la arquitectura de la aplicación y la infraestructura y revisar el aprovisionamiento de seguridad básico
 #A multi-paragraph description of the activity
 longDescription: |
-  Create a view of the overall architecture and examine it for the correct provision of general security mechanisms such as authentication, authorization, user and rights management, secure communication, data protection, key management and log management. Also consider the support for privacy. Do this based on project artifacts such as architecture or design documents, or interviews with business owners and technical staff. Also consider the infrastructure components - these are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
+  Cree una vista de la arquitectura general y examínela para la correcta provisión de mecanismos de seguridad generales como autenticación, autorización, administración de derechos y usuarios, comunicación segura, protección de datos, administración de claves y administración de registros. También considere el apoyo a la privacidad. Haga esto basándose en los artefactos del proyecto, como la arquitectura o los documentos de diseño, o entrevistas con los dueños de negocios y el personal técnico. También considere los componentes de la infraestructura: estos son todos los sistemas, componentes y bibliotecas (incluidos los SDK) que no son específicos de la aplicación, pero brindan soporte directo para usar o administrar la(s) aplicación(es) en la organización.
 
-  Note any security-related functionality in the architecture and review its correct provision. Do this in an ad-hoc manner, from the point of view of anonymous users, authorized users, and specific application roles.
+  Anote cualquier funcionalidad relacionada con la seguridad en la arquitectura y revise su disposición correcta. Haga esto de manera ad-hoc, desde el punto de vista de usuarios anónimos, usuarios autorizados y roles de aplicación específicos.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -30,12 +30,12 @@ costs:
 personnel:
 #Internal notes that might help the author
 notes: |
-  Elements required for risk
-    - set of questions to evaluate
-    - risk levels to represent application risk
-    - risk portfolio
+  Elementos necesarios para el riesgo
+     - conjunto de preguntas para evaluar
+     - niveles de riesgo para representar el riesgo de la aplicación
+     - cartera de riesgo
 #References to other activities that are prerequesites to implement this one.
 relatedactivities: |
-  - Security Requirements
+  - Requerimientos de seguridad
 #Type Classification of the Document
 type: Activity
