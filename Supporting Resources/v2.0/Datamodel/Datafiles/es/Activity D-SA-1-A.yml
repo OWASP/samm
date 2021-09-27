@@ -10,18 +10,18 @@ level: a11b78917dec4cfdad983cf6d1d17b61
 #Please generate another identifier for your specific activity.
 id: 27bb61f3c6344359b021caeaef5ab07e
 #The title of this activity
-title: Adhere to basic security principles
+title: Adherirse a los principios básicos de la seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Sets of security basic principles available to product teams
+benefit: Conjunto de los principios básicos de seguridad disponibles para equipos de producción 
 #A one sentence description of the activity
-shortDescription: Teams are trained on the use of basic security principles during design
+shortDescription: Los equipos son entrenados en el uso de principios básicos de seguridad durante el diseño
 #A multi-paragraph description of the activity
 longDescription: |
-  During design, technical staff on the product team use a short checklist of security principles. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
+  Durante el diseño, el personal técnico del equipo de producción utiliza una breve lista de verificación de los principios de seguridad. Normalmente, los principios de seguridad incluyen la defensa en profundidad, la protección del vínculo más débil, el uso de valores seguros por defecto, la simplicidad en el diseño de la funcionalidad de seguridad, el fallo seguro, el equilibrio entre la seguridad y la facilidad de uso, la ejecución con mínimos privilegios, el evitar la seguridad por oscuridad, etc.
 
-  For perimeter interfaces, the team considers each principle in the context of the overall system and identify features that can be added to bolster security at each such interface. Limit these such that they only take a small amount of extra effort beyond the normal implementation cost of functional requirements. Note anything larger, and schedule it for future releases.
+  Para el perímetro del sistema, el equipo considera cada principio en el contexto del sistema global e identifica las características que pueden añadirse para reforzar la seguridad en cada una de esas interfaces. El limitarlas de forma que sólo supongan un pequeño esfuerzo adicional al coste normal de implementación de los requerimientos funcionales. Anotar lo que sea más costoso y programarlo para futuras versiones.
 
-  Train each product team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.
+  Formar a cada equipo en materia de seguridad antes de estos procesos, e incorporar más personal con conocimientos de seguridad para ayudar a tomar decisiones de diseño.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
