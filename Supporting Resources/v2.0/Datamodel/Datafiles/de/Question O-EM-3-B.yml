@@ -10,12 +10,12 @@ answerset: 612bf4ec249f4e9d86f9e36dbf511821
 #Please generate another identifier for your specific maturity level.
 id: 6e72179a31c04024bb649346bfb03eb5
 #Text of the question presented to the user
-text: Do you regularly evaluate components and review patch level status?
+text: Werden die Komponenten regelmäßig evaluiert und der Patch-Status überprüft?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criteria
 quality:
-  - You update the list with components and versions
-  - You identify and update missing updates according to existing SLA
-  - You review and update the process based on feedback from the people who perform patching
-type: Question
+  - Sie aktualisieren die Liste mit Komponenten und Versionen
+  - Sie identifizieren und aktualisieren fehlende Aktualisierungen gemäß der bestehenden SLA
+  - Sie überprüfen und aktualisieren den Prozess auf der Grundlage des Feedbacks der Mitarbeiter, die das Patching durchführen
+type: Frage
