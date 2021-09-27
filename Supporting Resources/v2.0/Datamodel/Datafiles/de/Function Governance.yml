@@ -3,7 +3,7 @@
 #OWASP SAMM2 Business Function template/sample
 #===========================================================
 #Link to the model, using its unique identifier
-model: SAMM20
+model: SAMM2.0
 #Unique identifier (GUID) that can be used to refer to this function
 #Please generate another identifier for your specific function..
 id: 102ad02df5dc4a8eb3837ef4ca2c1af4
@@ -11,7 +11,7 @@ id: 102ad02df5dc4a8eb3837ef4ca2c1af4
 name: Governance
 #A multi-paragraph description of the function
 description: |
-  Governance focuses on the processes and activities related to how an organization manages overall software development activities. More specifically, this includes concerns that impact cross-functional groups involved in development, as well as business processes established at the organization level.
+  Governance konzentriert sich auf die Prozesse und Aktivitäten, die mit der Art und Weise zusammenhängen, wie eine Organisation die gesamten Softwareentwicklungsaktivitäten verwaltet. Dazu gehören insbesondere Aspekte, die sich auf funktionsübergreifende Gruppen auswirken, die an der Entwicklung beteiligt sind, sowie Geschäftsprozesse, die auf Organisationsebene eingerichtet sind.
 #The color to be used to render the function and its subelements, in Hex RGB
 color:
 #228B22
@@ -20,4 +20,4 @@ logo: https://icon-library.net/icon/governance-icon-2.html
 #The relative order of the Business Function within the core model
 order: 1
 #Type Classification of the Document
-type: Function
+type: Funktionen
