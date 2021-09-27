@@ -10,18 +10,18 @@ level: 1a55b2c4666f4336a3f5c12c5bb4a1e9
 #Please generate another identifier for your specific activity.
 id: 1cc77725cb2349f394477838668f6184
 #The title of this activity
-title: Standardize and integrate security requirements
+title: Standardisierung und Integration von Sicherheitsanforderungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Alignment of security requirements with other types of requirements
+benefit: Angleichung der Sicherheitsanforderungen an andere Arten von Anforderungen
 #A one sentence description of the activity
-shortDescription: Structured security requirements are available and utilized by developer teams.
+shortDescription: Strukturierte Sicherheitsanforderungen sind verfügbar und werden von den Entwicklerteams genutzt.
 #A multi-paragraph description of the activity
 longDescription: |
-  Security requirements can originate from other sources including policies and legislation, known problems within the application, and intelligence from metrics and feedback. At this level, a more systematic elicitation of security requirements must be achieved by analysing different sources of such requirements. Ensure that appropriate input is received from these sources to help the elicitation of requirements. For example, organize interviews or brainstorm sessions (e.g., in the case of policy and legislation), analyze historical logs or vulnerability systems.
+  Sicherheitsanforderungen können auch aus anderen Quellen stammen, z. B. aus Richtlinien und Gesetzen, aus bekannten Problemen innerhalb der Anwendung und aus Erkenntnissen von Metriken und Feedback. Auf dieser Stufe muß eine systematischere Erhebung von Sicherheitsanforderungen durch die Analyse verschiedener Quellen für solche Anforderungen erreicht werden. Es ist dafür zu sorgen, dass aus diesen Quellen ein geeigneter Beitrag zur Erhebung der Anforderungen geleistet wird. Organisieren Sie z. B. Interviews oder Brainstorming-Sitzungen (z. B. im Falle von Politik und Gesetzgebung), analysieren Sie historische Logs oder Schwachstellen-Systeme.
 
-  Use a structured notation of security requirements across applications and an appropriate formalism that integrates well with how you specify other (functional) requirements for the project. This could mean, for example, extending analysis documents, writing user stories, etc.
+  Verwenden Sie eine strukturierte Darstellung der anwendungsübergreifenden Sicherheitsanforderungen und einen geeigneten Formalismus, der sich gut mit der Art und Weise, wie Sie andere (funktionale) Anforderungen für das Projekt spezifizieren, integrieren lässt. Dies könnte z. B. bedeuten, dass Sie die Analysedokumente erweitern, User Stories schreiben usw.
 
-  When requirements are specified, it is important to ensure that these requirements are taken into account during product development. Setup a mechanism to stimulate or force project teams to meet these requirements in the product. For example, annotate requirements with priorities, or influence the handling of requirements to enforce sufficient security appetite (while balancing against other non-functional requirements).
+  Wenn Anforderungen spezifiziert sind, muss sichergestellt werden, dass diese Anforderungen bei der Produktentwicklung berücksichtigt werden. Richten Sie einen Mechanismus ein, der die Projektteams dazu anregt oder zwingt, diese Anforderungen im Produkt zu erfüllen. Vermerken Sie beispielsweise Anforderungen mit Prioritäten oder beeinflussen Sie die Handhabung von Anforderungen, um ein ausreichendes Sicherheitsbedürfnis durchzusetzen (bei gleichzeitiger Abwägung mit anderen nicht-funktionalen Anforderungen).
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -36,4 +36,4 @@ notes:
 relatedActivities:
   - e17d573510904f65a1fe6040b56ad0b1
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
