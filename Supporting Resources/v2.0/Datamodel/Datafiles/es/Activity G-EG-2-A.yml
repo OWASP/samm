@@ -10,26 +10,26 @@ level: e8de5ea176cc455bba89f0e2d1ea1f16
 #Please generate another identifier for your specific activity.
 id: 05073fb130c74143a12a6ba74a44c580
 #The title of this activity
-title: Customize security training
+title: Personalizar el entrenamiento de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Relevant employee roles trained according to their specific role
+benefit: Capacitar al personal relevante de acuerdo con su rol específico
 #A one sentence description of the activity
-shortDescription: Offer technology and role-specific guidance, including security nuances of each language and platform
+shortDescription: Ofrecer tecnología y orientación específica al rol, incluyendo matices de seguridad en cada idioma y plataforma
 #A multi-paragraph description of the activity
 longDescription: |
-  Conduct instructor-led or CBT security training specific to the organization’s roles and technologies, starting with the core development team. The organization customizes training for product managers, software developers, testers, and security auditors, based on each group’s technical needs.
+  Lleve a cabo capacitación en seguridad dirigida por un instructor o CBT específica para los roles y tecnologías de la organización, comenzando con el equipo de desarrollo central. La organización personaliza la capacitación para gerentes de productos, desarrolladores de software, evaluadores y auditores de seguridad, según las necesidades técnicas de cada grupo.
 
-  - Product managers train on topics related to SAMM business functions and security practices, with emphasis on security requirements, threat modeling, and defect tracking.
-  - Developers train on coding standards and best practices for the technologies they work with to ensure the training directly benefits application security. They have a solid technical understanding of the OWASP Top 10 vulnerabilities, or similar weaknesses relevant to the technologies and frameworks used (e.g. mobile), and the most common remediation strategies for each issue.
-  - Testers train on the different testing tools and best practices for technologies used in the organization, and in tools that identify security defects.
-  - Security auditors train on the software development lifecycle, application security mechanisms used in the organization, and the process for submitting security defects for remediation.
-  - Security Champions train on security topics from various phases of the SDLC. They receive the same training as developers and testers, but also understand threat modeling and secure design, as well as security tools and technologies that can be integrated into the build environment.
+  - Los gerentes de producción se capacitan en temas relacionados con las funciones comerciales de SAMM y las prácticas de seguridad, con énfasis en los requisitos de seguridad, el modelado de amenazas y el seguimiento de defectos.
+  - Los desarrolladores se capacitan sobre los estándares de codificación y las mejores prácticas para las tecnologías con las que trabajan para garantizar que la capacitación beneficie directamente a la seguridad de las aplicaciones. Tienen un conocimiento técnico sólido de las 10 vulnerabilidades principales de OWASP, o debilidades similares relevantes para las tecnologías y marcos utilizados (por ejemplo, dispositivos móviles), y las estrategias de remediación más comunes para cada problema.
+  - Los probadores se capacitan en las diferentes herramientas de prueba y las mejores prácticas para las tecnologías utilizadas en la organización, y en las herramientas que identifican los defectos de seguridad.
+  - Los auditores de seguridad se capacitan sobre el ciclo de vida del desarrollo de software, los mecanismos de seguridad de las aplicaciones utilizados en la organización y el proceso para enviar defectos de seguridad para su corrección.
+  - Los campeones de seguridad se capacitan en temas de seguridad de varias fases del SDLC. Reciben la misma formación que los desarrolladores y evaluadores, pero también comprenden el modelado de amenazas y el diseño seguro, así como las herramientas y tecnologías de seguridad que se pueden integrar en el entorno de compilación.
 
-  Include all training content from the Maturity Level 1 activities of this stream and additional role-specific and technology-specific content. Eliminate unnecessary aspects of the training.
+  Incluya todo el contenido de capacitación de las actividades del Nivel de madurez 1 de esta secuencia y contenido adicional específico de la función y específico de la tecnología. Elimina aspectos innecesarios del entrenamiento.
 
-  Ideally, identify a subject-matter expert in each technology to assist with procuring or developing the training content and updating it regularly. The training consists of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop. Include results of the previous penetration as examples of vulnerabilities and implemented remediation strategies. Ask a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
+  Idealmente, identifique un experto en la materia en cada tecnología para ayudarlo a adquirir o desarrollar el contenido de capacitación y actualizarlo regularmente. La capacitación consiste en demostraciones de explotación de vulnerabilidades utilizando aplicaciones debilitadas intencionalmente, como WebGoat o Juice Shop. Incluya los resultados de la penetración anterior como ejemplos de vulnerabilidades y estrategias de remediación implementadas. Solicite a un probador de penetración que lo ayude a desarrollar ejemplos de demostraciones de explotación de vulnerabilidades.
 
-  Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other information relevant to their work or environments.
+  La capacitación es obligatoria para todos los empleados y contratistas involucrados en el desarrollo de software e incluye una aprobación auditable para demostrar el cumplimiento. Siempre que sea posible, la capacitación también debe incluir una prueba para garantizar la comprensión, no solo el cumplimiento. Actualice y brinde capacitación anualmente para incluir cambios en la organización, la tecnología y las tendencias. Encuesta a los participantes de la capacitación para evaluar la calidad y relevancia de la capacitación. Reúna sugerencias de otra información relevante para su trabajo o entornos.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -40,7 +40,7 @@ costs:
 personnel:
 #Internal notes that might help the author
 notes: |
-  ** References **
+  ** Referencias**
   - [OWASP Top 10 Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
   - [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
   - [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
