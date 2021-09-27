@@ -15,21 +15,21 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, for some of the assets
-    value: 0.25
+    text: Ja, für einige unserer Assets
+    value: 0
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, for at least half of the assets
-    value: 0.5
+    text: Ja, für mindestens die Hälfte unserer Assets
+    value: 0
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, for most or all of the assets
+    text: Ja, für den größten Teil oder alle Assets
     value: 1
     weight: 1
     order: 3
 #Type Classification of the Document
-type: AnswerSet
+type: Antwortmöglichkeiten
