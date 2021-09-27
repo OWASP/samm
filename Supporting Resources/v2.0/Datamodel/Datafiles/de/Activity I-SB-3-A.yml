@@ -10,37 +10,37 @@ level: 02e602c451d548e8a95433a46fe6b9d8
 #Please generate another identifier for your specific activity.
 id: 281369f491da4d4c84b0729e344e2c93
 #The title of this activity
-title: Enforce a security baseline during build
+title: Durchsetzung einer Sicherheits-Baseline während der Erstellung
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assurance that you build software complying with a security baseline
-shortDescription: Define mandatory security checks in the build process and ensure that building non-compliant artifacts fails.
+benefit: Die Sicherheit, dass Sie Software entwickeln, die einer Sicherheitsrichtlinie entspricht
+shortDescription: Definieren Sie obligatorische Sicherheitsprüfungen für den Build-Prozess und stellen Sie sicher, dass die Erstellung nicht konformer Artefakte fehlschlägt.
 #A multi-paragraph description of the activity
 longDescription: |
-  Define security checks suitable to be carried out during the build process, as well as minimum criteria for passing the build - these might differ according to the risk profiles of various applications. Include the respective security checks in the build and enforce breaking the build process in case the predefined criteria are not met. Trigger warnings for issues below the threshold and log these to a centralized system to track them and take actions. If sensible, implement an exception mechanism to bypass this behavior if the risk of a particular vulnerability has been accepted or mitigated. However, ensure these cases are explicitely approved first and log their occurence together with a rationale.
+  Definieren Sie Sicherheitsprüfungen, die während des Build-Prozesses durchgeführt werden sollen, sowie Mindestkriterien für das Bestehen des Builds - diese können je nach Risikoprofil der verschiedenen Anwendungen unterschiedlich sein. Binden Sie die entsprechenden Sicherheitsprüfungen in den Build ein und erzwingen Sie den Abbruch des Build-Prozesses, wenn die vordefinierten Kriterien nicht erfüllt sind. Lösen Sie Warnungen für Probleme unterhalb des Schwellenwerts aus und protokollieren Sie diese in einem zentralen System, um sie zu verfolgen und Maßnahmen zu ergreifen. Falls sinnvoll, implementieren Sie einen Ausnahmemechanismus, um dieses Verhalten zu umgehen, wenn das Risiko einer bestimmten Schwachstelle akzeptiert oder entschärft wurde. Stellen Sie jedoch sicher, dass diese Fälle zuerst ausdrücklich genehmigt werden und protokollieren Sie ihr Auftreten zusammen mit einer Begründung.
 
-  If technical limitations prevent the organization from breaking the build automatically, ensure the same effect via other measures, such as a clear policy and regular audit.
+  Wenn technische Beschränkungen das Unternehmen daran hindern, den Build automatisch zu unterbrechen, muss die gleiche Wirkung durch andere Maßnahmen, wie z. B. eine klare Richtlinie und regelmäßige Audits, sichergestellt werden.
 
-  Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build. Where possible, use a deterministic method that outputs byte-for-byte reproducible artifacts.
+  Führen Sie das Code Signing auf einem separaten, zentralisierten Server durch, der das Zertifikat nicht für das System, das den Build ausführt, offenlegt. Verwenden Sie nach Möglichkeit eine deterministische Methode, die Byte für Byte reproduzierbare Artefakte ausgibt.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
-  - Security Engineer
+  - Entwickler
+  - Sicherheitsingenieur
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   - 921ff24f0b9f4df9a5129aa2f8a4a570
   - fb6f258a2e424ee9a919341758222a7a
   - 4f6a06796d0840debcc775ea1af65679
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
