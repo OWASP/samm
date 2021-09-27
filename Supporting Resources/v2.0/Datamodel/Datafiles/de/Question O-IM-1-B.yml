@@ -10,12 +10,12 @@ answerset: 381e1e37a19c488ab045a8a512552141
 #Please generate another identifier for your specific maturity level.
 id: 0d889a913d484eb39b80f096f3a66019
 #Text of the question presented to the user
-text: Do you respond to detected incidents?
+text: Reagieren Sie auf festgestellte Störungen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criteria
 quality:
-  - You have a defined person or role for incident handling
-  - You document security incidents
+  - Sie haben eine Person oder Rolle für die Bearbeitung von Störfällen bestimmt
+  - Sie dokumentieren Sicherheitsvorfälle
 #Type Classification of the Document
-type: Question
+type: Frage
