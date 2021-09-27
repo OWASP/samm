@@ -10,6 +10,6 @@ maturitylevel: 0a1dc80f84964f2fa776c5d8e932353a
 #Please generate another identifier for your specific practice level.
 id: 8cb942eff46d41f38e6edc11849744a6
 #Objective of this particular practice level
-objective: Best-effort patching and hardening
+objective: Bestmögliches Patchen und Härten
 #Type Classification of the Document
-type: PracticeLevel
+type: Praxis Level
