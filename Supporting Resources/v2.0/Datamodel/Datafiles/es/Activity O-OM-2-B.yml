@@ -10,18 +10,18 @@ level: 76f8a2e68065467ba9bd2b5ac625490b
 #Please generate another identifier for your specific activity.
 id: 60d7a0a61dd142d5a87009bc5b93df56
 #The title of this activity
-title: Formalize decommissioning process
+title: Formalizar el proceso de desmantelamiento
 #Describe the benefit that is achieved by implementing this activity
-benefit: Standardized decommisioning process decreasing the risk of forgetting components
+benefit: Proceso de desmantelamiento estandarizado que reduce el riesgo de olvidar componentes
 #A one sentence description of the activity
-shortDescription: Develop repeatable decommissioning processes for unused systems/services, and for migration from legacy dependencies. Manage legacy migration roadmaps for customers.
+shortDescription: Desarrolle procesos de desmantelamiento repetibles para sistemas/servicios no utilizados y para la migración desde dependencias heredadas. Administre hojas de ruta de migración heredadas para los clientes.
 #A multi-paragraph description of the activity
 longDescription: |
-  As part of decommissioning a system, application, or service, follow an established process for removing all relevant accounts, firewall rules, data, etc. from the operational environment. By removing these unused elements from configuration files, you improve the maintainability of infrastructure-as-code resources.
+  Como parte del desmantelamiento de un sistema, aplicación o servicio, siga un proceso establecido para eliminar todas las cuentas, reglas de firewall, datos, etc. relevantes del entorno operativo. Al eliminar estos elementos no utilizados de los archivos de configuración, mejora la capacidad de mantenimiento de los recursos de infraestructura como código.
 
-  Follow a consistent process for timely replacement or upgrade of third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), that have reached end of life.
+  Siga un proceso coherente para el reemplazo o actualización oportuna de aplicaciones de terceros o dependencias de aplicaciones (por ejemplo, Sistema operativo, aplicaciones de servicios públicos, bibliotecas) que hayan llegado al final de su vida útil.
 
-  Engage with customers and user groups for your products at or approaching end of life, to migrate them to supported versions in a timely manner.
+  Interactúe con los clientes y grupos de usuarios de sus productos al final de su vida útil o cuando se acerquen, para migrarlos a versiones compatibles de manera oportuna.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
