@@ -10,18 +10,18 @@ level: 41c8e63716c34f1eaf09b8cad70cfbaf
 #Please generate another identifier for your specific activity.
 id: 5e1dd310e28449058046c7af0fe46fce
 #The title of this activity
-title: Promote preferred tools and technologies
+title: Förderung der bevorzugten Tools und Technologien
 #Describe the benefit that is achieved by implementing this activity
-benefit: Technologies with appropriate security level available to product teams
+benefit: Technologien mit angemessenem Sicherheitsniveau, die den Produktteams zur Verfügung stehen
 #A one sentence description of the activity
-shortDescription: Standardize technologies and frameworks to be used throughout the different applications
+shortDescription: Standardisierung von Technologien und Frameworks, die in den verschiedenen Anwendungen verwendet werden sollen
 #A multi-paragraph description of the activity
 longDescription: |
-  Identify commonly used technologies, frameworks and tools in use across software projects in the organization, whereby you focus on capturing the high-level technologies.
+  Identifizieren Sie häufig verwendete Technologien, Frameworks und Tools, die in Softwareprojekten im Unternehmen eingesetzt werden, wobei Sie sich auf die Erfassung der High-Level-Technologien konzentrieren.
 
-  Create a list and share it across the development organization as recommended technologies. When selecting them, consider incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, and sufficient knowledge within the organization.
+  Erstellen Sie eine Liste und geben Sie diese als empfohlene Technologien an die gesamte Entwicklungsorganisation weiter. Berücksichtigen Sie bei der Auswahl der Technologien die Vorfälle in der Vergangenheit, die Erfolgsbilanz bei der Behebung von Schwachstellen, die Angemessenheit der Funktionalität für das Unternehmen, die übermäßige Komplexität bei der Verwendung der Drittanbieterkomponente und das ausreichende Wissen innerhalb des Unternehmens.
 
-  Senior developers and architects create this list, including input from managers and security auditors. Share this list of recommended components with the development organization. Ultimately, the goal is to provide well-known defaults for project teams. Perform a periodic review of these technologies for security and appropriateness.
+  Die Liste wird von erfahrenden (Senior) Entwicklern und Architekten unter Einbeziehung von Managern und Sicherheitsexperten (Auditoren) erstellt. Geben Sie diese Liste der empfohlenen Komponenten an die Entwicklungsabteilung weiter. Ziel ist es schließlich, den Projektteams bekannte Vorgaben zu machen. Führen Sie eine regelmäßige Überprüfung dieser Technologien auf Sicherheit und Angemessenheit durch.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
