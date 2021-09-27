@@ -10,18 +10,18 @@ level: 8cb942eff46d41f38e6edc11849744a6
 #Please generate another identifier for your specific activity.
 id: 786b3d7b39cd49a88090554a275f04a6
 #The title of this activity
-title: Use best-effort hardening
+title: Usar el mejor esfuerzo de "hardening"
 #Describe the benefit that is achieved by implementing this activity
-benefit: Hardened basic configuration settings of your components
+benefit: Ajustes de configuración básica de hardening de sus componentes
 #A one sentence description of the activity
-shortDescription: Perform best-effort hardening of configurations, based on readily available information.
+shortDescription: Realizar el mejor esfuerzo de hardening de las configuraciones, basado en información fácilmente disponible.
 #A multi-paragraph description of the activity
 longDescription: |
-  Understanding the importance of securing the technology stacks you're using, apply secure configuration to stack elements, based on readily available guidance (e.g., open source projects, vendor documentation, blog articles). When your teams develop configuration guidance for their applications, based on trial-and-error and information gathered by team members, encourage them to share their learnings across the organization.
+  Al comprender la importancia de proteger las pilas de tecnología que está utilizando, aplique una configuración segura a los elementos de la pila, según la guía disponible (por ejemplo, proyectos de código abierto, documentación de proveedores, artículos de blogs). Cuando sus equipos desarrollen una guía de configuración para sus aplicaciones, basada en prueba y error e información recopilada por los miembros del equipo, anímelos a compartir sus aprendizajes en toda la organización.
 
-  Identify key elements of common technology stacks, and establish configuration standards for those, based on teams' experiences of what works.
+  Identifique elementos clave de pilas de tecnología comunes y establezca estándares de configuración para ellos, según las experiencias de los equipos sobre lo que funciona.
 
-  At this level of maturity, you don't yet have a formal process for managing configuration baselines. Configurations may not be applied consistently across applications and deployments, and monitoring of conformance is likely absent.
+  En este nivel de madurez, aún no tiene un proceso formal para administrar las líneas base de configuración. Es posible que las configuraciones no se apliquen de manera uniforme en todas las aplicaciones e implementaciones, y es probable que no exista el monitoreo de conformidad.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
