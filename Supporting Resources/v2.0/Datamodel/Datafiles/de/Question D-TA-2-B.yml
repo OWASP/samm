@@ -10,14 +10,14 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 42cfabd13db34fd0b35e92af917eb1b8
 #One-sentence description of the criterium
-text: Do you use a standard methodology, aligned on your application risk levels?
+text: Verwenden Sie eine Standardmethodik, die auf die Risikostufen Ihrer Anwendungen abgestimmt ist?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You train your architects, security champions, and other stakeholders on how to do practical threat modeling
-  - Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts
-  - Changes in the application or business context trigger a review of the relevant threat models
-  - You capture the threat modeling artifacts with tools that are used by your application teams
+  - Sie schulen Ihre Architekten, Security Champions und andere Beteiligte darin, wie man eine praktische Bedrohungsmodellierung durchführt
+  - Ihre Methodik zur Bedrohungsmodellierung umfasst zumindest die Erstellung von Diagrammen, die Identifizierung von Bedrohungen, die Behebung von Konstruktionsfehlern und die Validierung Ihrer Bedrohungsmodell-Artefakte
+  - Änderungen im Anwendungs- oder Geschäftskontext veranlassen eine Überprüfung der relevanten Bedrohungsmodelle
+  - Sie erfassen die Artefakte der Bedrohungsmodellierung mit Tools, die von Ihren Anwendungsteams verwendet werden
 #Type Classification of the Document
-type: Question
+type: Frage
