@@ -10,16 +10,16 @@ level: a3d4045d5c0c4bd4a875784759539f0c
 #Please generate another identifier for your specific activity.
 id: c6da6525773644d0a18b3a927caf6dd2
 #The title of this activity
-title: Perform application risk assessments
+title: Realizar evaluaciones de riesgos de aplicación
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to classify applications according to risk
+benefit: Capacidad de clasificar aplicaciones en función del riesgo
 #A one sentence description of the activity
-shortDescription: A basic assessment of the application risk is performed to understand likelihood and impact of an attack.
+shortDescription: Una evaluación básica del riesgo de aplicación se realiza para entender la probabilidad y el impacto de un ataque.
 #A multi-paragraph description of the activity
 longDescription: |
-  Use a simple method to evaluate the application risk per application, estimating the potential business impact that it poses for the organization in case of an attack. To achieve this, evaluate the impact of a breach in the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to understand important application characteristics, such as whether the application processes financial data, whether it is internet facing, or whether privacy-related data is involved. The application risk profile tells you whether these factors are applicable and if they could significatly impact the organization.
+  Utilice un método simple para evaluar el riesgo de aplicación por aplicación, estimando el impacto comercial potencial que representa para la organización en caso de un ataque. Para lograrlo, evalúe el impacto de una brecha en la confidencialidad, integridad y disponibilidad de los datos o servicios. Considere usar un conjunto de 5 a 10 preguntas para comprender las características importantes de la aplicación, como si la aplicación procesa datos financieros, si está conectada a Internet o si hay datos relacionados con la privacidad. El perfil de riesgo de la aplicación le dice si estos factores son aplicables y si podrían tener un impacto significativo en la organización.
 
-  Next, use a scheme to classify applications according to this risk. A simple, qualitative scheme (e.g. high/medium/low) that translates these characteristics into a value is often effective. It is important to use these values to represent and compare the risk of different applications against each other. Mature highly risk-driven organizations might make use of more quantitative risk schemes. Don’t invent a new risk scheme if your organization already has one that works well.
+  A continuación, utilice un esquema para clasificar las aplicaciones de acuerdo con este riesgo. Un esquema cualitativo simple (por ejemplo, alto / medio / bajo) que traduce estas características en un valor suele ser efectivo. Es importante utilizar estos valores para representar y comparar el riesgo de diferentes aplicaciones entre sí. Las organizaciones maduras altamente impulsadas por el riesgo podrían hacer uso de esquemas de riesgo más cuantitativos. No invente un nuevo esquema de riesgo si su organización ya tiene uno que funciona bien.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
