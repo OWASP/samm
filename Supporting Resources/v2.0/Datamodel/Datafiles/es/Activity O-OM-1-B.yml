@@ -10,16 +10,16 @@ level: d0a99f3db27e48aa9b2d6b58a9040f49
 #Please generate another identifier for your specific activity.
 id: 1a398709b9d3407dbf9db7eeff6e916c
 #The title of this activity
-title: Identify unused applications
+title: Identificar aplicaciones no utilizadas
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identification of unused of software assets or components
+benefit: Identificación de activos o componentes no utilizados
 #A one sentence description of the activity
-shortDescription: Decomission unused applications and services as identified. Manage customer upgrades/migrations individually.
+shortDescription: Retirar las aplicaciones y los servicios no utilizados según se identifiquen. Gestione las actualizaciones/migraciones de los clientes de forma individual.
 #A multi-paragraph description of the activity
 longDescription: |
-  Identify unused applications on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When you identify unused applications, process those findings for further action. If you have established a formal process for decommissioning unused applications, ensure teams are aware of and use it.
+  Identifique las aplicaciones no utilizadas de forma _ad hoc_, ya sea por observación fortuita o realizando una revisión ocasional. Cuando identifique aplicaciones no utilizadas, procese esos hallazgos para tomar medidas adicionales. Si ha establecido un proceso formal para retirar las aplicaciones no utilizadas, asegúrese de que los equipos lo conozcan y lo utilicen.
 
-  Manage customer/user migration from older versions of your products for each product and customer/user group. When a product version is no longer in use by any customer/user group, discontinue support for that version. However, at this level of maturity you may have a large number of product versions in active use across the customer/user base, requiring significant developer effort to back-port product fixes.
+  Administre la migración de clientes/usuarios desde versiones anteriores de sus productos para cada producto y grupo de clientes/usuarios. Cuando un cliente/grupo de usuarios ya no utilice una versión del producto, suspenda el soporte para esa versión. Sin embargo, en este nivel de madurez, es posible que tenga una gran cantidad de versiones de productos en uso activo en toda la base de clientes/usuarios, lo que requiere un esfuerzo significativo del desarrollador para respaldar las correcciones del producto.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
