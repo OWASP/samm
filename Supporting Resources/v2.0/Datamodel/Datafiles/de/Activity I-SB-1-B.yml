@@ -10,42 +10,42 @@ level: b29ab542cc674901a19cf5f3c0c4be18
 #Please generate another identifier for your specific activity.
 id: bed0489cae4e4401b1d44d56ad36c109
 #The title of this activity
-title: Identify application dependencies
+title: Identifizierung von Anwendungsabhängigkeiten
 #Describe the benefit that is achieved by implementing this activity
-benefit: Available information on known security issues in dependencies
+benefit: Verfügbare Informationen über bekannte Sicherheitsprobleme in Abhängigkeiten
 #A one sentence description of the activity
-shortDescription: Create records with Bill of Materials of your applications and opportunistically analyze these.
+shortDescription: Erstellen Sie ein Verzeichnis aller Abhängigkeiten Ihrer Anwendungen und analysieren Sie diese.
 #A multi-paragraph description of the activity
 longDescription: |
-  Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). Consider that different components of the application may consume entirely different dependencies. For example, if the software package is a web application, cover both the server-side application code and client-side scripts. In building these records, consider the various locations where dependencies might be specified such as configuration files, the project's directory on disk, a package management tool or the actual code (e.g. via an IDE that supports listing dependencies).
+  Führen Sie ein Verzeichnis aller Abhängigkeiten, die in der gesamten Zielproduktionsumgebung verwendet werden. Dies wird manchmal als Bill of Materials (BOM) bezeichnet. Berücksichtigen Sie, dass verschiedene Komponenten der Anwendung möglicherweise völlig unterschiedliche Abhängigkeiten aufweisen. Handelt es sich bei dem Softwarepaket beispielsweise um eine Webanwendung, sollten Sie sowohl den serverseitigen Anwendungscode als auch die clientseitigen Skripte erfassen. Berücksichtigen Sie bei der Erstellung dieser Datensätze die verschiedenen Orte, an denen Abhängigkeiten angegeben werden können, wie Konfigurationsdateien, das Projektverzeichnis auf der Festplatte, ein Paketverwaltungswerkzeug oder der eigentliche Code (z.B. über eine IDE, die das Auflisten von Abhängigkeiten unterstützt).
 
-  Gather the following information about each dependency&#58;
+  Sammeln Sie die folgenden Informationen über jede Abhängigkeit&#58;:
 
-  * Where it is used or referenced
-  * Version used
-  * License
-  * Source information (link to repository, author's name, etc.)
-  * Support and maintenance status of the dependency
+  * Wo sie verwendet oder referenziert wird
+  * Verwendete Version
+  * Lizenz
+  * Quellinformationen (Link zum Repository, Name des Autors, etc.)
+  * Support- und Wartungsstatus der Abhängigkeit
 
-  Check the records to discover any dependencies with known vulnerabilities and update or replace them accordingly.
+  Überprüfen Sie die Einträge, um Abhängigkeiten mit bekannten Schwachstellen zu entdecken und aktualisieren oder ersetzen Sie sie entsprechend.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Engineer
-  - Developer
+  - Sicherheitsingenieur
+  - Entwickler
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   -
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
