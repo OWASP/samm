@@ -10,16 +10,16 @@ level: d0a99f3db27e48aa9b2d6b58a9040f49
 #Please generate another identifier for your specific activity.
 id: c16a12399dc94cc889d7e9e66e0ae2a0
 #The title of this activity
-title: Organize basic data protections
+title: Organizar protecciones básicas de datos
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of sensitivity of processed data with derived quick-win measures
+benefit: Entendimiento de la sensibilidad de los datos procesados con medidas rápidas derivadas
 #A one sentence description of the activity
-shortDescription: Implement basic data protection practices
+shortDescription: Implementar prácticas básicas de protección de datos
 #A multi-paragraph description of the activity
 longDescription: |
-  Understand the types and sensitivity of data stored and processed by your applications, and maintain awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. Protect and handle all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed.
+  Entender los tipos y la sensibilidad de los datos almacenados y procesados por sus aplicaciones, y mantener la conciencia de la suerte de los datos procesados (por ejemplo, respaldos, compartiendo con socios externos). En este nivel de madurez, la información recolectada puede ser capturada en formas diferentes y diferentes lugares; se supone que no existe ningún catálogo de datos en toda la organización. Proteger y manejar todos los datos asociados a una aplicación determinada de acuerdo con los requisitos de protección aplicables a los datos más sensibles almacenados y procesados.
 
-  Implement basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, you can focus data protection policies and activities on production.
+  Implementar controles básicos, para prevenir la propagación de datos sensibles no saneados desde entornos de producción a entornos más bajos. Al asegurar que los datos de producción no saneados nunca se propagan a entornos inferiores (no de producción), usted puede centrar las políticas y actividades de protección de datos en la producción.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
