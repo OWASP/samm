@@ -10,18 +10,18 @@ level: 817dd6acaf85496aa005393e0e6c3e70
 #Please generate another identifier for your specific activity.
 id: b082664b8815407d825b82cf23fa88ea
 #The title of this activity
-title: Create an incident response plan
+title: Crear un plan de respuesta de incidentes
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to efficiently solve most common security incidents
+benefit: Capacidad para resolver de manera eficiente los incidentes de seguridad más comunes
 #A one sentence description of the activity
-shortDescription: Identify roles and responsibilities for incident response.
+shortDescription: Identificar roles y responsabilidades para la respuesta a incidentes.
 #A multi-paragraph description of the activity
 longDescription: |
-  The first step is to recognize the incident response competence as such, and define a responsible owner. Provide them the time and resources they need to keep up with current state of incident handling best practices and forensic tooling.
+  El primer paso es reconocer la competencia de respuesta a incidentes como tal y definir un propietario responsable. Bríndeles el tiempo y los recursos que necesitan para mantenerse al día con el estado actual de las mejores prácticas de manejo de incidentes y las herramientas forenses.
 
-  At this level of maturity, you may not have established a dedicated incident response team, but you have defined the participants of the process (usually different roles). Assign a single point of contact for the process, known to all relevant stakeholders. Ensure that the point of contact knows how to reach each participant, and define on-call responsibilities for those who have them.
+  En este nivel de madurez, es posible que no haya establecido un equipo de respuesta a incidentes dedicado, pero ha definido a los participantes del proceso (generalmente roles diferentes). Asigne un único punto de contacto para el proceso, conocido por todas las partes interesadas relevantes. Asegúrese de que el punto de contacto sepa cómo comunicarse con cada participante y defina las responsabilidades de guardia para quienes las tengan.
 
-  When security incidents happen, document all actions taken. Protect this information from unauthorized access.
+  Cuando ocurran incidentes de seguridad, documente todas las acciones tomadas. Proteja esta información del acceso no autorizado.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
