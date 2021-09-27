@@ -10,18 +10,18 @@ level: 354292b7198b48bb8c4909e0d7e29f68
 #Please generate another identifier for your specific activity.
 id: 84dcbc954d954d95b1fb37e032f05402
 #The title of this activity
-title: Establish hardening baselines
+title: Erstellung von Härtungs-Baselines
 #Describe the benefit that is achieved by implementing this activity
-benefit: Consistent hardening of technology stack components in your organization
+benefit: Konsistente Härtung der Komponenten des Technologie-Stacks in Ihrem Unternehmen
 #A one sentence description of the activity
-shortDescription: Perform consistent hardening of configurations, following established baselines and guidance.
+shortDescription: Durchgängige Härtung von Konfigurationen unter Beachtung etablierter Grundprinzipien und Leitlinien.
 #A multi-paragraph description of the activity
 longDescription: |
-  Establsh configuration hardening baselines for all components in each technology stack used. To assist with consistent application of the hardening baselines, develop configuration guides for the components. Require product teams to apply configuration baselines to all new systems, and to existing systems when practicable.
+  Festlegung von Grundregeln für die Konfigurationshärtung für alle Komponenten in jedem verwendeten Technologiepaket. Entwickeln Sie Konfigurationsleitfäden für die Komponenten, um eine einheitliche Anwendung der Härtungsgrundlagen zu unterstützen. Verpflichten Sie die Produktteams zur Anwendung von Konfigurationsgrundlagen auf alle neuen Systeme und auf bestehende Systeme, wenn dies möglich ist.
 
-  Place hardening baselines and configuration guides under change management, and assign an owner to each. Owners have ongoing responsibility to keep them up-to-date, based on evolving best practices or changes to the relevant components (e.g., version updates, new features).
+  Unterstellen Sie Härtungs-Baselines und Konfigurationsleitfäden dem Änderungsmanagement und weisen Sie ihnen jeweils einen Verantwortlichen zu. Die Eigentümer sind dafür verantwortlich, dass die Baselines stets auf dem neuesten Stand gehalten werden, und zwar auf der Grundlage sich entwickelnder Best Practices oder Änderungen an den betreffenden Komponenten (z. B. Versionsaktualisierungen, neue Funktionen).
 
-  In larger environments, derive configurations of instances from a locally maintained master, with relevant configuration baselines applied. Employ automated tools for hardening configurations.
+  In größeren Umgebungen sollten die Konfigurationen der Instanzen von einem lokal gepflegten Master abgeleitet werden, wobei relevante Konfigurations-Baselines anzuwenden sind. Verwenden Sie automatisierte Tools zur Absicherung von Konfigurationen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
