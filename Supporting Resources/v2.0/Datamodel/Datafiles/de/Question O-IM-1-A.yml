@@ -10,13 +10,13 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 1e005e11997f4929a12fdb939599e77e
 #Text of the question presented to the user
-text: Do you analyze log data for security incidents periodically?
+text: Analysieren Sie die Logdaten in regelmäßigen Abständen auf Sicherheitsvorfälle?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criteria
 quality:
-  - You have a contact point for the creation of security incidents
-  - You analyze data in accordance with the log data retention periods
-  - The frequency of this analysis is aligned with the criticality of your applications
+  - Sie haben eine Anlaufstelle für die Erfassung von Sicherheitsvorfällen
+  - Sie analysieren die Daten gemäß den Aufbewahrungsfristen der Logdaten
+  - Die Häufigkeit dieser Analyse richtet sich nach der Kritikalität Ihrer Anwendungen
 #Type Classification of the Document
-type: Question
+type: Frage
