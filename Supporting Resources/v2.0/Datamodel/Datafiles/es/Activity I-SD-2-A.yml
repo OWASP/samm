@@ -10,18 +10,18 @@ level: 3e89d1fa6cba4516a3ec446faaab5b84
 #Please generate another identifier for your specific activity.
 id: 1f3a9306778f4539a437d9f19232cda7
 #The title of this activity
-title: Automate deployment and integrate security checks
+title: Automatizar despliegue e integrar comprobaciones de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient deployment process with integrated security tools
+benefit: Proceso de despliegue eficiente con herramientas de seguridad integradas
 #A one sentence description of the activity
-shortDescription: Automate the deployment process over all stages and introduce sensible security verification tests.
+shortDescription: Automatiza el proceso de implementación en todas las etapas e introduce pruebas de verificación de seguridad sensatas.
 #A multi-paragraph description of the activity
 longDescription: |
-  Automate the deployment process to cover various stages, so that no manual configuration steps are needed and the risk of isolated human errors is eliminated. Ensure and verify that the deployment is consistent over all stages.
+  Automatice el proceso de implementación para cubrir varias etapas, de modo que no se necesiten pasos de configuración manual y se elimine el riesgo de errores humanos aislados. Asegúrese y verifique que la implementación sea consistente en todas las etapas.
 
-  Integrate automated security checks in your deployment process, e.g. using Dynamic Analysis Security Testing (DAST) and vulnerability scanning tools. Also, verify the integrity of the deployed artefacts where this makes sense. Log the results from these tests centrally and take any necessary actions. Ensure that in case any defects are detected, relevant personnel is notified automaticaly. In case any issues exceeding predefined criticality are identified, stop or reverse the deployment  either automatically, or introduce a separate manual approval workflow so that this decision is recorded, containing an explanation for the exception.
+  Integre controles de seguridad automatizados en su proceso de implementación, por ejemplo, utilizando pruebas de seguridad de análisis dinámico (DAST) y herramientas de escaneo de vulnerabilidades. Además, verifique la integridad de los artefactos implementados cuando esto tenga sentido. Registre los resultados de estas pruebas de forma centralizada y realice las acciones necesarias. Asegúrese de que, en caso de que se detecten defectos, se notifique automáticamente al personal correspondiente. En caso de que se identifiquen problemas que excedan la criticidad predefinida, detenga o invierta la implementación, ya sea automáticamente o introduzca un flujo de trabajo de aprobación manual por separado para que se registre esta decisión, que contenga una explicación de la excepción.
 
-  Account for and audit all deployments to all stages. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
+  Contabilizar y auditar todas las implementaciones en todas las etapas. Disponga de un sistema para registrar cada implementación, incluida la información sobre quién la llevó a cabo la versión de software que se implementó y las variables relevantes específicas de la implementación.
 #The output of this particular activity
 results:
   - result1
@@ -34,10 +34,10 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Administrator
-  - Security Engineer
+  - Administrador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   - fb6f258a2e424ee9a919341758222a7a
