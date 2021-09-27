@@ -10,13 +10,13 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 37c6a5618a6344b386eb872619cfe53f
 #One-sentence description of the criterium
-text: Do you limit access to application secrets according to the least privilege principle?
+text: Beschränken Sie den Zugang zu Anwendungsgeheimnissen nach dem Prinzip der geringsten Rechten (least privilege)?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You store production secrets protected in a secured location
-  - Developers do not have access to production secrets
-  - Production secrets are not available in non-production environments
+  - Sie speichern Produktionsgeheimnisse geschützt an einem gesicherten Ort
+  - Entwickler haben keinen Zugang zu Produktionsgeheimnissen
+  - Produktionsgeheimnisse sind in Nicht-Produktionsumgebungen nicht verfügbar
 #Type Classification of the Document
-type: Question
+type: Frage
