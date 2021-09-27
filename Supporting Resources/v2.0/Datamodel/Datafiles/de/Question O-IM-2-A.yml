@@ -10,7 +10,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 13b9816c06444ba99584e657bfa5833d
 #Text of the question presented to the user
-text: Do you follow a documented process for incident detection?
+text: Befolgen Sie einen dokumentierten Prozess zur Erkennung von Vorfällen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criteria
