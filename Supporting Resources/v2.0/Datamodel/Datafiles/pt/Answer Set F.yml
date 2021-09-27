@@ -15,19 +15,19 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, we started implementing it
+    text: Sim, já começamos a implementá-lo
     value: 0.25
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, for part of the organization
+    text: Sim, para parte da organização
     value: 0.5
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, for the entire organization
+    text: Sim, para toda a organização
     value: 1
     weight: 1
     order: 3
