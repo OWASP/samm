@@ -10,11 +10,11 @@ answerset: f3534ade73d8469e879c74b4e0a4eb3d
 #Please generate another identifier for your specific maturity level.
 id: 7e541611f3c749f285ac27f0a9ba7d55
 #One-sentence description of the criterium
-text: Do you regularly review and update the risk profiles for your applications?
+text: Überprüfen und aktualisieren Sie regelmäßig die Risikoprofile für Ihre Anwendungen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - The organizational risk standard considers historical feedback to improve the evaluation method
-  - Significant changes in the application or business context trigger a review of the relevant risk profiles
-type: Question
+  - Der organisatorische Risikostandard berücksichtigt historische Rückmeldungen zur Verbesserung der Bewertungsmethode
+  - Signifikante Änderungen in der Anwendung oder im Geschäftskontext führen zu einer Überprüfung der relevanten Risikoprofile
+type: Frage
