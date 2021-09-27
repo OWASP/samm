@@ -10,16 +10,16 @@ level: df5a0be1889a4b06835193892803dde5
 #Please generate another identifier for your specific activity.
 id: 81ef5625583646bf8bc3fad53e4eff55
 #The title of this activity
-title: Perform fuzz testing
+title: Realizar pruebas de fuzz
 #Describe the benefit that is achieved by implementing this activity
-benefit: Insight into behaviour of your applications when dealing with unexpected input
+benefit: Inspeccionar el comportamiento de sus aplicaciones cuando se trata de entradas inesperadas
 #A one sentence description of the activity
-shortDescription: Perform security fuzzing testing
+shortDescription: Realizar pruebas de seguridad difuminada
 #A multi-paragraph description of the activity
 longDescription: |
-  Perform fuzzing, sending random or malformed data to the test subject in an attempt to make it crash. Fuzz testing or Fuzzing is a Black Box software testing technique, which consists of finding implementation bugs using automated malformed or semi-malformed data injection. Cover at least a minimum fuzzing for vulnerabilities against the main input parameters of the application.
+  Realice fuzzing, enviando datos aleatorios o con formato incorrecto al sujeto de prueba en un intento de hacer que se bloquee. Pruebas de Fuzz o Fuzzing es una técnica de prueba de software de Black Box, que consiste en encontrar errores de implementación mediante la inyección automatizada de datos malformados o semi-malformado. Cubra al menos un fuzzing mínimo para las vulnerabilidades contra los principales parámetros de entrada de la aplicación.
 
-  The advantage of fuzz testing is the simplicity of the test design, and its lack of preconceptions about system behavior. The stochastic approach results in bugs that human eyes or structured testing would often miss. It is also one of the few means of assessing the quality of a closed system (such as a SIP phone). The simplicity of fuzzing a target is offset by the difficulty in accurately detecting and triaging crashes. Favour existing fuzzing tools and frameworks to leverage their supporting tooling.
+  La ventaja de las pruebas de fuzz es la simplicidad del diseño de la prueba y su falta de ideas preconcebidas sobre el comportamiento del sistema. El enfoque estocástico da como resultado errores que los ojos humanos o las pruebas estructuradas a menudo pasarían por alto. También es uno de los pocos medios para evaluar la calidad de un sistema cerrado (como un teléfono SIP). La simplicidad de identificar un objetivo con fuzz se compensa con la dificultad de detectar y clasificar los choques con precisión. Favorezca las herramientas y los marcos de fuzzing existentes para aprovechar sus herramientas de apoyo.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
