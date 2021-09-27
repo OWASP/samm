@@ -10,18 +10,18 @@ level: f8b6eebc0662477f9286aa4f6068e364
 #Please generate another identifier for your specific activity.
 id: ce13df2e0dfb455588bf75135f1a718e
 #The title of this activity
-title: Develop a security requirements framework
+title: Entwicklung eines Rahmenwerks für Sicherheitsanforderungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient and effective handling of security requirements in your organization
+benefit: Effizienter und effektiver Umgang mit den Sicherheitsanforderungen in Ihrer Organisation
 #A one sentence description of the activity
-shortDescription: Build a requirements framework for product teams to utilize.
+shortDescription: Aufbau eines Anforderungsrahmenwerks für die Produktteams, der genutzt werden kann.
 #A multi-paragraph description of the activity
 longDescription: |
-  Setup a security requirements framework to help projects elicit an appropriate and complete requirements set for their project. This framework considers the different types of requirements and sources of requirements. It should be adapted to the organizational habits and culture, and provide effective methodology and guidance in the elicitation and formation of requirements.
+  Einrichtung eines Rahmenwerks für Sicherheitsanforderungen, um Projekte dabei zu unterstützen, einen angemessenen und vollständigen Anforderungssatz für ihr Projekt zu ermitteln. Dieser Rahmen berücksichtigt die verschiedenen Arten von Anforderungen und Quellen von Anforderungen. Er sollte an die Gewohnheiten und die Kultur der Organisation angepasst werden und eine wirksame Methodik und Anleitung für die Erhebung und Erstellung von Anforderungen bieten.
 
-  The framework helps project teams increase the efficiency and effectiveness of requirements engineering. It can provide a categorisation of common requirements and a number of reusable requirements. Do remember that, while thoughtless copying is ineffective, the fact of having potential relevant requirements to reason about is often productive.
+  Das Rahmenwerk hilft Projektteams, die Effizienz und Effektivität des Requirements Engineering zu steigern. Er kann eine Kategorisierung gemeinsamer Anforderungen und eine Reihe von wiederverwendbaren Anforderungen liefern. Denken Sie daran, dass gedankenloses Kopieren zwar ineffektiv ist, die Tatsache, dass man potenziell relevante Anforderungen hat, über die man nachdenken kann, jedoch oft produktiv ist.
 
-  The framework also gives clear guidance on the quality of requirements and formalizes how to describe them. For user stories, for instance, concrete guidance can explain what to describe in the definition of done, definition of ready, story description, and acceptance criteria.
+  Der Rahmen gibt auch klare Hinweise zur Qualität von Anforderungen und formalisiert, wie diese zu beschreiben sind. Für Benutzergeschichten kann zum Beispiel eine konkrete Anleitung erklären, was in der Definition von "done", der Definition von "ready", der Beschreibung der Geschichte und den Akzeptanzkriterien zu beschreiben ist.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
