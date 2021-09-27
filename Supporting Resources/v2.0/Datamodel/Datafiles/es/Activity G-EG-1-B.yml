@@ -10,18 +10,18 @@ level: 38f3a2f7633c42b98eb160f36a2c0a7b
 #Please generate another identifier for your specific activity.
 id: ebd3782abc4343509981c52192904a42
 #The title of this activity
-title: Identify security champions
+title: Identificar campeones de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Basic embedding of security in the development organization
+benefit: Introducción básica de seguridad en la organización de desarrollo
 #A one sentence description of the activity
-shortDescription: Identify a “Security Champion” within each development team.
+shortDescription: Identificar un “Campeón de Seguridad” dentro de cada equipo de desarrollo.
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement a program where each software development team has a member considered a “Security Champion” who is the liaison between Information Security and developers. Depending on the size and structure of the team the “Security Champion” may be a software developer, tester, or a product manager. The “Security Champion” has a set number of hours per week for Information Security related activities. They participate in periodic briefings to increase awareness and expertise in different security disciplines. “Security Champions” have additional training to help develop these roles as Software Security subject-matter experts. You may need to customize the way you create and support “Security Champions” for cultural reasons.
+  Implementar un programa en el que cada equipo de desarrollo de software tenga un miembro considerado un "Campeón de la seguridad" que sea el enlace entre la seguridad de la información y los desarrolladores. Dependiendo del tamaño y la estructura del equipo, el "Campeón de la seguridad" puede ser un desarrollador de software, un evaluador o un gerente de producto. El "Campeón de la seguridad" tiene un número determinado de horas por semana para actividades relacionadas con la seguridad de la información. Participan en sesiones informativas periódicas para aumentar la conciencia y la experiencia en diferentes disciplinas de seguridad. Los "campeones de seguridad" tienen formación adicional para ayudar a desarrollar estos roles como expertos en la materia de seguridad de software. Es posible que deba personalizar la forma en que crea y respalda a los "campeones de seguridad" por razones culturales.
 
-  The goals of the position are to increase effectiveness and efficiency of application security and compliance and to strengthen the relationship between various teams and Information Security. To achieve these objectives, “Security Champions” assist with researching, verifying, and prioritizing security and compliance related software defects. They are involved in all Risk Assessments, Threat Assessments, and Architectural Reviews to help identify opportunities to remediate security defects by making the architecture of the application more resilient and reducing the attack threat surface.
+  Los objetivos del puesto son aumentar la eficacia y eficiencia de la seguridad y el cumplimiento de las aplicaciones y fortalecer la relación entre varios equipos y la seguridad de la información. Para lograr estos objetivos, los "campeones de seguridad" ayudan a investigar, verificar y priorizar los defectos de software relacionados con la seguridad y el cumplimiento. Están involucrados en todas las evaluaciones de riesgos, evaluaciones de amenazas y revisiones arquitectónicas para ayudar a identificar oportunidades para remediar defectos de seguridad al hacer que la arquitectura de la aplicación sea más resistente y reducir la superficie de amenaza de ataque.
 
-  In addition to assisting Information Security, “Security Champions” provide periodic reviews of all security-related issues for the project team so everyone is aware of the problems and any current and future remediation efforts. These reviews are leveraged to help brainstorm solutions to more complex problems by engaging the entire development team.
+  Además de ayudar a la seguridad de la información, los "campeones de seguridad" brindan revisiones periódicas de todos los problemas relacionados con la seguridad para el equipo del proyecto para que todos estén al tanto de los problemas y de los esfuerzos de remediación actuales y futuros. Estas revisiones se aprovechan para ayudar a generar una lluvia de ideas sobre soluciones a problemas más complejos mediante la participación de todo el equipo de desarrollo.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
