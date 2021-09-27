@@ -10,18 +10,18 @@ level: 3e89d1fa6cba4516a3ec446faaab5b84
 #Please generate another identifier for your specific activity.
 id: 4729b4bd6dca4d58a68cb854ad4409a6
 #The title of this activity
-title: Include application secrets during deployment
+title: Incluye secretos de aplicación durante el despliegue
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detection of potential leakage of production secrets
+benefit: Detección de potenciales fugas de secretos de producción
 #A one sentence description of the activity
-shortDescription: Inject secrets dynamically during deployment process from hardened storages and audit all human access to them.
+shortDescription: Inyectar secretos dinámicamente durante el proceso de despliegue desde almacenamientos endurecidos y auditar todo el acceso humano a ellos.
 #A multi-paragraph description of the activity
 longDescription: |
-  Have an automated process to add credentials and secrets to configuration files during the deployment process to respective stages. This way, developers and deployers do not see or handle those sensitive values.
+  Tenga un proceso automatizado para agregar credenciales y secretos a los archivos de configuración durante el proceso de implementación en las etapas respectivas. De esta manera, los desarrolladores e implementadores no ven ni manejan esos valores sensibles.
 
-  Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings. In systems such as code repositories, where there is a history, include the versions in the checks. Mark potential secrets you discover as sensitive values, and remove them where appropriate. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
+  Implemente comprobaciones que detecten la presencia de secretos en archivos y repositorios de código y ejecútelos periódicamente. Configure herramientas para buscar cadenas conocidas y cadenas desconocidas de alta entropía. En sistemas como repositorios de código, donde hay un historial, incluya las versiones en las comprobaciones. Marque los secretos potenciales que descubra como valores sensibles y elimínelos cuando corresponda. Si no puede eliminarlos de un archivo histórico en un repositorio de código, por ejemplo, es posible que deba actualizar el valor en el sistema que consume el secreto. De esta forma, si un atacante descubre el secreto, no le será de utilidad.
 
-  Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt all secrets at rest and in transit. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptance test or production environment.
+  Haga que el sistema utilizado para almacenar y procesar los secretos y las credenciales sea robusto desde una perspectiva de seguridad. Cifre todos los secretos en reposo y en tránsito. Los usuarios que configuran este sistema y los secretos que contiene están sujetos al principio de privilegio mínimo. Por ejemplo, un desarrollador puede necesitar administrar los secretos para un entorno de desarrollo, pero no una prueba de aceptación del usuario o un entorno de producción.
 #The output of this particular activity
 results:
   - result1
@@ -34,11 +34,11 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Administrator
-  - Developer
-  - Security Engineer
+  - Administrador
+  - Desarrollador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 84dcbc954d954d95b1fb37e032f05402
