@@ -10,18 +10,18 @@ level: b55c7a41eba747678a65651f5ccacaf2
 #Please generate another identifier for your specific activity.
 id: 2bf0e192a904444b8a2f38c33256e80a
 #The title of this activity
-title: Rate and track security defects
+title: Valorar y rastrear defectos de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Consistent classification of security defects with clear expectations of their handling
+benefit: Clasificación consistente de defectos de seguridad con claras expectativas de su manejo
 #A one sentence description of the activity
-shortDescription: Rate all security defects over the whole organization consistently and define SLAs for particular severity classes.
+shortDescription: Valore todos los defectos de seguridad sobre toda la organización de forma consistente y defina SLAs para clases de severidad particulares.
 #A multi-paragraph description of the activity
 longDescription: |
-  Introduce and apply a well defined rating methodology for your security defects consistently across the whole organization, based on the probability and expected impact of the defect being exploited. This will allow you to identify applications which need higher attention and investments. In case you don't store the information about security defects centrally, ensure that you're still able to easily pull the information from all sources and get an overview about "hot spots" needing your attention.
+  Introducir y aplicar una metodología de calificación bien definida para sus defectos de seguridad que sea consistente en toda la organización, basada en la probabilidad y el impacto esperado del defecto que se está explotando. Esto le permitirá identificar aplicaciones que necesitan mayor atención e inversiones. En caso de que no almacene la información sobre defectos de seguridad centralmente, asegúrese de que puede extraer fácilmente la información de todas las fuentes y obtener una visión general acerca de "hot spots" que necesitan su atención.
 
-  Introduce SLAs for timely fixing of security defects according to their criticality rating and centrally monitor and regularly report on SLA breaches. Define a process for cases where it's not feasible or economical to fix a defect within the time defined by the SLAs. This should at least ensure that all relevant stakeholders have a solid understanding of the imposed risk. If suitable, employ compensating controls for these cases.
+  Introducir SLAs para la corrección oportuna de los defectos de seguridad según su valoración crítica y monitorear centralmente e informar regularmente sobre las violaciones de SLA. Definir un proceso para los casos en los que no sea factible o económico reparar un defecto dentro del tiempo definido por las SLAs. Esto debería al menos garantizar que todas las partes interesadas relevantes tengan un conocimiento sólido del riesgo impuesto. Si es apropiado, emplear controles compensatorios para estos casos.
 
-  Even if you don't have any formal SLAs for fixing low severity defects, ensure that responsible teams still get a regular overview about issues affecting their applications and understand how particular issues affect or amplify each other.
+  Incluso si no tiene ningún SLAs formal para reparar defectos de baja severidad, asegúrese de que los equipos responsables aún tengan una visión general regular de los problemas que afectan a sus aplicaciones y entienda cómo problemas particulares se afectan o amplifican entre sí.
 #The output of this particular activity
 results:
   - result1
@@ -34,10 +34,10 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Engineer
-  - Security Officer
+  - Ingeniero de Seguridad
+  - Oficial de seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   -
