@@ -10,20 +10,20 @@ level: 8cb942eff46d41f38e6edc11849744a6
 #Please generate another identifier for your specific activity.
 id: 0721d5bd5d67479991b5b52f33dcd7b1
 #The title of this activity
-title: Practice best-effort patching
+title: Patching nach bestem Wissen und Gewissen durchführen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Mitigation of well-known issues in third-party components
+benefit: Entschärfung bekannter Probleme in Komponenten von Drittanbietern
 #A one sentence description of the activity
-shortDescription: Perform best-effort patching of system and application components.
+shortDescription: Durchführen des bestmöglichen Patching/Updaten von System- und Anwendungskomponenten.
 #A multi-paragraph description of the activity
 longDescription: |
-  Identify applications and third-party components which need to be updated or patched, including underlying operating systems, application servers, and third-party code libraries.
+  Identifizieren Sie Anwendungen und Komponenten von Drittanbietern, die aktualisiert oder gepatcht werden müssen, einschließlich der zugrunde liegenden Betriebssysteme, Anwendungsserver und Codebibliotheken von Drittanbietern.
 
-  At this level of maturity, your identification and patching activities are best-effort and _ad hoc_, without a managed process for tracking component versions, available updates, and patch status. However, high-level requirements for patching activities (e.g., testing patches before pushing to production) may exist, and product teams are achieving best-effort compliance with those requirements.
+  Bei diesem Reifegrad erfolgen Ihre Identifizierungs- und Patching-Aktivitäten nach bestem Bemühen und "ad-hoc", ohne einen verwalteten Prozess zur Verfolgung von Komponentenversionen, verfügbaren Updates und Patch-Status. Möglicherweise gibt es jedoch hochrangige Anforderungen für Patching-Aktivitäten (z. B. das Testen von Patches vor der Übergabe an die Produktion), und die Produktteams erfüllen diese Anforderungen nach bestem Bemühen.
 
-  Except for critical security updates (e.g., an exploit for a third-party component has been publicly released), teams leverage maintenance windows established for other purposes to apply component patches. For software developed by the organization, component patches are delivered to customers and organization-managed solutions only as part of feature releases.
+  Außer bei kritischen Sicherheitsupdates (z. B. wenn ein Exploit für eine Komponente eines Drittanbieters veröffentlicht wurde) nutzen die Teams die für andere Zwecke eingerichteten Wartungsfenster, um Komponenten-Patches einzuspielen. Für Software, die von der Organisation entwickelt wurde, werden Komponenten-Patches an Kunden und von der Organisation verwaltete Lösungen nur im Rahmen von Feature-Releases bereitgestellt.
 
-  Teams share their awareness of available updates, and their experiences with patching, on an _ad hoc_ basis. Ensure teams can determine the versions of all components in use, to evaluate whether their products are affected by a security vulnerability when notified. However, the process for generating and maintaining component lists may require significant analyst effort.
+  Die Teams tauschen sich "ad-hoc" über die verfügbaren Updates und ihre Erfahrungen mit Patches aus. Es wird sichergestellt, dass die Teams die Versionen aller verwendeten Komponenten ermitteln können, um zu beurteilen, ob ihre Produkte von einer Sicherheitslücke betroffen sind, wenn sie darüber informiert werden. Der Prozess zur Erstellung und Pflege von Komponentenlisten kann jedoch einen erheblichen Aufwand für Analysten erfordern.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -37,4 +37,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
