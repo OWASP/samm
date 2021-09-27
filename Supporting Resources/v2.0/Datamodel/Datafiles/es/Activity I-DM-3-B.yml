@@ -10,23 +10,23 @@ level: 5a25ae9bc9134d6387128ea925c81845
 #Please generate another identifier for your specific activity.
 id: f2a309b82fbc46cfb2f11c9cde20dc0a
 #The title of this activity
-title: Use metrics to improve the security strategy
+title: Usar métricas para mejorar la estrategia de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Optimized security strategy based on defect information
+benefit: Estrategia de seguridad optimizada basada en información defectuosa
 #A one sentence description of the activity
-shortDescription: Continuously improve your security defect management metrics and correlate it with other sources.
+shortDescription: Mejore continuamente sus métricas de gestión de defectos de seguridad y correlacione con otras fuentes.
 #A multi-paragraph description of the activity
 longDescription: |
-  Regularly (at least once per year) revisit the defect management metrics you're collecting and compare the effort needed to collect and track these to the expected outcomes. Make knowledgeable decision about removing metrics which don't deliver the overall expected value. Wherever possible, include and automate verification activities for the quality of the collected data and ensure sustainable improvement if any differences are detected.
+  Con regularidad (al menos una vez al año) revise las métricas de gestión de defectos que está recopilando y compare el esfuerzo necesario para recopilarlas y rastrearlas con los resultados esperados. Tome una decisión informada sobre la eliminación de métricas que no brinden el valor esperado general. Siempre que sea posible, incluya y automatice las actividades de verificación de la calidad de los datos recopilados y garantice una mejora sostenible si se detectan diferencias.
 
-  Aggregate the data with your threat intelligence and incident management metrics and use the results as input for other initiatives over the whole organization, such as:
+  Agregue los datos con su inteligencia de amenazas y métricas de administración de incidentes y use los resultados como entrada para otras iniciativas en toda la organización, como:
 
-  * Planning security trainings for various personnel
-  * Improvement of security verification activities for both internally and externally develeoped collected
-  * Supply chain management, e.g. carrying out security audits of partner organizations
-  * Monitoring of attacks against your infrastructure and applications
-  * Investing in security infrastructure or compensating controls
-  * Staffing your security team and setting up the security budget
+  * Planificación de entrenamientos de seguridad para personal diverso.
+  * Mejora de las actividades de verificación de seguridad para recopilados desarrollados interna y externamente
+  * Gestión de la cadena de suministro, por ejemplo, Realización de auditorías de seguridad de organizaciones asociadas.
+  * Monitoreo de ataques contra su infraestructura y aplicaciones.
+  * Invertir en infraestructura de seguridad o compensar controles
+  * Dotar de personal a su equipo de seguridad y establecer el presupuesto de seguridad
 #The output of this particular activity
 results:
   - result1
@@ -39,11 +39,11 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Officer
-  - Security Engineer
-  - Manager
+  - Oficial de seguridad
+  - Ingeniero de Seguridad
+  - Administrador
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 5bcb52375a0f4085bb12266c9ecfa84d
