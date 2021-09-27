@@ -10,18 +10,18 @@ level: 76f8a2e68065467ba9bd2b5ac625490b
 #Please generate another identifier for your specific activity.
 id: 60d7a0a61dd142d5a87009bc5b93df56
 #The title of this activity
-title: Formalize decommissioning process
+title: Formalisierung des Stilllegungsprozesses
 #Describe the benefit that is achieved by implementing this activity
-benefit: Standardized decommisioning process decreasing the risk of forgetting components
+benefit: Standardisierter Stilllegungsprozess, der das Risiko des Vergessens von Komponenten verringert
 #A one sentence description of the activity
-shortDescription: Develop repeatable decommissioning processes for unused systems/services, and for migration from legacy dependencies. Manage legacy migration roadmaps for customers.
+shortDescription: Entwicklung von wiederholbaren Stilllegungsprozessen für nicht genutzte Systeme/Dienste und für die Migration von Altlastenabhängigkeiten. Verwaltung von Legacy-Migrationsplänen für Kunden.
 #A multi-paragraph description of the activity
 longDescription: |
-  As part of decommissioning a system, application, or service, follow an established process for removing all relevant accounts, firewall rules, data, etc. from the operational environment. By removing these unused elements from configuration files, you improve the maintainability of infrastructure-as-code resources.
+  Befolgen Sie bei der Stilllegung eines Systems, einer Anwendung oder eines Dienstes einen festgelegten Prozess zur Entfernung aller relevanten Konten, Firewall-Regeln, Daten usw. aus der Betriebsumgebung. Indem Sie diese nicht verwendeten Elemente aus den Konfigurationsdateien entfernen, verbessern Sie die Wartbarkeit der Infrastruktur-als-Code-Ressourcen.
 
-  Follow a consistent process for timely replacement or upgrade of third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), that have reached end of life.
+  Befolgen Sie einen konsistenten Prozess für den rechtzeitigen Ersatz oder das Upgrade von Anwendungen von Drittanbietern oder von Anwendungsabhängigkeiten (z. B. Betriebssystem, Dienstprogramme, Bibliotheken), die das Ende ihrer Lebensdauer erreicht haben.
 
-  Engage with customers and user groups for your products at or approaching end of life, to migrate them to supported versions in a timely manner.
+  Setzen Sie sich mit Kunden und Benutzergruppen für Ihre Produkte, die kurz vor dem Auslaufen stehen, in Verbindung, um sie rechtzeitig auf unterstützte Versionen zu migrieren.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
