@@ -10,21 +10,21 @@ level: 439406325e6645519c149da3e05a7d9d
 #Please generate another identifier for your specific activity.
 id: d6dd8813c5074350b5614b92f2dec60d
 #The title of this activity
-title: Define and incident response process
+title: Definición y proceso de respuesta a incidentes
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding and efficient handling of most security incidents
+benefit: Comprensión y manejo eficiente de la mayoría de los incidentes de seguridad
 #A one sentence description of the activity
-shortDescription: Establish a formal incident response process and ensure staff are properly trained in performing their roles.
+shortDescription: Establecer un proceso formal de respuesta a incidentes y asegurar que el personal esté debidamente capacitado en el desempeño de sus funciones.
 #A multi-paragraph description of the activity
 longDescription: |
-  Establish and document the formal security incident response process. Ensure documentation includes information like&#58;
+  Establecer y documentar el proceso formal de respuesta a incidentes de seguridad. Asegúrese de que la documentación incluya información como &#58;
 
-  * most probable/common scenarios of security incidents and high-level instructions for handling them; for such scenarios, also use public knowledge about possibly relevant third-party incidents
-  * rules for triaging each incident
-  * rules for involvement of different stakeholders including senior management, Public Relations, Legal, privacy, Human Resources, external (law enforcement) authorities, and customers; specify mandatory timeframe to do so, if needed
-  * the process for performing root-cause analysis and documentation of its results
+  * escenarios más probables/comunes de incidentes de seguridad e instrucciones de alto nivel para manejarlos; Para tales escenarios, utilice también el conocimiento público sobre incidentes de terceros posiblemente relevantes.
+  * reglas para clasificar cada incidente
+  * reglas para la participación de diferentes partes interesadas, incluida la alta dirección, relaciones públicas, asuntos legales, privacidad, recursos humanos, autoridades externas (de aplicación de la ley) y clientes; especificar el plazo obligatorio para hacerlo, si es necesario
+  * el proceso para realizar análisis de causa raíz y documentación de sus resultados
 
-  Ensure a knowledgeable and properly trained incident response team is available both during and outside of business hours. Define timelines for action and a war room. Keep hardware and software tools up to date and ready for use anytime.
+  Asegúrese de que un equipo de respuesta a incidentes informado y debidamente capacitado esté disponible tanto durante como fuera del horario comercial. Defina líneas de tiempo para la acción y una sala de guerra. Mantenga las herramientas de hardware y software actualizadas y listas para usar en cualquier momento.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
