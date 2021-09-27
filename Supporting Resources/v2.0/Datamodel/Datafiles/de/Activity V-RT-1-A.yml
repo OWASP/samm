@@ -10,16 +10,16 @@ level: df5a0be1889a4b06835193892803dde5
 #Please generate another identifier for your specific activity.
 id: 99989f86dabc4a7a87fbe6a274c99ca3
 #The title of this activity
-title: Test the effectiveness of security controls
+title: Prüfung der Wirksamkeit von Sicherheitskontrollen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Verified effectiveness of your standard security controls
+benefit: Verifizierte Wirksamkeit Ihrer Standard-Software-Sicherheitskontrollen
 #A one sentence description of the activity
-shortDescription: Test for software security controls
+shortDescription: Tests der Standard-Software-Sicherheitskontrollen
 #A multi-paragraph description of the activity
 longDescription: |
-  Conduct security tests to verify that the standard software security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service. Security tests at least include testing for authentication, access control, input validation, encoding, and escaping data and encryption controls. The test objective is to validate that the security controls are correctly implemented.
+  Durchführung von Sicherheitstests, um zu überprüfen, ob die Standard-Software-Sicherheitskontrollen wie erwartet funktionieren. Auf hohem Niveau bedeutet dies, dass das korrekte Funktionieren der Vertraulichkeits-, Integritäts- und Verfügbarkeitskontrollen der Daten und des Dienstes getestet wird. Die Sicherheitstests umfassen zumindest Tests zur Authentifizierung, Zugriffskontrolle, Eingabevalidierung, Kodierung und Entschlüsselung von Daten und Verschlüsselungskontrollen. Ziel der Tests ist es, zu überprüfen, ob die Sicherheitskontrollen korrekt implementiert sind.
 
-  The security testing validates the relevant software security controls. Perform control-verification security tests manually or with tools, each time the application changes its use of the controls. Techniques such as feature toggles and A/B testing can be used to progressively expose features to broader audiences as they are sufficiently validated. Software control verification is mandatory for all software that is part of the SAMM program.
+  Die Sicherheitstests validieren die relevanten Software-Sicherheitskontrollen. Führen Sie Sicherheitstests zur Überprüfung der Kontrollen manuell oder mit Hilfe von Tools durch, und zwar jedes Mal, wenn die Anwendung ihre Verwendung der Kontrollen ändert. Techniken wie Feature-Toggles und A/B-Tests können verwendet werden, um Features schrittweise einem breiteren Publikum zugänglich zu machen, sobald sie ausreichend validiert sind. Die Überprüfung der Softwarekontrolle ist für alle Software, die Teil des SAMM-Programms ist, obligatorisch.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -34,4 +34,4 @@ notes:
 dependencies:
   - 5702908efca4499e87a0239f32920d9b
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
