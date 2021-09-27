@@ -15,19 +15,19 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, some of them
+    text: Sim, alguns deles
     value: 0.25
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, at least half of them
+    text: Sim, pelo menos metade deles
     value: 0.5
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, most or all of them
+    text: Sim, a maioria ou todos
     value: 1
     weight: 1
     order: 3
