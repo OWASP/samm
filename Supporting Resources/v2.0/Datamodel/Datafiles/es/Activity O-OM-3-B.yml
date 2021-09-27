@@ -10,16 +10,16 @@ level: 2a059c7d07c34b9897e49e6295501608
 #Please generate another identifier for your specific activity.
 id: 8ab46d242edd413d99a6c1991aef2416
 #The title of this activity
-title: Review application lifecycle state regularly
+title: Revisar el estado del ciclo de vida de la aplicación regularmente
 #Describe the benefit that is achieved by implementing this activity
-benefit: Full visibility into lifecycle of all software assets
+benefit: Visibilidad total del ciclo de vida de todos los activos de software
 #A one sentence description of the activity
-shortDescription: Proactively manage migration roadmaps, for both unsupported end-of-life dependencies, and legacy versions of delivered software.
+shortDescription: Administre de manera proactiva las hojas de ruta de migración, tanto para las dependencias al final de su vida útil no admitidas como para las versiones heredadas del software entregado.
 #A multi-paragraph description of the activity
 longDescription: |
-  Regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end-of-life. Follow a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. Regularly review and update your process, to reflect lessons learned.
+  Evalúe periódicamente el estado del ciclo de vida y el estado de soporte de cada activo de software y componente de infraestructura subyacente, y calcule su final de vida. Siga un proceso bien definido para mitigar activamente los riesgos de seguridad que surgen a medida que los activos/componentes se acercan al final de su vida útil. Revise y actualice periódicamente su proceso para reflejar las lecciones aprendidas.
 
-  Establish a product support plan, providing clear timelines for ending support on older product versions. Limit product versions in active use to only a small number (e.g., N.x.x and N-1.x.x only). Establish and publicize timelines for discontinuing support on prior versions, and proactively engage with customers and user groups to prevent disruption of service or support.
+  Establezca un plan de soporte del producto que proporcione plazos claros para finalizar el soporte en versiones anteriores del producto. Limite las versiones de productos en uso activo a solo un pequeño número (por ejemplo, N.x.x y N-1.x.x únicamente). Establezca y publique los plazos para interrumpir el soporte en versiones anteriores y participe de manera proactiva con los clientes y grupos de usuarios para evitar la interrupción del servicio o soporte.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
