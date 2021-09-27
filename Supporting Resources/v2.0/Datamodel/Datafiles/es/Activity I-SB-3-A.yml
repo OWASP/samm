@@ -10,17 +10,17 @@ level: 02e602c451d548e8a95433a46fe6b9d8
 #Please generate another identifier for your specific activity.
 id: 281369f491da4d4c84b0729e344e2c93
 #The title of this activity
-title: Enforce a security baseline during build
+title: Forzar una línea base de seguridad durante la construcción
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assurance that you build software complying with a security baseline
-shortDescription: Define mandatory security checks in the build process and ensure that building non-compliant artifacts fails.
+benefit: Asegurar que usted construya software cumpliendo con una línea base de seguridad
+shortDescription: Defina comprobaciones de seguridad obligatorias en el proceso de compilación y asegúrese de que la compilación de artefactos no compatibles falle.
 #A multi-paragraph description of the activity
 longDescription: |
-  Define security checks suitable to be carried out during the build process, as well as minimum criteria for passing the build - these might differ according to the risk profiles of various applications. Include the respective security checks in the build and enforce breaking the build process in case the predefined criteria are not met. Trigger warnings for issues below the threshold and log these to a centralized system to track them and take actions. If sensible, implement an exception mechanism to bypass this behavior if the risk of a particular vulnerability has been accepted or mitigated. However, ensure these cases are explicitely approved first and log their occurence together with a rationale.
+  Defina las comprobaciones de seguridad adecuadas para llevar a cabo durante el proceso de compilación, así como los criterios mínimos para aprobar la compilación estos pueden diferir según los perfiles de riesgo de varias aplicaciones. Incluya las respectivas comprobaciones de seguridad en la compilación y haga cumplir la ruptura del proceso de compilación en caso de que no se cumplan los criterios predefinidos. Active advertencias para problemas por debajo del umbral y regístrelos en un sistema centralizado para rastrearlos y tomar acciones. Si es sensato, implemente un mecanismo de excepción para evitar este comportamiento si se ha aceptado o mitigado el riesgo de una vulnerabilidad en particular. Sin embargo, primero asegúrese de que estos casos se aprueben explícitamente y registre su ocurrencia junto con una justificación.
 
-  If technical limitations prevent the organization from breaking the build automatically, ensure the same effect via other measures, such as a clear policy and regular audit.
+  Si las limitaciones técnicas impiden que la organización rompa la compilación automáticamente, asegure el mismo efecto a través de otras medidas, como una política clara y una auditoría periódica.
 
-  Handle code signing on a separate centralized server which does not expose the certificate to the system executing the build. Where possible, use a deterministic method that outputs byte-for-byte reproducible artifacts.
+  Maneje la firma de código en un servidor centralizado separado que no exponga el certificado al sistema que ejecuta la compilación. Siempre que sea posible, utilice un método determinista que genere artefactos reproducibles byte por byte.
 #The output of this particular activity
 results:
   - result1
@@ -33,10 +33,10 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
-  - Security Engineer
+  - Desarrollador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   - 921ff24f0b9f4df9a5129aa2f8a4a570
