@@ -10,16 +10,16 @@ level: 2a29c1f7d6954785b8d42d637a752f94
 #Please generate another identifier for your specific activity.
 id: 38932fe4024e4ec89646a82e0b4e651e
 #The title of this activity
-title: Standardize policy and compliance requirements
+title: Standardisierung von Richtlinien und Compliance-Anforderungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Common understanding how to reach compliance with external compliance drivers for product teams
+benefit: Gemeinsames Verständnis, wie die Einhaltung externer Vorgaben für Produktteams erreicht werden kann
 #A one sentence description of the activity
-shortDescription: Publish compliance-specific application requirements and test guidance.
+shortDescription: Veröffentlichung konformitätsspezifischer Anwendungsanforderungen und Testanleitungen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop a library of application requirements and test scripts to establish and verify regulatory compliance of applications. Some of these are tied to individual compliance requirements like PCI or GDPR, while others are more general in nature and address global compliance requirements such as ISO. The library is available to all application development teams. It includes guidance for determining all applicable requirements including considerations for reducing the compliance burden and scope. Implement a process to periodically re-assess each application’s compliance requirements. Re-assessment includes reviewing all application functionality and opportunities to reduce scope to lower the overall cost of compliance.
+  Entwickeln Sie eine Bibliothek von Anwendungsanforderungen und Testskripten, um die Konformität von Anwendungen mit gesetzlichen Vorschriften zu ermitteln und zu überprüfen. Einige davon sind an individuelle Compliance-Anforderungen wie PCI oder GDPR geknüpft, während andere eher allgemeiner Natur sind und globale Compliance-Anforderungen wie ISO betreffen. Die Bibliothek ist für alle Anwendungsentwicklungsteams verfügbar. Sie enthält Anleitungen zur Ermittlung aller anwendbaren Anforderungen sowie Überlegungen zur Verringerung des Konformitätsaufwands und -umfangs. Implementieren Sie ein Verfahren zur regelmäßigen Neubewertung der Konformitätsanforderungen für jede Anwendung. Bei der Neubewertung werden alle Anwendungsfunktionen und Möglichkeiten zur Reduzierung des Umfangs geprüft, um die Gesamtkosten für die Einhaltung der Vorschriften zu senken.
 
-  Requirements include enough information for developers to understand functional and non-functional requirements of the different compliance obligations. They include references to policies and standards, and provide explicit references to regulations. If there are questions about the implementation of a particular requirement, the original text of the regulation can help interpret the intent more accurately. Each requirement includes a set of test scripts for verifying compliance. In addition to assisting QA with compliance verification, these can help clarify compliance requirements for developers and make the compliance process transparent. Requirements have a format that allows importing them into individual requirements repositories. further clarify compliance requirements for developers and ensure the process of achieving compliance is fully transparent.
+  Die Anforderungen enthalten genügend Informationen, damit die Entwickler die funktionalen und nicht-funktionalen Anforderungen der verschiedenen Compliance-Verpflichtungen verstehen können. Sie enthalten Verweise auf Richtlinien und Standards sowie ausdrückliche Verweise auf Vorschriften. Wenn es Fragen zur Umsetzung einer bestimmten Anforderung gibt, kann der Originaltext der Vorschrift helfen, die Absicht genauer zu interpretieren. Jede Anforderung enthält eine Reihe von Testskripten zur Überprüfung der Einhaltung. Diese unterstützen nicht nur die Qualitätssicherung bei der Überprüfung der Einhaltung der Anforderungen, sondern können auch dazu beitragen, die Anforderungen für die Entwickler zu verdeutlichen und den Prozess der Einhaltung transparent zu machen. Die Anforderungen haben ein Format, das es ermöglicht, sie in individuelle Anforderungs-Repositories zu importieren. Dadurch werden die Konformitätsanforderungen für die Entwickler noch klarer und der Prozess zur Erreichung der Konformität wird vollständig transparent.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
