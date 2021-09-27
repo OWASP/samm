@@ -10,27 +10,27 @@ level: b55c7a41eba747678a65651f5ccacaf2
 #Please generate another identifier for your specific activity.
 id: 15d73a64818c43019504c8d938ca2434
 #The title of this activity
-title: Define advanced defect metrics
+title: Definir métricas avanzadas del defecto
 #Describe the benefit that is achieved by implementing this activity
-benefit: Improved learning from security defects in your organization
+benefit: Mejorar el aprendizaje de los defectos de seguridad en su organización
 #A one sentence description of the activity
-shortDescription: Collect standardized defect management metrics and use these also for prioritization of centrally driven initiatives.
+shortDescription: Recopilar métricas de gestión de defectos estandarizadas y utilizarlas también para priorizar iniciativas centralizadas.
 #A multi-paragraph description of the activity
 longDescription: |
-  Define, collect and calculate unified metrics across the whole organization. These might include:
+  Definir, recolectar y calcular métricas unificadas en toda la organización. Estas pueden incluir:
 
-  * Total amount of verification activites and identified defects.
-  * Types and severities of identified defects.
-  * Time to detect and time to resolve defects.
-  * Windows of exposure of defects being present on live systems.
-  * Number of regressions / reopened vulnerabilities.
-  * Coverage of verification activities for particular software components.
-  * Amount of accepted risk.
-  * Ratio of security incidents caused due to unknown or undocumented security defects.
+  * Cantidad total de actividades de verificación y defectos identificados.
+  * Tipos y severidades de defectos identificados.
+  * Tiempo para detectar y resolver defectos.
+  * Ventanas de exposición de defectos presentes en sistemas vivos.
+  * Número de regresiones / vulnerabilidades reabiertas.
+  * Cobertura de actividades de verificación para determinados componentes de software.
+  * Cantidad de riesgo aceptado.
+  * Ratio de incidentes de seguridad causados por defectos de seguridad desconocidos o indocumentados.
 
-  Generate a regular (e.g. monthly) report for a suitable audience. This would typically reach audience like managers and security officer and engineers. Use the information in the report as an input for your security strategy, e.g. improving trainings or security verification activities.
+  Generar un informe regular (por ejemplo, mensual) para una audiencia adecuada. Esto normalmente llegaría al público como gerentes y oficiales de seguridad e ingenieros. Utilice la información contenida en el informe como una aportación para su estrategia de seguridad, por ejemplo, mejorar las actividades de capacitación o verificación de seguridad.
 
-  Share the most prominent or interesting technical details about security defects including the fixing strategy to other teams once these defects are fixed, e.g. in a regular knowledge sharing meeting. This will help scale the learning effect from defects to the whole organization and limit their occurence in the future.
+  Comparte los detalles técnicos más destacados o interesantes sobre defectos de seguridad, incluida la estrategia de fijación a otros equipos una vez que estos defectos hayan sido reparados. en una reunión regular de intercambio de conocimientos. Esto ayudará a escalar el efecto de aprendizaje de los defectos a toda la organización y a limitar su ocurrencia en el futuro.
 #The output of this particular activity
 results:
   - result1
@@ -43,11 +43,11 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Officer
-  - Security Champion
-  - Manager
+  - Oficial de seguridad
+  - Campeón de seguridad
+  - Administrador
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 2bf0e192a904444b8a2f38c33256e80a
