@@ -10,18 +10,18 @@ level: 354292b7198b48bb8c4909e0d7e29f68
 #Please generate another identifier for your specific activity.
 id: 84dcbc954d954d95b1fb37e032f05402
 #The title of this activity
-title: Establish hardening baselines
+title: Establece las líneas base del hardening
 #Describe the benefit that is achieved by implementing this activity
-benefit: Consistent hardening of technology stack components in your organization
+benefit: Hardening constante de los componentes de la pila de tecnología en su organización
 #A one sentence description of the activity
-shortDescription: Perform consistent hardening of configurations, following established baselines and guidance.
+shortDescription: Realizar un hardening consistente de las configuraciones, siguiendo las líneas de referencia establecidas y orientación.
 #A multi-paragraph description of the activity
 longDescription: |
-  Establsh configuration hardening baselines for all components in each technology stack used. To assist with consistent application of the hardening baselines, develop configuration guides for the components. Require product teams to apply configuration baselines to all new systems, and to existing systems when practicable.
+  Establecer líneas base de hardening de la configuración para todos los componentes en cada pila de tecnología utilizada. Para ayudar con la aplicación consistente de las líneas base de hardening, desarrolle guías de configuración para los componentes. Exigir a los equipos de productos que apliquen líneas de base de configuración a todos los sistemas nuevos y a los sistemas existentes cuando sea posible.
 
-  Place hardening baselines and configuration guides under change management, and assign an owner to each. Owners have ongoing responsibility to keep them up-to-date, based on evolving best practices or changes to the relevant components (e.g., version updates, new features).
+  Coloque las líneas base de refuerzo y las guías de configuración bajo la gestión de cambios y asigne un propietario a cada una. Los propietarios tienen la responsabilidad continua de mantenerlos actualizados, en función de las mejores prácticas en evolución o los cambios en los componentes relevantes (por ejemplo, actualizaciones de versión, nuevas funciones).
 
-  In larger environments, derive configurations of instances from a locally maintained master, with relevant configuration baselines applied. Employ automated tools for hardening configurations.
+  En entornos más grandes, obtenga configuraciones de instancias de un maestro mantenido localmente, con las líneas de base de configuración relevantes aplicadas. Emplee herramientas automatizadas para endurecer configuraciones.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
