@@ -10,16 +10,16 @@ level: 3e6e9a2b696e48018830b44fa96f98b5
 #Please generate another identifier for your specific activity.
 id: fd4d1ac720374b13a25ab1381045b731
 #The title of this activity
-title: Define and run security abuse cases from requirements
+title: Definir y ejecutar casos de abuso de seguridad por requerimientos
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detection of application business logic flaws
+benefit: Detección de errores de lógica de negocio de aplicación
 #A one sentence description of the activity
-shortDescription: Create and test abuse cases and business logic flaw test
+shortDescription: Crear y probar casos de abuso y prueba de errores de lógica de negocio
 #A multi-paragraph description of the activity
 longDescription: |
-  Misuse and abuse cases describe unintended and malicious use scenarios of the application, describing how an attacker could do this. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application. Use abuse-case models for an application to serve as fuel for identification of concrete security tests that directly or indirectly exploit the abuse scenarios.
+  Los casos de uso indebido y abuso describen escenarios de uso malintencionado y no intencionado de la aplicación, y describen cómo un atacante podría hacer esto. Cree casos de uso indebido y abuso para hacer un mal uso o aprovechar las debilidades de los controles en las funciones del software para atacar una aplicación. Utilice modelos de casos de abuso para que una aplicación sirva como combustible para la identificación de pruebas de seguridad concretas que exploten directa o indirectamente los escenarios de abuso.
 
-  Abuse of functionality, sometimes referred to as a “business logic attack”, depends on the design and implementation of application functions and features. An example is using a password reset flow to enumerate accounts. As part of business logic testing, identify the business rules that are important for the application and turn them into experiments to verify whether the application properly enforces the business rule. For example, on a stock trading application, is the attacker allowed to start a trade at the beginning of the day and lock in a price, hold the transaction open until the end of the day, then complete the sale if the stock price has risen or cancel if the price dropped?
+  El abuso de la funcionalidad, a veces denominado "ataque de lógica empresarial", depende del diseño y la implementación de las funciones y características de la aplicación. Un ejemplo es el uso de un flujo de restablecimiento de contraseña para enumerar cuentas. Como parte de las pruebas de lógica empresarial, identifique las reglas de negocio que son importantes para la aplicación y conviértalas en experimentos para verificar si la aplicación aplica correctamente la regla de negocio. Por ejemplo, en una aplicación de negociación de acciones, ¿se permite al atacante iniciar una operación al comienzo del día y fijar un precio, mantener la transacción abierta hasta el final del día y luego completar la venta si el precio de las acciones ¿ha subido o cancelar si el precio bajó?
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
