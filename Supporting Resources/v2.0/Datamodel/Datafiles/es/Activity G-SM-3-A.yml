@@ -10,18 +10,18 @@ level: 420074f071fb4ab6b6ee6ef44c4f4f1c
 #Please generate another identifier for your specific activity.
 id: e092ac0ccb8c4fccb6cd662f974dc107
 #The title of this activity
-title: Align security and business strategies
+title: Alinear estrategias de seguridad y negocio
 #Describe the benefit that is achieved by implementing this activity
-benefit: Continuous AppSec program alignment with the organization's business goals
+benefit: Alineación continua del programa AppSec con los objetivos comerciales de la organización
 #A one sentence description of the activity
-shortDescription: Align the application security program to support the organization’s growth.
+shortDescription: Alinear el programa de seguridad en aplicaciones para apoyar el crecimiento de la organización.
 #A multi-paragraph description of the activity
 longDescription: |
-  You review the application security plan periodically for ongoing applicability and support of the organization’s evolving needs and future growth. To do this, you repeat the steps from the first two maturity levels of this Security Practice at least annually. The goal is for the plan to always support the current and future needs of the organization, which ensures the program is aligned with the business.
+  Usted revisa el plan de seguridad de la aplicación periódicamente para verificar la aplicabilidad y el apoyo continuos de las necesidades cambiantes y el crecimiento futuro de la organización. Para hacer esto, repita los pasos de los dos primeros niveles de madurez de esta Práctica de Seguridad al menos una vez al año. El objetivo es que el plan siempre apoye las necesidades actuales y futuras de la organización, lo que garantiza que el programa esté alineado con el negocio.
 
-  In addition to reviewing the business drivers, the organization closely monitors the success of the implementation of each of the roadmap milestones. You evaluate the success of the milestones based on a wide range of criteria, including completeness and efficiency of the implementation, budget considerations, and any cultural impacts or changes resulting from the initiative. You review missed or unsatisfactory milestones and evaluate possible changes to the overall program.
+  Además de revisar los impulsores del negocio, la organización monitorea de cerca el éxito de la implementación de cada uno de los hitos de la hoja de ruta. Usted evalúa el éxito de los hitos en función de una amplia gama de criterios, incluida la integridad y eficiencia de la implementación, consideraciones presupuestarias y cualquier impacto o cambio cultural que resulte de la iniciativa. Revisa los hitos perdidos o insatisfactorios y evalúa los posibles cambios en el programa general.
 
-  The organization develops dashboards and measurements for management and teams responsible for software development to monitor the implementation of the roadmap. These dashboards are detailed enough to identify individual projects and initiatives and provide a clear understanding of whether the program is successful and aligned with the organization’s needs.
+  La organización desarrolla cuadros de mando y mediciones para la gerencia y los equipos responsables del desarrollo de software para monitorear la implementación de la hoja de ruta. Estos paneles son lo suficientemente detallados para identificar proyectos e iniciativas individuales y proporcionar una comprensión clara de si el programa es exitoso y está alineado con las necesidades de la organización.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
