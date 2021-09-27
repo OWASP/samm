@@ -10,14 +10,14 @@ level: 83ea8aaab3384b41b785107613ee4d86
 #Please generate another identifier for your specific activity.
 id: a11da5bb4d3c475d9e9c53b104032e65
 #The title of this activity
-title: Feed review results back to improve reference architectures
+title: Retroalimentar los resultados de la revisión para mejorar las arquitecturas de referencia
 #Describe the benefit that is achieved by implementing this activity
-benefit: Continuous improvement of enterprise architecture based on architecture reviews
+benefit: Mejora continua de la arquitectura empresarial basada en revisiones de arquitectura
 #A one sentence description of the activity
-shortDescription: Feed the architecture review results back into the enterprise architecture, organization design principles & patterns, security solutions and reference architectures.
+shortDescription: Retroalimente los resultados de la revisión de la arquitectura en la arquitectura empresarial, los principios y patrones de diseño de la organización, las soluciones de seguridad y las arquitecturas de referencia.
 #A multi-paragraph description of the activity
 longDescription: |
-  As an organization, you can further improve your software security posture by understanding which threats remain unaddressed in the software architectures and adapting your tactics to prevent this. Formalize a process to use recurring architecture findings as a trigger to identify the causes of gaps in the security assessment and deal with them. Feed findings back to the Design phase by creating, or updating relevant reference architectures, existing security solutions, or organisation design principles and patterns.
+  Como organización, puede mejorar aún más la postura de seguridad de su software si comprende qué amenazas quedan sin abordar en las arquitecturas de software y adapta sus tácticas para evitarlo. Formalice un proceso para utilizar los hallazgos recurrentes de la arquitectura como disparador para identificar las causas de las brechas en la evaluación de seguridad y tratarlas. Retroalimente los hallazgos a la fase de diseño mediante la creación o actualización de arquitecturas de referencia relevantes, soluciones de seguridad existentes o principios y patrones de diseño de la organización.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
