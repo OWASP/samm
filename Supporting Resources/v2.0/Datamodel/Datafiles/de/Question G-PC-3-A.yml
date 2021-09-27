@@ -10,13 +10,13 @@ answerset: e0fcc49a200847eab218c04e2c80490a
 #Please generate another identifier for your specific maturity level.
 id: 073b78f0ce314757a05b15d9c6f96703
 #One-sentence description of the criterium
-text: Do you regularly report on policy and standard compliance, and use that information to guide compliance improvement efforts?
+text: Berichten Sie regelmäßig über die Einhaltung von Richtlinien und Standards und nutzen Sie diese Informationen, um die Einhaltung zu verbessern?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You have procedures (automated, if possible) to regularly generate compliance reports
-  - You deliver compliance reports to all relevant stakeholders
-  - Stakeholders use the reported compliance status information to identify areas for improvement
+  - Sie verfügen über (möglichst automatisierte) Verfahren zur regelmäßigen Erstellung von Compliance-Berichten
+  - Sie übermitteln Berichte über die Einhaltung der Vorschriften an alle Beteiligten
+  - Die Beteiligten nutzen die gemeldeten Informationen über den Stand der Einhaltung der Vorschriften, um Bereiche mit Verbesserungsbedarf zu ermitteln
 #Type Classification of the Document
-type: Question
+type: Frage
