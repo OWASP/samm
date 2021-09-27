@@ -10,16 +10,16 @@ level: d0a99f3db27e48aa9b2d6b58a9040f49
 #Please generate another identifier for your specific activity.
 id: c16a12399dc94cc889d7e9e66e0ae2a0
 #The title of this activity
-title: Organize basic data protections
+title: Organisation des grundlegenden Datenschutzes
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of sensitivity of processed data with derived quick-win measures
+benefit: Verständnis für die Sensibilität der verarbeiteten Daten mit abgeleiteten Quick-Win-Maßnahmen
 #A one sentence description of the activity
-shortDescription: Implement basic data protection practices
+shortDescription: Umsetzung grundlegender Datenschutzpraktiken
 #A multi-paragraph description of the activity
 longDescription: |
-  Understand the types and sensitivity of data stored and processed by your applications, and maintain awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. Protect and handle all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed.
+  Verstehen Sie die Arten und die Sensibilität der von Ihren Anwendungen gespeicherten und verarbeiteten Daten und achten Sie auf den Verbleib der verarbeiteten Daten (z. B. Backups, Weitergabe an externe Partner). Bei diesem Reifegrad können die gesammelten Informationen in unterschiedlicher Form und an verschiedenen Orten erfasst werden; es wird nicht davon ausgegangen, dass ein unternehmensweiter Datenkatalog existiert. Schutz und Umgang mit allen Daten, die mit einer bestimmten Anwendung verbunden sind, gemäß den Schutzanforderungen, die für die sensibelsten gespeicherten und verarbeiteten Daten gelten.
 
-  Implement basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, you can focus data protection policies and activities on production.
+  Implementierung grundlegender Kontrollen, um die Weitergabe von nicht anonymisierten sensiblen Daten aus Produktionsumgebungen an untergeordnete Umgebungen zu verhindern. Indem Sie sicherstellen, dass nicht anonymisierte Produktionsdaten niemals in niedrigere (nicht produktive) Umgebungen übertragen werden, können Sie Datenschutzrichtlinien und -aktivitäten auf die Produktion konzentrieren.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
