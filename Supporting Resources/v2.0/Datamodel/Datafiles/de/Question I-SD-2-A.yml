@@ -10,14 +10,14 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 7ef6753cda0d4da6ad194e56650f584d
 #One-sentence description of the criterium
-text: Are deployment processes automated and employing security checks?
+text: Sind die Deploymentprozesse automatisiert und werden Sicherheitskontrollen durchgeführt?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - Deployment processes are automated on all stages
-  - Deployment includes automated security testing procedures
-  - You alert responsible staff to identified vulnerabilities
-  - You have logs available for your past deployments for a defined period of time
+  - Die Deploymentprozesse sind in allen Phasen automatisiert
+  - Die Deployments umfassen automatisierte Sicherheitstests
+  - Sie machen die zuständigen Mitarbeiter auf erkannte Schwachstellen aufmerksam
+  - Sie haben für einen bestimmten Zeitraum Logs für Ihre vergangenen Deployments zur Verfügung
 #Type Classification of the Document
-type: Question
+type: Frage
