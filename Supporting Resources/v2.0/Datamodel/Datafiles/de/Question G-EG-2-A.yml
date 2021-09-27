@@ -10,7 +10,7 @@ answerset: f96770095fab4afbb27949c2242e47c2
 #Please generate another identifier for your specific maturity level.
 id: 1962ef9fe4cf488a8d10ccbcdc8bb926
 #One-sentence description of the criterium
-text: Is training customized for individual roles such as developers, testers, or security champions?
+text: Ist die Schulung auf einzelne Rollen wie Entwickler, Tester oder Sicherheitsbeauftragte zugeschnitten?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
