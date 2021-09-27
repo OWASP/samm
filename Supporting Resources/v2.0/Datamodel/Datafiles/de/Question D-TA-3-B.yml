@@ -10,13 +10,13 @@ answerset: 01b2ac64461d4ec6b40843a4c77e1ba6
 #Please generate another identifier for your specific maturity level.
 id: cd639e5458ca4f60be60bc9d47314648
 #One-sentence description of the criterium
-text: Do you regularly review and update the threat modeling methodology for your applications?
+text: Überprüfen und aktualisieren Sie regelmäßig die Methodik der Bedrohungsmodellierung für Ihre Anwendungen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - The threat model methodology considers historical feedback for improvement
-  - You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications
-  - You automate parts of your threat modeling process with threat modeling tools
+  - Die Methodik des Bedrohungsmodells berücksichtigt historische Rückmeldungen zur Verbesserung
+  - Sie überprüfen regelmäßig (z. B. jährlich) die vorhandenen Bedrohungsmodelle, um sicherzustellen, dass keine neuen Bedrohungen für Ihre Anwendungen relevant sind
+  - Sie automatisieren Teile Ihres Bedrohungsmodellierungsprozesses mit Tools zur Bedrohungsmodellierung
 #Type Classification of the Document
-type: Question
+type: Frage
