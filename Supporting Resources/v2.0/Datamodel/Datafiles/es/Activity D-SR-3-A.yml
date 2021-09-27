@@ -10,18 +10,18 @@ level: f8b6eebc0662477f9286aa4f6068e364
 #Please generate another identifier for your specific activity.
 id: ce13df2e0dfb455588bf75135f1a718e
 #The title of this activity
-title: Develop a security requirements framework
+title: Desarrollar un framework de requerimientos de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient and effective handling of security requirements in your organization
+benefit: Manejo eficiente y eficaz de los requerimientos de seguridad en su organización
 #A one sentence description of the activity
-shortDescription: Build a requirements framework for product teams to utilize.
+shortDescription: Cree un framework de requisitos para que lo utilicen los equipos de producción.
 #A multi-paragraph description of the activity
 longDescription: |
-  Setup a security requirements framework to help projects elicit an appropriate and complete requirements set for their project. This framework considers the different types of requirements and sources of requirements. It should be adapted to the organizational habits and culture, and provide effective methodology and guidance in the elicitation and formation of requirements.
+  Configure un framework de requerimientos de seguridad para ayudar a los proyectos a obtener un conjunto de requisitos completo y apropiado para su proyecto. Este framework considera los diferentes tipos de requerimientos y fuentes de requisitos. Debe adaptarse a los hábitos y la cultura de la organización, y proporcionar una metodología y una guía eficaces en la obtención y formación de requisitos.
 
-  The framework helps project teams increase the efficiency and effectiveness of requirements engineering. It can provide a categorisation of common requirements and a number of reusable requirements. Do remember that, while thoughtless copying is ineffective, the fact of having potential relevant requirements to reason about is often productive.
+  El framework ayuda a los equipos de proyectos a aumentar la eficiencia y la eficacia de la ingeniería de requisitos. Puede proporcionar una categorización de requisitos comunes y una serie de requisitos reutilizables. Recuerde que, si bien la copia irreflexiva es ineficaz, el hecho de tener posibles requisitos relevantes sobre los que razonar suele ser productivo.
 
-  The framework also gives clear guidance on the quality of requirements and formalizes how to describe them. For user stories, for instance, concrete guidance can explain what to describe in the definition of done, definition of ready, story description, and acceptance criteria.
+  El framework también proporciona una guía clara sobre la calidad de los requisitos y formaliza cómo describirlos. Para las historias de usuario, por ejemplo, una guía concreta puede explicar qué describir en la definición de hecho, la definición de listo, la descripción de la historia y los criterios de aceptación.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
