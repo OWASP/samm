@@ -10,20 +10,20 @@ level: e3cf1d3c27b74262b9f842f27ca86333
 #Please generate another identifier for your specific activity.
 id: a061ed8a5b1c4899bc95d9b1a10a469d
 #The title of this activity
-title: Standardize security guidance
+title: Estandarizar la guía de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Adequate security knowledge of all employees ensured prior to working on critical tasks
+benefit: El conocimiento de seguridad adecuado de todos los empleados garantiza antes de trabajar en tareas críticas
 #A one sentence description of the activity
-shortDescription: Standardized in-house guidance around the organization’s secure software development standards.
+shortDescription: Orientación interna estandarizada sobre los estándares de desarrollo de software seguro de la organización.
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training as part of the onboarding process. Based on the criticality of the application and user’s role, consider restricting access until the onboarding training has been completed. While the organization may source some modules externally, the program is facilitated and managed in-house and includes content specific to the organization going beyond general security best practices. The program has a defined curriculum, checks participation, and tests understanding and competence. The training consists of a combination of industry best practices and organization’s internal standards, including training on specific systems used by the organization.
+  Implemente un programa de capacitación formal que requiera que todas las personas involucradas en el ciclo de vida del desarrollo de software completen la capacitación específica en función y tecnología adecuada como parte del proceso de incorporación. Según la importancia de la aplicación y el rol del usuario, considere restringir el acceso hasta que se complete la capacitación de incorporación. Si bien la organización puede obtener algunos módulos de manera externa, el programa se facilita y administra internamente e incluye contenido específico para la organización que va más allá de las mejores prácticas generales de seguridad. El programa tiene un plan de estudios definido, verifica la participación y evalúa la comprensión y la competencia. La capacitación consiste en una combinación de las mejores prácticas de la industria y los estándares internos de la organización, incluida la capacitación sobre sistemas específicos utilizados por la organización.
 
-  In addition to issues directly related to security, the organization includes other standards to the program, such as code complexity, code documentation, naming convention, and other process-related disciplines. This training minimizes issues resulting from employees following practices incorporated outside the organization and ensures continuity in the style and competency of the code.
+  Además de los problemas directamente relacionados con la seguridad, la organización incluye otros estándares para el programa, como la complejidad del código, la documentación del código, la convención de nomenclatura y otras disciplinas relacionadas con los procesos. Esta capacitación minimiza los problemas resultantes de que los empleados sigan prácticas incorporadas fuera de la organización y asegura la continuidad en el estilo y la competencia del código.
 
-  To facilitate progress monitoring and successful completion of each training module the organization has a learning management platform or another centralized portal with similar functionality. Employees can monitor their progress and have access to all training resources even after they complete initial training.
+  Para facilitar el seguimiento del progreso y la finalización satisfactoria de cada módulo de formación, la organización cuenta con una plataforma de gestión del aprendizaje u otro portal centralizado con una funcionalidad similar. Los empleados pueden monitorear su progreso y tener acceso a todos los recursos de capacitación incluso después de completar la capacitación inicial.
 
-  Review issues resulting from employees not following established standards, policies, procedures, or security best practices at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization. Update the training periodically and train employees on any changes and most prevalent security deficiencies.
+  Revise los problemas que resulten de que los empleados no sigan los estándares, políticas, procedimientos o mejores prácticas de seguridad establecidos al menos una vez al año para evaluar la efectividad de la capacitación y asegurarse de que cubra todos los problemas relevantes para la organización. Actualice la capacitación periódicamente y capacite a los empleados sobre los cambios y las deficiencias de seguridad más frecuentes.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
