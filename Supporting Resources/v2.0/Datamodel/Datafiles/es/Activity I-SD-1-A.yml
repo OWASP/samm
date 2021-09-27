@@ -10,20 +10,20 @@ level: 5015427608de428cba3c324772fb4191
 #Please generate another identifier for your specific activity.
 id: 994bcac2bb7c4cc59a0faa365a0b58a0
 #The title of this activity
-title: Use a repeatable deployment process
+title: Usar un proceso de despliegue repetible
 #Describe the benefit that is achieved by implementing this activity
-benefit: Limited risk of human error during deployment process minimizing security issues
+benefit: Riesgo limitado de error humano durante el proceso de despliegue minimizando problemas de seguridad
 #A one sentence description of the activity
-shortDescription: Formalize the deployment process and secure the used tooling and processes.
+shortDescription: Formalizar el proceso de despliegue y asegurar las herramientas y procesos utilizados.
 #A multi-paragraph description of the activity
 longDescription: |
-  Define the deployment process over all stages, breaking it down into a set of clear instructions to either be followed by a person or an automated tooling. The deployment process definition should describe the whole process end-to-end so that it can be consistently followed each time to produce the same result. The definition is stored centrally and accessible to all relevant personnel. Do not store or distribute multiple copies, some of which may become outdated.
+  Defina el proceso de implementación en todas las etapas, dividiéndolo en un conjunto de instrucciones claras para que las siga una persona o una herramienta automatizada. La definición del proceso de implementación debe describir todo el proceso de un extremo a otro para que pueda seguirse de manera coherente cada vez para producir el mismo resultado. La definición se almacena de forma centralizada y es accesible para todo el personal pertinente. No almacene ni distribuya copias múltiples, algunas de las cuales pueden quedar desactualizadas.
 
-  Deploy applications to production either using an automated process, or manually by personnel other than the developers. Ensure that developers do not need direct access to the production environment for application deployment.
+  Implemente aplicaciones en producción mediante un proceso automatizado o manualmente por personal que no sea el desarrollador. Asegúrese de que los desarrolladores no necesiten acceso directo al entorno de producción para la implementación de aplicaciones.
 
-  Review any deployment tools, ensuring that they are actively maintained by vendors and up to date with security patches. Harden each tool’s configuration so that it is aligned with vendor guidelines and industry best practices. Given that most of these tools require access to the production environment, their security is extremely critical. Ensure the integrity of the tools themselves and the workflows they follow, and configure access rules to these tools according to the least privilege principle.
+  Revise las herramientas de implementación, asegurándose de que los proveedores las mantengan activamente y estén actualizadas con los parches de seguridad. Fortalezca la configuración de cada herramienta para que esté alineada con las pautas del proveedor y las mejores prácticas de la industria. Dado que la mayoría de estas herramientas requieren acceso al entorno de producción, su seguridad es extremadamente crítica. Asegure la integridad de las herramientas en sí mismas y los flujos de trabajo que siguen, y configure las reglas de acceso a estas herramientas de acuerdo con el principio de privilegio mínimo.
 
-  Have personnel with access to the production environment go through at least a minimum level of training or certification to ensure their competency in this matter.
+  Que el personal con acceso al ambiente productivo pase por al menos un nivel mínimo de capacitación o certificación para asegurar su competencia en esta materia.
 #The output of this particular activity
 results:
   - result1
@@ -36,10 +36,10 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Administrator
-  - Security Engineer
+  - Administrador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 786b3d7b39cd49a88090554a275f04a6
