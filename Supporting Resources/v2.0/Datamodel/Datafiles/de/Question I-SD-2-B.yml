@@ -10,13 +10,13 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: c5f66e97db174d8c9dc2d82fbad9d4e3
 #One-sentence description of the criterium
-text: Do you inject production secrets into configuration files during deployment?
+text: Fügen Sie während der Deploymentphase Produktionsgeheimnisse in die Konfigurationsdateien ein?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - Source code files no longer contain active application secrets
-  - Under normal circumstances, no humans access secrets during deployment procedures
-  - You log and alert to any abnormal access to secrets
+  - Quellcodedateien enthalten keine aktiven Anwendungsgeheimnisse mehr
+  - Unter normalen Umständen haben Menschen während des Deployments keinen Zugang zu Geheimnissen
+  - Sie loggen und alarmieren bei jedem anormalen Zugriff auf Geheimnisse
 #Type Classification of the Document
 type: Question
