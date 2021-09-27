@@ -10,18 +10,18 @@ level: 561e85a7fb114b1d976acce95d0b41ee
 #Please generate another identifier for your specific activity.
 id: c1aef0137df1400cbdd3c660b609b7b2
 #The title of this activity
-title: Set strategic KPIs
+title: Festlegung strategischen Kennzahlen (KPIs)
 #Describe the benefit that is achieved by implementing this activity
-benefit: Transparency on your AppSec program's performance
+benefit: Transparenz über die Leistung Ihres Anwendungssicherheits-(AppSec)-Programms
 #A one sentence description of the activity
-shortDescription: Set targets and KPI’s for measuring the program effectiveness.
+shortDescription: Festlegung von Zielen und Kennzahlen zur Messung der Wirksamkeit des Programms.
 #A multi-paragraph description of the activity
 longDescription: |
-  Once the organization has defined its application security metrics, collect enough information to establish realistic goals. Test identified metrics to ensure you can gather data consistently and efficiently over a short period. After the initial testing period, the organization should have enough information to commit to goals and objectives expressed through Key Performance Indicators (KPIs).
+  Sobald das Unternehmen seine Metriken für die Anwendungssicherheit definiert hat, sollten Sie genügend Informationen sammeln, um realistische Ziele festzulegen. Testen Sie die ermittelten Metriken, um sicherzustellen, dass Sie über einen kurzen Zeitraum konsistent und effizient Daten sammeln können. Nach der anfänglichen Testphase sollte das Unternehmen über genügend Informationen verfügen, um sich auf Ziele und Vorgaben festzulegen, die in Form von Kennzahlen (Key Performance Indicators - KPIs) ausgedrückt werden.
 
-  While several measurements are useful for monitoring the information security program and its effectiveness, KPIs are comprised of the most meaningful and effective metrics. Aim to remove volatility common in application development environments from KPIs to reduce chances of unfavorable numbers resulting from temporary or misleading individual measurements. Base KPIs on metrics considered valuable not only to Information Security professionals but also to individuals responsible for the overall success of the application, and organization’s leadership. View KPIs as definitive indicators of the success of the whole program and consider them actionable.
+  Zwar sind mehrere Messgrößen für die Überwachung des Informationssicherheitsprogramms und seiner Wirksamkeit nützlich, doch die aussagekräftigsten und effektivsten Messgrößen sind die Kennzahlen (KPIs). Versuchen Sie, die in Anwendungsentwicklungsumgebungen übliche Dynamik aus den Kennzahlen zu entfernen, um das Risiko ungünstiger Zahlen zu verringern, die aus vorübergehenden oder irreführenden Einzelmessungen resultieren. Legen Sie die Kennzahlen auf Metriken fest, die nicht nur für Informationssicherheitsexperten, sondern auch für Personen, die für den Gesamterfolg der Anwendung verantwortlich sind, und für die Unternehmensführung als wertvoll erachtet werden. Betrachten Sie Kennzahlen als endgültige Indikatoren für den Erfolg des gesamten Programms und halten Sie sie für umsetzbar.
 
-  Fully document KPIs and distribute them to the teams contributing to the success of the program as well as organization’s leadership. Ideally, include a brief explanation of the information sources for each KPI and the meaning if the numbers are high or low. Include short and long-term goals, and ranges for unacceptable measurements requiring immediate intervention. Share action plans with application security and application development teams to ensure full transparency in understanding of the organization’s objectives and goals.
+  Dokumentieren Sie die Kennzahlen vollständig und geben Sie sie an die Teams weiter, die zum Erfolg des Programms beitragen, sowie an die Unternehmensleitung. Idealerweise sollten Sie eine kurze Erläuterung der Informationsquellen für jeden Kennzahlenwert und die Bedeutung von hohen oder niedrigen Werten hinzufügen. Geben Sie kurz- und langfristige Ziele sowie Bereiche für inakzeptable Messwerte an, die ein sofortiges Eingreifen erfordern. Geben Sie die Aktionspläne an die Teams für Anwendungssicherheit und Anwendungsentwicklung weiter, um eine vollständige Transparenz im Hinblick auf die Ziele des Unternehmens zu gewährleisten.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
