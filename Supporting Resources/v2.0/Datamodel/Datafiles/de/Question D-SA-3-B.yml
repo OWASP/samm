@@ -8,15 +8,15 @@ activity: 3afce608ad7c42deb37a04d6b86e5c33
 answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Unique identifier (GUID) used to refer to this maturity level.
 #Please generate another identifier for your specific maturity level.
-id: f4722a4fdfc44a45be5b5ee8dd7b735f
+id: f77bd45a28c8493dbba6e53b2eafa20f
 #One-sentence description of the criterium
-text: Do you enforce the use of recommended technologies within the organization?
+text: Setzen Sie die Verwendung der empfohlenen Technologien innerhalb der Organisation durch?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You monitor applications regularly for the correct use of the recommended technologies
-  - You solve violations against the list according to organizational policies
-  - You take action if the number of violations falls outside the yearly objectives
+  - Sie überwachen die Anwendungen regelmäßig auf den korrekten Einsatz der empfohlenen Technologien
+  - Sie beheben Verstöße gegen die Anforderungsliste gemäß den Unternehmensrichtlinien
+  - Sie ergreifen Maßnahmen, wenn die Zahl der Verstöße die Jahresziele überschreitet
 #Type Classification of the Document
-type: Question
+type: Frage
