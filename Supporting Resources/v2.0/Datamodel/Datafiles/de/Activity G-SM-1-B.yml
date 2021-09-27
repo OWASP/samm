@@ -10,29 +10,29 @@ level: 4e54705272fa4f1f9977b1f9011f585d
 #Please generate another identifier for your specific activity.
 id: 0082a76b1a3744d9ab0443bd2168e13d
 #The title of this activity
-title: Define basic security metrics
+title: Definition grundlegender Sicherheitsmetriken
 #Describe the benefit that is achieved by implementing this activity
-benefit: Basic insights into your AppSec program's effectiveness and efficiency
+benefit: Grundlegende Erkenntnisse über die Effektivität und Effizienz Ihres AppSec-Programms
 #A one sentence description of the activity
-shortDescription: Define metrics with insight into the effectiveness and efficiency of the Application Security Program.
+shortDescription: Definition von Metriken, die Aufschluss über die Effektivität und Effizienz des Anwendungssicherheitsprogramms geben.
 #A multi-paragraph description of the activity
 longDescription: |
-  Define and document metrics to evaluate the effectiveness and efficiency of the application security program. This way improvements are measurable and you can use them to secure future support and funding for the application security program. Considering the dynamic nature of most development environments, metrics should be comprised of measurements in the following categories
+  Definieren und dokumentieren Sie Messgrößen, um die Effektivität und Effizienz des Programms für Anwendungssicherheit zu bewerten. Auf diese Weise sind Verbesserungen messbar und Sie können sie nutzen, um zukünftige Unterstützung und Finanzierung für das Anwendungssicherheitsprogramm zu sichern. In Anbetracht der dynamischen Natur der meisten Entwicklungsumgebungen sollten die Metriken aus Messungen in den folgenden Kategorien bestehen
 
-  * `Effort` metrics measure the effort spent on security. For example training hours, time spent performing code reviews, and number of applications scanned for vulnerabilities.
-  * `Result` metrics measure the results of security efforts. Examples include number of outstanding patches with security defects and number of security incidents involving application vulnerabilities.
-  * `Environment` metrics measure the environment where security efforts take place. Examples include number of applications or lines of code as a measure of difficulty or complexity.
+  * Aufwandsmetriken messen den für die Sicherheit aufgewendeten Aufwand. Zum Beispiel Schulungsstunden, Zeitaufwand für Code-Reviews und Anzahl der auf Schwachstellen gescannten Anwendungen.
+  * Ergebnis"-Metriken messen die Ergebnisse der Sicherheitsmaßnahmen. Beispiele hierfür sind die Anzahl der ausstehenden Patches mit Sicherheitsmängeln und die Anzahl der Sicherheitsvorfälle mit Anwendungsschwachstellen.
+  * Die Umgebungskennzahlen messen die Umgebung, in der die Sicherheitsmaßnahmen stattfinden. Beispiele hierfür sind die Anzahl der Anwendungen oder Codezeilen als Maß für die Schwierigkeit oder Komplexität.
 
-  Each metric by itself is useful for a specific purpose, but a combination of two or three metrics together helps explain spikes in metrics trends. For example, a spike in a total number of vulnerabilities may be caused by the organization on-boarding several new applications that have not been previously exposed to the implemented application security mechanisms. Alternatively, an increase in the environment metrics without a corresponding increase in the effort or result could be an indicator of a mature and efficient security program.
+  Jede Metrik für sich ist für einen bestimmten Zweck nützlich, aber eine Kombination von zwei oder drei Metriken zusammen hilft, Spitzen in den Trends der Metriken zu erklären. So kann beispielsweise ein Anstieg der Gesamtzahl der Schwachstellen darauf zurückzuführen sein, dass das Unternehmen mehrere neue Anwendungen einführt, die zuvor nicht mit den implementierten Anwendungssicherheitsmechanismen in Berührung gekommen sind. Andererseits kann ein Anstieg der Umgebungskennzahlen ohne entsprechenden Anstieg des Aufwands oder der Ergebnisse ein Indikator für ein ausgereiftes und effizientes Sicherheitsprogramm sein.
 
-  While identifying metrics, it’s always recommended to stick to the metrics that meet several criteria
+  Bei der Identifizierung von Metriken ist es immer empfehlenswert, sich an die Metriken zu halten, die mehrere Kriterien erfüllen
 
-  * Consistently Measured
-  * Inexpensive to gather
-  * Expressed as a cardinal number or a percentage
-  * Expressed as a unit of measure
+  * Kontinuierlich gemessen
+  * Kostengünstig zu erheben
+  * Ausgedrückt als Kardinalzahl oder als Prozentsatz
+  * Ausgedrückt in einer Maßeinheit
 
-  Document metrics and include descriptions of best and most efficient methods for gathering data, as well as recommended methods for combining individual measures into meaningful metrics. For example, a number of applications and a total number of defects across all applications may not be useful by themselves but, when combined as a number of outstanding high-severity defects per application, they provide a more actionable metric.
+  Dokumentieren Sie die Messgrößen und beschreiben Sie die besten und effizientesten Methoden zur Datenerfassung sowie die empfohlenen Methoden zur Kombination einzelner Messgrößen zu aussagekräftigen Metriken. So sind z. B. die Anzahl der Anwendungen und die Gesamtzahl der Fehler über alle Anwendungen hinweg für sich genommen vielleicht nicht sinnvoll, aber in Kombination mit der Anzahl der herausragenden Fehler mit hohem Schweregrad pro Anwendung ergeben sie eine aussagekräftigere Kennzahl.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -46,4 +46,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
