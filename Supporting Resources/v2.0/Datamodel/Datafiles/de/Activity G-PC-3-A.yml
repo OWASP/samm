@@ -10,16 +10,16 @@ level: 61ae1e4268b24d7986805658c89b5e54
 #Please generate another identifier for your specific activity.
 id: fe7afe5fc04742bcbe476d4ba37d8091
 #The title of this activity
-title: Measure compliance to policies and standards
+title: Messung der Einhaltung von Richtlinien und Standards
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of your organization’s compliance with policies and standards
+benefit: Verständnis für die Einhaltung von Richtlinien und Standards durch Ihr Unternehmen
 #A one sentence description of the activity
-shortDescription: Measure and report on the status of individual application’s adherence to policies and standards.
+shortDescription: Messung und Berichterstattung über den Stand der Einhaltung von Richtlinien und Standards bei den einzelnen Anwendungen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop a program to measure each application’s compliance with existing policies and standards. Mandatory requirements should be motivated and reported consistently across all teams. Whenever possible, tie compliance status into automated testing and report with each version. Compliance reporting includes the version of policies and standards and appropriate code coverage factors.
+  Entwicklung eines Programms zur Messung der Einhaltung bestehender Richtlinien und Standards durch jede Anwendung. Obligatorische Anforderungen sollten motiviert und in allen Teams einheitlich gemeldet werden. Wann immer möglich, sollten Sie den Konformitätsstatus in automatisierte Tests einbinden und mit jeder Version berichten. Die Berichterstattung über die Konformität umfasst die Version der Richtlinien und Standards sowie die entsprechenden Codeabdeckungsfaktoren.
 
-  Encourage non-compliant teams to review available resources such as security requirements and test scripts, to ensure non-compliance is not a result of inadequate guidance. Forward issues resulting from insufficient guidance to the teams responsible for publishing application requirements and test scripts, to include them in the future releases. Escalate issues resulting from the inability to meet policies and standards the teams that handle application security risks.
+  Ermutigen Sie Teams, die die Richtlinien nicht einhalten, verfügbare Ressourcen wie Sicherheitsanforderungen und Testskripte zu überprüfen, um sicherzustellen, dass die Nichteinhaltung nicht auf unzureichende Anleitungen zurückzuführen ist. Weiterleitung von Problemen, die sich aus unzureichenden Anleitungen ergeben, an die Teams, die für die Veröffentlichung von Anwendungsanforderungen und Testskripten verantwortlich sind, damit diese in künftigen Versionen berücksichtigt werden. Eskalation von Problemen, die sich aus der Nichteinhaltung von Richtlinien und Standards ergeben, an die Teams, die sich mit den Sicherheitsrisiken von Anwendungen befassen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
