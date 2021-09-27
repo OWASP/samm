@@ -10,18 +10,18 @@ level: 420074f071fb4ab6b6ee6ef44c4f4f1c
 #Please generate another identifier for your specific activity.
 id: e092ac0ccb8c4fccb6cd662f974dc107
 #The title of this activity
-title: Align security and business strategies
+title: Sicherheits- und Geschäftsstrategien aufeinander abstimmen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Continuous AppSec program alignment with the organization's business goals
+benefit: Kontinuierliche Ausrichtung des Anwendungssicherheits-(AppSec)-Programms auf die Geschäftsziele des Unternehmens
 #A one sentence description of the activity
-shortDescription: Align the application security program to support the organization’s growth.
+shortDescription: Ausrichtung des Anwendungssicherheits-(AppSec)-Programms zur Unterstützung des Unternehmenswachstums.
 #A multi-paragraph description of the activity
 longDescription: |
-  You review the application security plan periodically for ongoing applicability and support of the organization’s evolving needs and future growth. To do this, you repeat the steps from the first two maturity levels of this Security Practice at least annually. The goal is for the plan to always support the current and future needs of the organization, which ensures the program is aligned with the business.
+  Sie überprüfen den Plan für die Anwendungssicherheit regelmäßig auf seine fortwährende Anwendbarkeit und auf die Unterstützung der sich entwickelnden Anforderungen der Organisation und des zukünftigen Wachstums. Zu diesem Zweck wiederholen Sie die Schritte der ersten beiden Reifegrade dieser Sicherheitspraxis mindestens einmal jährlich. Ziel ist es, dass der Plan stets die aktuellen und zukünftigen Anforderungen des Unternehmens unterstützt, wodurch sichergestellt wird, dass das Programm auf das Unternehmen abgestimmt ist.
 
-  In addition to reviewing the business drivers, the organization closely monitors the success of the implementation of each of the roadmap milestones. You evaluate the success of the milestones based on a wide range of criteria, including completeness and efficiency of the implementation, budget considerations, and any cultural impacts or changes resulting from the initiative. You review missed or unsatisfactory milestones and evaluate possible changes to the overall program.
+  Neben der Überprüfung der Geschäftsfaktoren überwacht die Organisation auch den Erfolg der Umsetzung der einzelnen Meilensteine der Roadmap. Sie bewerten den Erfolg der Meilensteine anhand einer Vielzahl von Kriterien, darunter Vollständigkeit und Effizienz der Implementierung, Budgetüberlegungen und alle kulturellen Auswirkungen oder Veränderungen, die sich aus der Initiative ergeben. Sie überprüfen verpasste oder unbefriedigende Meilensteine und bewerten mögliche Änderungen am Gesamtprogramm.
 
-  The organization develops dashboards and measurements for management and teams responsible for software development to monitor the implementation of the roadmap. These dashboards are detailed enough to identify individual projects and initiatives and provide a clear understanding of whether the program is successful and aligned with the organization’s needs.
+  Die Organisation entwickelt Dashboards und Messwerte für das Management und die für die Softwareentwicklung zuständigen Teams, um die Umsetzung der Roadmap zu überwachen. Diese Dashboards sind detailliert genug, um einzelne Projekte und Initiativen zu identifizieren und ein klares Bild davon zu vermitteln, ob das Programm erfolgreich und auf die Bedürfnisse des Unternehmens abgestimmt ist.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
