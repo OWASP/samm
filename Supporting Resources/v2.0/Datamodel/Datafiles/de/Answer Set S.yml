@@ -15,21 +15,21 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, for some of the policies and standards
-    value: 0.25
+    text: Ja, für einige der Richtlinien und Standards
+    value: 0
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, for at least half of the policies and standards
-    value: 0.5
+    text: Ja, für mindestens die Hälfte der Richtlinien und Standards
+    value: 0
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, for most or all of the policies and standards
+    text: Ja, für die meisten oder alle Richtlinien und Standards
     value: 1
     weight: 1
     order: 3
 #Type Classification of the Document
-type: AnswerSet
+type: Antwortmöglichkeiten
