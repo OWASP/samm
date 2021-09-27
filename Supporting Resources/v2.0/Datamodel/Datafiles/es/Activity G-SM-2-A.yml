@@ -10,18 +10,18 @@ level: 561e85a7fb114b1d976acce95d0b41ee
 #Please generate another identifier for your specific activity.
 id: c1778728d66e4b83b59a42405a90598a
 #The title of this activity
-title: Define the security strategy
+title: Definir la estrategia de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Available and agreed up roadmap of your AppSec program
+benefit: Disponible y acordado mapa de ruta de tu programa AppSec
 #A one sentence description of the activity
-shortDescription: Publish a unified strategy for application security.
+shortDescription: Publicar una estrategia unificada para la seguridad de las aplicaciones.
 #A multi-paragraph description of the activity
 longDescription: |
-  Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security. The plan covers 1 to 3 years and includes milestones consistent with the organization’s business drivers and risks. It provides tactical and strategic initiatives and follows a roadmap that makes its alignment with business priorities and needs visible.
+  En función de la magnitud de los activos, las amenazas y la tolerancia al riesgo, desarrolle un plan estratégico de seguridad y un presupuesto para abordar las prioridades comerciales en torno a la seguridad de las aplicaciones. El plan cubre de 1 a 3 años e incluye hitos consistentes con los impulsores y riesgos comerciales de la organización. Proporciona iniciativas tácticas y estratégicas y sigue una hoja de ruta que hace visible su alineación con las prioridades y necesidades comerciales.
 
-  In the roadmap, you reach a balance between changes requiring financial expenditures, changes of processes and procedures, and changes impacting the organization’s culture. This balance helps accomplish multiple milestones concurrently and without overloading or exhausting available resources or development teams. The milestones are frequent enough to help monitor program success and trigger timely roadmap adjustments.
+  En el plan de acción, logra un equilibrio entre los cambios que requieren gastos financieros, los cambios de procesos y procedimientos y los cambios que afectan la cultura de la organización. Este equilibrio ayuda a lograr varios hitos al mismo tiempo y sin sobrecargar ni agotar los recursos disponibles o los equipos de desarrollo. Los hitos son lo suficientemente frecuentes como para ayudar a monitorear el éxito del programa y desencadenar ajustes oportunos en la plan de acción.
 
-  For the program to be successful, the application security team obtains buy-in from the organization’s stakeholders and application development teams. A published plan is available to anyone who is required to support or participate in its implementation.
+  Para que el programa tenga éxito, el equipo de seguridad de la aplicación obtiene la aceptación de las partes interesadas de la organización y los equipos de desarrollo de aplicaciones. Un plan publicado está disponible para cualquier persona que deba apoyar o participar en su implementación.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
