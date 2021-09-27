@@ -10,20 +10,20 @@ level: 439406325e6645519c149da3e05a7d9d
 #Please generate another identifier for your specific activity.
 id: 5bcb52375a0f4085bb12266c9ecfa84d
 #The title of this activity
-title: Define an incident detection process
+title: Definir un proceso de detección de incidentes
 #Describe the benefit that is achieved by implementing this activity
-benefit: Timely and consistent detection of expected security incidents
+benefit: Detección oportuna y consistente de incidentes de seguridad esperados
 #A one sentence description of the activity
-shortDescription: Follow an established, well-documented process for incident detection, with emphasis on automated log evaluation.
+shortDescription: Siga un proceso establecido y bien documentado para la detección de incidentes, con énfasis en la evaluación de registros automatizada.
 #A multi-paragraph description of the activity
 longDescription: |
-  Establish a dedicated owner for the incident detection process, make clear documentation accessible to all process stakeholders, and ensure it is regularly reviewed and updated as necessary. Ensure employees responsible for incident detection follow this process (e.g., using training).
+  Establezca un propietario dedicado para el proceso de detección de incidentes, haga que la documentación clara sea accesible para todas las partes interesadas del proceso y asegúrese de que se revise y actualice periódicamente según sea necesario. Asegúrese de que los empleados responsables de la detección de incidentes sigan este proceso (por ejemplo, mediante capacitación).
 
-  The process typically relies on a high degree of automation, collecting and correlating log data from different sources, including application logs. You may aggregate logs in a central place, if suitable. Periodically verify the integrity of analyzed data. If you add a new application, ensure the process covers it within a reasonable period of time.
+  El proceso generalmente se basa en un alto grado de automatización, recopilando y correlacionando datos de registro de diferentes fuentes, incluidos los registros de aplicaciones. Puede agregar registros en un lugar central, si es adecuado. Verifique periódicamente la integridad de los datos analizados. Si agrega una nueva aplicación, asegúrese de que el proceso la cubra dentro de un período de tiempo razonable.
 
-  Detect possible security incidents using an available checklist. The checklist should cover expected attack vectors and known or expected kill chains. Evaluate and update it regularly.
+  Detecte posibles incidentes de seguridad utilizando una lista de verificación disponible. La lista de verificación debe cubrir los vectores de ataque esperados y las cadenas de muerte conocidas o esperadas. Evalúelo y actualícelo con regularidad.
 
-  When you determine an event is a security incident (with sufficiently high confidence), notify responsible staff immediately, even outside business hours. Perform further analysis, as appropriate, and start the escalation process.
+  Cuando determine que un evento es un incidente de seguridad (con suficiente confianza), notifique al personal responsable de inmediato, incluso fuera del horario comercial. Realice un análisis adicional, según corresponda, e inicie el proceso de escalada.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
