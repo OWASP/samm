@@ -8,16 +8,16 @@ function: 942d679b0c9e41909f8bde728fdb1259
 #Please generate another identifier for your specific practice.
 id: 8f07145b5ea74388b2217895d5e7b5c2
 #Official name of this practice
-name: Operational Management
+name: Operative Verwaltung (Operational Management)
 #Abbreviation of this practice
 shortName: OM
 #A one sentence description of the security practice
-shortDescription: This practice focuses on operational support activities required to maintain security throughout the product lifecycle.
+shortDescription: Dieses Verfahren konzentriert sich auf operative Unterstützungsmaßnahmen, die zur Aufrechterhaltung der Sicherheit während des gesamten Produktlebenszyklus erforderlich sind.
 #A multi-paragraph description of the security practice
 longDescription: |
-  The Operational Management (OM) practice focuses on activities to ensure security is maintained throughout operational support functions. Although these functions are not performed directly by an application, the overall security of the application and its data depends on their proper performance. Deploying an application on an unsupported operating system with unpatched vulnerabilities, or failing to store backup media securely, can make the protections built into that application irrelevant.
+  Die Praxis der Operative Verwaltung (Operational Management, OM) konzentriert sich auf Aktivitäten, die sicherstellen, dass die Sicherheit in allen betrieblichen Unterstützungsfunktionen aufrechterhalten wird. Obwohl diese Funktionen nicht direkt von einer Anwendung ausgeführt werden, hängt die Gesamtsicherheit der Anwendung und ihrer Daten von ihrer ordnungsgemäßen Ausführung ab. Die Bereitstellung einer Anwendung auf einem nicht unterstützten Betriebssystem mit ungepatchten Schwachstellen oder die unsichere Aufbewahrung von Backup-Medien kann dazu führen, dass die in die Anwendung eingebauten Schutzmaßnahmen irrelevant werden.
 
-  The functions covered by this practice include, but are not limited to: system provisioning, administration, and decommissioning; database provisioning and administration; and data backup, restore, and archival.
+  Die von dieser Praxis abgedeckten Funktionen umfassen unter anderem: Systembereitstellung, -verwaltung und -stilllegung, Datenbankbereitstellung und -verwaltung sowie Datensicherung, -wiederherstellung und -archivierung.
 #The relative order of this practice in the business function
 order: 3
 #Who's the "owner" of this practice
@@ -25,4 +25,4 @@ assignee: John DiLeo
 #Indication of progress to keep track of overall status
 progress: 80
 #Type Classification of the Document
-type: Practice
+type: Praxis
