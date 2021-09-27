@@ -10,16 +10,16 @@ level: 83ea8aaab3384b41b785107613ee4d86
 #Please generate another identifier for your specific activity.
 id: 9d0433c5133c4a4c9c16ae84abe9a235
 #The title of this activity
-title: Verify the effectiveness of security components
+title: Überprüfung der Wirksamkeit der Sicherheitskomponenten
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assurance of effectiveness of architecture controls
+benefit: Sicherstellung der Wirksamkeit der Architekturkontrollen
 #A one sentence description of the activity
-shortDescription: Review of the architecture components' effectiveness
+shortDescription: Überprüfung der Wirksamkeit der Architekturkomponenten
 #A multi-paragraph description of the activity
 longDescription: |
-  Review the effectiveness of the architecture components and their provided security mechanisms in terms of alignment with the overall strategy of the organization, and scrutinize the degree of availability, scalability and enterprise-readiness of the chosen security solutions. While tactical choices for a particular application can make sense in specific contexts, it is important to keep an eye on the bigger picture and ensure future readiness of the designed solution.
+  Überprüfen Sie die Wirksamkeit der Architekturkomponenten und der von ihnen bereitgestellten Sicherheitsmechanismen im Hinblick auf die Ausrichtung an der Gesamtstrategie des Unternehmens, und prüfen Sie den Grad der Verfügbarkeit, Skalierbarkeit und Unternehmensfähigkeit der gewählten Sicherheitslösungen. Während taktische Entscheidungen für eine bestimmte Anwendung in bestimmten Kontexten sinnvoll sein können, ist es wichtig, das Gesamtbild im Auge zu behalten und die Zukunftsfähigkeit der entwickelten Lösung sicherzustellen.
 
-  Feed any findings back into defect management to trigger further improvements to the architecture.
+  Lassen Sie alle Erkenntnisse in das Mängelmanagement einfließen, um weitere Verbesserungen an der Architektur vorzunehmen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 dependencies:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
