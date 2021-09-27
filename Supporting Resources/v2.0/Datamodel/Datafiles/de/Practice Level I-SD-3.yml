@@ -10,6 +10,6 @@ maturitylevel: 7bbfe31d447e48759ef0f2af25c31b43
 #Please generate another identifier for your specific practice level.
 id: fc5eb251c6ee4f3db04eb01b62d380ba
 #Objective of this particular practice level
-objective: Deployment process is fully automated and incorporates automated verification of all critical milestones.
+objective: Der Deployment-Prozess ist vollständig automatisiert und beinhaltet die automatische Überprüfung aller kritischen Meilensteine.
 #Type Classification of the Document
-type: PracticeLevel
+type: Praxis Level
