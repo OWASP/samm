@@ -10,42 +10,42 @@ level: 97a46a074fe849a1af2c2d2d3dd09ba5
 #Please generate another identifier for your specific activity.
 id: 93dff7be5f954f8d87d24f4261002508
 #The title of this activity
-title: Track security defects centrally
+title: Sicherheitsmängel zentral verfolgen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Transparency of known security defects impacting particular applications
+benefit: Transparenz der bekannten Sicherheitsmängel, die bestimmte Anwendungen betreffen
 #A one sentence description of the activity
-shortDescription: Introduce a structured tracking of security defects and make knowledgeable decisions based on this information.
+shortDescription: Eine strukturierte Verfolgung von Sicherheitsmängeln einführen und auf der Grundlage dieser Informationen sachkundige Entscheidungen treffen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Introduce a common definition / understanding of a security defect and define the most common ways of identifying these. These typically include, but are not limited to:
+  Einführung einer gemeinsamen Definition/eines gemeinsamen Verständnisses von Sicherheitsmängeln und Festlegung der gängigsten Methoden zu deren Erkennung. Dazu gehören typischerweise, aber nicht ausschließlich:
 
-  * Threat assessments
-  * Penetration tests
-  * Output from static and dynamic analysis scanning tools
-  * Responsible disclosure processes or bug bounties
+  * Bedrohungsanalysen
+  * Penetrationstests
+  * Ergebnisse von statischen und dynamischen Analysetools
+  * Verantwortungsvolle Offenlegungsprozesse oder Bug Bounties
 
-  Foster a culture of transparency and avoid blaming any teams for introducing or identifying security defects. Record and track all security defects in a defined location. This location doesn't necessarily have to centralized for the whole organization, however ensure that you're able to get an overview of all defects affecting a particular application at any single point in time. Define and apply access rules for the tracked security defects to mitigate the risk of leakage and abuse of this information.
+  Fördern Sie eine Kultur der Transparenz und vermeiden Sie es, andere Teams für die Einführung oder Identifizierung von Sicherheitsmängeln verantwortlich zu machen. Aufzeichnung und Verfolgung aller Sicherheitsmängel an einem bestimmten Ort. Dieser Ort muss nicht notwendigerweise für das gesamte Unternehmen zentralisiert sein, aber stellen Sie sicher, dass Sie in der Lage sind, sich zu jedem Zeitpunkt einen Überblick über alle Fehler zu verschaffen, die eine bestimmte Anwendung betreffen. Definieren Sie Zugriffsregeln für die verfolgten Sicherheitsmängel und wenden Sie diese an, um das Risiko des Durchsickerns und des Missbrauchs dieser Informationen zu mindern.
 
-  Introduce at least rudimentary qualitative classificiation of security defects so that you are able to prioritize fixing efforts accordingly. Strive for limiting duplication of information and presence of false positives to increase the trustworthiness of the process.
+  Führen Sie zumindest eine rudimentäre qualitative Klassifizierung von Sicherheitsmängeln ein, damit Sie in der Lage sind, die Behebungsmaßnahmen entsprechend zu priorisieren. Streben Sie danach, die Duplizierung von Informationen und das Auftreten von Fehlalarmen zu begrenzen, um die Vertrauenswürdigkeit des Prozesses zu erhöhen.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Engineer
-  - Security Officer
+  - Sicherheitsingenieur
+  - Sicherheitsbeauftragter
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 921ff24f0b9f4df9a5129aa2f8a4a570
   - b3b20a75740c4880a21ad9aa0c1298c7
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
