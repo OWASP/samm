@@ -10,20 +10,20 @@ level: e5b6dc4f907c4986b8ba7923303cd665
 #Please generate another identifier for your specific activity.
 id: 529d528265c94447954a57f5be425f54
 #The title of this activity
-title: Inventorize risk profiles
+title: Inventariar perfiles de riesgo
 #Describe the benefit that is achieved by implementing this activity
-benefit: Solid understanding of the risk level of your application portfolio
+benefit: Conocimiento sólido del nivel de riesgo del portafolio de aplicaciones
 #A one sentence description of the activity
-shortDescription: Understand the risk for all applications in the organization by centralizing the risk profile inventory for stakeholders.
+shortDescription: Comprenda el riesgo de todas las aplicaciones de la organización, centralizando el inventario del perfil de riesgo para las partes interesadas.
 #A multi-paragraph description of the activity
 longDescription: |
-  The goal of this activity is to thoroughly understand the risk level of all applications within the organization, to focus the effort of your software assurance activities where it really matters.
+  El objetivo de esta actividad es comprender a fondo el nivel de riesgo de todas las aplicaciones dentro de la organización, para enfocar el esfuerzo de sus actividades de aseguramiento de software donde realmente importa.
 
-  From a risk evaluation perspective, the basic set of questions is not enough to thoroughly evaluate the risk of all applications. Create an extensive and standardized way to evaluate the risk of the application, among others via their impact on information security (confidentiality, integrity and availability of data). Next to security, you also want to evaluate the privacy risk of the application. Understand the data that the application processes and what potential privacy violations are relevant. Finally, study the impact that this application has on other applications within the organization (e.g., the application might be modifying data that was considered read-only in another context). Evaluate all applications within the organization, including all existing and legacy ones.
+  Desde una perspectiva de evaluación de riesgos, el conjunto básico de preguntas no es suficiente para evaluar a fondo el riesgo de todas las aplicaciones. Crear una forma extensa y estandarizada de evaluar el riesgo de la aplicación, entre otros a través de su impacto en la seguridad de la información (confidencialidad, integridad y disponibilidad de los datos). Además de la seguridad, también desea evaluar el riesgo de privacidad de la aplicación. Comprenda los datos que procesa la aplicación y qué posibles violaciones de privacidad son relevantes. Finalmente, estudie el impacto que esta aplicación tiene en otras aplicaciones dentro de la organización (por ejemplo, la aplicación podría estar modificando datos que se consideraron de solo lectura en otro contexto). Evalúe todas las aplicaciones dentro de la organización, incluidas todas las existentes y heredadas.
 
-  Leverage business impact analysis to quantify and classify application risk. A simple qualitative scheme (such as high/medium/low) is not enough to effectively manage and compare applications on an enterprise-wide level.
+  Aproveche el análisis de impacto empresarial para cuantificar y clasificar el riesgo de las aplicaciones. Un esquema cualitativo simple (como alto / medio / bajo) no es suficiente para administrar y comparar aplicaciones de manera efectiva a nivel empresarial.
 
-  Based on this input, Security Officers leverage the classification to define the risk profile to build a centralized inventory of risk profiles and manage accountability. This inventory gives Product Owners, Managers, and other organizational stakeholders an aligned view of the risk level of an application in order to assign appropriate priority to security-related activities.
+  Con base en esta información, los oficiales de seguridad aprovechan la clasificación para definir el perfil de riesgo para construir un inventario centralizado de perfiles de riesgo y administrar la responsabilidad. Este inventario brinda a los propietarios de productos, gerentes y otras partes interesadas de la organización una visión alineada del nivel de riesgo de una aplicación para asignar la prioridad adecuada a las actividades relacionadas con la seguridad.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
