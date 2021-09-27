@@ -10,6 +10,6 @@ maturitylevel: 0a1dc80f84964f2fa776c5d8e932353a
 #Please generate another identifier for your specific practice level.
 id: 817dd6acaf85496aa005393e0e6c3e70
 #Objective of this particular practice level
-objective: Best-effort incident detection and handling
+objective: Erkennung und Behandlung von Störungen nach bestem Wissen und Gewissen
 #Type Classification of the Document
-type: PracticeLevel
+type: Praxis Level
