@@ -8,18 +8,18 @@ function: 102ad02df5dc4a8eb3837ef4ca2c1af4
 #Please generate another identifier for your specific practice.
 id: 483a0a1b78264cafbc470ce72d557332
 #Official name of this practice
-name: Education & Guidance
+name: Bildung & Beratung
 #Abbreviation of this practice
 shortName: EG
 #A one sentence description of the security practice
-shortDescription: This practice focuses on increasing the knowledge in the organization regarding secure software.
+shortDescription: Diese Praxis konzentriert sich darauf, das Wissen über sichere Software im Unternehmen zu erweitern.
 #A multi-paragraph description of the security practice
 longDescription: |
-  The Education & Guidance (EG) practice focuses on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization.
+  Der Bereich Bildung & Beratung (Education & Guidance, EG) konzentriert sich darauf, Mitarbeiter, die am Software-Lebenszyklus beteiligt sind, mit Wissen und Ressourcen auszustatten, um sichere Software zu entwerfen, zu entwickeln und einzusetzen. Durch den verbesserten Zugang zu Informationen können Projektteams die spezifischen Sicherheitsrisiken, die für ihr Unternehmen gelten, proaktiv erkennen und abmildern.
 
-  One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness, either through instructor-led sessions or computer-based modules. As an organization progresses, it builds a broad base of training starting with developers and moving to other roles, culminating with the addition of role-based training to ensure applicability and effectiveness.
+  Ein wichtiges Thema für Verbesserungen im Rahmen der Ziele ist die Schulung der Mitarbeiter und die Erhöhung ihres Sicherheitsbewusstseins, entweder durch von Ausbildern geleitete Sitzungen oder computerbasierte Module. Im Laufe der Zeit baut ein Unternehmen eine breite Basis von Schulungen auf, beginnend mit Entwicklern, über andere Rollen, bis hin zu rollenbasierten Schulungen, um die Anwendbarkeit und Effektivität zu gewährleisten.
 
-  In addition to training, this practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams. Collaboration tools and increased transparency between technologies and tools support this approach to improve the security of the applications.
+  Neben der Schulung erfordert diese Praxis auch eine erhebliche Investition in die Verbesserung der Unternehmenskultur, um die Anwendungssicherheit durch die Zusammenarbeit zwischen den Teams zu fördern. Tools für die Zusammenarbeit und eine erhöhte Transparenz zwischen Technologien und Tools unterstützen diesen Ansatz zur Verbesserung der Sicherheit der Anwendungen.
 #The relative order of this practice in the business function
 order: 3
 #Who's the "owner" of this practice
@@ -27,4 +27,4 @@ assignee: Yan Kravchenko
 #Indication of progress to keep track of overall status
 progress: 90
 #Type Classification of the Document
-type: Practice
+type: Praxis
