@@ -10,18 +10,18 @@ level: 61ae1e4268b24d7986805658c89b5e54
 #Please generate another identifier for your specific activity.
 id: e7ba346fabdc44beb47e2c67c14a6726
 #The title of this activity
-title: Measure compliance to external requirements
+title: Mida el cumplimiento de requerimientos externos
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of your organization’s compliance with external compliance drivers
+benefit: Entiende el nivel de cumplimiento de regulaciones externas en la organización
 #A one sentence description of the activity
-shortDescription: Measure and report on individual application’s compliance with 3rd party requirements.
+shortDescription: Mide e informa sobre el cumplimiento de los requisitos de terceros por parte de cada aplicación individual.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop a program for measuring and reporting on the status of compliance between different applications. Application requirements and test scripts help determine the status of compliance. Leverage testing automation to promptly detect compliance regressions in frequently updated applications and ensure compliance is maintained through the different application versions. Whenever fully automated testing is not possible, QA, Internal Audit, or Information Security teams assess compliance periodically through a combination of manual testing and interview.
+  Desarrollar un programa para medir e informar sobre el estado del cumplimiento entre las diferentes aplicaciones. Los requisitos de aplicación y los scripts de prueba ayudan a determinar el estado de conformidad. Aprovechar la automatización de pruebas para detectar rápidamente regresiones de conformidad en aplicaciones actualizadas con frecuencia y asegurar que el cumplimiento se mantiene a través de las diferentes versiones de la aplicación. Siempre que no sea posible realizar pruebas completamente automatizadas, los equipos de QA, de control interno o de seguridad de la información evalúan el cumplimiento periódicamente mediante una combinación de pruebas y entrevistas manuales.
 
-  While full compliance is always the ultimate goal, include tracking remediation actions and periodic updates in the program. Review compliance remediation activities periodically to check teams are making appropriate progress, and that remediation strategies will be effective in achieving compliance. To further improve the process, develop a series of standard reports and compliance scorecards. These help individual teams understand the current state of compliance, and the organization manage assistance for remediating compliance gaps more effectively.
+  Si bien el cumplimiento total es siempre el objetivo final, incluye acciones de seguimiento de remediación y actualizaciones periódicas en el programa. Revisar periódicamente las actividades de remediación de cumplimiento para comprobar que los equipos están haciendo los progresos adecuados y que las estrategias de remediación serán efectivas para lograr la conformidad. Para mejorar aún más el proceso, desarrollar una serie de informes estándar y puntuación de cumplimiento. Estos ayudan a los equipos individuales a entender el estado actual de cumplimiento y la organización administra la asistencia para remediar las lagunas de cumplimiento de manera más efectiva.
 
-  Review compliance gaps requiring significant expenses or development with the subject-matter experts and compare them against the cost of reducing the application’s functionality, minimizing scope or eliminating the compliance requirement. longterm compliance gaps require management approval and a formal compliance risk acceptance, so they receive appropriate attention and scrutiny from the organization’s leadership.
+  Revisar las brechas de cumplimiento que requieren gastos significativos o desarrollo con los expertos en materia y compararlas con el costo de reducir la funcionalidad de la aplicación, minimizando el alcance o eliminando el requisito de cumplimiento. las lagunas de cumplimiento a largo plazo requieren la aprobación de la gestión y una aceptación formal del riesgo de cumplimiento por lo que reciben la atención y el escrutinio apropiados de la dirección de la organización.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
