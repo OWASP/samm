@@ -10,34 +10,34 @@ level: fc5eb251c6ee4f3db04eb01b62d380ba
 #Please generate another identifier for your specific activity.
 id: fed0d75c064c4a979a5b7b98adfdedbf
 #The title of this activity
-title: Enforce lifecycle management of application secrets
+title: Durchsetzung des Lebenszyklusmanagements von Anwendungsgeheimnissen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Minimized possibility and timely detection of production secret abuse
+benefit: Minimierung der Möglichkeit und rechtzeitige Aufdeckung des Missbrauchs von Produktionsgeheimnissen
 #A one sentence description of the activity
-shortDescription: Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use.
+shortDescription: Verbessern Sie den Lebenszyklus von Anwendungsgeheimnissen, indem Sie sie regelmäßig erstellen und ihre ordnungsgemäße Verwendung sicherstellen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance. The use of secrets per application instance ensures that unexpected application behavior can be traced back and properly analyzed. Tools can help in automatically and seemlessly updating the secrets in all relevant places upon change.
+  Implementieren Sie ein Lebenszyklusmanagement für Produktionsgeheimnisse und sorgen Sie dafür, dass so oft wie möglich und für jede Anwendungsinstanz neue Geheimnisse generiert werden. Durch die Verwendung von Geheimnissen pro Anwendungsinstanz wird sichergestellt, dass unerwartetes Anwendungsverhalten zurückverfolgt und ordnungsgemäß analysiert werden kann. Tools können dabei helfen, die Geheimnisse bei Änderungen automatisch und nahtlos an allen relevanten Stellen zu aktualisieren.
 
-  Ensure that all access to secrets (both reading and writing) is logged in a central infrastructure. Review these logs regularly to identify unexpected behavior and perform proper analysis to understand why this happened. Feed issues and root causes into the defect management practice to make sure that the organization will resolve any unacceptable situations.
+  Stellen Sie sicher, dass jeder Zugriff auf Geheimnisse (sowohl lesend als auch schreibend) in einer zentralen Infrastruktur protokolliert wird. Überprüfen Sie diese Protokolle regelmäßig, um unerwartetes Verhalten zu erkennen, und führen Sie eine angemessene Analyse durch, um zu verstehen, warum dies geschehen ist. Führen Sie Probleme und Ursachen in die Fehlerverwaltungspraxis ein, um sicherzustellen, dass das Unternehmen alle inakzeptablen Situationen behebt.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Administrator
-  - Security Engineer
+  - System-Administrator
+  - Sicherheitsingenieur
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   -
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
