@@ -8,19 +8,19 @@ function: fa340fa1816244d79f369ae82e998368
 #Please generate another identifier for your specific practice.
 id: 66fb99798fe946e4979a2de98e9d6f8b
 #Official name of this practice
-name: Requirements-driven Testing
+name: Anforderungsgesteuerte Tests
 #Abbreviation of this practice
 shortName: RT
 #A one sentence description of the security practice
-shortDescription: This practice focuses on using both positive (control verification) and negative (misuse/abuse testing) security tests based on requirements (user stories).
+shortDescription: Diese Praxis konzentriert sich auf die Verwendung von positiven (Kontrollüberprüfung) und negativen (Missbrauchstests) Sicherheitstests auf der Grundlage von Anforderungen (User Stories).
 #A multi-paragraph description of the security practice
 longDescription: |
 
-  The goal of the Requirements-driven Testing (RT) practice is to ensure that the implemented security controls operate as expected and satisfy the project's stated security requirements. It does so by incrementally building a set of security test and regression cases and executing them regularly.
+  Das Ziel des anforderungsgesteuerten Testens (Requirements-driven Testing, RT) ist es, sicherzustellen, dass die implementierten Sicherheitskontrollen wie erwartet funktionieren und die angegebenen Sicherheitsanforderungen des Projekts erfüllen. Dies geschieht durch den schrittweisen Aufbau einer Reihe von Sicherheitstests und Regressionsfällen und deren regelmäßige Ausführung.
 
-  A key aspect of this practice is its attention to both positive and negative testing. The former verifies that the application's security controls satisfy stated security requirements and validates their correct functioning. These requirements are typically functional in nature. Negative testing addresses the quality of the implementation of the security controls and aims to detect unexpected design flaws and implementation bugs through misuse and abuse testing. In its more advanced forms, the practice promotes security stress testing, such as denial of service, and strives to continuously improve application security by consistently automating security unit tests and creating security regression tests for all bugs identified and fixed.
+  Ein Schlüsselaspekt dieser Praxis ist die Beachtung von positiven und negativen Tests. Bei ersteren wird überprüft, ob die Sicherheitskontrollen der Anwendung die angegebenen Sicherheitsanforderungen erfüllen und ob sie korrekt funktionieren. Diese Anforderungen sind in der Regel funktionaler Natur. Negativtests befassen sich mit der Qualität der Implementierung der Sicherheitskontrollen und zielen darauf ab, unerwartete Entwurfsfehler und Implementierungsfehler durch Missbrauchstests aufzudecken. In seinen fortgeschritteneren Formen fördert das Verfahren Sicherheitstests unter Stressbedingungen, wie z. B. Denial-of-Service-Tests, und strebt eine kontinuierliche Verbesserung der Anwendungssicherheit an, indem es konsequent Sicherheitseinheitstests automatisiert und Sicherheitsregressionstests für alle identifizierten und behobenen Fehler erstellt.
 
-  Although both the Requirements-driven Testing and Security Testing practices are concerned with security testing, the former focuses on verifying the correct implementation of security requirements, while the latter aims to uncover technical implementation weaknesses in an application, irrespective of requirements.
+  Obwohl sich sowohl das anforderungsorientierte Testen als auch das Sicherheitstesten mit Sicherheitstests befassen, konzentriert sich ersteres auf die Überprüfung der korrekten Umsetzung von Sicherheitsanforderungen, während letzteres darauf abzielt, technische Implementierungsschwächen in einer Anwendung unabhängig von den Anforderungen aufzudecken.
 #The relative order of this practice in the business function
 order: 2
 #Who's the "owner" of this practice
@@ -28,4 +28,4 @@ assignee: Nessim Kisserli
 #Indication of progress to keep track of overall status
 progress: 42
 #Type Classification of the Document
-type: Practice
+type: Praxis
