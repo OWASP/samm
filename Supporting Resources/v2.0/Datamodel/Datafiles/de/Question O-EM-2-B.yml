@@ -15,8 +15,8 @@ text: Do you follow an established process for updating components of your techn
 order: 1
 #Qualifying Criteria
 quality:
-  - The process includes vendor information for third-party patches
-  - The process considers external sources to gather information about zero day attacks, and includes appropriate risk mitigation steps
-  - The process includes guidance for prioritizing component updates
+  - Der Prozess umfasst Herstellerinformationen für Drittanbieter-Patches
+  - Der Prozess berücksichtigt externe Quellen, um Informationen über Zero-Day-Angriffe zu sammeln, und umfasst geeignete Schritte zur Risikominderung
+  - Der Prozess umfasst Leitlinien für die Priorisierung von Komponentenaktualisierungen
 #Type Classification of the Document
-type: Question
+type: Frage
