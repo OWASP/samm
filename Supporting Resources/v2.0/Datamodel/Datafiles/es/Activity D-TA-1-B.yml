@@ -10,20 +10,20 @@ level: a3d4045d5c0c4bd4a875784759539f0c
 #Please generate another identifier for your specific activity.
 id: 1ceadbb5a0024e2599821e7ce756f3a4
 #The title of this activity
-title: Perform basic threat modeling
+title: Realizar un modelado de amenazas básico
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identification of architectural design flaws in your applications
+benefit: Identificación de defectos de diseño arquitectónico en sus aplicaciones
 #A one sentence description of the activity
-shortDescription: Perform best-effort, risk-based threat modeling using brainstorming and existing diagrams with simple threat checklists.
+shortDescription: Realice un modelado de amenazas basado en riesgos y con el mejor esfuerzo mediante la lluvia de ideas y los diagramas existentes con listas de verificación de amenazas simples.
 #A multi-paragraph description of the activity
 longDescription: |
-  Threat modeling is a structured activity for identifying, evaluating, and managing system threats, architectural design flaws, and recommended security mitigations. It is typically done as part of the design phase or as part of a security assessment.
+  El modelado de amenazas es una actividad estructurada para identificar, evaluar y administrar amenazas del sistema, fallas de diseño arquitectónico y mitigaciones de seguridad recomendadas. Por lo general, se realiza como parte de la fase de diseño o como parte de una evaluación de seguridad.
 
-  Threat modeling is a team exercise, including product owners, architects, security champions, and security testers. At this maturity level, expose teams and stakeholders to threat modeling to increase security awareness and to create a shared vision on the security of the system.
+  El modelado de amenazas es un ejercicio de equipo, que incluye propietarios de productos, arquitectos, campeones de seguridad y probadores de seguridad. En este nivel de madurez, exponga a los equipos y partes interesadas al modelado de amenazas para aumentar la conciencia de seguridad y crear una visión compartida sobre la seguridad del sistema.
 
-  At maturity level 1, you perform threat modeling ad-hoc for high-risk applications and use simple threat checklists, such as STRIDE. Avoid lengthy workshops and overly detailed lists of low-relevant threats. Perform threat modeling iteratively to align to more iterative development paradigms. If you add new functionality to an existing application, look only into the newly added functions instead of trying to cover the entire scope. A good starting point is the existing diagrams that you annotate during discussion workshops. Always make sure to persist the outcome of a threat modeling discussion for later use.
+  En el nivel de madurez 1, realiza un modelado de amenazas ad-hoc para aplicaciones de alto riesgo y utiliza listas de verificación de amenazas simples, como STRIDE. Evite talleres prolongados y listas demasiado detalladas de amenazas poco relevantes. Realice el modelado de amenazas de forma iterativa para alinearse con paradigmas de desarrollo más iterativos. Si agrega nueva funcionalidad a una aplicación existente, mire solo las funciones recién agregadas en lugar de tratar de cubrir todo el alcance. Un buen punto de partida son los diagramas existentes que anota durante los talleres de discusión. Asegúrese siempre de conservar el resultado de una discusión sobre el modelado de amenazas para su uso posterior.
 
-  Your most important tool to start threat modeling is a whiteboard, smartboard, or a piece of paper. Aim for security awareness, a simple process, and actionable outcomes that you agree upon with your team.
+  Su herramienta más importante para iniciar el modelado de amenazas es una pizarra, una pizarra inteligente o una hoja de papel. Apunte a la conciencia de seguridad, un proceso simple y resultados procesables que acuerde con su equipo.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
