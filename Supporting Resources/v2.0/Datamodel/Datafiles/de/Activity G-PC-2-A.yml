@@ -10,18 +10,18 @@ level: 2a29c1f7d6954785b8d42d637a752f94
 #Please generate another identifier for your specific activity.
 id: 09f4b814a3444b329a7c9c7f54152ffe
 #The title of this activity
-title: Develop test procedures
+title: Testverfahren entwickeln
 #Describe the benefit that is achieved by implementing this activity
-benefit: Common understanding of how to reach compliance with security policies for product teams
+benefit: Ein gemeinsames Verständnis darüber, wie die Einhaltung von Sicherheitsrichtlinien für Produktteams erreicht werden kann
 #A one sentence description of the activity
-shortDescription: Develop security requirements applicable to all applications.
+shortDescription: Entwicklung von Sicherheitsanforderungen, die für alle Anwendungen gelten.
 #A multi-paragraph description of the activity
 longDescription: |
-  To assist with the ongoing implementation and verification of compliance with policies and standards, develop application security and appropriate test scripts related to each applicable requirement. Organize these documents into libraries and make them available to all application teams in formats most conducive for inclusion into each application. Clearly label the documents and link them to the policies and standards they represent, to assist with the ongoing updates and maintenance. Version policies and standards and include detailed change logs with each iterative update to make ongoing inclusion into different products’ SDLC easier.
+  Zur Unterstützung der fortlaufenden Implementierung und Überprüfung der Einhaltung von Richtlinien und Standards entwickeln Sie Anwendungssicherheit und geeignete Testskripte für jede anwendbare Anforderung. Organisieren Sie diese Dokumente in Bibliotheken und stellen Sie sie allen Anwendungsteams in Formaten zur Verfügung, die für die Einbindung in die jeweilige Anwendung am besten geeignet sind. Kennzeichnen Sie die Dokumente eindeutig und verknüpfen Sie sie mit den Richtlinien und Standards, die sie repräsentieren, um die laufende Aktualisierung und Pflege zu erleichtern. Versionieren Sie die Richtlinien und Standards und fügen Sie bei jeder iterativen Aktualisierung detaillierte Änderungsprotokolle bei, um die fortlaufende Einbeziehung in den SDLC der verschiedenen Produkte zu erleichtern.
 
-  Write application security requirements in a format consistent with the existing requirements management processes. You may need more than one version catering to different development methodologies or technologies. The goal is to make it easy for various product teams to incorporate policies and standards into their existing development life-cycles needing minimal interpretation of requirements.
+  Schreiben Sie die Anforderungen an die Anwendungssicherheit in einem Format, das mit den bestehenden Anforderungsmanagementprozessen vereinbar ist. Möglicherweise benötigen Sie mehr als eine Version für unterschiedliche Entwicklungsmethoden oder Technologien. Ziel ist es, den verschiedenen Produktteams die Einbindung von Richtlinien und Standards in ihre bestehenden Entwicklungszyklen zu erleichtern, wobei nur eine minimale Interpretation der Anforderungen erforderlich ist.
 
-  Test scripts help reinforce application security requirements through clear expectations of application functionality, and guide automated or manual testing efforts that may already be part of the development process. These efforts not only help each team establish the current state of compliance with existing policies and standards, but also ensure compliance as applications continue to change.
+  Testskripte helfen dabei, die Anforderungen an die Anwendungssicherheit durch klare Erwartungen an die Anwendungsfunktionalität zu untermauern, und leiten automatisierte oder manuelle Testverfahren an, die bereits Teil des Entwicklungsprozesses sein können. Auf diese Weise kann jedes Team nicht nur den aktuellen Stand der Einhaltung bestehender Richtlinien und Standards ermitteln, sondern auch die Einhaltung sicherstellen, wenn sich die Anwendungen weiter verändern.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
