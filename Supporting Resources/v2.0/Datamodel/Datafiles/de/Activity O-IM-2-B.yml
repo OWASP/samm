@@ -10,21 +10,21 @@ level: 439406325e6645519c149da3e05a7d9d
 #Please generate another identifier for your specific activity.
 id: d6dd8813c5074350b5614b92f2dec60d
 #The title of this activity
-title: Define and incident response process
+title: Definition eines Verfahrens zur Reaktion auf Vorfälle
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding and efficient handling of most security incidents
+benefit: Verständnis und effizienter Umgang mit den meisten Sicherheitsvorfällen
 #A one sentence description of the activity
-shortDescription: Establish a formal incident response process and ensure staff are properly trained in performing their roles.
+shortDescription: Führen Sie ein formelles Verfahren für die Reaktion auf Vorfälle ein und stellen Sie sicher, dass die Mitarbeiter für ihre Aufgaben angemessen geschult sind.
 #A multi-paragraph description of the activity
 longDescription: |
-  Establish and document the formal security incident response process. Ensure documentation includes information like&#58;
+  Festlegung und Dokumentation des formellen Verfahrens zur Reaktion auf Sicherheitsvorfälle. Stellen Sie sicher, dass die Dokumentation Informationen enthält wie&#58;
 
-  * most probable/common scenarios of security incidents and high-level instructions for handling them; for such scenarios, also use public knowledge about possibly relevant third-party incidents
-  * rules for triaging each incident
-  * rules for involvement of different stakeholders including senior management, Public Relations, Legal, privacy, Human Resources, external (law enforcement) authorities, and customers; specify mandatory timeframe to do so, if needed
-  * the process for performing root-cause analysis and documentation of its results
+  * die wahrscheinlichsten/gewöhnlichsten Szenarien von Sicherheitsvorfällen und hochrangige Anweisungen für deren Behandlung; nutzen Sie für solche Szenarien auch öffentliches Wissen über möglicherweise relevante Vorfälle Dritter
+  * Regeln für die Einstufung jedes Vorfalls
+  * Regeln für die Einbeziehung der verschiedenen Beteiligten, einschließlich der Geschäftsleitung, der Öffentlichkeitsarbeit, der Rechtsabteilung, des Datenschutzes, der Personalabteilung, externer (Strafverfolgungs-)Behörden und der Kunden; gegebenenfalls Angabe eines verbindlichen Zeitrahmens für die Einbeziehung
+  * das Verfahren für die Durchführung der Ursachenanalyse und die Dokumentation der Ergebnisse
 
-  Ensure a knowledgeable and properly trained incident response team is available both during and outside of business hours. Define timelines for action and a war room. Keep hardware and software tools up to date and ready for use anytime.
+  Sicherstellen, dass ein sachkundiges und angemessen geschultes Team für die Reaktion auf Vorfälle sowohl während als auch außerhalb der Geschäftszeiten zur Verfügung steht. Legen Sie Zeitpläne für Maßnahmen und einen War-Room fest. Halten Sie Hardware- und Software-Tools auf dem neuesten Stand und jederzeit einsatzbereit.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -38,4 +38,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
