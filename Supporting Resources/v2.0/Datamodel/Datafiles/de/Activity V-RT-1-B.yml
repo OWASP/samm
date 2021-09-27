@@ -10,16 +10,16 @@ level: df5a0be1889a4b06835193892803dde5
 #Please generate another identifier for your specific activity.
 id: 81ef5625583646bf8bc3fad53e4eff55
 #The title of this activity
-title: Perform fuzz testing
+title: Durchführung von Fuzz-Tests
 #Describe the benefit that is achieved by implementing this activity
-benefit: Insight into behaviour of your applications when dealing with unexpected input
+benefit: Einblick in das Verhalten Ihrer Anwendungen beim Umgang mit unerwarteten Eingaben
 #A one sentence description of the activity
-shortDescription: Perform security fuzzing testing
+shortDescription: Durchführung von Sicherheits-Fuzzing-Tests
 #A multi-paragraph description of the activity
 longDescription: |
-  Perform fuzzing, sending random or malformed data to the test subject in an attempt to make it crash. Fuzz testing or Fuzzing is a Black Box software testing technique, which consists of finding implementation bugs using automated malformed or semi-malformed data injection. Cover at least a minimum fuzzing for vulnerabilities against the main input parameters of the application.
+  Fuzzing: Senden von zufälligen oder missgebildeten Daten an das Testobjekt, um es zum Absturz zu bringen. Fuzz-Testing oder Fuzzing ist eine Black-Box-Software-Testtechnik, die darin besteht, Implementierungsfehler durch automatisierte Einspeisung missgestalteter oder halb missgestalteter Daten zu finden. Fuzzing deckt zumindest ein Minimum an Schwachstellen gegenüber den wichtigsten Eingabeparametern der Anwendung ab.
 
-  The advantage of fuzz testing is the simplicity of the test design, and its lack of preconceptions about system behavior. The stochastic approach results in bugs that human eyes or structured testing would often miss. It is also one of the few means of assessing the quality of a closed system (such as a SIP phone). The simplicity of fuzzing a target is offset by the difficulty in accurately detecting and triaging crashes. Favour existing fuzzing tools and frameworks to leverage their supporting tooling.
+  Der Vorteil von Fuzz-Tests liegt in der Einfachheit des Testdesigns und dem Fehlen von Vorannahmen über das Systemverhalten. Der stochastische Ansatz führt zu Fehlern, die ein menschliches Auge oder strukturierte Tests oft übersehen würden. Es ist auch eine der wenigen Möglichkeiten, die Qualität eines geschlossenen Systems (wie z. B. eines SIP-Telefons) zu bewerten. Der Einfachheit des Fuzzing eines Ziels steht die Schwierigkeit gegenüber, Abstürze genau zu erkennen und einzugrenzen. Vorhandene Fuzzing-Tools und -Frameworks sind zu bevorzugen, um ihre unterstützenden Werkzeuge zu nutzen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 dependencies:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
