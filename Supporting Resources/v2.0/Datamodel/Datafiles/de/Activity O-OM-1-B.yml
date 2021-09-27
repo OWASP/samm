@@ -10,16 +10,16 @@ level: d0a99f3db27e48aa9b2d6b58a9040f49
 #Please generate another identifier for your specific activity.
 id: 1a398709b9d3407dbf9db7eeff6e916c
 #The title of this activity
-title: Identify unused applications
+title: Identifizieren Sie ungenutzte Anwendungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identification of unused of software assets or components
+benefit: Identifizierung nicht verwendeter Software-Assets oder -Komponenten
 #A one sentence description of the activity
-shortDescription: Decomission unused applications and services as identified. Manage customer upgrades/migrations individually.
+shortDescription: Stilllegung ungenutzter Anwendungen und Dienste nach Bedarf. Individuelle Verwaltung von Kunden-Upgrades/Migrationen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Identify unused applications on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When you identify unused applications, process those findings for further action. If you have established a formal process for decommissioning unused applications, ensure teams are aware of and use it.
+  Identifizieren Sie ungenutzte Anwendungen auf "ad-hoc" Basis, entweder durch zufällige Beobachtung oder durch gelegentliche Überprüfung. Wenn Sie ungenutzte Anwendungen identifizieren, verarbeiten Sie diese Erkenntnisse für weitere Maßnahmen. Wenn Sie einen formellen Prozess für die Stilllegung ungenutzter Anwendungen eingeführt haben, stellen Sie sicher, dass die Teams diesen kennen und anwenden.
 
-  Manage customer/user migration from older versions of your products for each product and customer/user group. When a product version is no longer in use by any customer/user group, discontinue support for that version. However, at this level of maturity you may have a large number of product versions in active use across the customer/user base, requiring significant developer effort to back-port product fixes.
+  Verwalten Sie die Migration von Kunden/Benutzern von älteren Versionen Ihrer Produkte für jedes Produkt und jede Kunden-/Benutzergruppe. Wenn eine Produktversion nicht mehr von einer Kunden-/Benutzergruppe verwendet wird, stellen Sie den Support für diese Version ein. Bei diesem Reifegrad kann es jedoch sein, dass Sie eine große Anzahl von Produktversionen in der Kunden-/Benutzerbasis im Einsatz haben, was einen erheblichen Entwicklungsaufwand für die Rückportierung von Produktkorrekturen erfordert.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
