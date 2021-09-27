@@ -10,20 +10,20 @@ level: 6fe1973911bf4e54b018da10a5aa80a1
 #Please generate another identifier for your specific activity.
 id: 11dd0c95f8914b6cb850a27f0557a9dd
 #The title of this activity
-title: Improve the incident detection process
+title: Verbesserung des Verfahrens zur Erkennung von Vorfällen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to timely detect security incidents
+benefit: Fähigkeit zur rechtzeitigen Erkennung von Sicherheitsvorfällen
 #A one sentence description of the activity
-shortDescription: Use a proactively managed process for detection of incidents.
+shortDescription: Verwenden Sie einen proaktiv verwalteten Prozess zur Erkennung von Vorfällen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Ensure process documentation includes measures for continuous process improvement. Check the continuity of process improvement (e.g., via tracking of changes).
+  Sicherstellen, dass die Prozessdokumentation Maßnahmen zur kontinuierlichen Prozessverbesserung enthält. Überprüfung der Kontinuität der Prozessverbesserung (z. B. durch Nachverfolgung von Änderungen).
 
-  Ensure the checklist for suspicious event detection is correlated at least from (i) sources and knowledge bases external to the company (e.g., new vulnerability announcements affecting the used technologies), (ii) past security incidents, and (iii) threat model outcomes.
+  Sicherstellen, dass die Checkliste für die Erkennung verdächtiger Ereignisse zumindest mit (i) unternehmensexternen Quellen und Wissensdatenbanken (z. B. Ankündigungen neuer Schwachstellen, die die verwendeten Technologien betreffen), (ii) früheren Sicherheitsvorfällen und (iii) Ergebnissen von Bedrohungsmodellen korreliert ist.
 
-  Use correlation of logs for incident detection for all reasonable incident scenarios. If the log data for incident detection is not available, document its absence as a defect, triage and handle it according to your established Defect Management process.
+  Verwenden Sie die Korrelation von Protokollen zur Erkennung von Vorfällen für alle sinnvollen Vorfallszenarien. Wenn die Protokolldaten für die Erkennung von Vorfällen nicht verfügbar sind, dokumentieren Sie das Fehlen dieser Daten als Defekt und behandeln Sie ihn gemäß Ihrem etablierten Defektmanagementprozess.
 
-  The quality of the incident detection does not depend on the time or day of the event. If security events are not acknowledged and resolved within a specified time (e.g., 20 minutes), ensure further notifications are generated according to an established escalation path.
+  Die Qualität der Ereigniserkennung hängt nicht von der Uhrzeit oder dem Tag des Ereignisses ab. Wenn Sicherheitsereignisse nicht innerhalb einer bestimmten Zeit (z. B. 20 Minuten) bestätigt und behoben werden, stellen Sie sicher, dass weitere Benachrichtigungen gemäß einem festgelegten Eskalationspfad generiert werden.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -39,4 +39,4 @@ relatedActivities:
   - 93dff7be5f954f8d87d24f4261002508
   - 2bf0e192a904444b8a2f38c33256e80a
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
