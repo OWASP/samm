@@ -10,14 +10,14 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 0247b5b573b843609fdff791a1cc7c1b
 #One-sentence description of the criterium
-text: Do you regularly evaluate the effectiveness of your security metrics so that its input helps drive your security strategy?
+text: Bewerten Sie regelmäßig die Effektivität Ihrer Sicherheitsmetriken, so dass die Ergebnisse Ihre Sicherheitsstrategie unterstützen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You have analyzed the effectivenss of the security metrics at least once in the last year
-  - Where possible, you verify the correctness of the data automatically
-  - The metrics is aggregated with other sources like threat intelligence or incident management
+  - Sie haben die Effektivität der Sicherheitsmetriken mindestens einmal im letzten Jahr analysiert
+  - Soweit möglich, überprüfen Sie die Richtigkeit der Daten automatisch
+  - Die Metriken werden mit anderen Quellen wie Bedrohungsdaten oder Störungsmanagement zusammengeführt
   - You derived at least one strategic activity from the metrics in the last year
 #Type Classification of the Document
 type: Question
