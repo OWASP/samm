@@ -10,18 +10,18 @@ level: 812abdd0a2b54366a497919f8463911a
 #Please generate another identifier for your specific activity.
 id: d975bb1ce1dd4d61a6039b0a4a05926e
 #The title of this activity
-title: Perform security stress testing
+title: Durchführung von Sicherheitstests
 #Describe the benefit that is achieved by implementing this activity
-benefit: Transparency of resilience against denial of service attacks
+benefit: Transparenz der Widerstandsfähigkeit gegen Denial-of-Service-Angriffe
 #A one sentence description of the activity
-shortDescription: Denial of service and security stress testing
+shortDescription: Denial-of-Service- und Sicherheits-Stresstests
 #A multi-paragraph description of the activity
 longDescription: |
-  Applications are particularly susceptible to denial of service attacks. Perform denial of service and security stress testing against them in controlled conditiions, preferably on application acceptance environments.
+  Anwendungen sind besonders anfällig für Denial-of-Service-Angriffe. Führen Sie Denial-of-Service- und Sicherheitstests unter kontrollierten Bedingungen durch, vorzugsweise in Anwendungsakzeptanzumgebungen.
 
-  Load testing tools generate synthetic traffic, allowing you to test the application's performance under heavy load. One important test is how many requests per second an application can handle while remaining within its performance requirements. Testing from a single IP address is still useful as it gives an indication of how many requests an attacker must generate to impact the application.
+  Lasttest-Tools generieren synthetischen Datenverkehr, mit dem Sie die Leistung der Anwendung unter hoher Last testen können. Ein wichtiger Test ist die Frage, wie viele Anfragen pro Sekunde eine Anwendung bewältigen kann, ohne ihre Leistungsanforderungen zu verletzen. Das Testen von einer einzelnen IP-Adresse aus ist immer noch nützlich, da es einen Hinweis darauf gibt, wie viele Anfragen ein Angreifer generieren muss, um die Anwendung zu beeinträchtigen.
 
-  Denial of service attacks typically result in application resource starvation or exhaustion. To determine if any resources can be used to create a denial of service, analyze each application resource to see how it can be exhausted. Prioritise actions unauthenticated user can do. Complement overall denial of service tests with security stress tests to perform actions or create conditions which cause delays, disruptions, or failures of the application under test.
+  Denial-of-Service-Angriffe führen in der Regel dazu, dass die Ressourcen der Anwendung ausgehungert oder erschöpft sind. Um festzustellen, ob eine Ressource für einen Denial-of-Service-Angriff verwendet werden kann, analysieren Sie jede Anwendungsressource, um zu sehen, wie sie erschöpft werden kann. Priorisieren Sie Aktionen, die ein nicht authentifizierter Benutzer ausführen kann. Ergänzen Sie allgemeine Denial-of-Service-Tests mit Sicherheits-Stresstests, um Aktionen durchzuführen oder Bedingungen zu schaffen, die zu Verzögerungen, Unterbrechungen oder Ausfällen der zu testenden Anwendung führen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -32,8 +32,8 @@ costs:
 personnel:
 #Internal notes that might help the author
 notes: |
-  I removed references to specific tools and a detailed explanation of denial of service tests. These can all be added to the guidance notes.
+  Ich habe Verweise auf spezifische Tools und eine ausführliche Erläuterung von Denial-of-Service-Tests entfernt. All diese Punkte können in die Anleitungen aufgenommen werden.
 #References to other activities that are prerequesites to implement this one.
 dependencies:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
