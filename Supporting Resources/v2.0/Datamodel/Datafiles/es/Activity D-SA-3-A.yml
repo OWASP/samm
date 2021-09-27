@@ -10,18 +10,18 @@ level: 9d1e469966124c0fa80d1bc2fc223a0a
 #Please generate another identifier for your specific activity.
 id: aa962032982a4d53bd34cd8771558df1
 #The title of this activity
-title: Build reference architectures
+title: Crear arquitecturas de referencia
 #Describe the benefit that is achieved by implementing this activity
-benefit: Full transparency of quality and usability of centrally provided security solutions
+benefit: Transparencia total de la calidad y usabilidad de las soluciones de seguridad ofrecidas centralmente
 #A one sentence description of the activity
-shortDescription: Reference architectures are utilized and continuously evaluated for adoption and appropriateness.
+shortDescription: Las arquitecturas de referencia se utilizan y se evalúan continuamente para su adopción y apropiación.
 #A multi-paragraph description of the activity
 longDescription: |
-  Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organization and within the community. Have architects, senior developers and other technical stakeholders participate in design and creation of reference platforms. After creation, teams maintain ongoing support and updates.
+  Construya un conjunto de arquitecturas de referencia que seleccionen y combinen un conjunto verificado de componentes de seguridad para asegurar un diseño apropiado de seguridad. Las plataformas de referencia tienen ventajas en términos de acortar las revisiones de auditoría y seguridad, incrementando la eficiencia en el desarrollo, y reduciendo la carga general del mantenimiento. Continuamente mantener y mejorar la arquitectura de referencia basadas en nuevos puntos de vista en la organización y dentro de la comunidad. Tener arquitectos, desarrolladores de alto nivel y otros actores técnicos participan en el diseño y creación de plataformas de referencia. Después de la creación, Los equipos mantienen el soporte y las actualizaciones.
 
-  Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the lifecycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization.
+  Las arquitecturas de referencia puede materializarse dentro de un conjunto de librerías de software y herramientas sobre las que los equipos de proyecto construyen su software. Sirven como un punto de partida que estandariza el enfoque de seguridad por defecto y el manejo de la configuración. Puedes arrancar el framework seleccionando un proyecto en concreto temprano en el ciclo de vida y teniendo personal experto en seguridad trabajando con ellos para construir la funcionalidad de seguridad de una manera genérica para que pueda ser extraído desde el proyecto y utilizado en otras partes de la organización.
 
-  Monitor weaknesses or gaps in the set of security solutions available in your organization continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.
+  Controle continuamente las debilidades o lagunas en el conjunto de soluciones de seguridad disponibles en su organización en el contexto de las discusiones sobre arquitectura, desarrollo u operaciones. Esto sirve como un aporte para mejorar la idoneidad y efectividad de las arquitecturas de referencia que tiene en su lugar.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
