@@ -10,18 +10,18 @@ level: 354292b7198b48bb8c4909e0d7e29f68
 #Please generate another identifier for your specific activity.
 id: b7f1d18fbe724a148f039ce036de98ef
 #The title of this activity
-title: Formalize patch management
+title: Formalizar gestión de parches
 #Describe the benefit that is achieved by implementing this activity
-benefit: Consistent and proactive patching of technology stack components
+benefit: Parche coherente y proactivo de los componentes de la pila de tecnología
 #A one sentence description of the activity
-shortDescription: Perform regular patching of system and application components, across the full stack. Ensure timely delivery of patches to customers.
+shortDescription: Realizar parches regulares de componentes del sistema y de la aplicación, a través de la pila completa. Asegurar la entrega oportuna de parches a los clientes.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop and follow a well-defined process for managing patches to application components across the technology stacks in use. Ensure processes include regular schedules for applying vendor updates, aligned with vendor update calendars (e.g., Microsoft Patch Tuesday). For software developed by the organization, deliver releases to customers and organization-managed solutions on a regular basis (e.g., monthly), regardless of whether you are including new features.
+  Desarrolle y siga un proceso bien definido para administrar parches a los componentes de la aplicación en todas las pilas de tecnología en uso. Asegúrese de que los procesos incluyan programas regulares para aplicar las actualizaciones de los proveedores, alineados con los calendarios de actualizaciones de los proveedores (por ejemplo, Microsoft Patch Tuesday). Para el software desarrollado por la organización, entregue lanzamientos a los clientes y soluciones administradas por la organización de forma regular (por ejemplo, mensualmente), independientemente de si incluye nuevas funciones.
 
-  Create guidance for prioritizing component patching, reflecting your risk tolerance and management objectives. Consider operational factors (e.g., criticality of the application, severity of the vulnerabilities addressed) in determining priorities for testing and applying patches.
+  Cree una guía para priorizar el parcheo de componentes, que refleje su tolerancia al riesgo y sus objetivos de gestión. Considere los factores operativos (por ejemplo, la criticidad de la aplicación, la severidad de las vulnerabilidades abordadas) al determinar las prioridades para probar y aplicar parches.
 
-  In the event receive a notification for a critical vulnerability in a component, while no patch is yet available, triage and handle the situation as a risk management issue (e.g., implement compensating controls, obtain customer risk acceptance, or disable affected applications/features).
+  En el caso de recibir una notificación de una vulnerabilidad crítica en un componente, mientras que aún no hay un parche disponible, clasifique y maneje la situación como un problema de gestión de riesgos (por ejemplo, implemente controles de compensación, obtenga la aceptación del riesgo del cliente o deshabilite las aplicaciones/características).
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
