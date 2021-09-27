@@ -10,16 +10,16 @@ level: 67fcd33f84364ef68fb88aba77de1a63
 #Please generate another identifier for your specific activity.
 id: eba4b86963f44fa59b0b9389a1cfc59b
 #The title of this activity
-title: Verify the application architecture for security methodically
+title: Verificar metódicamente la arquitectura de la aplicación para garantizar la seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Consistent architecture review process across your organization
+benefit: Proceso de revisión de arquitectura consistente en toda su organización
 #A one sentence description of the activity
-shortDescription: Validate the architecture security mechanisms
+shortDescription: Validar los mecanismos de seguridad de la arquitectura
 #A multi-paragraph description of the activity
 longDescription: |
-  Verify that the solution architecture addresses all identified security and compliance requirements. For each interface in the application, iterate through the list of security and compliance requirements and analyze the architecture for their provision. Also perform an interaction or data flow analysis to ensure that the requirements are adequately addressed over different components. Elaborate the analysis to show the design-level features that address each requirement.
+  Verifique que la arquitectura de la solución aborde todos los requisitos de seguridad y cumplimiento identificados. Para cada interfaz de la aplicación, recorra la lista de requisitos de seguridad y cumplimiento y analice la arquitectura para su provisión. También realice una interacción o un análisis de flujo de datos para asegurarse de que los requisitos se abordan adecuadamente en los diferentes componentes. Elaborar el análisis para mostrar las características a nivel de diseño que abordan cada requisito.
 
-  Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface. Also identify and validate important design decisions made as part of the architecture, in particular when they deviate from the available shared security solutions in the organization. Finally, update the findings based on changes made during the development cycle, and note any requirements that are not clearly provided at the design level as assessment findings.
+  Realice este tipo de análisis en ambas interfaces internas, por ejemplo, entre niveles, así como los externos, por ejemplo, los que componen la superficie de ataque. También identifique y valide importantes decisiones de diseño tomadas como parte de la arquitectura, en particular cuando se desvían de las soluciones de seguridad compartida disponibles en la organización. Por último, actualice los resultados en función de los cambios realizados durante el ciclo de desarrollo y anote los requisitos que no se proporcionan claramente en el nivel de diseño como resultados de la evaluación.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
