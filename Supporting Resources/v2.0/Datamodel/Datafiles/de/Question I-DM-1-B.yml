@@ -10,13 +10,13 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 29df0959af8f403383c8ad01a0f3c478
 #One-sentence description of the criterium
-text: Do you use basic metrics about recorded security defects to carry out quick win improvement activities?
+text: Nutzen Sie grundlegende Metriken über erfasste Sicherheitsmängel, um Quick-Win-Verbesserungsmaßnahmen durchzuführen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You analyzed your recorded metrics at least once in the last year
-  - At least basic information about this initiative is recorded and available
-  - You have identified and carried out at least one quick win activity based on the data
+  - Sie haben Ihre aufgezeichneten Metriken mindestens einmal im letzten Jahr analysiert
+  - Zumindest grundlegende Informationen über diese Initiative werden aufgezeichnet und sind verfügbar
+  - Sie haben auf der Grundlage der Daten mindestens eine Quick-Win-Aktivität ermittelt und durchgeführt
 #Type Classification of the Document
-type: Question
+type: Frage
