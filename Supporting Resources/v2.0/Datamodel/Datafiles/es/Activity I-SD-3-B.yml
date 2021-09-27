@@ -10,16 +10,16 @@ level: fc5eb251c6ee4f3db04eb01b62d380ba
 #Please generate another identifier for your specific activity.
 id: fed0d75c064c4a979a5b7b98adfdedbf
 #The title of this activity
-title: Enforce lifecycle management of application secrets
+title: Hacer cumplir la gestión del ciclo de vida de los secretos de la aplicación
 #Describe the benefit that is achieved by implementing this activity
-benefit: Minimized possibility and timely detection of production secret abuse
+benefit: Posibilidad minimizada y detección oportuna de abuso de secretos de producción
 #A one sentence description of the activity
-shortDescription: Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use.
+shortDescription: Mejore el ciclo de vida de los secretos de las aplicaciones generándolos con regularidad y garantizando un uso adecuado.
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance. The use of secrets per application instance ensures that unexpected application behavior can be traced back and properly analyzed. Tools can help in automatically and seemlessly updating the secrets in all relevant places upon change.
+  Implemente la gestión del ciclo de vida de los secretos de producción y garantice la generación de nuevos secretos tanto como sea posible y para cada instancia de aplicación. El uso de secretos por instancia de aplicación garantiza que el comportamiento inesperado de la aplicación se pueda rastrear y analizar correctamente. Las herramientas pueden ayudar a actualizar de forma automática e impecable los secretos en todos los lugares relevantes en caso de cambio.
 
-  Ensure that all access to secrets (both reading and writing) is logged in a central infrastructure. Review these logs regularly to identify unexpected behavior and perform proper analysis to understand why this happened. Feed issues and root causes into the defect management practice to make sure that the organization will resolve any unacceptable situations.
+  Asegúrese de que todo el acceso a los secretos (tanto de lectura como de escritura) se registre en una infraestructura central. Revise estos registros con regularidad para identificar comportamientos inesperados y realice un análisis adecuado para comprender por qué sucedió esto. Alimente los problemas y las causas fundamentales en la práctica de gestión de defectos para asegurarse de que la organización resolverá cualquier situación inaceptable.
 #The output of this particular activity
 results:
   - result1
@@ -32,10 +32,10 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Administrator
-  - Security Engineer
+  - Administrador
+  - Ingeniero de Seguridad
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   -
