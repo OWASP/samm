@@ -10,16 +10,16 @@ level: 83ea8aaab3384b41b785107613ee4d86
 #Please generate another identifier for your specific activity.
 id: 9d0433c5133c4a4c9c16ae84abe9a235
 #The title of this activity
-title: Verify the effectiveness of security components
+title: Verificar la efectividad de los componentes de seguridad
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assurance of effectiveness of architecture controls
+benefit: Aseguramiento de la efectividad de los controles de arquitectura
 #A one sentence description of the activity
-shortDescription: Review of the architecture components' effectiveness
+shortDescription: Revisión de la efectividad de los componentes de la arquitectura
 #A multi-paragraph description of the activity
 longDescription: |
-  Review the effectiveness of the architecture components and their provided security mechanisms in terms of alignment with the overall strategy of the organization, and scrutinize the degree of availability, scalability and enterprise-readiness of the chosen security solutions. While tactical choices for a particular application can make sense in specific contexts, it is important to keep an eye on the bigger picture and ensure future readiness of the designed solution.
+  Revise la efectividad de los componentes de la arquitectura y sus mecanismos de seguridad proporcionados en términos de alineación con la estrategia general de la organización, y analice el grado de disponibilidad, escalabilidad y preparación empresarial de las soluciones de seguridad elegidas. Si bien las elecciones tácticas para una aplicación en particular pueden tener sentido en contextos específicos, es importante vigilar el panorama general y garantizar la preparación futura de la solución diseñada.
 
-  Feed any findings back into defect management to trigger further improvements to the architecture.
+  Retroalimente cualquier hallazgo en la gestión de defectos para desencadenar mejoras adicionales en la arquitectura.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
