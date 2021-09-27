@@ -15,21 +15,21 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, but we improve it ad-hoc
-    value: 0.25
+    text: Ja, aber wir verbessern es Ad-Hoc
+    value: 0
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, we we improve it at regular times
-    value: 0.5
+    text: Ja, wir verbessern es regelmäßig
+    value: 0
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, we improve it at least annually
+    text: Ja, wir verbessern sie mindestens einmal jährlich
     value: 1
     weight: 1
     order: 3
 #Type Classification of the Document
-type: AnswerSet
+type: Antwortmöglichkeiten
