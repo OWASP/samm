@@ -10,18 +10,18 @@ level: 812abdd0a2b54366a497919f8463911a
 #Please generate another identifier for your specific activity.
 id: 7003146cf1a1450293001754fe74787d
 #The title of this activity
-title: Automate security requirements testing
+title: Automatisieren Sie die Prüfung von Sicherheitsanforderungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Timely and reliable detection of violations to security requirements
+benefit: Rechtzeitige und zuverlässige Erkennung von Verstößen gegen Sicherheitsanforderungen
 #A one sentence description of the activity
-shortDescription: Perform regression testing (with security unit tests)
+shortDescription: Durchführung von Regressionstests (mit Sicherheitseinheitstests)
 #A multi-paragraph description of the activity
 longDescription: |
-  Write and automate regression tests for all identified (and fixed) bugs to ensure that these become a test harness preventing similar issues being introduced during later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
+  Schreiben und automatisieren Sie Regressionstests für alle identifizierten (und behobenen) Fehler, um sicherzustellen, dass diese zu einem Testsystem werden, das die Einführung ähnlicher Probleme in späteren Versionen verhindert. Sicherheits-Unit-Tests sollten dynamisch (d.h. zur Laufzeit) überprüfen, ob die Komponenten wie erwartet funktionieren und ob Codeänderungen ordnungsgemäß implementiert wurden.
 
-  A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as Identity, Authentication & Access Control, Input Validation & Encoding, User and Session Management, Error and Exception Handling, Encryption, and Auditing and Logging. Verify the correct execution of the security tests as early as possible. If feasible for example, consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base. Alternatively, consider their passing a requirement for validating a build.
+  Eine gute Praxis für Entwickler ist es, Sicherheitstestfälle als eine generische Sicherheitstestsuite zu erstellen, die Teil des bestehenden Unit-Test-Frameworks ist. Eine generische Sicherheitstestsuite könnte Sicherheitstestfälle enthalten, um sowohl positive als auch negative Anforderungen für Sicherheitskontrollen wie Identität, Authentifizierung und Zugriffskontrolle, Eingabevalidierung und Verschlüsselung, Benutzer- und Sitzungsmanagement, Fehler- und Ausnahmebehandlung, Verschlüsselung sowie Auditing und Protokollierung zu validieren. Überprüfen Sie die korrekte Ausführung der Sicherheitstests so früh wie möglich. Falls möglich, sollte das Bestehen der Sicherheitstests als Teil der Merge-Anforderungen betrachtet werden, bevor neuer Code in die Hauptcodebasis aufgenommen wird. Alternativ kann das Bestehen der Tests als Voraussetzung für die Validierung eines Builds betrachtet werden.
 
-  For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.
+  Für funktionale Sicherheitstests sollten Tests auf Einheitsebene für die Funktionalität von Sicherheitskontrollen auf der Ebene der Softwarekomponenten, wie Funktionen, Methoden oder Klassen, verwendet werden. Ein Testfall könnte zum Beispiel die Eingabe- und Ausgabevalidierung (z.B. die Reinigung von Variablen) und Grenzprüfungen für Variablen überprüfen, indem die erwartete Funktionalität der Komponente bestätigt wird.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 dependencies:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
