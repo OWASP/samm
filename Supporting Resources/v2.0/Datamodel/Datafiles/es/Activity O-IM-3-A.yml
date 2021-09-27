@@ -10,20 +10,20 @@ level: 6fe1973911bf4e54b018da10a5aa80a1
 #Please generate another identifier for your specific activity.
 id: 11dd0c95f8914b6cb850a27f0557a9dd
 #The title of this activity
-title: Improve the incident detection process
+title: Mejorar el proceso de detección de incidentes
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to timely detect security incidents
+benefit: Capacidad para detectar oportunamente incidentes de seguridad
 #A one sentence description of the activity
-shortDescription: Use a proactively managed process for detection of incidents.
+shortDescription: Utilice un proceso gestionado proactivamente para la detección de incidentes.
 #A multi-paragraph description of the activity
 longDescription: |
-  Ensure process documentation includes measures for continuous process improvement. Check the continuity of process improvement (e.g., via tracking of changes).
+  Asegúrese de que la documentación del proceso incluya medidas para la mejora continua del proceso. Verificar la continuidad de la mejora del proceso (por ejemplo, mediante el seguimiento de cambios).
 
-  Ensure the checklist for suspicious event detection is correlated at least from (i) sources and knowledge bases external to the company (e.g., new vulnerability announcements affecting the used technologies), (ii) past security incidents, and (iii) threat model outcomes.
+  Asegúrese de que la lista de verificación para la detección de eventos sospechosos esté correlacionada al menos con (i) fuentes y bases de conocimiento externas a la empresa (por ejemplo, anuncios de nuevas vulnerabilidades que afecten a las tecnologías utilizadas), (ii) incidentes de seguridad pasados y (iii) resultados del modelo de amenazas.
 
-  Use correlation of logs for incident detection for all reasonable incident scenarios. If the log data for incident detection is not available, document its absence as a defect, triage and handle it according to your established Defect Management process.
+  Utilice la correlación de registros para la detección de incidentes en todos los escenarios de incidentes razonables. Si los datos de registro para la detección de incidentes no están disponibles, documente su ausencia como un defecto, clasifíquelos y trátelos de acuerdo con su proceso establecido de Gestión de defectos.
 
-  The quality of the incident detection does not depend on the time or day of the event. If security events are not acknowledged and resolved within a specified time (e.g., 20 minutes), ensure further notifications are generated according to an established escalation path.
+  La calidad de la detección de incidentes no depende de la hora o el día del evento. Si los eventos de seguridad no se reconocen y resuelven dentro de un tiempo específico (por ejemplo, 20 minutos), asegúrese de que se generen más notificaciones de acuerdo con una ruta de escalamiento establecida.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
