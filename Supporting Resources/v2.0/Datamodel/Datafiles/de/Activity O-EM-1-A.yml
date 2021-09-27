@@ -10,18 +10,18 @@ level: 8cb942eff46d41f38e6edc11849744a6
 #Please generate another identifier for your specific activity.
 id: 786b3d7b39cd49a88090554a275f04a6
 #The title of this activity
-title: Use best-effort hardening
+title: Bestmögliche Härtung verwenden
 #Describe the benefit that is achieved by implementing this activity
-benefit: Hardened basic configuration settings of your components
+benefit: Gehärtete Grundeinstellungen für die Konfiguration Ihrer Komponenten
 #A one sentence description of the activity
-shortDescription: Perform best-effort hardening of configurations, based on readily available information.
+shortDescription: Härtung von Konfigurationen nach bestem Wissen und Gewissen, basierend auf leicht verfügbaren Informationen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Understanding the importance of securing the technology stacks you're using, apply secure configuration to stack elements, based on readily available guidance (e.g., open source projects, vendor documentation, blog articles). When your teams develop configuration guidance for their applications, based on trial-and-error and information gathered by team members, encourage them to share their learnings across the organization.
+  Sie wissen, wie wichtig es ist, die von Ihnen verwendeten Technologiestapel zu sichern, und wenden eine sichere Konfiguration auf die Stackelemente an, die auf leicht zugänglichen Anleitungen basiert (z. B. Open-Source-Projekte, Herstellerdokumentation, Blogartikel). Wenn Ihre Teams auf der Grundlage von Versuch und Irrtum und von den Teammitgliedern gesammelten Informationen Konfigurationsanleitungen für ihre Anwendungen entwickeln, ermutigen Sie sie, ihre Erkenntnisse im gesamten Unternehmen zu verbreiten.
 
-  Identify key elements of common technology stacks, and establish configuration standards for those, based on teams' experiences of what works.
+  Identifizieren Sie Schlüsselelemente gängiger Technologiestapel und legen Sie auf der Grundlage der Erfahrungen der Teams Konfigurationsstandards für diese Elemente fest.
 
-  At this level of maturity, you don't yet have a formal process for managing configuration baselines. Configurations may not be applied consistently across applications and deployments, and monitoring of conformance is likely absent.
+  In diesem Reifegrad verfügen Sie noch nicht über einen formalen Prozess zur Verwaltung von Konfigurations-Baselines. Die Konfigurationen werden möglicherweise nicht konsistent über alle Anwendungen und Implementierungen hinweg angewendet, und eine Überwachung der Konformität ist wahrscheinlich nicht vorhanden.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
