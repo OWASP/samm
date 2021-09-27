@@ -10,18 +10,18 @@ level: 38f3a2f7633c42b98eb160f36a2c0a7b
 #Please generate another identifier for your specific activity.
 id: ebd3782abc4343509981c52192904a42
 #The title of this activity
-title: Identify security champions
+title: Identifizierung von Security Champions
 #Describe the benefit that is achieved by implementing this activity
-benefit: Basic embedding of security in the development organization
+benefit: Grundlegende Verankerung der Sicherheit in der Entwicklungsorganisation
 #A one sentence description of the activity
-shortDescription: Identify a “Security Champion” within each development team.
+shortDescription: Bestimmen Sie in jedem Entwicklungsteam einen "Security Champion".
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement a program where each software development team has a member considered a “Security Champion” who is the liaison between Information Security and developers. Depending on the size and structure of the team the “Security Champion” may be a software developer, tester, or a product manager. The “Security Champion” has a set number of hours per week for Information Security related activities. They participate in periodic briefings to increase awareness and expertise in different security disciplines. “Security Champions” have additional training to help develop these roles as Software Security subject-matter experts. You may need to customize the way you create and support “Security Champions” for cultural reasons.
+  Einführung eines Programms, bei dem jedes Software-Entwicklungsteam ein Mitglied hat, das als "Security Champion" bezeichnet wird und als Verbindungsglied zwischen der Informationssicherheit und den Entwicklern fungiert. Je nach Größe und Struktur des Teams kann der "Security Champion" ein Softwareentwickler, Tester oder ein Produktmanager sein. Der "Security Champion" verfügt über eine bestimmte Anzahl von Stunden pro Woche für Aktivitäten im Bereich der Informationssicherheit. Sie nehmen an regelmäßigen Briefings teil, um ihr Bewusstsein und ihr Fachwissen in verschiedenen Sicherheitsdisziplinen zu erweitern. Die "Security Champions" werden zusätzlich geschult, um ihre Rolle als Fachexperten für Software-Sicherheit auszubauen. Möglicherweise müssen Sie die Art und Weise, wie Sie "Security Champions" einsetzen und unterstützen, aus kulturellen Gründen anpassen.
 
-  The goals of the position are to increase effectiveness and efficiency of application security and compliance and to strengthen the relationship between various teams and Information Security. To achieve these objectives, “Security Champions” assist with researching, verifying, and prioritizing security and compliance related software defects. They are involved in all Risk Assessments, Threat Assessments, and Architectural Reviews to help identify opportunities to remediate security defects by making the architecture of the application more resilient and reducing the attack threat surface.
+  Die Ziele der Position sind die Steigerung der Effektivität und Effizienz der Anwendungssicherheit und der Compliance sowie die Stärkung der Beziehungen zwischen verschiedenen Teams und der Informationssicherheit. Um diese Ziele zu erreichen, helfen "Security Champions" bei der Erforschung, Überprüfung und Priorisierung von sicherheits- und konformitätsbezogenen Softwaremängeln. Sie sind an allen Risikobewertungen, Bedrohungsbewertungen und Architekturprüfungen beteiligt, um Möglichkeiten zur Behebung von Sicherheitsmängeln zu ermitteln, indem sie die Architektur der Anwendung widerstandsfähiger machen und die Angriffsfläche verringern.
 
-  In addition to assisting Information Security, “Security Champions” provide periodic reviews of all security-related issues for the project team so everyone is aware of the problems and any current and future remediation efforts. These reviews are leveraged to help brainstorm solutions to more complex problems by engaging the entire development team.
+  Zusätzlich zur Unterstützung der Informationssicherheit führen die "Security Champions" regelmäßige Überprüfungen aller sicherheitsrelevanten Probleme für das Projektteam durch, so dass jeder über die Probleme und alle aktuellen und zukünftigen Abhilfemaßnahmen informiert ist. Diese Überprüfungen werden genutzt, um Lösungen für komplexere Probleme zu finden, indem das gesamte Entwicklungsteam einbezogen wird.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
