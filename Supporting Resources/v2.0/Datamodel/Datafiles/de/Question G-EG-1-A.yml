@@ -10,15 +10,15 @@ answerset: 8c89e8daf71d425abaca53edc01f6afa
 #Please generate another identifier for your specific maturity level.
 id: 3d801ea0b0ad4c44ba2b0408ebcc750b
 #One-sentence description of the criterium
-text: Do you require employees involved with application development to take SDLC training?
+text: Müssen Mitarbeiter, die an der Anwendungsentwicklung beteiligt sind, eine SDLC-Schulung absolvieren?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - Training is repeatable, consistent, and available to anyone involved with software development lifecycle
-  - Training includes the latest OWASP Top 10 if appropriate and includes concepts such as Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability
-  - Training requires a sign-off or an acknowledgement from attendees
-  - You have updated the training in the last 12 months
-  - Training is required during employees' onboarding process
+  - Die Schulung ist wiederholbar, konsistent und für jeden verfügbar, der am Lebenszyklus der Softwareentwicklung beteiligt ist
+  - Die Schulung umfasst gegebenenfalls die neuesten OWASP Top 10 und beinhaltet Konzepte wie Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design und Psychological Acceptability
+  - Die Schulung erfordert eine Unterschrift oder eine Bestätigung der Teilnehmer
+  - Sie haben die Schulung in den letzten 12 Monaten aktualisiert
+  - Die Schulung ist während des Einführungsprozesses der Mitarbeiter erforderlich
 #Type Classification of the Document
-type: Question
+type: Frage
