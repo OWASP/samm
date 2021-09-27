@@ -10,16 +10,16 @@ level: 1a55b2c4666f4336a3f5c12c5bb4a1e9
 #Please generate another identifier for your specific activity.
 id: 5d5e3d9beab9498ca1ce66d3a53a81c6
 #The title of this activity
-title: Discuss security responsabilities with suppliers
+title: Diskussion der Sicherheitsverantwortung mit Lieferanten
 #Describe the benefit that is achieved by implementing this activity
-benefit: Clearly defined security responsibilities of your software suppliers
+benefit: Klar definierte Sicherheitsverantwortlichkeiten Ihrer Software-Lieferanten
 #A one sentence description of the activity
-shortDescription: Build security into supplier agreements in order to ensure compliance with organizational requirements.
+shortDescription: Integration von Sicherheitsaspekten in Lieferantenvereinbarungen, um die Einhaltung der organisatorischen Anforderungen zu gewährleisten.
 #A multi-paragraph description of the activity
 longDescription: |
-  Increase your confidence in the capability of your suppliers for software security. Discuss concrete responsibilities and expectations from your suppliers and your own organization and establish a contract with the supplier. The responsibilities can be specific quality requirements or particular tasks, and minimal service can be detailed in a Service Level Agreement (SLA). A quality requirement example is that they will deliver software that is protected against the OWASP Top 10, and in case issues are detected, these will be fixed. A task example is that they have to perform continuous static code analysis, or perform an independent penetration test before a major release. The agreement stipulates liabilities and caps in case an important issue arises.
+  Steigern Sie Ihr Vertrauen in die Fähigkeit Ihrer Lieferanten zur Softwaresicherheit. Besprechen Sie konkrete Verantwortlichkeiten und Erwartungen an Ihre Lieferanten und Ihre eigene Organisation und schließen Sie einen Vertrag mit dem Lieferanten. Bei den Verantwortlichkeiten kann es sich um spezifische Qualitätsanforderungen oder bestimmte Aufgaben handeln, und die Minimalleistung kann in einem Service Level Agreement (SLA) festgelegt werden. Ein Beispiel für eine Qualitätsanforderung ist die Lieferung von Software, die gegen die OWASP Top 10 geschützt ist, und die Behebung von Problemen, falls diese entdeckt werden. Ein Beispiel für eine Aufgabe ist, dass das Unternehmen eine kontinuierliche statische Codeanalyse oder einen unabhängigen Penetrationstest vor einer größeren Veröffentlichung durchführen muss. In der Vereinbarung werden die Haftung und Obergrenzen für den Fall festgelegt, dass ein wichtiges Problem auftritt.
 
-  Once you have implemented this for a few suppliers, work towards a standard agreement for suppliers that forms the basis of your negotiations. You can deviate from this standard agreement on a case by case basis, but it will help you to ensure you do not overlook important topics.
+  Sobald Sie dies für einige Lieferanten umgesetzt haben, arbeiten Sie auf eine Standardvereinbarung für Lieferanten hin, die die Grundlage für Ihre Verhandlungen bildet. Sie können von Fall zu Fall von dieser Standardvereinbarung abweichen, aber sie hilft Ihnen sicherzustellen, dass Sie keine wichtigen Themen übersehen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
