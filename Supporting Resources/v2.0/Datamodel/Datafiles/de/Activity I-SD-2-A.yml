@@ -10,11 +10,11 @@ level: 3e89d1fa6cba4516a3ec446faaab5b84
 #Please generate another identifier for your specific activity.
 id: 1f3a9306778f4539a437d9f19232cda7
 #The title of this activity
-title: Automate deployment and integrate security checks
+title: Automatisierung der Bereitstellung und Integration von Sicherheitsprüfungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient deployment process with integrated security tools
+benefit: Effizienter Bereitstellungsprozess mit integrierten Sicherheitstools
 #A one sentence description of the activity
-shortDescription: Automate the deployment process over all stages and introduce sensible security verification tests.
+shortDescription: Automatisieren Sie den Bereitstellungsprozess über alle Stufen hinweg und führen Sie sinnvolle Sicherheitsprüfungen ein.
 #A multi-paragraph description of the activity
 longDescription: |
   Automate the deployment process to cover various stages, so that no manual configuration steps are needed and the risk of isolated human errors is eliminated. Ensure and verify that the deployment is consistent over all stages.
