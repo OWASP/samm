@@ -8,16 +8,16 @@ function: fa340fa1816244d79f369ae82e998368
 #Please generate another identifier for your specific practice.
 id: 53f2da68c37a4ced8d5e767298fba589
 #Official name of this practice
-name: Architecture Assessment
+name: Bewertung der Architektur
 #Abbreviation of this practice
 shortName: AA
 #A one sentence description of the security practice
-shortDescription: This practice focuses on validating the security and compliance of the software and supporting infrastructure architecture.
+shortDescription: Dieses Verfahren konzentriert sich auf die Validierung der Sicherheit und Konformität der Software und der unterstützenden Infrastrukturarchitektur.
 #A multi-paragraph description of the security practice
 longDescription: |
-  The Architecture Assessment (AA) practice ensures that the application and infrastructure architecture adequately meets all relevant security and compliance requirements, and sufficiently mitigates identified security threats. The first stream focuses on verifying that the security and compliance requirements identified in the Policy & Compliance and Security Requirements practices are met, first in an ad-hoc manner, then more systematically for each interface in the system. The second stream reviews the architecture, first for mitigations against typical threats, then against the specific threats identified in the Threat Assessment practice.
+  Die Architekturbewertung (Architecture Assessment, AA) stellt sicher, dass die Anwendungs- und Infrastrukturarchitektur alle relevanten Sicherheits- und Compliance-Anforderungen angemessen erfüllt und identifizierte Sicherheitsbedrohungen ausreichend entschärft. Die erste Phase konzentriert sich auf die Überprüfung, ob die Sicherheits- und Konformitätsanforderungen, die in den Praktiken "Policy & Compliance" und "Security Requirements" identifiziert wurden, erfüllt werden, zunächst ad hoc, dann systematischer für jede Schnittstelle im System. In der zweiten Phase wird die Architektur überprüft, zunächst im Hinblick auf die Abschwächung typischer Bedrohungen, dann im Hinblick auf die spezifischen Bedrohungen, die in der Praxis der Bedrohungsanalyse ermittelt wurden.
 
-  In its more advanced form, the practice formalizes the security architecture review process, continuously evaluates the effectiveness of the architecture's security controls, their scalability and strategic alignment. Identified weaknesses and possible improvements are fed back to the Security Architecture practice to improve reference architectures.
+  In seiner fortgeschrittenen Form formalisiert das Verfahren den Prozess der Überprüfung der Sicherheitsarchitektur und bewertet kontinuierlich die Wirksamkeit der Sicherheitskontrollen der Architektur, ihre Skalierbarkeit und strategische Ausrichtung. Erkannte Schwachstellen und mögliche Verbesserungen werden an die Sicherheitsarchitekturpraxis zurückgegeben, um die Referenzarchitekturen zu verbessern.
 #The relative order of this practice in the business function
 order: 1
 #Who's the "owner" of this practice
@@ -25,4 +25,4 @@ assignee: Nessim Kisserli
 #Indication of progress to keep track of overall status
 progress: 50
 #Type Classification of the Document
-type: Practice
+type: Praxis
