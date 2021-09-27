@@ -10,16 +10,16 @@ level: 9d1e469966124c0fa80d1bc2fc223a0a
 #Please generate another identifier for your specific activity.
 id: 3afce608ad7c42deb37a04d6b86e5c33
 #The title of this activity
-title: Enforce the use of recommended technologies
+title: Durchsetzung des Einsatzes der empfohlenen Technologien
 #Describe the benefit that is achieved by implementing this activity
-benefit: Limited attack surface due to usage of vetted technologies
+benefit: Begrenzte Angriffsfläche durch den Einsatz geprüfter Technologien
 #A one sentence description of the activity
-shortDescription: Impose the use of standard technologies on all software development.
+shortDescription: Verwendung von Standardtechnologien für die gesamte Softwareentwicklung vorschreiben.
 #A multi-paragraph description of the activity
 longDescription: |
-  For all proprietary development (in-house or acquired), impose and monitor the use of standardized technology. Depending on your organization, either implement these restrictions into build or deployment tools, by means of after-the-fact automated analysis of application artefacts (e.g., source code, configuration files or deployment artefacts), or periodically review focusing on the correct use of these frameworks.
+  Setzen Sie bei allen Eigenentwicklungen (intern oder erworben) die Verwendung standardisierter Technologien durch und überwachen Sie sie. Je nach Unternehmen sollten Sie diese Beschränkungen entweder in Build- oder Deployment-Tools implementieren, durch eine nachträgliche automatisierte Analyse von Anwendungsartefakten (z. B. Quellcode, Konfigurationsdateien oder Deployment-Artefakte) oder durch eine regelmäßige Überprüfung, die sich auf die korrekte Verwendung dieser Frameworks konzentriert.
 
-  Verify several factors with project teams. Identify use of non-recommended technologies to determine if there are gaps in recommendations versus the organization’s needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, implement functionality in the reference platforms as the organization evolves and project teams request it.
+  Überprüfen Sie mehrere Faktoren mit den Projektteams. Identifizieren Sie die Verwendung von nicht empfohlenen Technologien, um festzustellen, ob die Empfehlungen nicht mit den Anforderungen des Unternehmens übereinstimmen. Untersuchen Sie nicht genutzte oder falsch verwendete Entwurfsmuster und Module der Referenzplattformen, um festzustellen, ob Aktualisierungen erforderlich sind. Implementieren Sie außerdem Funktionen in die Referenzplattformen, wenn sich das Unternehmen weiterentwickelt und die Projektteams dies wünschen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
