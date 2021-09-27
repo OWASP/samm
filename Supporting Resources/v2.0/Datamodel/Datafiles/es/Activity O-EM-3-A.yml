@@ -10,22 +10,22 @@ level: 1cb6e197ca8245eca65b0ecbdd784720
 #Please generate another identifier for your specific activity.
 id: 3156ab7b516e4550893427face9f86bc
 #The title of this activity
-title: Perform continuous configuration monitoring
+title: Realizar monitoreo continuo de configuración
 #Describe the benefit that is achieved by implementing this activity
-benefit: Clear view on component configurations to avoid non-conformities
+benefit: Limpiar la vista en las configuraciones de componentes para evitar no conformidades
 #A one sentence description of the activity
-shortDescription: Actively monitor configurations for non-conformance to baselines, and handle detected occurrences as security defects.
+shortDescription: Monitorear activamente las configuraciones en busca de incumplimiento de las líneas de base y maneje las incidencias detectadas como defectos de seguridad.
 #A multi-paragraph description of the activity
 longDescription: |
-  Actively monitor the security configurations of deployed technology stacks, performing regular checks against established baselines. Ensure results of configuration checks are readily available, through published reports and dashboards.
+  Supervise activamente las configuraciones de seguridad de las pilas de tecnología implementadas, realizando comprobaciones periódicas con respecto a las líneas de base establecidas. Asegúrese de que los resultados de las comprobaciones de configuración estén disponibles a través de informes y paneles publicados.
 
-  When you detect non-conforming configurations, treat each occurrence as a security finding, and manage corrective actions within your established Defect Management practice.
+  Cuando detecte configuraciones no conformes, trate cada incidencia como un hallazgo de seguridad y gestione las acciones correctivas dentro de su práctica establecida de Gestión de defectos.
 
-  Further gains may be realized using automated measures, such as "self-healing" configurations and security information and event management (SIEM) alerts.
+  Se pueden obtener más ganancias utilizando medidas automatizadas, como configuraciones de "autorreparación" y alertas de gestión de eventos e información de seguridad (SIEM).
 
-  As part of the process for updating components (e.g., new releases, vendor patches), review corresponding baselines and configuration guides, updating them as needed to maintain their relevance and accuracy. Review other baselines and configuration guides at least annually.
+  Como parte del proceso de actualización de componentes (por ejemplo, nuevas versiones, parches de proveedores), revise las líneas de base y las guías de configuración correspondientes, actualizándolas según sea necesario para mantener su relevancia y precisión. Revise otras líneas base y guías de configuración al menos una vez al año.
 
-  Periodically review your baseline management process, incorporating feedback and lessons learned from teams applying and maintaining configuration baselines and configuration guides.
+  Revise periódicamente su proceso de gestión de línea de base, incorporando comentarios y lecciones aprendidas de los equipos que aplican y mantienen líneas de base de configuración y guías de configuración.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
