@@ -10,11 +10,11 @@ level: d6cefe3e63d149299fb088010c24778b
 #Please generate another identifier for your specific activity.
 id: 921ff24f0b9f4df9a5129aa2f8a4a570
 #The title of this activity
-title: Perform automated security testing
+title: Automatisierte Sicherheitstests durchführen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detection of common easy-to-find vulnerabilities
+benefit: Erkennung allgemeiner, leicht zu findender Sicherheitslücken
 #A one sentence description of the activity
-shortDescription: Utilize automated security testing tools
+shortDescription: Einsatz automatisierter Sicherheitstests
 #A multi-paragraph description of the activity
 longDescription: |
   Use automated static and dynamic security test tools for software, resulting in more efficient security testing and higher quality results. Progressively increase the frequency of security tests and extend code coverage.
