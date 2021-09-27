@@ -10,14 +10,14 @@ answerset: d096060a4d864133afcbdd1397b95827
 #Please generate another identifier for your specific maturity level.
 id: dffdd9659e6243d7bcbcbc0dff4429fc
 #One-sentence description of the criterium
-text: Do vendors meet the security responsibilities and quality measures of service level agreements defined by the organization?
+text: Erfüllen die Dienstleister die Sicherheitsverantwortung und die Qualitätsmaßnahmen der von der Organisation festgelegten Service Level Agreements?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You discuss security requirements with the vendor when creating vendor agreements
-  - Vendor agreements provide specific guidance on security defect remediation within an agreed upon timeframe
-  - The organization has a templated agreement of responsibilities and service levels for key vendor security processes
-  - You measure key performance indicators
+  - Sie besprechen die Sicherheitsanforderungen mit dem Dienstleister bei der Erstellung von Lieferantenvereinbarungen
+  - Die Vereinbarungen mit den Dienstleistern enthalten spezifische Leitlinien für die Behebung von Sicherheitsmängeln innerhalb eines vereinbarten Zeitrahmens
+  - Die Organisation verfügt über eine Mustervereinbarung über die Zuständigkeiten und Servicelevels für die wichtigsten Sicherheitsprozesse der Dienstleister
+  - Sie messen wichtige Kennzahlen-/  Leistungsindikatoren
 #Type Classification of the Document
-type: Question
+type: Frage
