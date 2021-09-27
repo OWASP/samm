@@ -10,36 +10,36 @@ level: b55c7a41eba747678a65651f5ccacaf2
 #Please generate another identifier for your specific activity.
 id: 2bf0e192a904444b8a2f38c33256e80a
 #The title of this activity
-title: Rate and track security defects
+title: Bewertung und Verfolgung von Sicherheitsmängeln
 #Describe the benefit that is achieved by implementing this activity
-benefit: Consistent classification of security defects with clear expectations of their handling
+benefit: Konsistente Klassifizierung von Sicherheitsmängeln mit klaren Erwartungen an deren Behandlung
 #A one sentence description of the activity
-shortDescription: Rate all security defects over the whole organization consistently and define SLAs for particular severity classes.
+shortDescription: Bewerten Sie alle Sicherheitsmängel in der gesamten Organisation einheitlich und definieren Sie SLAs für bestimmte Schweregrade.
 #A multi-paragraph description of the activity
 longDescription: |
-  Introduce and apply a well defined rating methodology for your security defects consistently across the whole organization, based on the probability and expected impact of the defect being exploited. This will allow you to identify applications which need higher attention and investments. In case you don't store the information about security defects centrally, ensure that you're still able to easily pull the information from all sources and get an overview about "hot spots" needing your attention.
+  Führen Sie eine klar definierte Bewertungsmethode für Ihre Sicherheitsmängel ein und wenden Sie diese einheitlich im gesamten Unternehmen an, basierend auf der Wahrscheinlichkeit und den erwarteten Auswirkungen der Ausnutzung des Mangels. Auf diese Weise können Sie Anwendungen ermitteln, die mehr Aufmerksamkeit und Investitionen benötigen. Falls Sie die Informationen über Sicherheitsmängel nicht zentral speichern, stellen Sie sicher, dass Sie dennoch in der Lage sind, die Informationen aus allen Quellen abzurufen und sich einen Überblick über "Hot Spots" zu verschaffen, die Ihrer Aufmerksamkeit bedürfen.
 
-  Introduce SLAs for timely fixing of security defects according to their criticality rating and centrally monitor and regularly report on SLA breaches. Define a process for cases where it's not feasible or economical to fix a defect within the time defined by the SLAs. This should at least ensure that all relevant stakeholders have a solid understanding of the imposed risk. If suitable, employ compensating controls for these cases.
+  Führen Sie SLAs für die rechtzeitige Behebung von Sicherheitsmängeln entsprechend ihrer Kritikalitätseinstufung ein und überwachen Sie die SLA-Verletzungen zentral und berichten Sie regelmäßig darüber. Definieren Sie einen Prozess für Fälle, in denen es nicht möglich oder wirtschaftlich ist, einen Fehler innerhalb der in den SLAs festgelegten Zeit zu beheben. Damit sollte zumindest sichergestellt werden, dass alle relevanten Beteiligten ein solides Verständnis des auferlegten Risikos haben. Wenn möglich, sollten Sie für diese Fälle kompensierende Kontrollen einsetzen.
 
-  Even if you don't have any formal SLAs for fixing low severity defects, ensure that responsible teams still get a regular overview about issues affecting their applications and understand how particular issues affect or amplify each other.
+  Auch wenn Sie keine formellen SLAs für die Behebung von Fehlern mit geringem Schweregrad haben, sollten Sie sicherstellen, dass die verantwortlichen Teams dennoch regelmäßig einen Überblick über die Probleme erhalten, die ihre Anwendungen betreffen, und verstehen, wie sich bestimmte Probleme gegenseitig beeinflussen oder verstärken.
 #The output of this particular activity
 results:
   - result1
-  - result2
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
+  - Metrik 1
   - metric2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Engineer
-  - Security Officer
+  - Sicherheitsingenieur
+  - Sicherheitsbeauftragter
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   -
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
