@@ -10,24 +10,24 @@ level: b29ab542cc674901a19cf5f3c0c4be18
 #Please generate another identifier for your specific activity.
 id: bed0489cae4e4401b1d44d56ad36c109
 #The title of this activity
-title: Identify application dependencies
+title: Identificar las dependencias de la aplicación
 #Describe the benefit that is achieved by implementing this activity
-benefit: Available information on known security issues in dependencies
+benefit: Información disponible sobre problemas de seguridad conocidos en dependencias
 #A one sentence description of the activity
-shortDescription: Create records with Bill of Materials of your applications and opportunistically analyze these.
+shortDescription: Cree registros con la Carta de Materiales de sus aplicaciones y analice de forma oportuna.
 #A multi-paragraph description of the activity
 longDescription: |
-  Keep a record of all dependencies used throughout the target production environment. This is sometimes referred to as a Bill of Materials (BOM). Consider that different components of the application may consume entirely different dependencies. For example, if the software package is a web application, cover both the server-side application code and client-side scripts. In building these records, consider the various locations where dependencies might be specified such as configuration files, the project's directory on disk, a package management tool or the actual code (e.g. via an IDE that supports listing dependencies).
+  Mantener un registro de todas las dependencias utilizadas en el entorno de producción objetivo. Esto a veces se denomina Lista de Materiales (BOM). Considere que diferentes componentes de la aplicación pueden consumir dependencias totalmente diferentes. Por ejemplo, si el paquete de software es una aplicación web, cubra tanto el código de la aplicación del lado del servidor como los scripts del lado del cliente. Al construir estos registros, considere las diferentes ubicaciones donde las dependencias pueden ser especificadas como archivos de configuración, el directorio del proyecto en el disco, una herramienta de gestión de paquetes o el código real (por ejemplo, través de un IDE que soporta dependencias de listados).
 
-  Gather the following information about each dependency&#58;
+  Recolectar la siguiente información sobre cada dependencia &#58;
 
-  * Where it is used or referenced
-  * Version used
-  * License
-  * Source information (link to repository, author's name, etc.)
-  * Support and maintenance status of the dependency
+  * Donde se utiliza o hace referencia
+  * Versión usada
+  * Licencia
+  * Información de origen (enlace al repositorio, nombre del autor, etc.)
+  * Soporte y estado de mantenimiento de la dependencia
 
-  Check the records to discover any dependencies with known vulnerabilities and update or replace them accordingly.
+  Compruebe los registros para descubrir cualquier dependencia con vulnerabilidades conocidas y actualice o reemplácelos en consecuencia.
 #The output of this particular activity
 results:
   - result1
@@ -40,10 +40,10 @@ metrics:
 costs: TBS.
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Engineer
-  - Developer
+  - Ingeniero de Seguridad
+  - Desarrollador
 #Internal notes that might help the author
-notes: None
+notes: Ninguno
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   -
