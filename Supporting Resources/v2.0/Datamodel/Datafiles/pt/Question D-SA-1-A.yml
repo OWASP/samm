@@ -10,13 +10,13 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: c4eb5618d1814173a995f8aea96f1c0b
 #One-sentence description of the criterium
-text: Do teams use security principles during design?
+text: Os times usam princípios de segurança durante o projeto?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - You have an agreed upon checklist of security principles
-  - You store your checklist in an accessible location
-  - Relevant stakeholders understand security principles
+  - Você tem uma lista de verificação aprovada dos princípios de segurança
+  - Você armazena sua lista de verificação em um local acessível
+  - As partes relevantes interessadas entendem os princípios de segurança
 #Type Classification of the Document
-type: Question
+type: Questão
