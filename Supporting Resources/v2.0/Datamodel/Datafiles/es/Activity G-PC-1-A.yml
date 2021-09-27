@@ -10,18 +10,18 @@ level: 437d447b3f11427592e938dbde53c7da
 #Please generate another identifier for your specific activity.
 id: 6e7a618abd564df5bb784ca54893bbee
 #The title of this activity
-title: Define policies and standards
+title: Defina políticas y estándares
 #Describe the benefit that is achieved by implementing this activity
-benefit: Clear expectation of minimum security level in the organization
+benefit: Expectativas claras del nivel mínimo de seguridad dentro de la organización
 #A one sentence description of the activity
-shortDescription: Determine a security baseline representing organization’s policies and standards.
+shortDescription: Determine una línea de base de seguridad que resuma las políticas y estándares de la organización.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop a library of policies and standards to govern all aspects of software development in the organization. Policies and standards are based on existing industry standards and appropriate for the organization’s industry. Due to the full range of technology-specific limitations and best practices, review proposed standards with the various product teams. With the overarching objective of increasing security of the applications and computing infrastructure, invite product teams to offer feedback on any aspects of the standards that would not be feasible or cost-effective to implement, as well as opportunities for standards to go further with little effort on the product teams.
+  Desarrolle una biblioteca de políticas y estándares para gobernar todos los aspectos del desarrollo de software en la organización. Las políticas y los estándares se basan en los estándares industriales existentes y son apropiados para la industria de la organización. Debido a la gama completa de limitaciones y mejores prácticas específicas de la tecnología, revise los estándares propuestos con los diversos equipos de producción. Con el objetivo general de aumentar la seguridad de las aplicaciones y la infraestructura informática, invite a los equipos de productos a ofrecer comentarios sobre cualquier aspecto de los estándares que no sería factible o rentable de implementar, así como oportunidades para que los estándares vayan más allá con poco esfuerzo en los equipos de producción.
 
-  For policies, emphasize high-level definitions and aspects of application security that do not depend on specific technology or hosting environment. Focus on broader objectives of the organization to protect the integrity of its computing environment, safety and privacy of the data, and maturity of the software development life-cycles. For larger organizations, policies may qualify specific requirements based on data classification or application functionality, but should not be detailed enough to offer technology-specific guidance.
+  Para las políticas, enfatice las definiciones de alto nivel y los aspectos de la seguridad de las aplicaciones que no dependen de una tecnología o un entorno de alojamiento específicos. Centrarse en objetivos más amplios de la organización para proteger la integridad de su entorno informático, la seguridad y privacidad de los datos y la madurez de los ciclos de vida del desarrollo de software. Para organizaciones más grandes, las políticas pueden calificar requisitos específicos según la clasificación de datos o la funcionalidad de la aplicación, pero no deben ser lo suficientemente detalladas como para ofrecer una guía específica de tecnología.
 
-  For standards, incorporate requirements set forth by policies, and focus on technology-specific implementation guidance intended to capture and take advantage of the security features of different programming languages and frameworks. Standards require input from senior developers and architects considered experts in various technologies in use by the organization. Create them in a format that allows for periodic updates. Label or tag individual requirements with the policy or a 3rd party requirement, to make maintenance and audits easier and more efficient.
+  Para los estándares, incorpore los requisitos establecidos por las políticas y céntrese en la guía de implementación específica de la tecnología destinada a capturar y aprovechar las características de seguridad de los diferentes lenguajes de programación y marcos. Los estándares requieren aportaciones de desarrolladores y arquitectos senior considerados expertos en diversas tecnologías en uso por la organización. Créelos en un formato que permita actualizaciones periódicas. Etiquete o etiquete los requisitos individuales con la política o con un requisito de un tercero, para que el mantenimiento y las auditorías sean más fáciles y eficientes.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
