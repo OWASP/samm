@@ -10,22 +10,22 @@ level: 817dd6acaf85496aa005393e0e6c3e70
 #Please generate another identifier for your specific activity.
 id: b8dfd23d66224ac88d3ce41cf83ed15e
 #The title of this activity
-title: Use best-effort incident detection
+title: Bestmögliche Erkennung von Vorfällen verwenden
 #Describe the benefit that is achieved by implementing this activity
-benefit: Ability to detect the most obvious security incidents
+benefit: Aufdeckung der offensichtlichsten Sicherheitsmängel
 #A one sentence description of the activity
-shortDescription: Use available log data to perform best-effort detection of possible security incidents.
+shortDescription: Verwendung der verfügbaren Log-Daten zur bestmöglichen Erkennung von möglichen Sicherheitsvorfällen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Analyze available log data (e.g., access logs, application logs, infrastructure logs), to detect possible security incidents in accordance with known log data retention periods.
+  Analysieren Sie die verfügbaren Logdaten (z. B. Zugriffsprotokolle, Anwendungsprotokolle, Infrastrukturprotokolle), um mögliche Sicherheitsvorfälle in Übereinstimmung mit den bekannten Aufbewahrungsfristen für Logdaten zu erkennen.
 
-  In small setups, you can do this manually with the help of common command-line tools. With larger log volumes, employ automation techniques. Even a `cron` job, running a simple script to look for suspicious events, is a step forward!
+  In kleinen Konfigurationen können Sie dies manuell mit Hilfe gängiger Befehlszeilentools durchführen. Bei größeren Protokollmengen sollten Sie Automatisierungstechniken einsetzen. Selbst ein "Cron"-Job, der ein einfaches Skript ausführt, um nach verdächtigen Ereignissen zu suchen, ist ein Schritt nach vorn!
 
-  If you send logs from different sources to a dedicated log aggregation system, analyze the logs there and employ basic log correlation principles.
+  Wenn Sie Protokolle aus verschiedenen Quellen an ein spezielles System zur Protokollaggregation senden, analysieren Sie die Protokolle dort und wenden Sie grundlegende Prinzipien der Protokollkorrelation an.
 
-  Even if you don't have a 24/7 incident detection process, ensure that unavailability of the responsible person (e.g., due to vacation or illness) doesn't significantly impact detection speed or quality.
+  Auch wenn Sie nicht rund um die Uhr über einen Prozess zur Erkennung von Vorfällen verfügen, sollten Sie sicherstellen, dass die Nichtverfügbarkeit der verantwortlichen Person (z. B. aufgrund von Urlaub oder Krankheit) die Geschwindigkeit oder Qualität der Erkennung nicht wesentlich beeinträchtigt.
 
-  Establish and share points of contact for formal creation of security incidents.
+  Legen Sie Kontaktstellen für die formale Erfassung von Sicherheitsvorfällen fest und teilen Sie diese.
 #The output of this particular activity
 results:
 #The different metrics used to measure the success of the activity
@@ -39,4 +39,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
