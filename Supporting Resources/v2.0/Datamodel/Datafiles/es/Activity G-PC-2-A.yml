@@ -10,18 +10,18 @@ level: 2a29c1f7d6954785b8d42d637a752f94
 #Please generate another identifier for your specific activity.
 id: 09f4b814a3444b329a7c9c7f54152ffe
 #The title of this activity
-title: Develop test procedures
+title: Desarrollar procedimientos de prueba
 #Describe the benefit that is achieved by implementing this activity
-benefit: Common understanding of how to reach compliance with security policies for product teams
+benefit: Comprensión común de cómo alcanzar el cumplimiento de las políticas de seguridad para los equipos de producción
 #A one sentence description of the activity
-shortDescription: Develop security requirements applicable to all applications.
+shortDescription: Desarrollar requisitos de seguridad aplicables a todas las aplicaciones.
 #A multi-paragraph description of the activity
 longDescription: |
-  To assist with the ongoing implementation and verification of compliance with policies and standards, develop application security and appropriate test scripts related to each applicable requirement. Organize these documents into libraries and make them available to all application teams in formats most conducive for inclusion into each application. Clearly label the documents and link them to the policies and standards they represent, to assist with the ongoing updates and maintenance. Version policies and standards and include detailed change logs with each iterative update to make ongoing inclusion into different products’ SDLC easier.
+  Para ayudar con la implementación continua y la verificación del cumplimiento de las políticas y estándares, desarrolle la seguridad de la aplicación y los scripts de prueba apropiados relacionados con cada requisito aplicable. Organice estos documentos en bibliotecas y póngalos a disposición de todos los equipos de aplicaciones en los formatos más propicios para su inclusión en cada aplicación. Etiquete claramente los documentos y vincúlelos a las políticas y estándares que representan, para ayudar con las actualizaciones y el mantenimiento continuos. Modifique las políticas y los estándares e incluya registros de cambios detallados con cada actualización iterativa para facilitar la inclusión continua en el SDLC de diferentes productos.
 
-  Write application security requirements in a format consistent with the existing requirements management processes. You may need more than one version catering to different development methodologies or technologies. The goal is to make it easy for various product teams to incorporate policies and standards into their existing development life-cycles needing minimal interpretation of requirements.
+  Escriba los requisitos de seguridad de las aplicaciones en un formato coherente con los procesos de gestión de requisitos existentes. Es posible que necesite más de una versión para diferentes metodologías o tecnologías de desarrollo. El objetivo es facilitar que varios equipos de productos incorporen políticas y estándares en sus ciclos de vida de desarrollo existentes que requieren una interpretación mínima de los requisitos.
 
-  Test scripts help reinforce application security requirements through clear expectations of application functionality, and guide automated or manual testing efforts that may already be part of the development process. These efforts not only help each team establish the current state of compliance with existing policies and standards, but also ensure compliance as applications continue to change.
+  Los scripts de prueba ayudan a reforzar los requisitos de seguridad de la aplicación a través de expectativas claras de la funcionalidad de la aplicación y guían los esfuerzos de prueba automatizados o manuales que ya pueden ser parte del proceso de desarrollo. Estos esfuerzos no solo ayudan a cada equipo a establecer el estado actual de cumplimiento de las políticas y estándares existentes, sino que también garantizan el cumplimiento a medida que las aplicaciones continúan cambiando.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
