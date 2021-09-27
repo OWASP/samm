@@ -10,18 +10,18 @@ level: 3d035b6df77f4ee69577c9b4c9d64891
 #Please generate another identifier for your specific activity.
 id: 91086153b98b46928e36dd031b27bdc2
 #The title of this activity
-title: Identify security requirements
+title: Identifizierung von Sicherheitsanforderungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Understanding of key security requirements during development
+benefit: Verständnis der wichtigsten Sicherheitsanforderungen während der Entwicklung
 #A one sentence description of the activity
-shortDescription: High-level application security objectives are mapped to functional requirements.
+shortDescription: Höchste Ziele der Anwendungssicherheit werden auf funktionale Anforderungen abgebildet.
 #A multi-paragraph description of the activity
 longDescription: |
-  Perform a review of the functional requirements of the software project. Identify relevant security requirements (i.e. expectations) for this functionality by reasoning on the desired confidentiality, integrity or availability of the service or data offered by the software project. Requirements state the objective (e.g., “personal data for the registration process should be transferred and stored securely”), but not the actual measure to achieve the objective (e.g., “use TLSv1.2 for secure transfer”).
+  Überprüfung der funktionalen Anforderungen des Softwareprojekts. Identifizieren Sie relevante Sicherheitsanforderungen (d.h. Erwartungen) für diese Funktionalität, indem Sie die gewünschte Vertraulichkeit, Integrität oder Verfügbarkeit des Dienstes oder der Daten, die das Softwareprojekt anbietet, begründen. Anforderungen geben das Ziel an (z.B. "personenbezogene Daten für den Registrierungsprozess sollen sicher übertragen und gespeichert werden"), aber nicht die tatsächliche Maßnahme zur Erreichung des Ziels (z.B. "Verwendung von TLSv1.2 zur sicheren Übertragung").
 
-  At the same time, review the functionality from an attacker perspective to understand how it could be misused. This way you can identify extra protective requirements for the software project at hand.
+  Gleichzeitig sollten Sie die Funktionalität aus der Perspektive eines Angreifers betrachten, um zu verstehen, wie sie missbraucht werden könnte. Auf diese Weise können Sie zusätzliche Schutzanforderungen für das betreffende Softwareprojekt ermitteln.
 
-  Security objectives can relate to specific security functionality you need to add to the application (e.g., “Identify the user of the application at all times”) or to the overall application quality and behavior (e.g., “Ensure personal data is properly protected in transit”), which does not necessarily lead to new functionality. Follow good practices for writing security requirements. Make them specific, measurable, actionable, relevant and time-bound (SMART). Beware of adding requirements too general-purpose to not relate to the application at hand (e.g., The application should protect against the OWASP Top 10). While they can be true, they don’t add value to the discussion.
+  Sicherheitsziele können sich auf spezifische Sicherheitsfunktionen beziehen, die Sie der Anwendung hinzufügen müssen (z. B. "Identifizieren Sie den Benutzer der Anwendung jederzeit"), oder auf die Gesamtqualität und das Verhalten der Anwendung (z. B. "Stellen Sie sicher, dass personenbezogene Daten bei der Übertragung ordnungsgemäß geschützt sind"), was nicht unbedingt zu neuen Funktionen führt. Befolgen Sie gute Praktiken für die Formulierung von Sicherheitsanforderungen. Machen Sie sie spezifisch, messbar, umsetzbar, relevant und zeitlich begrenzt (SMART). Hüten Sie sich davor, Anforderungen hinzuzufügen, die zu allgemein gehalten sind und sich nicht auf die jeweilige Anwendung beziehen (z. B. "Die Anwendung sollte gegen die OWASP Top 10 schützen"). Sie können zwar richtig sein, bringen aber keinen Mehrwert für die Diskussion.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
