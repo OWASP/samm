@@ -15,19 +15,19 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, for some incident types
+    text: Sim, para alguns tipos de incidente
     value: 0.25
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, for at least half of the incident types
+    text: Sim, para pelo menos metade dos tipos de incidente
     value: 0.5
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, for most or all of the incident types
+    text: Sim, para a maioria ou para todos os tipos de incidente
     value: 1
     weight: 1
     order: 3
