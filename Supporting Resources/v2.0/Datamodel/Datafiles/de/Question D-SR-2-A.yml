@@ -10,14 +10,14 @@ answerset: d096060a4d864133afcbdd1397b95827
 #Please generate another identifier for your specific maturity level.
 id: 2d458a65858c48af94f25f9858bd8ed7
 #One-sentence description of the criterium
-text: Do you define, structure, and include prioritization in the artifacts of the security requirements gathering process?
+text: Definieren und strukturieren Sie Prioritäten in den Artefakten des Prozesses zur Erfassung der Sicherheitsanforderungen und berücksichtigen Sie diese?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development
-  - Domain experts are involved in the requirements definition process
-  - You have an agreed upon structured notation for security requirements
-  - Development teams have a security champion dedicated to reviewing security requirements and outcomes
+  - Sicherheitsanforderungen berücksichtigen bereichsspezifisches Wissen bei der Anwendung von Richtlinien und Leitlinien für die Produktentwicklung
+  - Fachexperten werden in den Prozess der Anforderungsdefinition einbezogen
+  - Sie haben sich auf eine strukturierte Form der Sicherheitsanforderungen geeinigt
+  - Entwicklungsteams verfügen über einen Security Champion, der sich mit der Überprüfung von Sicherheitsanforderungen und -ergebnissen befasst
 #Type Classification of the Document
-type: Question
+type: Frage
