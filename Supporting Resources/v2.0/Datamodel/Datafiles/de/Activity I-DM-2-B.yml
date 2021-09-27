@@ -10,44 +10,44 @@ level: b55c7a41eba747678a65651f5ccacaf2
 #Please generate another identifier for your specific activity.
 id: 15d73a64818c43019504c8d938ca2434
 #The title of this activity
-title: Define advanced defect metrics
+title: Erweiterte Fehler-Metriken definieren
 #Describe the benefit that is achieved by implementing this activity
-benefit: Improved learning from security defects in your organization
+benefit: Verbessertes Lernen aus Sicherheitsmängeln in Ihrer Organisation
 #A one sentence description of the activity
-shortDescription: Collect standardized defect management metrics and use these also for prioritization of centrally driven initiatives.
+shortDescription: Sammeln Sie standardisierte Fehlermanagement-Metriken und verwenden Sie diese auch für die Priorisierung zentraler Initiativen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Define, collect and calculate unified metrics across the whole organization. These might include:
+  Definieren, sammeln und berechnen Sie einheitliche Metriken für das gesamte Unternehmen. Dazu könnten gehören:
 
-  * Total amount of verification activites and identified defects.
-  * Types and severities of identified defects.
-  * Time to detect and time to resolve defects.
-  * Windows of exposure of defects being present on live systems.
-  * Number of regressions / reopened vulnerabilities.
-  * Coverage of verification activities for particular software components.
-  * Amount of accepted risk.
-  * Ratio of security incidents caused due to unknown or undocumented security defects.
+  * Gesamtzahl der Prüfaktivitäten und der festgestellten Mängel.
+  * Art und Schweregrad der festgestellten Mängel.
+  * Zeit bis zur Entdeckung und Behebung von Fehlern.
+  * Zeiträume, in denen Defekte auf Live-Systemen vorhanden sind.
+  * Anzahl der Regressionen / wieder geöffneten Schwachstellen.
+  * Abdeckungsgrad der Verifikationsaktivitäten für bestimmte Softwarekomponenten.
+  * Höhe des akzeptierten Risikos.
+  * Anteil der Sicherheitsvorfälle, die auf unbekannte oder undokumentierte Sicherheitsmängel zurückzuführen sind.
 
-  Generate a regular (e.g. monthly) report for a suitable audience. This would typically reach audience like managers and security officer and engineers. Use the information in the report as an input for your security strategy, e.g. improving trainings or security verification activities.
+  Erstellung eines regelmäßigen (z. B. monatlichen) Berichts für ein geeignetes Publikum. Dieser Bericht richtet sich in der Regel an Manager, Sicherheitsbeauftragte und Ingenieure. Nutzen Sie die Informationen aus dem Bericht als Input für Ihre Sicherheitsstrategie, z. B. zur Verbesserung von Schulungen oder Sicherheitsüberprüfungen.
 
-  Share the most prominent or interesting technical details about security defects including the fixing strategy to other teams once these defects are fixed, e.g. in a regular knowledge sharing meeting. This will help scale the learning effect from defects to the whole organization and limit their occurence in the future.
+  Geben Sie die auffälligsten oder interessantesten technischen Details über Sicherheitsmängel einschließlich der Behebungsstrategie an andere Teams weiter, sobald diese Mängel behoben sind, z. B. in einem regelmäßigen Treffen zum Wissensaustausch. Auf diese Weise kann der Lerneffekt von Mängeln auf das gesamte Unternehmen ausgeweitet und ihr Auftreten in der Zukunft eingeschränkt werden.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Officer
+  - Sicherheitsbeauftragter
   - Security Champion
   - Manager
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 2bf0e192a904444b8a2f38c33256e80a
