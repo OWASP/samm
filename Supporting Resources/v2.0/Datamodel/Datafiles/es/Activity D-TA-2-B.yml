@@ -10,20 +10,20 @@ level: e5b6dc4f907c4986b8ba7923303cd665
 #Please generate another identifier for your specific activity.
 id: 649b693315234a94928e42f3e308deac
 #The title of this activity
-title: Standardize and scale threat modeling
+title: Estandarizar y escalar el modelado de amenazas
 #Describe the benefit that is achieved by implementing this activity
-benefit: Clear expectations of the quality of threat modeling activities
+benefit: Expectativas claras de la calidad de las actividades de modelado de amenazas
 #A one sentence description of the activity
-shortDescription: Standardize threat modeling training, processes, and tools to scale across the organization.
+shortDescription: Estandarice la capacitación, los procesos y las herramientas de modelado de amenazas para escalar en toda la organización.
 #A multi-paragraph description of the activity
 longDescription: |
-  Use a standardized threat modeling methodology for your organization and align this on your application risk levels. Think about ways to support the scaling of threat modeling throughout the organization.
+  Utilice una metodología de modelado de amenazas estandarizada para su organización y alinee esto con los niveles de riesgo de su aplicación. Piense en formas de respaldar el escalado del modelado de amenazas en toda la organización.
 
-  Train your architects, security champions, and other stakeholders on how to do practical threat modeling.  Threat modeling requires understanding, clear playbooks and templates, organization-specific examples, and experience, which is hard to automate.
+  Capacite a sus arquitectos, campeones de seguridad y otras partes interesadas sobre cómo realizar modelos prácticos de amenazas. El modelado de amenazas requiere comprensión, guías y plantillas claras, ejemplos específicos de la organización y experiencia, que es difícil de automatizar.
 
-  Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts. Your threat model diagram allows a detailed understanding of the environment and the mechanics of the application. You discover threats to your application with checklists, such as STRIDE or more organization-specific threats. For identified design flaws (ranked according to risk for your organization), you add mitigating controls to support stakeholders in dealing with particular threats. Define what triggers updating a threat model, for example, a technology change or deployment of an application in a new environment.
+  Su metodología de modelado de amenazas incluye al menos diagramas, identificación de amenazas, mitigación de fallas de diseño y cómo validar los artefactos de su modelo de amenazas. Su diagrama de modelo de amenazas permite una comprensión detallada del entorno y la mecánica de la aplicación. Descubre amenazas a su aplicación con listas de verificación, como STRIDE o amenazas más específicas de la organización. Para las fallas de diseño identificadas (clasificadas según el riesgo para su organización), agrega controles de mitigación para ayudar a las partes interesadas a enfrentar amenazas particulares. Defina qué desencadena la actualización de un modelo de amenaza, por ejemplo, un cambio de tecnología o la implementación de una aplicación en un nuevo entorno.
 
-  Feed the output of threat modeling to the defect management process for adequate follow-up. Capture the threat modeling artifacts with tools that are used by your application teams.
+  Alimente el resultado del modelado de amenazas al proceso de gestión de defectos para un seguimiento adecuado. Capture los artefactos de modelado de amenazas con herramientas que utilizan sus equipos de aplicaciones.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
