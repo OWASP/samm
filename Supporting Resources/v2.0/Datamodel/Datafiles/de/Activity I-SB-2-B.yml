@@ -10,45 +10,45 @@ level: 46f16450b23d4c29a5cf19b056c2636e
 #Please generate another identifier for your specific activity.
 id: 857a43e335ba467598eca99d48ea0076
 #The title of this activity
-title: Review application dependencies for security
+title: Überprüfung der Anwendungsabhängigkeiten auf Sicherheit
 #Describe the benefit that is achieved by implementing this activity
-benefit: Full transparency of known security issues in dependencies
+benefit: Vollständige Transparenz bei bekannten Sicherheitsproblemen in Abhängigkeiten
 #A one sentence description of the activity
-shortDescription: Evaluate used dependencies and ensure timely reaction to situations posing risk to your applications.
+shortDescription: Bewerten Sie die verwendeten Abhängigkeiten und reagieren Sie rechtzeitig auf Situationen, die ein Risiko für Ihre Anwendungen darstellen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Evaluate used dependencies and establish a list of acceptable ones approved for use within a project, team, or the wider organization according to a defined set of criteria.
+  Bewertung der verwendeten Abhängigkeiten und Erstellung einer Liste akzeptabler Abhängigkeiten, die für die Verwendung innerhalb eines Projekts, eines Teams oder der gesamten Organisation nach bestimmten Kriterien zugelassen sind.
 
-  Introduce a central repository of dependencies that all software can be built from.
+  Führen Sie ein zentrales Repository für Abhängigkeiten ein, aus dem die gesamte Software erstellt werden kann.
 
-  Review used dependencies regularly to ensure that&#58;
+  Regelmäßige Überprüfung der verwendeten Abhängigkeiten, um sicherzustellen, dass &#58;
 
-  * they remain correctly licensed
-  * no known and significant vulnerabilities impacting your applications are present
-  * the dependency is still actively supported and maintained
-  * you are using a current version
-  * there is a valid reason to include the dependency
+  * sie weiterhin korrekt lizenziert sind
+  * keine bekannten und signifikanten Schwachstellen vorhanden sind, die Ihre Anwendungen beeinträchtigen
+  * die Abhängigkeit noch aktiv unterstützt und gewartet wird
+  * Sie eine aktuelle Version verwenden
+  * es einen triftigen Grund gibt, die Abhängigkeit einzubeziehen
 
-  React timely and appropriately to non-conformities by handling these as defects. Consider using an automated tool to scan for vulnerable dependencies and assign the identified issues to the respective development teams.
+  Reagieren Sie rechtzeitig und angemessen auf Nichtkonformitäten, indem Sie diese als Fehler behandeln. Ziehen Sie den Einsatz eines automatisierten Tools in Betracht, um nach anfälligen Abhängigkeiten zu suchen und die ermittelten Probleme den jeweiligen Entwicklungsteams zuzuweisen.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Architect
-  - Developer
-  - Security Engineer
+  - Architekt
+  - Entwickler
+  - Sicherheitsingenieur
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   - 93dff7be5f954f8d87d24f4261002508
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
