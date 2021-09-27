@@ -10,39 +10,39 @@ level: 46f16450b23d4c29a5cf19b056c2636e
 #Please generate another identifier for your specific activity.
 id: bcc960e835aa4ad58a9d39a272cbf6f1
 #The title of this activity
-title: Automate the build process
+title: Automatisieren Sie den Build-Prozess
 #Describe the benefit that is achieved by implementing this activity
-benefit: Efficient build process with integrated security tools
+benefit: Effizienter Build-Prozess mit integrierten Sicherheitstools
 #A one sentence description of the activity
-shortDescription: Automate your build pipeline and secure the used tooling. Add security checks in the build pipeline.
+shortDescription: Automatisieren Sie Ihre Build-Pipeline und sichern Sie das verwendete Tooling. Fügen Sie Sicherheitsprüfungen in die Build-Pipeline ein.
 #A multi-paragraph description of the activity
 longDescription: |
-  Automate the build process so that builds can be executed consistently anytime. The build process shouldn't typically require any intervention, further reducing the likelihood of human error.
+  Automatisieren Sie den Build-Prozess, damit Builds jederzeit konsistent ausgeführt werden können. Der Build-Prozess sollte normalerweise keine Eingriffe erfordern, was die Wahrscheinlichkeit menschlicher Fehler weiter verringert.
 
-  The use of an automated system increases reliance on security of the build tooling and makes hardening and maintaining the toolset even more critical. Pay particular attention to the interfaces of those tools, such as web-based portals and how they can be locked-down. The exposure of a build tool to the network could allow a malicious actor to tamper with the integrity of the process. This might, for example, allow malicious code to be built into software.
+  Die Verwendung eines automatisierten Systems erhöht das Vertrauen in die Sicherheit der Build-Tools und macht die Härtung und Wartung des Toolsets noch wichtiger. Achten Sie besonders auf die Schnittstellen dieser Tools, wie z. B. webbasierte Portale, und darauf, wie sie abgesichert werden können. Die Öffnung eines Build-Tools für das Netzwerk könnte es einem böswilligen Akteur ermöglichen, die Integrität des Prozesses zu manipulieren. So könnte beispielsweise bösartiger Code in die Software eingebaut werden.
 
-  The automated process may require access to credentials and secrets required to build the software, such as the code signing certificate or access to repositories. Handle these with care. Sign generated artifacts using a certificate that identifies the organization or business unit that built it, so you can verify its integrity.
+  Der automatisierte Prozess erfordert möglicherweise den Zugriff auf Anmeldeinformationen und Geheimnisse, die für die Erstellung der Software erforderlich sind, wie z. B. das Code-Signierungszertifikat oder den Zugriff auf Repositories. Behandeln Sie diese mit Vorsicht. Signieren Sie die generierten Artefakte mit einem Zertifikat, das die Organisation oder Geschäftseinheit identifiziert, die sie erstellt hat, damit Sie ihre Integrität überprüfen können.
 
-  Finally, add appropriate automated security checks (e.g. using SAST tools) in the pipeline to leverage the automation for security benefit.
+  Fügen Sie schließlich geeignete automatisierte Sicherheitsprüfungen (z. B. mithilfe von SAST-Tools) in die Pipeline ein, um die Automatisierung zum Nutzen der Sicherheit einzusetzen.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Developer
-  - Security Engineer
+  - Entwickler
+  - Sicherheitsingenieur
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 4f6a06796d0840debcc775ea1af65679
   - 77a5f467ffe140e2a2839bb522e82c4e
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
