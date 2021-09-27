@@ -10,18 +10,18 @@ level: 9d1e469966124c0fa80d1bc2fc223a0a
 #Please generate another identifier for your specific activity.
 id: aa962032982a4d53bd34cd8771558df1
 #The title of this activity
-title: Build reference architectures
+title: Aufbau von Referenzarchitekturen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Full transparency of quality and usability of centrally provided security solutions
+benefit: Vollständige Transparenz der Qualität und Benutzerfreundlichkeit von zentral bereitgestellten Sicherheitslösungen
 #A one sentence description of the activity
-shortDescription: Reference architectures are utilized and continuously evaluated for adoption and appropriateness.
+shortDescription: Es werden Referenzarchitekturen verwendet und laufend auf ihre Anwendbarkeit und Angemessenheit geprüft.
 #A multi-paragraph description of the activity
 longDescription: |
-  Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organization and within the community. Have architects, senior developers and other technical stakeholders participate in design and creation of reference platforms. After creation, teams maintain ongoing support and updates.
+  Aufbau einer Reihe von Referenzarchitekturen, die eine geprüfte Reihe von Sicherheitskomponenten auswählen und kombinieren, um einen angemessenen Entwurf der Sicherheit zu gewährleisten. Referenzplattformen haben den Vorteil, dass sie Audits und sicherheitsbezogene Überprüfungen verkürzen, die Effizienz der Entwicklung steigern und den Wartungsaufwand verringern. Kontinuierliche Pflege und Verbesserung der Referenzarchitektur auf der Grundlage neuer Erkenntnisse im Unternehmen und in der Gemeinschaft. Beteiligung von Architekten, erfahrenden (Senior) Entwicklern und anderen technischen Interessengruppen an der Konzeption und Erstellung von Referenzplattformen. Nach der Erstellung kümmern sich die Teams um die laufende Unterstützung und Aktualisierung.
 
-  Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the lifecycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization.
+  Referenzarchitekturen können zu einer Reihe von Softwarebibliotheken und -tools werden, auf denen die Projektteams ihre Software aufbauen. Sie dienen als Ausgangspunkt für die Standardisierung des konfigurationsgesteuerten, standardmäßigen Sicherheitsansatzes. Sie können das Framework aufbauen, indem Sie ein bestimmtes Projekt zu einem frühen Zeitpunkt im Lebenszyklus auswählen und sicherheitsbewusste Mitarbeiter mit ihm zusammenarbeiten lassen, um die Sicherheitsfunktionalität auf generische Weise zu entwickeln, so dass sie aus dem Projekt extrahiert und an anderer Stelle in der Organisation verwendet werden kann.
 
-  Monitor weaknesses or gaps in the set of security solutions available in your organization continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.
+  Überwachen Sie Schwachstellen oder Lücken in den in Ihrer Organisation verfügbaren Sicherheitslösungen kontinuierlich im Rahmen von Diskussionen über Architektur, Entwicklung oder Betrieb. Dies dient als Anregung zur Verbesserung der Angemessenheit und Effektivität der von Ihnen eingesetzten Referenzarchitekturen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
