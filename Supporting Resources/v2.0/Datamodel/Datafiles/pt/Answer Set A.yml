@@ -15,19 +15,19 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, for some applications
+    text: Sim, para algumas aplicações
     value: 0.25
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, for at least half of the applications
+    text: Sim, para pelo menos metade das aplicações
     value: 0.5
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, for most or all of the applications
+    text: Sim, para a maioria ou para todas as aplicações
     value: 1
     weight: 1
     order: 3
