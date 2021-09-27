@@ -15,8 +15,8 @@ text: Do you base your design on available reference architectures?
 order: 1
 #Qualifying Criterion
 quality:
-  - You have one or more approved reference architectures documented and available to stakeholders
-  - You improve the reference architectures continuously based on insights and best practices
+  - Sie verfügen über eine oder mehrere genehmigte Referenzarchitekturen, die dokumentiert sind und den Beteiligten zur Verfügung stehen.
+  - Sie verbessern die Referenzarchitekturen kontinuierlich auf der Grundlage von Erkenntnissen und bewährten Verfahren
   - You provide a set of components, libraries, and tools to implement each reference architecture
 #Type Classification of the Document
-type: Question
+type: Frage
