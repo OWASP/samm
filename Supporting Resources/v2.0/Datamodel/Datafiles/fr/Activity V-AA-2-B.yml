@@ -10,11 +10,11 @@ level: 67fcd33f84364ef68fb88aba77de1a63
 #Please generate another identifier for your specific activity.
 id: 62237ae79ab84a6687de2885b1e3d608
 #The title of this activity
-title: Structurally verify the architecture for identified threats
+title: Vérifier structurellement l'architecture des menaces identifiées
 #Describe the benefit that is achieved by implementing this activity
-benefit: All identified threats to the application are adequately handled.
+benefit: Toutes les menaces identifiées pour l'application sont traitées de manière adéquate.
 #A one sentence description of the activity
-shortDescription: Analyze the architecture for known threats.
+shortDescription: Analyser l'architecture des menaces connues.
 #A multi-paragraph description of the activity
 longDescription: |
   Systematically review each threat identified during the Threat Assessment activities and examine how the architecture mitigates them. Use a standardised process for analyzing system architectures and the flow of data within them. This is typically linked to the threat model used (e.g. STRIDE) in order to identify the relevant security objectives which address each type of threat. For each threat, identify the design-level features of the architecture which counter it and assess their effectiveness in doing so.
