@@ -10,11 +10,11 @@ level: 41c8e63716c34f1eaf09b8cad70cfbaf
 #Please generate another identifier for your specific activity.
 id: 9b6a86278ba14a9098d3d60a9a78d6c5
 #The title of this activity
-title: Provide preferred security solutions
+title: Fournir une liste des solutions de sécurité sélectionnées
 #Describe the benefit that is achieved by implementing this activity
-benefit: Reusable security services available for product teams
+benefit: Mutualiser des services de sécurité avec les équipes produit
 #A one sentence description of the activity
-shortDescription: Establish common design patterns and security solutions for adoption.
+shortDescription: Etablir des modèles de conception et des solutions de sécurité communs.
 #A multi-paragraph description of the activity
 longDescription: |
   Identify shared infrastructure or services with security functionality. These typically include single-sign-on services, access control or entitlements services, logging and monitoring services or application-level firewalling. Collect and evaluate reusable systems to assemble a list of such resources and categorize them by the security mechanism they fulfill. Consider each resource in terms of why a product team would want to integrate with it, i.e. the benefits of using the shared resource.
@@ -39,4 +39,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Activité
