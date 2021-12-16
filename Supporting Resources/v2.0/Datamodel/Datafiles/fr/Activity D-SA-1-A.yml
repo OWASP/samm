@@ -3,25 +3,25 @@
 #OWASP SAMM Activity Description
 #===========================================================
 #Link to the stream that this activity belongs to
-stream: "-> flux\n================================================== =========\nDescription de l'activité OWASP SAMM\n================================================== =========\nLien vers le flux auquel appartient cette activité"
+stream: 253b012094cf4e0988e08fd22609227d
 #Link to the practice level that this activity belongs to
-level: "-> niveau\nLien vers le niveau de la pratique auquel appartient cette activité"
+level: a11b78917dec4cfdad983cf6d1d17b61
 #Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
 id: 27bb61f3c6344359b021caeaef5ab07e
 #The title of this activity
-title: Adhere to basic security principles
+title: Adhérer aux principes de base de la sécurité
 #Describe the benefit that is achieved by implementing this activity
-benefit: Sets of security basic principles available to product teams
+benefit: L'ensemble des principes de base de la sécurité à la disposition des équipes produit
 #A one sentence description of the activity
-shortDescription: Teams are trained on the use of basic security principles during design
+shortDescription: Les équipes sont formées sur l'utilisation des principes de base de la sécurité durant la phase de conception
 #A multi-paragraph description of the activity
 longDescription: |
-  During design, technical staff on the product team use a short checklist of security principles. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
+  Lors de la phase de conception, le personnel technique de l'équipe produit utilise une courte checklist des principes de sécurité. Généralement, les principes de sécurité incluent : la défense en profondeur, la sécurisation du plus faible maillon, l'utilisation de valeurs par défaut sécurisées, éviter une conception complexe des fonctionnalités de sécurité, la bascule en mode dégradé en cas d'échec, l'équilibre entre sécurité et ergonomie, l'exécution avec le moindre privilège, proscrire la sécurité par l'obscurité, etc.
 
-  For perimeter interfaces, the team considers each principle in the context of the overall system and identify features that can be added to bolster security at each such interface. Limit these such that they only take a small amount of extra effort beyond the normal implementation cost of functional requirements. Note anything larger, and schedule it for future releases.
+  Pour les interfaces, l'équipe considère chaque principe dans le contexte global du système et identifie les fonctionnalités qui peuvent renforcer la sécurité de chacune de ces interfaces. Il faut limiter ces fonctionnalités à celles qui ne demandent qu'un petit effort supplémentaire au-delà du coût de mise en œuvre normal des exigences fonctionnelles. Notez les fonctionnalités plus coûteuses et planifiez-les pour les versions futures.
 
-  Train each product team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.
+  Dispensez à chaque équipe produit une formation de sensibilisation à la sécurité en amont de ce processus et intégrez plus de personnel averti en matière de sécurité pour aider aux prises de décision lors de la phase de conception.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Activité
