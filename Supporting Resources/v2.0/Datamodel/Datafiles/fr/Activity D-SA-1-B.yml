@@ -17,9 +17,9 @@ benefit: Visibilité sur less technologies introduisant un risque de sécurité
 shortDescription: Enumérer les technologies, les cadres et les outils d'intégration de la solution globale pour identifier les risques.
 #A multi-paragraph description of the activity
 longDescription: |
-  People often take the path of least resistance in developing, deploying or operating a software solution. New technologies are often included when they can facilitate or speed up the effort or enable the solution to scale better. These new technologies might, however, introduce new risks to the organization that you need to manage.
+  C'est souvent le chemin avec le moindre effort qui est adopté pour le développement, le déploiement ou l'exploitation d'une solution logicielle. Les nouvelles technologies sont souvent adoptées si elles réduisent l'effort ou facilitent le passage à l'échelle. Ces nouvelles technologies pourraient néanmoins introduire de nouveaux risques pour l'organisation qu'il faudrait gérer.
 
-  Identify the most important technologies, frameworks, tools and integrations being used for each application. Use the knowledge of the architect to study the development and operating environment as well as artefacts. Then evaluate them for their security quality and raise important findings to be managed.
+  Identifiez les technologies, les frameworks et les outils les plus utilisés pour chaque application. Etudiez les environnements de développement et d'exploitation ainsi que les artefacts. Ensuite, évaluez leur sécurité et relevez les écarts importants pour les gérer.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
