@@ -3,9 +3,9 @@
 #OWASP SAMM Activity Description
 #===========================================================
 #Link to the stream that this activity belongs to
-stream: 253b012094cf4e0988e08fd22609227d
+stream: "-> flux\n================================================== =========\nDescription de l'activité OWASP SAMM\n================================================== =========\nLien vers le flux auquel appartient cette activité"
 #Link to the practice level that this activity belongs to
-level: a11b78917dec4cfdad983cf6d1d17b61
+level: "-> niveau\nLien vers le niveau de la pratique auquel appartient cette activité"
 #Unique identifier (GUID) used to refer to this activity.
 #Please generate another identifier for your specific activity.
 id: 27bb61f3c6344359b021caeaef5ab07e
