@@ -10,9 +10,9 @@ level: eac3184f8e2343b8b29047d023376da5
 #Please generate another identifier for your specific activity.
 id: 4f6a06796d0840debcc775ea1af65679
 #The title of this activity
-title: Integrate security testing tools in the delivery pipeline
+title: Integration von Sicherheitstest-Tools in die Entwicklungspipeline.
 #Describe the benefit that is achieved by implementing this activity
-benefit: Identification of automatically identifiable vulnerabilities in earliest possible stages
+benefit: Identifizierung von automatisch feststellbaren Schwachstellen in möglichst frühen Stadien
 #A one sentence description of the activity
 shortDescription: Integration von automatisierten Sicherheitstests in den Build- und Deployment-Prozess
 #A multi-paragraph description of the activity
