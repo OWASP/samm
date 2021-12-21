@@ -10,18 +10,18 @@ level: 437d447b3f11427592e938dbde53c7da
 #Please generate another identifier for your specific activity.
 id: 6e7a618abd564df5bb784ca54893bbee
 #The title of this activity
-title: Define policies and standards
+title: Definieren Sie Richtlinien und Standards
 #Describe the benefit that is achieved by implementing this activity
-benefit: Clear expectation of minimum security level in the organization
+benefit: Klare Erwartung eines Mindestmaßes an Sicherheit in der Organisation
 #A one sentence description of the activity
-shortDescription: Determine a security baseline representing organization’s policies and standards.
+shortDescription: Festlegen einer Sicherheits-Baseline, die die Richtlinien und Standards des Unternehmens repräsentiert.
 #A multi-paragraph description of the activity
 longDescription: |
-  Develop a library of policies and standards to govern all aspects of software development in the organization. Policies and standards are based on existing industry standards and appropriate for the organization’s industry. Due to the full range of technology-specific limitations and best practices, review proposed standards with the various product teams. With the overarching objective of increasing security of the applications and computing infrastructure, invite product teams to offer feedback on any aspects of the standards that would not be feasible or cost-effective to implement, as well as opportunities for standards to go further with little effort on the product teams.
+  Entwicklung einer Bibliothek von Richtlinien und Standards zur Regelung aller Aspekte der Softwareentwicklung in der Organisation. Die Richtlinien und Standards basieren auf bestehenden Industriestandards und sind für die Branche der Organisation geeignet. Aufgrund des breiten Spektrums an technologiespezifischen Einschränkungen und Best Practices sollten die vorgeschlagenen Standards mit den verschiedenen Produktteams überprüft werden. Mit dem übergeordneten Ziel, die Sicherheit der Anwendungen und der Computerinfrastruktur zu erhöhen, sollten die Produktteams aufgefordert werden, Rückmeldungen zu Aspekten der Standards zu geben, deren Umsetzung nicht durchführbar oder nicht kosteneffizient ist, sowie zu Möglichkeiten, die Standards mit geringem Aufwand für die Produktteams zu erweitern.
 
-  For policies, emphasize high-level definitions and aspects of application security that do not depend on specific technology or hosting environment. Focus on broader objectives of the organization to protect the integrity of its computing environment, safety and privacy of the data, and maturity of the software development life-cycles. For larger organizations, policies may qualify specific requirements based on data classification or application functionality, but should not be detailed enough to offer technology-specific guidance.
+  Betonen Sie bei den Richtlinien die übergeordneten Definitionen und Aspekte der Anwendungssicherheit, die nicht von einer bestimmten Technologie oder Hosting-Umgebung abhängen. Konzentrieren Sie sich auf die umfassenderen Ziele der Organisation zum Schutz der Integrität ihrer Computerumgebung, der Sicherheit und des Datenschutzes der Daten und der Reife der Lebenszyklen der Softwareentwicklung. Bei größeren Organisationen können die Richtlinien spezifische Anforderungen auf der Grundlage der Datenklassifizierung oder der Anwendungsfunktionalität festlegen, sollten aber nicht so detailliert sein, dass sie technologiespezifische Anleitungen bieten.
 
-  For standards, incorporate requirements set forth by policies, and focus on technology-specific implementation guidance intended to capture and take advantage of the security features of different programming languages and frameworks. Standards require input from senior developers and architects considered experts in various technologies in use by the organization. Create them in a format that allows for periodic updates. Label or tag individual requirements with the policy or a 3rd party requirement, to make maintenance and audits easier and more efficient.
+  Bei Standards sind die in den Richtlinien festgelegten Anforderungen zu berücksichtigen, und der Schwerpunkt liegt auf technologiespezifischen Implementierungsanleitungen, die die Sicherheitsmerkmale verschiedener Programmiersprachen und Frameworks erfassen und nutzen sollen. Standards erfordern die Mitwirkung von erfahrenen Entwicklern und Architekten, die als Experten für die verschiedenen in der Organisation verwendeten Technologien gelten. Sie sollten in einem Format erstellt werden, das regelmäßige Aktualisierungen ermöglicht. Kennzeichnen oder markieren Sie einzelne Anforderungen mit der Richtlinie oder einer Anforderung eines Dritten, um die Wartung und die Audits einfacher und effizienter zu gestalten.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
