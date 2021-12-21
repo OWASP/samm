@@ -15,10 +15,10 @@ text: Befolgen Sie einen dokumentierten Prozess zur Erkennung von Vorfällen?
 order: 1
 #Qualifying Criteria
 quality:
-  - The process has a dedicated owner
-  - You store process documentation in an accessible location
-  - The process considers an escalation path for further analysis
-  - You train employees responsible for incident detection in this process
-  - You have a checklist of potential attacks to simplify incident detection
+  - Der Prozess hat einen eigenen Eigentümer
+  - Sie bewahren die Prozessdokumentation an einem zugänglichen Ort auf
+  - Der Prozess berücksichtigt einen Eskalationspfad für weitere Analysen
+  - Sie schulen die für die Erkennung von Vorfällen zuständigen Mitarbeiter in diesem Prozess
+  - Sie haben eine Checkliste potenzieller Angriffe, um die Erkennung von Vorfällen zu vereinfachen
 #Type Classification of the Document
-type: Question
+type: Frage
