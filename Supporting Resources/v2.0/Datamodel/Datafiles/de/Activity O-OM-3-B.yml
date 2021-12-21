@@ -10,9 +10,9 @@ level: 2a059c7d07c34b9897e49e6295501608
 #Please generate another identifier for your specific activity.
 id: 8ab46d242edd413d99a6c1991aef2416
 #The title of this activity
-title: Review application lifecycle state regularly
+title: Regelmäßige Überprüfung des Status des Anwendungslebenszyklus
 #Describe the benefit that is achieved by implementing this activity
-benefit: Full visibility into lifecycle of all software assets
+benefit: Vollständiger Einblick in den Lebenszyklus aller Software-Assets
 #A one sentence description of the activity
 shortDescription: Proactively manage migration roadmaps, for both unsupported end-of-life dependencies, and legacy versions of delivered software.
 #A multi-paragraph description of the activity
