@@ -14,12 +14,12 @@ title: Regelmäßige Überprüfung des Status des Anwendungslebenszyklus
 #Describe the benefit that is achieved by implementing this activity
 benefit: Vollständiger Einblick in den Lebenszyklus aller Software-Assets
 #A one sentence description of the activity
-shortDescription: Proactively manage migration roadmaps, for both unsupported end-of-life dependencies, and legacy versions of delivered software.
+shortDescription: Proaktives Management von Migrationsplänen, sowohl für nicht unterstützte End-of-Life-Abhängigkeiten als auch für ältere Versionen der gelieferten Software.
 #A multi-paragraph description of the activity
 longDescription: |
-  Regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end-of-life. Follow a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. Regularly review and update your process, to reflect lessons learned.
+  Regelmäßige Bewertung des Lebenszyklus und des Support-Status aller Software-Assets und der zugrundeliegenden Infrastruktur-Komponenten sowie Abschätzung ihres Lebensendes. Befolgen Sie einen genau definierten Prozess zur aktiven Minderung von Sicherheitsrisiken, die entstehen, wenn sich die Anlagen/Komponenten ihrem Ende nähern. Überprüfen und aktualisieren Sie Ihren Prozess regelmäßig, um die gemachten Erfahrungen zu berücksichtigen.
 
-  Establish a product support plan, providing clear timelines for ending support on older product versions. Limit product versions in active use to only a small number (e.g., N.x.x and N-1.x.x only). Establish and publicize timelines for discontinuing support on prior versions, and proactively engage with customers and user groups to prevent disruption of service or support.
+  Erstellen Sie einen Produktunterstützungsplan mit klaren Zeitvorgaben für die Beendigung des Supports für ältere Produktversionen. Beschränken Sie die Zahl der aktiv genutzten Produktversionen auf eine kleine Anzahl (z. B. nur N.x.x und N-1.x.x). Legen Sie Zeitpläne für die Einstellung des Supports für frühere Versionen fest und geben Sie diese bekannt, und setzen Sie sich proaktiv mit Kunden und Benutzergruppen auseinander, um eine Unterbrechung von Service und Support zu vermeiden.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -33,4 +33,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
