@@ -10,11 +10,11 @@ level: e8de5ea176cc455bba89f0e2d1ea1f16
 #Please generate another identifier for your specific activity.
 id: 05073fb130c74143a12a6ba74a44c580
 #The title of this activity
-title: Customize security training
+title: Sicherheitstraining individuell gestalten
 #Describe the benefit that is achieved by implementing this activity
-benefit: Relevant employee roles trained according to their specific role
+benefit: Relevante Mitarbeiterrollen werden entsprechend ihrer spezifischen Rolle geschult
 #A one sentence description of the activity
-shortDescription: Offer technology and role-specific guidance, including security nuances of each language and platform
+shortDescription: Bereitstellung von technologie- und rollenspezifischen Anleitungen, einschließlich der Sicherheitsnuancen der einzelnen Sprachen und Plattformen
 #A multi-paragraph description of the activity
 longDescription: |
   Conduct instructor-led or CBT security training specific to the organization’s roles and technologies, starting with the core development team. The organization customizes training for product managers, software developers, testers, and security auditors, based on each group’s technical needs.
