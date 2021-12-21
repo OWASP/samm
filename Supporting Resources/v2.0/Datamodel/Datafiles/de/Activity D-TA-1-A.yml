@@ -14,7 +14,7 @@ title: Risikobewertungen für Anwendungen durchführen
 #Describe the benefit that is achieved by implementing this activity
 benefit: Klassifizierung der Anwendungen nach dem Risiko
 #A one sentence description of the activity
-shortDescription: A basic assessment of the application risk is performed to understand likelihood and impact of an attack.
+shortDescription: Eine grundlegende Bewertung des Anwendungsrisikos wird durchgeführt, um die Wahrscheinlichkeit und die Auswirkungen eines Angriffs zu verstehen.
 #A multi-paragraph description of the activity
 longDescription: |
   Verwenden Sie eine einfache Methode zur Bewertung des Anwendungsrisikos pro Anwendung und schätzen Sie die potenziellen geschäftlichen Auswirkungen eines Angriffs auf das Unternehmen ein. Bewerten Sie dazu die Auswirkungen einer Verletzung der Vertraulichkeit, Integrität und Verfügbarkeit der Daten oder des Dienstes. Ziehen Sie eine Reihe von 5-10 Fragen in Betracht, um wichtige Anwendungsmerkmale zu verstehen, z. B. ob die Anwendung Finanzdaten verarbeitet, ob sie mit dem Internet verbunden ist oder ob datenschutzrelevante Daten betroffen sind. Anhand des Anwendungsrisikoprofils können Sie feststellen, ob diese Faktoren zutreffen und ob sie erhebliche Auswirkungen auf das Unternehmen haben könnten.
