@@ -10,13 +10,13 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: cb88049632b54a15b3d610c4d492e83e
 #One-sentence description of the criterium
-text: Do you base your design on available reference architectures?
+text: Basieren die Designs auf verfügbaren Referenzarchitekturen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
   - Sie verfügen über eine oder mehrere genehmigte Referenzarchitekturen, die dokumentiert sind und den Beteiligten zur Verfügung stehen.
   - Sie verbessern die Referenzarchitekturen kontinuierlich auf der Grundlage von Erkenntnissen und bewährten Verfahren
-  - You provide a set of components, libraries, and tools to implement each reference architecture
+  - Sie stellen eine Reihe von Komponenten, Bibliotheken und Tools für die Implementierung jeder Referenzarchitektur bereit.
 #Type Classification of the Document
 type: Frage
