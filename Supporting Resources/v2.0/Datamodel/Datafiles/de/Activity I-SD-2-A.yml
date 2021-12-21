@@ -17,29 +17,29 @@ benefit: Effizienter Bereitstellungsprozess mit integrierten Sicherheitstools
 shortDescription: Automatisieren Sie den Bereitstellungsprozess über alle Stufen hinweg und führen Sie sinnvolle Sicherheitsprüfungen ein.
 #A multi-paragraph description of the activity
 longDescription: |
-  Automate the deployment process to cover various stages, so that no manual configuration steps are needed and the risk of isolated human errors is eliminated. Ensure and verify that the deployment is consistent over all stages.
+  Automatisieren Sie den Bereitstellungsprozess für verschiedene Phasen, so dass keine manuellen Konfigurationsschritte erforderlich sind und das Risiko einzelner menschlicher Fehler ausgeschlossen ist. Sicherstellen und überprüfen, dass die Bereitstellung über alle Phasen hinweg konsistent ist.
 
-  Integrate automated security checks in your deployment process, e.g. using Dynamic Analysis Security Testing (DAST) and vulnerability scanning tools. Also, verify the integrity of the deployed artefacts where this makes sense. Log the results from these tests centrally and take any necessary actions. Ensure that in case any defects are detected, relevant personnel is notified automaticaly. In case any issues exceeding predefined criticality are identified, stop or reverse the deployment  either automatically, or introduce a separate manual approval workflow so that this decision is recorded, containing an explanation for the exception.
+  Integrieren Sie automatisierte Sicherheitsprüfungen in Ihren Bereitstellungsprozess, z. B. mithilfe von Dynamic Analysis Security Testing (DAST) und Schwachstellen-Scan-Tools. Überprüfen Sie auch die Integrität der bereitgestellten Artefakte, wo dies sinnvoll ist. Protokollieren Sie die Ergebnisse dieser Tests zentral und ergreifen Sie die erforderlichen Maßnahmen. Stellen Sie sicher, dass das zuständige Personal automatisch benachrichtigt wird, wenn ein Fehler entdeckt wird. Falls Probleme festgestellt werden, die die vordefinierte Kritikalität überschreiten, stoppen oder stornieren Sie die Bereitstellung entweder automatisch oder führen Sie einen separaten manuellen Genehmigungs-Workflow ein, so dass diese Entscheidung aufgezeichnet wird und eine Erklärung für die Ausnahme enthält.
 
-  Account for and audit all deployments to all stages. Have a system in place to record each deployment, including information about who conducted it, the software version that was deployed, and any relevant variables specific to the deploy.
+  Buchführung und Prüfung aller Einsätze in allen Phasen. Verfügen Sie über ein System zur Aufzeichnung jeder Bereitstellung, einschließlich Informationen darüber, wer sie durchgeführt hat, welche Softwareversion bereitgestellt wurde und welche Variablen für die Bereitstellung relevant sind.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Administrator
-  - Security Engineer
+  - System-Administrator
+  - Sicherheitsingenieur
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivites:
   - fb6f258a2e424ee9a919341758222a7a
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
