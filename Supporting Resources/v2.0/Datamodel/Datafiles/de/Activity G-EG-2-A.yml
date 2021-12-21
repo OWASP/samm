@@ -17,19 +17,19 @@ benefit: Relevante Mitarbeiterrollen werden entsprechend ihrer spezifischen Roll
 shortDescription: Bereitstellung von technologie- und rollenspezifischen Anleitungen, einschließlich der Sicherheitsnuancen der einzelnen Sprachen und Plattformen
 #A multi-paragraph description of the activity
 longDescription: |
-  Conduct instructor-led or CBT security training specific to the organization’s roles and technologies, starting with the core development team. The organization customizes training for product managers, software developers, testers, and security auditors, based on each group’s technical needs.
+  Durchführung von Sicherheitsschulungen unter Anleitung oder CBT, die auf die Rollen und Technologien des Unternehmens zugeschnitten sind, beginnend mit dem Hauptentwicklungsteam. Das Unternehmen passt die Schulungen für Produktmanager, Softwareentwickler, Tester und Sicherheitsauditoren an die technischen Anforderungen der einzelnen Gruppen an.
 
-  - Product managers train on topics related to SAMM business functions and security practices, with emphasis on security requirements, threat modeling, and defect tracking.
-  - Developers train on coding standards and best practices for the technologies they work with to ensure the training directly benefits application security. They have a solid technical understanding of the OWASP Top 10 vulnerabilities, or similar weaknesses relevant to the technologies and frameworks used (e.g. mobile), and the most common remediation strategies for each issue.
-  - Testers train on the different testing tools and best practices for technologies used in the organization, and in tools that identify security defects.
-  - Security auditors train on the software development lifecycle, application security mechanisms used in the organization, and the process for submitting security defects for remediation.
-  - Security Champions train on security topics from various phases of the SDLC. They receive the same training as developers and testers, but also understand threat modeling and secure design, as well as security tools and technologies that can be integrated into the build environment.
+  - Produktmanager werden zu Themen geschult, die sich auf die SAMM-Geschäftsfunktionen und Sicherheitspraktiken beziehen, wobei der Schwerpunkt auf Sicherheitsanforderungen, Bedrohungsmodellierung und Fehlerverfolgung liegt.
+  - Entwickler werden zu Codierungsstandards und Best Practices für die Technologien, mit denen sie arbeiten, geschult, um sicherzustellen, dass die Schulungen direkt der Anwendungssicherheit zugute kommen. Sie verfügen über ein solides technisches Verständnis der OWASP Top 10 Schwachstellen oder ähnlicher Schwachstellen, die für die verwendeten Technologien und Frameworks (z. B. Mobile) relevant sind, sowie über die gängigsten Abhilfestrategien für jedes Problem.
+  - Die Prüfer werden in den verschiedenen Prüfwerkzeugen und bewährten Verfahren für die im Unternehmen verwendeten Technologien sowie in den Werkzeugen zur Erkennung von Sicherheitsmängeln geschult.
+  - Sicherheitsauditoren schulen den Lebenszyklus der Softwareentwicklung, die in der Organisation verwendeten Mechanismen für die Anwendungssicherheit und das Verfahren zur Einreichung von Sicherheitsmängeln zur Behebung.
+  - Security Champions werden zu Sicherheitsthemen aus verschiedenen Phasen des SDLC geschult. Sie erhalten die gleiche Schulung wie Entwickler und Tester, kennen sich aber auch mit Bedrohungsmodellierung und sicherem Design sowie mit Sicherheitstools und - technologien aus, die in die Entwicklungsumgebung integriert werden können.
 
-  Include all training content from the Maturity Level 1 activities of this stream and additional role-specific and technology-specific content. Eliminate unnecessary aspects of the training.
+  Alle Schulungsinhalte aus den Aktivitäten der Reifegradstufe 1 dieses Streams sowie zusätzliche rollen- und technologiespezifische Inhalte sollten einbezogen werden. Eliminieren Sie unnötige Aspekte der Schulung.
 
-  Ideally, identify a subject-matter expert in each technology to assist with procuring or developing the training content and updating it regularly. The training consists of demonstrations of vulnerability exploitation using intentionally weakened applications, such as WebGoat or Juice Shop. Include results of the previous penetration as examples of vulnerabilities and implemented remediation strategies. Ask a penetration tester to assist with developing examples of vulnerability exploitation demonstrations.
+  Idealerweise sollte für jede Technologie ein Fachexperte benannt werden, der bei der Beschaffung oder Entwicklung der Schulungsinhalte und ihrer regelmäßigen Aktualisierung behilflich ist. Die Schulung besteht aus Demonstrationen der Ausnutzung von Schwachstellen unter Verwendung von absichtlich geschwächten Anwendungen, wie WebGoat oder Juice Shop. Beziehen Sie die Ergebnisse der vorherigen Penetration als Beispiele für Schwachstellen und implementierte Abhilfestrategien ein. Bitten Sie einen Penetrationstester, Sie bei der Entwicklung von Beispielen für die Ausnutzung von Schwachstellen zu unterstützen.
 
-  Training is mandatory for all employees and contractors involved with software development, and includes an auditable sign-off to demonstrate compliance.  Whenever possible, training should also include a test to ensure understanding, not just compliance.  Update and deliver training annually to include changes in the organization, technology, and trends. Poll training participants to evaluate the quality and relevance of the training. Gather suggestions of other information relevant to their work or environments.
+  Die Schulung ist für alle Mitarbeiter und Auftragnehmer, die an der Softwareentwicklung beteiligt sind, verpflichtend und umfasst eine prüfbare Bestätigung, um die Einhaltung der Vorschriften nachzuweisen.  Wann immer möglich, sollte die Schulung auch einen Test beinhalten, um sicherzustellen, dass das Wissen verstanden und nicht nur eingehalten wird.  Die Schulungen sollten jährlich aktualisiert und durchgeführt werden, um Änderungen im Unternehmen, in der Technologie und bei Trends zu berücksichtigen. Befragen Sie die Schulungsteilnehmer, um die Qualität und Relevanz der Schulung zu bewerten. Sammeln Sie Vorschläge für andere Informationen, die für ihre Arbeit oder ihr Umfeld relevant sind.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -48,4 +48,4 @@ notes: |
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
