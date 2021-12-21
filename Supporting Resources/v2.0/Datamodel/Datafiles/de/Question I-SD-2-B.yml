@@ -19,4 +19,4 @@ quality:
   - Unter normalen Umständen haben Menschen während des Deployments keinen Zugang zu Geheimnissen
   - Sie loggen und alarmieren bei jedem anormalen Zugriff auf Geheimnisse
 #Type Classification of the Document
-type: Question
+type: Frage
