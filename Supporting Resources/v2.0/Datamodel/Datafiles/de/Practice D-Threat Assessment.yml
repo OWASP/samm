@@ -12,7 +12,7 @@ name: Bedrohungsanalyse
 #Abbreviation of this practice
 shortName: Threat Assessment (TA)
 #A one sentence description of the security practice
-shortDescription: This practice focuses on identifying potential threats in applications.
+shortDescription: Dieses Verfahren konzentriert sich auf die Erkennung potenzieller Bedrohungen in Anwendungen.
 #A multi-paragraph description of the security practice
 longDescription: |
   Die Bedrohungsanalyse (Threat Assessment, TA) konzentriert sich auf die Identifizierung und das Verständnis von Risiken auf Projektebene auf der Grundlage der Funktionalität der zu entwickelnden Software und der Merkmale der Laufzeitumgebung. Anhand von Details über Bedrohungen und wahrscheinliche Angriffe auf die einzelnen Projekte kann das Unternehmen als Ganzes durch bessere Entscheidungen über die Priorisierung von Sicherheitsinitiativen effektiver arbeiten. Darüber hinaus sind Entscheidungen zur Risikoakzeptanz besser informiert und daher besser auf das Unternehmen abgestimmt.
