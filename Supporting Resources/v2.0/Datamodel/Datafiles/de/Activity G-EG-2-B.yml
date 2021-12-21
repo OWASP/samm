@@ -10,18 +10,18 @@ level: e8de5ea176cc455bba89f0e2d1ea1f16
 #Please generate another identifier for your specific activity.
 id: d61764610f8741de894c1751f5c041ae
 #The title of this activity
-title: Implement centers of excellence
+title: Kompetenzzentren implementieren
 #Describe the benefit that is achieved by implementing this activity
-benefit: Specific security best practices tailored to the organization
+benefit: Spezifische, auf das Unternehmen zugeschnittene bewährte Sicherheitsverfahren
 #A one sentence description of the activity
-shortDescription: Develop a secure software center of excellence promoting thought leadership among developers and architects.
+shortDescription: Aufbau eines Kompetenzzentrums für sichere Software zur Förderung der Vordenkerrolle von Entwicklern und Architekten.
 #A multi-paragraph description of the activity
 longDescription: |
-  The organization implements a formal secure coding center of excellence, with architects and senior developers representing the different business units and technology stacks. The team has an official charter and defines standards and best practices to improve software development practices. The goal is to mitigate the way velocity of change in technology, programming languages, and development frameworks and libraries makes it difficult for Information Security professionals to be fully informed of all the technical nuances that impact security. Even developers often struggle keeping up with all the changes and new tools intended to make software development faster, better, and safer.
+  Das Unternehmen führt ein formelles Kompetenzzentrum für sichere Programmierung ein, in dem Architekten und leitende Entwickler die verschiedenen Geschäftsbereiche und Technologie-Stacks vertreten. Das Team hat eine offizielle Charta und definiert Standards und Best Practices zur Verbesserung der Softwareentwicklungspraktiken. Ziel ist es, die Geschwindigkeit des Wandels bei Technologien, Programmiersprachen, Entwicklungs-Frameworks und -Bibliotheken zu verringern, die es den Fachleuten für Informationssicherheit erschwert, über alle technischen Nuancen, die sich auf die Sicherheit auswirken, umfassend informiert zu sein. Selbst für Entwickler ist es oft schwierig, mit all den Änderungen und neuen Tools Schritt zu halten, die die Softwareentwicklung schneller, besser und sicherer machen sollen.
 
-  This ensures all current programming efforts follow industry’s best practices and organization’s development and implementation standards include all critical configuration settings. It helps identify, train, and support “Product Champions”, responsible for assisting different teams with implementing tools that automate, streamline, or improve various aspects of the SDLC. It identifies development teams with higher maturity levels within their SDLC and the practices and tools that enable these achievements, with the goal of replicating them to other teams.
+  Dadurch wird sichergestellt, dass alle aktuellen Programmierarbeiten den Best Practices der Branche entsprechen und die Entwicklungs- und Implementierungsstandards des Unternehmens alle kritischen Konfigurationseinstellungen umfassen. Es hilft bei der Identifizierung, Schulung und Unterstützung von "Product Champions", die für die Unterstützung verschiedener Teams bei der Implementierung von Tools zur Automatisierung, Rationalisierung oder Verbesserung verschiedener Aspekte des SDLC zuständig sind. Sie identifiziert Entwicklungsteams mit höherem Reifegrad innerhalb ihres SDLC und die Praktiken und Tools, die diese Erfolge ermöglichen, mit dem Ziel, sie an andere Teams weiterzugeben.
 
-  The group provides subject matter expertise, helping information security teams evaluate tools and solutions to improve application security, ensuring these tools are not only useful but also compatible with the way different teams develop applications. Teams looking to make significant architectural changes to their software consult with this group to avoid adversely impacting the SDLC lifecycle or established security controls.
+  Die Gruppe stellt ihr Fachwissen zur Verfügung und unterstützt Informationssicherheitsteams bei der Bewertung von Tools und Lösungen zur Verbesserung der Anwendungssicherheit, wobei sie sicherstellt, dass diese Tools nicht nur nützlich, sondern auch mit der Art und Weise, wie verschiedene Teams Anwendungen entwickeln, kompatibel sind. Teams, die erhebliche architektonische Änderungen an ihrer Software vornehmen wollen, beraten sich mit dieser Gruppe, um negative Auswirkungen auf den SDLC-Lebenszyklus oder etablierte Sicherheitskontrollen zu vermeiden.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
