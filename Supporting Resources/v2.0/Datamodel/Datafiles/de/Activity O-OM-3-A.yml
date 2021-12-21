@@ -10,20 +10,20 @@ level: 2a059c7d07c34b9897e49e6295501608
 #Please generate another identifier for your specific activity.
 id: cd80066899014962a37af7ab34c83003
 #The title of this activity
-title: Respond to data breaches
+title: Reaktion auf Datenschutzverletzungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Technically enforced compliance with your data protection policy
+benefit: Technisch erzwungene Übereinstimmung mit Ihrer Datenschutzpolitik
 #A one sentence description of the activity
-shortDescription: Automate detection of policy non-compliance, and audit compliance periodically. Regularly review and update to data catalog and data protection policy.
+shortDescription: Automatisierte Erkennung von Richtlinienverstößen und regelmäßige Überprüfung der Einhaltung. Regelmäßige Überprüfung und Aktualisierung des Datenkatalogs und der Datenschutzrichtlinie.
 #A multi-paragraph description of the activity
 longDescription: |
-  Activities at this maturity level are focused on automating data protection, reducing your reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
+  Die Aktivitäten auf dieser Reifegradstufe konzentrieren sich auf die Automatisierung des Datenschutzes und verringern die Abhängigkeit vom menschlichen Einsatz bei der Bewertung und Verwaltung der Einhaltung von Richtlinien. Der Schwerpunkt liegt auf Feedback-Mechanismen und proaktiven Überprüfungen, um Möglichkeiten zur Prozessverbesserung zu erkennen und zu nutzen.
 
-  Implement technical controls to enforce compliance with your Data Protection Policy, and put monitoring in place to detect attempted or actual violations. You may use a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
+  Implementieren Sie technische Kontrollen, um die Einhaltung Ihrer Datenschutzrichtlinie durchzusetzen, und richten Sie eine Überwachung ein, um versuchte oder tatsächliche Verstöße zu erkennen. Sie können eine Vielzahl verfügbarer Tools zum Schutz vor Datenverlusten, zur Zugriffskontrolle und -verfolgung oder zur Erkennung anormalen Verhaltens einsetzen.
 
-  Regularly audit compliance with established administrative controls, and closely monitor performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting you to take timely corrective action.
+  Prüfen Sie regelmäßig die Einhaltung der festgelegten Verwaltungskontrollen und überwachen Sie die Leistung und den Betrieb automatisierter Mechanismen, einschließlich Backups und Datensatzlöschungen. Überwachungstools erkennen und melden schnell Fehler in der Automatisierung und ermöglichen es Ihnen, rechtzeitig Korrekturmaßnahmen zu ergreifen.
 
-  Reviews and update the data catalog regularly, to maintain its accurate reflection of your data landscape. Regular reviews and updates of processes and procedures maintain their alignment with your policies and priorities.
+  Überprüfen und aktualisieren Sie den Datenkatalog regelmäßig, damit er Ihre Datenlandschaft genau widerspiegelt. Regelmäßige Überprüfungen und Aktualisierungen von Prozessen und Verfahren sorgen dafür, dass diese mit Ihren Richtlinien und Prioritäten übereinstimmen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -37,4 +37,4 @@ notes:
 #References to other activities that are related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
