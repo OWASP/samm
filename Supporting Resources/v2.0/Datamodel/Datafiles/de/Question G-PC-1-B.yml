@@ -10,7 +10,7 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: 4bb7dd93f5874730bd84b41cb56ce60a
 #One-sentence description of the criterium
-text: Do you have a complete picture of your external compliance obligations?
+text: Haben Sie einen vollständigen Überblick über Ihre externen Compliance-Verpflichtungen?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
