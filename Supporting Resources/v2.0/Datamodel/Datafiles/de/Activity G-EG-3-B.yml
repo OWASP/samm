@@ -10,18 +10,18 @@ level: e3cf1d3c27b74262b9f842f27ca86333
 #Please generate another identifier for your specific activity.
 id: a3720e84d6a24a8ba235c25ce6afc5c7
 #The title of this activity
-title: Establish a security community
+title: Aufbau einer Sicherheitsgemeinschaft
 #Describe the benefit that is achieved by implementing this activity
-benefit: Collective development of security know-how among all product teams
+benefit: Gemeinsame Entwicklung von Sicherheits-Know-how in allen Produktteams
 #A one sentence description of the activity
-shortDescription: Build a secure software community including all organization people involved in software security.
+shortDescription: Aufbau einer Gemeinschaft für sichere Software, die alle an der Softwaresicherheit beteiligten Organisationen umfasst.
 #A multi-paragraph description of the activity
 longDescription: |
-  Security is the responsibility of all employees, not just the Information Security team. Deploy communication and knowledge sharing platforms to help developers build communities around different technologies, tools, and programming languages. In these communities employees share information, discuss challenges with other developers, and search the knowledge base for answers to previously discussed issues.
+  Die Sicherheit liegt in der Verantwortung aller Mitarbeiter, nicht nur des Informationssicherheitsteams. Stellen Sie Kommunikations- und Wissensaustauschplattformen bereit, um Entwicklern zu helfen, Communities rund um verschiedene Technologien, Tools und Programmiersprachen aufzubauen. In diesen Gemeinschaften tauschen Mitarbeiter Informationen aus, diskutieren Herausforderungen mit anderen Entwicklern und suchen in der Wissensdatenbank nach Antworten auf zuvor diskutierte Fragen.
 
-  Form communities around roles and responsibilities and enable developers and engineers from different teams and business units to communicate freely and benefit from each other's expertise. Encourage participation, set up a program to promote those who help the most people as thought leaders, and have management recognize them. In addition to improving application security, this platform may help identify future members of the Secure Software Center of Excellence, or 'Security Champions' based on their expertise and willingness to help others.
+  Bilden Sie Communities rund um Rollen und Zuständigkeiten und ermöglichen Sie es Entwicklern und Ingenieuren aus verschiedenen Teams und Geschäftsbereichen, frei zu kommunizieren und vom Fachwissen der anderen zu profitieren. Fördern Sie die Teilnahme, richten Sie ein Programm ein, um diejenigen, die am meisten helfen, als Vordenker zu fördern, und lassen Sie sie von der Geschäftsleitung anerkennen. Diese Plattform kann nicht nur die Anwendungssicherheit verbessern, sondern auch dazu beitragen, künftige Mitglieder des Secure Software Center of Excellence oder "Security Champions" auf der Grundlage ihres Fachwissens und ihrer Bereitschaft, anderen zu helfen, zu ermitteln.
 
-  The Secure Software Center of Excellence and Application Security teams review the information portal regularly for insights into the new and upcoming technologies, as well as opportunities to assist the development community with new initiatives, tools, programs, and training resources. Use the portal to disseminate information about new standards, tools, and resources to all developers for the continued improvement of SDLC maturity and application security.
+  Das Secure Software Center of Excellence und die Teams für Anwendungssicherheit überprüfen das Informationsportal regelmäßig, um sich einen Überblick über neue und kommende Technologien zu verschaffen und um die Entwicklergemeinschaft mit neuen Initiativen, Tools, Programmen und Schulungsressourcen zu unterstützen. Nutzen Sie das Portal, um Informationen über neue Standards, Tools und Ressourcen an alle Entwickler weiterzugeben, um die SDLC-Reife und die Anwendungssicherheit kontinuierlich zu verbessern.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
