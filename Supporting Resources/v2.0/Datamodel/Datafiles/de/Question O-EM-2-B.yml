@@ -10,7 +10,7 @@ answerset: 612bf4ec249f4e9d86f9e36dbf511821
 #Please generate another identifier for your specific maturity level.
 id: 0844b1a3be8b49ec83c7377a9f797cfc
 #Text of the question presented to the user
-text: Do you follow an established process for updating components of your technology stacks?
+text: Befolgen Sie einen etablierten Prozess für die Aktualisierung von Komponenten Ihrer Technologiestapel?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criteria
