@@ -10,37 +10,37 @@ level: 3e89d1fa6cba4516a3ec446faaab5b84
 #Please generate another identifier for your specific activity.
 id: 4729b4bd6dca4d58a68cb854ad4409a6
 #The title of this activity
-title: Include application secrets during deployment
+title: Anwendungsgeheimnisse bei der Bereitstellung einbeziehen
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detection of potential leakage of production secrets
+benefit: Aufdeckung eines möglichen Abflusses von Produktionsgeheimnissen
 #A one sentence description of the activity
-shortDescription: Inject secrets dynamically during deployment process from hardened storages and audit all human access to them.
+shortDescription: Injizieren Sie Geheimnisse dynamisch während des Bereitstellungsprozesses aus gehärteten Speichern und überprüfen Sie den gesamten menschlichen Zugriff auf sie.
 #A multi-paragraph description of the activity
 longDescription: |
-  Have an automated process to add credentials and secrets to configuration files during the deployment process to respective stages. This way, developers and deployers do not see or handle those sensitive values.
+  Ein automatisiertes Verfahren zum Hinzufügen von Anmeldeinformationen und Geheimnissen zu Konfigurationsdateien während des Bereitstellungsprozesses in den jeweiligen Phasen. Auf diese Weise können Entwickler und Verteiler diese sensiblen Werte nicht sehen oder bearbeiten.
 
-  Implement checks that detect the presence of secrets in code repositories and files, and run them periodically. Configure tools to look for known strings and unknown high entropy strings. In systems such as code repositories, where there is a history, include the versions in the checks. Mark potential secrets you discover as sensitive values, and remove them where appropriate. If you cannot remove them from a historic file in a code repository, for example, you may need to refresh the value on the system that consumes the secret. This way, if an attacker discovers the secret, it will not be useful to them.
+  Implementieren Sie Prüfungen, die das Vorhandensein von Geheimnissen in Code-Repositories und Dateien erkennen, und führen Sie diese regelmäßig durch. Konfigurieren Sie die Tools so, dass sie nach bekannten Zeichenfolgen und unbekannten Zeichenfolgen mit hoher Entropie suchen. Beziehen Sie bei Systemen wie Code-Repositories, die eine Historie aufweisen, die Versionen in die Prüfungen ein. Markieren Sie potenzielle Geheimnisse, die Sie entdecken, als sensible Werte, und entfernen Sie sie gegebenenfalls. Wenn Sie sie z. B. nicht aus einer historischen Datei in einem Code-Repository entfernen können, müssen Sie den Wert auf dem System, das das Geheimnis verbraucht, aktualisieren. Wenn ein Angreifer das Geheimnis entdeckt, ist es für ihn nicht mehr von Nutzen.
 
-  Make the system used to store and process the secrets and credentials robust from a security perspective. Encrypt all secrets at rest and in transit. Users who configure this system and the secrets it contains are subject to the principle of least privilege. For example, a developer might need to manage the secrets for a development environment, but not a user acceptance test or production environment.
+  Sorgen Sie dafür, dass das System, das zur Speicherung und Verarbeitung der Geheimnisse und Anmeldedaten verwendet wird, unter Sicherheitsaspekten robust ist. Verschlüsseln Sie alle Geheimnisse im Ruhezustand und bei der Übertragung. Für Benutzer, die dieses System und die darin enthaltenen Geheimnisse konfigurieren, gilt das Prinzip der geringsten Berechtigung. So kann es beispielsweise sein, dass ein Entwickler die Geheimnisse für eine Entwicklungsumgebung verwalten muss, aber nicht für eine Benutzerakzeptanztest- oder Produktionsumgebung.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Administrator
-  - Developer
-  - Security Engineer
+  - System-Administrator
+  - Entwickler
+  - Sicherheitsingenieur
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 84dcbc954d954d95b1fb37e032f05402
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
