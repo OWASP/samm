@@ -10,44 +10,44 @@ level: 5a25ae9bc9134d6387128ea925c81845
 #Please generate another identifier for your specific activity.
 id: f2a309b82fbc46cfb2f11c9cde20dc0a
 #The title of this activity
-title: Use metrics to improve the security strategy
+title: Verwendung von Metriken zur Verbesserung der Sicherheitsstrategie
 #Describe the benefit that is achieved by implementing this activity
-benefit: Optimized security strategy based on defect information
+benefit: Optimierte Sicherheitsstrategie auf der Grundlage von Fehlerinformationen
 #A one sentence description of the activity
-shortDescription: Continuously improve your security defect management metrics and correlate it with other sources.
+shortDescription: Verbessern Sie kontinuierlich Ihre Metriken zur Verwaltung von Sicherheitsmängeln und vergleichen Sie sie mit anderen Quellen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Regularly (at least once per year) revisit the defect management metrics you're collecting and compare the effort needed to collect and track these to the expected outcomes. Make knowledgeable decision about removing metrics which don't deliver the overall expected value. Wherever possible, include and automate verification activities for the quality of the collected data and ensure sustainable improvement if any differences are detected.
+  Überprüfen Sie regelmäßig (mindestens einmal pro Jahr) die von Ihnen erfassten Fehlermanagement-Kennzahlen und vergleichen Sie den Aufwand für die Erfassung und Verfolgung dieser Kennzahlen mit den erwarteten Ergebnissen. Treffen Sie eine sachkundige Entscheidung über die Entfernung von Metriken, die nicht den erwarteten Gesamtwert liefern. Wo immer möglich, sollten Sie Verifizierungsaktivitäten für die Qualität der gesammelten Daten einbeziehen und automatisieren und für eine nachhaltige Verbesserung sorgen, wenn Unterschiede festgestellt werden.
 
-  Aggregate the data with your threat intelligence and incident management metrics and use the results as input for other initiatives over the whole organization, such as:
+  Führen Sie die Daten mit Ihren Metriken für die Bedrohungsanalyse und das Vorfallsmanagement zusammen und nutzen Sie die Ergebnisse als Input für andere Initiativen im gesamten Unternehmen, z. B.:
 
-  * Planning security trainings for various personnel
-  * Improvement of security verification activities for both internally and externally develeoped collected
-  * Supply chain management, e.g. carrying out security audits of partner organizations
-  * Monitoring of attacks against your infrastructure and applications
-  * Investing in security infrastructure or compensating controls
-  * Staffing your security team and setting up the security budget
+  * Planung von Sicherheitsschulungen für verschiedene Mitarbeiter
+  * Verbesserung der Sicherheitsüberprüfungsaktivitäten für intern und extern entwickelte Produkte
+  * Management der Lieferkette, z. B. Durchführung von Sicherheitsaudits bei Partnerorganisationen
+  * Überwachung von Angriffen auf Ihre Infrastruktur und Anwendungen
+  * Investitionen in die Sicherheitsinfrastruktur oder kompensierende Kontrollen
+  * Besetzung Ihres Sicherheitsteams und Aufstellung des Sicherheitsbudgets
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Officer
-  - Security Engineer
+  - Sicherheitsbeauftragter
+  - Sicherheitsingenieur
   - Manager
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 5bcb52375a0f4085bb12266c9ecfa84d
   - 4f6a06796d0840debcc775ea1af65679
   - a395d69917b947b28d5995738d716283
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
