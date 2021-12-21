@@ -10,14 +10,14 @@ answerset: f77bd45a28c8493dbba6e53b2eafa20f
 #Please generate another identifier for your specific maturity level.
 id: ee775955bf7f48d294c75f6384232f48
 #One-sentence description of the criterium
-text: Do you enforce automated security checks in your build processes?
+text: Setzen Sie in Ihren Build-Prozessen automatische Sicherheitsprüfungen durch?
 #Order of this question for the activity (in case there would be multiple)
 order: 1
 #Qualifying Criterion
 quality:
-  - Builds fail if the application doesn't meet a predefined security baseline
-  - You have a maximum accepted severity for vulnerabilties
-  - You log warnings and failures in a centralized system
+  - Builds schlagen fehl, wenn die Anwendung eine vordefinierte Sicherheitsgrundlage nicht erfüllt
+  - Sie haben einen maximal akzeptierten Schweregrad für Sicherheitslücken
+  - Sie loggen Warnungen und Ausfälle in einem zentralen System
   - Sie wählen und konfigurieren Tools, um jede Anwendung mindestens einmal pro Jahr anhand ihrer Sicherheitsanforderungen zu bewerten
 #Type Classification of the Document
 type: Frage
