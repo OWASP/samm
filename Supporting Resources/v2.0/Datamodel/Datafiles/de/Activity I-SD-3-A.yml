@@ -10,36 +10,36 @@ level: fc5eb251c6ee4f3db04eb01b62d380ba
 #Please generate another identifier for your specific activity.
 id: 05a3e75c6c654ae58a115cbf4295662b
 #The title of this activity
-title: Verify the integrity of deployment artifacts
+title: Überprüfen der Integrität von Bereitstellungsartefakten
 #Describe the benefit that is achieved by implementing this activity
-benefit: Assured integrity of artifacts being deployed to production
+benefit: Sicherstellung der Integrität von Artefakten, die für die Produktion bereitgestellt werden
 #A one sentence description of the activity
-shortDescription: Automatically verify integrity of all deployed software, independently of whether it's internally or externally developed.
+shortDescription: Automatische Überprüfung der Integrität der gesamten eingesetzten Software, unabhängig davon, ob sie intern oder extern entwickelt wurde.
 #A multi-paragraph description of the activity
 longDescription: |
-  Take advantage of binaries being signed at the build time and include automatic verification of the integrity of software being deployed by checking their signatures against trusted certificates. This may include binaries developed and built in-house, as well as third-party artifacts. Do not deploy artifacts if their signatures cannot be verified, including those with invalid or expired certificates.
+  Nutzen Sie die Vorteile von Binärdateien, die zum Erstellungszeitpunkt signiert werden, und schließen Sie eine automatische Überprüfung der Integrität der bereitgestellten Software ein, indem Sie ihre Signaturen mit vertrauenswürdigen Zertifikaten abgleichen. Dies kann sowohl intern entwickelte und erstellte Binärdateien als auch Artefakte von Dritten umfassen. Stellen Sie keine Artefakte bereit, deren Signaturen nicht überprüft werden können, einschließlich solcher mit ungültigen oder abgelaufenen Zertifikaten.
 
-  If the list of trusted certificates includes third-party developers, check them periodically, and keep them in line with the organization’s wider governance surrounding trusted third-party suppliers.
+  Wenn die Liste der vertrauenswürdigen Zertifikate Entwickler von Drittanbietern enthält, überprüfen Sie diese regelmäßig und halten Sie sie im Einklang mit den allgemeinen Richtlinien des Unternehmens für vertrauenswürdige Drittanbieter.
 
-  Manually approve the deployment at least once during an automated deployment. Whenever a human check is significantly more accurate than an automated one during the deployment process, go for this option.
+  Genehmigen Sie die Bereitstellung mindestens einmal während einer automatischen Bereitstellung manuell. Wann immer eine menschliche Überprüfung während des Bereitstellungsprozesses wesentlich genauer ist als eine automatische, sollten Sie sich für diese Option entscheiden.
 #The output of this particular activity
 results:
-  - result1
-  - result2
+  - Ergebnis 1
+  - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
-  - metric1
-  - metric2
+  - Metrik 1
+  - Metrik 2
 #A description of the costs required to implement the activity
-costs: TBS.
+costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
 personnel:
-  - Security Engineer
-  - Administrator
+  - Sicherheitsingenieur
+  - System-Administrator
 #Internal notes that might help the author
-notes: None
+notes: Keine
 #References to other activities that are prerequesites to implement this one.
 relatedActivities:
   - 281369f491da4d4c84b0729e344e2c93
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
