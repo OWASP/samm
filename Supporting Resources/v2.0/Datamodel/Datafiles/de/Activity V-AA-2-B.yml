@@ -10,18 +10,18 @@ level: 67fcd33f84364ef68fb88aba77de1a63
 #Please generate another identifier for your specific activity.
 id: 62237ae79ab84a6687de2885b1e3d608
 #The title of this activity
-title: Structurally verify the architecture for identified threats
+title: Strukturelle Überprüfung der Architektur auf identifizierte Bedrohungen
 #Describe the benefit that is achieved by implementing this activity
-benefit: All identified threats to the application are adequately handled.
+benefit: Alle erkannten Bedrohungen für die Anwendung werden angemessen behandelt.
 #A one sentence description of the activity
-shortDescription: Analyze the architecture for known threats.
+shortDescription: Analysieren Sie die Architektur auf bekannte Bedrohungen.
 #A multi-paragraph description of the activity
 longDescription: |
-  Systematically review each threat identified during the Threat Assessment activities and examine how the architecture mitigates them. Use a standardised process for analyzing system architectures and the flow of data within them. This is typically linked to the threat model used (e.g. STRIDE) in order to identify the relevant security objectives which address each type of threat. For each threat, identify the design-level features of the architecture which counter it and assess their effectiveness in doing so.
+  Systematische Überprüfung jeder Bedrohung, die im Rahmen der Bedrohungsanalyse identifiziert wurde, und Untersuchung, wie die Architektur diese Bedrohungen entschärft. Verwenden Sie ein standardisiertes Verfahren zur Analyse von Systemarchitekturen und des Datenflusses innerhalb dieser Architekturen. Dies ist in der Regel mit dem verwendeten Bedrohungsmodell (z.B. STRIDE) verknüpft, um die relevanten Sicherheitsziele zu ermitteln, die sich mit jeder Art von Bedrohung befassen. Für jede Bedrohung sind die Entwurfsmerkmale der Architektur zu ermitteln, die ihr entgegenwirken, und ihre Wirksamkeit zu bewerten.
 
-  Where available, review architectural decision records to understand the architectural constraints and tradeoffs made during design. Take their impact into consideration along with any security assumptions on which the safe operation of the system relies and re-evaluate them.
+  Falls vorhanden, sind die Aufzeichnungen über Architekturentscheidungen zu prüfen, um die architektonischen Einschränkungen und Kompromisse zu verstehen, die während des Entwurfs gemacht wurden. Berücksichtigen Sie deren Auswirkungen zusammen mit allen Sicherheitsannahmen, von denen der sichere Betrieb des Systems abhängt, und bewerten Sie diese neu.
 
-  Enrich your previously created threat model such that each threat and its estimated impact are linked to the corresponding counter measure. Produce a mapping document, or dashboard in a specialized tool, to make the information available and visible to the relevant stakeholders.
+  Erweitern Sie Ihr zuvor erstelltes Bedrohungsmodell so, dass jede Bedrohung und ihre geschätzten Auswirkungen mit der entsprechenden Gegenmaßnahme verknüpft werden. Erstellen Sie ein Mapping-Dokument oder ein Dashboard in einem spezialisierten Tool, um die Informationen für die relevanten Akteure verfügbar und sichtbar zu machen.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 dependencies:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
