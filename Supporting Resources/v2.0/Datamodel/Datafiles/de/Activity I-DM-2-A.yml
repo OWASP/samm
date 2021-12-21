@@ -24,12 +24,12 @@ longDescription: |
   Auch wenn Sie keine formellen SLAs für die Behebung von Fehlern mit geringem Schweregrad haben, sollten Sie sicherstellen, dass die verantwortlichen Teams dennoch regelmäßig einen Überblick über die Probleme erhalten, die ihre Anwendungen betreffen, und verstehen, wie sich bestimmte Probleme gegenseitig beeinflussen oder verstärken.
 #The output of this particular activity
 results:
-  - result1
+  - Ergebnis 1
   - Ergebnis 2
 #The different metrics that can be used to measure the success of the activity
 metrics:
   - Metrik 1
-  - metric2
+  - Metrik 2
 #A description of the costs required to implement the activity
 costs: ZBE (TBS).
 #The (standard) roles involved in the implementation of this activity
