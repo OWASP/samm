@@ -10,20 +10,20 @@ level: e3cf1d3c27b74262b9f842f27ca86333
 #Please generate another identifier for your specific activity.
 id: a061ed8a5b1c4899bc95d9b1a10a469d
 #The title of this activity
-title: Standardize security guidance
+title: Standardisierung der Sicherheitsrichtlinien
 #Describe the benefit that is achieved by implementing this activity
-benefit: Adequate security knowledge of all employees ensured prior to working on critical tasks
+benefit: Angemessene Sicherheitskenntnisse aller Mitarbeiter, bevor sie an kritischen Aufgaben arbeiten
 #A one sentence description of the activity
-shortDescription: Standardized in-house guidance around the organization’s secure software development standards.
+shortDescription: Standardisierte unternehmensinterne Anleitung zu den Standards für die sichere Softwareentwicklung des Unternehmens.
 #A multi-paragraph description of the activity
 longDescription: |
-  Implement a formal training program requiring anyone involved with the software development lifecycle to complete appropriate role and technology-specific training as part of the onboarding process. Based on the criticality of the application and user’s role, consider restricting access until the onboarding training has been completed. While the organization may source some modules externally, the program is facilitated and managed in-house and includes content specific to the organization going beyond general security best practices. The program has a defined curriculum, checks participation, and tests understanding and competence. The training consists of a combination of industry best practices and organization’s internal standards, including training on specific systems used by the organization.
+  Implementieren Sie ein formelles Schulungsprogramm, das von allen am Softwareentwicklungszyklus beteiligten Personen verlangt, dass sie im Rahmen des Onboarding-Prozesses eine angemessene rollen- und technologiespezifische Schulung absolvieren. Je nach Wichtigkeit der Anwendung und der Rolle des Anwenders sollte der Zugang eingeschränkt werden, bis die Einführungsschulung abgeschlossen ist. Auch wenn das Unternehmen einige Module extern beziehen kann, wird das Programm intern durchgeführt und verwaltet und umfasst unternehmensspezifische Inhalte, die über allgemeine Best Practices im Bereich Sicherheit hinausgehen. Das Programm hat einen definierten Lehrplan, überprüft die Teilnahme und testet Verständnis und Kompetenz. Die Schulung besteht aus einer Kombination von Best Practices der Branche und den internen Standards der Organisation, einschließlich Schulungen zu spezifischen Systemen, die von der Organisation verwendet werden.
 
-  In addition to issues directly related to security, the organization includes other standards to the program, such as code complexity, code documentation, naming convention, and other process-related disciplines. This training minimizes issues resulting from employees following practices incorporated outside the organization and ensures continuity in the style and competency of the code.
+  Neben Fragen, die direkt mit der Sicherheit zusammenhängen, bezieht die Organisation auch andere Standards in das Programm ein, z. B. Codekomplexität, Codedokumentation, Namenskonventionen und andere prozessbezogene Disziplinen. Diese Schulung minimiert Probleme, die dadurch entstehen, dass Mitarbeiter Praktiken übernehmen, die außerhalb der Organisation eingeführt wurden, und gewährleistet Kontinuität in Stil und Kompetenz des Codes.
 
-  To facilitate progress monitoring and successful completion of each training module the organization has a learning management platform or another centralized portal with similar functionality. Employees can monitor their progress and have access to all training resources even after they complete initial training.
+  Um die Überwachung des Fortschritts und den erfolgreichen Abschluss der einzelnen Schulungsmodule zu erleichtern, verfügt die Organisation über eine Lernmanagementplattform oder ein anderes zentrales Portal mit ähnlichen Funktionen. Die Mitarbeiter können ihre Fortschritte überwachen und haben auch nach Abschluss der Erstschulung Zugang zu allen Schulungsressourcen.
 
-  Review issues resulting from employees not following established standards, policies, procedures, or security best practices at least annually to gauge the effectiveness of the training and ensure it covers all issues relevant to the organization. Update the training periodically and train employees on any changes and most prevalent security deficiencies.
+  Überprüfen Sie mindestens einmal jährlich die Probleme, die sich aus der Nichteinhaltung von Standards, Richtlinien, Verfahren oder bewährten Sicherheitspraktiken durch die Mitarbeiter ergeben, um die Wirksamkeit der Schulungen zu beurteilen und sicherzustellen, dass alle für das Unternehmen relevanten Themen abgedeckt werden. Aktualisieren Sie die Schulungen regelmäßig und schulen Sie die Mitarbeiter über alle Änderungen und die häufigsten Sicherheitsmängel.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -37,4 +37,4 @@ notes:
 #References to other activities that may be related to this one
 relatedActivities:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
