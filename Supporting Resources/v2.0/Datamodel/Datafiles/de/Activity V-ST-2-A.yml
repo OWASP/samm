@@ -10,20 +10,20 @@ level: 6291462e1894467d807b913ef7da4beb
 #Please generate another identifier for your specific activity.
 id: fb6f258a2e424ee9a919341758222a7a
 #The title of this activity
-title: Develop application-specific security test cases
+title: Entwicklung anwendungsspezifischer Sicherheitstestfälle
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detection of organization-specific easy-to-find vulnerabilites
+benefit: Erkennung von organisationsspezifischen, leicht zu findenden Schwachstellen
 #A one sentence description of the activity
-shortDescription: Employ application-specific security testing automation
+shortDescription: Einsatz anwendungsspezifischer Automatisierung von Sicherheitstests
 #A multi-paragraph description of the activity
 longDescription: |
-  Increase the effectiveness of automated security testing tools by tuning and customizing them for your particular technology stacks and applications. Automated security testing tools have 2 important characteristics: Their false positive rate, i.e. the non-existent bugs and vulnerabilities they incorrectly report; their false negative rate, i.e. actual bugs and vulnerabilities which they fail to detect. As you mature in your use of automated testing tools, you strive to minimize their false positive and false negative rates. This maximizes the time development teams spend reviewing and addressing real security issues in their applications, and reduces the friction typically associated with using untuned automated security analysis tools.
+  Erhöhen Sie die Effektivität von automatisierten Sicherheitstests, indem Sie sie auf Ihre speziellen Technologie-Stacks und Anwendungen abstimmen und anpassen. Automatisierte Sicherheitstest-Tools haben 2 wichtige Eigenschaften: Ihre Falsch-Positiv-Rate, d.h. die nicht vorhandenen Bugs und Schwachstellen, die sie fälschlicherweise melden; ihre Falsch-Negativ-Rate, d.h. die tatsächlichen Bugs und Schwachstellen, die sie nicht erkennen. Wenn Sie den Einsatz automatisierter Testwerkzeuge ausbauen, streben Sie danach, deren Falsch-Positiv- und Falsch-Negativ-Rate zu minimieren. Dies maximiert die Zeit, die Entwicklungsteams für die Überprüfung und Behebung echter Sicherheitsprobleme in ihren Anwendungen aufwenden können, und verringert die Reibungsverluste, die in der Regel mit der Verwendung unangepasster automatischer Sicherheitsanalysetools verbunden sind.
 
-  Start by disabling tool support for technologies and frameworks you do not use and target specific versions where possible. This will increase execution speed and reduce the number spurious results reported. Rely on security tool champions or shared security teams to pilot the tools in coordination with a select group of motivated development teams. This will identify likely false positive findings to ignore or remove from the tools' output. Identify specific security issues and anti-patterns and favor the best tool for detecting them.
+  Beginnen Sie damit, die Toolunterstützung für Technologien und Frameworks zu deaktivieren, die Sie nicht verwenden, und zielen Sie, wenn möglich, auf bestimmte Versionen ab. Dadurch wird die Ausführungsgeschwindigkeit erhöht und die Anzahl der gemeldeten falschen Ergebnisse verringert. Verlassen Sie sich auf Sicherheits-Tool-Champions oder gemeinsame Sicherheitsteams, um die Tools in Abstimmung mit einer ausgewählten Gruppe motivierter Entwicklungsteams zu testen. Dadurch werden wahrscheinliche falsch-positive Ergebnisse identifiziert, die ignoriert oder aus dem Output der Tools entfernt werden können. Identifizieren Sie spezifische Sicherheitsprobleme und Anti-Patterns und bevorzugen Sie das beste Tool, um diese zu erkennen.
 
-  Leverage available tool features to take application-specific and organizational coding styles, as well as technical standards into account. Many automated static analysis tools allow users to write their own rules or customize default analysis rules to the specific software interfaces in the project under test for improved accuracy and depth of coverage. For example, potentially dangerous input (aka tainted) can be marked as safe after it flows through a designated custom sanitization method.
+  Nutzen Sie die verfügbaren Tool-Funktionen, um anwendungsspezifische und organisatorische Kodierungsstile sowie technische Standards zu berücksichtigen. Viele automatisierte statische Analysetools ermöglichen es den Benutzern, eigene Regeln zu schreiben oder die Standardanalyseregeln an die spezifischen Software-Schnittstellen des zu testenden Projekts anzupassen, um die Genauigkeit und die Tiefe der Abdeckung zu verbessern. So können beispielsweise potenziell gefährliche Eingaben (auch als "tainted" bezeichnet) als sicher markiert werden, nachdem sie eine bestimmte benutzerdefinierte Bereinigungsmethode durchlaufen haben.
 
-  Strategically, it is better to reliably detect a limited subset of security issues via automated tooling, and incrementally extend coverage than attempting to detect all known issues immediately. Once the tools have been sufficiently tuned, they can be made available to a more development teams. It is important to continuously monitor their perceived efficacy among development teams. In more advanced forms, machine learning techniques can be adopted to identify and automatically filter out likely false positives at scale.
+  Aus strategischer Sicht ist es besser, eine begrenzte Teilmenge von Sicherheitsproblemen mit automatisierten Werkzeugen zuverlässig zu erkennen und die Abdeckung schrittweise zu erweitern, als zu versuchen, alle bekannten Probleme sofort zu erkennen. Sobald die Tools ausreichend abgestimmt sind, können sie weiteren Entwicklungsteams zur Verfügung gestellt werden. Es ist wichtig, die von den Entwicklungsteams wahrgenommene Wirksamkeit dieser Tools kontinuierlich zu überwachen. In fortgeschritteneren Formen können Techniken des maschinellen Lernens eingesetzt werden, um wahrscheinliche Fehlalarme in großem Umfang zu erkennen und automatisch herauszufiltern.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -37,4 +37,4 @@ notes:
 #References to other activities that are prerequisites to implement this one.
 dependencies:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
