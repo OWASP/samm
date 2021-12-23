@@ -10,18 +10,18 @@ level: d6cefe3e63d149299fb088010c24778b
 #Please generate another identifier for your specific activity.
 id: b3b20a75740c4880a21ad9aa0c1298c7
 #The title of this activity
-title: Test high risk application components manually
+title: Manuelles Testen von Anwendungskomponenten mit hohem Risiko
 #Describe the benefit that is achieved by implementing this activity
-benefit: Detection of manually identifiable vulnerabilities in critical components
+benefit: Manuelles Testen von Anwendungskomponenten mit hohem Risiko
 #A one sentence description of the activity
-shortDescription: Perform manual security testing of high-risk components
+shortDescription: Durchführung manueller Sicherheitstests von Komponenten mit hohem Risiko
 #A multi-paragraph description of the activity
 longDescription: |
-  Perform selective manual security testing, possibly using a combination of static and dynamic analysis tools to guide or focus the review, in order to more thoroughly analyze parts of the application, as an attacker. Automated tools are effective at finding various types of vulnerabilities but can never replace expert manual review.
+  Führen Sie selektive manuelle Sicherheitstests durch, möglicherweise unter Verwendung einer Kombination aus statischen und dynamischen Analysetools, um die Überprüfung zu lenken oder zu fokussieren, damit Sie als Angreifer Teile der Anwendung gründlicher analysieren können. Automatisierte Tools sind bei der Suche nach verschiedenen Arten von Schwachstellen effektiv, können aber niemals die manuelle Überprüfung durch Experten ersetzen.
 
-  Code-level vulnerabilities in security-critical parts of software can have dramatically increased impact so project teams review high-risk modules for common vulnerabilities. Common examples of high-risk functionality include authentication modules, access control enforcement points, session management schemes, external interfaces, and input validators and data parsers. Teams can combine code-level metrics and focused automated scans to determine where best to focus their efforts. In practice, the activity can take many forms including pair programming and peer review, time-boxed security "pushes" involving the entire development team, or spontaneous independent reviews by members of a specialised security group.
+  Schwachstellen auf Code-Ebene in sicherheitskritischen Teilen der Software können drastische Auswirkungen haben, so dass Projektteams risikoreiche Module auf häufige Schwachstellen überprüfen. Zu den gängigen Beispielen für risikoreiche Funktionen gehören Authentifizierungsmodule, Zugriffskontrollpunkte, Sitzungsverwaltungssysteme, externe Schnittstellen sowie Eingabevalidierer und Datenparser. Die Teams können Metriken auf Code-Ebene und gezielte automatische Scans kombinieren, um festzustellen, wo sie ihre Bemühungen am besten konzentrieren sollten. In der Praxis kann diese Tätigkeit viele Formen annehmen, z. B. Pair Programming und Peer Review, zeitlich begrenzte Sicherheits-"Pushs", an denen das gesamte Entwicklungsteam beteiligt ist, oder spontane unabhängige Überprüfungen durch Mitglieder einer spezialisierten Sicherheitsgruppe.
 
-  During development cycles where high-risk code is changed and reviewed, development managers triage the findings and prioritize remediation appropriately with input from other project stakeholders.
+  Während der Entwicklungszyklen, in denen risikoreicher Code geändert und überprüft wird, ordnen die Entwicklungsmanager die Ergebnisse ein und legen die Prioritäten für Abhilfemaßnahmen fest, wobei auch andere Projektbeteiligte einbezogen werden.
 #The output of this particular activity
 results:
 #The different metrics that can be used to measure the success of the activity
@@ -35,4 +35,4 @@ notes:
 #References to other activities that are prerequesites to implement this one.
 dependencies:
 #Type Classification of the Document
-type: Activity
+type: Aktivitäten
