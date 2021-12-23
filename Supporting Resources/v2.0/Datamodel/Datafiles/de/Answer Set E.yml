@@ -15,7 +15,7 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, some of the time
+    text: Ja, gelegentlich
     value: 0.25
     weight: 1
     order: 1
