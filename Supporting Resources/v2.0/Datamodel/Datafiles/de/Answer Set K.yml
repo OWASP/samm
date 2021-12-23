@@ -15,21 +15,21 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, we do it when requested
+    text: Ja, wir tun es auf Anfrage
     value: 0.25
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, we do it every few years
+    text: Ja, wir erledigen es alle paar Jahre
     value: 0.5
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, we do it at least annually
+    text: Ja, wir erledigen es mindestens einmal pro Jahr
     value: 1
     weight: 1
     order: 3
 #Type Classification of the Document
-type: AnswerSet
+type: Antwortmöglichkeiten
