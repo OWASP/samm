@@ -15,21 +15,21 @@ values:
     order: 0
   - 
     #second level
-    text: Yes, for some of the training
+    text: Ja, für einzelne Schulungen
     value: 0.25
     weight: 1
     order: 1
   - 
     #third level
-    text: Yes, for at least half of the training
+    text: Ja, für mindestens die Hälfte der Schulungen
     value: 0.5
     weight: 1
     order: 2
   - 
     #highest level
-    text: Yes, for most or all of the training
+    text: Ja, für die meisten oder alle Schulungen
     value: 1
     weight: 1
     order: 3
 #Type Classification of the Document
-type: AnswerSet
+type: Antwortmöglichkeiten
